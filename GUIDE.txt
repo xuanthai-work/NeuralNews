@@ -1,0 +1,137 @@
+================================================================================
+                    ZERO-COST AI NEWS AGGREGATOR - SETUP GUIDE
+================================================================================
+
+BUILD COMPLETE - Project Structure:
+
+ai-news-web/
+├── scraper.py              # Python scraper with Azure OpenAI integration
+├── data.json               # Generated output (gitignored)
+├── app/page.tsx            # Dark-mode dashboard with search/filter
+├── public/data.json        # Static data for frontend
+├── .github/workflows/scrape.yml  # Runs every 6 hours
+├── README.md               # Full documentation
+└── package.json            # Node.js dependencies
+
+================================================================================
+                              QUICK START
+================================================================================
+
+1. SET UP AZURE OPENAI CREDENTIALS
+
+   Set the following environment variables before running the scraper:
+
+   export AZURE_OPENAI_ENDPOINT="https://your-resource.openai.azure.com"
+   export AZURE_OPENAI_API_KEY="your-api-key"
+   export AZURE_OPENAI_DEPLOYMENT="gpt-35-turbo"
+
+   Note: If Azure OpenAI is not configured, the scraper uses a fallback
+   keyword-based scoring system (less accurate but works for testing).
+
+2. INSTALL DEPENDENCIES
+
+   Frontend (Node.js):
+   $ npm install
+
+   Backend (Python):
+   $ pip3 install -r requirements.txt
+   # Or manually: pip3 install requests python-dotenv
+
+3. SET UP .env FILE (OPTIONAL BUT RECOMMENDED)
+
+   $ cp .env.example .env
+   # Edit .env with your Azure OpenAI credentials
+
+4. RUN THE SCRAPER
+
+   $ python3 scraper.py
+
+   This will:
+   - Fetch stories from 8+ sources (HN, Reddit, TechCrunch, Verge, Ars, HF Papers, Lobsters)
+   - Process each story with AI for relevance scoring
+   - Extract 3 bullet points per story
+   - Save filtered stories (score >= 7) to data.json
+   - Auto-copy to public/data.json for frontend
+
+5. RUN THE FRONTEND
+
+   $ npm run dev
+
+   Open http://localhost:3000 to view the dashboard.
+
+================================================================================
+                              FEATURES
+================================================================================
+
+Backend:
+- Fetches stories from 8+ sources: Hacker News, Reddit (r/technology, r/programming, r/MachineLearning), TechCrunch, The Verge, Ars Technica, Hugging Face Papers, Lobsters
+- AI-powered relevance scoring (1-10) using Azure OpenAI
+- Automatic bullet point extraction for each story
+- Filters stories with score >= 7
+- Fallback keyword scoring when AI unavailable
+
+Frontend:
+- Modern dark-mode responsive dashboard
+- Client-side search and filtering
+- Score badges with color coding (green=high, yellow=medium, red=low)
+- Stats overview (total, high priority, recommended stories)
+- Card layout with key bullet points
+
+Automation:
+- GitHub Actions workflow runs every 6 hours
+- Automatically commits updated data.json to repo
+
+================================================================================
+                         GITHUB ACTIONS SETUP
+================================================================================
+
+To enable automated scraping every 6 hours:
+
+1. Go to your repository Settings > Secrets and variables > Actions
+
+2. Add the following secrets:
+   - AZURE_OPENAI_ENDPOINT
+   - AZURE_OPENAI_API_KEY
+   - AZURE_OPENAI_DEPLOYMENT (optional, defaults to gpt-35-turbo)
+
+3. The workflow will automatically:
+   - Run every 6 hours
+   - Execute the Python scraper
+   - Commit and push updated data.json
+
+================================================================================
+                            PRODUCTION BUILD
+================================================================================
+
+To build for production:
+
+$ npm run build
+$ npm start
+
+================================================================================
+                                TROUBLESHOOTING
+================================================================================
+
+- "Failed to load data" on dashboard: Run the scraper first to generate data.json
+- AI scoring fails: Check Azure OpenAI credentials are set correctly
+- Build errors: Run "npm install" to ensure all dependencies are installed
+
+================================================================================
+                                SECURITY NOTES
+================================================================================
+
+IMPORTANT: Before pushing to GitHub:
+
+1. NEVER commit your .env file - it contains real API keys
+   - .env is in .gitignore, but always verify with: git status
+
+2. Safe to commit:
+   - .env.example (template with placeholder values)
+   - All source code (.py, .tsx, .ts, .js)
+
+3. For GitHub Actions, add secrets in GitHub:
+   Settings > Secrets and variables > Actions
+
+4. See SECURITY.md for full security guidelines
+
+================================================================================
