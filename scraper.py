@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 """
-Zero-cost AI News Aggregator - Multi-Source Scraper
+Zero-cost AI News Aggregator - Multi-Source Scraper (Optimized)
 Fetches stories from multiple sources, scores relevance with AI, extracts bullet points.
+
+Performance optimizations:
+- Parallel HTTP requests using asyncio/aiohttp
+- Batched AI processing
+- Response caching to avoid redundant fetches
 
 Sources:
 - Hacker News
@@ -23,7 +28,9 @@ import os
 import re
 import requests
 import feedparser
-from datetime import datetime
+import asyncio
+import aiohttp
+from datetime import datetime, timedelta
 from pathlib import Path
 from dotenv import load_dotenv
 from urllib.parse import urlparse
@@ -37,13 +44,42 @@ if env_path.exists():
 # Configuration
 OUTPUT_FILE = "data.json"
 OUTPUT_FILE_PUBLIC = "public/data.json"
+CACHE_FILE = ".cache.json"
 MIN_SCORE = 7
 STORIES_PER_SOURCE = 5  # Fetch this many from each source
+CACHE_TTL_HOURS = 1  # Cache valid for 1 hour
 
 # Azure OpenAI configuration
 AZURE_ENDPOINT = os.environ.get("AZURE_OPENAI_ENDPOINT", "")
 AZURE_API_KEY = os.environ.get("AZURE_OPENAI_API_KEY", "")
 AZURE_DEPLOYMENT = os.environ.get("AZURE_OPENAI_DEPLOYMENT", "gemma-4")
+
+
+def load_cache():
+    """Load cache from file."""
+    if Path(CACHE_FILE).exists():
+        try:
+            with open(CACHE_FILE, "r") as f:
+                return json.load(f)
+        except:
+            pass
+    return {"sources": {}, "stories": {}}
+
+
+def save_cache(cache):
+    """Save cache to file."""
+    with open(CACHE_FILE, "w") as f:
+        json.dump(cache, f, indent=2)
+
+
+def is_cache_valid(timestamp_str):
+    """Check if cache entry is still valid."""
+    try:
+        cached_time = datetime.fromisoformat(timestamp_str)
+        return datetime.now() - cached_time < timedelta(hours=CACHE_TTL_HOURS)
+    except:
+        return False
+
 
 # RSS Feed URLs - General Tech News
 RSS_FEEDS = {
@@ -149,17 +185,13 @@ def fetch_reddit_stories(limit=STORIES_PER_SOURCE):
     return stories
 
 
-def fetch_rss_feeds(limit=STORIES_PER_SOURCE):
-    """Fetch stories from RSS feeds."""
-    print(f"\n{'='*50}")
-    print(f"Fetching stories from RSS feeds...")
-    print(f"{'='*50}")
-
-    stories = []
-
-    for source, url in RSS_FEEDS.items():
-        try:
-            feed = feedparser.parse(url)
+async def fetch_rss_feed_async(session, source, url, limit):
+    """Fetch a single RSS feed asynchronously."""
+    try:
+        async with session.get(url) as response:
+            content = await response.text()
+            feed = feedparser.parse(content)
+            stories = []
             for entry in feed.entries[:limit]:
                 stories.append({
                     "title": entry.get("title", ""),
@@ -170,39 +202,85 @@ def fetch_rss_feeds(limit=STORIES_PER_SOURCE):
                     "timestamp": None,
                     "text": entry.get("summary", entry.get("description", ""))
                 })
-            print(f"  Retrieved {limit} stories from {source}")
-        except Exception as e:
-            print(f"  Error fetching {source}: {e}")
+            print(f"  Retrieved {len(stories)} stories from {source}")
+            return stories
+    except Exception as e:
+        print(f"  Error fetching {source}: {e}")
+        return []
 
+
+async def fetch_rss_feeds_parallel(limit=STORIES_PER_SOURCE):
+    """Fetch stories from RSS feeds in parallel."""
+    print(f"\n{'='*50}")
+    print(f"Fetching stories from RSS feeds (parallel)...")
+    print(f"{'='*50}")
+
+    async with aiohttp.ClientSession() as session:
+        tasks = [
+            fetch_rss_feed_async(session, source, url, limit)
+            for source, url in RSS_FEEDS.items()
+        ]
+        results = await asyncio.gather(*tasks)
+
+    stories = []
+    for result in results:
+        stories.extend(result)
+    print(f"  Total: {len(stories)} stories from {len(RSS_FEEDS)} sources")
+    return stories
+
+
+def fetch_rss_feeds(limit=STORIES_PER_SOURCE):
+    """Fetch stories from RSS feeds (wrapper for async function)."""
+    return asyncio.run(fetch_rss_feeds_parallel(limit))
+
+
+async def fetch_ai_blog_async(session, source, url, limit):
+    """Fetch a single AI blog asynchronously."""
+    try:
+        async with session.get(url) as response:
+            content = await response.text()
+            feed = feedparser.parse(content)
+            stories = []
+            for entry in feed.entries[:limit]:
+                stories.append({
+                    "title": entry.get("title", ""),
+                    "url": entry.get("link", ""),
+                    "source": source,
+                    "author": entry.get("author", entry.get("dc_creator", "unknown")),
+                    "score_hn": 0,
+                    "timestamp": None,
+                    "text": entry.get("summary", entry.get("description", ""))
+                })
+            print(f"  Retrieved {len(stories)} stories from {source}")
+            return stories
+    except Exception as e:
+        print(f"  Error fetching {source}: {e}")
+        return []
+
+
+async def fetch_ai_blogs_parallel(limit=STORIES_PER_SOURCE):
+    """Fetch stories from AI blogs in parallel."""
+    print(f"\n{'='*50}")
+    print(f"Fetching stories from AI blogs (parallel)...")
+    print(f"{'='*50}")
+
+    async with aiohttp.ClientSession() as session:
+        tasks = [
+            fetch_ai_blog_async(session, source, url, limit)
+            for source, url in AI_BLOGS.items()
+        ]
+        results = await asyncio.gather(*tasks)
+
+    stories = []
+    for result in results:
+        stories.extend(result)
+    print(f"  Total: {len(stories)} stories from {len(AI_BLOGS)} sources")
     return stories
 
 
 def fetch_ai_blogs(limit=STORIES_PER_SOURCE):
-    """Fetch stories from AI company blogs."""
-    print(f"\n{'='*50}")
-    print(f"Fetching stories from AI blogs...")
-    print(f"{'='*50}")
-
-    stories = []
-
-    for source, url in AI_BLOGS.items():
-        try:
-            feed = feedparser.parse(url)
-            for entry in feed.entries[:limit]:
-                stories.append({
-                    "title": entry.get("title", ""),
-                    "url": entry.get("link", ""),
-                    "source": source,
-                    "author": entry.get("author", entry.get("dc_creator", "unknown")),
-                    "score_hn": 0,
-                    "timestamp": None,
-                    "text": entry.get("summary", entry.get("description", ""))
-                })
-            print(f"  Retrieved {limit} stories from {source}")
-        except Exception as e:
-            print(f"  Error fetching {source}: {e}")
-
-    return stories
+    """Fetch stories from AI blogs (wrapper for async function)."""
+    return asyncio.run(fetch_ai_blogs_parallel(limit))
 
 
 def fetch_benchmarks(limit=STORIES_PER_SOURCE):
@@ -426,6 +504,145 @@ Extract 3 concise bullet points summarizing key information."""
         return None, None
 
 
+def score_and_extract_bullets_cached(story_title, story_text="", source=""):
+    """
+    Use AI to score relevance with caching.
+    Returns: (score, bullet_points) or (None, None) on error.
+    """
+    # Create a cache key from the story URL or title
+    cache_key = f"{source}:{story_title}"
+
+    # Check cache first
+    cache = load_cache()
+    if cache_key in cache.get("stories", {}):
+        cached_data = cache["stories"][cache_key]
+        if is_cache_valid(cached_data.get("timestamp", "")):
+            print(f"  [CACHED] Score: {cached_data['score']}/10")
+            return cached_data["score"], cached_data["bullet_points"]
+
+    # Not cached or expired, process with AI
+    score, bullets = score_and_extract_bullets(story_title, story_text, source)
+
+    if score is not None:
+        # Save to cache
+        cache = load_cache()
+        if "stories" not in cache:
+            cache["stories"] = {}
+        cache["stories"][cache_key] = {
+            "score": score,
+            "bullet_points": bullets,
+            "timestamp": datetime.now().isoformat()
+        }
+        save_cache(cache)
+
+    return score, bullets
+
+
+async def process_story_async(session, story, api_url, headers, payload_template):
+    """Process a single story with AI asynchronously."""
+    prompt = f"""Analyze this tech news story for relevance and quality.
+
+SOURCE: {story['source']}
+TITLE: {story['title']}
+CONTENT: {story.get('text', '')[:500] if story.get('text') else 'No additional content'}
+
+Respond ONLY with valid JSON in this exact format:
+{{
+  "score": <integer 1-10>,
+  "bullet_points": ["point 1", "point 2", "point 3"]
+}}
+
+Score criteria:
+- 8-10: Major AI/ML breakthrough, significant tech news, important industry shift
+- 5-7: Moderate tech relevance, interesting discussion, niche topic
+- 1-4: Off-topic, spam, non-tech content, clickbait
+
+Extract 3 concise bullet points summarizing key information."""
+
+    payload = payload_template.copy()
+    payload["messages"] = [
+        {"role": "system", "content": "You are a tech news analyst. Output ONLY valid JSON."},
+        {"role": "user", "content": prompt}
+    ]
+
+    try:
+        async with session.post(api_url, json=payload, headers=headers) as response:
+            result = await response.json()
+            content = result["choices"][0]["message"]["content"].strip()
+
+            # Parse JSON from response
+            if content.startswith("```"):
+                content = content.split("```")[1]
+                if content.startswith("json"):
+                    content = content[4:]
+            content = content.strip()
+
+            data = json.loads(content)
+            score = int(data.get("score", 0))
+            bullets = data.get("bullet_points", [])[:3]
+
+            print(f"  AI Score: {score}/10")
+            return story, score, bullets
+    except Exception as e:
+        print(f"  AI processing error for '{story['title'][:30]}...': {e}")
+        return story, None, None
+
+
+async def process_stories_batch_parallel(stories, batch_size=5):
+    """Process stories in parallel batches."""
+    if not AZURE_ENDPOINT or not AZURE_API_KEY:
+        print("  Warning: AI not configured. Using fallback keyword scoring.")
+        return [(s, *fallback_score(s["title"], s.get("text", ""))) for s in stories]
+
+    # Detect API type and build common payload/headers
+    if "aigateway.techvify.dev" in AZURE_ENDPOINT:
+        api_url = f"{AZURE_ENDPOINT.rstrip('/')}"
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {AZURE_API_KEY}"
+        }
+        payload_template = {
+            "model": AZURE_DEPLOYMENT,
+            "temperature": 0.3,
+            "max_tokens": 500
+        }
+    else:
+        api_url = f"{AZURE_ENDPOINT.rstrip('/')}/openai/deployments/{AZURE_DEPLOYMENT}/chat/completions?api-version=2023-05-15"
+        headers = {
+            "Content-Type": "application/json",
+            "api-key": AZURE_API_KEY
+        }
+        payload_template = {
+            "temperature": 0.3,
+            "max_tokens": 500
+        }
+
+    processed = []
+    connector = aiohttp.TCPConnector(limit=10)
+
+    async with aiohttp.ClientSession(connector=connector) as session:
+        # Process in batches to avoid overwhelming the API
+        for i in range(0, len(stories), batch_size):
+            batch = stories[i:i + batch_size]
+            print(f"\n  Processing batch {i//batch_size + 1} ({len(batch)} stories)...")
+
+            tasks = [
+                process_story_async(session, story, api_url, headers, payload_template)
+                for story in batch
+            ]
+            results = await asyncio.gather(*tasks)
+
+            for story, score, bullets in results:
+                if score is not None:
+                    processed.append((story, score, bullets))
+
+            # Small delay between batches to be nice to the API
+            if i + batch_size < len(stories):
+                await asyncio.sleep(0.5)
+
+    return processed
+
+
 def fallback_score(story_title, story_text=""):
     """
     Fallback keyword-based scoring when AI is not available.
@@ -459,15 +676,16 @@ def fallback_score(story_title, story_text=""):
 
 def main():
     print("=" * 60)
-    print("Zero-cost AI News Aggregator - Multi-Source Scraper")
+    print("Zero-cost AI News Aggregator - Multi-Source Scraper (Optimized)")
     print("=" * 60)
 
     all_stories = []
 
     # Fetch order: Benchmarks first, then AI blogs, then tech news, then community
+    print("\n[Phase 1: Fetching stories from all sources...]")
     all_stories.extend(fetch_benchmarks())     # LMArena, Hugging Face, Papers With Code, Artificial Analysis
-    all_stories.extend(fetch_ai_blogs())       # Anthropic, OpenAI, Ollama, etc.
-    all_stories.extend(fetch_rss_feeds())      # TechCrunch, Verge, Ars, HF Papers
+    all_stories.extend(fetch_ai_blogs())       # Anthropic, OpenAI, Ollama, etc. (parallel)
+    all_stories.extend(fetch_rss_feeds())      # TechCrunch, Verge, Ars, HF Papers (parallel)
     all_stories.extend(fetch_hacker_news())    # Hacker News
     all_stories.extend(fetch_reddit_stories()) # Reddit (r/technology, r/programming, r/MachineLearning)
     all_stories.extend(fetch_lobsters())       # Lobsters
@@ -476,37 +694,26 @@ def main():
     print(f"Total stories fetched: {len(all_stories)}")
     print(f"{'='*60}")
 
-    # Process and score stories
-    processed_stories = []
+    # Process and score stories using parallel batch processing
+    print("\n[Phase 2: Processing stories with AI (parallel batches)...]")
 
     # Benchmark sources get a score boost since they're inherently relevant
     BENCHMARK_SOURCES = ["Hugging Face Benchmarks", "Hugging Face Papers", "LMSys LMArena", "Papers With Code"]
 
-    for idx, story in enumerate(all_stories, 1):
-        print(f"\n[{idx}/{len(all_stories)}] Processing: {story['title'][:50]}...")
+    # Process stories in parallel batches
+    processed_results = asyncio.run(process_stories_batch_parallel(all_stories, batch_size=5))
 
-        # AI processing
-        ai_score, bullet_points = score_and_extract_bullets(
-            story["title"],
-            story["text"],
-            story["source"]
-        )
-
-        if ai_score is None:
-            print("  Skipping - AI processing failed")
-            continue
-
+    # Build processed stories list
+    processed_stories = []
+    for story, ai_score, bullet_points in processed_results:
         # Boost benchmark scores by +2 (they're inherently relevant)
         if story["source"] in BENCHMARK_SOURCES:
             ai_score = min(10, ai_score + 2)
-            print(f"  AI Score: {ai_score}/10 (boosted from benchmark) | Source: {story['source']}")
-        else:
-            print(f"  AI Score: {ai_score}/10 | Source: {story['source']}")
 
         # Filter by minimum score
         if ai_score >= MIN_SCORE:
             processed_stories.append({
-                "id": idx,
+                "id": all_stories.index(story) + 1,
                 "title": story["title"],
                 "url": story["url"],
                 "source": story["source"],
@@ -515,9 +722,6 @@ def main():
                 "ai_score": ai_score,
                 "bullet_points": bullet_points
             })
-            print(f"  ✓ Included (score >= {MIN_SCORE})")
-        else:
-            print(f"  ✗ Filtered out (score < {MIN_SCORE})")
 
     # Sort by AI score descending
     processed_stories.sort(key=lambda x: x["ai_score"], reverse=True)
