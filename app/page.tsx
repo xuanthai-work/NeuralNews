@@ -5,7 +5,7 @@ import {
   Header,
   StatsGrid,
   CategoryFilter,
-  StoryCard,
+  NewsCard,
   BottomNav,
   Footer,
   LoadingState,
@@ -37,7 +37,7 @@ export default function Home() {
   }
 
   if (error) {
-    return <ErrorState error={error} />;
+    return <ErrorState error={error} onRetry={handleRefresh} />;
   }
 
   const bgClass = darkMode ? "bg-zinc-950" : "bg-zinc-50";
@@ -68,11 +68,11 @@ export default function Home() {
           {filteredStories && filteredStories.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
               {filteredStories.map((story) => (
-                <StoryCard key={story.id} story={story} />
+                <NewsCard key={story.id} story={story} />
               ))}
             </div>
           ) : (
-            <EmptyState searchTerm={searchTerm} />
+            <EmptyState searchTerm={searchTerm} onClearSearch={() => setSearchTerm("")} />
           )}
 
           <div className="mt-8 flex justify-center">

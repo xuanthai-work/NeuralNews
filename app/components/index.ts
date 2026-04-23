@@ -3,6 +3,7 @@ export { Header } from "./Header";
 export { StatsGrid } from "./StatsGrid";
 export { CategoryFilter } from "./CategoryFilter";
 export { StoryCard } from "./StoryCard";
+export { NewsCard } from "./NewsCard";
 export { BottomNav } from "./BottomNav";
 export { Footer } from "./Footer";
 export { LoadingState } from "./LoadingState";
