@@ -92,27 +92,35 @@ export function useNews(initialData?: Data): UseNewsReturn {
 
   const handleRefresh = async () => {
     setRefreshing(true);
-    setRefreshStatus("Starting scraper...");
+    setRefreshStatus("Checking for updates...");
 
+    // Try /api/scrape first (works locally with Python). On hosts that don't
+    // have Python (Vercel etc.), fall back to re-fetching /data.json so the
+    // user still picks up whatever GitHub Actions last committed.
     try {
       const response = await fetch("/api/scrape", { method: "POST" });
-      const result = await response.json();
-
-      if (!response.ok) {
-        throw new Error(result.error || "Failed to refresh");
+      if (response.ok) {
+        const result = await response.json();
+        setRefreshStatus(`Success! ${result.data.total_stories} stories fetched`);
+        setData(result.data);
+        setTimeout(() => setRefreshStatus(""), 3000);
+        return;
       }
+      // Fall through to the data.json fallback below
+    } catch {
+      // Fall through
+    }
 
-      setRefreshStatus(`Success! ${result.data.total_stories} stories fetched`);
-      setData(result.data);
-
-      setTimeout(() => {
-        setRefreshStatus("");
-      }, 3000);
+    try {
+      const dataRes = await fetch("/data.json", { cache: "no-store" });
+      if (!dataRes.ok) throw new Error("Failed to load data");
+      const fresh: Data = await dataRes.json();
+      setData(fresh);
+      setRefreshStatus(`Loaded ${fresh.total_stories} stories`);
+      setTimeout(() => setRefreshStatus(""), 3000);
     } catch (err) {
       setRefreshStatus(`Error: ${err instanceof Error ? err.message : "Failed to refresh"}`);
-      setTimeout(() => {
-        setRefreshStatus("");
-      }, 5000);
+      setTimeout(() => setRefreshStatus(""), 5000);
     } finally {
       setRefreshing(false);
     }
