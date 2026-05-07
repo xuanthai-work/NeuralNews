@@ -1,14 +1,26 @@
-name: Scrape Hacker News
+name: Scrape news feed
 
 on:
   schedule:
-    # Run every 6 hours at minute 0
-    - cron: '0 */6 * * *'
-  workflow_dispatch: # Allow manual trigger
+    # Every 6 hours at minute 0 (UTC)
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Reason for manual run"
+        required: false
+        default: "Manual trigger"
+
+# Prevent overlapping runs — only one scrape at a time
+concurrency:
+  group: scrape-news-feed
+  cancel-in-progress: false
 
 jobs:
   scrape:
+    name: Fetch, score, and commit data.json
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
 
@@ -16,12 +28,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
+
+      - name: Validate secrets
+        run: |
+          if [ -z "${{ secrets.AZURE_OPENAI_ENDPOINT }}" ] || [ -z "${{ secrets.AZURE_OPENAI_API_KEY }}" ]; then
+            echo "::warning::AI credentials missing — scraper will run in keyword-fallback mode."
+          fi
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.11"
+          cache: "pip"
 
       - name: Install dependencies
         run: |
@@ -29,22 +48,52 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run scraper
+        id: scrape
         env:
           AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
           AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
           AZURE_OPENAI_DEPLOYMENT: ${{ secrets.AZURE_OPENAI_DEPLOYMENT }}
-        run: python3 scraper.py
+        run: |
+          python3 scraper.py
+          # Surface counts for the job summary
+          if [ -f data.json ]; then
+            TOTAL=$(python3 -c "import json; print(json.load(open('data.json'))['total_stories'])")
+            SOURCES=$(python3 -c "import json; print(len(json.load(open('data.json'))['sources']))")
+            echo "total=$TOTAL" >> $GITHUB_OUTPUT
+            echo "sources=$SOURCES" >> $GITHUB_OUTPUT
+          fi
 
-      - name: Check for changes
+      - name: Detect changes
         id: git-check
         run: |
-          git diff --quiet data.json && echo "has_changes=false" >> $GITHUB_OUTPUT || echo "has_changes=true" >> $GITHUB_OUTPUT
+          if git diff --quiet data.json public/data.json 2>/dev/null; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit and push changes
         if: steps.git-check.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data.json
-          git commit -m "chore: update news data [skip ci]"
+          git add data.json public/data.json
+          git commit -m "chore(data): refresh feed — ${{ steps.scrape.outputs.total }} stories from ${{ steps.scrape.outputs.sources }} sources [skip ci]"
           git push
+
+      - name: Job summary
+        if: always()
+        run: |
+          {
+            echo "## Scrape run · $(date -u +'%Y-%m-%d %H:%M UTC')"
+            echo ""
+            if [ "${{ steps.scrape.outcome }}" = "success" ]; then
+              echo "✅ **Scrape succeeded**"
+              echo ""
+              echo "- Stories: \`${{ steps.scrape.outputs.total || 'unknown' }}\`"
+              echo "- Sources: \`${{ steps.scrape.outputs.sources || 'unknown' }}\`"
+              echo "- Changes detected: \`${{ steps.git-check.outputs.has_changes || 'false' }}\`"
+            else
+              echo "❌ **Scrape failed** — see logs above."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
