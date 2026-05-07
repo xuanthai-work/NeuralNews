@@ -23,7 +23,15 @@ function getScoreColor(score: number, darkMode: boolean): string {
 }
 
 function getCategoryTag(source: string, darkMode: boolean): { label: string; color: string } {
-  if (source.includes("Benchmark") || source.includes("Papers") || source.includes("Hugging Face")) {
+  const lower = source.toLowerCase();
+  if (
+    lower.includes("benchmark") ||
+    lower.includes("papers") ||
+    lower.includes("hugging face") ||
+    lower.includes("arxiv") ||
+    lower.includes("lmsys") ||
+    lower.includes("lmarena")
+  ) {
     return { label: "RESEARCH", color: darkMode
       ? "text-amber-400 bg-amber-500/10 border-amber-500/30"
       : "text-amber-700 bg-amber-100 border-amber-300" };

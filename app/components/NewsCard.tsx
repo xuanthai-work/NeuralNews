@@ -55,7 +55,10 @@ function getCategoryConfig(source: string): CategoryConfig {
   if (
     sourceLower.includes("benchmark") ||
     sourceLower.includes("papers") ||
-    sourceLower.includes("hugging face")
+    sourceLower.includes("hugging face") ||
+    sourceLower.includes("arxiv") ||
+    sourceLower.includes("lmsys") ||
+    sourceLower.includes("lmarena")
   ) {
     return {
       label: "RESEARCH",
