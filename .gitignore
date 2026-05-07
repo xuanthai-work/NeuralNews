@@ -46,7 +46,10 @@ yarn-error.log*
 next-env.d.ts
 
 # data
-data.json
+# data.json and public/data.json ARE committed — the GitHub Actions cron
+# updates them every 6 hours so the frontend always has fresh data on
+# first load. Only the scraper's runtime cache is ignored.
+.cache.json
 
 # python virtual environment
 venv/

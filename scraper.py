@@ -1014,12 +1014,12 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
 
-    # Also copy to public folder for frontend
+    # Also write to public folder for frontend (always — create dir if needed)
     public_path = Path(__file__).parent / OUTPUT_FILE_PUBLIC
-    if public_path.exists():
-        with open(public_path, "w", encoding="utf-8") as f:
-            json.dump(output_data, f, indent=2, ensure_ascii=False)
-        print(f"\nCopied to {OUTPUT_FILE_PUBLIC}")
+    public_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(public_path, "w", encoding="utf-8") as f:
+        json.dump(output_data, f, indent=2, ensure_ascii=False)
+    print(f"\nCopied to {OUTPUT_FILE_PUBLIC}")
 
     # Flush cache to disk once at the end
     flush_cache_to_disk()
