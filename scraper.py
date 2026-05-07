@@ -48,7 +48,7 @@ OUTPUT_FILE = "data.json"
 OUTPUT_FILE_PUBLIC = "public/data.json"
 CACHE_FILE = ".cache.json"
 MIN_SCORE = 7
-STORIES_PER_SOURCE = 5  # Fetch this many from each source
+STORIES_PER_SOURCE = 10  # Fetch this many from each source
 CACHE_TTL_HOURS = 1  # Cache valid for 1 hour
 
 # Performance tuning
@@ -119,6 +119,9 @@ RSS_FEEDS = {
     "The Verge": "https://www.theverge.com/rss/index.xml",
     "Ars Technica": "https://feeds.arstechnica.com/arstechnica/index",
     "Hugging Face Papers": "https://huggingface.co/papers/rss",  # Daily ML/AI papers
+    "arXiv AI": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=15",
+    "arXiv Machine Learning": "http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=15",
+    "arXiv NLP": "http://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=15",
 }
 
 # AI Company & Research Blogs (RSS/Atom feeds)
@@ -142,7 +145,7 @@ BENCHMARK_SOURCES = {
 }
 
 # Reddit API (using public JSON endpoint)
-REDDIT_SUBREDDITS = ["technology", "programming", "MachineLearning"]
+REDDIT_SUBREDDITS = ["technology", "programming", "MachineLearning", "LocalLLaMA", "artificial"]
 
 # Lobsters RSS
 LOBSTERS_URL = "https://lobste.rs/rss"
@@ -521,6 +524,47 @@ async def _fetch_lobsters_impl(session, limit):
     return stories
 
 
+async def fetch_devto_async(session, limit=STORIES_PER_SOURCE, semaphore=None):
+    """Fetch top AI articles from Dev.to asynchronously."""
+    print(f"\n{'='*50}")
+    print(f"Fetching stories from Dev.to...")
+    print(f"{'='*50}")
+
+    if semaphore:
+        async with semaphore:
+            return await _fetch_devto_impl(session, limit)
+    return await _fetch_devto_impl(session, limit)
+
+
+async def _fetch_devto_impl(session, limit):
+    """Implementation of Dev.to fetching."""
+    stories = []
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; AI News Aggregator/1.0)"}
+
+    try:
+        url = f"https://dev.to/api/articles?tag=ai&per_page={limit}"
+        async with session.get(url, headers=headers, timeout=aiohttp.ClientTimeout(total=REQUEST_TIMEOUT)) as response:
+            if response.status != 200:
+                print(f"  Dev.to returned status {response.status}")
+                return stories
+            articles = await response.json()
+            for article in articles[:limit]:
+                stories.append({
+                    "title": article.get("title", ""),
+                    "url": article.get("url", ""),
+                    "source": "Dev.to",
+                    "author": article.get("user", {}).get("username", "unknown"),
+                    "score_hn": article.get("public_reactions_count", 0),
+                    "timestamp": article.get("published_at"),
+                    "text": article.get("description", "")
+                })
+            print(f"  Retrieved {len(stories)} stories from Dev.to")
+    except Exception as e:
+        print(f"  Error fetching Dev.to: {e}")
+
+    return stories
+
+
 def score_and_extract_bullets(story_title, story_text="", source=""):
     """
     Use AI to score relevance (1-10) and extract 3 bullet points.
@@ -770,29 +814,57 @@ async def process_stories_batch_parallel(stories, batch_size=5):
 def fallback_score(story_title, story_text=""):
     """
     Fallback keyword-based scoring when AI is not available.
+    Uses weighted categories: AI/ML terms score higher than general tech.
     Returns: (score, bullet_points)
     """
-    tech_keywords = [
-        "ai", "artificial intelligence", "machine learning", "ml", "llm", "gpt",
-        "neural", "deep learning", "nlp", "transformer", "model", "inference",
-        "api", "cloud", "devops", "kubernetes", "docker", "serverless",
-        "security", "breach", "vulnerability", "oauth", "authentication",
-        "python", "javascript", "typescript", "react", "next.js", "rust", "go",
-        "database", "sql", "nosql", "postgres", "mongodb", "redis",
-        "aws", "azure", "gcp", "vercel", "netlify", "openai", "anthropic"
+    content = f"{story_title} {story_text}".lower()
+
+    # High-weight AI/ML keywords (score +2 each, max 4)
+    ai_ml_keywords = [
+        "artificial intelligence", "machine learning", "deep learning", "neural network",
+        "large language model", "llm", "foundation model", "multimodal",
+        "transformer", "diffusion model", "generative ai", "agent", "rag",
+        "fine-tuning", "pre-training", "reinforcement learning", "rlhf",
+        "computer vision", "nlp", "natural language processing",
+        "gpt", "claude", "gemini", "llama", "mistral", "openai", "anthropic",
+        "hugging face", "benchmark", "leaderboard", "sota"
     ]
 
-    content = f"{story_title} {story_text}".lower()
-    match_count = sum(1 for keyword in tech_keywords if keyword in content)
+    # Medium-weight tech keywords (score +1 each, max 3)
+    tech_keywords = [
+        "ai", "ml", "llm", "api", "cloud", "kubernetes", "docker",
+        "security", "vulnerability", "authentication", "encryption",
+        "python", "javascript", "typescript", "rust", "go", "swift",
+        "database", "sql", "postgres", "mongodb", "redis", "vector database",
+        "aws", "azure", "gcp", "vercel", "netlify", "serverless",
+        "startup", "funding", "acquisition", "ipo"
+    ]
 
-    # Score based on keyword matches (0-5 keywords = 3-8 score)
-    score = min(10, max(1, 3 + match_count))
+    # Low-weight general keywords (score +0.5 each, max 2)
+    general_keywords = [
+        "software", "developer", "programming", "code", "github",
+        "app", "platform", "tool", "framework", "library",
+        "data", "analytics", "automation", "integration"
+    ]
 
-    # Generate simple bullet points from title
+    high_matches = sum(1 for kw in ai_ml_keywords if kw in content)
+    med_matches = sum(1 for kw in tech_keywords if kw in content)
+    low_matches = sum(1 for kw in general_keywords if kw in content)
+
+    # Calculate weighted score
+    score = min(10, max(1, int(4 + high_matches * 1.5 + med_matches * 0.8 + low_matches * 0.4)))
+
+    # Generate informative bullet points
+    matched_terms = []
+    if high_matches:
+        matched_terms.append(f"{high_matches} AI/ML keyword matches")
+    if med_matches:
+        matched_terms.append(f"{med_matches} tech keyword matches")
+
     bullet_points = [
         f"Title: {story_title[:80]}",
-        "AI analysis unavailable - using keyword scoring",
-        f"Matched {match_count} tech keywords"
+        "AI analysis unavailable - using weighted keyword scoring",
+        f"Score: {score}/10 ({', '.join(matched_terms) or 'general tech content'})"
     ]
 
     return score, bullet_points
@@ -814,6 +886,7 @@ async def fetch_all_sources_async():
             fetch_hacker_news_async(session, STORIES_PER_SOURCE, semaphore),
             fetch_reddit_stories_async(session, STORIES_PER_SOURCE, semaphore),
             fetch_lobsters_async(session, STORIES_PER_SOURCE, semaphore),
+            fetch_devto_async(session, STORIES_PER_SOURCE, semaphore),
         ]
 
         results = await asyncio.gather(*tasks, return_exceptions=True)

@@ -1,7 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import type { Story } from "../types";
 import { useTheme } from "../context/ThemeContext";
+import { BookmarkButton } from "./BookmarkButton";
 
 interface NewsCardProps {
   story: Story;
@@ -215,31 +217,42 @@ export function NewsCard({ story }: NewsCardProps) {
             </span>
           </div>
 
-          {/* AI Score badge */}
-          <div
-            className={`
-              flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 rounded-xl border-2
-              flex flex-col items-center justify-center
-              transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg
-              ${scoreConfig.bgClass} ${scoreConfig.colorClass}
-              ${darkMode ? "border-zinc-700/50" : "border-zinc-200"}
-            `}
-            title={`AI Score: ${story.ai_score}/10 - ${scoreConfig.label}`}
-          >
-            <span className="text-lg sm:text-xl font-black leading-none">{story.ai_score}</span>
-            <span className="text-[8px] sm:text-[9px] font-medium uppercase tracking-tighter opacity-70 mt-0.5">score</span>
+          {/* Right side: Bookmark + AI Score */}
+          <div className="flex items-start gap-2 flex-shrink-0">
+            <BookmarkButton story={story} />
+
+            {/* AI Score badge */}
+            <div
+              className={`
+                w-12 h-12 sm:w-14 sm:h-14 rounded-xl border-2
+                flex flex-col items-center justify-center
+                transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg
+                ${scoreConfig.bgClass} ${scoreConfig.colorClass}
+                ${darkMode ? "border-zinc-700/50" : "border-zinc-200"}
+              `}
+              title={`AI Score: ${story.ai_score}/10 - ${scoreConfig.label}`}
+            >
+              <span className="text-lg sm:text-xl font-black leading-none">{story.ai_score}</span>
+              <span className="text-[8px] sm:text-[9px] font-medium uppercase tracking-tighter opacity-70 mt-0.5">score</span>
+            </div>
           </div>
         </header>
 
-        {/* Title */}
-        <h3
-          className={`
-            text-base sm:text-lg font-bold leading-snug mb-3 line-clamp-2
-            transition-colors duration-300 ${titleColorClass}
-          `}
+        {/* Title - clickable to detail view */}
+        <Link
+          href={`/article/${story.id}`}
+          className="block focus:outline-none focus:ring-2 focus:ring-indigo-500/50 rounded-md"
         >
-          {story.title}
-        </h3>
+          <h3
+            className={`
+              text-base sm:text-lg font-bold leading-snug mb-3 line-clamp-2
+              transition-colors duration-300 ${titleColorClass}
+              hover:underline decoration-2 underline-offset-2 decoration-indigo-500/50
+            `}
+          >
+            {story.title}
+          </h3>
+        </Link>
 
         {/* Meta: Author + Date */}
         <div
@@ -295,41 +308,62 @@ export function NewsCard({ story }: NewsCardProps) {
           ))}
         </ul>
 
-        {/* CTA Button */}
-        <a
-          href={story.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`
-            group/btn inline-flex items-center justify-center gap-2
-            px-4 py-2.5 rounded-xl
-            text-xs sm:text-sm font-bold uppercase tracking-wide
-            transition-all duration-300 ease-out
-            ${darkMode
-              ? "bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40"
-              : "bg-indigo-600 hover:bg-indigo-700 text-white shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/30"
-            }
-            hover:-translate-y-0.5 hover:scale-[1.02]
-            active:translate-y-0 active:scale-[0.98]
-            focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:ring-offset-2
-            ${darkMode ? "focus:ring-offset-zinc-900" : "focus:ring-offset-white"}
-          `}
-        >
-          <span>Read Full Story</span>
-          <svg
-            className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
+        {/* CTA Buttons - Details + External */}
+        <div className="flex gap-2">
+          <Link
+            href={`/article/${story.id}`}
+            className={`
+              flex-1 inline-flex items-center justify-center gap-1.5
+              px-4 py-2.5 rounded-xl
+              text-xs sm:text-sm font-bold uppercase tracking-wide
+              transition-all duration-300 ease-out border
+              ${darkMode
+                ? "bg-zinc-800/60 hover:bg-zinc-700 text-zinc-200 border-zinc-700"
+                : "bg-zinc-100 hover:bg-zinc-200 text-zinc-700 border-zinc-300"
+              }
+              hover:-translate-y-0.5
+              focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:ring-offset-2
+              ${darkMode ? "focus:ring-offset-zinc-900" : "focus:ring-offset-white"}
+            `}
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2.5}
-              d="M13 7l5 5m0 0l-5 5m5-5H6"
-            />
-          </svg>
-        </a>
+            <span>Details</span>
+          </Link>
+
+          <a
+            href={story.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`
+              group/btn flex-1 inline-flex items-center justify-center gap-2
+              px-4 py-2.5 rounded-xl
+              text-xs sm:text-sm font-bold uppercase tracking-wide
+              transition-all duration-300 ease-out
+              ${darkMode
+                ? "bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40"
+                : "bg-indigo-600 hover:bg-indigo-700 text-white shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/30"
+              }
+              hover:-translate-y-0.5 hover:scale-[1.02]
+              active:translate-y-0 active:scale-[0.98]
+              focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:ring-offset-2
+              ${darkMode ? "focus:ring-offset-zinc-900" : "focus:ring-offset-white"}
+            `}
+          >
+            <span>Read</span>
+            <svg
+              className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2.5}
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
     </article>
   );

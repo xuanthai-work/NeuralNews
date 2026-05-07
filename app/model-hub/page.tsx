@@ -16,6 +16,9 @@ interface Model {
   knowledge_cutoff?: string;
   max_output?: string;
   release_date?: string;
+  arena_elo?: number;
+  votes?: number;
+  license?: string;
   capabilities: string[];
 }
 
@@ -84,169 +87,94 @@ const PROVIDER_CONFIGS: Record<string, ProviderConfig> = {
     activeBorder: "border-zinc-500/50",
     icon: "M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4",
   },
+  "xAI": {
+    name: "xAI",
+    color: "text-slate-600 dark:text-slate-300",
+    bg: "bg-slate-500/15",
+    border: "border-slate-500/30",
+    activeBg: "bg-slate-500/25",
+    activeBorder: "border-slate-500/50",
+    icon: "M6 18L18 6M6 6l12 12",
+  },
+  "DeepSeek": {
+    name: "DeepSeek",
+    color: "text-cyan-600 dark:text-cyan-400",
+    bg: "bg-cyan-500/15",
+    border: "border-cyan-500/30",
+    activeBg: "bg-cyan-500/25",
+    activeBorder: "border-cyan-500/50",
+    icon: "M21 12a9 9 0 11-18 0 9 9 0 0118 0z M9 12l2 2 4-4",
+  },
+  "Mistral AI": {
+    name: "Mistral AI",
+    color: "text-purple-600 dark:text-purple-400",
+    bg: "bg-purple-500/15",
+    border: "border-purple-500/30",
+    activeBg: "bg-purple-500/25",
+    activeBorder: "border-purple-500/50",
+    icon: "M5 3v18M19 3v18M5 12h14",
+  },
+  "Alibaba": {
+    name: "Alibaba",
+    color: "text-amber-600 dark:text-amber-400",
+    bg: "bg-amber-500/15",
+    border: "border-amber-500/30",
+    activeBg: "bg-amber-500/25",
+    activeBorder: "border-amber-500/50",
+    icon: "M3 7l9 6 9-6M3 7v10a2 2 0 002 2h14a2 2 0 002-2V7M3 7l9-4 9 4",
+  },
+  "Cohere": {
+    name: "Cohere",
+    color: "text-pink-600 dark:text-pink-400",
+    bg: "bg-pink-500/15",
+    border: "border-pink-500/30",
+    activeBg: "bg-pink-500/25",
+    activeBorder: "border-pink-500/50",
+    icon: "M12 6v6l4 2",
+  },
+  "Other": {
+    name: "Other",
+    color: "text-zinc-600 dark:text-zinc-400",
+    bg: "bg-zinc-500/15",
+    border: "border-zinc-500/30",
+    activeBg: "bg-zinc-500/25",
+    activeBorder: "border-zinc-500/50",
+    icon: "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2",
+  },
 };
 
-const SAMPLE_MODELS: Model[] = [
-  {
-    name: "Claude Opus 4.6",
-    provider: "Anthropic",
-    description: "Most capable model for complex tasks with exceptional reasoning and coding abilities.",
-    context_window: "200K",
-    input_price: 15,
-    output_price: 75,
-    parameters: "~175B",
-    knowledge_cutoff: "April 2026",
-    max_output: "16K",
-    capabilities: ["Reasoning", "Code", "Vision", "Long Context"],
-  },
-  {
-    name: "Claude Sonnet 4.6",
-    provider: "Anthropic",
-    description: "Balanced performance and speed for everyday tasks with strong general capabilities.",
-    context_window: "200K",
-    input_price: 3,
-    output_price: 15,
-    parameters: "~70B",
-    knowledge_cutoff: "April 2026",
-    max_output: "16K",
-    capabilities: ["General", "Code", "Vision"],
-  },
-  {
-    name: "GPT-5.1",
-    provider: "OpenAI",
-    description: "Flagship model with advanced reasoning, multimodal understanding, and tool use.",
-    context_window: "128K",
-    input_price: 10,
-    output_price: 40,
-    parameters: "~200B",
-    knowledge_cutoff: "October 2025",
-    max_output: "32K",
-    capabilities: ["Reasoning", "Code", "Vision", "Tool Use"],
-  },
-  {
-    name: "GPT-4.5 Turbo",
-    provider: "OpenAI",
-    description: "Cost-effective option with strong performance across all domains.",
-    context_window: "128K",
-    input_price: 2.5,
-    output_price: 10,
-    parameters: "~100B",
-    knowledge_cutoff: "October 2025",
-    max_output: "16K",
-    capabilities: ["General", "Code", "Vision"],
-  },
-  {
-    name: "Gemini 2.5 Pro",
-    provider: "Google",
-    description: "Google's most advanced model with native multimodal training and long context.",
-    context_window: "1M",
-    input_price: 7,
-    output_price: 21,
-    parameters: "~150B",
-    knowledge_cutoff: "January 2026",
-    max_output: "64K",
-    capabilities: ["Vision", "Video", "Audio", "Long Context"],
-  },
-  {
-    name: "Gemini 2.0 Flash",
-    provider: "Google",
-    description: "Fast, efficient model optimized for high-throughput applications.",
-    context_window: "256K",
-    input_price: 0.3,
-    output_price: 1.2,
-    parameters: "~30B",
-    knowledge_cutoff: "January 2026",
-    max_output: "8K",
-    capabilities: ["General", "Vision", "Fast"],
-  },
-  {
-    name: "Llama 4 Maverick",
-    provider: "Meta",
-    description: "Open source powerhouse with competitive performance and local deployment options.",
-    context_window: "128K",
-    input_price: 0.8,
-    output_price: 0.8,
-    parameters: "~400B MoE",
-    knowledge_cutoff: "December 2025",
-    max_output: "32K",
-    capabilities: ["General", "Code", "Open Source"],
-  },
-  {
-    name: "Llama 4 Scout",
-    provider: "Meta",
-    description: "Efficient open source model for resource-constrained deployments.",
-    context_window: "32K",
-    input_price: 0.1,
-    output_price: 0.1,
-    parameters: "~17B",
-    knowledge_cutoff: "December 2025",
-    max_output: "4K",
-    capabilities: ["General", "Fast", "Open Source"],
-  },
-  {
-    name: "Command R+",
-    provider: "Microsoft",
-    description: "Enterprise-focused model with strong RAG capabilities and tool integration.",
-    context_window: "128K",
-    input_price: 2.5,
-    output_price: 10,
-    parameters: "~104B",
-    knowledge_cutoff: "March 2026",
-    max_output: "8K",
-    capabilities: ["RAG", "Tool Use", "Enterprise"],
-  },
-  {
-    name: "Phi-4",
-    provider: "Microsoft",
-    description: "Compact model with surprising capabilities for its size.",
-    context_window: "16K",
-    input_price: 0.15,
-    output_price: 0.6,
-    parameters: "~14B",
-    knowledge_cutoff: "March 2026",
-    max_output: "4K",
-    capabilities: ["General", "Efficient"],
-  },
-  {
-    name: "Llama 4 Local",
-    provider: "Ollama",
-    description: "Run Llama locally with optimized quantization for consumer hardware.",
-    context_window: "8K",
-    input_price: 0,
-    output_price: 0,
-    parameters: "~8B (Q4)",
-    knowledge_cutoff: "December 2025",
-    max_output: "4K",
-    capabilities: ["Local", "Open Source", "Offline"],
-  },
-  {
-    name: "Mistral Large",
-    provider: "Ollama",
-    description: "European alternative with strong multilingual capabilities.",
-    context_window: "32K",
-    input_price: 2,
-    output_price: 6,
-    parameters: "~123B",
-    knowledge_cutoff: "February 2026",
-    max_output: "8K",
-    capabilities: ["Multilingual", "Code", "General"],
-  },
-];
 
 export default function ModelHubPage() {
   const { darkMode } = useTheme();
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [models, setModels] = useState<Model[]>([]);
+  const [updatedAt, setUpdatedAt] = useState<string>("");
   const [selectedProvider, setSelectedProvider] = useState<string>("all");
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    // Simulate loading - in production would fetch from API
-    const timer = setTimeout(() => {
-      setModels(SAMPLE_MODELS);
-      setLoading(false);
-    }, 800);
-    return () => clearTimeout(timer);
+    let cancelled = false;
+    fetch("/api/models")
+      .then((res) => {
+        if (!res.ok) throw new Error(`Failed to load models (${res.status})`);
+        return res.json();
+      })
+      .then((data) => {
+        if (cancelled) return;
+        setModels(Array.isArray(data.models) ? data.models : []);
+        setUpdatedAt(data.updated_at || "");
+        setLoading(false);
+      })
+      .catch((err) => {
+        if (cancelled) return;
+        console.error("Error loading models:", err);
+        setError(err.message);
+        setLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const filteredModels = models.filter((model) => {
@@ -257,7 +185,8 @@ export default function ModelHubPage() {
     return matchesProvider && matchesSearch;
   });
 
-  const providers = ["all", ...Object.keys(PROVIDER_CONFIGS)];
+  // Build providers list dynamically from actual model data
+  const providers = ["all", ...Array.from(new Set(models.map((m) => m.provider))).sort()];
 
   if (loading) {
     return (
@@ -269,6 +198,24 @@ export default function ModelHubPage() {
             </svg>
           </div>
           <div className={`text-sm ${darkMode ? "text-zinc-400" : "text-zinc-600"}`}>Loading model catalog...</div>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className={`min-h-screen ${darkMode ? "bg-zinc-950 text-zinc-100" : "bg-zinc-50 text-zinc-900"} flex items-center justify-center`}>
+        <div className={`text-center max-w-md p-8 rounded-2xl ${darkMode ? "bg-zinc-900 border border-zinc-800" : "bg-white border border-zinc-200"}`}>
+          <div className="text-4xl mb-3">⚠️</div>
+          <h3 className="text-lg font-bold mb-2">Failed to load models</h3>
+          <p className={`text-sm mb-4 ${darkMode ? "text-zinc-400" : "text-zinc-600"}`}>{error}</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-sm font-medium"
+          >
+            Retry
+          </button>
         </div>
       </div>
     );
@@ -317,8 +264,24 @@ export default function ModelHubPage() {
               </div>
               <h2 className={`text-4xl font-bold ${darkMode ? "text-zinc-50" : "text-zinc-900"}`}>Model Hub</h2>
               <p className={`${darkMode ? "text-zinc-400" : "text-zinc-600"}`}>
-                Explore and compare the latest large language models. Find the right model for your use case.
+                Explore and compare the latest large language models, ranked by Chatbot Arena. Find the right model for your use case.
               </p>
+              <div className={`flex flex-wrap gap-4 text-xs ${darkMode ? "text-zinc-500" : "text-zinc-500"}`}>
+                <span className="inline-flex items-center gap-1.5">
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                  </svg>
+                  {models.length} models
+                </span>
+                {updatedAt && (
+                  <span className="inline-flex items-center gap-1.5">
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Updated {new Date(updatedAt).toLocaleDateString()}
+                  </span>
+                )}
+              </div>
             </div>
           </section>
 
@@ -336,7 +299,7 @@ export default function ModelHubPage() {
                       activeBorder: darkMode ? "border-zinc-500" : "border-zinc-400",
                       icon: "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10",
                     }
-                  : PROVIDER_CONFIGS[provider];
+                  : PROVIDER_CONFIGS[provider] || PROVIDER_CONFIGS["Other"];
 
                 return (
                   <button
@@ -371,7 +334,7 @@ export default function ModelHubPage() {
           {/* Models Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
             {filteredModels.map((model) => {
-              const providerConfig = PROVIDER_CONFIGS[model.provider] || PROVIDER_CONFIGS["Ollama"];
+              const providerConfig = PROVIDER_CONFIGS[model.provider] || PROVIDER_CONFIGS["Other"];
               const cardBgClass = darkMode
                 ? "bg-zinc-900/80 backdrop-blur-sm border-zinc-800/60"
                 : "bg-white border-zinc-200/80";
@@ -398,6 +361,17 @@ export default function ModelHubPage() {
                         </svg>
                         {model.provider}
                       </div>
+                      {model.arena_elo && model.arena_elo > 0 && (
+                        <div
+                          className={`inline-flex items-center gap-1 px-2 py-1 text-[10px] font-bold rounded-full ${darkMode ? "bg-amber-500/15 text-amber-400 border border-amber-500/30" : "bg-amber-100 text-amber-700 border border-amber-300"}`}
+                          title={`Arena ELO: ${model.arena_elo}${model.votes ? ` (${model.votes.toLocaleString()} votes)` : ""}`}
+                        >
+                          <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                          </svg>
+                          {model.arena_elo}
+                        </div>
+                      )}
                     </div>
 
                     {/* Model name */}

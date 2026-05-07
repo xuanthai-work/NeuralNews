@@ -20,10 +20,10 @@ export interface Data {
 export type Category = "all" | "benchmarks" | "ai-blogs" | "tech-news" | "community";
 
 export const CATEGORY_SOURCES: Record<string, string[]> = {
-  benchmarks: ["Hugging Face Benchmarks", "Hugging Face Papers", "LMSys LMArena", "LMSys Vision Arena", "Papers With Code"],
+  benchmarks: ["Hugging Face Benchmarks", "Hugging Face Papers", "LMSys LMArena", "LMSys Vision Arena", "Papers With Code", "arXiv"],
   "ai-blogs": ["Anthropic", "OpenAI", "Google AI", "DeepMind", "Meta AI", "Microsoft AI", "Ollama", "Oh My Pi"],
   "tech-news": ["TechCrunch", "The Verge", "Ars Technica"],
-  community: ["Hacker News", "Reddit", "Lobsters"],
+  community: ["Hacker News", "Reddit", "Lobsters", "Dev.to"],
 };
 
 export const CATEGORY_COLORS: Record<Category, string> = {

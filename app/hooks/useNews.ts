@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useCallback, useEffect, useState } from "react";
+import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import type { Data, Category } from "../types";
 import { CATEGORY_SOURCES } from "../types";
 
@@ -19,16 +20,30 @@ interface UseNewsReturn {
   getSourceCategory: (source: string) => Category;
 }
 
-export function useNews(): UseNewsReturn {
-  const [data, setData] = useState<Data | null>(null);
-  const [loading, setLoading] = useState(true);
+const VALID_CATEGORIES: Category[] = ["all", "benchmarks", "ai-blogs", "tech-news", "community"];
+
+function isValidCategory(value: string | null): value is Category {
+  return value !== null && (VALID_CATEGORIES as string[]).includes(value);
+}
+
+export function useNews(initialData?: Data): UseNewsReturn {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  // Derive filter state from URL — URL is the source of truth so links are shareable
+  const urlCategory = searchParams.get("category");
+  const selectedCategory: Category = isValidCategory(urlCategory) ? urlCategory : "all";
+  const searchTerm = searchParams.get("q") ?? "";
+
+  const [data, setData] = useState<Data | null>(initialData ?? null);
+  const [loading, setLoading] = useState(!initialData);
   const [error, setError] = useState<string | null>(null);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState<Category>("all");
   const [refreshing, setRefreshing] = useState(false);
   const [refreshStatus, setRefreshStatus] = useState("");
 
   useEffect(() => {
+    if (initialData) return; // Server-rendered, skip client fetch
     fetch("/data.json")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to load data");
@@ -42,7 +57,38 @@ export function useNews(): UseNewsReturn {
         setError(err.message);
         setLoading(false);
       });
-  }, []);
+  }, [initialData]);
+
+  const updateUrl = useCallback(
+    (updates: Record<string, string | null>) => {
+      const params = new URLSearchParams(searchParams.toString());
+      for (const [key, value] of Object.entries(updates)) {
+        if (value === null || value === "") {
+          params.delete(key);
+        } else {
+          params.set(key, value);
+        }
+      }
+      const queryString = params.toString();
+      const url = queryString ? `${pathname}?${queryString}` : pathname;
+      router.replace(url, { scroll: false });
+    },
+    [pathname, router, searchParams]
+  );
+
+  const setSearchTerm = useCallback(
+    (term: string) => {
+      updateUrl({ q: term });
+    },
+    [updateUrl]
+  );
+
+  const setSelectedCategory = useCallback(
+    (category: Category) => {
+      updateUrl({ category: category === "all" ? null : category });
+    },
+    [updateUrl]
+  );
 
   const handleRefresh = async () => {
     setRefreshing(true);
@@ -73,9 +119,9 @@ export function useNews(): UseNewsReturn {
   };
 
   const getSourceCategory = (source: string): Category => {
-    if (CATEGORY_SOURCES.benchmarks.some(s => source.includes(s))) return "benchmarks";
-    if (CATEGORY_SOURCES["ai-blogs"].some(s => source.includes(s))) return "ai-blogs";
-    if (CATEGORY_SOURCES["tech-news"].some(s => source.includes(s))) return "tech-news";
+    if (CATEGORY_SOURCES.benchmarks.some((s) => source.includes(s))) return "benchmarks";
+    if (CATEGORY_SOURCES["ai-blogs"].some((s) => source.includes(s))) return "ai-blogs";
+    if (CATEGORY_SOURCES["tech-news"].some((s) => source.includes(s))) return "tech-news";
     return "community";
   };
 
@@ -84,10 +130,12 @@ export function useNews(): UseNewsReturn {
       const storyCategory = getSourceCategory(story.source || "");
       if (storyCategory !== selectedCategory) return false;
     }
-    const matchesSearch =
-      story.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      story.bullet_points.some((bp) => bp.toLowerCase().includes(searchTerm.toLowerCase()));
-    return matchesSearch;
+    if (!searchTerm) return true;
+    const term = searchTerm.toLowerCase();
+    return (
+      story.title.toLowerCase().includes(term) ||
+      story.bullet_points.some((bp) => bp.toLowerCase().includes(term))
+    );
   });
 
   return {
