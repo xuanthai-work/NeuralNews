@@ -1,9 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { useTheme } from "../context/ThemeContext";
 import { Sidebar } from "../components/Sidebar";
 import { BottomNav } from "../components/BottomNav";
+
+function modelSlug(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
 
 interface Model {
   name: string;
@@ -429,11 +434,13 @@ export default function ModelHubPage() {
                     </div>
 
                     {/* Action button */}
-                    <button
+                    <Link
+                      href={`/model-hub/${modelSlug(model.name)}`}
                       className={`
                         w-full py-2.5 rounded-xl
                         text-xs font-bold uppercase tracking-wide
                         transition-all duration-300
+                        flex items-center justify-center gap-2
                         ${darkMode
                           ? "bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-500/25"
                           : "bg-indigo-600 hover:bg-indigo-700 text-white shadow-lg shadow-indigo-500/20"
@@ -441,8 +448,11 @@ export default function ModelHubPage() {
                         hover:-translate-y-0.5 hover:scale-[1.02]
                       `}
                     >
-                      View Details
-                    </button>
+                      <span>View Details</span>
+                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </Link>
                   </div>
                 </article>
               );
