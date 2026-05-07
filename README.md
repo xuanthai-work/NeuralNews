@@ -20,7 +20,8 @@ An AI-curated tech news dashboard. Fetches stories from 15+ sources, scores them
 - Installable PWA with offline support (service worker caches data + app shell)
 - Bookmark stories — persisted in localStorage, sync across tabs
 - Live LLM leaderboard (`/benchmarks`) and model catalog (`/model-hub`) backed by the Chatbot Arena API
-- Per-article detail view with key points, related stories, and shareable URL
+- Per-article detail view (`/article/[id]`) with key points, related stories, and shareable URL
+- Per-model detail view (`/model-hub/[slug]`) with provider links, similar models, and recent news mentioning that model
 - Shareable filtered URLs: `/?category=ai-blogs`, `/?q=llama`, etc.
 - Auto-detection of new data — toast appears when GitHub Actions ships an update
 
@@ -46,7 +47,7 @@ ai-news-web/
 │   ├── manifest.ts                  # PWA manifest
 │   ├── article/[id]/                # Article detail (SSG, pre-rendered)
 │   ├── benchmarks/                  # LLM leaderboard
-│   ├── model-hub/                   # Live model catalog
+│   ├── model-hub/                   # Live model catalog (+ [slug] detail pages)
 │   ├── saved/                       # Bookmarks
 │   ├── settings/                    # Theme + auto-refresh toggles
 │   ├── api/

@@ -21,7 +21,7 @@ This is a **hybrid Next.js + Python project**: the frontend is a Next.js app (SS
 ```bash
 # Frontend
 npm run dev          # Start Next.js dev server on localhost:3000
-npm run build        # Production build (pre-renders /article/[id] for all stories)
+npm run build        # Production build (pre-renders /article/[id] and /model-hub/[slug])
 npm run start        # Run production build
 npm run lint         # ESLint (eslint-config-next)
 
@@ -50,6 +50,7 @@ python3 scraper.py   # Fetches → scores → writes data.json + public/data.jso
 | `/saved` | Client Component | localStorage-backed bookmarks |
 | `/benchmarks` | Client Component | Live LLM leaderboard from `/api/benchmarks` |
 | `/model-hub` | Client Component | Live model catalog from `/api/models` |
+| `/model-hub/[slug]` | **SSG (26+ paths pre-rendered)** | Per-model detail page with provider links, related news (matched against `data.json`), and similar models |
 | `/settings` | Client Component | Dark mode + auto-refresh toggles |
 | `/api/scrape` | POST | Spawns `python3 scraper.py` (used by manual refresh button) |
 | `/api/benchmarks` | GET | Proxies Wu Long's Arena AI Leaderboards API (`api.wulong.dev`) |
@@ -115,4 +116,5 @@ The workflow has concurrency control, pip caching, secret validation, and writes
 - `public/data.json` is what the frontend reads at runtime (and what `getNewsData()` reads server-side).
 - `.cache.json` is a Python scraper runtime artifact — not tracked in git.
 - The benchmarks and model-hub pages both pull from Wu Long's Arena API (`api.wulong.dev`), free + no-auth.
+- Model fetching logic lives in `app/lib/models.ts` (`getModels()`, `getModelBySlug()`, `modelToSlug()`, `PROVIDER_LINKS`). The `/api/models` route and the `/model-hub/[slug]` server component both import from this lib so the Arena fetch + enrichment runs in one place.
 - Service worker only registers in production (`NODE_ENV === "production"`) to avoid HMR conflicts in dev.
