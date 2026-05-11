@@ -10,6 +10,19 @@ function modelSlug(name: string): string {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }
 
+// Case-insensitive provider config lookup, falls back to "Other"
+function lookupProviderConfig(
+  configs: Record<string, ProviderConfig>,
+  provider: string
+): ProviderConfig {
+  if (configs[provider]) return configs[provider];
+  const lower = provider.toLowerCase();
+  for (const key of Object.keys(configs)) {
+    if (key.toLowerCase() === lower) return configs[key];
+  }
+  return configs["Other"];
+}
+
 interface Model {
   name: string;
   provider: string;
@@ -136,6 +149,51 @@ const PROVIDER_CONFIGS: Record<string, ProviderConfig> = {
     activeBg: "bg-pink-500/25",
     activeBorder: "border-pink-500/50",
     icon: "M12 6v6l4 2",
+  },
+  "Baidu": {
+    name: "Baidu",
+    color: "text-red-600 dark:text-red-400",
+    bg: "bg-red-500/15",
+    border: "border-red-500/30",
+    activeBg: "bg-red-500/25",
+    activeBorder: "border-red-500/50",
+    icon: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z",
+  },
+  "Moonshot": {
+    name: "Moonshot",
+    color: "text-teal-600 dark:text-teal-400",
+    bg: "bg-teal-500/15",
+    border: "border-teal-500/30",
+    activeBg: "bg-teal-500/25",
+    activeBorder: "border-teal-500/50",
+    icon: "M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z",
+  },
+  "Xiaomi": {
+    name: "Xiaomi",
+    color: "text-orange-600 dark:text-orange-400",
+    bg: "bg-orange-500/15",
+    border: "border-orange-500/30",
+    activeBg: "bg-orange-500/25",
+    activeBorder: "border-orange-500/50",
+    icon: "M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z",
+  },
+  "Z.ai": {
+    name: "Z.ai",
+    color: "text-fuchsia-600 dark:text-fuchsia-400",
+    bg: "bg-fuchsia-500/15",
+    border: "border-fuchsia-500/30",
+    activeBg: "bg-fuchsia-500/25",
+    activeBorder: "border-fuchsia-500/50",
+    icon: "M4 7h16M4 12h16M4 17h16",
+  },
+  "01.AI": {
+    name: "01.AI",
+    color: "text-lime-600 dark:text-lime-400",
+    bg: "bg-lime-500/15",
+    border: "border-lime-500/30",
+    activeBg: "bg-lime-500/25",
+    activeBorder: "border-lime-500/50",
+    icon: "M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
   },
   "Other": {
     name: "Other",
@@ -292,7 +350,7 @@ export default function ModelHubPage() {
 
           {/* Provider Filter */}
           <div className="flex items-center justify-between mb-6">
-            <div className="flex gap-2 overflow-x-auto pb-2 -mx-2 px-2 sm:mx-0 sm:px-0 sm:flex-wrap">
+            <div className="flex gap-2 overflow-x-auto pb-2 -mx-2 px-2 sm:mx-0 sm:px-0 sm:flex-wrap sm:overflow-x-visible">
               {providers.map((provider) => {
                 const isActive = selectedProvider === provider;
                 const config = provider === "all"
@@ -304,14 +362,14 @@ export default function ModelHubPage() {
                       activeBorder: darkMode ? "border-zinc-500" : "border-zinc-400",
                       icon: "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10",
                     }
-                  : PROVIDER_CONFIGS[provider] || PROVIDER_CONFIGS["Other"];
+                  : lookupProviderConfig(PROVIDER_CONFIGS, provider);
 
                 return (
                   <button
                     key={provider}
                     onClick={() => setSelectedProvider(provider)}
                     className={`
-                      flex-shrink-0
+                      flex-shrink-0 sm:flex-shrink
                       inline-flex items-center gap-1.5
                       px-3 py-1.5
                       rounded-lg border
@@ -339,7 +397,7 @@ export default function ModelHubPage() {
           {/* Models Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
             {filteredModels.map((model) => {
-              const providerConfig = PROVIDER_CONFIGS[model.provider] || PROVIDER_CONFIGS["Other"];
+              const providerConfig = lookupProviderConfig(PROVIDER_CONFIGS, model.provider);
               const cardBgClass = darkMode
                 ? "bg-zinc-900/80 backdrop-blur-sm border-zinc-800/60"
                 : "bg-white border-zinc-200/80";
