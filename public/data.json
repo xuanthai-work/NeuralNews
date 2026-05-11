@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-11T08:52:36.541833",
-  "total_stories": 37,
+  "generated_at": "2026-05-11T14:15:08.225175",
+  "total_stories": 40,
   "sources": [
-    "Hugging Face Benchmarks",
-    "Dev.to",
-    "Ollama",
-    "arXiv AI",
     "arXiv NLP",
-    "The Verge",
-    "Lobsters",
     "arXiv Machine Learning",
+    "Hacker News",
     "Ars Technica",
-    "Hacker News"
+    "Lobsters",
+    "The Verge",
+    "arXiv AI",
+    "Ollama",
+    "Dev.to",
+    "Hugging Face Benchmarks"
   ],
   "stories": [
     {
@@ -23,9 +23,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face.",
-        "It is categorized under key AI/ML domains including transformers and text-generation.",
-        "The mention of 'safetensors' indicates relevance to modern, efficient model deployment."
+        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
+        "It is categorized under key AI/ML domains including 'transformers' and 'text-generation'.",
+        "The presence of 'safetensors' indicates modern, efficient model handling practices."
       ]
     },
     {
@@ -37,9 +37,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It pertains to the core field of text generation using transformer-based architectures.",
-        "The model is associated with Meta's Llama family, indicating relevance in the open-source LLM space."
+        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It is categorized under key AI/ML topics including transformers and text-generation.",
+        "The model is associated with Meta's Llama family, indicating relevance in the large language model space."
       ]
     },
     {
@@ -51,9 +51,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The study identifies the 'memory curse,' where expanding LLM context windows degrades cooperative intent in multi-agent social dilemmas.",
-        "Testing across 7 LLMs and 4 games showed that increased history access negatively impacted cooperation in 18 out of 28 tested settings.",
-        "The research isolates the mechanism, linking the breakdown in cooperation to the erosion of forward-looking intent within the LLMs' reasoning traces."
+        "The study introduces the 'memory curse,' finding that expanding LLM context windows degrades cooperative intent in multi-agent social dilemmas.",
+        "Across 7 LLMs and 4 games, expanded history negatively impacted cooperation in 18 out of 28 tested model-game settings.",
+        "The research isolates the mechanism, linking the breakdown to the erosion of forward-looking intent during reasoning traces."
       ]
     },
     {
@@ -65,23 +65,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The study introduces the 'memory curse,' finding that expanding LLM context windows systematically degrades cooperation in multi-agent social dilemmas.",
-        "The negative impact was observed across 7 LLMs and 4 games over 500 rounds, showing a failure in 18 out of 28 tested settings.",
-        "The research isolates the mechanism, linking the breakdown in cooperation to the erosion of forward-looking intent during reasoning traces."
-      ]
-    },
-    {
-      "id": 1,
-      "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
-        "The model is categorized under text-generation and conversational AI pipelines.",
-        "It is associated with key ML technologies like transformers and safetensors."
+        "The research identifies the 'memory curse,' where expanding LLM context windows degrades cooperative behavior in multi-agent systems.",
+        "The study tested 7 LLMs across 4 games over 500 rounds, finding that expanded history negatively impacted cooperation in 18 out of 28 settings.",
+        "The mechanism involves lexical analysis showing that the breakdown correlates with the erosion of forward-looking intent in the LLMs' reasoning traces."
       ]
     },
     {
@@ -93,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, has integrated MLX for enhanced performance.",
-        "This update specifically targets and optimizes for Apple Silicon hardware.",
-        "The feature is currently available in a preview state."
+        "Ollama, a popular local LLM runner, is integrating MLX for enhanced performance.",
+        "This integration specifically targets Apple Silicon hardware, optimizing AI workloads for Macs.",
+        "The feature is currently available in a preview state, indicating ongoing development."
       ]
     },
     {
@@ -107,9 +93,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging apps.",
-        "It utilizes local AI coding agents, ensuring all processing runs on the user's own device.",
-        "The core value proposition is providing private, on-device AI capabilities for coding assistance."
+        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
+        "It utilizes local AI coding agents, ensuring all processing runs entirely on the user's device.",
+        "The core value proposition is providing AI assistance while maintaining data privacy through local execution."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "ollama launch",
+      "url": "https://ollama.com/blog/launch",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Ollama introduces a new command for easily setting up and running coding tools.",
+        "It supports various models, including Claude Code, OpenCode, and Codex, locally or in the cloud.",
+        "A key feature is its simplicity, requiring no environment variables or configuration files."
       ]
     },
     {
@@ -121,23 +121,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama is partnering with OpenAI and ROOST to integrate gpt-oss-safeguard reasoning models.",
-        "The gpt-oss-safeguard models are designed for safety classification tasks and are available in 20B and 120B sizes.",
-        "These models are released under the permissive Apache 2.0 license, promoting open-source safety tooling."
-      ]
-    },
-    {
-      "id": 33,
-      "title": "Course correction: Google to link more sources in AI Overviews",
-      "url": "https://arstechnica.com/google/2026/05/google-will-put-more-links-to-websites-in-ai-overviews/",
-      "source": "Ars Technica",
-      "author": "Ryan Whitwam",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Google is enhancing its AI Overviews feature to improve source attribution.",
-        "The update involves linking to more sources within the AI-generated summaries.",
-        "This change aims to increase transparency and verifiability in Google's AI search results."
+        "Ollama is collaborating with OpenAI and ROOST to integrate gpt-oss-safeguard reasoning models.",
+        "These models are designed for safety classification tasks and are available in 20B and 120B sizes.",
+        "The models are released under the permissive Apache 2.0 license, promoting open-source safety tooling."
       ]
     },
     {
@@ -149,9 +135,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces 'rubric-grounded reinforcement learning' (RL) to improve LLM training.",
-        "The core innovation is decomposing the reward signal into multiple, verifiable criteria rather than using a single holistic score.",
-        "Utilizes a frozen LLM judge to provide a structured, multi-criterion feedback mechanism (partial-credit optimization)."
+        "Introduces 'rubric-grounded reinforcement learning (RL)' to improve LLM training.",
+        "The method uses a frozen LLM judge to provide structured, multi-criterion rewards instead of a single score.",
+        "This approach offers a partial-credit optimization signal, allowing models to be graded along specific, verifiable criteria."
       ]
     },
     {
@@ -163,9 +149,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The research demonstrates that the tool selection process within language models is linearly readable and steerable.",
-        "By manipulating the difference in internal activations between two tools, researchers can reliably force a model to choose a specific tool.",
-        "This work addresses the 'invisible failure' problem in tool-calling agents, offering a new method for internal model probing across major models like Gemma, Qwen, and Llama."
+        "The research demonstrates that the tool selection process within language models (like Gemma, Qwen, and Llama) is linearly readable and steerable.",
+        "By manipulating the mean-difference between internal activations of two tools, researchers could switch the model's tool choice with high accuracy.",
+        "This offers a new, interpretable mechanism to debug and control the decision-making of tool-calling AI agents, addressing issues of invisible failure."
       ]
     },
     {
@@ -177,23 +163,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces GLiGuard, a new safeguard model for Large Language Models (LLMs) focused on policy-compliant outputs.",
-        "Addresses the inefficiency of current guardrails, which use large autoregressive decoders (7B-27B parameters) for a classification task.",
-        "GLiGuard achieves this goal with a significantly smaller 0.3B-parameter model, promising lower latency and better scalability for multi-aspect evaluation."
+        "GLiGuard introduces a new, efficient method for LLM safeguarding, addressing the high latency of current guardrail models.",
+        "The model reformulates the safety task from sequential text generation (autoregressive decoding) to a more efficient classification problem.",
+        "It achieves this using a significantly smaller 0.3B parameter model, enabling scalable, real-time, multi-aspect content moderation."
       ]
     },
     {
-      "id": 70,
-      "title": "Obsidian plugin was abused to deploy a remote access trojan",
-      "url": "https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/",
-      "source": "Hacker News",
-      "author": "cmbailey",
-      "timestamp": "2026-05-10T22:02:43",
-      "ai_score": 8,
+      "id": 1,
+      "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
       "bullet_points": [
-        "A vulnerability in an Obsidian plugin was exploited to deploy a Remote Access Trojan (RAT).",
-        "This highlights the security risks associated with third-party plugins in personal knowledge management tools.",
-        "The incident serves as a critical warning regarding supply chain and plugin security in popular software ecosystems."
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
+        "The model is categorized for text-generation and conversational AI tasks.",
+        "It is associated with key ML technologies like transformers and safetensors."
       ]
     },
     {
@@ -205,23 +191,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The news highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It is categorized under key ML/NLP tags like 'transformers' and 'pytorch'.",
-        "The pipeline demonstrated is 'text-generation', indicating a focus on generative AI capabilities."
-      ]
-    },
-    {
-      "id": 9,
-      "title": "ollama launch",
-      "url": "https://ollama.com/blog/launch",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Ollama introduces a new command for running coding tools locally or in the cloud.",
-        "It supports various coding models, including Claude Code, OpenCode, and Codex.",
-        "A key feature is its simplicity, requiring no environment variables or configuration files."
+        "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
+        "It is categorized under key ML/AI technologies like transformers and PyTorch.",
+        "The pipeline indicates the model is being used for text generation tasks."
       ]
     },
     {
@@ -234,8 +206,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama now supports the Anthropic Messages API.",
-        "This integration allows users to run tools like Claude Code within the Ollama ecosystem.",
-        "It bridges the gap between open-source local models and proprietary models like Claude."
+        "This integration allows users to leverage models like Claude Code within the Ollama ecosystem.",
+        "It bridges the gap between open-source local LLM platforms and proprietary API services."
       ]
     },
     {
@@ -247,27 +219,41 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama enables the use of OpenAI's Codex CLI with open-weight models.",
-        "Codex functionality allows models to read, modify, and execute code within a working directory.",
+        "Ollama enables the use of OpenAI's Codex CLI with open-source models.",
+        "Codex functionality allows models to read, modify, and execute code within a user's directory.",
         "The integration supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
       ]
     },
     {
-      "id": 27,
-      "title": "The new Wild West of AI kids’ toys",
-      "url": "https://arstechnica.com/ai/2026/05/the-new-wild-west-of-ai-kids-toys/",
-      "source": "Ars Technica",
-      "author": "Sophie Charara, WIRED.com",
+      "id": 19,
+      "title": "Venmo finally takes privacy seriously",
+      "url": "https://www.theverge.com/tech/927503/venmo-app-redesign-privacy-posts",
+      "source": "The Verge",
+      "author": "Jay Peters",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "New connected AI companions are emerging in the children's toy market.",
-        "These toys have the potential to significantly alter childhood play and routines.",
-        "The rise of these devices has prompted calls from lawmakers for potential bans."
+        "Venmo is rolling out a significant app redesign.",
+        "A key privacy enhancement is changing the default visibility of user posts.",
+        "New users will now have their posts set to 'friends only' by default, moving away from public by default."
       ]
     },
     {
-      "id": 28,
+      "id": 26,
+      "title": "Sony's failed war against Internet piracy may doom other copyright lawsuits",
+      "url": "https://arstechnica.com/tech-policy/2026/05/sonys-failed-war-against-internet-piracy-may-doom-other-copyright-lawsuits/",
+      "source": "Ars Technica",
+      "author": "Jon Brodkin",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "A Supreme Court ruling involving Cox cable firm could significantly impact copyright litigation.",
+        "The ruling may benefit various tech providers, extending beyond just Internet Service Providers (ISPs).",
+        "The case touches upon the broader implications of copyright enforcement against internet piracy, referencing Sony's past efforts."
+      ]
+    },
+    {
+      "id": 30,
       "title": "Manufacturing qubits that can move",
       "url": "https://arstechnica.com/science/2026/05/manufacturing-qubits-that-can-move/",
       "source": "Ars Technica",
@@ -275,13 +261,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The article addresses the technical challenge of integrating electronic manufacturing with flexible geometries.",
-        "The focus is on the difficulty in manufacturing mobile or movable qubits.",
-        "This points to a key hurdle in advancing quantum computing hardware."
+        "The article addresses the technical challenge of integrating electronic manufacturing with flexible geometries in quantum computing.",
+        "The focus is on the difficulty of creating movable qubits, a key hurdle in advancing quantum hardware.",
+        "This topic is highly relevant to the physical realization and engineering challenges within the quantum computing industry."
       ]
     },
     {
-      "id": 31,
+      "id": 33,
       "title": "Sony says \"efficient\" AI tools will lead to even more games flooding the market",
       "url": "https://arstechnica.com/gaming/2026/05/sony-says-efficient-ai-tools-will-lead-to-even-more-games-flooding-the-market/",
       "source": "Ars Technica",
@@ -289,9 +275,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Sony anticipates that 'efficient' AI tools will significantly increase the volume of games released to the market.",
-        "Despite the rise of AI-assisted creation, Sony emphasizes that human artists must remain central to the development process.",
-        "The news signals an industry trend where AI acts as an accelerator for content creation rather than a complete replacement for human creativity."
+        "Sony anticipates an influx of games due to the rise of 'efficient' AI tools.",
+        "The statement emphasizes that human artists must remain central to the creative process.",
+        "The news touches upon the impact of AI on game development and market saturation."
       ]
     },
     {
@@ -304,8 +290,8 @@
       "ai_score": 7,
       "bullet_points": [
         "EmambaIR introduces a new Visual State Space Model (VSSM) for event-guided image reconstruction.",
-        "It addresses limitations of existing methods, specifically the global correlation weakness of CNNs and the quadratic complexity of ViTs.",
-        "The model aims to provide an efficient alternative for high-resolution image reconstruction using event-based data."
+        "It aims to overcome limitations of existing methods, specifically the global correlation issues of CNNs and the quadratic complexity of ViTs.",
+        "The model is designed to be computationally efficient, making high-resolution event-based reconstruction more feasible."
       ]
     },
     {
@@ -317,9 +303,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces Flow-OPD, a novel technique applying On-Policy Distillation (OPD) to Flow Matching (FM) models.",
-        "Addresses critical bottlenecks in FM text-to-image models, specifically reward sparsity and gradient interference during multi-task alignment.",
-        "Aims to mitigate the 'seesaw effect' and reward hacking issues common when optimizing heterogeneous objectives in generative models."
+        "Introduces Flow-OPD, a new method applying On-Policy Distillation (OPD) to Flow Matching (FM) models.",
+        "Addresses key limitations in FM text-to-image models, specifically reward sparsity and gradient interference during multi-task alignment.",
+        "Aims to mitigate the 'seesaw effect' and reward hacking issues common when optimizing heterogeneous objectives in these models."
       ]
     },
     {
@@ -331,9 +317,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "CA-SQL introduces a novel pipeline to improve Text-to-SQL performance on challenging tasks like the Bird-Bench.",
-        "The core problem addressed is inadequate solution space exploration in current LLM-based Text-to-SQL methods.",
-        "The solution leverages complexity-aware reasoning by allocating compute budgets to guide the search for promising candidate queries."
+        "Introduces CA-SQL, a new Text-to-SQL pipeline designed to improve performance on difficult tasks.",
+        "Addresses the limitation of current LLM solutions in inadequate solution space exploration for complex queries.",
+        "Utilizes complexity-aware inference time reasoning and compute budget allocation to guide query refinement."
       ]
     },
     {
@@ -345,9 +331,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces the Byte Latent Transformer (BLT) to overcome the slow generation bottleneck of byte-level language models.",
-        "BLT-D, a new variant, utilizes an auxiliary block-wise diffusion objective alongside standard next-byte prediction.",
-        "The research aims to achieve token-level model performance using byte-level models without relying on subword vocabularies."
+        "Addresses the slow generation bottleneck in byte-level language models (LMs) which currently match token-level performance.",
+        "Introduces the Byte Latent Transformer (BLT) with novel training and generation techniques.",
+        "Presents BLT Diffusion (BLT-D), a fast variant trained using an auxiliary block-wise diffusion objective."
       ]
     },
     {
@@ -359,9 +345,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses a key limitation in text-to-image models: faithfully realizing complex visual intents.",
-        "Introduces the concept of 'semantic commitments' which must be tracked across grounding, generation, and verification.",
-        "Proposes 'SCOPE' (Structured Decomposition and Conditional Skill Orchestration) to manage the 'Conceptual Rift' during image generation."
+        "The paper addresses the challenge of faithfully realizing complex visual intents in text-to-image models.",
+        "It introduces the concept of 'semantic commitments'—requirements that must be tracked across grounding, generation, and verification.",
+        "The core problem identified is the 'Conceptual Rift,' where commitments lose their identity during the generation lifecycle."
       ]
     },
     {
@@ -373,9 +359,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses a limitation of Direct Preference Optimization (DPO), which relies on pairwise comparisons for aligning language models.",
-        "It proposes a method to leverage richer preference structures present in datasets containing multiple rollouts per prompt, which standard DPO ignores.",
-        "The proposed approach aims to overcome issues like discarding transitivity and introducing conflicting supervision inherent in collapsing multi-rollout data into simple pairs."
+        "The paper addresses a limitation of Direct Preference Optimization (DPO), which relies on pairwise comparisons for alignment.",
+        "It proposes a method to exploit richer preference structures present when training data includes multiple rollouts per prompt.",
+        "The current pairwise DPO approach discards valuable information, potentially leading to unstable training due to loss of transitivity."
       ]
     },
     {
@@ -387,9 +373,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "NTM addresses limitations in few-step diffusion models, where coarse transitions break the standard Gaussian denoising assumption.",
+        "NTM addresses limitations in few-step diffusion models where coarse transitions break the standard Gaussian denoising assumption.",
         "The proposed Normalizing Trajectory Models (NTM) model each reverse step using an expressive conditional normalizing flow.",
-        "NTM maintains an exact likelihood training framework, unlike existing few-step methods that sacrifice it for distillation or consistency."
+        "A key advantage of NTM is that it allows for exact likelihood training, unlike existing distillation or adversarial few-step methods."
       ]
     },
     {
@@ -401,9 +387,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes a novel method for decoding imagined speech using non-invasive MEG recordings.",
-        "Addresses the scarcity and alignment issues of imagined speech datasets by leveraging paired listening data.",
-        "Utilizes recordings from trained musicians to enhance the accuracy of the decoding approach."
+        "Proposes a novel method to decode imagined speech from non-invasive MEG recordings.",
+        "Addresses the challenge of scarce and misaligned imagined speech datasets by leveraging listening data.",
+        "Utilizes paired listened and imagined MEG recordings from trained musicians for improved performance."
       ]
     },
     {
@@ -417,7 +403,7 @@
       "bullet_points": [
         "Introduces GRAPHLCP, a new method for Structure-Aware Localized Conformal Prediction on Graphs.",
         "Addresses the challenge of applying Conformal Prediction (CP) to Graph Neural Networks (GNNs) due to graph's combinatorial nature.",
-        "Improves upon existing methods that rely on unreliable embedding-space proximity for prediction set localization."
+        "Improves upon existing localization methods that rely on unreliable embedding-space proximity for graph predictions."
       ]
     },
     {
@@ -429,9 +415,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the slow generation bottleneck in byte-level language models (LMs) which currently match token-level performance.",
-        "Introduces the Byte Latent Transformer (BLT) with novel training and generation techniques.",
-        "Features BLT Diffusion (BLT-D), a new variant trained using an auxiliary block-wise diffusion objective."
+        "The Byte Latent Transformer (BLT) addresses the slow generation speed of byte-level language models.",
+        "BLT-D introduces a new model variant trained with an auxiliary block-wise diffusion objective.",
+        "This work aims to achieve token-level model performance without subword vocabularies while improving generation efficiency."
       ]
     },
     {
@@ -443,9 +429,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses a limitation of Direct Preference Optimization (DPO), which currently relies on pairwise comparisons for model alignment.",
+        "The paper addresses a limitation of Direct Preference Optimization (DPO), which currently relies on pairwise comparisons for alignment.",
         "It proposes a method to leverage richer preference structures present in datasets containing multiple rollouts per prompt.",
-        "The core problem identified is that collapsing multi-rollout data into simple pairs discards transitivity and can cause training instability."
+        "The core issue with standard DPO is that collapsing multi-rollout data into pairs discards transitivity and can cause training instability."
       ]
     },
     {
@@ -458,8 +444,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces CUTS-GPR, a novel method for numerically exact Gaussian Process Regression (GPR) in high-dimensional spaces.",
-        "The core innovation is an extremely fast kernel matrix-vector product, achieving near-linear scaling with data size (N).",
-        "The method combines an additive kernel with an incomplete grid to achieve low-order polynomial scaling with dimensionality (D)."
+        "The method achieves near-linear or linear scaling with the number of training data ($N$) and low-order polynomial scaling with dimensionality ($D$).",
+        "CUTS-GPR leverages an additive kernel combined with an incomplete grid to exploit kernel matrix structure for efficiency."
       ]
     },
     {
@@ -472,8 +458,8 @@
       "ai_score": 7,
       "bullet_points": [
         "PropSplat introduces a map-free method for reconstructing Radio Frequency (RF) fields.",
-        "It utilizes 3D anisotropic Gaussian primitives to model propagation, avoiding expensive ray-tracing or dense measurements.",
-        "This approach is particularly valuable for rapid deployments where detailed geographic data is unavailable or outdated."
+        "It utilizes 3D anisotropic Gaussian primitives to model propagation, bypassing the need for detailed 3D maps or extensive measurements.",
+        "This approach is designed to enable rapid RF field modeling in environments where geographic data is unavailable or outdated."
       ]
     },
     {
@@ -486,8 +472,36 @@
       "ai_score": 7,
       "bullet_points": [
         "The paper addresses the limitation of hand-crafted Test-Time Scaling (TTS) strategies for improving LLM performance.",
-        "It introduces AutoTTS, an environment-driven framework designed to automate the allocation of computation during inference.",
-        "This framework aims to move researchers away from designing specific heuristics toward defining broader operational environments."
+        "It introduces AutoTTS, an environment-driven framework designed to automate the allocation of additional computation during inference.",
+        "This framework aims to move research focus from designing individual heuristics to defining comprehensive environments for TTS."
+      ]
+    },
+    {
+      "id": 58,
+      "title": "CA-SQL: Complexity-Aware Inference Time Reasoning for Text-to-SQL via Exploration and Compute Budget Allocation",
+      "url": "https://arxiv.org/abs/2605.08057v1",
+      "source": "arXiv NLP",
+      "author": "Nianwen Xue",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces CA-SQL, a new pipeline designed to improve Text-to-SQL performance.",
+        "Addresses the limitation of current LLM solutions in exploring the solution space for complex queries (Bird-Bench).",
+        "Uses complexity-aware inference time reasoning and compute budget allocation to guide the process."
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Uncertainty-Aware Structured Data Extraction from Full CMR Reports via Distilled LLMs",
+      "url": "https://arxiv.org/abs/2605.08045v1",
+      "source": "arXiv NLP",
+      "author": "Yuan Xue",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces CMR-EXTR, a framework for converting unstructured Cardiac MRI (CMR) reports into structured, auditable data.",
+        "Employs a distilled LLM approach to enable fully offline inference while maintaining quality control.",
+        "Incorporates uncertainty quantification to provide per-field confidence scores for clinical data extraction."
       ]
     },
     {
@@ -499,9 +513,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the slow generation speed of byte-level language models (LMs), which currently match token-level performance but suffer from autoregressive bottlenecks.",
-        "A new model, the Byte Latent Transformer (BLT), is introduced to overcome this generation limitation.",
-        "The BLT variant, BLT Diffusion (BLT-D), utilizes a novel auxiliary block-wise diffusion objective alongside standard next-byte prediction for faster performance."
+        "Introduces the Byte Latent Transformer (BLT) to overcome the slow generation speed of byte-level language models.",
+        "BLT-D, a new variant, utilizes an auxiliary block-wise diffusion objective alongside standard next-byte prediction.",
+        "The research aims to maintain the performance of byte-level models while significantly improving autoregressive generation efficiency."
       ]
     },
     {
@@ -513,13 +527,27 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Mechanistic interpretability papers are increasingly using causal language (e.g., circuits, mediators).",
-        "The analysis found that many papers fail to explicitly state the necessary identification assumptions for their causal claims.",
-        "Validation metrics (like faithfulness or ablation effects) are often presented as causal proof without detailing the underlying assumptions."
+        "Mechanistic interpretability research is increasingly using causal language (e.g., circuits, mediators).",
+        "A review of 10 papers found a lack of explicit identification assumptions for these causal claims.",
+        "Validation metrics (like faithfulness or ablation) are often presented as causal proof without stating the underlying assumptions."
       ]
     },
     {
-      "id": 88,
+      "id": 86,
+      "title": "How to Secure AI Agents in Production: What MCP Gets Right (and What It Doesn’t)",
+      "url": "https://dev.to/hadil/how-to-secure-ai-agents-in-production-what-mcp-gets-right-and-what-it-doesnt-1d12",
+      "source": "Dev.to",
+      "author": "hadil",
+      "timestamp": "2026-05-11T09:03:23Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The article addresses the critical security challenges associated with deploying AI agents in production environments.",
+        "It likely analyzes specific implementation details, referencing 'MCP' as a case study for best practices.",
+        "The content focuses on the risks that begin with seemingly innocuous tool access granted to AI agents."
+      ]
+    },
+    {
+      "id": 92,
       "title": "Prompt AI Coding Assistants to Build Production-Ready Agents: 8 Essential Patterns",
       "url": "https://dev.to/aws/prompt-ai-coding-assistants-to-build-production-ready-agents-8-essential-patterns-fm5",
       "source": "Dev.to",
@@ -528,8 +556,22 @@
       "ai_score": 7,
       "bullet_points": [
         "The article focuses on advanced prompting techniques for AI coding assistants (like Kiro, Claude Code, ChatGPT).",
-        "It details 8 essential patterns for guiding these assistants to produce production-ready software agents.",
-        "This addresses a practical, intermediate-to-advanced topic in current AI development workflows."
+        "It outlines 8 essential patterns needed to guide AI tools in building production-ready software agents.",
+        "This addresses the practical application and engineering challenges of current generative AI in software development."
+      ]
+    },
+    {
+      "id": 94,
+      "title": "I shipped an AI-generated PR that violated four of our own architecture decisions. Nobody caught it",
+      "url": "https://dev.to/mnemehq/i-shipped-an-ai-generated-pr-that-violated-four-of-our-own-architecture-decisions-nobody-caught-it-2jcp",
+      "source": "Dev.to",
+      "author": "mnemehq",
+      "timestamp": "2026-05-11T13:27:55Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "An AI-generated Pull Request (PR) was successfully merged into a codebase.",
+        "The AI-generated code violated four established architectural decisions of the company.",
+        "The incident highlights potential blind spots in current code review and quality assurance processes."
       ]
     }
   ]
