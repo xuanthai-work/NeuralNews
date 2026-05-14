@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-05-14T01:52:34.843149",
-  "total_stories": 28,
+  "generated_at": "2026-05-14T08:22:39.359694",
+  "total_stories": 42,
   "sources": [
-    "Hacker News",
     "Hugging Face Benchmarks",
+    "arXiv NLP",
     "Lobsters",
     "Ars Technica",
-    "The Verge",
+    "Hacker News",
     "Ollama",
-    "arXiv NLP",
-    "Dev.to"
+    "The Verge",
+    "arXiv AI",
+    "Dev.to",
+    "arXiv Machine Learning"
   ],
   "stories": [
     {
@@ -21,9 +23,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The news highlights the Meta-Llama-3-8B model, a significant LLM from Meta.",
-        "It is featured on Hugging Face Benchmarks, indicating its current popularity and performance tracking.",
-        "The associated tags confirm its relevance to transformer architectures and text generation tasks."
+        "The story highlights the trending status of the Meta-Llama-3-8B model on Hugging Face Benchmarks.",
+        "It pertains to the core NLP/LLM domain, specifically using the 'text-generation' pipeline.",
+        "Key technologies involved include transformers and safetensors, indicating a focus on modern LLM deployment."
       ]
     },
     {
@@ -35,23 +37,37 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
-        "It is categorized under key AI/ML technologies including transformers and text-generation.",
-        "The mention of Llama indicates relevance to the highly competitive large language model ecosystem."
+        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
+        "It pertains to the core area of transformer-based text generation models.",
+        "The tags indicate relevance to key ML components like 'transformers' and 'safetensors'."
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Negation Neglect: When models fail to learn negations in training",
+      "url": "https://arxiv.org/abs/2605.13829v1",
+      "source": "arXiv AI",
+      "author": "Owain Evans",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Introduces 'Negation Neglect,' a phenomenon where fine-tuning LLMs on documents flagging a claim as false causes the model to believe the claim is true.",
+        "The issue persists even when the model correctly identifies the claim as false when presented in a contextual setting.",
+        "This highlights a critical failure mode in LLM training, specifically concerning the reliable learning and application of negation."
       ]
     },
     {
       "id": 40,
-      "title": "LLM-Based Persuasion Enables Guardrail Override in Frontier LLMs",
-      "url": "https://arxiv.org/abs/2605.13334v1",
-      "source": "arXiv NLP",
-      "author": "Marcos Piau",
+      "title": "History Anchors: How Prior Behavior Steers LLM Decisions Toward Unsafe Actions",
+      "url": "https://arxiv.org/abs/2605.13825v1",
+      "source": "arXiv AI",
+      "author": "Alberto G. Rodríguez Salgado",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The research demonstrates that frontier LLMs can be persuaded to override their built-in safety guardrails.",
-        "This persuasion is achieved by having one LLM simulate a user in a short, five-turn argumentative conversation with another LLM.",
-        "The study highlights a critical vulnerability in current LLM safety mechanisms, showing they can be bypassed through conversational prompting."
+        "The research investigates whether Large Language Models (LLMs) maintain harmful behavior when presented with a history of prior unsafe actions.",
+        "The study introduces 'HistoryAnchor-100,' a benchmark testing frontier LLMs across ten high-stakes domains.",
+        "The findings address a critical safety concern: the susceptibility of agentic LLMs to drift toward harmful actions based on past behavior."
       ]
     },
     {
@@ -63,9 +79,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the 'deepseek-ai/DeepSeek-R1' model on Hugging Face Benchmarks.",
-        "The model is categorized under text-generation and conversational AI, indicating its primary function.",
-        "It utilizes standard ML components like transformers and safetensors, placing it within the current LLM ecosystem."
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
+        "The model is categorized for text generation and conversational tasks.",
+        "It utilizes standard ML components like transformers and safetensors."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "🤗 Trending: bigscience/bloom",
+      "url": "https://huggingface.co/bigscience/bloom",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
+        "It is categorized under key NLP/ML tags like 'transformers' and 'pytorch'.",
+        "The pipeline demonstrated is 'text-generation', indicating a focus on generative AI capabilities."
       ]
     },
     {
@@ -77,9 +107,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, is integrating MLX for performance gains.",
-        "This integration specifically targets Apple Silicon hardware, optimizing local AI inference.",
-        "The feature is currently available in a preview build, indicating ongoing development."
+        "Ollama, a popular local LLM runner, is integrating MLX for performance optimization.",
+        "The integration specifically targets Apple Silicon, enhancing local AI capabilities on Apple hardware.",
+        "This is presented as a preview, indicating ongoing development and optimization efforts."
       ]
     },
     {
@@ -91,9 +121,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, ensuring all processing runs directly on the user's device.",
-        "The core value proposition is providing AI assistance while maintaining data privacy through local execution."
+        "OpenClaw is a personal AI assistant designed to integrate with messaging apps.",
+        "It utilizes local AI coding agents, ensuring all processing runs on the user's own device.",
+        "The core value proposition is providing private, on-device AI capabilities for coding assistance."
       ]
     },
     {
@@ -106,7 +136,7 @@
       "ai_score": 8,
       "bullet_points": [
         "Ollama introduces a new command to simplify the setup and execution of coding tools.",
-        "It enables running models like Claude Code, OpenCode, and Codex using both local and cloud infrastructure.",
+        "It allows running advanced coding models (like Claude Code, OpenCode, Codex) locally or in the cloud.",
         "A key feature is its simplicity, requiring no environment variables or configuration files."
       ]
     },
@@ -120,8 +150,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification tasks.",
-        "The models, available in 20B and 120B sizes, are being brought to users through a partnership with OpenAI and ROOST.",
-        "The models are permissively licensed under the Apache 2.0 license, promoting open usage."
+        "The models are available in two sizes (20B and 120B) and are permissively licensed under Apache 2.0.",
+        "This partnership with OpenAI and ROOST aims to bring advanced safety tools to the open-source community."
       ]
     },
     {
@@ -133,9 +163,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Microsoft Edge is integrating Copilot AI to access and analyze information across all open browser tabs.",
-        "Users can now ask Copilot questions, compare products, and summarize content directly from their active browsing sessions.",
-        "This feature represents a significant step in contextual AI integration within web browsers."
+        "Microsoft Edge is integrating Copilot to access and synthesize information from all currently open browser tabs.",
+        "Users can now query Copilot to compare products, summarize articles, and ask questions based on their active browsing session.",
+        "This feature represents a significant step in contextual AI integration within mainstream web browsers."
       ]
     },
     {
@@ -147,9 +177,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Netflix's ad-supported tier has seen significant growth, more than doubling its monthly viewer base for the second consecutive year.",
+        "Netflix's ad-supported tier has seen significant growth, more than doubling its monthly viewerbase for the second consecutive year.",
         "The ad-supported plan now reaches over 250 million global users, up from 94 million last year.",
-        "Netflix reported earning $1.5 billion from advertising revenue."
+        "Netflix reported generating $1.5 billion in revenue from its advertising segment."
       ]
     },
     {
@@ -161,9 +191,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Meta is launching 'Incognito Chat,' a new AI chat feature.",
-        "Zuckerberg claims this chat offers 'completely private' encryption with no conversation logs stored on servers.",
-        "The feature aims to mimic incognito modes found in other AI chatbots."
+        "Meta is launching 'Incognito Chat,' a new AI product designed with enhanced privacy features.",
+        "The core claim is that conversations in Incognito Chat are not logged or stored on Meta's servers.",
+        "This feature aims to offer a privacy-focused alternative to standard AI chatbot interactions."
       ]
     },
     {
@@ -175,51 +205,107 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The story centers on legal/governance issues surrounding OpenAI, specifically involving CEO Sam Altman.",
-        "It references claims made during an OpenAI trial suggesting Altman has been dishonest.",
-        "The content touches upon the internal power struggles and loss of control within the OpenAI organization."
+        "The article discusses legal scrutiny surrounding OpenAI CEO Sam Altman.",
+        "It focuses on claims made during an OpenAI trial regarding Altman's truthfulness.",
+        "The piece touches upon Altman's past relationship and conflicts with Elon Musk concerning OpenAI's governance."
       ]
     },
     {
-      "id": 36,
-      "title": "Phasor Memory Networks: Stable Backpropagation Through Time for Scalable Explicit Memory",
-      "url": "https://arxiv.org/abs/2605.13370v1",
-      "source": "arXiv NLP",
-      "author": "Sangkeun Jung",
+      "id": 35,
+      "title": "WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data",
+      "url": "https://arxiv.org/abs/2605.13846v1",
+      "source": "arXiv AI",
+      "author": "Liang Zheng",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces Phasor Memory Network (PMNet) to solve catastrophic gradient instability in explicit memory architectures for language modeling.",
-        "The architecture achieves stability through novel mechanisms: Unitary Phasor Dynamics and Hierarchical Learnable Anchors.",
-        "Addresses a long-standing practical limitation of memory-augmented models like Neural Turing Machines."
+        "Introduces WARDEN, an early language model system for transcription and translation of Wardaman, an endangered Australian indigenous language.",
+        "Addresses the critical challenge of extremely limited data, successfully operating with only 6 hours of annotated audio.",
+        "Demonstrates a viable approach to low-resource language modeling, contrasting with standard large-dataset training practices."
       ]
     },
     {
       "id": 42,
-      "title": "Tracing Persona Vectors Through LLM Pretraining",
-      "url": "https://arxiv.org/abs/2605.13329v1",
-      "source": "arXiv NLP",
-      "author": "Robert West",
+      "title": "Neurosymbolic Auditing of Natural-Language Software Requirements",
+      "url": "https://arxiv.org/abs/2605.13817v1",
+      "source": "arXiv AI",
+      "author": "William Eiers",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The paper addresses the critical AI interpretability question of how LLMs internally represent high-level behaviors.",
-        "It focuses on 'persona vectors'—linear directions in model activations that correspond to traits like 'evil' or 'sycophancy'.",
-        "Understanding these vectors is vital for AI safety, enabling detection, auditing, and intervention in model behavior."
+        "Proposes a neurosymbolic approach to audit ambiguous and inconsistent natural-language software requirements.",
+        "Leverages Large Language Models (LLMs) combined with an SMT solver to translate requirements into formal logic.",
+        "The method detects ambiguity by analyzing stochastic variations in the formalization process."
       ]
     },
     {
-      "id": 4,
-      "title": "🤗 Trending: bigscience/bloom",
-      "url": "https://huggingface.co/bigscience/bloom",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
+      "id": 51,
+      "title": "Negation Neglect: When models fail to learn negations in training",
+      "url": "https://arxiv.org/abs/2605.13829v1",
+      "source": "arXiv Machine Learning",
+      "author": "Owain Evans",
       "timestamp": null,
-      "ai_score": 7,
+      "ai_score": 8,
       "bullet_points": [
-        "The news highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It is categorized under key ML/AI technologies like transformers and PyTorch.",
-        "The context suggests monitoring the model's performance via tools like TensorBoard."
+        "Introduces 'Negation Neglect,' a phenomenon where fine-tuning LLMs on documents flagging a claim as false causes the model to believe the claim is true.",
+        "The issue persists even when the model correctly identifies the claim as false when presented in a standard contextual query.",
+        "This highlights a critical vulnerability in LLM fine-tuning processes related to handling negation and factual contradiction."
+      ]
+    },
+    {
+      "id": 55,
+      "title": "WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data",
+      "url": "https://arxiv.org/abs/2605.13846v1",
+      "source": "arXiv NLP",
+      "author": "Liang Zheng",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces WARDEN, an early language model designed for transcription and translation.",
+        "Addresses the critical challenge of low-resource languages by operating with only 6 hours of training data for the endangered Wardaman language.",
+        "Represents a significant step toward making NLP viable for indigenous and endangered languages where large datasets are unavailable."
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Negation Neglect: When models fail to learn negations in training",
+      "url": "https://arxiv.org/abs/2605.13829v1",
+      "source": "arXiv NLP",
+      "author": "Owain Evans",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces 'Negation Neglect,' a failure mode where fine-tuning LLMs on documents flagging a claim as false causes the model to believe the claim is true.",
+        "The issue persists even when the model correctly identifies the claim as false when presented in a standard contextual setting.",
+        "This highlights a critical vulnerability in LLM training methodologies concerning the accurate processing and retention of negation and falsehood indicators."
+      ]
+    },
+    {
+      "id": 64,
+      "title": "RTLC -- Research, Teach-to-Learn, Critique: A three-stage prompting paradigm inspired by the Feynman Learning Technique that lifts LLM-as-judge accuracy on JudgeBench with no fine-tuning",
+      "url": "https://arxiv.org/abs/2605.13695v1",
+      "source": "arXiv NLP",
+      "author": "Andrea Morandi",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces RTLC, a novel three-stage prompting paradigm (Research, Teach-to-Learn, Critique) to improve LLM-as-judge accuracy.",
+        "Addresses the current weakness of LLM-as-judge systems on objective-correctness benchmarks like JudgeBench.",
+        "Achieves enhanced judging capability using only a single black-box LLM without requiring fine-tuning or external tools."
+      ]
+    },
+    {
+      "id": 92,
+      "title": "AI Weekly: Voice Models, Custom Silicon, MCP Goes Enterprise (May 7–13, 2026)",
+      "url": "https://dev.to/alexmercedcoder/ai-weekly-voice-models-custom-silicon-mcp-goes-enterprise-may-7-13-2026-3kg8",
+      "source": "Dev.to",
+      "author": "alexmercedcoder",
+      "timestamp": "2026-05-14T02:07:33Z",
+      "ai_score": 8,
+      "bullet_points": [
+        "OpenAI released three new voice models via API.",
+        "A security variant of GPT-5.5 was also shipped by OpenAI.",
+        "The newsletter covers broader industry topics including custom silicon and MCP adoption in enterprise."
       ]
     },
     {
@@ -232,8 +318,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama now supports the Anthropic Messages API.",
-        "This integration allows users to leverage models like Claude Code within the Ollama ecosystem.",
-        "It bridges the gap between open-source local model deployment and proprietary API capabilities."
+        "This integration allows users to leverage tools like Claude Code within the Ollama ecosystem.",
+        "It bridges the gap between open-source local models and proprietary models like Claude."
       ]
     },
     {
@@ -260,8 +346,8 @@
       "ai_score": 7,
       "bullet_points": [
         "YouTube is actively positioning itself as a central hub connecting creators and advertisers.",
-        "The platform is promoting its creators as key drivers for future advertising, TV, and streaming.",
-        "This strategy was highlighted at YouTube's annual advertiser event in New York."
+        "The platform is promoting its creators as key figures across various industries (advertising, TV, streaming).",
+        "This strategy was highlighted at YouTube's recent annual advertiser event in New York."
       ]
     },
     {
@@ -273,9 +359,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "AMD is integrating its 3D V-Cache technology into its Ryzen PRO 9000 series workstation processors.",
-        "This marks a shift, as 3D V-Cache was previously primarily marketed toward gaming PCs.",
-        "The inclusion suggests AMD is enhancing the performance of its workstation chips for both creative and potentially gaming-adjacent tasks."
+        "AMD is bringing its 3D V-Cache technology, previously focused on gaming, to its commercial workstation processors.",
+        "This integration is part of a refreshed line of Ryzen PRO 9000 series chips.",
+        "The move expands the utility of 3D V-Cache beyond gaming into professional and creative workstation tasks."
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Solar drone with jumbo jet wingspan broke a flight record—then it crashed",
+      "url": "https://arstechnica.com/gadgets/2026/05/solar-drone-with-jumbo-jet-wingspan-broke-a-flight-record-then-it-crashed/",
+      "source": "Ars Technica",
+      "author": "Jeremy Hsu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "A solar-powered drone achieved a flight record due to its large wingspan.",
+        "The pioneering aircraft ultimately experienced a crash during its final flight.",
+        "The story offers a look into the complex history and legacy of this advanced solar technology."
       ]
     },
     {
@@ -287,9 +387,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The FCC has approved the sale of EchoStar spectrum to major carriers, including AT&T and Starlink.",
-        "The decision has drawn criticism from smaller carriers who are negatively impacted by the transaction.",
-        "The approval followed pressure from the FCC chair directed at EchoStar regarding the license sales."
+        "The FCC approved the sale of EchoStar spectrum to major carriers like AT&T and Starlink.",
+        "The decision reportedly followed pressure from the FCC chair on EchoStar to divest its licenses.",
+        "The move is viewed as potentially impacting smaller carriers in the industry."
       ]
     },
     {
@@ -301,9 +401,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "AI tools are challenging traditional academic integrity systems at Princeton University.",
+        "AI tools are challenging traditional academic integrity systems at Princeton.",
         "A significant portion (30%) of students are reportedly using AI to cheat.",
-        "Peer culture is contributing to the issue, with students being reluctant to report academic dishonesty."
+        "Peer pressure and social dynamics are complicating efforts to enforce academic honesty."
       ]
     },
     {
@@ -317,91 +417,189 @@
       "bullet_points": [
         "US military is conducting wargames simulating a nuclear weapon in orbit.",
         "The simulation suggests a nuclear detonation could render parts of low-Earth orbit unusable for up to a year.",
-        "The news highlights the strategic implications of orbital warfare and nuclear risk."
+        "The story touches upon the intersection of military strategy and space technology/infrastructure."
       ]
     },
     {
-      "id": 37,
-      "title": "Query-Conditioned Test-Time Self-Training for Large Language Models",
-      "url": "https://arxiv.org/abs/2605.13369v1",
-      "source": "arXiv NLP",
-      "author": "Changick Kim",
+      "id": 36,
+      "title": "EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents",
+      "url": "https://arxiv.org/abs/2605.13841v1",
+      "source": "arXiv AI",
+      "author": "Srinivas Sunkara",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses limitations in LLM deployment where fixed parameters hinder adaptation to specific queries.",
-        "It introduces 'Query-Conditioned Test-Time Self-Training' to allow parameter updates during inference.",
-        "This method aims to correct model misconceptions and adapt LLMs to individual query structures without relying solely on external data."
-      ]
-    },
-    {
-      "id": 39,
-      "title": "Probing Persona-Dependent Preferences in Language Models",
-      "url": "https://arxiv.org/abs/2605.13339v1",
-      "source": "arXiv NLP",
-      "author": "Patrick Butlin",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research investigates how Large Language Models (LLMs) exhibit persona-dependent preferences.",
-        "The study aims to determine the internal mechanism behind persona adoption—whether preferences are isolated or shared.",
-        "Linear probes are trained on residual-stream activations of the Gemma-3 model to probe these preferences."
-      ]
-    },
-    {
-      "id": 41,
-      "title": "FIND: Toward Multimodal Financial Reasoning and Question Answering for Indic Languages",
-      "url": "https://arxiv.org/abs/2605.13330v1",
-      "source": "arXiv NLP",
-      "author": "Sriparna Saha",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces FinVQA, a new benchmark for financial numerical and multimodal reasoning.",
-        "Focuses specifically on multilingual Indic languages (English, Hindi, Bengali, Marathi, Gujarati, Tamil).",
-        "Addresses a gap in current AI benchmarks by tackling high-stakes financial reasoning in diverse linguistic contexts."
+        "EVA-Bench is a new end-to-end framework designed to evaluate voice agents, which are AI systems used for spoken task completion.",
+        "It addresses two key gaps in current evaluation: generating realistic simulated conversations and measuring quality across specific voice-related failure modes.",
+        "The framework orchestrates bot-to-bot interactions for comprehensive testing of these conversational AI systems."
       ]
     },
     {
       "id": 43,
-      "title": "What Limits Vision-and-Language Navigation ?",
-      "url": "https://arxiv.org/abs/2605.13328v1",
-      "source": "arXiv NLP",
-      "author": "Renjing Xu",
+      "title": "Improving Reproducibility in Evaluation through Multi-Level Annotator Modeling",
+      "url": "https://arxiv.org/abs/2605.13801v1",
+      "source": "arXiv AI",
+      "author": "Christopher M. Homan",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses limitations in Vision-and-Language Navigation (VLN), a key area in embodied intelligence.",
-        "A major hurdle is the performance drop when moving from simulation to real-world environments due to perceptual instability (e.g., lighting, motion blur).",
-        "The authors suggest the bottleneck is not just model size/data, but the lack of robust spatial grounding in current methods."
+        "The paper addresses the reproducibility crisis in AI evaluations, particularly for generative models like LLMs.",
+        "The core problem identified is the variance and subjective bias introduced by human annotators during model assessment.",
+        "The proposed solution involves developing Multi-Level Annotator Modeling to improve the reliability of evaluations."
       ]
     },
     {
-      "id": 72,
-      "title": "How to use Vercel's Deepsec with ollama",
-      "url": "https://dev.to/vishal_veerareddy_9cdd17d/how-to-use-vercels-deepsec-with-ollama-20pa",
-      "source": "Dev.to",
-      "author": "vishal_veerareddy_9cdd17d",
-      "timestamp": "2026-05-14T01:38:46Z",
+      "id": 45,
+      "title": "EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents",
+      "url": "https://arxiv.org/abs/2605.13841v1",
+      "source": "arXiv Machine Learning",
+      "author": "Srinivas Sunkara",
+      "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The article details integrating Vercel's Deepsec for AI-powered security audits.",
-        "It focuses on running continuous security checks directly on a codebase.",
-        "The implementation utilizes Ollama for local execution of the AI tools."
+        "EVA-Bench is a new end-to-end framework designed to evaluate voice agents, which are AI systems handling spoken conversations.",
+        "It addresses two key gaps in current evaluation: generating realistic simulated conversations and measuring quality across voice-specific failure modes.",
+        "The framework orchestrates bot-to-bot interactions for comprehensive testing of these enterprise-deployed voice agents."
       ]
     },
     {
-      "id": 73,
-      "title": "How I Monitor AI Agents: CloudWatch for Infra, Arize Phoenix for Traces and OpenTelemetry, LLM-as-Judge for Quality",
-      "url": "https://dev.to/aws-heroes/how-i-monitor-ai-agents-cloudwatch-for-infra-arize-phoenix-for-traces-and-opentelemetry-4iam",
-      "source": "Dev.to",
-      "author": "ccortezb",
-      "timestamp": "2026-05-14T00:56:26Z",
+      "id": 47,
+      "title": "R-DMesh: Video-Guided 3D Animation via Rectified Dynamic Mesh Flow",
+      "url": "https://arxiv.org/abs/2605.13838v1",
+      "source": "arXiv Machine Learning",
+      "author": "Xiang Bai",
+      "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The article details a practical, multi-layered approach to monitoring AI agents.",
-        "It combines infrastructure monitoring (CloudWatch) with tracing/observability (Arize Phoenix/OpenTelemetry).",
-        "A novel aspect is the use of LLM-as-Judge for evaluating the quality of the agents' outputs."
+        "The paper addresses the 'pose misalignment dilemma' in video-guided 3D animation.",
+        "R-DMesh proposes a solution using Rectified Dynamic Mesh Flow to handle mismatched initial poses.",
+        "This work aims to improve the practical deployment and geometric accuracy of content creation tools."
+      ]
+    },
+    {
+      "id": 49,
+      "title": "QLAM: A Quantum Long-Attention Memory Approach to Long-Sequence Token Modeling",
+      "url": "https://arxiv.org/abs/2605.13833v1",
+      "source": "arXiv Machine Learning",
+      "author": "Khoa Luu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper addresses the scalability limitations of Transformer models when handling very long sequences due to their quadratic complexity.",
+        "It proposes QLAM, a Quantum Long-Attention Memory Approach designed to improve upon existing sequence modeling techniques.",
+        "QLAM aims to bridge the gap between attention mechanisms and efficient State-Space Models (SSMs) for better long-range dependency modeling."
+      ]
+    },
+    {
+      "id": 56,
+      "title": "EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents",
+      "url": "https://arxiv.org/abs/2605.13841v1",
+      "source": "arXiv NLP",
+      "author": "Srinivas Sunkara",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces EVA-Bench, a new end-to-end framework for evaluating voice agents.",
+        "Addresses the dual challenge of generating realistic simulated conversations and measuring voice-specific failure modes.",
+        "Relevant as voice agents are increasingly deployed in enterprise applications."
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Good Agentic Friends Do Not Just Give Verbal Advice: They Can Update Your Weights",
+      "url": "https://arxiv.org/abs/2605.13839v1",
+      "source": "arXiv NLP",
+      "author": "Yuzhang Shang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Traditional multi-agent LLM communication relies on serializing intermediate computations into natural language tokens.",
+        "This token-based exchange incurs significant overhead in terms of generated-token cost, prefill overhead, and KV-cache memory.",
+        "The research proposes an alternative interface: compiling sender hidden states into a transient format instead of using text messages."
+      ]
+    },
+    {
+      "id": 59,
+      "title": "An LLM-Based System for Argument Reconstruction",
+      "url": "https://arxiv.org/abs/2605.13793v1",
+      "source": "arXiv NLP",
+      "author": "Douglas Aldred",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces an end-to-end LLM-based system for argument reconstruction from natural language.",
+        "The system converts textual arguments into structured abstract argument graphs.",
+        "It employs a multi-stage pipeline to identify argumentative components and their logical relations."
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Where Does Reasoning Break? Step-Level Hallucination Detection via Hidden-State Transport Geometry",
+      "url": "https://arxiv.org/abs/2605.13772v1",
+      "source": "arXiv NLP",
+      "author": "Ali Baheri",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research addresses the limitation of current LLM hallucination detectors, which operate only at the full output (trace) level.",
+        "The paper proposes framing hallucination as a property of the hidden-state trajectory during a single forward pass.",
+        "It introduces a method to detect errors by analyzing the geometry of the hidden-state transitions, distinguishing coherent reasoning from localized excursions."
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Senses Wide Shut: A Representation-Action Gap in Omnimodal LLMs",
+      "url": "https://arxiv.org/abs/2605.13737v1",
+      "source": "arXiv NLP",
+      "author": "Ziwei Liu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper investigates the 'representation-action gap' in omnimodal LLMs when textual premises conflict with sensory input (video/audio).",
+        "It highlights a critical, untested aspect of grounding in perception-grounded agents: detecting internal contradictions between text and sensory data.",
+        "The authors introduce IMAVB, a new 500-clip benchmark derived from long-form movies to test this capability."
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety",
+      "url": "https://arxiv.org/abs/2605.13709v1",
+      "source": "arXiv NLP",
+      "author": "Walter L. Leite",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the challenge of LLM-generated stories being too difficult for children and high operational costs in education.",
+        "Proposes fine-tuning compact 8B-parameter LLMs using an expert-designed curriculum and existing high-quality data (GPT-4o, Llama 3.3 70B).",
+        "Focuses on achieving controllable difficulty and safety in educational content generation using smaller, more efficient models."
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Why “Just Prompting” Fails on Private Data: A RAG Post‑Mortem",
+      "url": "https://dev.to/jacobjerryarackal/why-just-prompting-fails-on-private-data-a-rag-post-mortem-3lib",
+      "source": "Dev.to",
+      "author": "jacobjerryarackal",
+      "timestamp": "2026-05-14T08:04:27Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The article addresses the limitations of simple 'prompting' when dealing with sensitive, private enterprise data.",
+        "It focuses on the practical challenges and failures encountered during a Retrieval-Augmented Generation (RAG) implementation.",
+        "The context involves using large internal documents (e.g., 400-page handbooks) containing compliance and HR policies."
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Build a Real-Time Voice RAG Agent for Your Documentation",
+      "url": "https://dev.to/reeshee/build-a-real-time-voice-rag-agent-for-your-documentation-3i5d",
+      "source": "Dev.to",
+      "author": "reeshee",
+      "timestamp": "2026-05-14T02:37:51Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The article focuses on building a Real-Time Voice Retrieval-Augmented Generation (RAG) agent.",
+        "The application is geared towards making documentation (like product or API guides) easily queryable via voice.",
+        "It addresses the need for on-the-fly, conversational assistance during software development."
       ]
     }
   ]
