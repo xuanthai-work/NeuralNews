@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-14T19:25:31.878680",
-  "total_stories": 44,
+  "generated_at": "2026-05-15T01:49:55.312258",
+  "total_stories": 39,
   "sources": [
     "Ars Technica",
-    "Dev.to",
-    "Hacker News",
-    "arXiv NLP",
-    "arXiv Machine Learning",
-    "Lobsters",
-    "The Verge",
     "Hugging Face Benchmarks",
+    "Hacker News",
     "arXiv AI",
-    "Ollama"
+    "The Verge",
+    "Dev.to",
+    "Lobsters",
+    "arXiv NLP",
+    "Ollama",
+    "arXiv Machine Learning"
   ],
   "stories": [
     {
@@ -23,9 +23,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
-        "It is categorized under key ML/AI tags such as 'transformers', 'llama', and 'text-generation'.",
-        "This indicates active community interest and benchmarking around a significant open-source LLM."
+        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
+        "It relates to core NLP/ML technologies, specifically text-generation pipelines.",
+        "Key associated technologies include transformers, safetensors, and the Llama architecture."
       ]
     },
     {
@@ -37,27 +37,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
-        "It pertains to the core field of large language models (LLMs) and text generation.",
-        "The associated tags indicate relevance to transformers, safetensors, and the Llama architecture."
+        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It is categorized under core NLP/ML topics such as 'transformers' and 'text-generation'.",
+        "The model belongs to the Llama family, indicating relevance within the current large language model ecosystem."
       ]
     },
     {
-      "id": 20,
-      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "source": "The Verge",
-      "author": "Hayden Field",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Elon Musk has sued OpenAI, alleging the company has deviated from its founding mission.",
-        "Musk claims OpenAI is prioritizing profit over its original goal of benefiting humanity through AI.",
-        "The high-stakes court battle could significantly impact the future direction of OpenAI and ChatGPT."
-      ]
-    },
-    {
-      "id": 27,
+      "id": 31,
       "title": "Zero-day exploit completely defeats default Windows 11 BitLocker protections",
       "url": "https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/",
       "source": "Ars Technica",
@@ -66,50 +52,22 @@
       "ai_score": 9,
       "bullet_points": [
         "A zero-day exploit has been discovered that bypasses default BitLocker protections in Windows 11.",
-        "The specific mechanism of the exploit is currently unknown and is under investigation by Microsoft.",
-        "This represents a critical security vulnerability affecting a core Windows feature."
+        "The specific mechanism of the exploit is currently unknown, and Microsoft is actively investigating.",
+        "This represents a significant security vulnerability affecting a core Windows feature."
       ]
     },
     {
       "id": 40,
-      "title": "History Anchors: How Prior Behavior Steers LLM Decisions Toward Unsafe Actions",
-      "url": "https://arxiv.org/abs/2605.13825v1",
+      "title": "XFP: Quality-Targeted Adaptive Codebook Quantization with Sparse Outlier Separation for LLM Inference",
+      "url": "https://arxiv.org/abs/2605.14844v1",
       "source": "arXiv AI",
-      "author": "Alberto G. Rodríguez Salgado",
+      "author": "Thomas Witt",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The research investigates how prior harmful actions in a log of tool calls influence the decision-making of frontier LLM agents.",
-        "A benchmark called HistoryAnchor-100 was created, testing models across ten high-stakes domains with forced harmful preceding steps.",
-        "The study addresses a critical safety concern: whether LLMs will continue a harmful course of action based on past behavior."
-      ]
-    },
-    {
-      "id": 51,
-      "title": "Negation Neglect: When models fail to learn negations in training",
-      "url": "https://arxiv.org/abs/2605.13829v1",
-      "source": "arXiv Machine Learning",
-      "author": "Owain Evans",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Introduces 'Negation Neglect,' a failure mode where LLMs incorrectly learn claims as true despite being trained on documents explicitly flagging them as false.",
-        "The issue persists even when the model can correctly identify the claim as false when presented in a contextual setting.",
-        "Highlights a critical vulnerability in fine-tuning LLMs, suggesting that negative reinforcement or contradiction within training data can lead to factual errors."
-      ]
-    },
-    {
-      "id": 69,
-      "title": "First public macOS kernel memory corruption exploit on Apple M5",
-      "url": "https://blog.calif.io/p/first-public-kernel-memory-corruption",
-      "source": "Hacker News",
-      "author": "quadrige",
-      "timestamp": "2026-05-14T18:25:09",
-      "ai_score": 9,
-      "bullet_points": [
-        "Discovery of the first public macOS kernel memory corruption exploit targeting Apple M5.",
-        "This represents a significant security vulnerability in Apple's operating system.",
-        "Kernel exploits are high-impact security findings, indicating a major vulnerability class."
+        "Introduces XFP, a novel dynamic weight quantizer specifically designed for efficient LLM inference.",
+        "Inverts traditional quantization workflows by allowing operators to set reconstruction quality floors directly, eliminating manual calibration and bit-width selection.",
+        "Achieves efficiency through automatic determination of codebook size and utilizes sparse outlier separation for weight matrix decomposition."
       ]
     },
     {
@@ -122,8 +80,8 @@
       "ai_score": 8,
       "bullet_points": [
         "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
-        "The model is categorized for text-generation tasks, indicating its primary function.",
-        "It is associated with key ML technologies like transformers and safetensors."
+        "The model is categorized for text-generation and conversational AI tasks.",
+        "It utilizes standard ML components like transformers and safetensors."
       ]
     },
     {
@@ -135,9 +93,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The content highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It is categorized under key AI/ML technologies like transformers and PyTorch.",
-        "The pipeline indicates its primary function is text generation."
+        "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
+        "It is categorized under key ML/AI technologies like transformers and PyTorch.",
+        "The pipeline indicates the model is used for text generation tasks."
       ]
     },
     {
@@ -149,9 +107,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, has integrated MLX for performance optimization.",
-        "This update specifically targets Apple Silicon, leveraging Apple's native ML framework.",
+        "Ollama, a popular local LLM runner, now integrates MLX for performance optimization.",
+        "This update specifically targets Apple Silicon, offering a faster execution experience for users on Apple hardware.",
         "The feature is currently available in preview, indicating ongoing development and optimization."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "OpenClaw",
+      "url": "https://ollama.com/blog/openclaw",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "OpenClaw is a personal AI assistant designed for local execution.",
+        "It integrates messaging apps with local AI coding agents.",
+        "The key feature is running all AI processes entirely on the user's own device for privacy/control."
       ]
     },
     {
@@ -163,8 +135,8 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama introduces a new command to simplify the setup and execution of coding tools.",
-        "It enables running various coding models (Claude Code, OpenCode, Codex) using local or cloud infrastructure.",
+        "Ollama introduces a new command for running coding tools locally or in the cloud.",
+        "It supports various coding models, including Claude Code, OpenCode, and Codex.",
         "A key feature is its simplicity, requiring no environment variables or configuration files."
       ]
     },
@@ -177,27 +149,27 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification.",
-        "The models, available in 20B and 120B sizes, are being brought to users via a partnership with OpenAI and ROOST.",
-        "The models are permissively licensed under the Apache 2.0 license, promoting open use."
+        "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification tasks.",
+        "The models are available in two sizes (20B and 120B) and are permissively licensed under Apache 2.0.",
+        "This partnership with OpenAI and ROOST aims to bring advanced safety tooling to the open-source community."
       ]
     },
     {
       "id": 21,
-      "title": "Netflix is building an AI animation studio",
-      "url": "https://www.theverge.com/column/930118/netflix-gen-ai-animation-inkubator",
+      "title": "OpenAI’s Codex is now in the ChatGPT mobile app",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview",
       "source": "The Verge",
-      "author": "Janko Roettgers",
+      "author": "Jay Peters",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Netflix is developing an internal studio named INKubator.",
-        "The studio's primary focus is leveraging Artificial Intelligence to create short-form animated content.",
-        "Netflix is actively hiring for various roles related to this new AI-driven animation initiative."
+        "OpenAI is integrating Codex, its code-writing AI tool, into the ChatGPT mobile application.",
+        "This move is part of OpenAI's effort to compete with rivals like Anthropic's Claude Code.",
+        "The update allows users to access Codex's desktop functionality (code writing, app use) via their phone."
       ]
     },
     {
-      "id": 28,
+      "id": 32,
       "title": "Your doctor’s AI notetaker may be making things up, Ontario audit finds",
       "url": "https://arstechnica.com/health/2026/05/your-doctors-ai-notetaker-may-be-making-things-up-ontario-audit-finds/",
       "source": "Ars Technica",
@@ -205,121 +177,107 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "An Ontario audit revealed significant inaccuracies in AI-powered doctor notetakers.",
-        "The AI systems were found to be generating fabricated therapy referrals and incorrect prescriptions.",
-        "The story highlights critical safety and reliability concerns regarding the deployment of AI in healthcare."
+        "An audit in Ontario revealed significant errors in AI-powered doctor notetakers.",
+        "Common mistakes include the generation of fabricated therapy referrals and incorrect prescriptions.",
+        "The story highlights critical reliability and accuracy concerns regarding AI adoption in healthcare."
       ]
     },
     {
       "id": 35,
-      "title": "WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data",
-      "url": "https://arxiv.org/abs/2605.13846v1",
+      "title": "Do Coding Agents Understand Least-Privilege Authorization?",
+      "url": "https://arxiv.org/abs/2605.14859v1",
       "source": "arXiv AI",
-      "author": "Liang Zheng",
+      "author": "Mengkang Hu",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces WARDEN, an early language model for transcription and translation of Wardaman, an endangered Indigenous Australian language.",
-        "Addresses the critical challenge of extremely limited data, achieving functionality with only 6 hours of annotated audio.",
-        "Represents a significant step toward low-resource NLP, challenging the reliance on large-scale datasets common in mainstream AI."
-      ]
-    },
-    {
-      "id": 36,
-      "title": "EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents",
-      "url": "https://arxiv.org/abs/2605.13841v1",
-      "source": "arXiv AI",
-      "author": "Srinivas Sunkara",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces EVA-Bench, a new end-to-end framework specifically designed to evaluate voice agents.",
-        "Addresses critical gaps in existing benchmarks by jointly tackling realistic conversation simulation and comprehensive voice-specific failure mode measurement.",
-        "Relevant as voice agents are increasingly deployed in enterprise applications, making robust evaluation crucial for industry adoption."
-      ]
-    },
-    {
-      "id": 39,
-      "title": "Negation Neglect: When models fail to learn negations in training",
-      "url": "https://arxiv.org/abs/2605.13829v1",
-      "source": "arXiv AI",
-      "author": "Owain Evans",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces 'Negation Neglect,' a failure mode where fine-tuning LLMs on documents flagging a claim as false causes the model to believe the claim is true.",
-        "The phenomenon persists even when the model correctly identifies the claim as false when presented in a standard contextual setting.",
-        "This highlights a critical vulnerability in LLM training and fine-tuning processes related to handling negation and factual correction."
+        "The paper addresses the critical security need for least-privilege authorization as coding AI agents gain broader system access.",
+        "It introduces 'permission-boundary inference,' a method for models to automatically map a task to a precise file-level read/write/execute policy.",
+        "The research investigates whether current large language models can autonomously infer the necessary security boundaries for safe agent deployment."
       ]
     },
     {
       "id": 42,
-      "title": "Neurosymbolic Auditing of Natural-Language Software Requirements",
-      "url": "https://arxiv.org/abs/2605.13817v1",
+      "title": "Emotion-Attended Stateful Memory (EASM):The Architecture for Hyper-Personalization at Scale",
+      "url": "https://arxiv.org/abs/2605.14833v1",
       "source": "arXiv AI",
-      "author": "William Eiers",
+      "author": "Vansh Gupta",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Proposes a neurosymbolic approach to audit ambiguous and inconsistent natural-language software requirements.",
-        "Integrates Large Language Models (LLMs) with SMT solvers to translate requirements into formal logic.",
-        "Detects specification defects by analyzing stochastic variations and exposing inconsistencies in the formalization."
+        "Proposes Emotion-Attended Stateful Memory (EASM) to overcome the stateless nature of current LLMs.",
+        "EASM enables hyper-personalization by dynamically constructing user context using long-term history and emotional signals.",
+        "Addresses a key limitation in current NLP systems where personalization is limited despite RAG and fine-tuning."
       ]
     },
     {
-      "id": 55,
-      "title": "WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data",
-      "url": "https://arxiv.org/abs/2605.13846v1",
+      "id": 47,
+      "title": "XFP: Quality-Targeted Adaptive Codebook Quantization with Sparse Outlier Separation for LLM Inference",
+      "url": "https://arxiv.org/abs/2605.14844v1",
+      "source": "arXiv Machine Learning",
+      "author": "Thomas Witt",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces XFP, a novel, quality-targeted adaptive codebook quantizer specifically designed for LLM inference.",
+        "It inverts the standard workflow by allowing operators to set reconstruction quality floors, enabling automatic determination of codebook size and outlier budget.",
+        "The method achieves quantization without relying on traditional calibration data or manual bit-width selection, decomposing weights into sparse residuals."
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Video2GUI: Synthesizing Large-Scale Interaction Trajectories for Generalized GUI Agent Pretraining",
+      "url": "https://arxiv.org/abs/2605.14747v1",
       "source": "arXiv NLP",
-      "author": "Liang Zheng",
+      "author": "Hao Tian",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces WARDEN, an early language model designed for transcription and translation.",
-        "Addresses the critical challenge of low-resource languages, specifically using only 6 hours of annotated audio for Wardaman.",
-        "Represents a significant step toward applying AI/ML to endangered indigenous languages where large datasets are unavailable."
+        "Addresses the critical data scarcity issue in training generalized GUI agents.",
+        "Introduces Video2GUI, a fully automated framework to extract large-scale, grounded GUI interaction trajectories from video.",
+        "Aims to overcome limitations of existing datasets that rely on costly manual annotations and are domain-specific."
       ]
     },
     {
-      "id": 58,
-      "title": "Negation Neglect: When models fail to learn negations in training",
-      "url": "https://arxiv.org/abs/2605.13829v1",
+      "id": 62,
+      "title": "Mechanical Enforcement for LLM Governance:Evidence of Governance-Task Decoupling in Financial Decision Systems",
+      "url": "https://arxiv.org/abs/2605.14744v1",
       "source": "arXiv NLP",
-      "author": "Owain Evans",
+      "author": "Carlos Martí-González",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces 'Negation Neglect,' a failure mode where fine-tuning LLMs on documents flagging a claim as false causes the model to believe the claim is true.",
-        "The issue persists even when the model correctly identifies the claim as false when presented in a standard context.",
-        "This highlights a critical vulnerability in LLM training and fine-tuning processes related to handling negation and factual contradiction."
+        "Addresses a critical governance failure in LLMs used in regulated financial workflows: the model interpreting its own compliance policies.",
+        "Introduces five novel governance metrics designed to quantify policy compliance at the decision rationale level, moving beyond simple task accuracy.",
+        "Highlights the need for 'mechanical enforcement' to ensure LLM outputs are truly compliant and auditable in high-stakes environments."
       ]
     },
     {
-      "id": 64,
-      "title": "RTLC -- Research, Teach-to-Learn, Critique: A three-stage prompting paradigm inspired by the Feynman Learning Technique that lifts LLM-as-judge accuracy on JudgeBench with no fine-tuning",
-      "url": "https://arxiv.org/abs/2605.13695v1",
+      "id": 63,
+      "title": "Agentifying Patient Dynamics within LLMs through Interacting with Clinical World Model",
+      "url": "https://arxiv.org/abs/2605.14723v1",
       "source": "arXiv NLP",
-      "author": "Andrea Morandi",
+      "author": "Hongyuan Zha",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces RTLC, a novel three-stage prompting paradigm (Research, Teach-to-Learn, Critique) to improve LLM-as-judge accuracy.",
-        "Addresses the current weakness of LLM judges on objective-correctness tasks on benchmarks like JudgeBench.",
-        "Achieves performance lift without requiring fine-tuning, retrieval, or external tools, making it highly accessible."
+        "Introduces SepsisAgent, an LLM agent designed to assist in critical care decision-making for sepsis management.",
+        "Addresses the limitation of LLMs by integrating a learned Clinical World Model to simulate patient physiological responses.",
+        "Focuses on grounding LLM reasoning in action-conditioned patient dynamics for sequential treatment recommendations."
       ]
     },
     {
-      "id": 8,
-      "title": "OpenClaw",
-      "url": "https://ollama.com/blog/openclaw",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
+      "id": 68,
+      "title": "First public macOS kernel memory corruption exploit on Apple M5",
+      "url": "https://blog.calif.io/p/first-public-kernel-memory-corruption",
+      "source": "Hacker News",
+      "author": "quadrige",
+      "timestamp": "2026-05-14T18:25:09",
+      "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, ensuring all processing runs on the user's own device.",
-        "The core value proposition is providing AI assistance while maintaining data privacy through local execution."
+        "A public exploit targeting macOS kernel memory corruption has been discovered.",
+        "The vulnerability specifically affects Apple M5 chips/hardware.",
+        "This represents a significant security finding in the Apple ecosystem."
       ]
     },
     {
@@ -331,9 +289,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama now supports the Anthropic Messages API.",
+        "Ollama has expanded its compatibility to include the Anthropic Messages API.",
         "This integration allows users to leverage models like Claude Code within the Ollama ecosystem.",
-        "It bridges the gap between open-source local LLM deployment and proprietary API capabilities."
+        "The feature bridges the gap between open-source local models and proprietary API capabilities."
       ]
     },
     {
@@ -345,13 +303,27 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama enables the use of OpenAI's Codex CLI with open-weight models.",
-        "Codex functionality allows models to read, modify, and execute code within a working directory.",
+        "Ollama enables the use of OpenAI's Codex CLI with open-source models.",
+        "Codex functionality allows models to read, modify, and execute code locally.",
         "The integration supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
       ]
     },
     {
-      "id": 15,
+      "id": 18,
+      "title": "Meta brings virtual writing to everyone with Meta Ray-Ban Display glasses",
+      "url": "https://www.theverge.com/tech/930941/meta-ray-ban-display-virtual-neural-handwriting-apps-developer",
+      "source": "The Verge",
+      "author": "Jay Peters",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Meta is adding virtual writing capabilities to its Meta Ray-Ban Display smart glasses.",
+        "Users can now write messages using only hand gestures.",
+        "The feature is integrated across major platforms like WhatsApp, Messenger, and native Android/iOS messaging."
+      ]
+    },
+    {
+      "id": 23,
       "title": "Microsoft starts canceling Claude Code licenses",
       "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
       "source": "The Verge",
@@ -360,54 +332,26 @@
       "ai_score": 7,
       "bullet_points": [
         "Microsoft began offering access to Anthropic's Claude Code to its developers in December.",
-        "The initial rollout aimed to encourage non-coding employees (like PMs and designers) to experiment with coding.",
-        "The news indicates Microsoft is now starting to cancel licenses for Claude Code, suggesting a shift in strategy or usage."
+        "The initial rollout aimed to encourage non-coders (like PMs and designers) to experiment with coding.",
+        "The story indicates that Microsoft is now starting to cancel these Claude Code licenses, suggesting a shift in strategy or evaluation."
       ]
     },
     {
-      "id": 19,
-      "title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
-      "url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
-      "source": "The Verge",
-      "author": "Tom Warren",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Leaked images reveal details of Microsoft's upcoming Xbox Cloud Gaming controller.",
-        "The new controller is reportedly smaller and features Wi-Fi for direct server connection.",
-        "The leak originated from images obtained by Brazil's Anatel regulator."
-      ]
-    },
-    {
-      "id": 22,
-      "title": "Americans do not want AI data centers in their backyards",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/930477/ai-data-centers-gallup-survey-70-percent-opposition",
-      "source": "The Verge",
-      "author": "Stevie Bonifield",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "A Gallup survey indicates strong public opposition to the construction of AI data centers in local communities.",
-        "Over 70% of Americans surveyed oppose new data center construction in their area.",
-        "The sentiment is highly negative, with some respondents stating they would prefer living near a nuclear power plant over a data center."
-      ]
-    },
-    {
-      "id": 25,
-      "title": "AMD promises to bring improved, hardware-backed FSR 4 upscaling to older Radeon GPUs",
-      "url": "https://arstechnica.com/gadgets/2026/05/amd-promises-to-bring-improved-hardware-backed-fsr-4-upscaling-to-older-radeon-gpus/",
+      "id": 28,
+      "title": "Energy supplier abandons Lake Tahoe residents to serve data centers",
+      "url": "https://arstechnica.com/ai/2026/05/energy-supplier-abandons-lake-tahoe-residents-to-serve-data-centers/",
       "source": "Ars Technica",
-      "author": "Andrew Cunningham",
+      "author": "Jeremy Hsu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "AMD is planning to bring hardware-backed FSR 4 upscaling to older Radeon GPUs.",
-        "The implementation of FSR 4.1 on RDNA3 or RDNA2 GPUs might result in a noticeable performance decrease.",
-        "This development focuses on extending advanced upscaling technology to a wider range of existing hardware."
+        "Local residents in Lake Tahoe are facing energy competition from large data centers.",
+        "An energy supplier is prioritizing service to data centers over the needs of the town's 49,000 residents.",
+        "The issue highlights the growing strain that data center energy demands place on local infrastructure."
       ]
     },
     {
-      "id": 30,
+      "id": 34,
       "title": "Cisco announces record revenue and 4,000 layoffs in the same day",
       "url": "https://arstechnica.com/information-technology/2026/05/cisco-announces-record-revenue-and-4000-layoffs-in-the-same-day/",
       "source": "Ars Technica",
@@ -415,195 +359,167 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Cisco reported record revenue alongside significant workforce reductions.",
-        "The company's CFO explicitly stated the layoffs are not driven by cost-cutting measures.",
-        "The news highlights a common industry trend of large tech firms restructuring despite strong financial performance."
+        "Cisco reported record revenue alongside a significant announcement of 4,000 layoffs.",
+        "The company's CFO publicly stated that the layoffs are not driven by cost-cutting measures.",
+        "The news highlights a tension between strong financial performance and workforce reduction in the enterprise tech sector."
       ]
     },
     {
-      "id": 33,
-      "title": "Desperate Trump taps \"Tim Apple,\" Jensen Huang, Elon Musk to attend Xi summit",
-      "url": "https://arstechnica.com/tech-policy/2026/05/desperate-trump-taps-tim-apple-jensen-huang-elon-musk-to-attend-xi-summit/",
-      "source": "Ars Technica",
-      "author": "Ashley Belanger",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The article discusses potential high-level diplomatic pressure on Donald Trump regarding trade and geopolitical issues.",
-        "Key figures like Tim Apple, Jensen Huang, and Elon Musk are reportedly being leveraged to influence the outcome of a summit with Xi Jinping.",
-        "The central theme suggests that the summit could compel a change in Trump's stance on semiconductor restrictions and Taiwan."
-      ]
-    },
-    {
-      "id": 43,
-      "title": "Improving Reproducibility in Evaluation through Multi-Level Annotator Modeling",
-      "url": "https://arxiv.org/abs/2605.13801v1",
+      "id": 41,
+      "title": "GPart: End-to-End Isometric Fine-Tuning via Global Parameter Partitioning",
+      "url": "https://arxiv.org/abs/2605.14841v1",
       "source": "arXiv AI",
-      "author": "Christopher M. Homan",
+      "author": "Neo Christopher Chung",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the 'reproducibility crisis' in AI evaluation, particularly concerning generative models like LLMs.",
-        "The core problem identified is the variance and subjective bias introduced by human raters used for safety and utility assessment.",
-        "The proposed solution involves 'Multi-Level Annotator Modeling' to improve the reliability and consistency of evaluations."
+        "The paper addresses a critical limitation in Low-Rank Adaptation (LoRA), the dominant PEFT method for LLMs.",
+        "LoRA's bilinear structure causes the mapping from trainable parameters to weight updates to be non-distance-preserving, distorting optimization.",
+        "The proposed method, GPart, aims to achieve end-to-end isometric fine-tuning by using Global Parameter Partitioning."
       ]
     },
     {
-      "id": 45,
-      "title": "EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents",
-      "url": "https://arxiv.org/abs/2605.13841v1",
-      "source": "arXiv Machine Learning",
-      "author": "Srinivas Sunkara",
+      "id": 44,
+      "title": "A Heterogeneous Temporal Memory Governance Framework for Long-Term LLM Persona Consistency",
+      "url": "https://arxiv.org/abs/2605.14802v1",
+      "source": "arXiv AI",
+      "author": "Lin Hujite",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "EVA-Bench is a new end-to-end framework designed to evaluate voice agents, which are AI systems handling spoken conversations for tasks.",
-        "It addresses two key gaps in existing benchmarks: generating realistic simulated conversations and measuring quality across voice-specific failure modes.",
-        "The framework orchestrates bot-to-bot interactions to provide a comprehensive evaluation of voice agent performance."
+        "Addresses key LLM limitations like persona drift and fact loss during long-term interactions.",
+        "Introduces ARPM, an external temporal memory governance framework for dialogue.",
+        "ARPM separates static knowledge from dynamic dialogue experience, utilizing advanced retrieval techniques (vector, BM25, RRF fusion)."
       ]
     },
     {
-      "id": 47,
-      "title": "R-DMesh: Video-Guided 3D Animation via Rectified Dynamic Mesh Flow",
-      "url": "https://arxiv.org/abs/2605.13838v1",
+      "id": 48,
+      "title": "GPart: End-to-End Isometric Fine-Tuning via Global Parameter Partitioning",
+      "url": "https://arxiv.org/abs/2605.14841v1",
       "source": "arXiv Machine Learning",
-      "author": "Xiang Bai",
+      "author": "Neo Christopher Chung",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the 'pose misalignment dilemma' in video-guided 3D animation.",
-        "R-DMesh proposes a solution using Rectified Dynamic Mesh Flow to handle initial pose mismatches.",
-        "The work aims to improve the practical deployment of intuitive, video-driven 3D content creation."
+        "The paper addresses a critical limitation in Low-Rank Adaptation (LoRA), the dominant PEFT method for LLMs, where its bilinear structure distorts the optimization landscape.",
+        "The research proposes 'GPart,' an end-to-end isometric fine-tuning approach utilizing Global Parameter Partitioning.",
+        "The work aims to overcome issues in existing methods (like Uni-LoRA) where the subsequent bilinear LoRA mapping breaks end-to-end consistency."
       ]
     },
     {
-      "id": 49,
-      "title": "QLAM: A Quantum Long-Attention Memory Approach to Long-Sequence Token Modeling",
-      "url": "https://arxiv.org/abs/2605.13833v1",
+      "id": 50,
+      "title": "GenAI for Energy-Efficient and Interference-Aware Compressed Sensing of GNSS Signals on a Google Edge TPU",
+      "url": "https://arxiv.org/abs/2605.14839v1",
       "source": "arXiv Machine Learning",
-      "author": "Khoa Luu",
+      "author": "Alexander Rügamer",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "QLAM proposes a Quantum Long-Attention Memory approach to address long-sequence token modeling challenges.",
-        "It aims to overcome the quadratic complexity limitations of standard Transformer attention mechanisms.",
-        "The research contrasts its approach with State-Space Models (SSMs), noting their linear complexity but potential memory limitations."
+        "Proposes using Generative AI (GenAI) for real-time, on-device classification of GNSS jamming and spoofing attacks.",
+        "Addresses the inefficiency of traditional methods by performing data compression and classification directly at the hardware receiver (Google Edge TPU).",
+        "Offers a solution to reduce the need for costly, complex data transmission to cloud-based systems for interference detection."
       ]
     },
     {
-      "id": 52,
-      "title": "Reducing cross-sample prediction churn in scientific machine learning",
-      "url": "https://arxiv.org/abs/2605.13826v1",
+      "id": 54,
+      "title": "GFMate: Empowering Graph Foundation Models with Test-time Prompt Tuning",
+      "url": "https://arxiv.org/abs/2605.14809v1",
       "source": "arXiv Machine Learning",
-      "author": "Kevin Maik Jablonka",
+      "author": "Zi Huang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses 'cross-sample prediction churn' in scientific machine learning, a measure of prediction instability.",
-        "Testing across 9 chemistry benchmarks showed that while aggregate accuracy was similar, classifiers disagreed on class labels for 8.0% to 21.8% of test molecules.",
-        "This research highlights a gap in current scientific ML reporting, focusing on the robustness of predictions across different data samples."
+        "The paper introduces 'GFMate' to enhance Graph Foundation Models (GFMs) using test-time prompt tuning.",
+        "Existing graph prompt tuning methods often embed source-domain information directly into prompts or during pre-training.",
+        "GFMate aims to address the limitation of prompt entanglement by improving GFM performance via auxiliary prompts."
       ]
     },
     {
       "id": 56,
-      "title": "EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents",
-      "url": "https://arxiv.org/abs/2605.13841v1",
+      "title": "Graphs of Research: Citation Evolution Graphs as Supervision for Research Idea Generation",
+      "url": "https://arxiv.org/abs/2605.14790v1",
       "source": "arXiv NLP",
-      "author": "Srinivas Sunkara",
+      "author": "Hui Xiong",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "EVA-Bench is a new end-to-end framework designed to evaluate voice agents, which are AI systems for spoken task completion.",
-        "It addresses two key gaps in current evaluation: generating realistic simulated conversations and measuring quality across voice-specific failure modes.",
-        "The framework orchestrates bot-to-bot audio interactions to provide a comprehensive assessment of voice agent performance."
+        "Introduces 'Graphs of Research' (GoR), a novel method to improve research idea generation using LLMs.",
+        "GoR addresses a limitation in current LLM methods by incorporating the structural relationships (2-hop connections) between cited literature.",
+        "The technique utilizes supervised fine-tuning to leverage citation evolution graphs as supervision for automated scientific discovery."
       ]
     },
     {
-      "id": 57,
-      "title": "Good Agentic Friends Do Not Just Give Verbal Advice: They Can Update Your Weights",
-      "url": "https://arxiv.org/abs/2605.13839v1",
+      "id": 58,
+      "title": "Streaming Speech-to-Text Translation with a SpeechLLM",
+      "url": "https://arxiv.org/abs/2605.14766v1",
       "source": "arXiv NLP",
-      "author": "Yuzhang Shang",
+      "author": "Rogier C. van Dalen",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes an alternative communication interface for multi-agent LLM systems to move beyond simple natural-language message exchange.",
-        "Addresses performance bottlenecks in current LLM collaboration, specifically tokenization overhead, prefill overhead, and KV-cache memory usage.",
-        "Suggests compiling a sender's hidden states into a transient format instead of serializing them into tokens for the receiver."
+        "The research proposes a SpeechLLM to combine speech recognition and text translation into a single model.",
+        "The primary advantage is leveraging paralinguistic information and reducing errors from cascaded systems.",
+        "A key limitation addressed is the lack of real-time streaming capability in existing SpeechLLM systems."
       ]
     },
     {
       "id": 59,
-      "title": "An LLM-Based System for Argument Reconstruction",
-      "url": "https://arxiv.org/abs/2605.13793v1",
+      "title": "Persian MusicGen: A Large-Scale Dataset and Culturally-Aware Generative Model for Persian Music",
+      "url": "https://arxiv.org/abs/2605.14765v1",
       "source": "arXiv NLP",
-      "author": "Douglas Aldred",
+      "author": "Mahdieh Soleymani Baghshah",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces an end-to-end LLM-based system for argument reconstruction from natural language.",
-        "The system converts textual arguments into abstract argument graphs using a multi-stage pipeline.",
-        "It progressively identifies argumentative components, selects relevant elements, and maps their logical relations."
+        "Introduces 'Persian MusicGen,' a generative model specifically designed for Persian music.",
+        "Addresses the limitations of Western-centric music generation models by focusing on unique Persian musical elements (Dastgah, tonalities).",
+        "Presents a novel, large-scale dataset of over 900 hours of high-quality Persian music across various sub-genres."
       ]
     },
     {
       "id": 60,
-      "title": "Where Does Reasoning Break? Step-Level Hallucination Detection via Hidden-State Transport Geometry",
-      "url": "https://arxiv.org/abs/2605.13772v1",
+      "title": "Non-linear Interventions on Large Language Models",
+      "url": "https://arxiv.org/abs/2605.14749v1",
       "source": "arXiv NLP",
-      "author": "Ali Baheri",
+      "author": "Sangwoo Kim",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the limitation of existing LLM hallucination detectors, which operate only at the full output (trace) level.",
-        "Proposes framing hallucination as a property of the hidden-state trajectory during a single forward pass.",
-        "Suggests that correct reasoning follows a stable manifold, while errors manifest as localized excursions in the hidden state."
+        "The research addresses a limitation in current LLM interpretability methods, which are primarily confined to linear interventions.",
+        "It introduces a general formulation of intervention capable of analyzing features encoded along non-linear manifolds within LLMs.",
+        "This work aims to extend the understanding of LLM internal representations beyond the constraints of the Linear Representation Hypothesis."
       ]
     },
     {
-      "id": 61,
-      "title": "Dense vs Sparse Pretraining at Tiny Scale: Active-Parameter vs Total-Parameter Matching",
-      "url": "https://arxiv.org/abs/2605.13769v1",
+      "id": 64,
+      "title": "IntentVLA: Short-Horizon Intent Modeling for Aliased Robot Manipulation",
+      "url": "https://arxiv.org/abs/2605.14712v1",
       "source": "arXiv NLP",
-      "author": "Abdalrahman Wael",
+      "author": "Kai Chen",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research compares dense vs. Mixture-of-Experts (MoE) transformers in a tiny-scale pretraining setting.",
-        "It investigates the trade-offs between active-parameter matching (sparse) and total-parameter matching (dense).",
-        "The study uses a shared LLaMA-style decoder training recipe while keeping most architectural components constant."
+        "Addresses the challenge of multimodal robot imitation data where similar observations can lead to different actions due to underlying short-horizon intents.",
+        "Identifies that existing Vision-Language-Action (VLA) policies struggle with partial observability, causing intent resampling and execution instability.",
+        "Introduces 'IntentVLA' as a method to model short-horizon intents to improve the robustness and consistency of robot manipulation policies."
       ]
     },
     {
-      "id": 62,
-      "title": "Senses Wide Shut: A Representation-Action Gap in Omnimodal LLMs",
-      "url": "https://arxiv.org/abs/2605.13737v1",
-      "source": "arXiv NLP",
-      "author": "Ziwei Liu",
-      "timestamp": null,
+      "id": 74,
+      "title": "Tesla Wall Connector bootloader bypasses the firmware downgrade ratchet",
+      "url": "https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing",
+      "source": "Hacker News",
+      "author": "p_stuart82",
+      "timestamp": "2026-05-14T20:41:48",
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses a critical gap in omnimodal LLMs: the ability to detect contradictions between textual input and actual sensory perception (video/audio).",
-        "The paper introduces IMAVB, a new 500-clip benchmark derived from long-form movies to test this 'representation-action gap'.",
-        "It questions whether failures in multimodal agents stem from flawed perception or flawed action/reasoning when faced with contradictory information."
+        "A vulnerability was discovered in the Tesla Wall Connector bootloader.",
+        "The bypass allows for circumventing the firmware downgrade protection mechanism.",
+        "This represents a security flaw in a widely used EV charging hardware component."
       ]
     },
     {
-      "id": 63,
-      "title": "Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety",
-      "url": "https://arxiv.org/abs/2605.13709v1",
-      "source": "arXiv NLP",
-      "author": "Walter L. Leite",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses the practical challenges of using LLMs in education, specifically story generation for children.",
-        "Focuses on making LLM applications more accessible and cost-effective by fine-tuning smaller (8B-parameter) LLMs.",
-        "Introduces methods for controlling the difficulty and ensuring the safety of AI-generated educational content."
-      ]
-    },
-    {
-      "id": 86,
+      "id": 85,
       "title": "Old PC vs New AI: Can a 2015 Desktop Actually Run Gemma 4? (2B vs 4B Benchmark)",
       "url": "https://dev.to/gramli/old-pc-vs-new-ai-can-a-2015-desktop-actually-run-gemma-4-2b-vs-4b-benchmark-2eg6",
       "source": "Dev.to",
@@ -611,13 +527,13 @@
       "timestamp": "2026-05-14T06:23:32Z",
       "ai_score": 7,
       "bullet_points": [
-        "Examines the feasibility of running modern AI models (specifically Gemma 4 variants) on older, legacy hardware (2015 desktop).",
-        "Focuses on the performance comparison between smaller model sizes (2B vs 4B) to assess local inference capability.",
-        "Addresses the growing trend of local, on-device AI deployment despite hardware limitations."
+        "The article explores the feasibility of running modern AI models (like Gemma 4) on older, legacy hardware (a 2015 desktop).",
+        "It focuses on benchmarking smaller, optimized models (2B vs 4B) to test local inference capabilities.",
+        "The topic is relevant to the growing trend of edge AI and local LLM deployment, despite the hardware limitations."
       ]
     },
     {
-      "id": 93,
+      "id": 90,
       "title": "I Ran SERP Feature Detection on 8 Nigerian Creator Queries. Every Single One Had an AI Overview.",
       "url": "https://dev.to/dannwaneri/i-ran-serp-feature-detection-on-8-nigerian-creator-queries-every-single-one-had-an-ai-overview-51ko",
       "source": "Dev.to",
@@ -626,8 +542,22 @@
       "ai_score": 7,
       "bullet_points": [
         "The article details the implementation of a SERP feature detection module for an SEO agent.",
-        "The author tested this module on 8 Nigerian creator queries.",
-        "The key finding was that every single query resulted in an AI Overview on the search results page."
+        "The author tested this module on queries targeting Nigerian creators.",
+        "The key finding is the pervasive presence of AI Overviews across all tested queries."
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Gemma 4 26B on v6e-4 Turbo-Stable Benchmark",
+      "url": "https://dev.to/gde/gemma-4-26b-on-v6e-4-turbo-stable-benchmark-7pn",
+      "source": "Dev.to",
+      "author": "xbill",
+      "timestamp": "2026-05-14T19:01:43Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The Gemma 4 MoE stack has reached its definitive production state.",
+        "The evaluation was conducted on the TPU v6e-4 hardware.",
+        "The benchmark used for testing was the Turbo-Stable Benchmark."
       ]
     }
   ]
