@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-05-20T01:56:03.602375",
-  "total_stories": 35,
+  "generated_at": "2026-05-20T08:49:16.715328",
+  "total_stories": 43,
   "sources": [
-    "The Verge",
-    "Ars Technica",
-    "Ollama",
-    "Dev.to",
-    "Hacker News",
-    "arXiv Machine Learning",
     "Hugging Face Benchmarks",
+    "Hacker News",
+    "Ollama",
+    "Ars Technica",
+    "Dev.to",
+    "arXiv AI",
+    "The Verge",
+    "arXiv NLP",
     "Lobsters"
   ],
   "stories": [
@@ -21,9 +22,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It is categorized under key AI/ML domains including 'transformers' and 'text-generation'.",
-        "The presence of 'safetensors' indicates modern, secure model handling practices."
+        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face.",
+        "It is categorized under key AI/ML technologies including transformers and llama.",
+        "The primary use case demonstrated is text-generation."
       ]
     },
     {
@@ -35,13 +36,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It is categorized under key ML/NLP tags like 'transformers' and 'text-generation'.",
-        "This indicates active community interest and benchmarking around Meta's Llama ecosystem."
+        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
+        "It is categorized under key AI/ML domains including transformers, safetensors, and text-generation.",
+        "This indicates active community interest and benchmarking activity around Meta's latest Llama iteration."
       ]
     },
     {
-      "id": 30,
+      "id": 31,
       "title": "Google's SynthID AI watermarking tech is being adopted by OpenAI, Nvidia, and more",
       "url": "https://arstechnica.com/google/2026/05/googles-synthid-ai-watermarking-tech-is-being-adopted-by-openai-nvidia-and-more/",
       "source": "Ars Technica",
@@ -50,12 +51,12 @@
       "ai_score": 9,
       "bullet_points": [
         "Google's SynthID watermarking technology is gaining traction across the AI industry.",
-        "Major players like OpenAI and Nvidia are adopting SynthID to combat AI-generated misinformation.",
-        "The technology addresses the growing challenge of distinguishing authentic content from synthetic AI output."
+        "Major players like OpenAI and Nvidia are adopting this technology.",
+        "The adoption aims to combat the proliferation of AI-generated misinformation and distinguish truth from fiction."
       ]
     },
     {
-      "id": 31,
+      "id": 32,
       "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
       "url": "https://arstechnica.com/information-technology/2026/05/in-stunning-display-of-stupid-secret-cisa-credentials-found-in-public-github-repo/",
       "source": "Ars Technica",
@@ -64,12 +65,40 @@
       "ai_score": 9,
       "bullet_points": [
         "Sensitive credentials (SSH keys, plaintext passwords) were exposed in a public GitHub repository.",
-        "The exposed data included CISA credentials, indicating a high-profile security risk.",
-        "The vulnerability has been present in the public repository since November 2025."
+        "The exposed data included CISA credentials, indicating a high-stakes security breach.",
+        "The sensitive information was publicly accessible since November 2025."
       ]
     },
     {
-      "id": 45,
+      "id": 34,
+      "title": "Gemini 3.5 Flash might be fast enough for gen AI to make sense",
+      "url": "https://arstechnica.com/google/2026/05/google-announces-agent-optimized-gemini-3-5-flash-and-a-do-anything-model-called-omni/",
+      "source": "Ars Technica",
+      "author": "Ryan Whitwam",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Gemini 3.5 Flash is highlighted by Google as a key component for future agentic AI.",
+        "The model's primary advantage is its increased efficiency, suggesting faster deployment and lower operational costs.",
+        "The news points toward a shift in AI development focusing on practical, fast, and scalable AI agents."
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Toto 2.0: Time Series Forecasting Enters the Scaling Era",
+      "url": "https://arxiv.org/abs/2605.20119v1",
+      "source": "arXiv AI",
+      "author": "David Asker",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Introduces Toto 2.0, a family of open-weights time series foundation models demonstrating scalability.",
+        "The models show reliable forecast-quality improvements across a wide parameter range (4M to 2.5B) using a single training recipe.",
+        "Toto 2.0 sets new state-of-the-art results on major forecasting benchmarks, including GIFT-Eval and TIME."
+      ]
+    },
+    {
+      "id": 58,
       "title": "Gemini 3.5 Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
       "source": "Hacker News",
@@ -77,27 +106,13 @@
       "timestamp": "2026-05-19T17:43:45",
       "ai_score": 9,
       "bullet_points": [
-        "Announcement of Gemini 3.5 Flash, indicating a new iteration in Google's AI model lineup.",
-        "The release suggests a focus on efficiency and speed, typical of 'Flash' model designations.",
-        "The news is directly relevant to developers and the broader AI industry due to its API availability."
+        "Google has released Gemini 3.5 Flash, indicating a new iteration in their AI model lineup.",
+        "The release is documented via the official Google AI developer API documentation.",
+        "The naming convention suggests a focus on speed and efficiency ('Flash') within the Gemini family."
       ]
     },
     {
-      "id": 49,
-      "title": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
-      "url": "https://openai.com/index/advancing-content-provenance/",
-      "source": "Hacker News",
-      "author": "smooke",
-      "timestamp": "2026-05-19T19:34:30",
-      "ai_score": 9,
-      "bullet_points": [
-        "OpenAI is integrating Google's SynthID technology into its AI image generation process.",
-        "This adoption signifies a major industry move toward digital provenance and watermarking for synthetic media.",
-        "The inclusion of a verification tool addresses growing concerns over AI-generated content authenticity."
-      ]
-    },
-    {
-      "id": 51,
+      "id": 64,
       "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
       "url": "https://github.com/antoinezambelli/forge",
       "source": "Hacker News",
@@ -105,9 +120,9 @@
       "timestamp": "2026-05-19T12:23:07",
       "ai_score": 9,
       "bullet_points": [
-        "Forge is an open-source reliability layer designed for self-hosted LLM tool-calling.",
-        "It implements domain-agnostic guardrails (e.g., retry nudges, error recovery) to improve LLM performance.",
-        "The system significantly boosts an 8B model's success rate on multi-step agentic tasks from 53% to 99% without retraining the model."
+        "Introduces 'Forge,' an open-source reliability layer for self-hosted LLM tool-calling.",
+        "The system significantly boosts the performance of local 8B models from 53% to 99% on complex agentic tasks.",
+        "Forge achieves this improvement by adding domain-agnostic guardrails (e.g., error recovery, step enforcement) without modifying the base model."
       ]
     },
     {
@@ -119,9 +134,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the 'deepseek-ai/DeepSeek-R1' model on Hugging Face Benchmarks.",
-        "The model is categorized under text-generation and conversational AI pipelines.",
-        "It utilizes standard ML components like transformers and safetensors, indicating a focus on practical LLM deployment."
+        "The story highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
+        "The model is categorized for text-generation and conversational AI tasks.",
+        "It utilizes common ML ecosystem components like transformers and safetensors."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "🤗 Trending: bigscience/bloom",
+      "url": "https://huggingface.co/bigscience/bloom",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
+        "It is categorized under core NLP/ML technologies like 'transformers' and 'pytorch'.",
+        "The pipeline shown is 'text-generation', indicating its primary application in generative AI."
       ]
     },
     {
@@ -133,9 +162,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, now integrates MLX for enhanced performance.",
-        "This integration specifically targets Apple Silicon, optimizing AI workloads on Apple hardware.",
-        "The feature is currently available in a preview build, indicating ongoing development and optimization."
+        "Ollama, a popular local LLM runner, is integrating MLX for enhanced performance.",
+        "This integration specifically targets Apple Silicon hardware, optimizing AI workloads for Apple devices.",
+        "The feature is currently available in a preview build, indicating active development and optimization."
       ]
     },
     {
@@ -147,9 +176,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, emphasizing on-device processing for privacy and control.",
-        "The tool aims to bridge the gap between messaging platforms and local, private AI capabilities."
+        "OpenClaw is a personal AI assistant designed for local, on-device operation.",
+        "It integrates messaging apps with local AI coding agents.",
+        "The core value proposition is running AI agents entirely on the user's own hardware for privacy/control."
       ]
     },
     {
@@ -161,9 +190,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama introduces a new command for running coding tools locally or in the cloud.",
-        "It simplifies the setup process by requiring no environment variables or config files.",
-        "The tool supports various coding models, including Claude Code, OpenCode, and Codex."
+        "Ollama introduces a new command for easily setting up and running coding tools.",
+        "It supports various coding models, including Claude Code, OpenCode, and Codex.",
+        "A key feature is its simplicity, requiring no environment variables or config files for setup."
       ]
     },
     {
@@ -175,13 +204,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification tasks.",
-        "The models come in two sizes (20B and 120B) and are released under the permissive Apache 2.0 license.",
-        "The partnership involves Ollama, OpenAI, and ROOST (Robust Open Online Safety Tools)."
+        "Ollama is partnering with OpenAI and ROOST to integrate gpt-oss-safeguard reasoning models.",
+        "These models are designed for safety classification tasks and are available in 20B and 120B sizes.",
+        "The gpt-oss-safeguard models are permissively licensed under the Apache 2.0 license, promoting open use."
       ]
     },
     {
-      "id": 17,
+      "id": 18,
       "title": "Demis Hassabis said this might be the ‘foothills of the singularity.’ What?",
       "url": "https://www.theverge.com/tech/934260/google-io-ai-singularity-demis-hassabis",
       "source": "The Verge",
@@ -189,13 +218,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Google DeepMind CEO Demis Hassabis made a high-profile statement at Google I/O regarding AGI.",
-        "Hassabis framed current advancements as potentially being the 'foothills of the singularity,' indicating major future potential.",
-        "The statement emphasized that Google's research aims to unlock AGI's potential for global benefit."
+        "Google DeepMind CEO Demis Hassabis framed current AI progress as potentially being the 'foothills of the singularity.'",
+        "Hassabis emphasized that Google's research aims to unlock the potential of Artificial General Intelligence (AGI) for global benefit.",
+        "The statement was delivered during the Google I/O keynote, signaling high-level corporate focus on advanced AI development."
       ]
     },
     {
-      "id": 19,
+      "id": 20,
       "title": "The future of Google is a search box that does everything",
       "url": "https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026",
       "source": "The Verge",
@@ -204,68 +233,54 @@
       "ai_score": 8,
       "bullet_points": [
         "Google's strategic shift is moving beyond simple search functionality.",
-        "The focus is on developing a unified interface where the search box handles comprehensive tasks.",
-        "This indicates a major industry trend toward AI-driven, all-in-one digital assistants."
+        "The focus is on creating an all-in-one assistant experience accessible via the search box.",
+        "This represents a significant evolution in how Google intends to interact with users."
       ]
     },
     {
-      "id": 29,
-      "title": "Two AI-based science assistants succeed with drug-retargeting tasks",
-      "url": "https://arstechnica.com/science/2026/05/two-ai-based-science-assistants-succeed-with-drug-retargeting-tasks/",
-      "source": "Ars Technica",
-      "author": "John Timmer",
+      "id": 45,
+      "title": "TIDE: Efficient and Lossless MoE Diffusion LLM Inference with I/O-aware Expert Offload",
+      "url": "https://arxiv.org/abs/2605.20179v1",
+      "source": "arXiv NLP",
+      "author": "Yuzhang Shang",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Two AI-based science assistants have demonstrated success in drug-retargeting tasks.",
-        "The tools are capable of generating scientific hypotheses, indicating advanced reasoning capabilities.",
-        "One of the assistants further demonstrated capability by analyzing relevant data."
+        "Introduces TIDE, a method for efficient and lossless inference of MoE Diffusion LLMs (dLLMs).",
+        "Addresses the deployment challenge of large-scale dLLMs on resource-constrained devices.",
+        "Combats existing bottlenecks by implementing I/O-aware expert offloading to improve hardware utilization."
       ]
     },
     {
-      "id": 33,
-      "title": "Gemini 3.5 Flash might be fast enough for gen AI to make sense",
-      "url": "https://arstechnica.com/google/2026/05/google-announces-agent-optimized-gemini-3-5-flash-and-a-do-anything-model-called-omni/",
-      "source": "Ars Technica",
-      "author": "Ryan Whitwam",
+      "id": 47,
+      "title": "ClinSeekAgent: Automating Multimodal Evidence Seeking for Agentic Clinical Reasoning",
+      "url": "https://arxiv.org/abs/2605.20176v1",
+      "source": "arXiv NLP",
+      "author": "Yuyin Zhou",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Google is positioning Gemini 3.5 Flash as a crucial component for the future of agentic AI.",
-        "The focus of the announcement is on the model's efficiency, suggesting it balances performance with speed.",
-        "The development implies a push toward making generative AI applications more practical and deployable."
+        "Introduces ClinSeekAgent, a framework designed to automate dynamic, multimodal evidence seeking for clinical reasoning.",
+        "Addresses a key limitation in current LLM applications in medicine: the assumption that evidence is pre-curated.",
+        "Shifts the paradigm from passive information consumption to active, iterative planning and synthesis of heterogeneous clinical data."
       ]
     },
     {
-      "id": 41,
-      "title": "EngiAI: A Multi-Agent Framework and Benchmark Suite for LLM-Driven Engineering Design",
-      "url": "https://arxiv.org/abs/2605.19743v1",
-      "source": "arXiv Machine Learning",
-      "author": "Mark Fuge",
+      "id": 52,
+      "title": "ThoughtTrace: Understanding User Thoughts in Real-World LLM Interactions",
+      "url": "https://arxiv.org/abs/2605.20087v1",
+      "source": "arXiv NLP",
+      "author": "Tianmin Shu",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces EngiAI, a new multi-agent framework specifically designed for LLM-driven engineering design.",
-        "Addresses a gap in current research by providing a benchmark suite that evaluates complex multi-agent systems combining simulation, retrieval, and manufacturing prep.",
-        "The benchmark suite includes a workflow evaluation with seven prompt styles targeting diverse cognitive demands like tool use and conditional branching."
+        "Introduces ThoughtTrace, a novel, large-scale dataset designed to capture users' internal thoughts during LLM interactions, moving beyond just transcribed dialogue.",
+        "The dataset pairs real-world multi-turn conversations with self-reported user thoughts, including prompt motivations and reactions to AI responses.",
+        "ThoughtTrace was collected across 20 different language models and involves over 1,000 users, providing a rich resource for understanding user intent in conversational AI."
       ]
     },
     {
-      "id": 44,
-      "title": "Awakening the Hydra: Stabilizing Multi-Concept Backdoor Injection in Text-to-Image Diffusion Models",
-      "url": "https://arxiv.org/abs/2605.19698v1",
-      "source": "arXiv Machine Learning",
-      "author": "Songze Li",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The research addresses the vulnerability of text-to-image diffusion models to multi-concept backdoor injection.",
-        "The risk is amplified in open-source ecosystems where models undergo sequential fine-tuning by multiple parties.",
-        "The core problem involves the accumulation of conflicting concept-specific trigger-target associations within a single model."
-      ]
-    },
-    {
-      "id": 68,
+      "id": 80,
       "title": "Gemini 3.5 Flash Developer Guide",
       "url": "https://dev.to/googleai/gemini-35-flash-developer-guide-1i46",
       "source": "Dev.to",
@@ -275,21 +290,21 @@
       "bullet_points": [
         "Gemini 3.5 Flash is now generally available (GA).",
         "The model is reported to be stable and production-ready.",
-        "The content serves as a developer guide, indicating practical application readiness."
+        "The announcement targets developers for scaled implementation."
       ]
     },
     {
-      "id": 4,
-      "title": "🤗 Trending: bigscience/bloom",
-      "url": "https://huggingface.co/bigscience/bloom",
-      "source": "Hugging Face Benchmarks",
+      "id": 10,
+      "title": "Image generation (experimental)",
+      "url": "https://ollama.com/blog/image-generation",
+      "source": "Ollama",
       "author": "unknown",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It is categorized under key NLP/ML tags like 'transformers' and 'pytorch'.",
-        "The pipeline demonstrated is 'text-generation', indicating a generative AI focus."
+        "Ollama now supports local image generation on macOS.",
+        "This feature allows users to run image generation models entirely offline.",
+        "Support for Windows and Linux platforms is planned for future releases."
       ]
     },
     {
@@ -302,8 +317,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama now supports the Anthropic Messages API.",
-        "This integration allows users to leverage Claude Code functionality within Ollama.",
-        "It facilitates the use of advanced models like Claude Code alongside open-source models."
+        "This integration allows users to leverage models like Claude Code within the Ollama ecosystem.",
+        "It bridges the gap between open-source local model serving and proprietary API capabilities."
       ]
     },
     {
@@ -321,7 +336,21 @@
       ]
     },
     {
-      "id": 21,
+      "id": 15,
+      "title": "Mercedes’ electric AMG GT 4-door coupe can go 0-60 in 2 seconds",
+      "url": "https://www.theverge.com/news/934037/mercedes-amg-gt-four-door-coupe-ev-specs",
+      "source": "The Verge",
+      "author": "Andrew J. Hawkins",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Mercedes has unveiled its new electric AMG GT 4-door coupe, signaling a push into ultra-high performance EVs.",
+        "The vehicle boasts impressive performance, capable of reaching 0-60 mph in just 2 seconds.",
+        "The design and technology draw inspiration from Mercedes' previous XX concept, known for its endurance testing."
+      ]
+    },
+    {
+      "id": 22,
       "title": "Google’s AI future demands trust — and your personal data",
       "url": "https://www.theverge.com/tech/934172/google-io-gemini-ai-trust-personal-data",
       "source": "The Verge",
@@ -329,13 +358,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Google is heavily emphasizing the need for user trust in its future AI ecosystem.",
-        "New AI tools like Gemini Spark and Daily Brief were showcased at I/O 2026.",
-        "These tools aim to integrate deeply into daily life, offering organizational and informational assistance."
+        "Google is heavily promoting its AI-powered future, emphasizing the need for user trust.",
+        "New tools like Gemini Spark (an always-on AI agent) and Daily Brief were showcased at I/O 2026.",
+        "These new features aim to integrate AI into daily life to assist with tasks like event organization."
       ]
     },
     {
-      "id": 25,
+      "id": 26,
       "title": "FBI seeks US-wide access to license plate cameras, wants \"data in near real time\"",
       "url": "https://arstechnica.com/tech-policy/2026/05/fbi-seeks-us-wide-access-to-license-plate-cameras-wants-data-in-near-real-time/",
       "source": "Ars Technica",
@@ -345,11 +374,11 @@
       "bullet_points": [
         "The FBI is seeking nationwide access to license plate camera data.",
         "The request involves paying vendors to facilitate tracking and searching of vehicles across the US.",
-        "A key demand is for this data to be available to the FBI in 'near real time'."
+        "A key requirement is the ability to access this data in 'near real time'."
       ]
     },
     {
-      "id": 27,
+      "id": 28,
       "title": "\"I'll buy 10 of those\"—NASA science chief yearns for mass-produced satellites",
       "url": "https://arstechnica.com/space/2026/05/ill-buy-10-of-those-nasa-science-chief-yearns-for-mass-produced-satellites/",
       "source": "Ars Technica",
@@ -358,82 +387,180 @@
       "ai_score": 7,
       "bullet_points": [
         "NASA's science chief is advocating for the mass production of satellites to increase scientific data collection in space.",
-        "The initiative addresses the challenge of limited access to space for scientific missions.",
-        "This points toward a potential industry shift towards more accessible and scalable space infrastructure."
+        "The core challenge identified is the current limitation in deploying a sufficient volume of scientific instruments.",
+        "This points toward a potential industry shift toward more scalable and commercially viable space infrastructure."
       ]
     },
     {
-      "id": 35,
-      "title": "Prior Knowledge or Search? A Study of LLM Agents in Hardware-Aware Code Optimization",
-      "url": "https://arxiv.org/abs/2605.19782v1",
-      "source": "arXiv Machine Learning",
-      "author": "Egor Shvetsov",
+      "id": 30,
+      "title": "Two AI-based science assistants succeed with drug-retargeting tasks",
+      "url": "https://arstechnica.com/science/2026/05/two-ai-based-science-assistants-succeed-with-drug-retargeting-tasks/",
+      "source": "Ars Technica",
+      "author": "John Timmer",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The study investigates LLM agents used in hardware-aware code optimization, focusing on the propose-evaluate-revise loop.",
-        "It addresses the challenge of understanding which components of complex LLM agents contribute most to optimization success or failure.",
-        "The research utilizes three controlled experiments to analyze the interplay between prior knowledge and search mechanisms in LLM agents."
+        "Two AI-based science assistants were developed to assist with drug-retargeting tasks.",
+        "The tools are capable of generating scientific hypotheses.",
+        "One of the assistants further analyzes the data generated from the hypotheses."
       ]
     },
     {
       "id": 36,
-      "title": "Distribution-Free Uncertainty Quantification for Continuous AI Agent Evaluation",
-      "url": "https://arxiv.org/abs/2605.19779v1",
-      "source": "arXiv Machine Learning",
-      "author": "Yi Ling Yu",
+      "title": "A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents",
+      "url": "https://arxiv.org/abs/2605.20173v1",
+      "source": "arXiv AI",
+      "author": "Vasundra Srinivasan",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces distribution-free uncertainty quantification methods (split conformal prediction and ACI) for evaluating continuous AI agents.",
-        "Achieves high calibration accuracy (error < 0.02) for forecasted quality scores over a 24h horizon.",
-        "Extends the methodology to provide compositional uncertainty bounds for complex, multi-agent pipelines."
+        "The paper introduces the 'stochastic-deterministic boundary' (SDB) as a critical architectural concept for production LLM agents.",
+        "The SDB defines a formal, four-part contract (proposer, verifier, commit, reject) governing how LLM outputs translate into system actions.",
+        "It posits that the SDB is the fundamental, load-bearing primitive for building robust, production-grade AI agents."
       ]
     },
     {
-      "id": 37,
-      "title": "B-cos GNNs: Faithful Explanations through Dynamic Linearity",
-      "url": "https://arxiv.org/abs/2605.19778v1",
-      "source": "arXiv Machine Learning",
-      "author": "Verena Wolf",
+      "id": 38,
+      "title": "HaorFloodAlert: Deseasonalized ML Ensemble for 72-Hour Flood Prediction in Bangladesh Haor Wetlands",
+      "url": "https://arxiv.org/abs/2605.20167v1",
+      "source": "arXiv AI",
+      "author": "Md. Zakir Hossen",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces B-cos GNNs, a new class of inherently explainable Graph Neural Networks.",
-        "The model achieves exact decomposition of predictions into per-node and per-feature contributions via a single linear map.",
-        "It replaces traditional non-linear message/update functions with B-cos transforms to induce task-specific weight-input alignment."
+        "Introduces HaorFloodAlert, a novel ML ensemble designed for 72-hour flood prediction in Bangladesh's Haor wetlands.",
+        "Addresses a critical gap in current flood modeling, which fails to account for the unique backwater dynamics of flat basins, unlike riverine flood models.",
+        "The model successfully mitigates the impact of seasonality (e.g., temperature bias) on prediction accuracy."
       ]
     },
     {
       "id": 39,
-      "title": "AR1-ZO: Topology-Aware Rank-1 Zeroth-Order Queries for High-Rank LoRA Fine-Tuning",
-      "url": "https://arxiv.org/abs/2605.19767v1",
-      "source": "arXiv Machine Learning",
-      "author": "Yao Shu",
+      "title": "Not Every Rubric Teaches Equally: Policy-Aware Rubric Rewards for RLVR",
+      "url": "https://arxiv.org/abs/2605.20164v1",
+      "source": "arXiv AI",
+      "author": "Yunzhong He",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses a 'rank paradox' when combining Zeroth-Order (ZO) optimization with LoRA for LLM fine-tuning.",
-        "ZO optimization allows LLM fine-tuning without storing backpropagation activations, offering memory efficiency.",
-        "The paper proposes a topology-aware approach to overcome measurement issues that limit the effectiveness of standard ZO methods with high-rank LoRA adapters."
+        "The research addresses a limitation in rubric-based rewards for Reinforcement Learning with Verifiable Rewards (RLVR).",
+        "Standard aggregation methods fail to distinguish between a criterion's inherent human importance and its current utility as an optimization signal.",
+        "The paper proposes a 'policy-aware' rubric reward mechanism to better guide model training based on qualitative criteria."
       ]
     },
     {
       "id": 40,
-      "title": "MSAlign: Aligning Molecule and Mass Spectra Foundation Models for Metabolite Identification",
-      "url": "https://arxiv.org/abs/2605.19752v1",
-      "source": "arXiv Machine Learning",
-      "author": "Florence d'Alché-Buc",
+      "title": "Rethinking Visual Attribution for Chest X-ray Reasoning in Large Vision Language Models",
+      "url": "https://arxiv.org/abs/2605.20158v1",
+      "source": "arXiv AI",
+      "author": "Aidong Zhang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the critical challenge of metabolite identification from mass spectrometry (MS) data in metabolomics.",
-        "It introduces MSAlign, a foundation model designed to align molecule and mass spectra for metabolite retrieval.",
-        "The work leverages recent advancements in benchmark datasets like MassSpecGym and Spectraverse to improve accuracy."
+        "The study addresses the critical issue of visual attribution in Large Vision Language Models (LVLMs) used for medical imaging (Chest X-rays).",
+        "A key concern is that current visual explanations may not accurately reflect the actual visual evidence driving the model's clinical decisions, impacting trustworthiness.",
+        "The research tackles the challenge of verifying model reasoning when ground-truth annotations for internal model processes are unavailable."
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Less Back-and-Forth: A Comparative Study of Structured Prompting",
+      "url": "https://arxiv.org/abs/2605.20149v1",
+      "source": "arXiv AI",
+      "author": "Abdou Sow",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The study investigates how structured prompting techniques (checklist vs. clarifying questions) can improve LLM output quality.",
+        "It compares three prompt conditions against four diverse task types: summarization, planning, explanation, and coding.",
+        "The core goal is to reduce the 'back-and-forth' interaction required when using underspecified prompts with LLMs."
+      ]
+    },
+    {
+      "id": 46,
+      "title": "From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models",
+      "url": "https://arxiv.org/abs/2605.20177v1",
+      "source": "arXiv NLP",
+      "author": "Yuyin Zhou",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The study investigates the performance bottleneck in Vision-Language Models (VLMs), suggesting visual perception, not reasoning, is the primary limitation.",
+        "The research proposes decoupling VLM capabilities into three distinct training stages: visual perception, visual reasoning, and textual reasoning.",
+        "This modular approach aims to improve VLM post-training by specializing the training for each component."
       ]
     },
     {
       "id": 48,
+      "title": "KoRe: Compact Knowledge Representations for Large Language Models",
+      "url": "https://arxiv.org/abs/2605.20170v1",
+      "source": "arXiv NLP",
+      "author": "Jacopo Staiano",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper addresses the inherent flaw in LLMs encoding world knowledge solely within opaque parameters.",
+        "It proposes 'KoRe,' a method for creating compact knowledge representations to improve LLM knowledge handling.",
+        "The work contrasts LLM parameter-based knowledge with the human-readable, structured nature of Knowledge Graphs."
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Rethinking Visual Attribution for Chest X-ray Reasoning in Large Vision Language Models",
+      "url": "https://arxiv.org/abs/2605.20158v1",
+      "source": "arXiv NLP",
+      "author": "Aidong Zhang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Large Vision Language Models (LVLMs) are being explored for medical applications like Chest X-ray reasoning.",
+        "A key concern is the lack of trustworthy visual grounding in LVLM predictions, which is critical for clinical use.",
+        "The paper addresses the verification gap in existing visual attribution methods used to explain model decisions."
+      ]
+    },
+    {
+      "id": 51,
+      "title": "MixRea: Benchmarking Explicit-Implicit Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2605.20128v1",
+      "source": "arXiv NLP",
+      "author": "Yanru Zhang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces MixRea, a new benchmark for evaluating explicit-implicit reasoning in Large Language Models (LLMs).",
+        "Investigates if LLMs suffer from 'inattentional blindness,' failing to notice subtle cues despite explicit instructions.",
+        "Addresses the growing concern over LLM reliability in high-stakes decision-making contexts."
+      ]
+    },
+    {
+      "id": 53,
+      "title": "BalanceRAG: Joint Risk Calibration for Cascaded Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2605.20084v1",
+      "source": "arXiv NLP",
+      "author": "Zhiyuan Wang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces 'BalanceRAG,' a method for optimizing Retrieval-Augmented Generation (RAG) by using a cascaded approach.",
+        "The system first uses an LLM-only branch and only escalates to RAG if the initial model is uncertain.",
+        "A key contribution is the joint risk calibration across the cascade stages to improve overall utility and trustworthiness."
+      ]
+    },
+    {
+      "id": 54,
+      "title": "CopT: Contrastive On-Policy Thinking with Continuous Spaces for General and Agentic Reasoning",
+      "url": "https://arxiv.org/abs/2605.20075v1",
+      "source": "arXiv NLP",
+      "author": "Wenke Lee",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces CopT, a new reasoning pipeline designed to improve upon standard Chain-of-Thought (CoT) methods in LLMs.",
+        "Addresses the inefficiency of CoT by allowing for 'performative reasoning,' where models can answer before extensive thinking is completed.",
+        "CopT utilizes a contrastive, on-policy approach with continuous spaces to enhance general and agentic reasoning capabilities."
+      ]
+    },
+    {
+      "id": 62,
       "title": "Google changes its search box",
       "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
       "source": "Hacker News",
@@ -441,41 +568,13 @@
       "timestamp": "2026-05-19T18:34:27",
       "ai_score": 7,
       "bullet_points": [
-        "Google is reportedly integrating AI (Gemini) into its search bar.",
-        "This represents a significant shift in how users interact with search engines.",
-        "The news is being discussed across major tech and business publications."
+        "Google is reportedly integrating AI features, specifically Gemini, into its search bar.",
+        "The change represents a significant evolution in how Google delivers search results, moving towards generative AI answers.",
+        "The news originates from Hacker News and is corroborated by links to The New York Times and TechCrunch."
       ]
     },
     {
-      "id": 52,
-      "title": "Mistral AI acquires Emmi AI",
-      "url": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
-      "source": "Hacker News",
-      "author": "doener",
-      "timestamp": "2026-05-19T19:14:12",
-      "ai_score": 7,
-      "bullet_points": [
-        "Mistral AI, a prominent AI company, has acquired Emmi AI.",
-        "This acquisition suggests a strategic move by Mistral to expand its capabilities or market reach.",
-        "The news is relevant to the competitive landscape of the generative AI industry."
-      ]
-    },
-    {
-      "id": 62,
-      "title": "How we used Quint to find over 10 bugs in SQLite while hardening Turso",
-      "url": "https://turso.tech/blog/how-we-used-quint-to-find-over-10-bugs-in-sqlite",
-      "source": "Lobsters",
-      "author": "turso.tech via typesanitizer",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The article details the use of a tool named Quint for security auditing.",
-        "The audit successfully identified over 10 bugs within the SQLite database engine.",
-        "The work was conducted as part of hardening the Turso database service."
-      ]
-    },
-    {
-      "id": 67,
+      "id": 75,
       "title": "AI isn't replacing junior devs. Your org chart is.",
       "url": "https://dev.to/aws/ai-isnt-replacing-junior-devs-your-org-chart-is-1edp",
       "source": "Dev.to",
@@ -483,13 +582,13 @@
       "timestamp": "2026-05-19T15:50:26Z",
       "ai_score": 7,
       "bullet_points": [
-        "The article reframes the debate on AI replacing junior developers by separating individual capability from organizational structure.",
-        "The core argument suggests that the true risk associated with AI adoption is flawed pipeline decision-making, not individual job replacement.",
-        "It posits that organizational design, rather than individual skill, is the primary factor influencing the impact of AI on junior developer roles."
+        "The article reframes the debate around AI replacing junior developers by distinguishing between individual capability and organizational structure.",
+        "The core argument suggests that the true danger lies not in AI itself, but in how organizations structure their development pipelines.",
+        "It warns that poor pipeline decision-making, potentially influenced by AI discussions, poses a significant risk to development teams."
       ]
     },
     {
-      "id": 70,
+      "id": 78,
       "title": "Google AI Edge Gallery Now Runs MCP On-Device. The Privacy Architecture",
       "url": "https://dev.to/om_shree_0709/google-ai-edge-gallery-now-runs-mcp-on-device-the-privacy-architecture-5075",
       "source": "Dev.to",
@@ -497,9 +596,23 @@
       "timestamp": "2026-05-20T00:44:23Z",
       "ai_score": 7,
       "bullet_points": [
-        "Google AI Edge Gallery now supports running MCP (likely a specific AI model or framework) directly on-device.",
-        "The article focuses on the privacy architecture enabled by running AI models locally.",
-        "The content is presented as a submission for the Google I/O Writing Challenge."
+        "Google AI Edge Gallery now supports running MCP (likely a specific model/framework) directly on-device.",
+        "The article focuses on the privacy architecture enabling this on-device AI capability.",
+        "The content is presented as a submission for the Google I/O Writing Challenge, suggesting a technical deep dive."
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Microsoft Just Published a Blueprint for Self-Healing CI/CD. Here's What the Observe-Analyze-Act Loop Actually Does.",
+      "url": "https://dev.to/om_shree_0709/microsoft-just-published-a-blueprint-for-self-healing-cicd-heres-what-the-observe-analyze-act-2gj9",
+      "source": "Dev.to",
+      "author": "om_shree_0709",
+      "timestamp": "2026-05-20T01:58:13Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "Microsoft has released a blueprint detailing a self-healing Continuous Integration/Continuous Deployment (CI/CD) system.",
+        "The core concept revolves around an 'Observe-Analyze-Act' feedback loop to automate pipeline recovery.",
+        "This addresses the common engineering friction caused by recurring pipeline failures."
       ]
     }
   ]
