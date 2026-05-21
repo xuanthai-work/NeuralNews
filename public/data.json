@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-20T19:58:47.953423",
-  "total_stories": 44,
+  "generated_at": "2026-05-21T01:54:45.982590",
+  "total_stories": 45,
   "sources": [
-    "Hugging Face Benchmarks",
-    "Ollama",
-    "Ars Technica",
-    "arXiv AI",
     "Hacker News",
     "Dev.to",
-    "arXiv NLP",
     "Lobsters",
     "The Verge",
-    "arXiv Machine Learning"
+    "arXiv AI",
+    "arXiv Machine Learning",
+    "arXiv NLP",
+    "Hugging Face Benchmarks",
+    "Ars Technica",
+    "Ollama"
   ],
   "stories": [
     {
@@ -24,8 +24,8 @@
       "ai_score": 9,
       "bullet_points": [
         "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face.",
-        "It is categorized within the text-generation pipeline, indicating its primary function.",
-        "The associated tags confirm its relevance to transformers, Llama models, and the AI ecosystem."
+        "It is categorized under key NLP/ML tags like 'transformers' and 'llama'.",
+        "The pipeline indicates its primary use case is text generation."
       ]
     },
     {
@@ -37,13 +37,27 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "The news highlights the trending status of the meta-llama/Llama-3.1-8B-Instruct model on Hugging Face.",
         "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
-        "The model is associated with key ML technologies like transformers and safetensors."
+        "The associated tags confirm its relevance within the transformer, Llama, and AI/ML communities."
       ]
     },
     {
-      "id": 26,
+      "id": 15,
+      "title": "SpaceX just filed for what could be the biggest IPO ever",
+      "url": "https://www.theverge.com/business/902219/spacex-ipo-details",
+      "source": "The Verge",
+      "author": "Emma Roth",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "SpaceX has officially filed its S-1 prospectus with the SEC, initiating the IPO process.",
+        "The potential listing on the Nasdaq under the ticker SPCX could be one of the largest IPOs in history.",
+        "The company reported significant revenue, generating $18.67 billion in 2025."
+      ]
+    },
+    {
+      "id": 31,
       "title": "Google publishes exploit code threatening millions of Chromium users",
       "url": "https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/",
       "source": "Ars Technica",
@@ -53,35 +67,7 @@
       "bullet_points": [
         "Google disclosed exploit code affecting millions of Chromium users.",
         "The vulnerability was reported nearly 29 months prior to the public disclosure.",
-        "The exploit code was published before the corresponding patch was widely available."
-      ]
-    },
-    {
-      "id": 31,
-      "title": "Buckle up: Google is set to remake search with agentic AI in 2026",
-      "url": "https://arstechnica.com/google/2026/05/buckle-up-google-is-set-to-remake-search-with-agentic-ai-in-2026/",
-      "source": "Ars Technica",
-      "author": "Ryan Whitwam",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Google is planning a major overhaul of its search engine.",
-        "The new iteration will be driven by 'agentic AI'.",
-        "The rollout or significant unveiling is anticipated around I/O 2026."
-      ]
-    },
-    {
-      "id": 44,
-      "title": "Toto 2.0: Time Series Forecasting Enters the Scaling Era",
-      "url": "https://arxiv.org/abs/2605.20119v1",
-      "source": "arXiv AI",
-      "author": "David Asker",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Introduces Toto 2.0, a new family of open-weights time series foundation models.",
-        "Demonstrates that time series models scale effectively, showing reliable forecast improvements across different parameter sizes.",
-        "Achieves state-of-the-art performance on three key forecasting benchmarks (BOOM, GIFT-Eval, and TIME)."
+        "The exploit code was published before the corresponding patch was made available."
       ]
     },
     {
@@ -93,9 +79,9 @@
       "timestamp": "2026-05-20T13:43:37",
       "ai_score": 9,
       "bullet_points": [
-        "GitHub confirmed a security breach affecting 3,800 repositories.",
+        "GitHub confirmed a security breach affecting approximately 3,800 repositories.",
         "The vector for the breach was identified as a malicious VSCode extension.",
-        "This highlights critical supply chain and extension security risks in the developer ecosystem."
+        "This highlights significant supply chain and dependency risks within developer tooling."
       ]
     },
     {
@@ -107,9 +93,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights a specific model, deepseek-ai/DeepSeek-R1, trending on Hugging Face.",
-        "The model is categorized for text generation and is associated with the deepseek_v3 architecture.",
-        "It is relevant to the broader AI/ML community due to its presence in the transformers ecosystem."
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
+        "The model is categorized for text-generation tasks, indicating its primary function in language modeling.",
+        "It utilizes standard ML components like transformers and safetensors, suggesting it is a modern, accessible LLM."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "🤗 Trending: bigscience/bloom",
+      "url": "https://huggingface.co/bigscience/bloom",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
+        "It is categorized under key NLP/ML tags like 'transformers' and 'pytorch'.",
+        "The pipeline demonstrated is 'text-generation', indicating a focus on generative AI capabilities."
       ]
     },
     {
@@ -121,9 +121,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, has integrated MLX for performance enhancement.",
-        "This integration specifically targets Apple Silicon hardware, optimizing AI workloads for macOS users.",
-        "The feature is currently available in a preview build, indicating ongoing development and optimization."
+        "Ollama, a popular local LLM runner, now integrates MLX for enhanced performance on Apple Silicon.",
+        "This integration leverages MLX, Apple's native machine learning framework, for optimization.",
+        "The feature is currently available in a preview build, signaling ongoing hardware/software optimization efforts."
       ]
     },
     {
@@ -136,22 +136,8 @@
       "ai_score": 8,
       "bullet_points": [
         "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, emphasizing on-device processing for privacy and control.",
-        "The core value proposition is connecting communication tools to local, private AI capabilities."
-      ]
-    },
-    {
-      "id": 9,
-      "title": "ollama launch",
-      "url": "https://ollama.com/blog/launch",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Ollama introduces a new command to simplify the setup and execution of coding tools.",
-        "It allows running advanced coding models (like Claude Code, OpenCode, and Codex) locally or in the cloud.",
-        "A key feature is its simplicity, requiring no environment variables or configuration files."
+        "It connects these apps to local AI coding agents.",
+        "A key feature is that all AI processing runs entirely on the user's local device for privacy."
       ]
     },
     {
@@ -163,13 +149,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification tasks.",
-        "The models are available in two sizes (20B and 120B) and are permissively licensed under Apache 2.0.",
-        "This partnership with OpenAI and ROOST aims to bring advanced safety tools to the open-source community."
+        "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification.",
+        "The models, available in 20B and 120B sizes, are being deployed in partnership with ROOST.",
+        "The models are permissively licensed under the Apache 2.0 license, promoting open use."
       ]
     },
     {
-      "id": 19,
+      "id": 22,
       "title": "You can now remix other people’s YouTube Shorts with AI",
       "url": "https://www.theverge.com/tech/934704/google-gemini-omni-youtub-shorts-remix-ai",
       "source": "The Verge",
@@ -177,37 +163,51 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Google has introduced a new YouTube Shorts Remix feature powered by Gemini Omni.",
-        "This feature allows users to restyle existing Shorts or insert themselves into other creators' videos using AI.",
-        "The functionality is accessible via a 'reimagine' option when clicking the remix icon on a Short."
+        "Google has introduced a new 'YouTube Shorts Remix' feature powered by Gemini Omni.",
+        "This feature allows users to restyle existing YouTube Shorts or insert themselves into other creators' videos.",
+        "Users can prompt Gemini to 'reimagine' a Short, enabling AI-driven video modification."
       ]
     },
     {
-      "id": 22,
-      "title": "Google Search’s AI evolution includes more ads",
-      "url": "https://www.theverge.com/tech/934585/google-ai-shopping-ads-search",
-      "source": "The Verge",
-      "author": "Emma Roth",
+      "id": 25,
+      "title": "Famously secret about its finances, SpaceX opens its books for the first time",
+      "url": "https://arstechnica.com/space/2026/05/spacex-submits-detailed-financial-filing-ahead-of-going-public-in-june/",
+      "source": "Ars Technica",
+      "author": "Eric Berger",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Google is integrating its Gemini AI model directly into Google Search results.",
-        "The AI feature will generate 'custom explainers' to persuade users to purchase specific products.",
-        "This marks an evolution where AI capabilities are being leveraged to enhance and monetize the search experience."
+        "SpaceX is making a rare move by opening up its financial records to the public.",
+        "The company claims to have identified the 'largest TAM in human history,' signaling massive future growth potential.",
+        "This move represents a significant shift in transparency for a notoriously secretive aerospace/tech giant."
       ]
     },
     {
-      "id": 50,
-      "title": "When Does Model Collapse Occur in Structured Interactive Learning?",
-      "url": "https://arxiv.org/abs/2605.20151v1",
-      "source": "arXiv Machine Learning",
-      "author": "Weijie Su",
+      "id": 39,
+      "title": "ACL-Verbatim: hallucination-free question answering for research",
+      "url": "https://arxiv.org/abs/2605.21102v1",
+      "source": "arXiv AI",
+      "author": "Ádám Kovács",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The rise of generative AI creates interactive learning environments where models are updated using synthetic data from other models.",
-        "This paradigm challenges classical statistical learning by meaning training data is no longer exclusively from the target population.",
-        "The paper investigates 'Model Collapse' within these structured, interactive learning settings."
+        "Introduces ACL-Verbatim, a system designed to eliminate LLM hallucinations in academic research.",
+        "The method uses an extractive question answering system (VerbatimRAG) to map queries directly to verbatim text spans in source documents.",
+        "Addresses a critical need for reliable, factually accurate information extraction from trusted sources like the ACL Anthology."
+      ]
+    },
+    {
+      "id": 41,
+      "title": "AutoRPA: Efficient GUI Automation through LLM-Driven Code Synthesis from Interactions",
+      "url": "https://arxiv.org/abs/2605.21082v1",
+      "source": "arXiv AI",
+      "author": "Yufei Yin",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces AutoRPA, a method to improve GUI automation efficiency using LLM-driven code synthesis.",
+        "Addresses the inefficiency of repeatedly invoking LLM reasoning (like ReAct) for repetitive, multi-step GUI tasks.",
+        "Aims to bridge the gap between the high manual effort of traditional RPA and the computational overhead of pure LLM agents."
       ]
     },
     {
@@ -219,23 +219,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses the deployment challenge of large Mixture-of-Experts (MoE) Diffusion Large Language Models (dLLMs) on resource-constrained devices.",
-        "Introduces TIDE, a method designed for efficient and lossless inference by incorporating I/O-aware expert offloading.",
-        "Contributes to the growing field of dLLMs as a competitive alternative to traditional autoregressive (AR) models."
-      ]
-    },
-    {
-      "id": 56,
-      "title": "From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models",
-      "url": "https://arxiv.org/abs/2605.20177v1",
-      "source": "arXiv NLP",
-      "author": "Yuyin Zhou",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The research addresses a key limitation in Vision-Language Models (VLMs): visual perception often bottlenecks performance more than reasoning ability.",
-        "The study proposes decoupling VLM capabilities into three distinct training stages: visual perception, visual reasoning, and textual reasoning.",
-        "This modular approach aims to improve VLM post-training by specializing the training for each component."
+        "Introduces TIDE, a method for efficient and lossless inference of MoE Diffusion LLMs (dLLMs).",
+        "Addresses the deployment challenge of large-scale dLLMs on resource-constrained devices.",
+        "Mitigates existing bottlenecks in dLLM inference, specifically focusing on I/O overhead and compute limitations."
       ]
     },
     {
@@ -247,9 +233,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces ClinSeekAgent, a framework designed to automate dynamic, multimodal evidence seeking for clinical reasoning.",
-        "Addresses a key limitation in current LLM applications in medicine: the assumption that evidence is pre-curated.",
-        "Shifts the paradigm from passive information consumption to active, iterative evidence planning and synthesis in clinical workflows."
+        "Introduces ClinSeekAgent, an automated agentic framework designed for dynamic multimodal evidence seeking in clinical settings.",
+        "Addresses a key limitation in current LLM applications: moving beyond passive consumption of curated data to active, iterative evidence gathering.",
+        "Focuses on enabling agentic systems to synthesize evidence from heterogeneous, real-world clinical sources for improved decision support."
       ]
     },
     {
@@ -261,51 +247,37 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces ThoughtTrace, a novel, large-scale dataset designed to capture users' internal thoughts during LLM interactions.",
+        "Introduces ThoughtTrace, a novel, large-scale dataset designed to capture users' internal thoughts during LLM interactions, moving beyond just transcribed dialogue.",
         "The dataset pairs real-world multi-turn conversations with self-reported user motivations (reasons for prompts) and reactions to AI responses.",
-        "It spans 2,155 conversations across 20 different language models, addressing a critical gap in current conversational AI research."
+        "ThoughtTrace was collected across 20 different language models, providing a broad and valuable resource for future AI research."
       ]
     },
     {
-      "id": 94,
-      "title": "Google I/O Review (4/5) — Google Quietly Killed Gemini CLI",
-      "url": "https://dev.to/ww-w-ai/google-io-review-45-google-quietly-killed-gemini-cli-1lc5",
+      "id": 86,
+      "title": "GitHub Got Breached Through a VS Code Extension. MCP Servers Are Next.",
+      "url": "https://dev.to/niclydon/github-got-breached-through-a-vs-code-extension-mcp-servers-are-next-5dgc",
       "source": "Dev.to",
-      "author": "ww-w-ai",
-      "timestamp": "2026-05-20T19:09:56Z",
+      "author": "niclydon",
+      "timestamp": "2026-05-20T14:01:08Z",
       "ai_score": 8,
       "bullet_points": [
-        "Google announced the discontinuation of the Gemini CLI, shifting it from Apache 2.0 to closed source.",
-        "The change significantly restricts usage, limiting free requests to 1,000 per day.",
-        "This development contrasts with positive announcements from Google I/O 2026 regarding Flash benchmarks and serverless agents."
+        "GitHub experienced a security breach involving an employee device.",
+        "The compromise was linked to a vulnerability exploited via a VS Code extension.",
+        "The incident raises concerns about the security of MCP Servers."
       ]
     },
     {
-      "id": 4,
-      "title": "🤗 Trending: bigscience/bloom",
-      "url": "https://huggingface.co/bigscience/bloom",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The news highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "The associated pipeline is 'text-generation', indicating a focus on generative AI tasks.",
-        "Key technologies involved include transformers, PyTorch, and safetensors."
-      ]
-    },
-    {
-      "id": 10,
-      "title": "Image generation (experimental)",
-      "url": "https://ollama.com/blog/image-generation",
+      "id": 9,
+      "title": "ollama launch",
+      "url": "https://ollama.com/blog/launch",
       "source": "Ollama",
       "author": "unknown",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama now offers experimental local image generation capabilities on macOS.",
-        "This feature allows users to run image generation models entirely on their local hardware.",
-        "Support for Windows and Linux platforms is planned for future releases."
+        "Ollama introduces a new command for easily setting up and running coding tools.",
+        "It supports various models, including Claude Code, OpenCode, and Codex.",
+        "A key feature is its simplicity, requiring no environment variables or config files."
       ]
     },
     {
@@ -318,8 +290,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama now supports the Anthropic Messages API.",
-        "This integration allows users to leverage Claude Code capabilities within the Ollama ecosystem.",
-        "It bridges the gap between open-source local models and proprietary models like Claude."
+        "This integration allows users to leverage models like Claude Code within the Ollama ecosystem.",
+        "It bridges the gap between open-source local models and proprietary API capabilities."
       ]
     },
     {
@@ -332,12 +304,12 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama enables the use of OpenAI's Codex CLI with open-source models.",
-        "Codex functionality allows models to read, modify, and execute code within a working directory.",
-        "Users can leverage various open-weight alternatives like gpt-oss:20b or gpt-oss:120b."
+        "Codex, when integrated via Ollama, can read, modify, and execute code locally.",
+        "The integration supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
       ]
     },
     {
-      "id": 20,
+      "id": 23,
       "title": "Samsung has a tentative deal with workers to avoid a memory chip strike",
       "url": "https://www.theverge.com/tech/934432/samsung-electronics-strike-memory-chip-supply",
       "source": "The Verge",
@@ -347,11 +319,25 @@
       "bullet_points": [
         "Samsung avoided a potential 18-day strike involving over 47,000 workers.",
         "The dispute centered on collapsed bonus payment negotiations between the company and its union.",
-        "The averted strike was significant given current global constraints and shortages in memory chip production."
+        "The averted strike was significant given ongoing global constraints in memory chip production."
       ]
     },
     {
       "id": 29,
+      "title": "Leaving the V8 in the past: The all-electric Mercedes-AMG GT 4-Door",
+      "url": "https://arstechnica.com/cars/2026/05/leaving-the-v8-in-the-past-the-all-electric-mercedes-amg-gt-4-door/",
+      "source": "Ars Technica",
+      "author": "Michael Teo Van Runkle",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Mercedes-AMG is transitioning its high-performance GT line to an all-electric powertrain.",
+        "The electric version demonstrates impressive performance metrics, including rapid acceleration (0-60 time).",
+        "The vehicle shows strong energy efficiency, highlighted by its high miles/kWh rating."
+      ]
+    },
+    {
+      "id": 34,
       "title": "Chickens without eggs? De-extinction company creates artificial egg.",
       "url": "https://arstechnica.com/science/2026/05/chickens-without-eggs-de-extinction-company-creates-artificial-egg/",
       "source": "Ars Technica",
@@ -359,79 +345,79 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Colossal Biosciences has developed a method to create artificial eggs.",
-        "This development is linked to their work in de-extinction projects.",
-        "The technology may offer a valuable tool for broader developmental biology research."
+        "De-extinction company Colossal has developed a method to create artificial eggs.",
+        "This development is seen as a potentially useful tool for the field of developmental biology.",
+        "The story touches upon advanced genetic and biological engineering techniques."
       ]
     },
     {
-      "id": 34,
-      "title": "Yearslong fight over users' right to tweak smart TV software heads to trial",
-      "url": "https://arstechnica.com/gadgets/2026/05/inside-the-fight-to-force-vizio-to-share-linux-based-source-code-for-its-tvs-os/",
-      "source": "Ars Technica",
-      "author": "Scharon Harding",
+      "id": 35,
+      "title": "Automated ICD Classification of Psychiatric Diagnoses: From Classical NLP to Large Language Models",
+      "url": "https://arxiv.org/abs/2605.21154v1",
+      "source": "arXiv AI",
+      "author": "Enrique Baca-García",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "A protracted legal battle is moving to trial regarding users' rights to modify smart TV operating system software.",
-        "The core issue revolves around whether users should have access to the TV OS source code.",
-        "Granting source code access could empower users to mitigate advertising and tracking practices."
+        "The research addresses the administrative burden of coding psychiatric diagnoses by automating the mapping of free-text descriptions to ICD codes.",
+        "It compares various NLP and ML techniques, ranging from classical methods to Large Language Models (LLMs), for this classification task.",
+        "The study utilized a substantial dataset of 145,513 Spanish psychiatric descriptions for evaluation."
       ]
     },
     {
       "id": 36,
-      "title": "A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents",
-      "url": "https://arxiv.org/abs/2605.20173v1",
+      "title": "Detecting Trojaned DNNs via Spectral Regression Analysis",
+      "url": "https://arxiv.org/abs/2605.21146v1",
       "source": "arXiv AI",
-      "author": "Vasundra Srinivasan",
+      "author": "Paolo Tonella",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces the 'stochastic-deterministic boundary' (SDB) as a critical architectural concept for production LLM agents.",
-        "The SDB defines a four-part contract (proposer, verifier, commit, reject) governing how LLM outputs translate into system actions.",
-        "Argues that the SDB is the fundamental, load-bearing primitive for designing robust LLM agent runtimes."
-      ]
-    },
-    {
-      "id": 38,
-      "title": "HaorFloodAlert: Deseasonalized ML Ensemble for 72-Hour Flood Prediction in Bangladesh Haor Wetlands",
-      "url": "https://arxiv.org/abs/2605.20167v1",
-      "source": "arXiv AI",
-      "author": "Md. Zakir Hossen",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces HaorFloodAlert, a new ML ensemble designed for 72-hour flood prediction in Bangladesh's Haor wetlands.",
-        "Addresses a critical gap in current flood prediction models, which are designed for riverine systems and fail to capture backwater dynamics in flat basins.",
-        "The model specifically tackles the issue of seasonality (temperature bias) that previously degraded prediction accuracy."
-      ]
-    },
-    {
-      "id": 39,
-      "title": "Not Every Rubric Teaches Equally: Policy-Aware Rubric Rewards for RLVR",
-      "url": "https://arxiv.org/abs/2605.20164v1",
-      "source": "arXiv AI",
-      "author": "Yunzhong He",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research addresses a limitation in rubric-based rewards for Reinforcement Learning with Verifiable Rewards (RLVR).",
-        "Standard rubric aggregation conflates a criterion's inherent human importance with its actual utility as an optimization signal.",
-        "The paper proposes a novel 'Policy-Aware Rubric' to better balance qualitative criteria during training."
+        "Addresses the security risk of Trojan attacks in Deep Neural Networks (DNNs) during the fine-tuning process.",
+        "Introduces MIST, a new detection method that analyzes changes in a model's internal representations during fine-tuning.",
+        "MIST characterizes benign model evolution using pre-activation spectra instead of trying to reconstruct specific trigger conditions."
       ]
     },
     {
       "id": 40,
-      "title": "Rethinking Visual Attribution for Chest X-ray Reasoning in Large Vision Language Models",
-      "url": "https://arxiv.org/abs/2605.20158v1",
+      "title": "Decoupling Communication from Policy: Robust MARL under Bandwidth Constraints",
+      "url": "https://arxiv.org/abs/2605.21085v1",
       "source": "arXiv AI",
-      "author": "Aidong Zhang",
+      "author": "Sonia Vanier",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the critical issue of visual attribution reliability in Large Vision Language Models (LVLMs) used for medical imaging (Chest X-rays).",
-        "Highlights the trustworthiness gap: current attribution methods may not accurately reflect the visual evidence driving the model's clinical decisions.",
-        "Focuses on the challenge of verifying internal model reasoning when ground-truth annotations are unavailable."
+        "Addresses a critical challenge in Multi-Agent Reinforcement Learning (MARL): performance degradation under severe bandwidth constraints.",
+        "Identifies the problem of coupled bottlenecks where shared latent representations are used for both policy and communication.",
+        "Proposes decoupling communication from policy to maintain robust performance despite limited message size, relevant for applications like drone swarms."
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Fine-grained Claim-level RAG Benchmark for Law",
+      "url": "https://arxiv.org/abs/2605.21071v1",
+      "source": "arXiv AI",
+      "author": "Domenico Bianculli",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper introduces a fine-grained Claim-level RAG Benchmark specifically tailored for the legal domain.",
+        "It addresses the persistent issue of hallucinations in Retrieval-Augmented Generation (RAG) systems, even in high-stakes legal applications.",
+        "The work emphasizes the necessity of detailed, fine-grained evaluation methods to improve the reliability of LLM-based QA in specialized fields."
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Grounding Driving VLA via Inverse Kinematics",
+      "url": "https://arxiv.org/abs/2605.21061v1",
+      "source": "arXiv AI",
+      "author": "Hyunjung Shim",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper addresses a limitation in current Driving Vision-Language Agents (VLAs) that ignore visual tokens during trajectory prediction.",
+        "The authors argue that trajectory recovery is structurally ill-posed because existing VLAs only provide a current visual state, not a future one, which is needed for inverse kinematics.",
+        "The proposed solution involves redesigning the task formulation to incorporate both current and future visual states as boundary conditions."
       ]
     },
     {
@@ -443,9 +429,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The proliferation of generative AI has made advanced image manipulation highly accessible.",
-        "Manipulated images pose a growing threat due to their potential to spread misinformation and influence public opinion.",
-        "The research addresses a gap in detecting advanced manipulations across various visual domains."
+        "The proliferation of generative AI makes creating convincing image manipulations increasingly easy.",
+        "Manipulated images pose a growing threat by enabling misinformation and influencing public opinion.",
+        "The research addresses a gap in detecting advanced image manipulations across various visual domains."
       ]
     },
     {
@@ -457,9 +443,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces HaorFloodAlert, a new ML ensemble designed for 72-hour flood prediction in Bangladesh's Haor wetlands.",
-        "Addresses a critical gap in current flood prediction models by accounting for unique backwater dynamics in flat basins, unlike traditional riverine models.",
-        "The research specifically tackles the issue of seasonality (temperature bias) that previously degraded prediction accuracy."
+        "Introduces HaorFloodAlert, a novel ML ensemble designed specifically for predicting flash floods in Bangladesh's Haor wetlands.",
+        "Addresses a critical gap in current flood prediction models, which are often designed for riverine systems and fail to capture backwater dynamics in flat basins.",
+        "The model incorporates deseasonalization techniques to overcome the confounding effect of temperature on flood probability forecasting."
       ]
     },
     {
@@ -471,9 +457,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the 'black-box' problem in deep learning applications for industrial inspection.",
-        "Focuses on improving defect detection in X-ray Computed Tomography (XCT) of aerospace SiC/SiC composites.",
-        "Introduces p-ResNet-50, a novel convolutional framework designed to provide interpretable computer vision for quality control."
+        "Addresses the 'black-box' problem in deep learning applied to industrial inspection.",
+        "Focuses on using interpretable computer vision for defect detection in aerospace SiC/SiC composites via X-ray CT.",
+        "Introduces p-ResNet-50, a novel convolutional framework designed to provide transparency in automated quality control."
       ]
     },
     {
@@ -485,9 +471,37 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the challenge of music streaming fraud, where artificial stream inflation manipulates royalties.",
+        "Addresses music streaming fraud, where artificial stream inflation manipulates rankings and royalties.",
         "Introduces SAGE, a novel counterfactual-aware negative harvesting ensemble for detection.",
-        "Tackles the difficulty of distinguishing sophisticated fraud from legitimate user behavior (e.g., super-fans)."
+        "Tackles the challenge of distinguishing sophisticated fraud patterns from legitimate user behavior (e.g., super-fans)."
+      ]
+    },
+    {
+      "id": 50,
+      "title": "When Does Model Collapse Occur in Structured Interactive Learning?",
+      "url": "https://arxiv.org/abs/2605.20151v1",
+      "source": "arXiv Machine Learning",
+      "author": "Weijie Su",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The rise of generative AI creates interactive learning environments where models are trained on synthetic data from other models.",
+        "This paradigm challenges classical statistical learning by meaning training data is no longer purely drawn from the target population.",
+        "The research addresses the emerging issue of 'model collapse' within these continuously updated, interactive learning systems."
+      ]
+    },
+    {
+      "id": 56,
+      "title": "From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models",
+      "url": "https://arxiv.org/abs/2605.20177v1",
+      "source": "arXiv NLP",
+      "author": "Yuyin Zhou",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The study addresses a limitation in Vision-Language Models (VLMs), suggesting visual perception, not reasoning, is the primary bottleneck in visual tasks.",
+        "The research proposes a novel training methodology by decoupling VLM capabilities into three distinct stages: visual perception, visual reasoning, and textual reasoning.",
+        "This decomposition aims to improve the post-training performance of VLMs by specializing training for each core capability."
       ]
     },
     {
@@ -499,8 +513,8 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the inherent flaw in LLMs encoding world knowledge solely within opaque parameters.",
-        "It proposes 'KoRe,' a method for creating Compact Knowledge Representations to improve LLM knowledge handling.",
+        "The paper addresses the inherent flaw in LLMs encoding world knowledge solely within their opaque parameters.",
+        "It proposes 'KoRe,' a method for creating compact knowledge representations to supplement LLMs.",
         "The research contrasts LLM parameter-based knowledge with the human-readable structure of Knowledge Graphs."
       ]
     },
@@ -513,23 +527,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "LVLMs are promising in medical imaging (Chest X-rays), but their lack of reliable visual grounding is a major clinical trust issue.",
-        "Current visual attribution methods used to explain LVLM decisions are often unverified regarding their true link to the visual evidence.",
-        "The research addresses the challenge of verifying internal model reasoning when ground-truth annotations are unavailable."
-      ]
-    },
-    {
-      "id": 60,
-      "title": "Less Back-and-Forth: A Comparative Study of Structured Prompting",
-      "url": "https://arxiv.org/abs/2605.20149v1",
-      "source": "arXiv NLP",
-      "author": "Abdou Sow",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The study investigates how structured prompting techniques (checklist vs. clarifying questions) can improve LLM response quality.",
-        "It compares three prompt conditions against four diverse task types: summarization, planning, explanation, and coding.",
-        "The core finding addresses the inefficiency of underspecified prompts by aiming to reduce user interaction while boosting output quality."
+        "Addresses the critical issue of visual grounding and trustworthiness in Large Vision Language Models (LVLMs) used for medical imaging (Chest X-rays).",
+        "Highlights the gap in current research: existing visual attribution methods are often unverified regarding whether they truly reflect the model's visual reasoning.",
+        "The research tackles the challenge of validating internal model reasoning when ground-truth annotations are unavailable."
       ]
     },
     {
@@ -541,9 +541,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'MixRea' to benchmark explicit-implicit reasoning capabilities in Large Language Models (LLMs).",
-        "Investigates if LLMs suffer from a form of 'inattentional blindness' when following explicit instructions.",
-        "Addresses the growing reliance on LLMs in high-stakes decision-making by testing attentional biases."
+        "The research introduces 'MixRea' to benchmark explicit-implicit reasoning capabilities in Large Language Models (LLMs).",
+        "It investigates whether LLMs suffer from a form of 'inattentional blindness,' failing to notice subtle cues despite explicit instructions.",
+        "This work is relevant as LLMs are increasingly used in high-stakes decision-making processes."
       ]
     },
     {
@@ -555,9 +555,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces BalanceRAG, a method for cascaded Retrieval-Augmented Generation (RAG).",
-        "The system uses an LLM-only branch first, escalating to RAG only when the primary model is uncertain.",
-        "It aims to improve factuality while avoiding unnecessary RAG calls, addressing calibration issues in cascaded systems."
+        "Introduces 'BalanceRAG,' a novel approach to improve LLM factuality by using a cascaded Retrieval-Augmented Generation (RAG) system.",
+        "The system prioritizes an LLM-only answer first, escalating to RAG only when the primary model expresses uncertainty.",
+        "It includes a mechanism for the model to abstain from answering when neither the LLM nor RAG branch is sufficiently trustworthy."
       ]
     },
     {
@@ -569,9 +569,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces CopT, a new reasoning pipeline designed to improve upon standard Chain-of-Thought (CoT) prompting in LLMs.",
+        "Introduces CopT, a new reasoning pipeline designed to improve upon standard Chain-of-Thought (CoT) methods in LLMs.",
         "Addresses the inefficiency of CoT by allowing for 'performative reasoning'—providing answers before extended thinking is complete.",
         "CopT utilizes a contrastive, on-policy approach with continuous spaces to enhance general and agentic reasoning capabilities."
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Chromium publishes fixed exploit 4 years later, turns out it's actually unfixed",
+      "url": "https://infosec.exchange/@rebane2001/116606719764376414",
+      "source": "Lobsters",
+      "author": "infosec.exchange via hugoarnal",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Chromium released a security patch for an exploit that was reportedly fixed years ago.",
+        "The analysis suggests the published fix may be ineffective or incomplete.",
+        "The story highlights potential issues in the vulnerability disclosure and patching lifecycle of major software projects."
       ]
     },
     {
@@ -583,51 +597,51 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "A source code breach involving GitHub has been reported.",
-        "The group TeamPCP claims to have gained access to internal source code.",
-        "The news is being discussed on the Lobsters forum, indicating community interest in the security incident."
+        "A security incident involving a claimed breach of GitHub's internal source code.",
+        "The entity making the claim is identified as TeamPCP.",
+        "The story originates from the Lobsters forum, suggesting community discussion around the event."
       ]
     },
     {
-      "id": 88,
-      "title": "Per-User OAuth for AI Agents: Why It Matters and What to Look For",
-      "url": "https://dev.to/composiodev/per-user-oauth-for-ai-agents-why-it-matters-and-what-to-look-for-4h4a",
-      "source": "Dev.to",
-      "author": "dumebii",
-      "timestamp": "2026-05-20T14:21:08Z",
+      "id": 81,
+      "title": "XSS Is Deadly for Passkeys: The Hidden Risk of Attestation None",
+      "url": "https://scotthelme.co.uk/xss-is-deadly-for-passkeys-the-hidden-risk-of-attestation-none/",
+      "source": "Lobsters",
+      "author": "scotthelme.co.uk via fazalmajid",
+      "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The article discusses the necessity of per-user OAuth specifically for AI agents.",
-        "It highlights that AI agents introduce new complexities beyond traditional software interactions.",
-        "The topic focuses on security and access control as AI agents integrate with personal data sources (e.g., Slack)."
+        "The article discusses a critical security vulnerability related to XSS (Cross-Site Scripting) affecting Passkeys.",
+        "The core issue revolves around the risk associated with 'Attestation None' in the context of passkey implementation.",
+        "This highlights a niche but important security concern within modern authentication protocols."
       ]
     },
     {
       "id": 92,
-      "title": "The Hidden Networking Problem Behind AI Agent Failures",
-      "url": "https://dev.to/mournfulcord/the-hidden-networking-problem-behind-ai-agent-failures-2fic",
+      "title": "Choosing the Right RAG Strategy A Complete Decision Guide to Chunking, Agentic RAG, and GraphRAG",
+      "url": "https://dev.to/sreeni5018/choosing-the-right-rag-strategy-a-complete-decision-guide-to-chunking-agentic-rag-and-graphrag-386d",
       "source": "Dev.to",
-      "author": "mournfulcord",
-      "timestamp": "2026-05-20T16:50:30Z",
+      "author": "sreeni5018",
+      "timestamp": "2026-05-20T21:37:54Z",
       "ai_score": 7,
       "bullet_points": [
-        "AI agent development often assumes an idealized, perfect network environment.",
-        "The article highlights that real-world network imperfections are a significant, often overlooked, factor in AI agent failures.",
-        "This points to a need to account for latency, loss, and imperfections when building robust AI systems."
+        "The article provides a comprehensive guide on selecting appropriate Retrieval-Augmented Generation (RAG) strategies.",
+        "It covers key technical components such as chunking strategies, Agentic RAG, and GraphRAG.",
+        "It targets RAG builders by addressing common pipeline challenges and decision-making processes."
       ]
     },
     {
-      "id": 93,
-      "title": "AI-Written Code Is Only Better When a Skilled Programmer Is Holding the Wheel",
-      "url": "https://dev.to/fatihsennik/ai-written-code-is-only-better-when-a-skilled-programmer-is-holding-the-wheel-2c4i",
+      "id": 94,
+      "title": "I built a Claude Code skill that scores your legacy Java code 1–100 and modernizes it to Java 21",
+      "url": "https://dev.to/santosh_ravitejagoteti_/i-built-a-claude-code-skill-that-scores-your-legacy-java-code-1-100-and-modernizes-it-to-java-21-2jee",
       "source": "Dev.to",
-      "author": "fatihsennik",
-      "timestamp": "2026-05-20T19:31:09Z",
+      "author": "santosh_ravitejagoteti_",
+      "timestamp": "2026-05-21T00:59:53Z",
       "ai_score": 7,
       "bullet_points": [
-        "The article argues that AI-generated code's effectiveness is heavily dependent on the skill level of the human programmer.",
-        "It suggests that AI tools are best utilized as assistants rather than complete replacements for expert developers.",
-        "The piece touches upon the ongoing debate regarding the role of human expertise in the age of advanced coding AI."
+        "The article details the creation of a Claude Code skill designed for Java modernization.",
+        "The tool assesses legacy Java code (e.g., Java 8) and provides a modernization score (1-100).",
+        "It specifically targets the challenges associated with migrating older Java codebases to modern versions like Java 21."
       ]
     }
   ]
