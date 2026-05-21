@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-05-21T14:36:28.340153",
-  "total_stories": 29,
+  "generated_at": "2026-05-21T19:40:38.330535",
+  "total_stories": 44,
   "sources": [
-    "Ollama",
-    "arXiv Machine Learning",
     "Hacker News",
+    "Ollama",
+    "arXiv NLP",
     "Ars Technica",
+    "Dev.to",
+    "Hugging Face Benchmarks",
     "The Verge",
     "Lobsters",
-    "Dev.to",
-    "Hugging Face Benchmarks"
+    "arXiv AI",
+    "arXiv Machine Learning"
   ],
   "stories": [
     {
@@ -22,8 +24,8 @@
       "ai_score": 9,
       "bullet_points": [
         "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face.",
-        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
-        "The associated tags (transformers, llama, safetensors) confirm its relevance within the modern AI/ML ecosystem."
+        "It is categorized under key AI/ML domains including transformers and text-generation.",
+        "The presence of Llama and Hugging Face indicates relevance to the current large language model ecosystem."
       ]
     },
     {
@@ -35,51 +37,23 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of the meta-llama/Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It is categorized under key AI/ML domains including 'transformers' and 'text-generation'.",
-        "The presence of Llama-3.1 indicates ongoing development and community interest in Meta's latest large language models."
+        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
+        "The associated tags confirm its relevance within the transformers and LLM ecosystem."
       ]
     },
     {
-      "id": 17,
-      "title": "Anthropic is paying $15 billion a year for access to Elon Musk’s data centers",
-      "url": "https://www.theverge.com/science/935229/spacex-anthropic-ipo-ai-capacity-deal-colossus",
+      "id": 23,
+      "title": "Meta and Google get data from the app your boss uses to track you",
+      "url": "https://www.theverge.com/policy/935299/bossware-employer-surveillance",
       "source": "The Verge",
-      "author": "Andrew J. Hawkins",
+      "author": "Lauren Feiner",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Anthropic is reportedly paying a massive $15 billion annually for compute resources.",
-        "The compute access is provided through SpaceX's Colossus data centers in Memphis, TN.",
-        "The details of this major partnership were revealed in SpaceX's S-1 IPO filing."
-      ]
-    },
-    {
-      "id": 24,
-      "title": "Meta lays off thousands of employees to offset AI investments",
-      "url": "https://www.theverge.com/tech/935163/meta-layoffs-ai-investment-offset-memo",
-      "source": "The Verge",
-      "author": "Jess Weatherbed",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Meta is conducting significant layoffs to fund its substantial investments in Artificial Intelligence.",
-        "The company frames the headcount reduction as a necessary measure to improve operational efficiency.",
-        "This move highlights the current industry trend of balancing massive AI R&D spending with cost-cutting measures."
-      ]
-    },
-    {
-      "id": 32,
-      "title": "Google publishes exploit code threatening millions of Chromium users",
-      "url": "https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/",
-      "source": "Ars Technica",
-      "author": "Dan Goodin",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Google has released exploit code targeting Chromium users.",
-        "The vulnerability was reportedly disclosed 29 months prior to the code's publication.",
-        "The associated security flaw has since been patched by Google."
+        "Workplace monitoring software is sharing employee data with major tech platforms like Meta and Google.",
+        "The data sharing extends beyond employers to include digital advertising platforms and data brokers.",
+        "The issue highlights significant privacy and surveillance concerns within the modern workplace."
       ]
     },
     {
@@ -93,7 +67,21 @@
       "bullet_points": [
         "The story highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
         "The model is categorized for text generation and conversational AI tasks.",
-        "It utilizes standard ML components like transformers and safetensors."
+        "It utilizes standard ML components like transformers and safetensors, indicating a focus on practical LLM deployment."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "🤗 Trending: bigscience/bloom",
+      "url": "https://huggingface.co/bigscience/bloom",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The content references the 'bigscience/bloom' model, a significant large language model.",
+        "It is presented within the Hugging Face Benchmarks ecosystem, indicating community and technical relevance.",
+        "The pipeline focuses on 'text-generation' using standard ML frameworks like PyTorch and Transformers."
       ]
     },
     {
@@ -105,9 +93,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, has integrated MLX for performance optimization.",
-        "This update specifically targets Apple Silicon, leveraging Apple's native ML framework.",
-        "The feature is currently available in a preview state, indicating ongoing development."
+        "Ollama, a popular local LLM runner, is integrating MLX for performance optimization.",
+        "This integration specifically targets Apple Silicon hardware, enhancing local AI capabilities on Macs.",
+        "The feature is currently available in a preview build, signaling ongoing development and optimization."
       ]
     },
     {
@@ -119,9 +107,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed for local, on-device operation.",
-        "It integrates messaging apps with local AI coding agents.",
-        "The core value proposition is running AI agents privately on the user's own hardware."
+        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
+        "It utilizes local AI coding agents, ensuring all processing runs entirely on the user's device.",
+        "The core value proposition is providing private, on-device AI assistance for coding tasks."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "ollama launch",
+      "url": "https://ollama.com/blog/launch",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Ollama introduces a new command for easily setting up and running coding tools.",
+        "It supports various models, including Claude Code, OpenCode, and Codex, locally or in the cloud.",
+        "A key feature is its simplicity, requiring no environment variables or configuration files."
       ]
     },
     {
@@ -135,11 +137,39 @@
       "bullet_points": [
         "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification.",
         "The models, available in 20B and 120B sizes, are being brought to users via a partnership with OpenAI and ROOST.",
-        "The models are permissively licensed under the Apache 2.0 license, promoting open use."
+        "These models are permissively licensed under the Apache 2.0 license, promoting open use."
       ]
     },
     {
-      "id": 26,
+      "id": 24,
+      "title": "GitHub faces a fight for its survival at Microsoft",
+      "url": "https://www.theverge.com/tech/935250/microsoft-github-struggles-notepad",
+      "source": "The Verge",
+      "author": "Tom Warren",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "GitHub, acquired by Microsoft in 2018, is reportedly facing existential challenges.",
+        "The current struggles include a rise in service outages and security vulnerabilities.",
+        "The platform is also experiencing competitive pressure in the developer tooling market."
+      ]
+    },
+    {
+      "id": 28,
+      "title": "US government takes $2 billion equity stake in nine quantum computing firms",
+      "url": "https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms/",
+      "source": "Ars Technica",
+      "author": "Joe Miller and Michael Peel, Financial Times",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The US government is investing $2 billion into nine quantum computing firms.",
+        "This represents a significant government push into the quantum computing sector.",
+        "One of the beneficiaries is a startup connected to the Trump family."
+      ]
+    },
+    {
+      "id": 31,
       "title": "Famously secret about its finances, SpaceX opens its books for the first time",
       "url": "https://arstechnica.com/space/2026/05/spacex-submits-detailed-financial-filing-ahead-of-going-public-in-june/",
       "source": "Ars Technica",
@@ -147,51 +177,93 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "SpaceX is publicly disclosing financial information for the first time, a significant shift for the company.",
+        "SpaceX is making a rare move by opening up its financial records to the public.",
         "The company claims to have identified the 'largest TAM in human history,' suggesting massive future market potential.",
-        "The story addresses a major change in transparency for a highly secretive and influential aerospace/tech firm."
+        "This move represents a significant shift in transparency for a notoriously private and secretive aerospace/tech giant."
       ]
     },
     {
-      "id": 51,
-      "title": "FatGid: FreeBSD 14.x kernel local privilege escalation",
-      "url": "https://fatgid.io/",
-      "source": "Hacker News",
-      "author": "WhyNotHugo",
-      "timestamp": "2026-05-21T12:15:02",
+      "id": 37,
+      "title": "DeepWeb-Bench: A Deep Research Benchmark Demanding Massive Cross-Source Evidence and Long-Horizon Derivation",
+      "url": "https://arxiv.org/abs/2605.21482v1",
+      "source": "arXiv AI",
+      "author": "Yun Ma",
+      "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "A local privilege escalation vulnerability was discovered in the FreeBSD 14.x kernel.",
-        "The vulnerability is named 'FatGid' and affects the kernel.",
-        "This is a critical security flaw relevant to system administrators and security researchers."
+        "Introduces DeepWeb-Bench, a new benchmark designed to evaluate frontier language models on deep research tasks.",
+        "The benchmark specifically targets complex tasks requiring massive cross-source evidence gathering and long-horizon reasoning.",
+        "It addresses the limitation of existing benchmarks, which fail to adequately distinguish the true capabilities of advanced AI agents."
       ]
     },
     {
-      "id": 4,
-      "title": "🤗 Trending: bigscience/bloom",
-      "url": "https://huggingface.co/bigscience/bloom",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
+      "id": 40,
+      "title": "Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling",
+      "url": "https://arxiv.org/abs/2605.21470v1",
+      "source": "arXiv AI",
+      "author": "Christos Kozyrakis",
       "timestamp": null,
-      "ai_score": 7,
+      "ai_score": 8,
       "bullet_points": [
-        "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It indicates the model is being used for text-generation tasks.",
-        "The associated technologies include transformers, PyTorch, and safetensors."
+        "Addresses high latency and error rates in current web agent systems (CUAs) which rely on sequential LLM calls.",
+        "Introduces Agent Just-In-Time (JIT) Compilation as a novel method to optimize web agent planning and scheduling.",
+        "Aims to improve the efficiency of natural language-driven agents that interact with web interfaces (e.g., ordering items)."
       ]
     },
     {
-      "id": 9,
-      "title": "ollama launch",
-      "url": "https://ollama.com/blog/launch",
+      "id": 41,
+      "title": "Mem-$π$: Adaptive Memory through Learning When and What to Generate",
+      "url": "https://arxiv.org/abs/2605.21463v1",
+      "source": "arXiv AI",
+      "author": "Perouz Taslakian",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces Mem-$π$, a new framework for adaptive memory in Large Language Model (LLM) agents.",
+        "Mem-$π$ generates useful guidance on demand using a dedicated model, moving beyond static retrieval from external memory stores.",
+        "It addresses a key limitation of existing memory-augmented agents where similarity-based retrieval often misaligns with the current context."
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Mem-$π$: Adaptive Memory through Learning When and What to Generate",
+      "url": "https://arxiv.org/abs/2605.21463v1",
+      "source": "arXiv NLP",
+      "author": "Perouz Taslakian",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces Mem-$π$, a new framework for adaptive memory in Large Language Model (LLM) agents.",
+        "Differs from traditional methods by generating context-specific guidance on demand, rather than relying on static retrieval from external memory banks.",
+        "Utilizes a dedicated language or vision-language model with its own parameters to provide dynamic, context-aware memory augmentation."
+      ]
+    },
+    {
+      "id": 62,
+      "title": "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents",
+      "url": "https://arxiv.org/abs/2605.21384v1",
+      "source": "arXiv NLP",
+      "author": "Zhengyao Jiang",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces SpecBench, a framework to measure reward hacking in long-horizon coding agents.",
+        "Addresses the critical issue where automated test suites become the sole oversight mechanism for complex AI-generated code.",
+        "Examines how agents optimize for passing tests rather than achieving the user's true, underlying goal."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Image generation (experimental)",
+      "url": "https://ollama.com/blog/image-generation",
       "source": "Ollama",
       "author": "unknown",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama introduces a new command for running coding tools locally or in the cloud.",
-        "It supports integration with various models, including Claude Code, OpenCode, and Codex.",
-        "A key feature is its simplicity, requiring no environment variables or configuration files."
+        "Ollama now supports local image generation on macOS.",
+        "This feature allows users to run image generation models entirely on their local machine.",
+        "Support for Windows and Linux platforms is planned for future releases."
       ]
     },
     {
@@ -204,8 +276,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama now supports the Anthropic Messages API.",
-        "This integration allows users to run tools like Claude Code with open-source models via Ollama.",
-        "It bridges the gap between proprietary models (Anthropic) and the open-source ecosystem (Ollama)."
+        "This integration allows users to leverage models like Claude Code within the Ollama ecosystem.",
+        "It bridges the gap between open-source local models and proprietary API capabilities."
       ]
     },
     {
@@ -218,54 +290,152 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama enables the use of OpenAI's Codex CLI with open-source models.",
-        "Codex, when integrated, can read, modify, and execute code within the user's directory.",
-        "The system supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
+        "Codex functionality allows models to read, modify, and execute code within a user's directory.",
+        "The integration supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
       ]
     },
     {
-      "id": 21,
-      "title": "I can’t believe how fast Google vibe coded my first Android app",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/935056/google-vibe-coding-first-android-app-gemini-ai-studio",
+      "id": 16,
+      "title": "One of Meta’s big legal reckonings just ended in a settlement",
+      "url": "https://www.theverge.com/policy/935552/meta-youtube-tiktok-snap-school-district-settlement",
       "source": "The Verge",
-      "author": "Sean Hollister",
+      "author": "Lauren Feiner",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The article highlights the rapid development of Android applications using Google's AI coding tools.",
-        "The author claims to have built multiple functional apps in a single afternoon with minimal manual coding.",
-        "This suggests a significant acceleration in the barrier to entry for mobile app development via AI assistance."
+        "Meta settled a legal dispute with Kentucky's Breathitt County School District.",
+        "The lawsuit concerned the impact of Meta's platforms on teenagers' mental health.",
+        "The settlement follows similar claims recently settled by Google's YouTube, Snap, and TikTok with the same school district."
       ]
     },
     {
-      "id": 23,
-      "title": "‘Fuck you, Bambu’: How one private message could change the face of 3D printing",
-      "url": "https://www.theverge.com/tech/931532/bambu-agpl-pawel-jarczak-open-source-threat-dmca-github",
+      "id": 17,
+      "title": "Bungie gives up on Destiny",
+      "url": "https://www.theverge.com/games/935536/bungie-destiny-2-final-update-date",
       "source": "The Verge",
-      "author": "Sean Hollister",
+      "author": "Jay Peters",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Bambu Lab, a leading 3D printing manufacturer, is facing community backlash.",
-        "The controversy stems from a private message from Bambu Lab to a user on Reddit demanding the deletion of their code.",
-        "The 3D printing community is rallying to support the affected user against the company."
+        "Bungie is officially ending major development on Destiny 2.",
+        "The final major update is scheduled for release on June 9th.",
+        "The game will remain playable after the final update, similar to the original Destiny."
       ]
     },
     {
-      "id": 30,
-      "title": "Leaving the V8 in the past: The all-electric Mercedes-AMG GT 4-Door",
-      "url": "https://arstechnica.com/cars/2026/05/leaving-the-v8-in-the-past-the-all-electric-mercedes-amg-gt-4-door/",
+      "id": 20,
+      "title": "Uber is deploying its own self-driving cars again, just not as robotaxis",
+      "url": "https://www.theverge.com/news/935204/uber-av-lab-self-driving-data-collection",
+      "source": "The Verge",
+      "author": "Andrew J. Hawkins",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Uber is reintroducing its own autonomous vehicles under the AV Lab project.",
+        "These vehicles are equipped with standard self-driving sensors (cameras, lidar, radar).",
+        "The primary purpose of these cars is data collection for Uber's robotaxi partners, not direct public robotaxi service."
+      ]
+    },
+    {
+      "id": 22,
+      "title": "The cost of the smart home is going up",
+      "url": "https://www.theverge.com/tech/935298/smart-home-cost-increase-ai-subscription-fatigue",
+      "source": "The Verge",
+      "author": "Jennifer Pattison Tuohy",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The smart home market is facing profitability challenges for major players like Amazon and Google.",
+        "Despite high device sales, companies have struggled to generate significant profits from their smart home investments.",
+        "Google is shifting focus towards monetizing its smart home ecosystem through AI-driven subscriptions."
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Zillow loses thousands of listings in fight over “hidden” homes",
+      "url": "https://arstechnica.com/tech-policy/2026/05/zillow-loses-access-to-thousands-of-home-listings-amid-bitter-legal-feud/",
       "source": "Ars Technica",
-      "author": "Michael Teo Van Runkle",
+      "author": "Ashley Belanger",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Mercedes-AMG is transitioning its high-performance GT line to an all-electric powertrain.",
-        "The electric model demonstrates impressive performance metrics, including a fast 0-60 mph time.",
-        "The efficiency (miles/kWh) of the new electric AMG GT is highlighted as a significant achievement."
+        "Zillow is involved in a legal dispute with the real estate industry.",
+        "The conflict centers around Zillow's handling of 'hidden' or off-market home listings.",
+        "Zillow has sought a preliminary injunction to influence the ongoing industry fight."
       ]
     },
     {
       "id": 35,
+      "title": "Variance Reduction for Expectations with Diffusion Teachers",
+      "url": "https://arxiv.org/abs/2605.21489v1",
+      "source": "arXiv AI",
+      "author": "Jonathan Lorraine",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research addresses the high variance in Monte Carlo expectations used when training downstream pipelines (like text-to-3D) using frozen diffusion models as teachers.",
+        "The core contribution is CARV, a compute-aware variance-accounting framework designed to reduce the computational cost associated with high-variance gradient estimation.",
+        "This work is relevant to efficiency improvements in generative AI workflows where expensive upstream processes (rendering, simulation) drive the computational bottleneck."
+      ]
+    },
+    {
+      "id": 38,
+      "title": "AiraXiv: An AI-Driven Open-Access Platform for Human and AI Scientists",
+      "url": "https://arxiv.org/abs/2605.21481v1",
+      "source": "arXiv AI",
+      "author": "Yue Zhang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces AiraXiv, an AI-driven open-access platform designed for the modern research landscape.",
+        "Addresses the strain on traditional academic publishing caused by the rise of AI-generated research outputs.",
+        "Proposes a new publishing paradigm accommodating both human and AI scientists as authors and readers."
+      ]
+    },
+    {
+      "id": 39,
+      "title": "WikiVQABench: A Knowledge-Grounded Visual Question Answering Benchmark from Wikipedia and Wikidata",
+      "url": "https://arxiv.org/abs/2605.21479v1",
+      "source": "arXiv AI",
+      "author": "Anna Lisa Gentile",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces WikiVQABench, a new benchmark for Visual Question Answering (VQA).",
+        "The benchmark is knowledge-grounded, requiring external information from Wikipedia and Wikidata, moving beyond purely visual perception tasks.",
+        "This addresses a gap in current VQA research where real-world scenarios often require external knowledge not present in the image."
+      ]
+    },
+    {
+      "id": 42,
+      "title": "HITL-D: Human In The Loop Diffusion Assisted Shared Control",
+      "url": "https://arxiv.org/abs/2605.21460v1",
+      "source": "arXiv AI",
+      "author": "Martin Jagersand",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces HITL-D, a new shared control framework for autonomous manipulation systems.",
+        "Combines diffusion-based policies with human control to enhance user performance.",
+        "Focuses on improving complex tasks like multi-step, insertion, and fine manipulation."
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Quality and Security Signals in AI-Generated Python Refactoring Pull Requests",
+      "url": "https://arxiv.org/abs/2605.21453v1",
+      "source": "arXiv AI",
+      "author": "Hua Ming",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The study empirically investigates the quality and security implications of AI-generated Python refactoring pull requests (PRs).",
+        "There is a current lack of real-world evidence regarding how AI-authored refactoring affects code maintainability and quality in GitHub repositories.",
+        "The research aims to bridge this gap by analyzing the characteristics of PRs generated by AI agents."
+      ]
+    },
+    {
+      "id": 45,
       "title": "Variance Reduction for Expectations with Diffusion Teachers",
       "url": "https://arxiv.org/abs/2605.21489v1",
       "source": "arXiv Machine Learning",
@@ -273,13 +443,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses high variance in Monte Carlo expectations used when training downstream pipelines (e.g., text-to-3D) guided by frozen diffusion models.",
-        "The core contribution is CARV, a compute-aware variance-accounting framework designed to reduce the computational cost associated with noisy gradient estimation.",
-        "This work is relevant to efficient deployment and fine-tuning of large generative models by improving the stability and speed of gradient-based training."
+        "The research addresses high variance in Monte Carlo expectations used when training downstream pipelines (e.g., text-to-3D) using pretrained diffusion models as teachers.",
+        "The core contribution is CARV, a compute-aware variance-accounting framework designed to reduce the dominant variance caused by expensive upstream computations.",
+        "This work is relevant to efficient deployment and training of generative AI models that rely on diffusion models for guidance or knowledge transfer."
       ]
     },
     {
-      "id": 36,
+      "id": 46,
       "title": "Equilibrium Reasoners: Learning Attractors Enables Scalable Reasoning",
       "url": "https://arxiv.org/abs/2605.21488v1",
       "source": "arXiv Machine Learning",
@@ -288,12 +458,12 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces 'Equilibrium Reasoners' (EqR), a new framework for scalable reasoning in AI.",
-        "Hypothesizes that generalizable reasoning stems from learning 'task-conditioned attractors' in latent dynamical systems.",
-        "Addresses the current gap in understanding how iterative, test-time compute models generalize beyond memorization."
+        "Hypothesizes that generalizable reasoning emerges from learning 'task-conditioned attractors' in latent dynamical systems.",
+        "Addresses the challenge of iterative models generalizing beyond memorized patterns by focusing on stable fixed points corresponding to solutions."
       ]
     },
     {
-      "id": 38,
+      "id": 48,
       "title": "EvoStruct: Bridging Evolutionary and Structural Priors for Antibody CDR Design via Protein Language Model Adaptation",
       "url": "https://arxiv.org/abs/2605.21485v1",
       "source": "arXiv Machine Learning",
@@ -301,13 +471,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses a critical limitation in current GNN methods for antibody CDR design: severe vocabulary collapse and poor residue prediction.",
-        "EvoStruct proposes bridging evolutionary and structural priors by adapting a Protein Language Model to overcome the limitations of de novo learning from structural data.",
-        "The work highlights the importance of incorporating evolutionary substitution patterns, which current GNN encoders are failing to capture effectively."
+        "The research addresses a critical limitation in current GNN methods for antibody CDR design: severe vocabulary collapse.",
+        "The proposed 'EvoStruct' method integrates evolutionary and structural priors to improve the design process.",
+        "The core problem identified is that GNN encoders fail to learn amino acid distributions effectively from limited structural data, missing evolutionary substitution patterns."
       ]
     },
     {
-      "id": 40,
+      "id": 50,
       "title": "AiraXiv: An AI-Driven Open-Access Platform for Human and AI Scientists",
       "url": "https://arxiv.org/abs/2605.21481v1",
       "source": "arXiv Machine Learning",
@@ -315,13 +485,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes 'AiraXiv,' an AI-driven open-access platform designed to handle the surge in human and AI-generated research.",
-        "Addresses scalability issues in traditional academic publishing due to rising submission volumes and reviewer workload.",
+        "Proposes 'AiraXiv,' an AI-driven open-access platform designed to manage the growing volume of research.",
+        "Addresses the strain on traditional academic publishing systems caused by the rise of AI-generated research.",
         "Introduces a new publishing paradigm where both human and AI entities can participate as authors and readers."
       ]
     },
     {
-      "id": 42,
+      "id": 52,
       "title": "Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling",
       "url": "https://arxiv.org/abs/2605.21470v1",
       "source": "arXiv Machine Learning",
@@ -329,13 +499,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses high latency and error rates in current Computer-Use Agent (CUA) systems that rely on sequential LLM calls.",
-        "Introduces Agent Just-In-Time (JIT) compilation as a novel method to optimize web agent planning and scheduling.",
-        "Aims to improve the efficiency of agents that automate complex, natural language tasks (e.g., ordering items online)."
+        "Addresses high latency and error rates in current computer-use agents (CUAs) that rely on sequential LLM calls for task automation.",
+        "Introduces Agent Just-In-Time (JIT) compilation as a novel approach to optimize web agent planning and scheduling.",
+        "Aims to improve the efficiency of natural language-driven agents that interact with web tools (e.g., click, type, scroll)."
       ]
     },
     {
-      "id": 43,
+      "id": 53,
       "title": "You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories",
       "url": "https://arxiv.org/abs/2605.21468v1",
       "source": "arXiv Machine Learning",
@@ -343,13 +513,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research investigates the underlying geometry of parameter trajectories when using Reinforcement Learning with Verifiable Rewards (RLVR) to improve LLMs.",
-        "The study demonstrates that RLVR weight trajectories are extremely low-rank and highly predictable.",
-        "A rank-1 approximation of the parameter deltas is sufficient to capture the majority of downstream performance gains in LLMs."
+        "The paper investigates the underlying geometry of parameter trajectories in Large Language Models (LLMs) trained with Reinforcement Learning with Verifiable Rewards (RLVR).",
+        "A key finding is that RLVR weight trajectories are extremely low-rank and highly predictable.",
+        "The research suggests that most performance improvements can be captured effectively using a simple rank-1 approximation of the parameter changes."
       ]
     },
     {
-      "id": 44,
+      "id": 54,
       "title": "DelTA: Discriminative Token Credit Assignment for Reinforcement Learning from Verifiable Rewards",
       "url": "https://arxiv.org/abs/2605.21467v1",
       "source": "arXiv Machine Learning",
@@ -357,41 +527,97 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'DelTA,' a method to analyze Reinforcement Learning from Verifiable Rewards (RLVR).",
-        "Addresses the gap in understanding how response-level rewards affect token-level probability changes in LLMs.",
-        "Proposes that the policy-gradient update implicitly functions as a linear discriminator over token-gradient vectors."
+        "Introduces 'DelTA,' a new framework for Reinforcement Learning from Verifiable Rewards (RLVR).",
+        "Addresses the gap in understanding how response-level rewards translate to token-level probability changes in LLMs.",
+        "Proposes a 'discriminator view' showing the policy-gradient update implicitly acts as a linear discriminator over token-gradient vectors."
       ]
     },
     {
-      "id": 48,
-      "title": "Google officially announces that ads will be included in AI Mode search results",
-      "url": "https://blog.google/products/ads-commerce/google-marketing-live-search-ads/",
-      "source": "Hacker News",
-      "author": "sofumel",
-      "timestamp": "2026-05-21T09:49:46",
+      "id": 55,
+      "title": "AiraXiv: An AI-Driven Open-Access Platform for Human and AI Scientists",
+      "url": "https://arxiv.org/abs/2605.21481v1",
+      "source": "arXiv NLP",
+      "author": "Yue Zhang",
+      "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Google is integrating advertisements directly into its new AI Mode search results.",
-        "This signals a significant shift in how Google monetizes its generative AI features.",
-        "The move suggests that advertising will become a core component of the AI search experience."
-      ]
-    },
-    {
-      "id": 53,
-      "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
-      "url": "https://github.com/helvesec/rmux",
-      "source": "Hacker News",
-      "author": "shideneyu",
-      "timestamp": "2026-05-21T09:22:00",
-      "ai_score": 7,
-      "bullet_points": [
-        "RMux is a new, custom-built terminal multiplexer written in Rust, designed to address automation limitations in tools like tmux.",
-        "It features a dual interface: a tmux-compatible CLI and a typed, asynchronous Rust SDK.",
-        "The core innovation is providing 'Playwright-style' automation capabilities (structured snapshots, locator-style waits) for terminal sessions."
+        "Introduces AiraXiv, an AI-driven open-access platform designed for the modern research landscape.",
+        "Addresses challenges in traditional publishing caused by the rise of AI-generated research and increased submission volumes.",
+        "Proposes a new publishing paradigm where both human and AI entities can participate as authors and readers."
       ]
     },
     {
       "id": 56,
+      "title": "You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories",
+      "url": "https://arxiv.org/abs/2605.21468v1",
+      "source": "arXiv NLP",
+      "author": "Yu Meng",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research investigates the underlying geometry of parameter trajectories when using Reinforcement Learning with Verifiable Rewards (RLVR) to improve LLM reasoning.",
+        "A key finding is that RLVR weight trajectories are extremely low-rank and highly predictable.",
+        "The study demonstrates that most performance improvements can be captured by a simple rank-1 approximation of the parameter changes."
+      ]
+    },
+    {
+      "id": 57,
+      "title": "DelTA: Discriminative Token Credit Assignment for Reinforcement Learning from Verifiable Rewards",
+      "url": "https://arxiv.org/abs/2605.21467v1",
+      "source": "arXiv NLP",
+      "author": "Yankai Lin",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper addresses the gap in understanding how response-level rewards translate into token-level probability changes in Reinforcement Learning from Verifiable Rewards (RLVR).",
+        "It introduces a 'discriminator view' of RLVR updates, reframing the policy-gradient update direction.",
+        "The research suggests that the policy-gradient update implicitly functions as a linear discriminator over token-gradient vectors to determine token probabilities."
+      ]
+    },
+    {
+      "id": 64,
+      "title": "\"I didn't Make the Micro Decisions\": Measuring, Inducing, and Exposing Goal-Level AI Contributions in Collaboration",
+      "url": "https://arxiv.org/abs/2605.21363v1",
+      "source": "arXiv NLP",
+      "author": "Sherry Tongshuang Wu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces CoTrace, a new framework to attribute contributions in human-AI collaboration at the goal-level, rather than just the final output.",
+        "Addresses the growing need to understand how LLMs influence the formation and refinement of user goals.",
+        "Aims to help users calibrate their reliance on AI and assist evaluators in assessing AI-assisted work processes."
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Amazon, Facebook, FBI have access to a private intelligence-sharing network",
+      "url": "https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/",
+      "source": "Hacker News",
+      "author": "root-parent",
+      "timestamp": "2026-05-21T17:55:58",
+      "ai_score": 7,
+      "bullet_points": [
+        "A private intelligence-sharing network exists involving major tech and law enforcement entities.",
+        "Amazon, Facebook, and the FBI are confirmed participants in this network.",
+        "The story suggests a significant intersection between private tech platforms and government intelligence operations."
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+      "url": "https://www.runtm.com/",
+      "source": "Hacker News",
+      "author": "gustrigos",
+      "timestamp": "2026-05-21T16:07:13",
+      "ai_score": 7,
+      "bullet_points": [
+        "Runtime is launching a platform to enable teams, including non-engineers, to use coding AI agents (like Claude Code/Codex).",
+        "The tool aims to provide infrastructure so that AI agent workflows can be scaled across an entire team without constant engineering oversight.",
+        "The premise is driven by the difficulty of scaling successful individual AI-assisted workflows to a broader team setting."
+      ]
+    },
+    {
+      "id": 79,
       "title": "Chromium publishes fixed exploit 4 years later, turns out it's actually unfixed",
       "url": "https://infosec.exchange/@rebane2001/116606719764376414",
       "source": "Lobsters",
@@ -399,23 +625,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Chromium released a security fix for an exploit that was reportedly patched years ago.",
-        "The published fix was later found to be ineffective or incomplete.",
-        "This highlights potential issues in the security patching and disclosure lifecycle of major browser projects."
-      ]
-    },
-    {
-      "id": 63,
-      "title": "XSS Is Deadly for Passkeys: The Hidden Risk of Attestation None",
-      "url": "https://scotthelme.co.uk/xss-is-deadly-for-passkeys-the-hidden-risk-of-attestation-none/",
-      "source": "Lobsters",
-      "author": "scotthelme.co.uk via fazalmajid",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The article discusses a critical security vulnerability related to Passkeys.",
-        "The specific risk highlighted is that Cross-Site Scripting (XSS) can be dangerous when 'Attestation None' is used.",
-        "This points to a nuanced, technical security concern within modern authentication methods."
+        "Chromium released a patch for an exploit that was reportedly fixed years ago.",
+        "The published fix was later found to be ineffective or incorrect.",
+        "This highlights potential issues in vulnerability disclosure and patch management within major browser projects."
       ]
     }
   ]
