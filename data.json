@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-22T14:08:40.094347",
-  "total_stories": 40,
+  "generated_at": "2026-05-22T19:19:37.762903",
+  "total_stories": 41,
   "sources": [
     "Hugging Face Benchmarks",
-    "arXiv AI",
-    "arXiv Machine Learning",
-    "Ars Technica",
     "Ollama",
-    "arXiv NLP",
+    "arXiv Machine Learning",
     "The Verge",
-    "Hacker News",
+    "arXiv AI",
     "Lobsters",
-    "Dev.to"
+    "Dev.to",
+    "Ars Technica",
+    "Hacker News",
+    "arXiv NLP"
   ],
   "stories": [
     {
@@ -23,51 +23,37 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It is categorized under key NLP/ML tags including 'transformers', 'llama', and 'text-generation'.",
-        "This indicates active community interest and benchmarking of a significant open-source LLM model."
+        "The story highlights the trending status of the Meta-Llama-3-8B model on Hugging Face Benchmarks.",
+        "It pertains to the core field of large language models (LLMs) and text generation.",
+        "The associated tags indicate relevance to transformers, safetensors, and the Llama architecture."
       ]
     },
     {
-      "id": 17,
-      "title": "The post-search Google era begins",
-      "url": "https://www.theverge.com/podcast/936037/google-io-2026-search-agents-vergecast",
+      "id": 21,
+      "title": "Waymo suspends freeway driving amid safety concerns",
+      "url": "https://www.theverge.com/transportation/936129/waymo-freeway-suspend-atlanta-san-antonio-flood-pause",
       "source": "The Verge",
-      "author": "David Pierce",
+      "author": "Andrew J. Hawkins",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Google is evolving beyond traditional search into an AI agent paradigm.",
-        "The shift suggests a move towards proactive information delivery by Google's AI.",
-        "This represents a fundamental change in how users interact with the internet."
+        "Waymo has suspended freeway driving across all US markets due to safety concerns.",
+        "Customers observed the service change when freeway routes were removed from trip projections.",
+        "This represents a significant operational rollback in autonomous vehicle deployment."
       ]
     },
     {
-      "id": 28,
-      "title": "A hacker group is poisoning open source code at an unprecedented scale",
-      "url": "https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/",
-      "source": "Ars Technica",
-      "author": "Andy Greenberg and Lily Hay Newman, WIRED.com",
+      "id": 83,
+      "title": "Megalodon: Mass GitHub Repo Backdooring via CI Workflows",
+      "url": "https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows",
+      "source": "Lobsters",
+      "author": "safedep.io via hauleth",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "A hacker group, TeamPCP, is executing large-scale software supply chain attacks.",
-        "GitHub has been identified as a recent target of these malicious activities.",
-        "The attacks involve poisoning open-source code, representing a significant security threat."
-      ]
-    },
-    {
-      "id": 31,
-      "title": "As Grok flounders, SpaceX bets future on beating Big Tech at AI",
-      "url": "https://arstechnica.com/ai/2026/05/as-grok-flounders-spacex-bets-future-on-beating-big-tech-at-ai/",
-      "source": "Ars Technica",
-      "author": "Jeremy Hsu",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "SpaceX is positioning itself in the AI infrastructure race by highlighting orbital data centers.",
-        "The narrative contrasts SpaceX's ambitions with the perceived struggles of Grok (xAI's AI model).",
-        "The story suggests a potential industry shift where space-based computing could challenge traditional Big Tech AI dominance."
+        "The story details a significant security vulnerability known as Megalodon.",
+        "The attack vector involves mass backdooring of GitHub repositories through CI/CD workflows.",
+        "This represents a critical threat to software supply chain security."
       ]
     },
     {
@@ -79,9 +65,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the Llama-3.1-8B-Instruct model from Meta.",
-        "It is featured on Hugging Face Benchmarks, indicating community interest and performance tracking.",
-        "The context is focused on text-generation capabilities within the transformer ecosystem."
+        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It is categorized under key NLP/ML tags like 'transformers' and 'text-generation'.",
+        "The content points to the continued relevance and activity surrounding Meta's Llama models in the AI community."
       ]
     },
     {
@@ -93,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, is integrating MLX for performance optimization.",
-        "The integration specifically targets Apple Silicon, enhancing local AI capabilities on Apple hardware.",
-        "This is currently available in a preview state, indicating ongoing development and optimization."
+        "Ollama, a popular local LLM runner, has integrated MLX for performance optimization.",
+        "This update specifically targets and accelerates execution on Apple Silicon hardware.",
+        "The feature is currently available in a preview release, indicating ongoing development."
       ]
     },
     {
@@ -107,9 +93,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, ensuring all processing runs entirely on the user's device.",
-        "The core value proposition is providing AI assistance while maintaining data privacy through local execution."
+        "OpenClaw is a personal AI assistant designed for local, on-device operation.",
+        "It integrates messaging applications with local AI coding agents.",
+        "The core value proposition is running AI processes entirely on the user's own hardware for privacy/control."
       ]
     },
     {
@@ -121,8 +107,8 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama introduces a new command to simplify the setup and execution of coding tools.",
-        "It allows users to run tools like Claude Code, OpenCode, and Codex using local or cloud models.",
+        "Ollama introduces a new command for easily setting up and running coding tools.",
+        "It supports various coding models, including Claude Code, OpenCode, and Codex.",
         "A key feature is its simplicity, requiring no environment variables or configuration files."
       ]
     },
@@ -135,9 +121,65 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification tasks.",
-        "The models, available in 20B and 120B sizes, are being brought to users through a partnership with OpenAI and ROOST.",
-        "The gpt-oss-safeguard models are openly available under the permissive Apache 2.0 license."
+        "Ollama is partnering with OpenAI and ROOST to integrate gpt-oss-safeguard reasoning models.",
+        "These models are designed for safety classification tasks and are available in 20B and 120B sizes.",
+        "The gpt-oss-safeguard models are permissively licensed under the Apache 2.0 license."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Meta’s Forum is part Reddit, part Facebook, and part Google AI Overview",
+      "url": "https://www.theverge.com/tech/936290/meta-forum-facebook-groups-app-hands-on",
+      "source": "The Verge",
+      "author": "Stevie Bonifield",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Meta is launching a new 'Forum' app to house Facebook Groups in a dedicated application.",
+        "The app integrates a dedicated AI chatbot, signaling a major push into conversational AI within Meta's ecosystem.",
+        "This move represents a strategic attempt by Meta to compete with platforms like Reddit and leverage AI features similar to Google's AI Overview."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Google appeals search monopoly ruling, says it won business &#8216;fair and square’",
+      "url": "https://www.theverge.com/policy/936175/google-search-monopoly-ruling-appeal",
+      "source": "The Verge",
+      "author": "Lauren Feiner",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Google is appealing a federal ruling that declared it an illegal search monopolist.",
+        "Google's legal argument contends the ruling bypassed established legal standards.",
+        "The company asserts its market success is achieved 'fair and square' through competitive means."
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Google&#8217;s AI search is so broken it can &#8216;disregard&#8217; what you&#8217;re looking for",
+      "url": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
+      "source": "The Verge",
+      "author": "Jay Peters",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Google's new AI Overviews feature is exhibiting significant functional bugs.",
+        "The AI is failing to provide expected search summaries, instead defaulting to chatbot-like responses.",
+        "This highlights current reliability and accuracy challenges in large-scale generative AI implementations."
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Trump abruptly cancels EO signing event after top AI firm CEOs declined to go",
+      "url": "https://arstechnica.com/tech-policy/2026/05/trump-canceled-ai-safety-testing-eo-after-snub-from-tech-ceos/",
+      "source": "Ars Technica",
+      "author": "Ashley Belanger",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Trump abruptly canceled an EO signing event related to AI safety testing.",
+        "The cancellation occurred after top AI firm CEOs declined to attend the event.",
+        "The delay suggests the administration views AI safety regulations as a potential 'innovation blocker'."
       ]
     },
     {
@@ -149,9 +191,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "MOSS proposes a method for self-evolution in autonomous agents by enabling source-level rewriting.",
-        "Current self-evolving agents are limited because they only modify text-based artifacts (prompts, schemas) and not the core agent code.",
-        "The research addresses the limitation of static agent harnesses, which contain critical logic like routing and state invariants."
+        "Addresses the limitation of current autonomous agents being static post-deployment.",
+        "Proposes 'MOSS' for self-evolution by enabling source-level rewriting within agent systems.",
+        "Highlights that existing self-evolving agents only modify text artifacts, leaving core agent code untouched."
       ]
     },
     {
@@ -163,9 +205,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces DeltaBox, a system designed to enable high-frequency state checkpointing and rollback for LLM-powered AI agents.",
-        "Addresses a critical bottleneck where existing state management methods cause high latency (hundreds of milliseconds to seconds) during deep search and large-scale agent exploration.",
-        "The core innovation lies in efficiently managing the complete sandbox state (including files and process memory) to achieve millisecond-level C/R times."
+        "Introduces DeltaBox, a system designed to overcome latency bottlenecks in stateful AI agents.",
+        "Addresses the high computational cost of traditional checkpoint/rollback (C/R) mechanisms, which currently take hundreds of milliseconds to seconds.",
+        "Enables high-frequency state exploration necessary for advanced AI techniques like tree search and reinforcement learning by optimizing state management."
       ]
     },
     {
@@ -178,8 +220,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Addresses the limitation of current autonomous agents being static post-deployment, failing to learn from interactions.",
-        "Proposes 'MOSS,' a system enabling self-evolution by rewriting source code, not just text-mutable artifacts like prompts or schemas.",
-        "Highlights the critical gap in existing self-evolving agents: they leave the core agent harness (routing, state invariants, dispatch) untouched."
+        "Proposes 'MOSS,' a system enabling self-evolution by rewriting the agent's source code, not just configuration files.",
+        "Highlights that critical agent logic (routing, state invariants) resides in code, which previous self-evolution methods ignored."
       ]
     },
     {
@@ -191,8 +233,8 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The study systematically evaluates six major commercial AI chatbots (including Gemini, Grok, Claude, and GPT models) on their factual accuracy.",
-        "It addresses a critical, timely issue: how AI chatbots function as news intermediaries and handle emerging facts across different languages and regions.",
+        "The study systematically evaluates six major commercial AI chatbots (including Gemini, GPT, Claude, and Grok) on their ability to handle emerging news facts.",
+        "It addresses a critical gap in research regarding how proprietary AI systems synthesize and retrieve information from real-time news sources across different languages and regions.",
         "The evaluation utilized 2,100 factual questions derived from same-day BBC News reporting over a two-week period."
       ]
     },
@@ -205,9 +247,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
-        "The model is categorized for text generation and conversational AI tasks.",
-        "It is associated with key ML technologies like transformers and safetensors."
+        "The story highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
+        "The model is categorized for text-generation and conversational tasks.",
+        "It utilizes standard ML components like transformers and safetensors."
       ]
     },
     {
@@ -219,23 +261,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The content highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It is categorized under standard NLP/ML pipeline tags like 'text-generation' and 'transformers'.",
-        "The listing indicates the use of common ML frameworks (PyTorch) and serialization formats (safetensors)."
-      ]
-    },
-    {
-      "id": 10,
-      "title": "Image generation (experimental)",
-      "url": "https://ollama.com/blog/image-generation",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Ollama now supports local image generation on macOS.",
-        "This feature allows users to run image generation models without relying on cloud services.",
-        "Support for Windows and Linux platforms is planned for future releases."
+        "The news highlights the 'bigscience/bloom' model trending on Hugging Face Benchmarks.",
+        "The associated pipeline is 'text-generation', indicating its primary function.",
+        "Key technologies involved include transformers, PyTorch, and safetensors."
       ]
     },
     {
@@ -248,8 +276,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama now supports the Anthropic Messages API.",
-        "This integration allows users to run tools like Claude Code using open models within Ollama.",
-        "It bridges the gap between local, open-source LLM platforms and proprietary APIs like Anthropic's."
+        "This integration allows users to run tools like Claude Code within the Ollama ecosystem.",
+        "It bridges the gap between open-source local models and proprietary APIs like Anthropic's."
       ]
     },
     {
@@ -262,22 +290,36 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama enables the use of OpenAI's Codex CLI with open-source models.",
-        "Codex functionality allows models to read, modify, and execute code within a user's directory.",
-        "The integration supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
+        "Codex, when integrated, can read, modify, and execute code within a user's working directory.",
+        "The system supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
       ]
     },
     {
-      "id": 33,
-      "title": "JWST maps the weather on a hot gas giant 700 light-years away",
-      "url": "https://arstechnica.com/science/2026/05/jwst-maps-the-weather-on-a-hot-gas-giant-700-light-years-away/",
+      "id": 29,
+      "title": "Marketer that claimed it could tap devices for ad targeting will pay $880K settlement",
+      "url": "https://arstechnica.com/tech-policy/2026/05/marketer-that-claimed-it-could-tap-devices-for-ad-targeting-will-pay-880k-settlement/",
       "source": "Ars Technica",
-      "author": "Jacek Krywko",
+      "author": "Scharon Harding",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "JWST successfully mapped the weather patterns of a distant hot gas giant.",
-        "The observations reveal atmospheric differences that challenge current planetary study models.",
-        "The findings suggest potential inaccuracies in how scientists currently model exoplanetary atmospheres."
+        "A marketing company faced a significant settlement after claiming its technology could tap devices for ad targeting.",
+        "The primary company agreed to pay an $880,000 settlement.",
+        "Two other marketing companies were also fined $25,000 each in relation to the issue."
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Soaring solar and a surge in hydro push more coal off the US grid",
+      "url": "https://arstechnica.com/science/2026/05/soaring-solar-and-a-surge-in-hydro-push-more-coal-off-the-us-grid/",
+      "source": "Ars Technica",
+      "author": "John Timmer",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Increasing solar and hydroelectric power generation is contributing to a reduction in coal usage on the US power grid.",
+        "Initial data from 2026 suggests that previous year's energy trends might have been anomalous.",
+        "The story addresses a significant, ongoing shift in the US energy mix driven by renewable adoption."
       ]
     },
     {
@@ -289,9 +331,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses a limitation in current LLMs: their tendency to produce low-entropy responses when trained with a single scalar reward.",
-        "It proposes 'Vector Policy Optimization' to enable LLMs to better generalize and handle diverse reward functions during inference-time search (e.g., AlphaEvolve).",
-        "This research is relevant to advancing LLMs' ability to perform complex, exploratory tasks in novel or dynamic environments."
+        "The paper addresses the limitation of current LLMs, which often produce low-entropy responses when trained with a single scalar reward.",
+        "It proposes 'Vector Policy Optimization' to enable LLMs to generalize better and support diverse reward functions during inference-time search (e.g., AlphaEvolve).",
+        "This research is relevant for improving LLMs' ability to perform robustly in novel environments requiring varied task-specific evaluations."
       ]
     },
     {
@@ -305,7 +347,7 @@
       "bullet_points": [
         "Proposes a unified 'Matching Principle' to address various robustness challenges in representation learning.",
         "The core idea is to estimate the covariance of 'label-preserving deployment nuisance' and regularize the encoder Jacobian based on it.",
-        "This framework aims to unify disparate problems like domain adaptation, occlusion invariance, and compositional generalization."
+        "This framework potentially unifies disparate problems like domain adaptation, occlusion invariance, and compositional generalization."
       ]
     },
     {
@@ -318,8 +360,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces Gated DeltaNet-2, an advancement in linear attention mechanisms.",
-        "Addresses the challenge of editing compressed memory states in linear attention models.",
-        "Uses Delta-rule models and Kimi Delta Attention (KDA) to sharpen forgetting and manage memory updates."
+        "Addresses the challenge of editing compressed, recurrent memory states without data corruption.",
+        "Improves efficiency by reducing sequence mixing to linear time and decoding to constant memory."
       ]
     },
     {
@@ -331,9 +373,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the use of latent communication (via transformer KV caches) in LLM multi-agent systems for improved efficiency.",
-        "KV caches, while beneficial for information richness, pose a security/privacy risk because they encode sensitive agent-specific and contextual data.",
-        "The proposed solution, LCGuard, aims to act as a 'Latent Communication Guard' to ensure safe sharing of this KV information."
+        "The paper introduces LCGuard, a mechanism designed to ensure safe sharing of latent communication within multi-agent LLM systems.",
+        "Latent communication via transformer Key-Value (KV) caches is noted as a method to enhance efficiency and information richness in LLM coordination.",
+        "The core problem addressed is the opacity and potential privacy/security risks associated with KV caches encoding sensitive agent-specific information."
       ]
     },
     {
@@ -346,8 +388,8 @@
       "ai_score": 7,
       "bullet_points": [
         "MambaGaze is a new framework designed for real-time cognitive load assessment using eye-gaze tracking data.",
-        "It specifically addresses two major challenges in eye-tracking analysis: handling frequent data missingness (e.g., blinks) and modeling long-range temporal dependencies.",
-        "The technology has high potential for safety-critical AI applications, such as driver vigilance monitoring and automated flight deck assistance."
+        "It specifically addresses two key challenges in eye-tracking analysis: handling missing data (like blinks) and modeling long-range temporal dependencies.",
+        "The technology has potential applications in safety-critical systems, such as driver vigilance monitoring and automated flight deck assistance."
       ]
     },
     {
@@ -359,9 +401,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the challenge of applying large clinical ECG foundation models to real-time, low-data wearable cognitive load assessment.",
-        "Proposes CogAdapt, a framework designed to bridge the gap between clinical ECG data and wearable sensor configurations.",
-        "Focuses on improving cross-subject generalization for cognitive load monitoring in human-computer interaction."
+        "Addresses the challenge of applying large clinical ECG foundation models to real-time cognitive load assessment on wearables.",
+        "Proposes CogAdapt, a framework designed to adapt pre-trained clinical ECG models to the specific constraints of wearable sensors.",
+        "Focuses on improving cross-subject generalization and overcoming sensor configuration mismatches in cognitive monitoring."
       ]
     },
     {
@@ -373,9 +415,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses a limitation in current Large Language Models (LLMs) where standard training optimizes for a single scalar reward, leading to low-entropy (non-diverse) outputs.",
-        "It proposes 'Vector Policy Optimization' to enable LLMs to generalize and function effectively within inference-scaling search procedures (like AlphaEvolve).",
-        "The core contribution is improving the diversity of LLM responses, which is necessary for successful task-specific reward function selection during test-time search."
+        "Addresses the limitation of standard LLM training, which optimizes for a single scalar reward, leading to low-entropy responses.",
+        "Proposes 'Vector Policy Optimization' to enable LLMs to generalize and handle diverse reward functions required by inference-time search methods (like AlphaEvolve).",
+        "Focuses on improving the diversity of LLM outputs, which is crucial for effective exploration and search in novel environments."
       ]
     },
     {
@@ -387,9 +429,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes a unified 'Matching Principle' to address various robustness issues in representation learning.",
-        "The core idea is to estimate the covariance of 'label-preserving deployment nuisance' and regularize the encoder Jacobian based on it.",
-        "This framework potentially unifies disparate problems like domain adaptation, occlusion invariance, and temporal robustness."
+        "Proposes a unified 'Matching Principle' to address multiple robustness challenges in representation learning.",
+        "The core idea is to estimate the covariance of 'label-preserving deployment nuisance' and regularize the encoder Jacobian accordingly.",
+        "This framework potentially unifies disparate problems like domain adaptation, occlusion invariance, and compositional generalization."
       ]
     },
     {
@@ -401,9 +443,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the security and privacy risks associated with sharing latent communication (specifically KV caches) in multi-agent LLM systems.",
-        "It introduces 'LCGuard,' a mechanism designed to guard or secure the sharing of information encoded within transformer KV caches.",
-        "The work is relevant to improving the efficiency and robustness of complex, multi-agent AI applications by managing sensitive intermediate states."
+        "The research addresses the security and privacy risks associated with sharing latent information (specifically KV caches) in multi-agent LLM systems.",
+        "It introduces 'LCGuard,' a mechanism designed to guard or sanitize the KV cache during inter-agent communication.",
+        "The work focuses on improving efficiency and information richness in multi-agent coordination while mitigating the risks of exposing sensitive agent states."
       ]
     },
     {
@@ -415,23 +457,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the limitation of traditional log anomaly detection, which operates at coarse session/window levels.",
+        "Addresses the limitation of current log anomaly detectors which operate at coarse session/window levels.",
         "Proposes FAME, a Failure-Aware Mixture-of-Experts model for fine-grained, message-level log anomaly detection.",
-        "Tackles challenges in message-level detection, such as template ambiguity and heterogeneous subsystem failures."
-      ]
-    },
-    {
-      "id": 56,
-      "title": "Vector Policy Optimization: Training for Diversity Improves Test-Time Search",
-      "url": "https://arxiv.org/abs/2605.22817v1",
-      "source": "arXiv NLP",
-      "author": "Pulkit Agrawal",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The paper addresses a limitation in current LLMs: their tendency to produce low-entropy responses when trained with a single scalar reward.",
-        "It introduces 'Vector Policy Optimization' to enable LLMs to handle novel environments and diverse reward functions during inference-time search procedures (like AlphaEvolve).",
-        "The core contribution is improving the diversity of LLM outputs, which is necessary for effective search and generalization in complex AI systems."
+        "Highlights the technical challenge of message-level detection due to heterogeneous subsystems and ambiguous event templates."
       ]
     },
     {
@@ -443,9 +471,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Identifies 'covert political bias' in Large Language Models (LLMs), where they treat opposing political viewpoints asymmetrically.",
-        "Proposes two new metrics—Sentiment Consistency and Helpfulness Consistency—to quantify this hidden bias.",
-        "Categorizes seven distinct techniques through which LLMs exhibit this systematic political manipulation."
+        "LLMs exhibit systematic and asymmetric political bias, termed 'covert political bias,' when handling opposing political viewpoints.",
+        "The research identifies seven distinct categories of techniques through which this covert political bias manifests in LLMs.",
+        "Two new metrics, Sentiment Consistency and Helpfulness Consistency, are proposed to quantify the symmetry of rhetoric and depth in LLM responses."
       ]
     },
     {
@@ -457,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research investigates how data ordering during pre-training affects Large Language Models' ability to acquire time-sensitive factual knowledge.",
-        "Current LLMs are often trained on shuffled data, leading to poor understanding of temporal grounding and knowledge frozen at training time.",
-        "The authors introduce a comprehensive benchmark consisting of over 7,000 temporally grounded questions for evaluation."
+        "Investigates how the temporal ordering of data during pre-training affects Large Language Models (LLMs).",
+        "Addresses the current limitation where LLMs are trained on shuffled data, leading to poor temporal grounding.",
+        "Introduces a new benchmark containing over 7,000 temporally grounded questions for evaluation."
       ]
     },
     {
@@ -471,23 +499,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "ChronoMedKG addresses a limitation in existing biomedical knowledge graphs (KGs) by incorporating temporal information.",
-        "The KG is designed to support longitudinal clinical reasoning, recognizing that disease relevance changes over time (e.g., age-dependent symptoms).",
-        "It aims to improve the utility of KGs for advanced applications like retrieval augmentation in clinical settings."
-      ]
-    },
-    {
-      "id": 62,
-      "title": "AnyMo: Geometry-Aware Setup-Agnostic Modeling of Human Motion in the Wild",
-      "url": "https://arxiv.org/abs/2605.22715v1",
-      "source": "arXiv NLP",
-      "author": "Flora Salim",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research addresses the critical issue of setup dependence in human motion sensing using wearable Inertial Measurement Units (IMUs).",
-        "The proposed method, AnyMo, aims to create geometry-aware and setup-agnostic models for human motion in real-world environments.",
-        "This advancement is crucial for enabling the broader, more robust application of wearable IMU data across different devices and datasets."
+        "ChronoMedKG addresses a critical gap in biomedical knowledge graphs (KGs) by incorporating temporal information, which is vital for accurate clinical reasoning.",
+        "Existing KGs fail to capture when a clinical finding becomes relevant over a patient's lifespan, limiting their utility for longitudinal analysis.",
+        "The introduction of ChronoMedKG provides a new, temporally-grounded KG and benchmark specifically designed to improve clinical reasoning and retrieval augmentation in medicine."
       ]
     },
     {
@@ -499,23 +513,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces the 'Accumulated Message Effect on LLM Judgments' (AMEL), investigating how prior conversation history biases LLM evaluations.",
-        "The study tested 11 models from 4 major providers (OpenAI, Anthropic, Google, and open-source) across nearly 76,000 API calls.",
-        "Highlights a critical issue in using LLMs as automated evaluators (e.g., code review, content moderation) where context history can introduce bias."
+        "Investigates the 'Accumulated Message Effect' (AMEL) on LLM judgments, where prior conversation history biases subsequent evaluations.",
+        "Tested across 75,898 API calls using 11 models from major providers (OpenAI, Anthropic, Google, and open-source models).",
+        "Highlights a critical reliability concern for using LLMs as automated evaluators (e.g., code review, content moderation)."
       ]
     },
     {
-      "id": 73,
-      "title": "Valve removes free game from Steam after players discover it contains malware",
-      "url": "https://www.pcguide.com/news/valve-removes-free-horror-game-from-steam-after-players-discover-it-contains-malware-that-steals-your-data/",
+      "id": 66,
+      "title": "U.S. researchers face new restrictions on publishing with foreign collaborators",
+      "url": "https://www.science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators",
       "source": "Hacker News",
-      "author": "gpi",
-      "timestamp": "2026-05-22T12:36:37",
+      "author": "ceejayoz",
+      "timestamp": "2026-05-22T16:23:08",
       "ai_score": 7,
       "bullet_points": [
-        "Valve removed a free game from Steam due to the discovery of malware within it.",
-        "This incident highlights ongoing security risks associated with digital distribution platforms.",
-        "The event serves as a cautionary tale regarding the vetting process for free content on Steam."
+        "U.S. researchers are encountering new limitations regarding collaboration with international partners.",
+        "The restrictions specifically impact the ability to publish research findings with foreign collaborators.",
+        "This signals potential shifts in international academic and research cooperation policies."
       ]
     },
     {
@@ -527,51 +541,51 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The FTC is requiring Cox Media Group to pay nearly $1 million to settle charges.",
-        "The charges relate to deceiving customers regarding an 'Active Listening' AI-powered marketing service.",
-        "This highlights regulatory scrutiny over AI marketing practices and consumer deception."
+        "The FTC has mandated that Cox Media Group pay nearly $1 million to settle charges.",
+        "The charges relate to the company deceiving customers regarding its 'Active Listening' AI-powered marketing service.",
+        "This highlights regulatory scrutiny over the transparency and claims made by AI-driven marketing technologies."
       ]
     },
     {
-      "id": 87,
-      "title": "Rockpack 8.0 - A React Scaffolder Built for the Age of AI-Assisted Development",
-      "url": "https://dev.to/alexsergey/rockpack-80-a-react-scaffolder-built-for-the-age-of-ai-assisted-development-4bnl",
+      "id": 89,
+      "title": "Zero-Idle Local LLMs: Running Llama 3 in AWS Lambda Containers",
+      "url": "https://dev.to/dhananjay_lakkawar/zero-idle-local-llms-running-llama-3-in-aws-lambda-containers-5gjk",
       "source": "Dev.to",
-      "author": "alexsergey",
-      "timestamp": "2026-05-22T12:44:29Z",
+      "author": "dhananjay_lakkawar",
+      "timestamp": "2026-05-22T15:33:45Z",
       "ai_score": 7,
       "bullet_points": [
-        "Rockpack 8.0 is a new React scaffolder.",
-        "It is specifically designed to integrate with AI-assisted development tools like Claude Code and Cursor.",
-        "The tool aims to solve common workflow bottlenecks encountered when using AI coding assistants."
+        "Addresses the challenge of running large language models (LLMs) like Llama 3 in serverless environments.",
+        "Focuses on achieving 'zero-idle' performance for local LLMs within AWS Lambda containers.",
+        "Suggests a practical solution for deploying resource-intensive AI workloads in a cost-efficient, event-driven manner."
       ]
     },
     {
-      "id": 92,
-      "title": "An open source LLM eval tool with two independent quality signals",
-      "url": "https://dev.to/frank_brsrk/an-open-source-llm-eval-tool-with-two-independent-quality-signals-41lb",
+      "id": 93,
+      "title": "Agentic AI in Travel: Why UCP Isn't Travel-Ready Yet — and What We Measured",
+      "url": "https://dev.to/benjifisher/agentic-ai-in-travel-why-ucp-isnt-travel-ready-yet-and-what-we-measured-19h4",
       "source": "Dev.to",
-      "author": "frank_brsrk",
-      "timestamp": "2026-05-22T13:53:54Z",
+      "author": "benjifisher",
+      "timestamp": "2026-05-22T14:51:28Z",
       "ai_score": 7,
       "bullet_points": [
-        "Introduces an open-source tool for evaluating Large Language Models (LLMs).",
-        "The tool incorporates two independent quality signals for evaluation.",
-        "Addresses the current industry trend of using LLM-as-judge for output assessment."
+        "The article discusses the application of Agentic AI within the travel industry.",
+        "It specifically addresses the readiness of UCP (likely a specific technology or standard) for advanced AI integration in travel systems.",
+        "Amadeus, a major industry player handling billions of daily flight searches, is mentioned as a key context provider."
       ]
     },
     {
       "id": 94,
-      "title": "Building a Production AI Chat Widget in React: Floating UI, Live SQL Results, and Collapsible Query Blocks",
-      "url": "https://dev.to/uaslimcreate/building-a-production-ai-chat-widget-in-react-floating-ui-live-sql-results-and-collapsible-query-21lk",
+      "title": "I'm 16, and I Built an AI Tool That Audits Your Technical Debt Without Ever Touching code",
+      "url": "https://dev.to/prithvi_cs_d4551846dc2be5/im-16-and-i-built-an-ai-tool-that-audits-your-technical-debt-without-ever-touching-code-3bbn",
       "source": "Dev.to",
-      "author": "uaslimcreate",
-      "timestamp": "2026-05-22T13:53:51Z",
+      "author": "prithvi_cs_d4551846dc2be5",
+      "timestamp": "2026-05-22T15:57:16Z",
       "ai_score": 7,
       "bullet_points": [
-        "Details the architecture for building a production-ready AI chat widget using React.",
-        "Highlights the integration of natural language processing (Claude) with live, safe SQL query execution.",
-        "Provides practical insights on development patterns and pitfalls encountered during the build process."
+        "A young developer created a CLI tool to audit technical debt in code repositories.",
+        "The tool is designed to be provider-agnostic and operate within a sandbox environment.",
+        "It represents a practical application of AI/ML for automated software quality assessment."
       ]
     }
   ]
