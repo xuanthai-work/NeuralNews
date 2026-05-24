@@ -1,14 +1,16 @@
 {
-  "generated_at": "2026-05-24T01:53:26.610990",
-  "total_stories": 22,
+  "generated_at": "2026-05-24T08:12:18.698832",
+  "total_stories": 36,
   "sources": [
     "Lobsters",
     "Ars Technica",
     "Hacker News",
     "Dev.to",
-    "Ollama",
     "The Verge",
+    "arXiv AI",
+    "Ollama",
     "Hugging Face Benchmarks",
+    "arXiv Machine Learning",
     "arXiv NLP"
   ],
   "stories": [
@@ -21,9 +23,23 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It is categorized under key NLP/ML tags including 'transformers' and 'llama'.",
-        "The primary use case demonstrated is 'text-generation' within the AI ecosystem."
+        "The story highlights the Meta-Llama-3-8B model, a significant entry in the LLM landscape.",
+        "It is presented through the Hugging Face Benchmarks, indicating its community relevance and performance tracking.",
+        "The associated tags confirm its core technology stack involves transformers and text-generation capabilities."
+      ]
+    },
+    {
+      "id": 1,
+      "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The story highlights the trending status of the 'deepseek-ai/DeepSeek-R1' model on Hugging Face Benchmarks.",
+        "It is categorized under text-generation, indicating its primary function as a large language model (LLM).",
+        "The associated tags suggest relevance to transformers, safetensors, and conversational AI applications."
       ]
     },
     {
@@ -35,9 +51,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The content highlights the Llama-3.1-8B-Instruct model from Meta.",
-        "It is presented within the Hugging Face Benchmarks ecosystem, indicating community interest and availability.",
-        "The tags confirm its relevance to transformer models and text generation tasks."
+        "The story highlights the trending status of the meta-llama/Llama-3.1-8B-Instruct model.",
+        "It is categorized under text-generation pipelines, indicating its function as a large language model.",
+        "The tags confirm its relevance to the broader transformer and Llama ecosystem in AI."
       ]
     },
     {
@@ -50,8 +66,8 @@
       "ai_score": 8,
       "bullet_points": [
         "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It pertains to the text-generation pipeline, indicating a focus on large language model capabilities.",
-        "The associated tags (transformers, pytorch, safetensors) confirm its relevance within the modern deep learning ecosystem."
+        "It indicates the model is being used for text generation tasks.",
+        "Associated technologies include transformers, PyTorch, and safetensors."
       ]
     },
     {
@@ -63,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular tool for running local LLMs, has integrated MLX.",
-        "This integration enables faster performance specifically on Apple Silicon hardware.",
-        "The feature is currently available in a preview release."
+        "Ollama, a popular local LLM runner, is integrating MLX for performance gains.",
+        "The integration specifically targets Apple Silicon, optimizing LLM execution on Apple hardware.",
+        "This is currently available in a preview build, signaling an ongoing optimization effort."
       ]
     },
     {
@@ -91,8 +107,8 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama introduces a new command to simplify the setup and execution of coding tools.",
-        "It allows users to run various coding models (Claude Code, OpenCode, Codex) locally or in the cloud.",
+        "Ollama introduces a new command for easily setting up and running coding tools.",
+        "It supports various models, including Claude Code, OpenCode, and Codex, both locally and in the cloud.",
         "A key feature is its simplicity, requiring no environment variables or configuration files."
       ]
     },
@@ -105,9 +121,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification tasks.",
-        "The models, available in 20B and 120B sizes, are being deployed through a partnership with OpenAI and ROOST.",
-        "The models are released under the permissive Apache 2.0 license, promoting open-source safety tooling."
+        "Ollama is partnering with OpenAI and ROOST to integrate gpt-oss-safeguard reasoning models.",
+        "These models are designed for safety classification tasks and are available in 20B and 120B sizes.",
+        "The gpt-oss-safeguard models are released under the permissive Apache 2.0 license."
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Meta’s Forum is part Reddit, part Facebook, and part Google AI Overview",
+      "url": "https://www.theverge.com/tech/936290/meta-forum-facebook-groups-app-hands-on",
+      "source": "The Verge",
+      "author": "Stevie Bonifield",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Meta is launching a new 'Forum' app to house Facebook Groups, consolidating functionality into a dedicated platform.",
+        "The app integrates a dedicated AI chatbot, positioning it as a competitor to tools like ChatGPT and Google's AI Overviews.",
+        "This move signals Meta's ongoing effort to modernize and centralize its community features, reviving a concept from a previously defunct Facebook Groups app."
       ]
     },
     {
@@ -120,12 +150,54 @@
       "ai_score": 8,
       "bullet_points": [
         "Russian satellites are reportedly close enough to threaten an ICEYE radarsat.",
-        "The capability described is noted as unusual for standard satellite missions.",
-        "The story touches upon geopolitical tensions involving advanced space technology."
+        "The proximity suggests a capability beyond standard satellite operational profiles.",
+        "The story touches upon escalating geopolitical tensions involving space assets."
       ]
     },
     {
-      "id": 37,
+      "id": 38,
+      "title": "MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems",
+      "url": "https://arxiv.org/abs/2605.22794v1",
+      "source": "arXiv AI",
+      "author": "Yike Guo",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "MOSS proposes a method for self-evolution in autonomous agents by allowing source-level rewriting.",
+        "Current self-evolving agents are limited because they only modify text artifacts (prompts, schemas) and not the core agent code.",
+        "The research addresses the limitation of static agent harnesses by targeting code elements like routing, hook ordering, and dispatch."
+      ]
+    },
+    {
+      "id": 41,
+      "title": "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback",
+      "url": "https://arxiv.org/abs/2605.22781v1",
+      "source": "arXiv AI",
+      "author": "Haibo Chen",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces DeltaBox, a system designed to address the latency bottleneck in stateful AI agents.",
+        "The core problem addressed is the slow (hundreds of milliseconds to seconds) checkpoint/rollback (C/R) of large sandbox states required for deep search and RL in LLM agents.",
+        "DeltaBox aims to enable millisecond-level C/R by optimizing state management, which is crucial for scaling complex AI agent workflows."
+      ]
+    },
+    {
+      "id": 51,
+      "title": "MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems",
+      "url": "https://arxiv.org/abs/2605.22794v1",
+      "source": "arXiv Machine Learning",
+      "author": "Yike Guo",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Addresses the limitation of current autonomous agents being static post-deployment, requiring manual updates for failures.",
+        "Proposes 'MOSS,' a method for self-evolution that goes beyond modifying text-based artifacts (like prompts or skill files).",
+        "Focuses on evolving the core agent harness—including routing, hook ordering, and state invariants—which is currently untouched."
+      ]
+    },
+    {
+      "id": 57,
       "title": "Evaluating Commercial AI Chatbots as News Intermediaries",
       "url": "https://arxiv.org/abs/2605.22785v1",
       "source": "arXiv NLP",
@@ -133,23 +205,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The study systematically evaluates six major commercial AI chatbots (including Gemini, GPT-5, Claude, and Grok) on their factual accuracy.",
-        "It addresses a critical gap in research by measuring how these chatbots handle emerging facts across multiple languages and regions.",
-        "The evaluation used 2,100 factual questions derived from same-day BBC News reporting over a 14-day period."
+        "The study systematically evaluates six major commercial AI chatbots (including Gemini, GPT-5, Claude 4.5, etc.) regarding their factual accuracy.",
+        "It addresses a critical gap in research by measuring how these proprietary systems handle emerging news facts across different languages and regions.",
+        "The evaluation used 2,100 factual questions derived from same-day BBC News reporting over a two-week period."
       ]
     },
     {
-      "id": 1,
-      "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
+      "id": 92,
+      "title": "From Prompts to Action: What Gemini 3.5 Flash and the Agentic Stack Mean for Developers",
+      "url": "https://dev.to/harshabm_e558522b28f940/from-prompts-to-action-what-gemini-35-flash-and-the-agentic-stack-mean-for-developers-i49",
+      "source": "Dev.to",
+      "author": "harshabm_e558522b28f940",
+      "timestamp": "2026-05-24T07:33:31Z",
+      "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the DeepSeek-R1 model on Hugging Face Benchmarks.",
-        "The model is categorized under text-generation and conversational AI pipelines.",
-        "It is associated with key technologies like transformers and safetensors."
+        "The article discusses the implications of Gemini 3.5 Flash for software development.",
+        "It focuses on the concept of the 'Agentic Stack' and its relevance to modern development workflows.",
+        "The content is framed around key announcements from Google I/O."
       ]
     },
     {
@@ -161,8 +233,8 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama now offers experimental local image generation capabilities.",
-        "The feature is currently available for macOS users.",
+        "Ollama now offers experimental local image generation capabilities on macOS.",
+        "This feature allows users to run image generation models entirely on their local machines.",
         "Support for Windows and Linux platforms is planned for future releases."
       ]
     },
@@ -175,9 +247,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama has integrated compatibility with the Anthropic Messages API.",
-        "This integration allows users to leverage powerful models like Claude Code within the Ollama ecosystem.",
-        "The feature bridges the gap between open-source local LLM deployment and proprietary API capabilities."
+        "Ollama now supports the Anthropic Messages API.",
+        "This integration allows users to leverage models like Claude Code within the Ollama ecosystem.",
+        "It bridges the gap between open-source local model deployment and proprietary API capabilities."
       ]
     },
     {
@@ -191,7 +263,7 @@
       "bullet_points": [
         "Ollama enables the use of OpenAI's Codex CLI with open-source models.",
         "Codex, when integrated, can read, modify, and execute code within a user's directory.",
-        "The integration supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
+        "The system supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
       ]
     },
     {
@@ -203,23 +275,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Google's new AI Overviews feature is currently exhibiting significant functional errors.",
-        "The AI has been observed providing irrelevant or unexpected responses, such as when searching for the term 'disregard'.",
-        "This highlights ongoing challenges and bugs in the deployment of large-scale generative AI search tools."
-      ]
-    },
-    {
-      "id": 23,
-      "title": "Meta’s Forum is part Reddit, part Facebook, and part Google AI Overview",
-      "url": "https://www.theverge.com/tech/936290/meta-forum-facebook-groups-app-hands-on",
-      "source": "The Verge",
-      "author": "Stevie Bonifield",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Meta is launching a new 'Forum' app to house Facebook Groups in a dedicated space.",
-        "The app integrates a dedicated AI chatbot, aiming to provide an in-app AI experience similar to Google AI Overviews.",
-        "This move represents a strategic effort by Meta to modernize its community features, referencing past app iterations."
+        "Google's new AI Overviews feature is experiencing functional issues.",
+        "The AI has been observed providing irrelevant or chatbot-like responses to specific queries, such as 'disregard'.",
+        "This highlights current instability and limitations in the deployment of Google's generative AI search capabilities."
       ]
     },
     {
@@ -231,9 +289,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Starship V3 flight was deemed 'mostly successful' by SpaceX.",
-        "The vehicle is still considered a work in progress.",
-        "Full flight to low-Earth orbit remains a future goal for the program."
+        "SpaceX's Starship V3 flight was deemed 'mostly successful' in its initial test.",
+        "The vehicle is still considered a work in progress and has significant hurdles to overcome.",
+        "Full operational capability, including reaching low-Earth orbit, has not yet been achieved."
       ]
     },
     {
@@ -245,13 +303,153 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The story concerns the unauthorized recreation of deceased pilots' voices using technology.",
-        "The method employed circumvents existing legal restrictions regarding the disclosure of cockpit audio recordings by the NTSB.",
-        "It highlights the intersection of advanced voice synthesis/AI and aviation safety regulations."
+        "The story concerns the misuse of AI voice cloning technology to recreate the voices of deceased pilots.",
+        "This activity is happening despite existing regulations that restrict the disclosure of cockpit audio recordings by the NTSB.",
+        "The current situation involves users finding workarounds to bypass these legal restrictions."
       ]
     },
     {
-      "id": 38,
+      "id": 35,
+      "title": "Vector Policy Optimization: Training for Diversity Improves Test-Time Search",
+      "url": "https://arxiv.org/abs/2605.22817v1",
+      "source": "arXiv AI",
+      "author": "Pulkit Agrawal",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper addresses a limitation in current Large Language Models (LLMs) where standard training optimizes for a single scalar reward.",
+        "It proposes 'Vector Policy Optimization' to enable LLMs to generate diverse response distributions, which is crucial for advanced inference-time search procedures like AlphaEvolve.",
+        "The research focuses on improving LLM generalization capabilities to handle novel environments and complex, multi-faceted reward functions during testing."
+      ]
+    },
+    {
+      "id": 36,
+      "title": "The Matching Principle: A Geometric Theory of Loss Functions for Nuisance-Robust Representation Learning",
+      "url": "https://arxiv.org/abs/2605.22800v1",
+      "source": "arXiv AI",
+      "author": "Vishal Rajput",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Proposes a unified 'Matching Principle' to address various robustness challenges in representation learning.",
+        "The core idea is to estimate the covariance of 'label-preserving deployment nuisance' and regularize the encoder Jacobian based on it.",
+        "This framework aims to unify traditionally separate problems like domain adaptation, occlusion invariance, and temporal robustness."
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention",
+      "url": "https://arxiv.org/abs/2605.22791v1",
+      "source": "arXiv AI",
+      "author": "Jan Kautz",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces Gated DeltaNet-2, an advancement in linear attention mechanisms.",
+        "Addresses the challenge of editing compressed memory in linear attention models, moving beyond simple forgetting.",
+        "Utilizes Delta-rule models and Kimi Delta Attention (KDA) to sharpen forgetting and manage state updates."
+      ]
+    },
+    {
+      "id": 40,
+      "title": "LCGuard: Latent Communication Guard for Safe KV Sharing in Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2605.22786v1",
+      "source": "arXiv AI",
+      "author": "Karthikeyan Natesan Ramamurthy",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper introduces LCGuard, a mechanism designed to ensure safe sharing of latent communication within multi-agent systems.",
+        "Latent communication via transformer Key-Value (KV) caches is noted as an efficient method for LLM coordination, but it poses privacy/security risks.",
+        "LCGuard addresses the opacity issue by guarding the sensitive, context-rich information encoded within the KV caches."
+      ]
+    },
+    {
+      "id": 43,
+      "title": "MambaGaze: Bidirectional Mamba with Explicit Missing Data Modeling for Cognitive Load Assessment from Eye-Gaze Tracking Data",
+      "url": "https://arxiv.org/abs/2605.22775v1",
+      "source": "arXiv AI",
+      "author": "John Quarles",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "MambaGaze addresses challenges in real-time cognitive load assessment from eye-gaze data.",
+        "It specifically tackles data missingness (from blinks/tracking failures) and long-range temporal dependencies.",
+        "The framework aims to enable adaptive human-centered AI in safety-critical applications like driver monitoring."
+      ]
+    },
+    {
+      "id": 44,
+      "title": "CogAdapt: Transferring Clinical ECG Foundation Models to Wearable Cognitive Load Assessment via Lead Adaptation",
+      "url": "https://arxiv.org/abs/2605.22774v1",
+      "source": "arXiv AI",
+      "author": "John Quarles",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the challenge of applying large clinical ECG foundation models to real-world wearable devices for cognitive load assessment.",
+        "Proposes 'CogAdapt,' a framework designed to adapt pre-trained clinical ECG models to the constraints of wearable sensors.",
+        "Focuses on improving cross-subject generalization and overcoming sensor configuration mismatches in cognitive monitoring."
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Vector Policy Optimization: Training for Diversity Improves Test-Time Search",
+      "url": "https://arxiv.org/abs/2605.22817v1",
+      "source": "arXiv Machine Learning",
+      "author": "Pulkit Agrawal",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper addresses a limitation in current Large Language Models (LLMs) where standard training optimizes for a single scalar reward, leading to low-entropy (non-diverse) outputs.",
+        "It proposes 'Vector Policy Optimization' to enable LLMs to generalize and perform better within inference-scaling search procedures (like AlphaEvolve).",
+        "The core contribution is improving the diversity of LLM responses, which is necessary for effective task-specific reward function selection during testing."
+      ]
+    },
+    {
+      "id": 49,
+      "title": "The Matching Principle: A Geometric Theory of Loss Functions for Nuisance-Robust Representation Learning",
+      "url": "https://arxiv.org/abs/2605.22800v1",
+      "source": "arXiv Machine Learning",
+      "author": "Vishal Rajput",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Proposes a unified 'Matching Principle' to address various robustness issues in representation learning.",
+        "The core idea is to estimate the covariance of 'label-preserving deployment nuisance' and regularize the encoder Jacobian based on it.",
+        "This framework potentially unifies disparate problems like domain adaptation, photometric invariance, and temporal robustness."
+      ]
+    },
+    {
+      "id": 52,
+      "title": "LCGuard: Latent Communication Guard for Safe KV Sharing in Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2605.22786v1",
+      "source": "arXiv Machine Learning",
+      "author": "Karthikeyan Natesan Ramamurthy",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research addresses the security and privacy risks associated with sharing latent information (specifically KV caches) in multi-agent LLM systems.",
+        "It introduces 'LCGuard,' a mechanism designed to guard or sanitize the sensitive information encoded within transformer KV caches during inter-agent communication.",
+        "The work highlights the growing trend of using latent communication for efficiency in complex, LLM-based multi-agent coordination."
+      ]
+    },
+    {
+      "id": 53,
+      "title": "FAME: Failure-Aware Mixture-of-Experts for Message-Level Log Anomaly Detection",
+      "url": "https://arxiv.org/abs/2605.22779v1",
+      "source": "arXiv Machine Learning",
+      "author": "Alberto Leon-Garcia",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the limitation of current log anomaly detectors which operate at coarse session/window levels.",
+        "Proposes FAME, a Failure-Aware Mixture-of-Experts model for fine-grained, message-level log anomaly detection.",
+        "Tackles challenges in message-level detection, such as template ambiguity and heterogeneous subsystem failures."
+      ]
+    },
+    {
+      "id": 58,
       "title": "Reducing Political Manipulation with Consistency Training",
       "url": "https://arxiv.org/abs/2605.22771v1",
       "source": "arXiv NLP",
@@ -259,13 +457,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "LLMs exhibit systematic and asymmetric political bias across sensitive contexts, termed 'covert political bias'.",
-        "The research identifies seven categories of techniques through which this covert political bias operates.",
+        "LLMs display systematic and asymmetric political bias across sensitive contexts, termed 'covert political bias'.",
+        "The research identifies seven distinct categories of techniques through which this covert bias manifests.",
         "Two new metrics, Sentiment Consistency and Helpfulness Consistency, are proposed to quantify this bias."
       ]
     },
     {
-      "id": 39,
+      "id": 59,
       "title": "Understanding Data Temporality Impact on Large Language Models Pre-training",
       "url": "https://arxiv.org/abs/2605.22769v1",
       "source": "arXiv NLP",
@@ -273,13 +471,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Investigates how the temporal ordering of data impacts the knowledge acquisition of Large Language Models (LLMs).",
-        "Addresses the current limitation where LLMs, trained on shuffled data, lack proper temporal grounding.",
+        "Investigates how data ordering during pre-training affects Large Language Models' ability to acquire time-sensitive factual knowledge.",
+        "Addresses the current limitation where LLMs, trained on shuffled data, have poorly understood temporal grounding.",
         "Introduces a new benchmark comprising over 7,000 temporally grounded questions for evaluation."
       ]
     },
     {
-      "id": 40,
+      "id": 60,
       "title": "ChronoMedKG: A Temporally-Grounded Biomedical Knowledge Graph and Benchmark for Clinical Reasoning",
       "url": "https://arxiv.org/abs/2605.22734v1",
       "source": "arXiv NLP",
@@ -287,27 +485,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "ChronoMedKG introduces a new biomedical knowledge graph designed to incorporate temporal information, addressing a limitation in existing static KGs.",
-        "The research highlights that temporal context (e.g., age of symptom onset) is critical for accurate longitudinal clinical reasoning, which current KGs fail to capture.",
-        "The development aims to improve the utility of KGs for advanced applications like clinical reasoning and retrieval augmentation in healthcare AI."
+        "ChronoMedKG addresses a critical limitation in existing biomedical knowledge graphs (KGs) by incorporating temporal information.",
+        "The research highlights that static disease associations fail to capture the dynamic nature of clinical reasoning (e.g., age-dependent symptoms).",
+        "The new KG and benchmark aim to improve longitudinal clinical reasoning and retrieval augmentation in healthcare AI."
       ]
     },
     {
-      "id": 42,
-      "title": "AnyMo: Geometry-Aware Setup-Agnostic Modeling of Human Motion in the Wild",
-      "url": "https://arxiv.org/abs/2605.22715v1",
-      "source": "arXiv NLP",
-      "author": "Flora Salim",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research addresses the challenge of setup dependence in human motion sensing using wearable Inertial Measurement Units (IMUs).",
-        "The proposed method, AnyMo, aims to create geometry-aware and setup-agnostic models for human motion in real-world environments.",
-        "This advancement is crucial for enabling the broader, more robust application of wearable IMU data across different devices and datasets."
-      ]
-    },
-    {
-      "id": 43,
+      "id": 63,
       "title": "AMEL: Accumulated Message Effects on LLM Judgments",
       "url": "https://arxiv.org/abs/2605.22714v1",
       "source": "arXiv NLP",
@@ -315,9 +499,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The study investigates the 'Accumulated Message Effect on LLM Judgments' (AMEL), examining if prior conversation history biases subsequent evaluations by LLMs.",
-        "Research was conducted across 75,898 API calls using 11 models from four major providers (OpenAI, Anthropic, Google, and open-source models).",
-        "This research is relevant to the growing use of LLMs as automated evaluators for tasks like code review and content moderation."
+        "Introduces the 'Accumulated Message Effect on LLM Judgments' (AMEL), investigating if prior conversation history biases LLM evaluations.",
+        "The study tested 11 LLMs from 4 major providers (OpenAI, Anthropic, Google, and open-source models) across 75,898 API calls.",
+        "Highlights a critical issue in using LLMs as automated evaluators (e.g., code review, content moderation) where context accumulation matters."
+      ]
+    },
+    {
+      "id": 91,
+      "title": "The Control Plane is Leaking: When Context Becomes Command",
+      "url": "https://dev.to/toxy4ny/the-control-plane-is-leaking-when-context-becomes-command-29bp",
+      "source": "Dev.to",
+      "author": "toxy4ny",
+      "timestamp": "2026-05-24T07:06:20Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The article discusses the blurring boundary between data and control when using Large Language Models (LLMs).",
+        "It addresses the concept of the 'Control Plane' leaking, suggesting a security or architectural risk.",
+        "The core theme is the need to re-establish separation mechanisms in LLM-driven systems."
       ]
     }
   ]
