@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-25T01:59:56.200577",
-  "total_stories": 43,
+  "generated_at": "2026-05-25T09:42:57.070434",
+  "total_stories": 42,
   "sources": [
     "The Verge",
-    "Ars Technica",
-    "arXiv Machine Learning",
-    "Dev.to",
-    "arXiv NLP",
-    "Lobsters",
-    "Ollama",
     "Hugging Face Benchmarks",
     "arXiv AI",
-    "Hacker News"
+    "arXiv Machine Learning",
+    "Lobsters",
+    "Ars Technica",
+    "Dev.to",
+    "Hacker News",
+    "arXiv NLP",
+    "Ollama"
   ],
   "stories": [
     {
@@ -23,9 +23,37 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It is categorized under key AI/ML domains including transformers, llama, and text-generation.",
-        "This indicates ongoing community interest and practical usage of Meta's Llama model variants."
+        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
+        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
+        "Key associated technologies include transformers, safetensors, and the Llama architecture."
+      ]
+    },
+    {
+      "id": 36,
+      "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+      "url": "https://arxiv.org/abs/2605.23901v1",
+      "source": "arXiv AI",
+      "author": "Yiyuan Ma",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Proposes the 'Shannon Scaling Law' to reframe LLM training as information transmission over a noisy channel.",
+        "Addresses limitations of current monotonic scaling laws by incorporating non-monotonic phenomena like catastrophic overtraining and quantization degradation.",
+        "Uses the Shannon-Hartley theorem to provide a unified theoretical framework for understanding model capacity and scaling."
+      ]
+    },
+    {
+      "id": 1,
+      "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
+        "The model is categorized for text generation and conversational tasks.",
+        "It utilizes standard ML components like transformers and safetensors, indicating a focus on practical LLM deployment."
       ]
     },
     {
@@ -37,9 +65,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The content highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
         "It is categorized under key NLP/ML tags including 'transformers' and 'text-generation'.",
-        "This indicates continued community interest and benchmarking activity around Meta's Llama family of models."
+        "The content points to the ongoing community interest and benchmarking of Meta's Llama models."
       ]
     },
     {
@@ -51,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It is categorized under key ML/AI technologies like transformers and PyTorch.",
-        "The pipeline indicates the model is being used for text generation tasks."
+        "The content highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
+        "It is categorized under key AI/ML technologies including transformers and PyTorch.",
+        "The pipeline indicates its use for text generation tasks."
       ]
     },
     {
@@ -66,8 +94,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Ollama, a popular local LLM runner, is integrating MLX for performance gains.",
-        "The integration specifically targets Apple Silicon, optimizing AI workloads on Apple hardware.",
-        "This feature is currently available in a preview build, indicating ongoing development."
+        "The integration specifically targets Apple Silicon, optimizing performance on Apple hardware.",
+        "This represents a significant step in making local, high-performance AI accessible on Mac devices."
       ]
     },
     {
@@ -79,9 +107,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed for local execution.",
-        "It integrates messaging applications with local AI coding agents.",
-        "The key feature emphasizes running all AI processes entirely on the user's own device for privacy/control."
+        "OpenClaw is a personal AI assistant designed to integrate with messaging apps.",
+        "It utilizes local AI coding agents that run entirely on the user's device.",
+        "The core value proposition is enabling private, on-device AI functionality for coding assistance."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "ollama launch",
+      "url": "https://ollama.com/blog/launch",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Ollama introduces a new command for easily setting up and running coding tools.",
+        "It supports various models, including Claude Code, OpenCode, and Codex, locally or in the cloud.",
+        "A key feature is its simplicity, requiring no environment variables or configuration files."
       ]
     },
     {
@@ -93,9 +135,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification.",
-        "The models are available in two sizes (20B and 120B) and are permissively licensed under Apache 2.0.",
-        "The partnership involves ROOST (Robust Open Online Safety Tools) to enhance safety capabilities."
+        "Ollama is collaborating with OpenAI and ROOST to integrate gpt-oss-safeguard reasoning models.",
+        "These models are designed specifically for safety classification tasks.",
+        "The models are available in 20B and 120B sizes and are permissively licensed under Apache 2.0."
       ]
     },
     {
@@ -108,110 +150,40 @@
       "ai_score": 8,
       "bullet_points": [
         "Hackers are developing new methods to exploit the 'personalities' embedded within AI chatbots.",
-        "The vulnerability represents an evolution from the simple exploits seen in earlier generations of AI.",
-        "This highlights growing security risks associated with the increasingly complex and personalized nature of modern AI models."
+        "The vulnerability represents an evolution from simpler, earlier forms of AI hacking.",
+        "This trend highlights growing security risks associated with advanced conversational AI models."
       ]
     },
     {
-      "id": 36,
-      "title": "Agentic Proving for Program Verification",
-      "url": "https://arxiv.org/abs/2605.23772v1",
-      "source": "arXiv AI",
-      "author": "Bas Spitters",
+      "id": 29,
+      "title": "Four Russian satellites are now within striking distance of an ICEYE radarsat",
+      "url": "https://arstechnica.com/space/2026/05/a-satellite-company-supporting-ukraine-appears-to-be-in-russias-crosshairs/",
+      "source": "Ars Technica",
+      "author": "Stephen Clark",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The research evaluates the capability of Claude Code in an agentic proving framework for program verification.",
-        "The system achieved a high rate of generating arguably valid specifications (98.8%) on the CLEVER benchmark.",
-        "This work connects advanced agentic AI systems to the critical field of formal program verification."
+        "Russian satellites are reportedly close enough to target an ICEYE radarsat.",
+        "The described capability is noted as unusual for standard satellite missions.",
+        "The story touches upon advanced space technology and potential military/surveillance implications."
       ]
     },
     {
-      "id": 39,
-      "title": "MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection",
-      "url": "https://arxiv.org/abs/2605.23723v1",
-      "source": "arXiv AI",
-      "author": "Lin Sun",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Addresses a critical security vulnerability in LLM agents: memory poisoning via adversarial user input.",
-        "Proposes 'MemAudit,' a post-hoc auditing technique using Causal Attribution and Structural Anomaly Detection.",
-        "Moves beyond existing online defenses by focusing on detecting malicious records injected into persistent agent memory."
-      ]
-    },
-    {
-      "id": 41,
-      "title": "CVSearch: Empowering Multimodal LLMs with Cognitive Visual Search for High-Resolution Image Perception",
-      "url": "https://arxiv.org/abs/2605.23655v1",
-      "source": "arXiv AI",
-      "author": "Yaowei Wang",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "CVSearch addresses a critical bottleneck in Multimodal LLMs (MLLMs): high-resolution (HR) image perception.",
-        "It resolves the trade-off between visual search coverage and computational efficiency, which plagues existing methods.",
-        "The proposed method improves upon existing visual expert-assisted and scan-based search techniques."
-      ]
-    },
-    {
-      "id": 42,
-      "title": "One Policy, Infinite NPCs: Persona-Traceable Shared RL Policies for Scalable Game Agents",
-      "url": "https://arxiv.org/abs/2605.23652v1",
-      "source": "arXiv AI",
-      "author": "Yoosung Hong",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces 'pcsp,' a new method for creating scalable game agents with distinct, traceable personalities (NPCs).",
-        "Achieves high performance in persona identification (17x above chance) and strong semantic-behavioral alignment (Spearman rho approx 0.73) on a 300-persona benchmark.",
-        "Demonstrates significant efficiency gains, achieving 22x faster inference compared to LLM-as-policy baselines for life simulation games."
-      ]
-    },
-    {
-      "id": 47,
-      "title": "The physics of AI weather models",
-      "url": "https://arxiv.org/abs/2605.23778v1",
+      "id": 45,
+      "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+      "url": "https://arxiv.org/abs/2605.23901v1",
       "source": "arXiv Machine Learning",
-      "author": "Kirsten I. Tempest",
+      "author": "Yiyuan Ma",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The research investigates whether AI weather models implicitly solve underlying physical equations governing the atmosphere.",
-        "The study uses Centered Kernel Alignment (CKA) to show that diverse AI weather models represent atmospheric physics in similar ways.",
-        "It suggests that the architecture and training methods of AI models constrain the form of the physical laws they can simulate."
+        "Proposes the 'Shannon Scaling Law' to theoretically model LLM training as information transmission over a noisy channel.",
+        "Addresses limitations of existing monotonic scaling laws by incorporating non-monotonic phenomena like catastrophic overtraining and quantization degradation.",
+        "Grounds the framework in the Shannon-Hartley theorem, offering a unified perspective on model capacity and scaling."
       ]
     },
     {
-      "id": 48,
-      "title": "LLM-driven design of physics-constrained constitutive models: two agents are better than one",
-      "url": "https://arxiv.org/abs/2605.23754v1",
-      "source": "arXiv Machine Learning",
-      "author": "Christian Cyron",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The research addresses the complexity of creating physics-constrained constitutive models, traditionally requiring deep expertise across multiple fields.",
-        "It introduces a novel multi-agent LLM framework to systematically generate and validate these models, overcoming the limitations of single-agent pipelines.",
-        "This work represents a significant step in applying advanced AI (LLMs) to complex scientific domains like continuum mechanics."
-      ]
-    },
-    {
-      "id": 60,
-      "title": "OpenSkillEval: Automatically Auditing the Open Skill Ecosystem for LLM Agents",
-      "url": "https://arxiv.org/abs/2605.23657v1",
-      "source": "arXiv NLP",
-      "author": "Yixin Cao",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces OpenSkillEval, a framework designed to automatically audit the open skill ecosystem for LLM agents.",
-        "Addresses critical gaps in the field, specifically how different models interact with skills and how to evaluate skill quality.",
-        "Focuses on practical concerns for users, such as making informed selections based on cost-performance trade-offs."
-      ]
-    },
-    {
-      "id": 66,
+      "id": 68,
       "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
       "url": "https://esengine.github.io/DeepSeek-Reasonix/",
       "source": "Hacker News",
@@ -219,37 +191,23 @@
       "timestamp": "2026-05-24T13:02:06",
       "ai_score": 8,
       "bullet_points": [
-        "DeepSeek has released 'reasonix,' a native coding agent designed for high efficiency.",
+        "DeepSeek has released Reasonix, a native coding agent designed for efficiency.",
         "The agent features high caching capabilities and is noted for its low operational cost.",
-        "The news is relevant to the competitive landscape of AI coding assistants and LLM deployment."
+        "The announcement is relevant to the ongoing competitive landscape of AI coding tools and models."
       ]
     },
     {
-      "id": 1,
-      "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
+      "id": 94,
+      "title": "Building an Autonomous SRE Agent: From Raw Telemetry to Safe, AI-Driven Remediation",
+      "url": "https://dev.to/faizanhussainrabbani/building-an-autonomous-sre-agent-from-raw-telemetry-to-safe-ai-driven-remediation-2olo",
+      "source": "Dev.to",
+      "author": "faizanhussainrabbani",
+      "timestamp": "2026-05-25T08:52:41Z",
+      "ai_score": 8,
       "bullet_points": [
-        "The story highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
-        "The model is categorized for text-generation and conversational AI tasks.",
-        "It is associated with the deepseek_v3 architecture and utilizes standard ML formats like transformers and safetensors."
-      ]
-    },
-    {
-      "id": 9,
-      "title": "ollama launch",
-      "url": "https://ollama.com/blog/launch",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Ollama introduces a new command for running coding tools locally or in the cloud.",
-        "It integrates various coding models such as Claude Code, OpenCode, and Codex.",
-        "A key feature is its simplicity, requiring no environment variables or configuration files."
+        "Introduces an Autonomous SRE Agent designed to automate the entire incident response lifecycle.",
+        "The system leverages AI to move from raw telemetry data through detection, diagnosis, and remediation.",
+        "Focuses on creating a closed-loop system that not only fixes issues but also learns from them."
       ]
     },
     {
@@ -261,9 +219,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama now offers experimental local image generation capabilities.",
-        "The feature is currently available for macOS users.",
-        "Support for Windows and Linux is planned for future releases."
+        "Ollama now supports local image generation functionality.",
+        "The feature is currently experimental and available on macOS.",
+        "Support for Windows and Linux platforms is planned for future releases."
       ]
     },
     {
@@ -275,9 +233,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama has expanded its capabilities by integrating compatibility with the Anthropic Messages API.",
-        "This integration allows users to leverage advanced models, such as Claude Code, within the Ollama ecosystem.",
-        "The feature supports running powerful, proprietary models alongside open-source alternatives via Ollama."
+        "Ollama now supports the Anthropic Messages API.",
+        "This integration allows users to leverage models like Claude Code within the Ollama ecosystem.",
+        "It bridges the gap between open-source local LLM tools and proprietary APIs like Anthropic's."
       ]
     },
     {
@@ -290,7 +248,7 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama enables the use of OpenAI's Codex CLI with open-source models.",
-        "Codex functionality allows models to read, modify, and execute code in a user's directory.",
+        "Codex functionality allows models to read, modify, and execute code within a user's directory.",
         "The integration supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
       ]
     },
@@ -305,7 +263,7 @@
       "bullet_points": [
         "Waymo is established as the dominant leader in the robotaxi market with a large operational fleet.",
         "The article explores the strategic advantage Nuro might gain by being a 'second mover' in the industry.",
-        "Competition in the autonomous vehicle space is fierce, involving Tesla, Zoox, Avride, and Motional."
+        "Nuro is positioned as a competitor against major players like Tesla, Zoox, and Motional."
       ]
     },
     {
@@ -318,22 +276,8 @@
       "ai_score": 7,
       "bullet_points": [
         "SpaceX's Starship V3 flight was mostly successful, but remains a work in progress.",
-        "The vehicle has not yet achieved the goal of flying to low-Earth orbit.",
-        "The report suggests SpaceX still has significant development hurdles to overcome."
-      ]
-    },
-    {
-      "id": 29,
-      "title": "Four Russian satellites are now within striking distance of an ICEYE radarsat",
-      "url": "https://arstechnica.com/space/2026/05/a-satellite-company-supporting-ukraine-appears-to-be-in-russias-crosshairs/",
-      "source": "Ars Technica",
-      "author": "Stephen Clark",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Russian satellites are reportedly close enough to strike an ICEYE radarsat.",
-        "The capability described is noted as unusual for satellites performing standard missions.",
-        "The story touches upon geopolitical tensions involving advanced space technology."
+        "The vehicle has not yet achieved a full flight to low-Earth orbit.",
+        "The report suggests significant further testing and development are required for Starship."
       ]
     },
     {
@@ -345,167 +289,265 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The story concerns the misuse of AI technology to recreate the voices of deceased pilots.",
-        "This activity is complicated by existing regulations that restrict the public release of cockpit audio recordings by the NTSB.",
-        "The current workaround employed by users appears to bypass these established legal disclosures."
+        "The story concerns the unauthorized recreation of deceased pilots' voices using technology.",
+        "This activity involves circumventing regulations that restrict the disclosure of cockpit audio recordings by the NTSB.",
+        "It highlights the intersection of advanced voice synthesis technology and aviation safety/privacy laws."
       ]
     },
     {
       "id": 35,
-      "title": "Beyond Binary Edits Robust Multimodal Knowledge Editing with Adversarial Subspace Alignment",
-      "url": "https://arxiv.org/abs/2605.23780v1",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "url": "https://arxiv.org/abs/2605.23904v1",
       "source": "arXiv AI",
-      "author": "Chaochao Chen",
+      "author": "Chong Luo",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses a key challenge in Multimodal Large Language Models (MLLMs): efficiently updating knowledge without performance degradation.",
-        "Existing knowledge editing methods lack generality, failing to apply edits consistently across semantically equivalent visual and linguistic variations.",
-        "The proposed solution uses Adversarial Subspace Alignment to improve edit propagation and overcome limitations caused by rigid scopes and sample bias."
+        "SkillOpt proposes a new paradigm for agent skill development, moving beyond current methods like hand-crafting or loose self-revision.",
+        "The core idea is to train agent skills as an external state, applying optimization discipline similar to weight-space optimization in deep learning.",
+        "This represents a systematic, controllable text-space optimization approach aimed at reliably improving agent performance under feedback."
       ]
     },
     {
       "id": 37,
-      "title": "PhotoFlow: Agentic 3D Virtual Photography Missions",
-      "url": "https://arxiv.org/abs/2605.23771v1",
+      "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+      "url": "https://arxiv.org/abs/2605.23899v1",
       "source": "arXiv AI",
-      "author": "Zhihang Zhong",
+      "author": "Chong Luo",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'PhotoFlow,' an agentic system for 3D virtual photography.",
-        "The system allows an AI agent to autonomously select a camera pose and render a photograph based only on a language intent and a 3D scene.",
-        "The research highlights the difficulty in evaluating the combined capabilities of complex 3D spatial understanding and abstract aesthetic judgment in these agents."
+        "Language agents are improving by reusing 'skills,' which are structured procedures distilled from past experience.",
+        "Domain-level and model-generated skills are highlighted as promising for fast, scalable adaptation within specific domains.",
+        "Despite growing extraction methods, comprehensive understanding of these skills remains limited, according to the study."
       ]
     },
     {
       "id": 38,
-      "title": "Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking",
-      "url": "https://arxiv.org/abs/2605.23733v1",
+      "title": "SPACENUM: Revisiting Spatial Numerical Understanding in VLMs",
+      "url": "https://arxiv.org/abs/2605.23898v1",
       "source": "arXiv AI",
-      "author": "Hua Chen",
+      "author": "Han Liu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'Any2Any,' a method for efficient cross-embodiment transfer of Whole-Body Tracking (WBT) models.",
-        "Addresses the high computational cost and data requirements of training WBT models from scratch for humanoid robots.",
-        "Aims to allow pretrained WBT specialists to be adapted with minimal effort across different humanoid platforms."
+        "The research addresses the challenge of ensuring numerical outputs (like action magnitudes and coordinates) from Vision-Language Models (VLMs) are genuinely grounded in spatial perception.",
+        "The authors introduce SpaceNum, a unified framework designed to revisit and test spatial numerical understanding in VLMs.",
+        "The framework captures two complementary settings to analyze how numbers function within embodied environments."
       ]
     },
     {
-      "id": 40,
-      "title": "OnePred: Next-Query Prediction via Recursive Intent Memory in Multi-Turn Conversations",
-      "url": "https://arxiv.org/abs/2605.23668v1",
+      "id": 39,
+      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
+      "url": "https://arxiv.org/abs/2605.23897v1",
       "source": "arXiv AI",
-      "author": "Guanjun Jiang",
+      "author": "Dahua Lin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the reactive nature of current LLM conversational systems by focusing on next-query prediction.",
-        "The proposed method, OnePred, utilizes 'Recursive Intent Memory' to anticipate user queries based on prior dialogue.",
-        "The work aims to overcome existing limitations, such as the lack of dedicated benchmarks and the efficiency-quality trade-off in dialogue modeling."
+        "Addresses the limitation of purely textual Chain-of-Thought reasoning in Multimodal LLMs for complex visual tasks.",
+        "Proposes 'ETCHR,' a novel approach that decouples reasoning from image generation by using a dedicated image editing model.",
+        "Aims to overcome existing bottlenecks in 'think with images' paradigms, such as fixed toolkits or noisy intermediate images."
+      ]
+    },
+    {
+      "id": 41,
+      "title": "CHRONOS: Temporally-Aware Multi-Agent Coordination for Evolving Data Marketplaces",
+      "url": "https://arxiv.org/abs/2605.23887v1",
+      "source": "arXiv AI",
+      "author": "Joydeep Chandra",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "CHRONOS addresses three coupled failures in static temporal knowledge-graph data marketplaces: stale indexing, inaccurate Shapley pricing, and differential-privacy budget over-consumption.",
+        "The proposed solution is a three-layer architecture designed to unify the treatment of these temporal data challenges.",
+        "Key technical components include using neural-ODE temporal decay for shortcut edges and maintaining explicit public/private data separation."
+      ]
+    },
+    {
+      "id": 42,
+      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
+      "url": "https://arxiv.org/abs/2605.23883v1",
+      "source": "arXiv AI",
+      "author": "Adriana Romero-Soriano",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Proposes Procedurally Generated Tasks (PGT) to enhance fine-grained visual grounding in Multimodal Large Language Models (MLLMs).",
+        "PGT works by overlaying unambiguous geometric primitives onto images to generate dense supervision.",
+        "The framework also functions as a low-cost diagnostic tool to pinpoint the source of MLLM perception failures."
       ]
     },
     {
       "id": 43,
-      "title": "Learning Through Noise: Why Subliminal Learning Works and When It Fails",
-      "url": "https://arxiv.org/abs/2605.23645v1",
+      "title": "Human Decision-Making with Persuasive and Narrative LLM Explanations",
+      "url": "https://arxiv.org/abs/2605.23867v1",
       "source": "arXiv AI",
-      "author": "Viola Priesemann",
+      "author": "Murat Kantarcioglu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper investigates 'subliminal learning' in neural networks, defined as knowledge transfer via distillation on unrelated input-output pairs.",
-        "Previous theories linked this effect to similar teacher-student initializations, but the research challenges this necessity.",
-        "The study proposes that compatible output heads, rather than initialization matching, govern the phenomenon of subliminal learning."
+        "LLMs can enhance human decision-making in classification tasks beyond just accurate predictions.",
+        "The research focuses on the impact of generating cogent, narrative explanations from LLMs.",
+        "While prior work shows people find AI narratives trustworthy, the effect on objective decision-making is less understood."
       ]
     },
     {
       "id": 44,
-      "title": "DualMem: Bypassing the Objectness Bottleneck for Calibrated Unknown-Stream Filtering in Open-World Object Detection",
-      "url": "https://arxiv.org/abs/2605.23634v1",
+      "title": "Leveraging Foundation Models for Causal Generative Modeling",
+      "url": "https://arxiv.org/abs/2605.23861v1",
       "source": "arXiv AI",
-      "author": "Siyuan Chen",
+      "author": "Xintao Wu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the challenge of Open-World Object Detection (OWOD), which requires identifying both known and novel (unknown) objects.",
-        "The study identifies an 'information bottleneck' in current OWOD detectors, where unknown prediction streams are heavily contaminated by background false positives (46-71%).",
-        "The proposed method, DualMem, aims to bypass this bottleneck to improve the calibration and filtering of unknown object predictions for future learning."
-      ]
-    },
-    {
-      "id": 45,
-      "title": "Advanced AI Service Provisioning in O-RAN through LLM Engine Integration",
-      "url": "https://arxiv.org/abs/2605.23809v1",
-      "source": "arXiv Machine Learning",
-      "author": "Vijay K. Shah",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The paper addresses the manual and slow process of developing and deploying AI applications within the O-RAN architecture.",
-        "It proposes a 'Dual-Brain' architecture to leverage LLM reasoning capabilities while meeting the real-time, deterministic inference needs of RAN control.",
-        "The research focuses on integrating advanced AI service provisioning into O-RAN using LLMs, a key area for 6G and future wireless networks."
+        "The research addresses the need for causal generative modeling to build reliable AI capable of counterfactual reasoning.",
+        "The proposed FM-CGM is a modular framework designed to integrate causal reasoning with pretrained foundation models.",
+        "It aims to leverage the zero-shot reasoning capabilities of large models for end-to-end visual causal reasoning."
       ]
     },
     {
       "id": 46,
-      "title": "Debiased Negative Mining Improves Out-of-distribution Detection with Pre-trained Vision-Language Models",
-      "url": "https://arxiv.org/abs/2605.23797v1",
+      "title": "Complete-muE: Optimal Hyperparameter Transfer and Scaling for MoE Models",
+      "url": "https://arxiv.org/abs/2605.23893v1",
       "source": "arXiv Machine Learning",
-      "author": "Zhen Fang",
+      "author": "Yan Kang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses Out-of-Distribution (OOD) detection, a critical area for improving ML model reliability.",
-        "It focuses on enhancing post-hoc OOD detection specifically when using pre-trained Vision-Language Models (VLMs).",
-        "The proposed method involves 'Debiased Negative Mining' to improve the accuracy of detecting unexpected inputs."
+        "Introduces Complete-muE, a new framework for hyperparameter transfer in transformer models.",
+        "Specifically addresses the challenges of transferring hyperparameters between dense Feed-Forward Networks (FFN) and Mixture-of-Experts (MoE) setups.",
+        "Overcomes limitations of existing tools by handling architectural changes (Dense to MoE) and scaling variations (MoE total experts)."
       ]
     },
     {
-      "id": 49,
-      "title": "SeedER: Seed-and-Expand Retrieval from Knowledge Graphs",
-      "url": "https://arxiv.org/abs/2605.23753v1",
+      "id": 47,
+      "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
+      "url": "https://arxiv.org/abs/2605.23892v1",
       "source": "arXiv Machine Learning",
-      "author": "Emmanuel Noutahi",
+      "author": "Igor Gilitschenski",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces SeedER, a new retrieval framework designed to overcome challenges in Knowledge Graph (KG) retrieval.",
-        "Addresses limitations of existing methods, specifically the rapid growth of ego-graph expansion and difficulties with multi-hop queries in dense embeddings.",
-        "SeedER leverages KG structure using iterative, low-cost expansion techniques to enable scalable retrieval."
+        "Addresses the quadratic computational cost of Visual Geometry Transformers (VGTs) in 3D reconstruction.",
+        "Proposes a strategy to improve efficiency by restricting the number of key/value tokens used in attention mechanisms.",
+        "Focuses on making powerful VGT architectures more scalable for multi-view 3D attribute prediction."
+      ]
+    },
+    {
+      "id": 48,
+      "title": "CHRONOS: Temporally-Aware Multi-Agent Coordination for Evolving Data Marketplaces",
+      "url": "https://arxiv.org/abs/2605.23887v1",
+      "source": "arXiv Machine Learning",
+      "author": "Joydeep Chandra",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "CHRONOS addresses three coupled failures in temporal knowledge-graph data marketplaces: stale indexing, misattributed value via stationary Shapley pricing, and budget over-consumption.",
+        "The proposed solution is a three-layer architecture designed to unify the treatment of these temporal and coordination challenges.",
+        "Key technical components include applying neural-ODE temporal decay to shortcut edges and maintaining explicit public/private data separation."
       ]
     },
     {
       "id": 50,
-      "title": "Approaching I/O-optimality for Approximate Attention",
-      "url": "https://arxiv.org/abs/2605.23751v1",
+      "title": "Training-Free Looped Transformers",
+      "url": "https://arxiv.org/abs/2605.23872v1",
       "source": "arXiv Machine Learning",
-      "author": "Anastasios Zouzias",
+      "author": "Qiang Liu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research focuses on optimizing the I/O complexity of the attention mechanism in Large Language Models (LLMs).",
-        "It addresses the memory bottleneck by minimizing data transfers between fast and slow memory when computing the attention matrix.",
-        "The work aims to improve upon existing methods like FlashAttention, which currently have an I/O cost quadratic in the sequence length (n)."
+        "Introduces 'training-free looped transformers' to enhance model performance.",
+        "The method retrofits recurrence onto frozen, pretrained models at inference time without fine-tuning.",
+        "Highlights that naive block reapplication degrades performance, emphasizing the need for careful loop implementation."
       ]
     },
     {
-      "id": 51,
-      "title": "Contrast to Detect: Dynamic Graph Contrastive Regularization for Unsupervised Anomaly Detection in Multivariate Time Series",
-      "url": "https://arxiv.org/abs/2605.23744v1",
+      "id": 52,
+      "title": "Leveraging Foundation Models for Causal Generative Modeling",
+      "url": "https://arxiv.org/abs/2605.23861v1",
       "source": "arXiv Machine Learning",
-      "author": "John Cartlidge",
+      "author": "Xintao Wu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the challenge of unsupervised anomaly detection in Multivariate Time Series (MTS) where labels are unavailable.",
-        "Identifies limitations in current methods: reconstruction-based detectors fail to distinguish anomalies, and existing graph contrastive methods assume a static relational structure.",
-        "Proposes 'Dynamic Graph Contrastive Regularization' to handle dynamic inter-variable dependencies and structural drift in MTS data."
+        "The research addresses the need for causal generative modeling to build reliable AI capable of counterfactual reasoning.",
+        "It introduces FM-CGM, a modular framework designed to integrate causal reasoning with pretrained foundation models.",
+        "The framework aims to leverage the zero-shot reasoning capabilities of large models for end-to-end visual causal reasoning."
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Strong Teacher Not Needed? On Distillation in LLM Pretraining",
+      "url": "https://arxiv.org/abs/2605.23857v1",
+      "source": "arXiv Machine Learning",
+      "author": "Zhuang Liu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Challenges the conventional assumption in knowledge distillation that a stronger teacher model is required for effective student training.",
+        "Investigates distillation effectiveness across various teacher-student relationships (strong-to-weak, same-level, weak-to-strong) in LLM pretraining.",
+        "Suggests that proper mixing of language modeling techniques can allow for successful distillation even when the teacher model is not significantly stronger than the student."
+      ]
+    },
+    {
+      "id": 55,
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "url": "https://arxiv.org/abs/2605.23904v1",
+      "source": "arXiv NLP",
+      "author": "Chong Luo",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "SkillOpt proposes a new methodology for developing AI agent skills, moving beyond current hand-crafted or loosely controlled self-revision methods.",
+        "The core idea is to train the agent's skill as an external state, applying optimization discipline similar to weight-space optimization in deep learning.",
+        "The paper claims to be the first systematic, controllable text-space optimization approach for agent skills."
+      ]
+    },
+    {
+      "id": 56,
+      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
+      "url": "https://arxiv.org/abs/2605.23897v1",
+      "source": "arXiv NLP",
+      "author": "Dahua Lin",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "ETCHR addresses the bottleneck in multimodal LLMs where purely textual Chain-of-Thought struggles with fine-grained visual reasoning.",
+        "The research proposes a novel approach by decoupling reasoning from image generation, utilizing a dedicated image editing model.",
+        "This method aims to overcome limitations in existing 'think with images' paradigms, such as fixed toolkits or noisy intermediate images."
       ]
     },
     {
       "id": 58,
+      "title": "Strong Teacher Not Needed? On Distillation in LLM Pretraining",
+      "url": "https://arxiv.org/abs/2605.23857v1",
+      "source": "arXiv NLP",
+      "author": "Zhuang Liu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Challenges the conventional assumption in knowledge distillation that a 'strong' teacher model is necessary for effective student training.",
+        "Investigates distillation effectiveness across various teacher-student relationships (strong-to-weak, same-level, weak-to-strong).",
+        "Suggests that proper mixing during language modeling can allow for successful distillation even when the teacher model is not significantly stronger than the student."
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Decomposing Queries into Tool Calls for Long-Video Keyframe Retrieval",
+      "url": "https://arxiv.org/abs/2605.23826v1",
+      "source": "arXiv NLP",
+      "author": "Derek Hoiem",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces ToolMerge, a new method for long-video keyframe retrieval to support video QA.",
+        "The method uses an LLM-based planner to decompose complex user queries into specific tool calls.",
+        "It addresses limitations of existing methods by merging the results of decomposed queries for more accurate frame selection."
+      ]
+    },
+    {
+      "id": 64,
       "title": "ChartFI: Benchmarking Faithfulness and Insightfulness of Chart Descriptions from Multimodal Large Language Models",
       "url": "https://arxiv.org/abs/2605.23694v1",
       "source": "arXiv NLP",
@@ -513,107 +555,51 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the critical need to evaluate how accurately and insightfully Multimodal Large Language Models (MLLMs) describe charts.",
-        "Current benchmarks for chart description generation are deemed insufficient because they use simple, homogeneous charts and shallow descriptions.",
-        "Faithful and insightful chart descriptions are crucial for accessibility, cross-modal retrieval, and data extraction from complex visualizations."
+        "The paper introduces ChartFI to benchmark the faithfulness and insightfulness of chart descriptions generated by Multimodal Large Language Models (MLLMs).",
+        "Current benchmarks are criticized for using simple, homogeneous charts and shallow, fact-enumeration-based descriptions.",
+        "Accurate chart descriptions are crucial for accessibility, cross-modal retrieval, and data insight extraction."
       ]
     },
     {
-      "id": 59,
-      "title": "OnePred: Next-Query Prediction via Recursive Intent Memory in Multi-Turn Conversations",
-      "url": "https://arxiv.org/abs/2605.23668v1",
-      "source": "arXiv NLP",
-      "author": "Guanjun Jiang",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research addresses the reactive nature of current LLM conversational systems by focusing on next-query prediction.",
-        "The proposed method, OnePred, utilizes Recursive Intent Memory to anticipate user queries based on prior dialogue.",
-        "The work aims to overcome existing challenges, specifically the lack of dedicated benchmarks and the efficiency-quality trade-off in this task."
-      ]
-    },
-    {
-      "id": 62,
-      "title": "Benchmarking Google Embeddings 2 against Open-Source Models for Multilingual Dense Retrieval and RAG Systems",
-      "url": "https://arxiv.org/abs/2605.23618v1",
-      "source": "arXiv NLP",
-      "author": "Giandomenico Solimando",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The study benchmarks Google Embeddings 2 (GE2) against five leading open-source multilingual models (BGE-M3, E5-large, etc.).",
-        "GE2 demonstrated superior performance across four BEIR subsets and a synthetic Italian RAG corpus.",
-        "The research also evaluates practical aspects like chunking strategies and per-query latency on CPU hardware."
-      ]
-    },
-    {
-      "id": 63,
-      "title": "DiLaDiff: Distilled Latent-Augmented Diffusion for Language Modeling",
-      "url": "https://arxiv.org/abs/2605.23605v1",
-      "source": "arXiv NLP",
-      "author": "Ante Jukić",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Proposes DiLaDiff, a new masked diffusion language model variant designed to improve language modeling.",
-        "Addresses the inherent issue in diffusion models of failing to capture correlations between decoded tokens, balancing quality and throughput.",
-        "Utilizes a continuous latent space learned via an auto-encoder fine-tuned from an existing masked diffusion model."
-      ]
-    },
-    {
-      "id": 64,
-      "title": "Structure-Guided Entity Resolution: Fine-Tuning LLMs for Robust Name Matching in Complex Linguistic Contexts",
-      "url": "https://arxiv.org/abs/2605.23597v1",
-      "source": "arXiv NLP",
-      "author": "Nilesh Patil",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research addresses the complex problem of entity resolution, specifically matching person names across diverse datasets.",
-        "It focuses on using fine-tuning of Large Language Models (LLMs) to improve name matching robustness in complex linguistic contexts.",
-        "The application is highly relevant to critical industry needs, such as Know Your Customer (KYC) compliance, where data inconsistency is a major hurdle."
-      ]
-    },
-    {
-      "id": 68,
-      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
-      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "id": 66,
+      "title": "Show HN: Geomatic – a command-driven geometry studio enabled with autodiff",
+      "url": "https://www.tinyvolt.com/geomatic",
       "source": "Hacker News",
-      "author": "intelkishan",
-      "timestamp": "2026-05-24T16:31:29",
+      "author": "nivter",
+      "timestamp": "2026-05-25T08:25:00",
       "ai_score": 7,
       "bullet_points": [
-        "Memory is becoming a dominant cost driver in AI chip manufacturing.",
-        "The cost contribution of memory now approaches two-thirds of the total AI chip component expense.",
-        "This highlights a critical hardware bottleneck and cost factor in the scaling of AI infrastructure."
+        "Geomatic is a new command-driven geometry studio that integrates autodifferentiation.",
+        "It allows users to define geometric primitives (like lines) using simple command syntax, similar to mathematical expressions.",
+        "The tool supports advanced features like NumPy/PyTorch-style broadcasting and backpropagation for geometric computations."
       ]
     },
     {
-      "id": 87,
-      "title": "I Ditched Cloud LLMs for Gemma 4 4B: A DevOps Engineer's 48-Hour Reality Check",
-      "url": "https://dev.to/asamaes/i-ditched-cloud-llms-for-gemma-4-4b-a-devops-engineers-48-hour-reality-check-a7d",
+      "id": 90,
+      "title": "How to Evaluate AI Agents: LLM-as-Judge Tutorial",
+      "url": "https://dev.to/aws/how-to-evaluate-ai-agents-llm-as-judge-tutorial-4a6h",
       "source": "Dev.to",
-      "author": "asamaes",
-      "timestamp": "2026-05-24T19:55:03Z",
+      "author": "elizabethfuentes12",
+      "timestamp": "2026-05-25T07:00:00Z",
       "ai_score": 7,
       "bullet_points": [
-        "A DevOps engineer compared using cloud-based LLMs against the open-weights Gemma 4 4B model.",
-        "The article details a 48-hour practical evaluation of running Gemma 4 in a real-world DevOps context.",
-        "The piece serves as a submission for a specific challenge related to Gemma 4, focusing on deployment realities."
+        "Introduces LLM-as-Judge as a method for evaluating AI agent quality.",
+        "Focuses on detecting critical issues like silent failures, wasted tokens, and hallucinations.",
+        "Provides a practical Python tutorial for implementing trajectory analysis in agent evaluation."
       ]
     },
     {
-      "id": 94,
-      "title": "Audit AI-Generated PRs Before You Merge Them (Swarm Orchestrator 10.3.0)",
-      "url": "https://dev.to/moonrunnerkc/audit-ai-generated-prs-before-you-merge-them-swarm-orchestrator-1030-3a6e",
+      "id": 92,
+      "title": "Multi-Repo Microservice Changes Are a Coordination Problem. I Solved It With AI Agent Teams.",
+      "url": "https://dev.to/ramcsamal/multi-repo-microservice-changes-are-a-coordination-problem-i-solved-it-with-ai-agent-teams-34mf",
       "source": "Dev.to",
-      "author": "moonrunnerkc",
-      "timestamp": "2026-05-24T20:54:59Z",
+      "author": "ramcsamal",
+      "timestamp": "2026-05-25T08:12:03Z",
       "ai_score": 7,
       "bullet_points": [
-        "Introduces a CLI and GitHub Action to audit AI-generated Pull Requests (PRs).",
-        "The tool scans PRs for 'sketchy patterns' and provides advisory feedback directly within the PR.",
-        "This addresses the growing need for quality control and verification in AI-assisted software development workflows."
+        "Addresses the complex coordination challenges inherent in multi-repo microservice architectures.",
+        "Introduces RepoOrch, an open-source Claude Code plugin designed to manage these multi-repo workspaces.",
+        "Leverages AI Agent Teams to automate and solve the coordination problems in distributed development environments."
       ]
     }
   ]
