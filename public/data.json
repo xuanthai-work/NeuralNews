@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-05-27T02:00:08.309951",
-  "total_stories": 27,
+  "generated_at": "2026-05-27T08:55:42.853033",
+  "total_stories": 45,
   "sources": [
-    "Hacker News",
+    "Lobsters",
     "The Verge",
+    "Hugging Face Benchmarks",
+    "arXiv NLP",
+    "Dev.to",
+    "arXiv AI",
+    "Ollama",
     "arXiv Machine Learning",
     "Ars Technica",
-    "Ollama",
-    "Lobsters",
-    "Hugging Face Benchmarks",
-    "Dev.to"
+    "Hacker News"
   ],
   "stories": [
     {
@@ -21,9 +23,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
-        "It is categorized under key AI/ML domains including transformers, llama, and text-generation.",
-        "The mention of 'safetensors' indicates the use of modern, efficient model serialization formats."
+        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
+        "It is categorized under key ML/AI tags including 'transformers', 'llama', and 'text-generation'.",
+        "This indicates active community interest and performance tracking for a major LLM release."
       ]
     },
     {
@@ -35,23 +37,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
-        "It pertains to the core field of large language models (LLMs) and text generation.",
-        "The associated tags indicate relevance to transformers, safetensors, and the Llama family of models."
-      ]
-    },
-    {
-      "id": 26,
-      "title": "Musk says US military suicide drones used Starlink in violation of SpaceX rules",
-      "url": "https://arstechnica.com/tech-policy/2026/05/musk-says-us-military-suicide-drones-used-starlink-in-violation-of-spacex-rules/",
-      "source": "Ars Technica",
-      "author": "Jon Brodkin",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Musk alleges US military used Starlink for suicide drones, violating SpaceX's operational rules.",
-        "The drones reportedly used Starlink instead of the dedicated, presumably more secure, Starshield service.",
-        "Musk has placed blame for the alleged violation on a military contractor."
+        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It is categorized under key AI/ML domains including transformers and text-generation.",
+        "The mention of Meta's Llama family indicates continued high relevance in the generative AI space."
       ]
     },
     {
@@ -63,65 +51,107 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "A critical vulnerability, dubbed \"BadHost,\" was discovered in the Starlette package.",
+        "A critical vulnerability named \"BadHost\" was discovered in the Starlette package.",
         "Starlette is a widely used open-source package, boasting 325 million weekly downloads.",
-        "The vulnerability poses a significant threat to millions of AI agents relying on this dependency."
+        "The vulnerability poses a significant risk to millions of AI agents relying on this software."
       ]
     },
     {
       "id": 35,
-      "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI",
-      "url": "https://arxiv.org/abs/2605.26112v1",
-      "source": "arXiv Machine Learning",
-      "author": "Shangding Gu",
+      "title": "Algorithmic Monocultures in Hiring",
+      "url": "https://arxiv.org/abs/2605.27371v1",
+      "source": "arXiv AI",
+      "author": "Percy Liang",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The paper identifies system scaling, rather than just model scaling, as the next critical bottleneck in Agentic AI.",
-        "It proposes the concept of 'scaling the harness,' focusing on designing robust, auditable, and modular architectures around foundation models.",
-        "This shift treats the structured execution layer surrounding LLMs (the 'harness') as a primary object for design and optimization."
+        "The study investigates 'algorithmic monoculture,' where many employers use hiring algorithms from the same few vendors.",
+        "Researchers found clear racial disparities in hiring outcomes when applicants were screened by algorithms from a single vendor.",
+        "The analysis utilized a novel dataset comprising 3 million applicants and 4 million applications to validate the hypothesis."
       ]
     },
     {
-      "id": 42,
-      "title": "DiscoverPhysics: Benchmarking LLMs for Out-of-the-Box Scientific Thinking",
-      "url": "https://arxiv.org/abs/2605.26087v1",
-      "source": "arXiv Machine Learning",
-      "author": "Carolina Cuesta-Lázaro",
+      "id": 40,
+      "title": "MobileMoE: Scaling On-Device Mixture of Experts",
+      "url": "https://arxiv.org/abs/2605.27358v1",
+      "source": "arXiv AI",
+      "author": "Raghuraman Krishnamoorthi",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Introduces DiscoverPhysics, a new benchmark designed to test genuine scientific reasoning in LLMs.",
-        "The benchmark challenges LLMs by having them discover the laws of motion in simulated worlds with non-standard physics (e.g., fractional-power gravity).",
-        "Addresses the critical limitation of current LLMs: distinguishing between true reasoning and mere recall of existing scientific knowledge."
+        "Introduces MobileMoE, a new family of Mixture-of-Experts (MoE) language models designed for on-device deployment.",
+        "Addresses the gap in applying MoE architectures to sub-billion parameter scales for mobile use cases.",
+        "Establishes a new Pareto frontier for on-device LLMs by optimizing MoE scaling laws."
       ]
     },
     {
-      "id": 1,
-      "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
+      "id": 41,
+      "title": "Alignment Tampering: How Reinforcement Learning from Human Feedback Is Exploited to Optimize Misaligned Biases",
+      "url": "https://arxiv.org/abs/2605.27355v1",
+      "source": "arXiv AI",
+      "author": "Kimin Lee",
       "timestamp": null,
-      "ai_score": 8,
+      "ai_score": 9,
       "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
-        "The model is categorized for text generation and conversational tasks.",
-        "It is associated with key AI technologies like transformers and safetensors."
+        "Introduces 'alignment tampering,' a new vulnerability in LLM safety.",
+        "This vulnerability exploits RLHF by allowing the LLM to influence the preference dataset used for alignment.",
+        "It highlights core limitations in RLHF, specifically how LLM outputs can bias the human feedback process."
       ]
     },
     {
-      "id": 4,
-      "title": "🤗 Trending: bigscience/bloom",
-      "url": "https://huggingface.co/bigscience/bloom",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
+      "id": 47,
+      "title": "MobileMoE: Scaling On-Device Mixture of Experts",
+      "url": "https://arxiv.org/abs/2605.27358v1",
+      "source": "arXiv Machine Learning",
+      "author": "Raghuraman Krishnamoorthi",
       "timestamp": null,
-      "ai_score": 8,
+      "ai_score": 9,
       "bullet_points": [
-        "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It is categorized under key AI/ML technologies like transformers and PyTorch.",
-        "The pipeline indicates the model is being used for text generation tasks."
+        "Introduces MobileMoE, a new family of Mixture-of-Experts (MoE) language models designed for on-device deployment.",
+        "Addresses the gap in applying MoE advantages to sub-billion parameter models suitable for edge devices.",
+        "Establishes a new Pareto frontier for on-device LLMs by optimizing MoE architecture and scaling laws."
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Alignment Tampering: How Reinforcement Learning from Human Feedback Is Exploited to Optimize Misaligned Biases",
+      "url": "https://arxiv.org/abs/2605.27355v1",
+      "source": "arXiv Machine Learning",
+      "author": "Kimin Lee",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Introduces 'alignment tampering,' a novel vulnerability in Reinforcement Learning from Human Feedback (RLHF).",
+        "This tampering allows the LLM being aligned to influence the preference dataset used for training.",
+        "The vulnerability can cause RLHF to actively amplify undesired or misaligned behaviors in Large Language Models (LLMs)."
+      ]
+    },
+    {
+      "id": 56,
+      "title": "MobileMoE: Scaling On-Device Mixture of Experts",
+      "url": "https://arxiv.org/abs/2605.27358v1",
+      "source": "arXiv NLP",
+      "author": "Raghuraman Krishnamoorthi",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Introduces MobileMoE, a new family of Mixture-of-Experts (MoE) language models designed for on-device deployment.",
+        "Addresses the gap in applying MoE architectures to sub-billion parameter, resource-constrained environments.",
+        "Establishes a new Pareto frontier for on-device LLMs by optimizing MoE scaling laws for mobile use."
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Alignment Tampering: How Reinforcement Learning from Human Feedback Is Exploited to Optimize Misaligned Biases",
+      "url": "https://arxiv.org/abs/2605.27355v1",
+      "source": "arXiv NLP",
+      "author": "Kimin Lee",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Introduces 'alignment tampering,' a vulnerability in Reinforcement Learning from Human Feedback (RLHF).",
+        "This tampering allows the LLM being aligned to influence the preference dataset used for training.",
+        "The vulnerability risks causing RLHF to amplify existing, undesired biases within Large Language Models (LLMs)."
       ]
     },
     {
@@ -133,9 +163,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, now integrates MLX for performance on Apple Silicon.",
-        "This integration leverages MLX, Apple's native machine learning framework, for optimized execution.",
-        "The feature is currently available in a preview build, indicating ongoing development and optimization."
+        "Ollama has integrated MLX, Apple's native machine learning framework, for performance enhancement.",
+        "This update specifically targets and optimizes the experience for Apple Silicon devices.",
+        "The feature is currently available in a preview release."
       ]
     },
     {
@@ -148,8 +178,22 @@
       "ai_score": 8,
       "bullet_points": [
         "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, ensuring all processing runs directly on the user's device.",
-        "The core value proposition is providing private, on-device AI assistance for coding tasks."
+        "It connects these apps to local AI coding agents.",
+        "A key feature is that all AI processing runs entirely on the user's local device."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "ollama launch",
+      "url": "https://ollama.com/blog/launch",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Ollama introduces a new command to easily set up and run coding tools.",
+        "It supports various models, including Claude Code, OpenCode, and Codex.",
+        "A key feature is its simplicity, requiring no environment variables or config files."
       ]
     },
     {
@@ -161,9 +205,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification tasks.",
-        "The models, available in 20B and 120B sizes, are being deployed through a partnership with OpenAI and ROOST.",
-        "The gpt-oss-safeguard models are permissively licensed under the Apache 2.0 license, promoting open usage."
+        "Ollama is partnering with OpenAI and ROOST to integrate gpt-oss-safeguard reasoning models.",
+        "These models are designed for safety classification tasks and are available in 20B and 120B sizes.",
+        "The models are permissively licensed under the Apache 2.0 license, promoting open usage."
       ]
     },
     {
@@ -176,36 +220,134 @@
       "ai_score": 8,
       "bullet_points": [
         "NASA is advancing its plans for a permanent Moon base.",
-        "The initial phase involves three specific Moon Base missions this year.",
-        "These missions are foundational to the crewed Artemis landing scheduled for 2028."
+        "The initial phase involves three upcoming lunar missions targeting the Moon's South Pole.",
+        "These preparatory missions are crucial steps toward the crewed Artemis landing scheduled for 2028."
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Musk says US military suicide drones used Starlink in violation of SpaceX rules",
+      "url": "https://arstechnica.com/tech-policy/2026/05/musk-says-us-military-suicide-drones-used-starlink-in-violation-of-spacex-rules/",
+      "source": "Ars Technica",
+      "author": "Jon Brodkin",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Musk alleges US military utilized Starlink for suicide drones, violating SpaceX's established protocols.",
+        "The drones reportedly used the standard Starlink service instead of the dedicated, presumably more secure, Starshield.",
+        "Musk has placed blame for the alleged violation on a military contractor."
       ]
     },
     {
       "id": 39,
-      "title": "Forgetting in Language Models: Capacity, Optimization, and Self-Generated Replay",
-      "url": "https://arxiv.org/abs/2605.26097v1",
-      "source": "arXiv Machine Learning",
-      "author": "Andrew Gordon Wilson",
+      "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
+      "url": "https://arxiv.org/abs/2605.27360v1",
+      "source": "arXiv AI",
+      "author": "Tommaso Melodia",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The paper addresses catastrophic forgetting in language models, where performance on old tasks degrades when learning new ones.",
-        "It proposes that language models can effectively use self-generated samples from their own training distribution as replay data to mitigate forgetting.",
-        "The research indicates that forgetting persists primarily when the model has limited remaining capacity."
+        "Introduces GENESIS, an AI agent framework designed to automate complex 6G Radio Access Network (RAN) development.",
+        "Addresses major bottlenecks in cellular R&D, such as manual synthesis, testing, and optimization, which currently take months per iteration.",
+        "Aims to accelerate the discovery and prototyping of novel 6G waveforms and network functionalities using AI."
       ]
     },
     {
-      "id": 9,
-      "title": "ollama launch",
-      "url": "https://ollama.com/blog/launch",
-      "source": "Ollama",
+      "id": 42,
+      "title": "Guiding LLM Post-training Data Engineering with Model Internals from Sparse Autoencoders",
+      "url": "https://arxiv.org/abs/2605.27354v1",
+      "source": "arXiv AI",
+      "author": "Xiaozhi Wang",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces SAERL, a new data engineering framework for LLM Reinforcement Learning (RL).",
+        "Leverages Sparse Autoencoders (SAE) to extract rich, intrinsic information from LLM model internals.",
+        "Models three key intrinsic data properties—diversity, difficulty, and quality—to guide post-training data curation."
+      ]
+    },
+    {
+      "id": 43,
+      "title": "When Eyes Betray AI: Social Gaze Consistency as a Semantic Cue for AI-Generated Image Detection",
+      "url": "https://arxiv.org/abs/2605.27348v1",
+      "source": "arXiv AI",
+      "author": "Hyesong Choi",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The research addresses the limitations of current AI image detection methods, which struggle with subtle, high-level manipulations.",
+        "It introduces 'Social Gaze Consistency' as a novel, high-level semantic cue for detecting AI-generated or manipulated images.",
+        "This cue analyzes the mutual coherence of gaze direction, head-eye alignment, and pupil placement between interacting subjects."
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Guiding LLM Post-training Data Engineering with Model Internals from Sparse Autoencoders",
+      "url": "https://arxiv.org/abs/2605.27354v1",
+      "source": "arXiv Machine Learning",
+      "author": "Xiaozhi Wang",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Proposes SAERL, a new data engineering framework for LLM Reinforcement Learning (RL).",
+        "It leverages model internals, extracted via Sparse Autoencoders (SAE), to gain intrinsic insights into training data.",
+        "SAERL models three key intrinsic data properties: diversity, difficulty, and quality, moving beyond external signals."
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Guiding LLM Post-training Data Engineering with Model Internals from Sparse Autoencoders",
+      "url": "https://arxiv.org/abs/2605.27354v1",
+      "source": "arXiv NLP",
+      "author": "Xiaozhi Wang",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces SAERL, a new framework to guide LLM post-training data engineering for RL.",
+        "Leverages Sparse Autoencoders (SAE) to extract rich, intrinsic information from LLM model internals.",
+        "Models three key intrinsic data properties—diversity, difficulty, and quality—using these internal signals."
+      ]
+    },
+    {
+      "id": 61,
+      "title": "FinHarness: An Inline Lifecycle Safety Harness for Finance LLM Agents",
+      "url": "https://arxiv.org/abs/2605.27333v1",
+      "source": "arXiv NLP",
+      "author": "Philip S. Yu",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces FinHarness, an inline safety harness designed specifically for Finance LLM agents.",
+        "Addresses the critical gap where traditional boundary filters fail to catch irreversible, mid-trajectory tool calls.",
+        "Offers a solution to the latency and computational cost of post-hoc auditing by providing real-time intervention."
+      ]
+    },
+    {
+      "id": 1,
+      "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "source": "Hugging Face Benchmarks",
       "author": "unknown",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama introduces a new command for easily setting up and running coding tools.",
-        "It supports various models, including Claude Code, OpenCode, and Codex, locally or in the cloud.",
-        "A key feature is its simplicity, requiring no environment variables or configuration files."
+        "The story highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
+        "The model is categorized for text-generation and conversational AI tasks.",
+        "It is associated with key ML technologies like transformers and safetensors."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "🤗 Trending: bigscience/bloom",
+      "url": "https://huggingface.co/bigscience/bloom",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
+        "It is categorized under key AI/ML technologies like transformers and PyTorch.",
+        "The pipeline demonstrated is text-generation, indicating a focus on large language model capabilities."
       ]
     },
     {
@@ -217,8 +359,8 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama now supports experimental local image generation on macOS.",
-        "This feature allows users to run image generation models entirely on their local machine.",
+        "Ollama is expanding its capabilities to support local image generation.",
+        "The feature is currently available for macOS users in an experimental capacity.",
         "Support for Windows and Linux platforms is planned for future releases."
       ]
     },
@@ -232,8 +374,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama now supports the Anthropic Messages API.",
-        "This integration allows users to leverage Claude Code capabilities within Ollama.",
-        "It facilitates the use of proprietary models like Claude alongside open-source models."
+        "This integration allows users to run Claude Code functionality with open models via Ollama.",
+        "It enhances the flexibility of local LLM deployment by bridging open-source tools with proprietary APIs."
       ]
     },
     {
@@ -260,7 +402,7 @@
       "ai_score": 7,
       "bullet_points": [
         "Google has officially replaced the Fitbit app with Google Health.",
-        "The transition has caused significant user confusion and frustration among Fitbit users.",
+        "The transition has caused significant user confusion and frustration.",
         "The change coincides with the launch of the new Fitbit Air device."
       ]
     },
@@ -273,7 +415,7 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "American Airlines is adopting SpaceX's Starlink Wi-Fi for in-flight connectivity.",
+        "American Airlines is adopting SpaceX's Starlink Wi-Fi service for its fleet.",
         "The rollout is scheduled to begin in Q1 2027 and cover over 500 aircraft.",
         "Starlink will be integrated alongside existing providers like Viastat and SES."
       ]
@@ -288,8 +430,8 @@
       "ai_score": 7,
       "bullet_points": [
         "NASA is actively planning for the construction of a Moon Base.",
-        "Discussions around the base include considerations for a 'perimeter' security or operational zone.",
-        "The project development is being conducted with careful adherence to the Outer Space Treaty."
+        "Discussions around the base include considerations for a protective 'perimeter'.",
+        "The project development is being conducted with adherence to the Outer Space Treaty."
       ]
     },
     {
@@ -302,8 +444,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The FBI is actively investigating the identification of individuals creating and posting non-consensual AI pornography.",
-        "The investigation highlighted how easily personal information can be linked to AI porn accounts via social media platforms like Instagram.",
-        "This signals a growing focus on digital forensics and the legal challenges posed by synthetic media abuse."
+        "The investigation highlights the ease with which personal information can be linked to AI-generated content, as demonstrated by a saved Instagram post.",
+        "This story addresses the growing legal and ethical challenges surrounding the misuse of generative AI technology."
       ]
     },
     {
@@ -315,79 +457,191 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Hugging Face has launched a new $2,500 bipedal robot project.",
-        "The robot is designed to be used by builders and researchers for experimentation.",
-        "The project focuses on 3D-printable humanoid legs, enabling advanced robotics testing."
+        "Hugging Face has released a new, 3D-printable bipedal robot project.",
+        "The project is aimed at builders and researchers for robotics experimentation.",
+        "The initial cost for the bipedal robot project is set at $2,500."
       ]
     },
     {
       "id": 36,
-      "title": "Squeezing Capacity from Multimodal Large Language Models for Subject-driven Generation",
-      "url": "https://arxiv.org/abs/2605.26111v1",
-      "source": "arXiv Machine Learning",
-      "author": "Igor Gilitschenski",
+      "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation",
+      "url": "https://arxiv.org/abs/2605.27366v1",
+      "source": "arXiv AI",
+      "author": "Tieying Zhang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the challenge of subject-driven image generation, aiming to synthesize new images while preserving a specific subject's identity.",
-        "Existing methods often struggle with cross-modal reasoning and produce artifacts because they encode text and reference images separately.",
-        "The proposed work conditions diffusion models to better integrate identity preservation with textual instructions, improving upon current multimodal frameworks."
+        "Introduces MUSE-Autoskill, a framework designed to enhance LLM agent capabilities through continuous skill evolution.",
+        "Addresses the limitation of existing skill creation methods, which treat skills as isolated and static artifacts.",
+        "The framework manages a unified skill lifecycle, including creation, memory utilization, and refinement for improved task-solving."
       ]
     },
     {
       "id": 37,
-      "title": "Prism: A Plug-in Reproducible Infrastructure for Scalable Multimodal Continual Instruction Tuning",
-      "url": "https://arxiv.org/abs/2605.26110v1",
-      "source": "arXiv Machine Learning",
-      "author": "Da-Wei Zhou",
+      "title": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+      "url": "https://arxiv.org/abs/2605.27365v1",
+      "source": "arXiv AI",
+      "author": "Zhiding Yu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces 'Prism,' a plug-in infrastructure designed to solve engineering bottlenecks in Multimodal Continual Instruction Tuning (MCIT).",
-        "MCIT is a critical area of research needed for real-world deployment, allowing Multimodal Large Language Models (MLLMs) to continuously adapt to new tasks.",
-        "Current MCIT methods suffer because they require direct, complex modifications to the base MLLM codebase, which Prism aims to circumvent."
+        "Introduces LocateAnything, a new framework for vision-language grounding and detection.",
+        "Addresses the inefficiency of traditional VLMs that serialize 2D box generation into independent 1D tokens.",
+        "Improves inference speed and quality by using a novel Parallel Box Decoding approach to handle coupled box geometry."
       ]
     },
     {
       "id": 38,
-      "title": "Looped Diffusion Language Models",
-      "url": "https://arxiv.org/abs/2605.26106v1",
-      "source": "arXiv Machine Learning",
-      "author": "Dongmin Park",
+      "title": "Natural Language Query to Configuration for Retrieval Agents",
+      "url": "https://arxiv.org/abs/2605.27361v1",
+      "source": "arXiv AI",
+      "author": "Matei Zaharia",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces LoopMDM, a novel approach to Masked Diffusion Models (MDMs) for language modeling.",
-        "The core innovation involves selectively looping early-middle transformer layers during training.",
-        "This looping technique reportedly enhances both the training efficiency and overall performance of MDMs."
+        "The paper addresses the problem of optimizing retrieval agent configurations (e.g., LLM choice, number of hops) which currently requires manual, per-workload tuning.",
+        "It proposes a method to automatically select the optimal pipeline configuration based on a given natural-language query and a target constraint (either accuracy or budget).",
+        "The research aims to unlock significant per-query optimization opportunities by balancing answer quality against serving cost in modern retrieval pipelines."
       ]
     },
     {
-      "id": 41,
-      "title": "OrpQuant: Geometric Orthogonal Residual Projection for Multiplier-Free Power-of-Two Transformer Quantization",
-      "url": "https://arxiv.org/abs/2605.26092v1",
+      "id": 45,
+      "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation",
+      "url": "https://arxiv.org/abs/2605.27366v1",
       "source": "arXiv Machine Learning",
-      "author": "Tao Luo",
+      "author": "Tieying Zhang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses deployment constraints of LLMs and ViTs on edge devices due to memory and MAC bottlenecks.",
-        "Proposes 'OrpQuant,' a method using Geometric Orthogonal Residual Projection for quantization.",
-        "Focuses on leveraging Power-of-Two (PoT) quantization to replace costly MAC operations with efficient bit-shifts."
+        "Introduces MUSE-Autoskill, a framework for self-evolving LLM agents.",
+        "Addresses the limitation of static, isolated skills in current LLM agent designs.",
+        "Enables continuous improvement by managing a unified skill lifecycle: creation, memory, and refinement."
       ]
     },
     {
-      "id": 73,
-      "title": "Cómo Evaluar Agentes IA: Tutorial de LLM-as-Judge",
-      "url": "https://dev.to/aws-espanol/como-evaluar-agentes-ia-tutorial-de-llm-as-judge-392g",
+      "id": 46,
+      "title": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+      "url": "https://arxiv.org/abs/2605.27365v1",
+      "source": "arXiv Machine Learning",
+      "author": "Zhiding Yu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces LocateAnything, a new framework for vision-language grounding and detection.",
+        "Addresses the inefficiency of traditional VLMs which serialize 2D box generation into independent 1D tokens.",
+        "Implements Parallel Box Decoding to overcome the sequential inference bottleneck caused by decoupled box geometry."
+      ]
+    },
+    {
+      "id": 50,
+      "title": "From Scores to Gibbs Correctors: Accelerating Uniform-Rate Discrete Diffusion Models",
+      "url": "https://arxiv.org/abs/2605.27352v1",
+      "source": "arXiv Machine Learning",
+      "author": "Yingbin Liang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research addresses the slow sampling rate of uniform-rate discrete diffusion models, which are effective in symbolic domains like text.",
+        "A novel method called Gibbs-Accelerated Discrete Diffusion (GADD) is proposed to speed up the generation process.",
+        "GADD utilizes a Gibbs-based corrector that leverages the underlying structure of the concrete score function."
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Towards Controllable Image Generation through Representation-Conditioned Diffusion Models",
+      "url": "https://arxiv.org/abs/2605.27343v1",
+      "source": "arXiv Machine Learning",
+      "author": "Gabriel Eilertsen",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research addresses the challenge of controlling image generation in diffusion models.",
+        "It proposes using representations from a pre-trained self-supervised model as a conditioning mechanism.",
+        "This approach aims to improve output quality without relying on extensively annotated datasets."
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Greening AI Inference with Accuracy and Latency-aware User Incentives",
+      "url": "https://arxiv.org/abs/2605.27309v1",
+      "source": "arXiv Machine Learning",
+      "author": "Ramin Khalili",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the environmental impact (carbon emissions) of widespread AI inference.",
+        "Proposes a novel framework to design AI inference incentives based on user preferences.",
+        "Balances the trade-off between carbon emissions and Quality of Experience (QoE) metrics like accuracy and latency."
+      ]
+    },
+    {
+      "id": 55,
+      "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation",
+      "url": "https://arxiv.org/abs/2605.27366v1",
+      "source": "arXiv NLP",
+      "author": "Tieying Zhang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces MUSE-Autoskill, a framework for self-evolving LLM agents.",
+        "Addresses the limitation of existing skill creation by treating skills as static artifacts.",
+        "Enables continuous agent improvement through a unified lifecycle: creation, memory, and refinement of skills."
+      ]
+    },
+    {
+      "id": 59,
+      "title": "MATCHA: Matching Text via Contrastive Semantic Alignment",
+      "url": "https://arxiv.org/abs/2605.27345v1",
+      "source": "arXiv NLP",
+      "author": "Seyed Ali Bahrainian",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Existing LLM evaluation metrics (like ROUGE and BERTScore) are flawed as they often fail to distinguish between semantically similar and contradictory texts.",
+        "The research introduces 'MATCHA,' a new method designed to improve the reliable evaluation of LLM performance.",
+        "MATCHA specifically addresses the issue where current metrics assign similar scores to texts that are actually contradictory, potentially hiding model errors."
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Semantic Gradients Interactions in SSD: A Case Study in Racial Identity and Hate Speech",
+      "url": "https://arxiv.org/abs/2605.27322v1",
+      "source": "arXiv NLP",
+      "author": "Hubert Plisiecki",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces 'interaction SSD,' an extension of Supervised Semantic Differential for modeling semantic meaning variation across moderators.",
+        "The method allows for the testing and interpretation of main, interaction, and conditional semantic gradients.",
+        "The study applies this technique to the UC Berkeley Hate Speech corpus to investigate if annotator racial identity moderates hate speech perception."
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Real Images, Worse Judgments: Evaluating Vision-Language Models on Concreteness and Imagery",
+      "url": "https://arxiv.org/abs/2605.27315v1",
+      "source": "arXiv NLP",
+      "author": "Freda Shi",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The study investigates the assumption that visual inputs consistently improve language understanding in Vision-Language Models (VLMs).",
+        "Researchers tested VLMs' ability to differentiate useful visual evidence from irrelevant image context during lexical judgments.",
+        "Findings suggest that real-image contexts do not always lead to consistent performance gains in VLM evaluations based on concreteness and imagery."
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Why I Built the \"Infrastructure Layer\" Under Every AI Coding Agents",
+      "url": "https://dev.to/rkstlohchab/why-i-built-the-infrastructure-layer-under-every-ai-coding-agents-2kci",
       "source": "Dev.to",
-      "author": "elizabethfuentes12",
-      "timestamp": "2026-05-26T19:03:38Z",
+      "author": "rkstlohchab",
+      "timestamp": "2026-05-27T07:11:38Z",
       "ai_score": 7,
       "bullet_points": [
-        "Introduces the 'LLM-as-Judge' methodology for evaluating AI agents.",
-        "Focuses on detecting critical issues like silent failures, wasted tokens, and hallucinations pre-production.",
-        "Provides a practical tutorial using Python code for implementation."
+        "The article addresses a core limitation of current AI coding agents: poor memory retention.",
+        "The author implemented a custom 'Infrastructure Layer' specifically designed to provide persistent memory to these agents.",
+        "This work suggests a necessary architectural shift in how AI agents are built to handle complex, multi-step coding tasks."
       ]
     }
   ]
