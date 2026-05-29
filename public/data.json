@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-28T20:00:47.822142",
-  "total_stories": 44,
+  "generated_at": "2026-05-29T01:53:22.392063",
+  "total_stories": 45,
   "sources": [
-    "Dev.to",
     "Ars Technica",
-    "The Verge",
-    "Ollama",
-    "Hacker News",
-    "arXiv NLP",
     "Hugging Face Benchmarks",
     "arXiv AI",
+    "Ollama",
+    "The Verge",
+    "Dev.to",
+    "arXiv NLP",
     "Lobsters",
-    "arXiv Machine Learning"
+    "arXiv Machine Learning",
+    "Hacker News"
   ],
   "stories": [
     {
@@ -23,9 +23,37 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of the Meta-Llama-3-8B model on Hugging Face Benchmarks.",
-        "It pertains to the core fields of transformers and text-generation, indicating relevance in the LLM space.",
-        "The inclusion of 'llama' and 'Meta' confirms the focus on a major, established player in the generative AI industry."
+        "The story highlights the Meta-Llama-3-8B model, a significant entry in the LLM space.",
+        "It is featured on Hugging Face Benchmarks, indicating community interest and performance tracking.",
+        "The associated tags confirm its relevance to transformers, text-generation, and the Llama family."
+      ]
+    },
+    {
+      "id": 26,
+      "title": "LLMs believe false statements even after explicit warnings that they're false",
+      "url": "https://arstechnica.com/ai/2026/05/llms-believe-false-statements-even-after-explicit-warnings-that-theyre-false/",
+      "source": "Ars Technica",
+      "author": "Kyle Orland",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "LLMs exhibit a tendency to confidently present false statements as true, even after being explicitly warned.",
+        "Fine-tuning tests revealed a bias within the models toward asserting the veracity of claims.",
+        "This finding highlights a persistent challenge in ensuring factual accuracy and mitigating hallucination in large language models."
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Apple working to cram massive Gemini model into iPhone to power new Siri",
+      "url": "https://arstechnica.com/ai/2026/05/apple-reportedly-trying-to-distill-googles-multi-trillion-parameter-gemini-ai-to-run-on-iphone/",
+      "source": "Ars Technica",
+      "author": "Ryan Whitwam",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Apple is reportedly attempting to integrate a version of Google's Gemini model directly onto the iPhone.",
+        "The effort involves significant model compression to fit the large AI model onto mobile hardware.",
+        "Despite on-device efforts, the necessity of a cloud component for the AI functionality is considered likely."
       ]
     },
     {
@@ -35,25 +63,11 @@
       "source": "Hugging Face Benchmarks",
       "author": "unknown",
       "timestamp": null,
-      "ai_score": 9,
+      "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
-        "It pertains to the core field of large language models (LLMs) and text generation.",
-        "The associated tags indicate its relevance within the transformers and safetensors ecosystem."
-      ]
-    },
-    {
-      "id": 33,
-      "title": "Nvidia bets $150B on Taiwan as Trump's plan to make US an AI hub backfires",
-      "url": "https://arstechnica.com/tech-policy/2026/05/nvidia-ceo-wants-taiwan-to-be-center-of-ai-revolution-not-us/",
-      "source": "Ars Technica",
-      "author": "Ashley Belanger",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Nvidia is committing a massive $150 billion annual investment to Taiwan.",
-        "The stated goal of this investment is to establish Taiwan as a global AI 'epicenter'.",
-        "The move is framed against the backdrop of political shifts, specifically referencing the backfiring of a Trump-era plan to centralize AI in the US."
+        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It is categorized under key NLP/ML tags like 'transformers' and 'text-generation'.",
+        "The content points to the continued relevance and community interest in Meta's Llama family of models."
       ]
     },
     {
@@ -65,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, is integrating MLX for performance optimization.",
-        "This integration specifically targets Apple Silicon, enhancing local AI capabilities on Apple hardware.",
-        "The feature is currently available in preview, indicating active development and optimization."
+        "Ollama, a popular tool for running local LLMs, now integrates MLX.",
+        "This integration specifically targets Apple Silicon for optimized performance.",
+        "The feature is currently available in preview, indicating ongoing development."
       ]
     },
     {
@@ -79,9 +93,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, ensuring all processing runs directly on the user's device.",
-        "The core value proposition is providing private, on-device AI functionality for coding assistance."
+        "OpenClaw is a personal AI assistant designed to integrate with messaging apps.",
+        "It utilizes local AI coding agents, emphasizing on-device processing for privacy.",
+        "The core value proposition is connecting messaging workflows directly to local, private AI capabilities."
       ]
     },
     {
@@ -93,8 +107,8 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama introduces a new command for easily setting up and running coding tools.",
-        "It supports various coding models, including Claude Code, OpenCode, and Codex.",
+        "Ollama introduces a new command to streamline the setup and execution of coding tools.",
+        "It enables running advanced coding models (like Claude Code, OpenCode, Codex) locally or in the cloud.",
         "A key feature is its simplicity, requiring no environment variables or configuration files."
       ]
     },
@@ -108,22 +122,36 @@
       "ai_score": 8,
       "bullet_points": [
         "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification tasks.",
-        "The models, available in 20B and 120B sizes, are being deployed in partnership with ROOST.",
-        "The models are released under the permissive Apache 2.0 license, promoting open-source safety tooling."
+        "The models are available in two sizes (20B and 120B) and are permissively licensed under Apache 2.0.",
+        "This partnership with OpenAI and ROOST aims to bring advanced safety tools to the open-source community."
       ]
     },
     {
       "id": 27,
-      "title": "Bad cholesterol slashed 62% by single dose of gene-editing drug in small trial",
-      "url": "https://arstechnica.com/health/2026/05/one-dose-of-gene-editing-drug-cut-bad-cholesterol-62-for-months-in-small-trial/",
+      "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
+      "url": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
       "source": "Ars Technica",
-      "author": "Beth Mole",
+      "author": "Dan Goodin",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "A gene-editing drug demonstrated a significant reduction (62%) in bad cholesterol in a small trial.",
-        "The findings are based on interim Phase I trial data involving only 35 participants.",
-        "This represents a potential major medical breakthrough in cardiovascular health treatment."
+        "A developer introduced a prompt injection vulnerability into jqwik, an AI coding agent tool.",
+        "The injection instructed the AI agent to delete the application's output during its operation.",
+        "This highlights a significant security risk in the integration of AI agents into software development workflows."
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Researchers develop a new process to get lithium out of rocks",
+      "url": "https://arstechnica.com/science/2026/05/researchers-develop-a-new-process-to-get-lithium-out-of-rocks/",
+      "source": "Ars Technica",
+      "author": "John Timmer",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Researchers have developed a novel process for extracting lithium from rocks.",
+        "The technology offers a potential pathway to diversify global lithium supply chains.",
+        "Successful scaling of the process could significantly impact the battery and EV industries."
       ]
     },
     {
@@ -135,9 +163,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "CubePart is a new generative framework for creating 3D meshes with open-vocabulary, part-controllable capabilities.",
-        "It addresses a key limitation in current 3D generation models by explicitly exposing part structure as a control signal.",
-        "This advancement is highly relevant for applications like gaming and simulation, where semantic part decomposition is crucial for animation and physics."
+        "CubePart is a new generative framework for creating 3D meshes that supports open-vocabulary and part-controllable generation.",
+        "It addresses a key limitation in current 3D generative models by explicitly exposing part structure as an inference-time control signal.",
+        "The technology is highly relevant for applications like gaming and simulation, where assets require semantic decomposition for animation and physics."
       ]
     },
     {
@@ -150,8 +178,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Introduces a novel, label-free method to identify spurious correlations (bias) in pre-trained vision models.",
-        "The technique uses 'gradient probes' on concept decompositions, allowing analysis without needing curated bias datasets or specific attribute labels.",
-        "This post-hoc approach is highly relevant for deployed models where retraining or extensive labeling is impractical."
+        "The technique uses 'gradient probes' on concept decompositions, allowing post-hoc analysis without needing curated bias datasets or group labels.",
+        "Addresses a critical deployment challenge by enabling bias identification in frozen models where retraining or external labeling is infeasible."
       ]
     },
     {
@@ -163,9 +191,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The news highlights a trending model, DeepSeek-R1, on the Hugging Face platform.",
-        "The model is categorized for text generation and conversational AI tasks.",
-        "It is associated with the deepseek_v3 architecture and utilizes standard ML formats like transformers and safetensors."
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
+        "The model is categorized for text-generation and conversational AI tasks.",
+        "It utilizes standard ML components like transformers and safetensors."
       ]
     },
     {
@@ -177,23 +205,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The story highlights the 'bigscience/bloom' model trending on Hugging Face Benchmarks.",
-        "It is categorized under key NLP/ML technologies like transformers and PyTorch.",
-        "The context suggests an ongoing evaluation or demonstration of large language model performance."
+        "The news highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
+        "It pertains to the text-generation pipeline, indicating a focus on large language model capabilities.",
+        "The associated tags (transformers, pytorch, safetensors) confirm its relevance within the modern ML ecosystem."
       ]
     },
     {
-      "id": 10,
-      "title": "Image generation (experimental)",
-      "url": "https://ollama.com/blog/image-generation",
+      "id": 7,
+      "title": "Subagents and web search in Claude Code",
+      "url": "https://ollama.com/blog/web-search-subagents-claude-code",
       "source": "Ollama",
       "author": "unknown",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama now offers experimental image generation capabilities.",
-        "The feature is currently available for local execution on macOS.",
-        "Support for Windows and Linux platforms is planned for future releases."
+        "Ollama has integrated support for advanced features within Claude Code.",
+        "The new capabilities include the implementation of subagents.",
+        "Web search functionality is now available within the Claude Code environment via Ollama."
       ]
     },
     {
@@ -206,8 +234,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama now supports the Anthropic Messages API.",
-        "This integration allows users to leverage Claude Code functionality within the Ollama ecosystem.",
-        "It bridges the gap between open-source local models and proprietary APIs like Anthropic's."
+        "This integration allows users to run tools like Claude Code within the Ollama ecosystem.",
+        "It bridges the gap between open-source local models and proprietary models like Claude."
       ]
     },
     {
@@ -219,13 +247,27 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama enables the use of OpenAI Codex CLI with open-source models.",
-        "Codex, when integrated via Ollama, can read, modify, and execute code locally.",
-        "The integration supports various open-weight alternatives like gpt-oss:20b and gpt-oss:120b."
+        "Ollama enables the use of OpenAI's Codex CLI with open-source models.",
+        "Codex functionality allows models to read, modify, and execute code within a working directory.",
+        "The integration supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
       ]
     },
     {
-      "id": 17,
+      "id": 16,
+      "title": "Microsoft 365 Copilot gets a speed boost and cleaner design",
+      "url": "https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign",
+      "source": "The Verge",
+      "author": "Emma Roth",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Microsoft is rolling out a revamped version of Microsoft 365 Copilot.",
+        "The update features a cleaner design and claims a doubling of loading speed.",
+        "Copilot is being enhanced to provide more reliable and structured, scannable responses."
+      ]
+    },
+    {
+      "id": 20,
       "title": "Claude’s new model is more ‘honest’ when it messes up",
       "url": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
       "source": "The Verge",
@@ -234,12 +276,12 @@
       "ai_score": 7,
       "bullet_points": [
         "Anthropic is launching Claude Opus 4.8, emphasizing a focus on model 'honesty'.",
-        "The new training emphasizes preventing models from making unsubstantiated claims.",
-        "The article acknowledges that jumping to conclusions remains a general challenge in AI models."
+        "The new training aims to make the model avoid unsupported claims.",
+        "The article acknowledges that jumping to conclusions remains a general challenge for AI models."
       ]
     },
     {
-      "id": 19,
+      "id": 22,
       "title": "A $2,000 AI-generated film will make its debut at Tribeca",
       "url": "https://www.theverge.com/entertainment/939067/ai-film-dreams-of-violets-tribeca",
       "source": "The Verge",
@@ -247,51 +289,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "An AI-generated film titled 'Dreams of Violets' will premiere at the Tribeca Festival.",
-        "The 75-minute film uses AI to create all its people and imagery, with a reported production cost of $2,000.",
-        "The film is a fictional dramatization concerning the Iranian government's mass killing of protestors."
-      ]
-    },
-    {
-      "id": 25,
-      "title": "Trump loses more control over AI regulation as Illinois passes landmark law",
-      "url": "https://arstechnica.com/tech-policy/2026/05/trump-loses-more-control-over-ai-regulation-as-illinois-passes-landmark-law/",
-      "source": "Ars Technica",
-      "author": "Ashley Belanger",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Illinois has passed a landmark law concerning AI regulation.",
-        "The legislation involves safety testing protocols for major AI developers like Anthropic and OpenAI.",
-        "The story analyzes the implications of this state-level regulation despite broader political shifts regarding AI control."
+        "An AI-generated film, 'Dreams of Violets,' will premiere at the Tribeca Festival.",
+        "The 75-minute film uses AI to create all people and imagery, depicting the Iranian government's mass killing of protestors.",
+        "The production cost for the AI film was reported to be $2,000."
       ]
     },
     {
       "id": 30,
-      "title": "Websites have a new way to spy on visitors: Analyzing their SSD activity",
-      "url": "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/",
+      "title": "FBI says Google engineer used internal search data to win $1.2M on Polymarket",
+      "url": "https://arstechnica.com/tech-policy/2026/05/fbi-says-google-engineer-used-internal-search-data-to-win-1-2m-on-polymarket/",
       "source": "Ars Technica",
-      "author": "Dan Goodin",
+      "author": "Jon Brodkin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Websites can now monitor visitor activity by analyzing Solid State Drive (SSD) usage.",
-        "This surveillance capability can be implemented using straightforward JavaScript within the browser.",
-        "The development represents a new, subtle vector for web tracking and privacy concerns."
-      ]
-    },
-    {
-      "id": 31,
-      "title": "Mystery GPS jammer in Iran becomes test for NASA satellites’ capabilities",
-      "url": "https://arstechnica.com/gadgets/2026/05/nasa-satellites-can-spot-gps-jammers-on-earth/",
-      "source": "Ars Technica",
-      "author": "Jeremy Hsu",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "NASA satellites are being utilized to detect and locate sources of GPS interference.",
-        "The incident involves a mystery GPS jammer operating in Iran.",
-        "The story highlights the dual-use capabilities of NASA science satellites for surveillance/interference detection."
+        "A Google engineer allegedly used internal search data to gain an unfair advantage.",
+        "The individual reportedly profited $1.2 million on the prediction market Polymarket.",
+        "The FBI is investigating the incident, highlighting potential misuse of proprietary corporate data."
       ]
     },
     {
@@ -303,9 +317,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the 'sim-to-real' gap in dexterous manipulation, a major bottleneck in robotics.",
-        "Proposes a novel method, 'Center-of-Pressure,' to overcome the limitation of simplifying rich tactile data.",
-        "Focuses on improving the use of information-dense modalities like touch in simulation-based reinforcement learning."
+        "Addresses the 'sim-to-real' gap in dexterous manipulation, a major hurdle in robotics.",
+        "Proposes a novel method, 'Center-of-Pressure,' to incorporate rich, high-dimensional tactile data into simulations.",
+        "Aims to overcome the limitation of existing methods that simplify complex touch data into coarse features."
       ]
     },
     {
@@ -317,9 +331,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the fundamental control problem of maintaining human oversight over highly capable, autonomous AI agents.",
+        "Addresses the fundamental control problem of maintaining human oversight over highly capable, autonomous AI systems.",
         "Introduces 'Calibrated Collective Oversight' (CCO) as a new framework for scalable oversight.",
-        "CCO aggregates diverse auxiliary scoring functions to provide oversight with statistical guarantees, addressing limitations of current heuristic methods."
+        "CCO aggregates diverse auxiliary scoring functions to provide methods with statistical guarantees, addressing limitations in existing heuristic approaches."
       ]
     },
     {
@@ -331,9 +345,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces OmniVerifier-M1, a multimodal meta-verifier designed to improve the reliability of multimodal large language models (LLMs).",
-        "The research focuses on leveraging verifier-generated rationales, moving beyond simple decision signals for more fine-grained verification.",
-        "Investigates methods to effectively incorporate meta-verification feedback into the training process of multimodal verifiers."
+        "The research introduces OmniVerifier-M1, a multimodal meta-verifier designed to improve the reliability of multimodal LLMs.",
+        "It focuses on leveraging verifier-generated rationales (not just binary decisions) to enhance verification processes.",
+        "The work explores methods for effectively incorporating meta-verification feedback into the training of multimodal verifiers."
       ]
     },
     {
@@ -346,8 +360,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces CaMBRAIN, a new method for real-time, continuous EEG inference.",
-        "Addresses limitations of existing EEG models, specifically the quadratic scaling of attention mechanisms with long sequences.",
-        "Proposes using Causal State Space Models to overcome the fixed-length input constraints of traditional sliding-window processing."
+        "Addresses limitations of current EEG deep learning models, specifically the quadratic scaling of attention mechanisms with long sequences.",
+        "Overcomes the need for fixed-length inputs by moving beyond traditional sliding-window processing for continuous EEG data."
       ]
     },
     {
@@ -360,8 +374,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces Skill-Conditioned Gated Self-Distillation (SGSD) to enhance LLM reasoning.",
-        "Moves beyond traditional methods that rely on trusted, privileged information (PI) like reference answers.",
-        "Proposes using an experience-derived 'skill bank' as PI, acknowledging the risk of irrelevant or misleading skills."
+        "Moves beyond traditional self-distillation by using an experience-derived 'skill bank' as privileged information (PI).",
+        "Addresses the challenge of using potentially irrelevant or misleading skills retrieved from the bank for supervision."
       ]
     },
     {
@@ -374,8 +388,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The paper investigates the necessity of traditional semantic metadata (like schema.org) in the context of autonomous AI agents.",
-        "It addresses the shift in data retrieval capabilities due to the rise of Large Language Models (LLMs) navigating unstructured web data.",
-        "The core question explores whether LLMs can render established FAIR principles and metadata standards obsolete for agentic workflows."
+        "It addresses the challenge posed by Large Language Models (LLMs) that can navigate unstructured web data, potentially bypassing structured metadata.",
+        "The research is relevant to the future of machine-actionable data and adherence to FAIR principles in agentic workflows."
       ]
     },
     {
@@ -387,9 +401,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes FluxMem, a novel memory framework for LLM agents that moves beyond static memory repositories.",
-        "Models memory as a heterogeneous graph whose topology is progressively refined based on dynamic environmental feedback.",
-        "Addresses the brittleness of current memory-augmented LLMs in complex, dynamic agentic environments."
+        "Proposes FluxMem, a new memory framework for LLM agents that moves beyond static memory repositories.",
+        "Models memory as a heterogeneous graph whose topology is continuously refined.",
+        "Addresses the brittleness of current memory systems in dynamic environments by allowing memory to evolve with feedback and task variation."
       ]
     },
     {
@@ -401,9 +415,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "SwarmHarness proposes a decentralized protocol to utilize vast amounts of unused compute resources (GPUs, edge devices).",
-        "It addresses limitations of existing systems, such as reliance on central coordinators or heavy blockchain infrastructure.",
-        "The core innovation is an incentive-aligned AI agent network designed to allow owners to share compute safely and profitably."
+        "SwarmHarness introduces a decentralized protocol to utilize vast amounts of unused compute resources (e.g., idle GPUs, edge devices).",
+        "It addresses limitations of existing systems, which rely on central coordinators or heavy blockchain infrastructure.",
+        "The core innovation is an incentive-aligned AI agent network designed to enable safe and profitable resource sharing."
       ]
     },
     {
@@ -415,9 +429,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces PEFT-Arena, a new benchmark for evaluating Parameter-Efficient Finetuning (PEFT) of LLMs.",
-        "Addresses a gap in current PEFT evaluations by focusing on capability retention alongside downstream accuracy.",
-        "Frames the evaluation around the stability-plasticity dilemma: balancing task adaptation with resistance to catastrophic forgetting."
+        "Introduces PEFT-Arena, a new benchmark for evaluating Parameter-Efficient Finetuning (PEFT) in LLMs.",
+        "Addresses a gap in current PEFT evaluations by focusing on the stability-plasticity trade-off (adaptation vs. forgetting).",
+        "Jointly measures both downstream task performance and the retention of general pretrained capabilities."
       ]
     },
     {
@@ -429,9 +443,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the 'sim-to-real' gap in robotic manipulation, specifically concerning contact-rich tasks.",
-        "Proposes a novel approach, 'Center-of-Pressure,' to overcome the limitations of simplifying rich tactile data in simulations.",
-        "Aims to enable more complex, dexterous manipulation by effectively bridging the gap between simulation and the real world."
+        "Addresses the 'sim-to-real' gap in contact-rich robotic manipulation, a major bottleneck in real-world robotics.",
+        "Proposes a novel approach, 'Center-of-Pressure', to move beyond coarse feature simplification of tactile data.",
+        "Aims to enable more effective use of information-dense modalities like touch in simulation-to-reality transfer."
       ]
     },
     {
@@ -443,9 +457,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the challenge of recommending music based on a listener's affective state when online emotional experimentation is ethically constrained.",
-        "Introduces AMRS, an Affective Music Recommendation System deployed on health-and-wellness platforms.",
-        "Utilizes a Rollout-Based World Model to optimize offline preferences for functional music applications (e.g., sleep aids, clinical interventions)."
+        "Addresses the challenge of recommending music based on affective state (emotion) where online testing is ethically constrained.",
+        "Introduces AMRS, a Rollout-Based World Model designed for offline preference optimization in music recommendation.",
+        "The system is deployed on health-and-wellness platforms, serving clinical users, highlighting a real-world application in digital health."
+      ]
+    },
+    {
+      "id": 48,
+      "title": "AREA: Attribute Extraction and Aggregation for CLIP-Based Class-Incremental Learning",
+      "url": "https://arxiv.org/abs/2605.28809v1",
+      "source": "arXiv Machine Learning",
+      "author": "Da-Wei Zhou",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research addresses Class-Incremental Learning (CIL) using CLIP-based models, a critical area for real-world AI systems.",
+        "It proposes decomposing the standard CLIP matching process into two distinct stages: attribute extraction and attribute aggregation.",
+        "This decomposition allows for a more granular understanding of classification by leveraging specific visual attributes (e.g., fur texture) rather than monolithic embedding comparison."
       ]
     },
     {
@@ -457,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces OmniVerifier-M1, a multimodal meta-verifier designed to improve the reliability of multimodal large language models.",
-        "The research focuses on leveraging verifier-generated rationales (not just binary decisions) to enhance verification processes.",
-        "It explores methods for effectively incorporating meta-verification feedback into the training of multimodal verifiers."
+        "The research addresses the critical need for reliable, fine-grained verification in multimodal large language models (LLMs) as visual data becomes central.",
+        "It introduces 'multimodal meta-verification,' which uses detailed rationales generated by verifiers instead of simple pass/fail decisions.",
+        "The work focuses on effectively integrating this meta-verification feedback into the training process of multimodal verifiers."
       ]
     },
     {
@@ -471,9 +499,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the high computational cost of Vision-Language-Action (VLA) models, which are crucial for unifying perception, reasoning, and control.",
-        "Proposes a novel quantization technique, Ω-QVLA, to enable on-device deployment of these large models.",
-        "Overcomes limitations in prior work by addressing the instability of quantizing diffusion-based action heads, which are often kept at full precision."
+        "Addresses the high computational cost of Vision-Language-Action (VLA) models, which are crucial for unified perception, reasoning, and control.",
+        "Proposes 'Ω-QVLA,' a novel quantization method designed to robustly compress VLA models, specifically targeting the challenging diffusion-based action heads.",
+        "Overcomes limitations of prior work that either left action heads at full precision or used unstable uniform quantization schemes."
       ]
     },
     {
@@ -485,9 +513,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces CaMBRAIN, a new approach for real-time, continuous EEG inference.",
+        "Introduces CaMBRAIN, a new method for real-time, continuous EEG inference.",
         "Addresses limitations of existing EEG models, specifically the quadratic scaling issue of attention mechanisms with long sequences.",
-        "Overcomes the constraint of fixed-length inputs by moving away from traditional sliding-window processing."
+        "Overcomes the constraint of fixed-length input by moving beyond traditional sliding-window processing for continuous brain monitoring."
       ]
     },
     {
@@ -499,9 +527,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes FluxMem, a new memory framework for LLM agents that treats memory as a continuously evolving heterogeneous graph.",
-        "Addresses the limitation of current memory-augmented LLMs, which use static repositories that are brittle in dynamic environments.",
-        "The framework progressively refines the memory topology based on continuous feedback and task variation."
+        "Proposes FluxMem, a new memory framework for LLM agents that moves beyond static memory repositories.",
+        "Models memory as a heterogeneous graph whose topology is progressively refined based on dynamic interactions.",
+        "Addresses the brittleness of current memory systems in complex, dynamic agentic environments with varied feedback."
       ]
     },
     {
@@ -513,9 +541,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces PEFT-Arena, a new benchmark for evaluating Parameter-Efficient Finetuning (PEFT) in LLMs.",
-        "Addresses a gap in current PEFT evaluations by focusing on the trade-off between task adaptation and capability retention (stability-plasticity).",
-        "Jointly measures both downstream performance and the model's ability to retain general pretrained knowledge."
+        "Introduces PEFT-Arena, a new benchmark for evaluating Parameter-Efficient Finetuning (PEFT) methods.",
+        "Addresses a gap in current PEFT evaluations by focusing on capability retention alongside downstream task accuracy.",
+        "Frames the evaluation around the stability-plasticity dilemma: balancing task adaptation against catastrophic forgetting."
       ]
     },
     {
@@ -527,9 +555,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The study investigates whether Vision-Language Models (VLMs) inherently lead to more human-like text representations compared to Large Language Models (LLMs).",
+        "The study investigates whether Vision-Language Models (VLMs) inherently lead to more human-like text representations compared to Large Language Models (LLMs) during natural reading.",
         "The research isolates the effect of multimodal training history by comparing tightly matched LLM and VLM pairs in a strictly text-only evaluation setting.",
-        "The findings suggest that VLM training may not globally enhance human alignment over LLMs when analyzing natural reading comprehension."
+        "The findings suggest that VLM training may not globally enhance human alignment over LLMs when analyzing text representations alone."
       ]
     },
     {
@@ -541,9 +569,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes a novel method, 'Bidirectional Evolutionary Search,' to enhance self-improving language models.",
-        "Addresses limitations of existing search methods (like best-of-N and tree search) which are restricted by sparse verification signals and autoregressive expansion.",
-        "Focuses on improving both post-training sample generation and inference capabilities of agentic systems."
+        "Proposes 'Bidirectional Evolutionary Search' to improve language models.",
+        "Addresses limitations of existing search methods (e.g., best-of-N) which rely on sparse signals and autoregressive expansion.",
+        "Aims to enhance both post-training sample generation and inference capabilities of AI agents."
       ]
     },
     {
@@ -555,9 +583,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the gap in current AI memory systems, which are predominantly text-centric, despite the growing need for personalized AI agents.",
-        "Highlights that images often contain crucial personal information (explicit and implicit) that is frequently lost or reduced to generic captions in existing models.",
-        "Proposes a method to leverage both explicit and implicit visual evidence for building more robust, personalized long-term memory in AI."
+        "Addresses the gap in current AI memory systems, which are often text-centric, despite the growing need for personalized AI agents.",
+        "Highlights that images contain crucial personal information (explicit and implicit) that is often lost or reduced to generic captions in existing models.",
+        "Proposes a method to incorporate richer, user-specific visual evidence into long-term memory for more personalized AI interactions."
       ]
     },
     {
@@ -569,8 +597,8 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the critical need for reliable, fine-grained verification in multimodal large language models (LLMs).",
-        "It introduces 'multimodal meta-verification,' which uses verifier-generated rationales instead of simple decision signals.",
+        "The research focuses on multimodal meta-verification to ensure reliable and fine-grained verification in multimodal LLMs.",
+        "It moves beyond simple decision signals by leveraging verifier-generated rationales during the verification process.",
         "The work explores methods to effectively incorporate meta-verification feedback into the training of multimodal verifiers."
       ]
     },
@@ -584,22 +612,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces Skill-Conditioned Gated Self-Distillation (SGSD) to enhance LLM reasoning.",
-        "Moves beyond relying on trusted, pre-defined privileged information (PI) for supervision.",
-        "Proposes using an experience-derived, reusable, but potentially noisy 'skill bank' as the source of PI."
-      ]
-    },
-    {
-      "id": 62,
-      "title": "Can Large Language Models Handle Discourse Particles? A Case Study of Colloquial Malay",
-      "url": "https://arxiv.org/abs/2605.28782v1",
-      "source": "arXiv NLP",
-      "author": "Xi Chen",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research investigates the capability of Large Language Models (LLMs) to process discourse particles, which are vital for human-like expression of emotion and intention.",
-        "A key gap identified is the lack of comprehensive LLM studies on discourse particles, particularly in low-resource or non-English languages.",
-        "The study specifically focuses on Colloquial Malay, addressing the underrepresentation of Southeast Asian languages in current LLM research."
+        "Moves beyond traditional methods that rely on trusted, static teacher information (PI).",
+        "Proposes using an experience-derived, reusable, but potentially noisy 'skill bank' as the source of supervision."
       ]
     },
     {
@@ -611,13 +625,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses a critical limitation in Vision-Language Models (VLMs): current evaluations cannot separate linguistic fluency from true causal reasoning.",
-        "Proposes a novel 'dual-probe methodology' to isolate and measure these two distinct properties (linguistic plausibility vs. causal faithfulness).",
-        "Introduces the 'Abstraction Gap (AG) metric' to quantify the performance difference across various VLMs on causal reasoning tasks."
+        "Addresses a critical limitation in Vision-Language Models (VLMs): distinguishing between fluent language and genuine causal reasoning.",
+        "Proposes a novel 'dual-probe methodology' to decouple linguistic plausibility from causal faithfulness.",
+        "Introduces the 'Abstraction Gap (AG) metric' to quantify the performance difference across various VLMs."
       ]
     },
     {
-      "id": 87,
+      "id": 88,
       "title": "AI Agents Are Great at 80% of Our Code. The Other 20% Is Why We Still Need Seniors.",
       "url": "https://dev.to/mickyarun/ai-agents-are-great-at-80-of-our-code-the-other-20-is-why-we-still-need-seniors-3lh5",
       "source": "Dev.to",
@@ -626,8 +640,8 @@
       "ai_score": 7,
       "bullet_points": [
         "AI agents demonstrated high proficiency (80%) in handling routine coding tasks on a payment platform.",
-        "The study highlights that AI agents struggle with the remaining 20% of complex or edge-case code.",
-        "The necessity of senior developers remains crucial for handling the difficult, non-trivial aspects of software development."
+        "The study highlights a critical limitation where AI agents fail on complex or edge-case scenarios (the remaining 20%).",
+        "The findings suggest that senior developer expertise remains essential for handling the most intricate and failure-prone aspects of software development."
       ]
     }
   ]
