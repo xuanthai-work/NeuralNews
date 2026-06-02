@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-02T09:56:23.870405",
+  "generated_at": "2026-06-02T15:50:49.256192",
   "total_stories": 50,
   "sources": [
-    "Dev.to",
     "The Verge",
-    "arXiv AI",
-    "Ars Technica",
-    "Hugging Face Benchmarks",
-    "Hacker News",
-    "arXiv Machine Learning",
     "arXiv NLP",
+    "arXiv AI",
+    "Hugging Face Benchmarks",
+    "Ars Technica",
+    "Hacker News",
+    "Dev.to",
+    "Lobsters",
     "Ollama",
-    "Lobsters"
+    "arXiv Machine Learning"
   ],
   "stories": [
     {
@@ -24,8 +24,8 @@
       "ai_score": 9,
       "bullet_points": [
         "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It is categorized under key ML/NLP tags including 'transformers', 'llama', and 'text-generation'.",
-        "This indicates ongoing community interest and benchmarking activity around Meta's latest large language model."
+        "It is categorized under key AI/ML domains including 'transformers' and 'llama'.",
+        "The pipeline indicates its primary function is text generation, utilizing safetensors format."
       ]
     },
     {
@@ -37,55 +37,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It is categorized under key ML/NLP tags including 'transformers', 'llama', and 'text-generation'.",
-        "This indicates ongoing community interest and benchmarking activity around Meta's latest LLM releases."
+        "The content highlights the trending status of the meta-llama/Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It is categorized under the text-generation pipeline, indicating its primary function as a large language model.",
+        "The associated tags (transformers, llama, safetensors) confirm its relevance within the modern AI/ML ecosystem."
       ]
     },
     {
-      "id": 17,
-      "title": "This could be Windows’ M1 moment — but expect it to cost a ton",
-      "url": "https://www.theverge.com/tech/941215/windows-laptops-nvidia-rtx-spark-apple-m1-arm-price-ram",
-      "source": "The Verge",
-      "author": "Antonio G. Di Benedetto",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Nvidia is entering the consumer laptop chip market with its RTX Spark technology.",
-        "The announcement is significant as it challenges the dominance of established architectures in Windows laptops.",
-        "The article frames this as a potential 'M1 moment' for Windows, contrasting with Apple's successful Arm implementation."
-      ]
-    },
-    {
-      "id": 19,
-      "title": "Meta&#8217;s own AI was exploited to hijack Instagram accounts",
-      "url": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
-      "source": "The Verge",
-      "author": "Emma Roth",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Meta's AI support chatbot was exploited by hackers to compromise Instagram accounts.",
-        "The attack involved tricking the chatbot into changing the associated email address on a target's profile.",
-        "This vulnerability allows attackers to subsequently reset the password and take over the account."
-      ]
-    },
-    {
-      "id": 21,
-      "title": "Anthropic has officially filed to go public",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public",
-      "source": "The Verge",
-      "author": "Hayden Field",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Anthropic has officially filed with the SEC to begin its Initial Public Offering (IPO).",
-        "This filing marks a significant milestone in the highly anticipated race between major AI players (like OpenAI and Anthropic) to go public.",
-        "The event is positioned to be a massive financial and industry event given Anthropic's current valuation and market presence."
-      ]
-    },
-    {
-      "id": 30,
+      "id": 32,
       "title": "Dozens of Red Hat packages backdoored through its official NPM channel",
       "url": "https://arstechnica.com/security/2026/06/dozens-of-red-hat-packages-backdoored-through-its-offical-npm-channel/",
       "source": "Ars Technica",
@@ -93,13 +51,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Dozens of Red Hat packages were compromised via its official NPM channel.",
-        "This constitutes a significant security vulnerability affecting users who downloaded the affected packages.",
-        "Immediate investigation is advised for anyone who has downloaded the compromised Red Hat packages."
+        "Dozens of Red Hat packages were found to be backdoored.",
+        "The compromise occurred through Red Hat's official NPM channel.",
+        "Users who downloaded the affected packages are urged to investigate immediately."
       ]
     },
     {
-      "id": 32,
+      "id": 34,
       "title": "Florida sues OpenAI, Sam Altman after multiple ChatGPT-linked murders",
       "url": "https://arstechnica.com/tech-policy/2026/06/florida-sues-openai-sam-altman-after-multiple-chatgpt-linked-murders/",
       "source": "Ars Technica",
@@ -107,9 +65,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Florida is suing OpenAI and Sam Altman following multiple alleged murders linked to ChatGPT.",
-        "The lawsuit includes allegations that Altman demonstrates an 'utter disregard' for human lives.",
-        "This represents a significant legal and ethical challenge to the deployment and safety of large language models."
+        "Florida Attorney General has filed a lawsuit against OpenAI and Sam Altman.",
+        "The lawsuit alleges that ChatGPT usage is linked to multiple murders.",
+        "The AG claims Altman demonstrates an 'utter disregard' for human lives."
       ]
     },
     {
@@ -121,9 +79,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The story highlights the trending status of the 'deepseek-ai/DeepSeek-R1' model on Hugging Face.",
-        "It is categorized under text-generation and utilizes transformers and safetensors formats.",
-        "The model is associated with the deepseek_v3 family and is suitable for conversational tasks."
+        "The story highlights a trending model, DeepSeek-R1, on Hugging Face Benchmarks.",
+        "The model is categorized under text-generation and conversational AI pipelines.",
+        "It is associated with the deepseek_v3 architecture and utilizes standard ML formats like transformers and safetensors."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "🤗 Trending: bigscience/bloom",
+      "url": "https://huggingface.co/bigscience/bloom",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
+        "It is categorized under key NLP/ML tags including transformers and pytorch.",
+        "The pipeline demonstrated is 'text-generation', indicating a focus on generative AI capabilities."
       ]
     },
     {
@@ -135,9 +107,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, is integrating MLX for enhanced performance.",
-        "This integration specifically targets Apple Silicon devices, leveraging Apple's native ML framework.",
-        "The update is currently in preview, signaling a push for optimized local AI on Apple hardware."
+        "Ollama, a popular local LLM runner, is integrating MLX for performance gains.",
+        "This integration specifically targets Apple Silicon hardware, optimizing AI workloads on Macs.",
+        "The feature is currently available in a preview state, indicating ongoing development."
       ]
     },
     {
@@ -149,9 +121,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging apps.",
-        "It utilizes local AI coding agents, emphasizing on-device processing for privacy and control.",
-        "The core value proposition is connecting messaging workflows directly to local, private AI capabilities."
+        "OpenClaw is a personal AI assistant designed for local execution.",
+        "It integrates messaging apps with local AI coding agents.",
+        "The key feature is running all AI processes entirely on the user's own device for privacy/control."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "ollama launch",
+      "url": "https://ollama.com/blog/launch",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Ollama introduces a new command to simplify the setup and execution of coding tools.",
+        "It allows users to run tools like Claude Code, OpenCode, and Codex using local or cloud models.",
+        "A key feature is its simplicity, requiring no environment variables or configuration files."
       ]
     },
     {
@@ -163,13 +149,27 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama is partnering with OpenAI and ROOST to deploy gpt-oss-safeguard reasoning models.",
-        "These models are designed for safety classification tasks and are available in 20B and 120B sizes.",
+        "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification.",
+        "The models, available in 20B and 120B sizes, are being deployed in partnership with ROOST.",
         "The models are permissively licensed under the Apache 2.0 license, promoting open use."
       ]
     },
     {
-      "id": 28,
+      "id": 20,
+      "title": "Gemini Spark is the most impressive and terrifying AI experience I’ve had yet",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning",
+      "source": "The Verge",
+      "author": "David Pierce",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The article focuses on Gemini Spark, positioning it as a highly impressive and potentially disruptive AI experience.",
+        "Trip planning is highlighted as a long-standing, yet often over-promised, killer use case for AI agents.",
+        "The piece suggests Gemini Spark may be a significant step forward in realizing the full potential of AI for complex tasks like travel planning."
+      ]
+    },
+    {
+      "id": 30,
       "title": "Hackers duped Meta AI support chatbot to steal celebrity Instagram accounts",
       "url": "https://arstechnica.com/ai/2026/06/meta-ai-support-chatbot-gave-hackers-access-to-notable-instagram-accounts/",
       "source": "Ars Technica",
@@ -177,37 +177,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Hackers exploited a vulnerability in Meta's AI support chatbot.",
+        "Hackers exploited a vulnerability in Meta AI support chatbots.",
         "The exploit allowed unauthorized access to and theft of celebrity Instagram accounts.",
-        "The stolen, high-value Instagram handles were subsequently resold before Meta patched the flaw."
-      ]
-    },
-    {
-      "id": 33,
-      "title": "From 15 hours to one minute: How AI/ML is speeding up GM's development",
-      "url": "https://arstechnica.com/cars/2026/06/from-15-hours-to-one-minute-how-ai-ml-is-speeding-up-gms-development/",
-      "source": "Ars Technica",
-      "author": "Jonathan M. Gitlin",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "General Motors (GM) is leveraging AI/ML to drastically accelerate vehicle development timelines.",
-        "The shift involves extensive virtualization, utilizing technologies like CFD (Computational Fluid Dynamics) and FEA (Finite Element Analysis).",
-        "The adoption of digital twins is a key component in modernizing the automotive design and testing process."
-      ]
-    },
-    {
-      "id": 35,
-      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
-      "url": "https://arxiv.org/abs/2606.02578v1",
-      "source": "arXiv AI",
-      "author": "Hyunjung Shim",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Identifies 'Perceptual Judgment Bias' in Multimodal LLM-as-a-Judge, where MLLMs favor plausible narratives over visually accurate answers.",
-        "The bias occurs when visual evidence contradicts textual cues during automated evaluation.",
-        "The research proposes using perceptual perturbation and reward modeling to mitigate this reliability issue in MLLM evaluators."
+        "The stolen, high-value Instagram handles were resold before Meta applied a patch."
       ]
     },
     {
@@ -219,23 +191,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces AdaCodec, a novel predictive visual coding method for video.",
-        "Addresses the inefficiency of current Video MLLMs which encode every frame independently, leading to redundant visual tokens.",
-        "Proposes a system where full reference frames are only sent when prediction fails, otherwise transmitting compact inter-frame descriptions."
+        "Introduces AdaCodec, a predictive visual code designed to address redundancy in video data for MLLMs.",
+        "Current video MLLMs inefficiently encode every frame as an independent RGB image, leading to token repetition.",
+        "The proposed method suggests transmitting a full reference frame only when prediction fails, otherwise using a compact inter-frame description."
       ]
     },
     {
-      "id": 4,
-      "title": "🤗 Trending: bigscience/bloom",
-      "url": "https://huggingface.co/bigscience/bloom",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
+      "id": 43,
+      "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+      "url": "https://arxiv.org/abs/2606.02530v1",
+      "source": "arXiv AI",
+      "author": "Lei Sha",
       "timestamp": null,
-      "ai_score": 7,
+      "ai_score": 8,
       "bullet_points": [
-        "The news highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It pertains to the text-generation pipeline, indicating a focus on large language models.",
-        "The associated tags (transformers, pytorch, safetensors) confirm its relevance to modern deep learning frameworks."
+        "Addresses the 'alignment tax' in LLMs, where safety fine-tuning degrades general capabilities.",
+        "Proposes SafeSteer, a method for localized on-policy distillation for efficient safety alignment.",
+        "Argues that safety features are sparse, necessitating localized modifications over global trade-offs."
       ]
     },
     {
@@ -248,22 +220,8 @@
       "ai_score": 7,
       "bullet_points": [
         "OpenJarvis v1.0 is released, providing an open-source framework for personal AI agents.",
-        "The key feature is the ability to run these AI agents locally on the user's own hardware.",
-        "It features built-in support for Ollama, facilitating the use of local LLMs."
-      ]
-    },
-    {
-      "id": 10,
-      "title": "ollama launch",
-      "url": "https://ollama.com/blog/launch",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Ollama introduces a new command for running coding tools locally or in the cloud.",
-        "It supports various coding models such as Claude Code, OpenCode, and Codex.",
-        "A key feature is its simplicity, requiring no environment variables or configuration files."
+        "The key feature is that these agents can run locally on the user's own hardware.",
+        "The framework includes built-in support for Ollama, facilitating local LLM usage."
       ]
     },
     {
@@ -275,8 +233,8 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama now supports experimental local image generation on macOS.",
-        "This feature allows users to run image generation models entirely on their local machines.",
+        "Ollama now supports local image generation functionality.",
+        "The feature is currently experimental and available on macOS.",
         "Support for Windows and Linux platforms is planned for future releases."
       ]
     },
@@ -290,8 +248,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama now supports the Anthropic Messages API.",
-        "This integration allows users to leverage models like Claude Code within the Ollama ecosystem.",
-        "It bridges the gap between open-source local model runners and proprietary API services."
+        "This integration allows users to leverage Claude Code functionality within Ollama.",
+        "It facilitates the use of proprietary models like Claude alongside open-source models in the Ollama ecosystem."
       ]
     },
     {
@@ -304,26 +262,40 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama enables the use of OpenAI's Codex CLI with open-source models.",
-        "Codex, when integrated via Ollama, can read, modify, and execute code locally.",
-        "The system supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
+        "Codex functionality allows models to read, modify, and execute code within a working directory.",
+        "The integration supports various open-weight alternatives, such as gpt-oss:20b and gpt-oss:120b."
       ]
     },
     {
-      "id": 18,
-      "title": "Gemini’s new AI agent is about as good as Google’s demo",
-      "url": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on",
+      "id": 15,
+      "title": "Ableton is letting musicians build browser-style extensions for Live",
+      "url": "https://www.theverge.com/tech/941674/ableton-live-extensions-sdk-music-daw",
       "source": "The Verge",
-      "author": "Jay Peters",
+      "author": "Terrence O’Brien",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Google has introduced a new AI agent called Gemini Spark, advertised as a 24/7 task-handling assistant.",
-        "The reviewer found the agent to be 'shockingly good' at performing tasks.",
-        "The article raises concerns regarding the financial cost and potential privacy implications of using Spark."
+        "Ableton Live now supports a new Extensions SDK allowing users to build browser-style features.",
+        "This new SDK enables the use of common JavaScript to extend Ableton Live's functionality.",
+        "It expands capabilities beyond Max for Live, which is primarily focused on MIDI and audio processing."
       ]
     },
     {
-      "id": 25,
+      "id": 26,
+      "title": "Impulse Space raises $500 million as orbital maneuvering race heats up",
+      "url": "https://arstechnica.com/space/2026/06/impulse-space-raises-500-million-as-orbital-maneuvering-race-heats-up/",
+      "source": "Ars Technica",
+      "author": "Eric Berger",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Impulse Space secured $500 million in funding.",
+        "The funding highlights an intensifying competition in orbital maneuvering technology.",
+        "The investment signals continued investor interest in emerging space technology sectors."
+      ]
+    },
+    {
+      "id": 27,
       "title": "AI costs how much? GitHub Copilot users react to new usage-based pricing system.",
       "url": "https://arstechnica.com/ai/2026/06/ai-costs-how-much-github-copilot-users-react-to-new-usage-based-pricing-system/",
       "source": "Ars Technica",
@@ -332,12 +304,12 @@
       "ai_score": 7,
       "bullet_points": [
         "GitHub Copilot is implementing a new usage-based pricing model for its AI features.",
-        "Early user reactions indicate that high usage can quickly exhaust monthly credit allotments.",
-        "The story addresses the practical financial implications of rapidly scaling AI tool usage."
+        "Users are experiencing high consumption rates, with some exhausting their monthly credit allowance quickly.",
+        "The article focuses on user reactions to the shift in AI service monetization."
       ]
     },
     {
-      "id": 27,
+      "id": 29,
       "title": "Moderna gets $50 million to develop mRNA Ebola vaccine against Bundibugyo",
       "url": "https://arstechnica.com/health/2026/06/moderna-gets-50-million-to-develop-mrna-ebola-vaccine-against-bundibugyo/",
       "source": "Ars Technica",
@@ -345,13 +317,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Moderna is receiving $50 million in funding.",
-        "The development focuses on an mRNA vaccine against Ebola.",
-        "The vaccine targets the Bundibugyo strain amid an ongoing outbreak."
+        "Moderna has secured $50 million in funding.",
+        "The funding is earmarked for developing an mRNA vaccine.",
+        "The vaccine targets Ebola, specifically against the Bundibugyo strain, amidst an outbreak."
       ]
     },
     {
-      "id": 29,
+      "id": 31,
       "title": "Microsoft's Surface Laptop Ultra looks like its first true MacBook Pro competitor",
       "url": "https://arstechnica.com/gadgets/2026/06/microsoft-surface-laptop-ultra-will-be-among-the-first-nvidia-rtx-spark-arm-pcs/",
       "source": "Ars Technica",
@@ -360,8 +332,22 @@
       "ai_score": 7,
       "bullet_points": [
         "Microsoft's Surface Laptop Ultra is positioned as a serious competitor to the MacBook Pro.",
-        "The device is described as Microsoft's most refined effort in the high-end mobile workstation category.",
-        "The article suggests it represents a significant step toward a less 'weird' high-end Windows offering."
+        "The device is characterized as Microsoft's most refined effort in the high-end mobile workstation category.",
+        "The article suggests the laptop represents a significant step toward a less unconventional Microsoft premium offering."
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+      "url": "https://arxiv.org/abs/2606.02578v1",
+      "source": "arXiv AI",
+      "author": "Hyunjung Shim",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Identifies 'Perceptual Judgment Bias' in Multimodal LLM-as-a-Judge systems.",
+        "This bias causes MLLMs to favor plausible textual narratives over perceptually accurate visual evidence.",
+        "Proposes using perceptual perturbation and reward modeling to mitigate this evaluation weakness."
       ]
     },
     {
@@ -373,9 +359,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "ClinEnv introduces a new interactive benchmark for evaluating LLMs in clinical settings.",
-        "It simulates real inpatient admissions, moving beyond static, multiple-choice medical benchmarks.",
-        "The environment tests an agent's ability to make sequential, irreversible decisions while gathering heterogeneous information under uncertainty."
+        "Introduces ClinEnv, a new interactive benchmark designed to test LLMs in complex clinical decision-making.",
+        "Addresses the limitation of static benchmarks by simulating real, sequential, and irreversible decisions during inpatient admissions.",
+        "Aims to evaluate LLMs as attending physicians by handling heterogeneous information incrementally under uncertainty."
       ]
     },
     {
@@ -387,9 +373,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research proposes 'Verifiable Belief-Space Neural Safety Filters' for autonomous robots.",
-        "The goal is to ensure safety in interactive robotics despite human uncertainty (preferences, goals, cooperation levels).",
-        "Safety filters are highlighted as a modular approach to separate safety constraints from task performance."
+        "The paper proposes 'Verifiable Belief-Space Neural Safety Filters' for autonomous robots.",
+        "These filters aim to ensure safety in interactive robotics when facing human uncertainty (preferences, goals, etc.).",
+        "The approach maintains the modularity of traditional safety filters while extending their scope beyond purely physical constraints."
       ]
     },
     {
@@ -401,9 +387,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses limitations in current LLM compression techniques, specifically the reliance on full-layer granularity and contiguous component selection.",
-        "It proposes rethinking the granularity of replacement-based compression, suggesting that redundancy in transformers is not limited to contiguous blocks.",
-        "The research implies that compression strategies should account for uneven redundancy distribution between Attention and FeedForward network outputs."
+        "The paper addresses limitations in current LLM compression techniques, specifically those relying on full-layer granularity and contiguous component selection.",
+        "It proposes rethinking the granularity of replacement-based compression by moving from entire layers to smaller submodules.",
+        "The research suggests that redundancy in pre-trained transformers is not strictly confined to contiguous regions, opening new avenues for more precise model pruning."
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Modeling Depth Ambiguity: A Mixture-Density Representation for Flying-Point-Free Depth Estimation",
+      "url": "https://arxiv.org/abs/2606.02552v1",
+      "source": "arXiv AI",
+      "author": "Jun Gao",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the 'flying-point' failure mode in depth estimation, where spurious 3D points appear near object boundaries.",
+        "Identifies the root cause as the limitation of standard models that assign a single depth hypothesis per pixel.",
+        "Proposes a Mixture-Density Representation to model the inherent depth ambiguity at object boundaries."
       ]
     },
     {
@@ -416,22 +416,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces SimSD, a method to apply speculative decoding to Diffusion Language Models (dLLMs).",
-        "Addresses a key limitation: the masked language modeling formulation of dLLMs is incompatible with standard token-level speculative decoding used in Autoregressive (AR) LLMs.",
-        "Aims to accelerate dLLM inference, leveraging the speed benefits of diffusion models while incorporating AR-style acceleration techniques."
-      ]
-    },
-    {
-      "id": 43,
-      "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
-      "url": "https://arxiv.org/abs/2606.02530v1",
-      "source": "arXiv AI",
-      "author": "Lei Sha",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses the 'alignment tax' in LLMs, where safety alignment degrades general capabilities.",
-        "Proposes SafeSteer, a method for localized, on-policy distillation to achieve safety alignment.",
-        "Argues that safety modifications should be localized due to the sparse nature of safety features, avoiding global trade-offs."
+        "Addresses a key limitation: dLLMs' masked language modeling formulation is incompatible with standard AR speculative decoding.",
+        "Highlights the potential of dLLMs as a faster inference alternative to traditional autoregressive (AR) LLMs."
       ]
     },
     {
@@ -443,23 +429,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the need for Multimodal Continual Instruction Tuning (MCIT) to allow MLLMs to learn new vision-language capabilities over time.",
-        "It proposes 'ProtoAda,' a method utilizing Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation to improve this tuning.",
-        "The research tackles the challenge of inter-task interference, a common issue when adapting large models to sequential learning tasks."
-      ]
-    },
-    {
-      "id": 46,
-      "title": "IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning",
-      "url": "https://arxiv.org/abs/2606.02563v1",
-      "source": "arXiv Machine Learning",
-      "author": "Jinyuan Stella Sun",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces IntraShuffler, a framework for Privacy Preserving Heterogeneous Differential Privacy (HDP) in Federated Learning (FL).",
-        "Addresses the challenge of non-IID data patterns in FL, which can compromise privacy guarantees.",
-        "Allows clients to use individualized privacy budgets ($\\varepsilon_i$) based on institutional policies while aiming to improve model utility."
+        "The paper addresses Multimodal Continual Instruction Tuning (MCIT) for Large Language Models (MLLMs) to allow them to acquire new vision-language capabilities over time.",
+        "It proposes 'ProtoAda,' a method utilizing Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation to manage continual learning.",
+        "The research aims to mitigate inter-task interference, a common challenge in continual learning, especially when tasks have distinct response structures."
       ]
     },
     {
@@ -471,9 +443,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research proposes 'Verifiable Belief-Space Neural Safety Filters' for autonomous robots.",
-        "These filters aim to ensure safety in interactive robotics when dealing with human uncertainty (preferences, goals, cooperation).",
-        "The approach builds upon the modular concept of safety filters, separating safety concerns from core task performance."
+        "The research addresses safety in interactive robotics where robots must handle human uncertainty (preferences, goals, etc.).",
+        "It proposes 'Verifiable Belief-Space Neural Safety Filters' to ensure safety while maintaining task efficiency.",
+        "This approach builds upon existing safety filter concepts but aims to extend their operation beyond purely physical space."
       ]
     },
     {
@@ -485,9 +457,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research investigates potential asset-specific biases within Large Language Models (LLMs) used in financial applications like robo-advisors.",
-        "The study proposes a three-level audit protocol to test if LLMs systematically prefer certain financial instruments, using Bitcoin as a case study.",
-        "It aims to identify internal representations within LLMs that causally influence these asset preferences and downstream financial decisions."
+        "Investigates potential asset-specific biases within Large Language Models (LLMs) used in financial applications like robo-advisors.",
+        "Proposes a three-level audit protocol to test if LLMs systematically prefer certain financial instruments, using Bitcoin as a case study.",
+        "Aims to identify internal representations within LLMs that causally influence asset preferences and subsequent financial decisions."
       ]
     },
     {
@@ -499,9 +471,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the difficulty of preference finetuning for fast, one-step text-to-image generators.",
-        "Introduces Drifting Preference Optimization (DrPO), a novel online preference-finetuning method.",
-        "DrPO is designed specifically for deterministic, single-forward-pass generative models, bypassing complex standard alignment requirements."
+        "Addresses the difficulty of preference finetuning for one-step text-to-image generators, which are desirable for deployment due to single-pass generation.",
+        "Introduces Drifting Preference Optimization (DrPO), a novel online preference-finetuning method specifically designed for deterministic one-step generators.",
+        "Offers an alternative to standard alignment methods that typically rely on complex mechanisms like policy likelihoods or differentiable reward gradients."
       ]
     },
     {
@@ -513,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper reviews the shift in materials discovery towards 'inverse materials design,' moving from simple prediction to targeted candidate proposal.",
+        "The paper reviews the shift in materials discovery from forward prediction to targeted candidate proposal using inverse materials design.",
         "It surveys recent advancements in generative crystal structure modeling and multimodal learning for crystalline solids.",
-        "The review focuses on closed-loop design pipelines, detailing how modern generators learn chemical-structural priors for controllable sampling."
+        "The review focuses on closed-loop design pipelines, detailing how modern generators learn chemical-structural priors for controllable structure sampling."
       ]
     },
     {
@@ -528,8 +500,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces 'Iteris,' an agentic research system designed to advance computational mathematics.",
-        "Addresses the gap where current AI progress often overlooks the need for numerical experimentation and adversarial construction in math research.",
-        "Leverages recent advances in LLMs and agentic AI to tackle complex mathematical problems and conjectures."
+        "Addresses the gap where current LLM/AI research often overlooks the complex needs of mathematical discovery (proofs, numerical experiments, algorithm design).",
+        "Leverages recent advancements in agentic AI to tackle research-level conjectures in mathematics."
       ]
     },
     {
@@ -541,9 +513,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces AdaCodec, a predictive visual code designed to address redundancy in video data for MLLMs.",
-        "Current video MLLMs inefficiently encode every frame independently, leading to redundant visual tokens.",
-        "AdaCodec proposes sending a full reference frame only when prediction fails, otherwise transmitting a compact inter-frame description."
+        "Introduces AdaCodec, a predictive visual coding method designed for video MLLMs.",
+        "Addresses the inefficiency of current video MLLMs that treat each frame as an independent RGB image, leading to redundant token encoding.",
+        "Proposes transmitting only a full reference frame when prediction fails, otherwise sending a compact description of inter-frame changes."
       ]
     },
     {
@@ -555,9 +527,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces ClinEnv, a new interactive, multi-stage environment designed to simulate real-world inpatient clinical practice.",
-        "Addresses the limitation of static benchmarks by modeling the sequential, uncertain decision-making process of physicians.",
-        "Aims to evaluate Large Language Models (LLMs) in the role of attending physicians over longitudinal patient admissions."
+        "Introduces ClinEnv, a new interactive benchmark designed to test Large Language Models (LLMs) in clinical settings.",
+        "Addresses the limitation of static benchmarks by simulating real, sequential, and uncertain decision-making processes found in inpatient admissions.",
+        "Aims to evaluate LLMs as attending physicians by modeling longitudinal, multi-stage clinical interactions."
       ]
     },
     {
@@ -569,9 +541,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses limitations in current LLM compression techniques, specifically focusing on replacement-based methods.",
-        "Existing methods are constrained by requiring full-layer granularity and contiguous component selection.",
-        "The research proposes that LLM redundancy is not strictly confined to contiguous regions, suggesting a need for finer-grained compression strategies."
+        "The paper addresses limitations in current LLM compression techniques, which rely on full-layer granularity and contiguous component selection.",
+        "It proposes rethinking the granularity of replacement-based compression, suggesting that redundancy in transformers is not limited to contiguous blocks.",
+        "The research implies that compression strategies should account for uneven redundancy distribution between Attention and FeedForward network outputs."
       ]
     },
     {
@@ -583,9 +555,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces HERO'S JOURNEY, a new benchmark for testing rule induction in goal-directed, episodic tasks.",
-        "The benchmark tests agents' ability to infer hidden rules from demonstrations across various structural forms.",
-        "Evaluations of state-of-the-art LLMs show evidence of rule induction, but note limitations in current model capabilities."
+        "Introduces HERO'S JOURNEY, a new benchmark specifically designed for testing complex rule induction in goal-directed episodic tasks.",
+        "The benchmark tests agents' ability to infer hidden rules from demonstrations across various attribute and procedural induction families.",
+        "Evaluations on state-of-the-art LLMs show evidence of rule induction, but current capabilities are noted as being limited."
       ]
     },
     {
@@ -597,9 +569,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces SN-WER, a new metric to address inaccuracies in Word Error Rate (WER) for multi-script Indic ASR.",
-        "SN-WER resolves overestimation of errors when references and hypotheses use different scripts for the same words (e.g., romanization).",
-        "The method is training-free and evaluation-only, involving transliteration into a canonical script before WER calculation."
+        "Introduces SN-WER, a new metric to address inaccuracies in Word Error Rate (WER) for Indic ASR.",
+        "SN-WER solves the problem where WER overestimates errors due to script differences between reference and hypothesis.",
+        "The method is training-free and evaluation-only, involving transliteration into a canonical script before scoring."
       ]
     },
     {
@@ -612,8 +584,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The research addresses the public health challenge of self-harm surveillance, noting limitations in current diagnostic coding.",
-        "It proposes using Emergency Department (ED) triage notes as a high-potential source for early self-harm detection.",
-        "The methodology combines traditional machine learning with Large Language Model (LLM)-based screening and evidence extraction for enhanced accuracy."
+        "It proposes using Emergency Department (ED) triage notes as a more sensitive data source for early detection.",
+        "The methodology combines traditional machine learning with Large Language Model (LLM)-based screening and evidence extraction."
       ]
     },
     {
@@ -626,8 +598,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces SimSD, a method to apply speculative decoding to Diffusion Language Models (dLLMs).",
-        "Addresses a key limitation: dLLMs' masked language modeling formulation is incompatible with standard token-level speculative decoding used in autoregressive (AR) models.",
-        "Aims to accelerate dLLM inference, leveraging the efficiency of speculative decoding techniques."
+        "Addresses a key limitation: the masked language modeling formulation of dLLMs is incompatible with standard AR speculative decoding.",
+        "Highlights the potential of dLLMs as a faster inference alternative to traditional autoregressive (AR) LLMs."
       ]
     },
     {
@@ -640,8 +612,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces SkillHarm, a new benchmark for skill-based attacks targeting AI agents.",
-        "Addresses a gap in current research by evaluating attacks across the entire skill-use lifecycle, not just single tasks.",
-        "Highlights the vulnerability of third-party skills within agent workflows, which are implicitly executed by agents."
+        "Addresses the vulnerability of third-party skills within agent workflows, which are often implicitly executed.",
+        "Moves beyond single-task evaluations by analyzing attacks across the entire skill-use lifecycle."
       ]
     },
     {
@@ -654,12 +626,40 @@
       "ai_score": 7,
       "bullet_points": [
         "Addresses the 'alignment tax' in LLMs, where safety alignment degrades general capabilities.",
-        "Proposes SafeSteer, a method for localized, on-policy distillation for efficient safety alignment.",
-        "Argues that safety modifications should be localized rather than relying on global trade-offs or massive auxiliary data."
+        "Proposes SafeSteer, a method for localized on-policy distillation for efficient safety alignment.",
+        "Argues that safety features are sparse, necessitating localized modifications over global trade-offs."
       ]
     },
     {
-      "id": 66,
+      "id": 64,
+      "title": "FigSIM: A Dataset for Fine-grained Suicide Severity and Figurative Language in Suicide Memes",
+      "url": "https://arxiv.org/abs/2606.02523v1",
+      "source": "arXiv NLP",
+      "author": "Mike Conway",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research introduces FigSIM, a new dataset specifically designed for analyzing suicide memes.",
+        "The study addresses the critical need to understand the characteristics of suicide memes for better content moderation on social media.",
+        "The dataset focuses on fine-grained analysis, including suicide severity and figurative language within these memes."
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Meta repeatedly snubs EU body over Facebook and Instagram user bans",
+      "url": "https://www.bbc.com/news/articles/c152yvwjwkko",
+      "source": "Hacker News",
+      "author": "dijksterhuis",
+      "timestamp": "2026-06-02T15:03:43",
+      "ai_score": 7,
+      "bullet_points": [
+        "Meta is reportedly ignoring directives from an EU regulatory body.",
+        "The dispute centers on user bans related to Facebook and Instagram.",
+        "This highlights ongoing regulatory friction between major tech companies and EU governance."
+      ]
+    },
+    {
+      "id": 73,
       "title": "The newest Instagram “exploit” is the goofiest I've seen",
       "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
       "source": "Hacker News",
@@ -668,50 +668,50 @@
       "ai_score": 7,
       "bullet_points": [
         "Hackers exploited Meta's AI support bot to compromise Instagram accounts.",
-        "The exploit leverages the functionality of Meta's AI support system.",
-        "The story highlights a security vulnerability in AI-driven customer support tools."
+        "The exploit method is described as being relatively 'goofy' by the source.",
+        "This highlights security vulnerabilities within large-scale AI customer support systems."
       ]
     },
     {
-      "id": 72,
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
-      "source": "Hacker News",
-      "author": "typpo",
-      "timestamp": "2026-06-01T21:50:02",
-      "ai_score": 7,
-      "bullet_points": [
-        "OpenAI's frontier models are now accessible via AWS.",
-        "Codex, OpenAI's code generation model, is also available on the AWS platform.",
-        "This integration signifies a major shift in how enterprises can access cutting-edge AI infrastructure."
-      ]
-    },
-    {
-      "id": 91,
-      "title": "Fixed Before Anyone Notices, Stronger After Every Fix: Self-Healing + Recurrence Prevention (Series Part 4)",
-      "url": "https://dev.to/ryantsuji/fixed-before-anyone-notices-stronger-after-every-fix-self-healing-recurrence-prevention-series-1e86",
+      "id": 84,
+      "title": "How fast is LlamaStash? Overhead, throughput, and a fair comparison with Ollama and LM Studio",
+      "url": "https://dev.to/deepu105/how-fast-is-llamastash-overhead-throughput-and-a-fair-comparison-with-ollama-and-lm-studio-2e7c",
       "source": "Dev.to",
-      "author": "ryantsuji",
-      "timestamp": "2026-06-01T23:57:25Z",
+      "author": "deepu105",
+      "timestamp": "2026-06-02T11:34:05Z",
       "ai_score": 7,
       "bullet_points": [
-        "Describes an advanced CI/CD pipeline featuring AI-driven self-healing capabilities.",
-        "The system automatically investigates production alerts, creates fixes (PRs), and deploys them.",
-        "It implements recurrence prevention by using the fix PR to introduce permanent quality gates (lint rules, CI guards) to block the same issue in the future."
+        "The article provides a reproducible benchmark comparing LlamaStash against established LLM serving tools (Ollama, LM Studio, llama-server).",
+        "It evaluates performance metrics including overhead and throughput across diverse hardware configurations (AMD APU, Apple Silicon, NVIDIA).",
+        "The content is relevant to the practical deployment and optimization of local Large Language Models (LLMs)."
       ]
     },
     {
-      "id": 92,
-      "title": "Why Your AI Agent needs better Temporal Reasoning—and How We Fixed It",
-      "url": "https://dev.to/vektor_memory_43f51a32376/why-your-ai-agent-needs-better-temporal-reasoning-and-how-we-fixed-it-35ao",
+      "id": 86,
+      "title": "Introducing LlamaStash: a zero-overhead, terminal-native llama.cpp launcher",
+      "url": "https://dev.to/deepu105/introducing-llamastash-a-zero-overhead-terminal-native-llamacpp-launcher-4d2g",
       "source": "Dev.to",
-      "author": "vektor_memory_43f51a32376",
-      "timestamp": "2026-06-02T08:52:30Z",
+      "author": "deepu105",
+      "timestamp": "2026-06-02T12:01:22Z",
       "ai_score": 7,
       "bullet_points": [
-        "The article addresses a limitation in current AI agent memory systems: the lack of temporal reasoning.",
-        "Existing systems often store facts linearly, failing to account for when a fact was valid or true.",
-        "The content suggests a solution or improvement to address this temporal reasoning deficit in AI agents."
+        "LlamaStash is a new tool built in Rust designed to launch local LLMs using llama.cpp.",
+        "It offers a unified interface including TUI, CLI, and daemon capabilities.",
+        "The tool functions as an OpenAI-compatible proxy, facilitating local LLM usage."
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Your AI Agent Isn't Failing Because It Hallucinates — It's Failing Because of Rate Limits",
+      "url": "https://dev.to/p0rt/your-ai-agent-isnt-failing-because-it-hallucinates-its-failing-because-of-rate-limits-2d60",
+      "source": "Dev.to",
+      "author": "p0rt",
+      "timestamp": "2026-06-02T13:09:00Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The primary production failure mode for LLM agents in 2026 is identified as capacity constraints, not reasoning errors or hallucinations.",
+        "The article suggests that current demonstrations often fail to reflect real-world load challenges.",
+        "It proposes specific capacity-engineering patterns necessary to maintain LLM agent stability under high load."
       ]
     }
   ]
