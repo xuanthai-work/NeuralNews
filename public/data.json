@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-06-03T02:28:00.865614",
-  "total_stories": 48,
+  "generated_at": "2026-06-03T10:27:34.233764",
+  "total_stories": 34,
   "sources": [
-    "arXiv Machine Learning",
-    "arXiv NLP",
-    "Hacker News",
-    "Lobsters",
-    "arXiv AI",
-    "Ars Technica",
     "Dev.to",
     "Hugging Face Benchmarks",
+    "Lobsters",
+    "arXiv AI",
+    "Hacker News",
+    "Ollama",
     "The Verge",
-    "Ollama"
+    "Ars Technica"
   ],
   "stories": [
     {
@@ -24,8 +22,8 @@
       "ai_score": 9,
       "bullet_points": [
         "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It is categorized under key ML/NLP tags including 'transformers', 'llama', and 'text-generation'.",
-        "This indicates active community interest and benchmarking of a major LLM from Meta."
+        "It is categorized under key AI/ML domains, including transformers and text-generation.",
+        "The mention of 'llama' and 'Meta' indicates relevance to major large language model developments."
       ]
     },
     {
@@ -37,13 +35,27 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
-        "It is categorized under key NLP/ML tags such as 'transformers', 'llama', and 'text-generation'.",
-        "This indicates active community interest and benchmarking activity around Meta's latest Llama iteration."
+        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It is categorized under text-generation, indicating its primary function as a generative AI model.",
+        "The associated tags (transformers, safetensors) point to its implementation within the standard ML ecosystem."
       ]
     },
     {
-      "id": 22,
+      "id": 16,
+      "title": "Google must let publishers opt out of AI Search features, rules UK",
+      "url": "https://www.theverge.com/tech/942302/google-search-ai-overviews-uk-cma-publisher-opt-out",
+      "source": "The Verge",
+      "author": "Jess Weatherbed",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "UK regulator (CMA) has mandated that Google must allow publishers to opt out of its AI Search features.",
+        "This ruling directly impacts how content from online publishers is used in features like AI Overviews.",
+        "The decision represents a significant regulatory shift, giving content owners more control over AI consumption of their material."
+      ]
+    },
+    {
+      "id": 24,
       "title": "Microsoft’s next-gen quantum chip cuts timeline to useful quantum computing",
       "url": "https://www.theverge.com/news/940874/microsoft-majorana-2-quantum-chip-build",
       "source": "The Verge",
@@ -53,63 +65,49 @@
       "bullet_points": [
         "Microsoft is advancing its quantum computing efforts with the announcement of Majorana 2.",
         "Majorana 2 is the next-generation topological quantum chip, succeeding the initial Majorana 1 processor.",
-        "The development aims to accelerate the timeline toward achieving useful quantum computing capabilities."
+        "The development aims to significantly cut the timeline toward achieving useful quantum computing capabilities."
       ]
     },
     {
-      "id": 23,
-      "title": "Microsoft’s first advanced reasoning AI is here",
-      "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
-      "source": "The Verge",
-      "author": "Jay Peters",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Microsoft unveiled its first advanced, in-house reasoning AI model, MAI-Thinking-1, at Build 2026.",
-        "This marks a significant strategic shift for Microsoft, moving away from exclusive reliance on OpenAI's models.",
-        "The announcement follows recent renegotiations in the partnership between Microsoft and OpenAI."
-      ]
-    },
-    {
-      "id": 27,
-      "title": "Microsoft's Project Solara is an Android OS designed for agents instead of apps",
-      "url": "https://arstechnica.com/gadgets/2026/06/microsofts-project-solara-is-an-android-os-designed-for-agents-instead-of-apps/",
-      "source": "Ars Technica",
-      "author": "Ryan Whitwam",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Microsoft is developing Project Solara, a new Android OS.",
-        "The OS is fundamentally designed around AI 'agents' rather than traditional mobile 'apps'.",
-        "This signals a potential industry shift in how mobile operating systems will function in the age of AI."
-      ]
-    },
-    {
-      "id": 38,
-      "title": "CoEval: Ranking Language Models for Custom Tasks Without Labeled Data or Trustworthy Benchmarks",
-      "url": "https://arxiv.org/abs/2606.03650v1",
+      "id": 36,
+      "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
+      "url": "https://arxiv.org/abs/2606.03985v1",
       "source": "arXiv AI",
-      "author": "Yehudit Aperstein",
+      "author": "Li Yi",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Introduces CoEval, a framework designed to rank Language Models (LMs) for custom tasks.",
-        "Addresses the critical problem of evaluating LMs when labeled data is unavailable and standard benchmarks are untrustworthy (due to potential pretraining data leakage).",
-        "Uses teacher models to synthesize fresh, attribute-controlled benchmarks directly from a task description, eliminating the need for human labeling."
+        "Introduction of Humanoid-GPT, a GPT-style Transformer designed for whole-body motion tracking in humanoids.",
+        "The model is trained on a massive, unified 2B-frame motion corpus, addressing limitations of prior shallow trackers.",
+        "Scaling data and model capacity allows Humanoid-GPT to track highly dynamic behaviors with improved generalization."
       ]
     },
     {
-      "id": 41,
-      "title": "Gender-Dependent Diagnostic Substitution in LLM Medical Triage: Same Symptoms, Unequal Urgency",
-      "url": "https://arxiv.org/abs/2606.03641v1",
-      "source": "arXiv AI",
-      "author": "Qi Han Wong",
+      "id": 46,
+      "title": "1-Click GitHub Token Stealing via a VSCode Bug",
+      "url": "https://blog.ammaraskar.com/github-token-stealing/",
+      "source": "Hacker News",
+      "author": "ammar2",
+      "timestamp": "2026-06-02T15:29:05",
+      "ai_score": 9,
+      "bullet_points": [
+        "A critical security vulnerability was discovered in VSCode.",
+        "The bug allows for the theft of GitHub tokens with a single click.",
+        "This represents a significant security risk impacting developers using VSCode and GitHub."
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Full Disclosure: 1-Click GitHub Token Stealing via a VSCode Bug",
+      "url": "https://blog.ammaraskar.com/github-token-stealing/",
+      "source": "Lobsters",
+      "author": "blog.ammaraskar.com by ammar2",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Research investigates gender bias in LLM medical triage, testing if identical neurological symptoms yield different urgency recommendations based on patient gender.",
-        "The study compares three major LLM families (Gemini 3.5 Flash, Claude Sonnet 4.6, GPT-5.4-mini) across varied demographic profiles.",
-        "Findings suggest LLMs may exhibit gender-dependent diagnostic substitution, raising serious ethical concerns for clinical deployment."
+        "A critical vulnerability exists in VSCode that allows for one-click GitHub token stealing.",
+        "The exploit targets GitHub tokens, representing a high-severity security risk for developers.",
+        "The disclosure highlights the importance of security auditing in popular developer tools like VSCode."
       ]
     },
     {
@@ -121,9 +119,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The story highlights the trending status of the 'deepseek-ai/DeepSeek-R1' model on Hugging Face.",
-        "The model is categorized for text-generation tasks, indicating its primary function as a large language model (LLM).",
-        "It is associated with key ML technologies like transformers and safetensors, placing it within the active LLM development ecosystem."
+        "The news highlights a specific model, deepseek-ai/DeepSeek-R1, trending on Hugging Face.",
+        "The model is categorized for text-generation and conversational AI tasks.",
+        "It is associated with key ML technologies like transformers and safetensors."
       ]
     },
     {
@@ -137,7 +135,7 @@
       "bullet_points": [
         "The news highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
         "It relates to core NLP/ML technologies, specifically text-generation pipelines.",
-        "Associated tags indicate the use of transformers, PyTorch, and safetensors."
+        "Associated tags indicate the use of standard ML frameworks like transformers and PyTorch."
       ]
     },
     {
@@ -149,9 +147,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, is integrating MLX for performance optimization.",
-        "This integration specifically targets Apple Silicon hardware, enhancing local AI capabilities on Macs.",
-        "The feature is currently available in a preview build, indicating ongoing development and optimization."
+        "Ollama, a popular local LLM runner, has integrated MLX for performance optimization.",
+        "This update specifically targets Apple Silicon hardware, leveraging Apple's native ML framework.",
+        "The feature is currently available in a preview state, indicating ongoing development and optimization."
       ]
     },
     {
@@ -164,8 +162,8 @@
       "ai_score": 8,
       "bullet_points": [
         "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, emphasizing on-device processing for privacy and speed.",
-        "The core value proposition is running AI capabilities entirely on the user's own device."
+        "It connects users to local AI coding agents.",
+        "A key feature is that all AI processing runs entirely on the user's local device, emphasizing privacy."
       ]
     },
     {
@@ -177,8 +175,8 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama introduces a new command to streamline the setup and execution of coding tools.",
-        "It enables running various coding models (Claude Code, OpenCode, Codex) locally or via the cloud.",
+        "Ollama introduces a new command for easily setting up and running coding tools.",
+        "It supports various models, including Claude Code, OpenCode, and Codex, both locally and in the cloud.",
         "A key feature is its simplicity, requiring no environment variables or configuration files."
       ]
     },
@@ -191,13 +189,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama is collaborating with OpenAI and ROOST to integrate new gpt-oss-safeguard reasoning models.",
-        "These models are designed specifically for safety classification tasks.",
-        "The models are available in 20B and 120B sizes and are permissively licensed under Apache 2.0."
+        "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification.",
+        "The models, available in 20B and 120B sizes, are being brought to users through a partnership with ROOST.",
+        "The models are openly available under the permissive Apache 2.0 license, promoting open-source safety tooling."
       ]
     },
     {
-      "id": 21,
+      "id": 23,
       "title": "Trump signs executive order to review AI models before they’re released",
       "url": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
       "source": "The Verge",
@@ -205,9 +203,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Trump signed an executive order establishing a voluntary framework for AI companies.",
-        "The framework requires sharing frontier AI models with the federal government prior to public release.",
-        "The stated goals are to promote secure innovation and enhance the cybersecurity of critical infrastructure."
+        "President Trump issued an executive order mandating a 'voluntary framework' for AI companies.",
+        "The framework requires companies to share frontier AI models with the federal government pre-release.",
+        "The stated goals are to promote secure innovation and bolster cybersecurity for critical infrastructure."
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Microsoft's Project Solara is an Android OS designed for agents instead of apps",
+      "url": "https://arstechnica.com/gadgets/2026/06/microsofts-project-solara-is-an-android-os-designed-for-agents-instead-of-apps/",
+      "source": "Ars Technica",
+      "author": "Ryan Whitwam",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Microsoft is developing Project Solara, a new Android OS.",
+        "The OS is specifically designed to support AI agents rather than traditional mobile applications.",
+        "This signals a potential industry shift toward agent-centric computing over app-centric models."
       ]
     },
     {
@@ -221,7 +233,7 @@
       "bullet_points": [
         "Ring cameras, owned by Amazon, are reportedly using AI to scan and identify faces of guests and passersby.",
         "A lawsuit alleges that Ring is collecting biometric data from Americans without proper compensation or consent.",
-        "The story highlights growing legal and ethical concerns surrounding facial recognition technology in consumer smart home devices."
+        "The story highlights growing legal and ethical concerns regarding the deployment of facial recognition technology in consumer smart home devices."
       ]
     },
     {
@@ -233,69 +245,41 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Android is receiving a new feature drop that enhances scam detection capabilities.",
-        "The update specifically targets the ability of phones to detect spoofed calls and impersonation scams.",
-        "The release bundles this security enhancement with other updates, including more AirDrop functionality and AI integration."
+        "Android phones are receiving new features to detect spoofed calls and impersonation scams.",
+        "The update leverages Google's AI capabilities for enhanced security.",
+        "The June Android feature drop also includes updates to AirDrop and other features."
       ]
     },
     {
-      "id": 36,
-      "title": "Diagnosing Knowledge Gaps in LLM Tool Use: An Agentic Benchmark for Novel API Acquisition",
-      "url": "https://arxiv.org/abs/2606.03657v1",
+      "id": 37,
+      "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
+      "url": "https://arxiv.org/abs/2606.03979v1",
       "source": "arXiv AI",
-      "author": "Hongyi Wen",
+      "author": "Vahab Mirrokni",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses a critical limitation in LLM tool use: the ability to effectively use novel APIs not present in training data.",
-        "Introduces NovelAPIBench, a dynamic benchmark designed to test complex API acquisition skills (signatures, contracts, usage patterns).",
-        "Moves beyond static or coarse-grained testing by simulating real-world library evolution and complex coordination tasks for LLMs."
+        "Addresses a key limitation in current LLMs: the inability to continually learn and transfer temporal in-context knowledge to long-term parameters.",
+        "Proposes a novel approach inspired by human learning, suggesting LLMs require a mechanism analogous to 'sleep' for memory consolidation.",
+        "Focuses on enabling self-modification capabilities within Large Language Models to improve long-term learning."
       ]
     },
     {
-      "id": 40,
-      "title": "Black-box, Adaptive, Efficient, Transferable, Harmful, Applicable... Attacks Are All You Need to Break LLMs",
-      "url": "https://arxiv.org/abs/2606.03647v1",
+      "id": 42,
+      "title": "Agentic Chain-of-Thought Steering for Efficient and Controllable LLM Reasoning",
+      "url": "https://arxiv.org/abs/2606.03965v1",
       "source": "arXiv AI",
-      "author": "Leo Schwinn",
+      "author": "Julian McAuley",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The paper addresses the critical lack of standardized adversarial robustness evaluation methods for Large Language Models (LLMs), unlike image classifiers.",
-        "It highlights that current flawed attack designs can lead to inflated robustness estimates, undermining risk assessment and defense comparisons.",
-        "The research focuses on the need for comprehensive, transferable, and effective attack methodologies to accurately test LLM security."
+        "Introduces Agentic Chain-of-Thought Steering (ACTS) to improve LLM reasoning efficiency and controllability.",
+        "Addresses the inefficiency and lack of inference-time control in standard extended chain-of-thought methods.",
+        "Frames reasoning steering as a Markov decision process managed by a controller agent."
       ]
     },
     {
-      "id": 45,
-      "title": "Black-box, Adaptive, Efficient, Transferable, Harmful, Applicable... Attacks Are All You Need to Break LLMs",
-      "url": "https://arxiv.org/abs/2606.03647v1",
-      "source": "arXiv Machine Learning",
-      "author": "Leo Schwinn",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The paper addresses the critical lack of standardized adversarial robustness evaluation for Large Language Models (LLMs), unlike image classifiers.",
-        "It highlights that current flawed attack designs can lead to unreliable robustness estimates, skewing risk assessment and defense comparisons.",
-        "The research focuses on the need for a comprehensive, equivalent to AutoAttack, methodology for LLM jailbreak evaluation."
-      ]
-    },
-    {
-      "id": 55,
-      "title": "CoEval: Ranking Language Models for Custom Tasks Without Labeled Data or Trustworthy Benchmarks",
-      "url": "https://arxiv.org/abs/2606.03650v1",
-      "source": "arXiv NLP",
-      "author": "Yehudit Aperstein",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces CoEval, a framework designed to rank language models for custom tasks without requiring labeled data.",
-        "Addresses the critical issue of unreliable public benchmarks, which often reflect model memorization rather than true task fitness.",
-        "Uses teacher models to synthesize fresh, attribute-controlled benchmarks solely from a task or domain description."
-      ]
-    },
-    {
-      "id": 67,
+      "id": 50,
       "title": "MAI-Code-1-Flash",
       "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
       "source": "Hacker News",
@@ -303,9 +287,9 @@
       "timestamp": "2026-06-02T18:47:07",
       "ai_score": 8,
       "bullet_points": [
-        "Microsoft is launching seven new MAI models, indicating continued investment in their AI ecosystem.",
-        "MAI-Code-1-Flash is a specific new model released, suggesting advancements in code generation or related tasks.",
-        "The release provides technical documentation via a Model Card, offering insight into the model's capabilities and usage."
+        "Microsoft is launching seven new MAI models, including MAI-Code-1-Flash.",
+        "The announcement points to advancements in AI models, with specific documentation available.",
+        "This represents a significant update in Microsoft's AI model offerings."
       ]
     },
     {
@@ -317,9 +301,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "OpenJarvis v1.0 is released, providing an open-source framework for personal AI agents.",
-        "The key feature is the ability to run these AI agents locally on the user's own hardware.",
-        "It includes built-in support for Ollama, facilitating local LLM execution."
+        "OpenJarvis v1.0 is released as an open-source framework for personal AI agents.",
+        "The key feature is its local-first design, allowing AI to run on user hardware.",
+        "It features built-in support for Ollama, facilitating local LLM execution."
       ]
     },
     {
@@ -331,9 +315,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama has expanded its compatibility to include the Anthropic Messages API.",
-        "This integration allows users to leverage advanced models like Claude Code within the Ollama ecosystem.",
-        "The feature supports running powerful, proprietary-like models alongside open-source alternatives."
+        "Ollama now supports the Anthropic Messages API.",
+        "This integration allows users to leverage models like Claude Code within the Ollama ecosystem.",
+        "It bridges the gap between open-source local models and proprietary API services."
       ]
     },
     {
@@ -346,12 +330,26 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama enables the use of OpenAI's Codex CLI with open-source models.",
-        "Codex functionality allows models to read, modify, and execute code locally.",
-        "Users can leverage various open-weight alternatives (e.g., gpt-oss:20b, gpt-oss:120b) instead of proprietary models."
+        "Codex, when integrated, can read, modify, and execute code within a user's directory.",
+        "The integration supports various open-weight alternatives like gpt-oss:20b and gpt-oss:120b."
       ]
     },
     {
-      "id": 19,
+      "id": 15,
+      "title": "AI has a water problem. Google thinks it has a fix",
+      "url": "https://www.theverge.com/policy/942296/google-water-commitments-data-centers",
+      "source": "The Verge",
+      "author": "Lauren Feiner",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Google is addressing environmental concerns regarding AI data center expansion.",
+        "The company is focusing on minimizing water usage impact by increasing water availability for local communities.",
+        "Google has published five commitments detailing its new water use strategy."
+      ]
+    },
+    {
+      "id": 21,
       "title": "I held the next-gen handheld",
       "url": "https://www.theverge.com/games/941360/intel-arc-g3-extreme-msi-claw-next-gen-handheld-preview",
       "source": "The Verge",
@@ -359,9 +357,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Intel is facing significant industry challenges, including layoffs and performance issues that have driven users to competitors like AMD.",
-        "Despite broader struggles, Intel's new Panther Lake laptop chip, manufactured on the 18A process, has shown excellent performance.",
-        "The article highlights the release of a next-generation handheld device utilizing this new Intel technology."
+        "Intel is facing significant industry headwinds, including layoffs and competitive losses to AMD and Apple/Qualcomm.",
+        "The Panther Lake laptop chip, manufactured on the 18A process, demonstrated excellent performance.",
+        "The article highlights the positive reception of a next-generation handheld device utilizing this new Intel chip."
       ]
     },
     {
@@ -373,9 +371,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Microsoft is expanding its support for Linux tools within its ecosystem.",
-        "The announcement includes plans for a new RTX Spark desktop specifically aimed at Windows developers.",
-        "The news highlights several software updates and initiatives presented at Microsoft Build."
+        "Microsoft is expanding Linux support for Windows developers with new tools.",
+        "The announcement includes plans for a specialized 'RTX Spark' desktop aimed at developers.",
+        "The news highlights several software advancements presented at Microsoft Build."
       ]
     },
     {
@@ -389,263 +387,95 @@
       "bullet_points": [
         "Mathematicians have issued warnings regarding the growing influence of the tech industry on their profession.",
         "The International Mathematical Union (IMU) has formally endorsed these concerns.",
-        "The core issue revolves around the encroachment of industry practices and AI on mathematical practice."
+        "The core issue revolves around the encroachment of industry practices and AI into mathematical domains."
       ]
     },
     {
       "id": 35,
-      "title": "From Answers to States: Verifiable Process-Level Evaluation of Chemical Reasoning in Large Language Models",
-      "url": "https://arxiv.org/abs/2606.03660v1",
+      "title": "Imaginative Perception Tokens Enhance Spatial Reasoning in Multimodal Language Models",
+      "url": "https://arxiv.org/abs/2606.03988v1",
       "source": "arXiv AI",
-      "author": "Li Yuan",
+      "author": "Ranjay Krishna",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses a critical gap in LLM evaluation for chemistry: current benchmarks only check final answers, ignoring flawed reasoning.",
-        "Introduces ChemCoTBench-V2, a new rule-verifiable diagnostic tool to evaluate the process-level reasoning of LLMs in chemistry.",
-        "Aims to overcome the scalability and inconsistency issues associated with human or LLM-based step-level evaluation."
+        "The research addresses a key limitation in Vision Language Models (VLMs): poor spatial reasoning when information is not directly visible.",
+        "The core contribution is the introduction of Imaginative Perception Tokens (IPT), which serve as intermediate perceptual representations.",
+        "IPTs aim to enable VLMs to perform 'imaginative perception,' such as inferring unseen viewpoints or tracing occluded paths."
       ]
     },
     {
       "id": 39,
-      "title": "Safety Measurements for Fine-tuned LLMs Should be Grounded in Capability",
-      "url": "https://arxiv.org/abs/2606.03648v1",
+      "title": "Quantifying Faithful Confidence Expression in Large Reasoning Models",
+      "url": "https://arxiv.org/abs/2606.03969v1",
       "source": "arXiv AI",
-      "author": "Svetlana Kiritchenko",
+      "author": "Arman Cohan",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Fine-tuning Large Language Models (LLMs) risks compromising their inherent safety features.",
-        "The paper argues that safety evaluations during fine-tuning must be grounded in specific capability goals.",
-        "This approach aims to move beyond arbitrary experimental settings to draw meaningful, comparable conclusions about safety impacts."
+        "The paper addresses the critical issue of 'faithful calibration' (FC) in Large Reasoning Models (LRMs).",
+        "FC refers to the alignment between a model's actual uncertainty and the confidence it linguistically expresses.",
+        "Reliable uncertainty communication is vital for building trust in LLMs, especially given how users interpret LRM reasoning traces."
       ]
     },
     {
-      "id": 42,
-      "title": "VidMsg: A Benchmark for Implicit Message Inference in Short Videos",
-      "url": "https://arxiv.org/abs/2606.03635v1",
+      "id": 40,
+      "title": "QUBRIC: Co-Designing Queries and Rubrics for RL Beyond Verifiable Rewards",
+      "url": "https://arxiv.org/abs/2606.03968v1",
       "source": "arXiv AI",
-      "author": "Rami Ben-Ari",
+      "author": "Chao Zhang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces VidMsg, a new benchmark specifically designed for evaluating implicit message inference in short online videos.",
-        "The benchmark comprises 400 YouTube-derived clips categorized across 9 practical topic areas and 52 fine-grained target messages.",
-        "This research addresses the need to understand the underlying purpose or message in short, internet-native video content, moving beyond simple object detection."
+        "Introduces QUBRIC, a framework designed to advance Reinforcement Learning (RL) beyond reliance on strictly verifiable rewards.",
+        "Addresses a key limitation in existing rubric-based RL methods: the assumption of a fixed query distribution.",
+        "Proposes co-designing queries and rubrics to overcome the bottleneck where query structure constrains rubric quality."
+      ]
+    },
+    {
+      "id": 41,
+      "title": "AlignAtt4LLM: Fast AlignAtt for Decoder-Only LLMs at IWSLT 2026 Simultaneous Speech Translation Task",
+      "url": "https://arxiv.org/abs/2606.03967v1",
+      "source": "arXiv AI",
+      "author": "Dominik Macháček",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces AlignAtt4LLM, a new system for simultaneous speech translation (English to German, Italian, Chinese) designed for IWSLT 2026.",
+        "It utilizes a synchronous cascade architecture, combining Qwen3-ASR for incremental transcription and Gemma-4 E4B-it for translation.",
+        "A key novelty is its first application of AlignAtt to a decoder-only LLM, adapting the technique without traditional encoder-decoder cross-attention."
       ]
     },
     {
       "id": 43,
-      "title": "AnchorMoE: Interpretable Time Series Classification via Anchor-Routed MoE",
-      "url": "https://arxiv.org/abs/2606.03631v1",
+      "title": "Self-Refining Agentic Reinforcement Learning for Vision-Conditioned UAV Navigation",
+      "url": "https://arxiv.org/abs/2606.03963v1",
       "source": "arXiv AI",
-      "author": "Yiu-ming Cheung",
+      "author": "Dzmitry Tsetserukou",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces AnchorMoE, a new model for Multivariate Time Series Classification (MTSC).",
-        "Focuses on improving interpretability in MTSC, crucial for high-stakes applications like clinical diagnosis.",
-        "Addresses the challenge of sparse and noisy discriminative signals in real-world time series data."
+        "Introduces AgenticRL, a framework designed to enhance autonomy in reinforcement learning for robotics.",
+        "Addresses the limitations of traditional RL, specifically the heavy reliance on manual reward function design and fine-tuning.",
+        "Focuses on applying this self-refining approach to complex tasks like vision-conditioned navigation for UAVs (drones)."
       ]
     },
     {
       "id": 44,
-      "title": "TSQAgent: Rating Time Series Data Quality via Dedicated Agentic Reasoning",
-      "url": "https://arxiv.org/abs/2606.03629v1",
+      "title": "Using Reward Uncertainty to Induce Diverse Behaviour in Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2606.03962v1",
       "source": "arXiv AI",
-      "author": "See-Kiong Ng",
+      "author": "Mark Rowland",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces TSQAgent, an agentic reasoning approach to assess the quality of time series (TS) data.",
-        "It addresses the limitation of existing LLM-based TS quality assessment, which relies on manually predefined quality dimensions.",
-        "The research explores whether LLMs can autonomously identify relevant quality dimensions and perform deeper reasoning in TS data quality evaluation."
-      ]
-    },
-    {
-      "id": 46,
-      "title": "AnchorMoE: Interpretable Time Series Classification via Anchor-Routed MoE",
-      "url": "https://arxiv.org/abs/2606.03631v1",
-      "source": "arXiv Machine Learning",
-      "author": "Yiu-ming Cheung",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces AnchorMoE, a new model for Multivariate Time Series Classification (MTSC).",
-        "Focuses on improving interpretability in MTSC, crucial for high-stakes applications like clinical diagnosis.",
-        "Addresses the challenge of sparse and noisy discriminative signals in real-world time series data."
-      ]
-    },
-    {
-      "id": 47,
-      "title": "Building Reliable Long-Form Generation via Hallucination Rejection Sampling",
-      "url": "https://arxiv.org/abs/2606.03628v1",
-      "source": "arXiv Machine Learning",
-      "author": "Yarin Gal",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses the critical issue of LLM hallucination, particularly in long-form text generation.",
-        "Introduces a novel inference-time framework called Segment-wise HAllucination Rejection Sampling.",
-        "Aims to prevent 'hallucination snowballing,' where initial errors compound in lengthy outputs."
-      ]
-    },
-    {
-      "id": 48,
-      "title": "Physics-Guided Policy Optimization with Self-Distillation",
-      "url": "https://arxiv.org/abs/2606.03620v1",
-      "source": "arXiv Machine Learning",
-      "author": "Kai Wei",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The paper introduces Physics-Guided Policy Optimization (PGPO) to address instability in Self-Distilled Policy Optimization (SDPO) for LLM post-training.",
-        "SDPO's sensitivity lies in uniformly trusting self-teacher corrections, which can be misleading on certain data batches.",
-        "The proposed method draws inspiration from viscous-fluid dynamics to better regulate the trust and step size of self-distillation updates."
+        "The paper addresses a limitation in classical Reinforcement Learning (RL) where policies tend to be deterministic, which is insufficient for modern tasks requiring diversity (e.g., LLM fine-tuning).",
+        "It proposes using 'Reward Uncertainty' as a novel mechanism to naturally induce diverse behavior in RL agents.",
+        "The proposed method aims to overcome limitations of existing diversity techniques, such as entropy regularization, which often involve fragile performance trade-offs."
       ]
     },
     {
       "id": 49,
-      "title": "A 3D Isovist World Model -- Revealing a City's Unseen Geometry and Its Emergent Cross-City Signature",
-      "url": "https://arxiv.org/abs/2606.03609v1",
-      "source": "arXiv Machine Learning",
-      "author": "Tao Yang",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research addresses a limitation in embodied AI world models, which often predict visual appearance rather than navigable space.",
-        "The proposed '3D Isovist World Model' aims to capture the true, traversable geometry of a city environment.",
-        "This approach moves beyond flattened representations (like occupancy grids) to reveal the full, unseen 3D structure and movement possibilities of a city."
-      ]
-    },
-    {
-      "id": 50,
-      "title": "Exploiting Verification-Generation Gap: Test-Time Reinforcement Learning with Confidence-Conditioned Verification",
-      "url": "https://arxiv.org/abs/2606.03608v1",
-      "source": "arXiv Machine Learning",
-      "author": "See-Kiong Ng",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research addresses the 'Verification-Generation Gap' in large language models using Test-Time Reinforcement Learning.",
-        "It focuses on optimizing Pass@k performance in label-free settings, which is crucial for measuring generation coverage and sustained exploration.",
-        "The work tackles the non-trivial challenge of applying Pass@k advantages in environments lacking explicit labels."
-      ]
-    },
-    {
-      "id": 51,
-      "title": "CauTion: Knowing When to Trust LLMs for Ensemble Causal Discovery",
-      "url": "https://arxiv.org/abs/2606.03602v1",
-      "source": "arXiv Machine Learning",
-      "author": "Chaochao Lu",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses the challenge of causal discovery from observational data, noting limitations of purely statistical methods.",
-        "Proposes using Large Language Models (LLMs) to inject domain knowledge into statistical inference for causal discovery.",
-        "Identifies key weaknesses in current LLM-augmented methods, such as vulnerability to LLM errors and high token costs."
-      ]
-    },
-    {
-      "id": 56,
-      "title": "Safety Measurements for Fine-tuned LLMs Should be Grounded in Capability",
-      "url": "https://arxiv.org/abs/2606.03648v1",
-      "source": "arXiv NLP",
-      "author": "Svetlana Kiritchenko",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Fine-tuning large language models (LLMs) risks compromising their inherent safety features.",
-        "The paper argues that safety evaluation during fine-tuning must be grounded in specific capability goals.",
-        "This approach allows for more meaningful conclusions and consistent comparison of safety mitigation methods."
-      ]
-    },
-    {
-      "id": 57,
-      "title": "Building Reliable Long-Form Generation via Hallucination Rejection Sampling",
-      "url": "https://arxiv.org/abs/2606.03628v1",
-      "source": "arXiv NLP",
-      "author": "Yarin Gal",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses the critical issue of hallucination in Large Language Models (LLMs), particularly during long-form text generation.",
-        "Introduces a novel inference-time framework, 'Segment-wise HAllucination Rejection Sampling,' to mitigate these errors.",
-        "Focuses on preventing 'hallucination snowballing,' where initial errors compound in extended outputs."
-      ]
-    },
-    {
-      "id": 58,
-      "title": "Bridging Auxiliary Constraints to Resolve Instruction Following in Large Reasoning Models",
-      "url": "https://arxiv.org/abs/2606.03624v1",
-      "source": "arXiv NLP",
-      "author": "Xian Wu",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses the Constraint Adherence Problem (CAP) in Large Reasoning Models (LRMs), where models struggle with complex, multi-part instructions.",
-        "Proposes a novel framework that models instructions as a structured knowledge graph of constraints.",
-        "Focuses on improving the reliability of instruction following by explicitly managing and balancing competing constraints."
-      ]
-    },
-    {
-      "id": 59,
-      "title": "Beyond the Literal: Decomposing Pragmatic Intent in Multimodal Meme Understanding",
-      "url": "https://arxiv.org/abs/2606.03604v1",
-      "source": "arXiv NLP",
-      "author": "Yulan He",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Current Large Vision Language Models (LVLMs) struggle to grasp the true intent behind memes or sarcastic posts, often describing only the literal image content.",
-        "The research proposes reframing meme understanding as a 'literal-pragmatic decomposition' problem.",
-        "A new framework called 'Intent Projection' is introduced to effectively separate the literal content from the underlying pragmatic meaning."
-      ]
-    },
-    {
-      "id": 60,
-      "title": "World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning",
-      "url": "https://arxiv.org/abs/2606.03603v1",
-      "source": "arXiv NLP",
-      "author": "Jianbing Shen",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research explores the complementary nature of World Models and Multimodal Large Language Models (MLLMs).",
-        "World Models excel at generating concrete, visual simulations of future outcomes, while MLLMs handle abstract reasoning over goals and rules.",
-        "A key challenge identified is ensuring the visual rollouts generated by World Models are not only plausible but also task-correct, given their stochastic nature."
-      ]
-    },
-    {
-      "id": 61,
-      "title": "CauTion: Knowing When to Trust LLMs for Ensemble Causal Discovery",
-      "url": "https://arxiv.org/abs/2606.03602v1",
-      "source": "arXiv NLP",
-      "author": "Chaochao Lu",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The paper addresses the difficulty of causal discovery from observational data, noting limitations in purely statistical methods.",
-        "It proposes using Large Language Models (LLMs) to inject domain knowledge into causal inference, a promising direction.",
-        "A key challenge identified is the vulnerability of current LLM-augmented methods to LLM errors and high computational costs."
-      ]
-    },
-    {
-      "id": 64,
-      "title": "Can LLM Rerankers Predict Their Own Ranking Performance?",
-      "url": "https://arxiv.org/abs/2606.03535v1",
-      "source": "arXiv NLP",
-      "author": "Xueqi Cheng",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research addresses the need for estimating retrieval ranking quality (Query Performance Prediction or QPP) before human relevance judgments are available.",
-        "The core contribution is investigating 'reranker-internal QPP,' asking if an LLM reranker can predict the quality of its own output ranking.",
-        "The study explores both training-free and training-based methods to achieve this self-assessment capability in LLM rerankers."
-      ]
-    },
-    {
-      "id": 70,
       "title": "AI outperforms law professors in Stanford Law study",
       "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
       "source": "Hacker News",
@@ -653,37 +483,9 @@
       "timestamp": "2026-06-02T23:43:12",
       "ai_score": 7,
       "bullet_points": [
-        "An AI model demonstrated performance exceeding that of law professors in a Stanford Law study.",
-        "The research suggests advanced AI capabilities are beginning to impact complex, nuanced fields like law.",
-        "The study is published by Stanford Law, lending academic credibility to the findings."
-      ]
-    },
-    {
-      "id": 86,
-      "title": "Introducing LlamaStash: a zero-overhead, terminal-native llama.cpp launcher",
-      "url": "https://dev.to/deepu105/introducing-llamastash-a-zero-overhead-terminal-native-llamacpp-launcher-4d2g",
-      "source": "Dev.to",
-      "author": "deepu105",
-      "timestamp": "2026-06-02T12:01:22Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "LlamaStash is a new tool designed to launch and manage local LLMs using llama.cpp.",
-        "It is presented as a single Rust binary offering multiple interfaces: TUI, CLI, and daemon.",
-        "The tool includes an OpenAI-compatible proxy, enhancing compatibility for local LLM usage."
-      ]
-    },
-    {
-      "id": 93,
-      "title": "How fast is LlamaStash? Overhead, throughput, and a fair comparison with Ollama and LM Studio",
-      "url": "https://dev.to/deepu105/how-fast-is-llamastash-overhead-throughput-and-a-fair-comparison-with-ollama-and-lm-studio-2e7c",
-      "source": "Dev.to",
-      "author": "deepu105",
-      "timestamp": "2026-06-02T11:34:05Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "The article provides a reproducible performance benchmark of LlamaStash.",
-        "It compares LlamaStash against established tools like Ollama, LM Studio, and raw llama-server.",
-        "Testing was conducted across diverse hardware platforms, including AMD APU, Apple Silicon, and NVIDIA."
+        "AI systems demonstrated performance surpassing human law professors in a Stanford Law study.",
+        "The research suggests advanced AI capabilities are encroaching on traditionally human, knowledge-intensive fields like law.",
+        "The study, linked from Stanford Law, provides empirical data on AI's proficiency in legal reasoning or analysis."
       ]
     }
   ]
