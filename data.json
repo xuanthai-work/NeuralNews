@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-06-03T10:27:34.233764",
-  "total_stories": 34,
+  "generated_at": "2026-06-03T16:09:18.991923",
+  "total_stories": 41,
   "sources": [
+    "Hacker News",
+    "Lobsters",
+    "Ars Technica",
+    "Ollama",
+    "arXiv AI",
+    "The Verge",
     "Dev.to",
     "Hugging Face Benchmarks",
-    "Lobsters",
-    "arXiv AI",
-    "Hacker News",
-    "Ollama",
-    "The Verge",
-    "Ars Technica"
+    "arXiv NLP"
   ],
   "stories": [
     {
@@ -21,9 +22,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It is categorized under key AI/ML domains, including transformers and text-generation.",
-        "The mention of 'llama' and 'Meta' indicates relevance to major large language model developments."
+        "The story highlights the Meta-Llama-3-8B model, a significant LLM from Meta.",
+        "It is featured on Hugging Face Benchmarks, indicating its current popularity and performance tracking.",
+        "The associated tags (transformers, llama, text-generation) confirm its relevance to the core NLP/AI community."
       ]
     },
     {
@@ -35,13 +36,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It is categorized under text-generation, indicating its primary function as a generative AI model.",
-        "The associated tags (transformers, safetensors) point to its implementation within the standard ML ecosystem."
+        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
+        "It relates to core NLP/ML components, specifically text-generation pipelines and transformer architectures.",
+        "The mention of Llama indicates relevance to the highly competitive and significant LLM ecosystem."
       ]
     },
     {
-      "id": 16,
+      "id": 24,
       "title": "Google must let publishers opt out of AI Search features, rules UK",
       "url": "https://www.theverge.com/tech/942302/google-search-ai-overviews-uk-cma-publisher-opt-out",
       "source": "The Verge",
@@ -50,22 +51,22 @@
       "ai_score": 9,
       "bullet_points": [
         "UK regulator (CMA) has mandated that Google must allow publishers to opt out of its AI Search features.",
-        "This ruling directly impacts how content from online publishers is used in features like AI Overviews.",
-        "The decision represents a significant regulatory shift, giving content owners more control over AI consumption of their material."
+        "This ruling directly impacts how content from online publishers is used in Google's AI Overviews and similar AI Search functionalities.",
+        "The decision represents a significant regulatory shift, giving content owners more control over their data usage in generative AI."
       ]
     },
     {
-      "id": 24,
-      "title": "Microsoft’s next-gen quantum chip cuts timeline to useful quantum computing",
-      "url": "https://www.theverge.com/news/940874/microsoft-majorana-2-quantum-chip-build",
-      "source": "The Verge",
-      "author": "Tom Warren",
+      "id": 29,
+      "title": "Microsoft's Project Solara is an Android OS designed for agents instead of apps",
+      "url": "https://arstechnica.com/gadgets/2026/06/microsofts-project-solara-is-an-android-os-designed-for-agents-instead-of-apps/",
+      "source": "Ars Technica",
+      "author": "Ryan Whitwam",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Microsoft is advancing its quantum computing efforts with the announcement of Majorana 2.",
-        "Majorana 2 is the next-generation topological quantum chip, succeeding the initial Majorana 1 processor.",
-        "The development aims to significantly cut the timeline toward achieving useful quantum computing capabilities."
+        "Microsoft is developing Project Solara, a new Android OS.",
+        "The OS is fundamentally designed around AI 'agents' rather than traditional applications.",
+        "This signals a potential industry shift away from app-centric mobile experiences toward agent-driven interaction."
       ]
     },
     {
@@ -77,13 +78,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Introduction of Humanoid-GPT, a GPT-style Transformer designed for whole-body motion tracking in humanoids.",
-        "The model is trained on a massive, unified 2B-frame motion corpus, addressing limitations of prior shallow trackers.",
+        "Introduction of Humanoid-GPT, a GPT-style Transformer designed for whole-body control in humanoid robotics.",
+        "The model is trained on a massive, unified 2B-frame motion corpus, overcoming limitations of prior shallow tracking methods.",
         "Scaling data and model capacity allows Humanoid-GPT to track highly dynamic behaviors with improved generalization."
       ]
     },
     {
-      "id": 46,
+      "id": 61,
       "title": "1-Click GitHub Token Stealing via a VSCode Bug",
       "url": "https://blog.ammaraskar.com/github-token-stealing/",
       "source": "Hacker News",
@@ -91,13 +92,13 @@
       "timestamp": "2026-06-02T15:29:05",
       "ai_score": 9,
       "bullet_points": [
-        "A critical security vulnerability was discovered in VSCode.",
-        "The bug allows for the theft of GitHub tokens with a single click.",
-        "This represents a significant security risk impacting developers using VSCode and GitHub."
+        "A critical vulnerability exists in VSCode allowing for token theft.",
+        "The exploit enables attackers to steal GitHub tokens with a single click.",
+        "This represents a significant security risk to developers using VSCode and GitHub."
       ]
     },
     {
-      "id": 56,
+      "id": 67,
       "title": "Full Disclosure: 1-Click GitHub Token Stealing via a VSCode Bug",
       "url": "https://blog.ammaraskar.com/github-token-stealing/",
       "source": "Lobsters",
@@ -105,9 +106,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "A critical vulnerability exists in VSCode that allows for one-click GitHub token stealing.",
-        "The exploit targets GitHub tokens, representing a high-severity security risk for developers.",
-        "The disclosure highlights the importance of security auditing in popular developer tools like VSCode."
+        "A critical vulnerability exists in VSCode that allows for the theft of GitHub tokens.",
+        "The exploit is described as a '1-Click' attack, indicating high ease of exploitation.",
+        "This represents a significant security risk targeting developers using VSCode and GitHub."
       ]
     },
     {
@@ -121,7 +122,7 @@
       "bullet_points": [
         "The news highlights a specific model, deepseek-ai/DeepSeek-R1, trending on Hugging Face.",
         "The model is categorized for text-generation and conversational AI tasks.",
-        "It is associated with key ML technologies like transformers and safetensors."
+        "It utilizes standard ML components like transformers and safetensors."
       ]
     },
     {
@@ -134,8 +135,8 @@
       "ai_score": 8,
       "bullet_points": [
         "The news highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It relates to core NLP/ML technologies, specifically text-generation pipelines.",
-        "Associated tags indicate the use of standard ML frameworks like transformers and PyTorch."
+        "It is categorized under key ML/NLP tags like 'transformers' and 'pytorch'.",
+        "The context suggests tracking the performance and trends of large language models."
       ]
     },
     {
@@ -147,8 +148,8 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, has integrated MLX for performance optimization.",
-        "This update specifically targets Apple Silicon hardware, leveraging Apple's native ML framework.",
+        "Ollama, a popular local LLM runner, is integrating MLX for enhanced performance.",
+        "This integration specifically targets Apple Silicon hardware, optimizing AI workloads for Apple devices.",
         "The feature is currently available in a preview state, indicating ongoing development and optimization."
       ]
     },
@@ -161,9 +162,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It connects users to local AI coding agents.",
-        "A key feature is that all AI processing runs entirely on the user's local device, emphasizing privacy."
+        "OpenClaw is a personal AI assistant designed to integrate with messaging apps.",
+        "It utilizes local AI coding agents, ensuring all processing runs on the user's own device.",
+        "The core value proposition is bringing powerful, private AI capabilities to everyday communication tools."
       ]
     },
     {
@@ -189,41 +190,27 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama is integrating OpenAI's gpt-oss-safeguard reasoning models for safety classification.",
-        "The models, available in 20B and 120B sizes, are being brought to users through a partnership with ROOST.",
-        "The models are openly available under the permissive Apache 2.0 license, promoting open-source safety tooling."
+        "Ollama is collaborating with OpenAI and ROOST to integrate gpt-oss-safeguard reasoning models.",
+        "These models are designed for safety classification tasks and are available in 20B and 120B sizes.",
+        "The models are released under the permissive Apache 2.0 license, promoting open usage."
       ]
     },
     {
-      "id": 23,
-      "title": "Trump signs executive order to review AI models before they’re released",
-      "url": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
+      "id": 15,
+      "title": "Amazon&#8217;s search bar will invent AI-generated products you can&#8217;t buy",
+      "url": "https://www.theverge.com/tech/942547/amazon-search-bar-ai-images",
       "source": "The Verge",
-      "author": "Lauren Feiner",
+      "author": "Emma Roth",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "President Trump issued an executive order mandating a 'voluntary framework' for AI companies.",
-        "The framework requires companies to share frontier AI models with the federal government pre-release.",
-        "The stated goals are to promote secure innovation and bolster cybersecurity for critical infrastructure."
+        "Amazon is integrating AI into its search bar to generate visual representations of requested products.",
+        "The initial rollout is limited to AI-generated images for clothing and home goods.",
+        "Users can use these AI images as a visual prompt to search for actual, purchasable items."
       ]
     },
     {
-      "id": 27,
-      "title": "Microsoft's Project Solara is an Android OS designed for agents instead of apps",
-      "url": "https://arstechnica.com/gadgets/2026/06/microsofts-project-solara-is-an-android-os-designed-for-agents-instead-of-apps/",
-      "source": "Ars Technica",
-      "author": "Ryan Whitwam",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Microsoft is developing Project Solara, a new Android OS.",
-        "The OS is specifically designed to support AI agents rather than traditional mobile applications.",
-        "This signals a potential industry shift toward agent-centric computing over app-centric models."
-      ]
-    },
-    {
-      "id": 28,
+      "id": 30,
       "title": "Amazon-owned Ring should pay Americans for scanning their faces, lawsuit says",
       "url": "https://arstechnica.com/tech-policy/2026/06/amazon-owned-ring-should-pay-americans-for-scanning-their-faces-lawsuit-says/",
       "source": "Ars Technica",
@@ -233,11 +220,11 @@
       "bullet_points": [
         "Ring cameras, owned by Amazon, are reportedly using AI to scan and identify faces of guests and passersby.",
         "A lawsuit alleges that Ring is collecting biometric data from Americans without proper compensation or consent.",
-        "The story highlights growing legal and ethical concerns regarding the deployment of facial recognition technology in consumer smart home devices."
+        "The story highlights significant privacy and surveillance concerns surrounding consumer-grade smart home technology."
       ]
     },
     {
-      "id": 32,
+      "id": 34,
       "title": "Android phones will soon be able to detect spoofed calls and impersonation scams",
       "url": "https://arstechnica.com/gadgets/2026/06/google-announces-deepfake-call-detection-for-android-new-airdrop-device-support/",
       "source": "Ars Technica",
@@ -245,9 +232,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Android phones are receiving new features to detect spoofed calls and impersonation scams.",
-        "The update leverages Google's AI capabilities for enhanced security.",
-        "The June Android feature drop also includes updates to AirDrop and other features."
+        "Google is integrating enhanced scam detection into the Android operating system.",
+        "The new feature specifically targets the detection of spoofed calls and impersonation scams.",
+        "This update is part of a broader Android feature drop that also includes more AirDrop and AI enhancements."
       ]
     },
     {
@@ -259,9 +246,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses a key limitation in current LLMs: the inability to continually learn and transfer temporal in-context knowledge to long-term parameters.",
-        "Proposes a novel approach inspired by human learning, suggesting LLMs require a mechanism analogous to 'sleep' for memory consolidation.",
-        "Focuses on enabling self-modification capabilities within Large Language Models to improve long-term learning."
+        "Addresses a key limitation of current LLMs: the inability to continually learn and transfer temporal in-context knowledge to long-term parameters.",
+        "Proposes a novel approach, inspired by human learning, to enable LLMs to 'self-modify and consolidate memories,' akin to sleep.",
+        "Represents research pushing beyond current instant prediction capabilities toward more robust, lifelong learning systems in AI."
       ]
     },
     {
@@ -274,22 +261,22 @@
       "ai_score": 8,
       "bullet_points": [
         "Introduces Agentic Chain-of-Thought Steering (ACTS) to improve LLM reasoning efficiency and controllability.",
-        "Addresses the inefficiency and lack of inference-time control in standard extended chain-of-thought methods.",
+        "Addresses the inefficiency and lack of inference-time control in standard extended chain-of-thought reasoning.",
         "Frames reasoning steering as a Markov decision process managed by a controller agent."
       ]
     },
     {
-      "id": 50,
-      "title": "MAI-Code-1-Flash",
-      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
-      "source": "Hacker News",
-      "author": "EvanZhouDev",
-      "timestamp": "2026-06-02T18:47:07",
+      "id": 51,
+      "title": "Agentic Chain-of-Thought Steering for Efficient and Controllable LLM Reasoning",
+      "url": "https://arxiv.org/abs/2606.03965v1",
+      "source": "arXiv NLP",
+      "author": "Julian McAuley",
+      "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Microsoft is launching seven new MAI models, including MAI-Code-1-Flash.",
-        "The announcement points to advancements in AI models, with specific documentation available.",
-        "This represents a significant update in Microsoft's AI model offerings."
+        "Introduces Agentic Chain-of-Thought Steering (ACTS) to improve LLM reasoning efficiency and controllability.",
+        "Addresses the inefficiency and lack of inference-time control in standard extended chain-of-thought methods.",
+        "Formulates reasoning steering as a Markov decision process managed by a controller agent."
       ]
     },
     {
@@ -301,9 +288,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "OpenJarvis v1.0 is released as an open-source framework for personal AI agents.",
-        "The key feature is its local-first design, allowing AI to run on user hardware.",
-        "It features built-in support for Ollama, facilitating local LLM execution."
+        "OpenJarvis v1.0 is released, offering an open-source framework for personal AI agents.",
+        "The framework emphasizes local-first operation, allowing AI to run entirely on user hardware.",
+        "It features built-in support for Ollama, integrating local LLM execution."
       ]
     },
     {
@@ -315,9 +302,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama now supports the Anthropic Messages API.",
+        "Ollama has expanded its capabilities to support the Anthropic Messages API.",
         "This integration allows users to leverage models like Claude Code within the Ollama ecosystem.",
-        "It bridges the gap between open-source local models and proprietary API services."
+        "The feature promotes the use of powerful proprietary models alongside open-source alternatives."
       ]
     },
     {
@@ -330,12 +317,40 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama enables the use of OpenAI's Codex CLI with open-source models.",
-        "Codex, when integrated, can read, modify, and execute code within a user's directory.",
+        "Codex functionality allows models to read, modify, and execute code locally.",
         "The integration supports various open-weight alternatives like gpt-oss:20b and gpt-oss:120b."
       ]
     },
     {
-      "id": 15,
+      "id": 16,
+      "title": "PlayStation is getting back to what it’s good at",
+      "url": "https://www.theverge.com/games/942520/playstation-wolverine-god-of-war-laufey-state-of-play-june-2026",
+      "source": "The Verge",
+      "author": "Jay Peters",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "PlayStation is shifting its development focus away from live-service games.",
+        "The company is prioritizing premium, narrative-driven, single-player experiences.",
+        "This strategic pivot was highlighted during the recent State of Play showcase."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Microsoft and OpenAI broke up — now they’re ready to fight",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+      "source": "The Verge",
+      "author": "Tom Warren",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Microsoft showcased significant new AI initiatives at its Build conference.",
+        "Announcements included a super app, in-house reasoning models, and new cybersecurity tools.",
+        "The news signals Microsoft's aggressive positioning as a major competitor in the AI landscape."
+      ]
+    },
+    {
+      "id": 23,
       "title": "AI has a water problem. Google thinks it has a fix",
       "url": "https://www.theverge.com/policy/942296/google-water-commitments-data-centers",
       "source": "The Verge",
@@ -343,27 +358,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Google is addressing environmental concerns regarding AI data center expansion.",
-        "The company is focusing on minimizing water usage impact by increasing water availability for local communities.",
-        "Google has published five commitments detailing its new water use strategy."
+        "Google is addressing environmental backlash regarding AI data center water usage.",
+        "The company is committing to increasing water availability for local communities.",
+        "Google outlined five commitments in a new blog post aimed at minimizing water impact."
       ]
     },
     {
-      "id": 21,
-      "title": "I held the next-gen handheld",
-      "url": "https://www.theverge.com/games/941360/intel-arc-g3-extreme-msi-claw-next-gen-handheld-preview",
-      "source": "The Verge",
-      "author": "Sean Hollister",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Intel is facing significant industry headwinds, including layoffs and competitive losses to AMD and Apple/Qualcomm.",
-        "The Panther Lake laptop chip, manufactured on the 18A process, demonstrated excellent performance.",
-        "The article highlights the positive reception of a next-generation handheld device utilizing this new Intel chip."
-      ]
-    },
-    {
-      "id": 26,
+      "id": 28,
       "title": "Microsoft plans Linux tools and an RTX Spark desktop for Windows developers",
       "url": "https://arstechnica.com/gadgets/2026/06/microsoft-plans-linux-tools-and-an-rtx-spark-desktop-for-windows-developers/",
       "source": "Ars Technica",
@@ -371,13 +372,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Microsoft is expanding Linux support for Windows developers with new tools.",
-        "The announcement includes plans for a specialized 'RTX Spark' desktop aimed at developers.",
-        "The news highlights several software advancements presented at Microsoft Build."
+        "Microsoft is expanding its support for Linux tools within its ecosystem.",
+        "The company announced the RTX Spark desktop, targeting Windows developers.",
+        "The news highlights Microsoft's ongoing efforts to bridge the gap between Windows and Linux development environments."
       ]
     },
     {
-      "id": 31,
+      "id": 33,
       "title": "Mathematicians warn of AI threats to profession as industry encroaches",
       "url": "https://arstechnica.com/tech-policy/2026/06/mathematicians-warn-of-ai-threats-to-profession-as-industry-encroaches/",
       "source": "Ars Technica",
@@ -385,9 +386,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Mathematicians have issued warnings regarding the growing influence of the tech industry on their profession.",
-        "The International Mathematical Union (IMU) has formally endorsed these concerns.",
-        "The core issue revolves around the encroachment of industry practices and AI into mathematical domains."
+        "Mathematicians have issued warnings regarding the increasing influence of the tech industry on the field of mathematics.",
+        "The International Mathematical Union (IMU) has formally endorsed these concerns about industry encroachment.",
+        "The article discusses potential threats to the mathematical profession stemming from rapid technological advancements and industry demands."
       ]
     },
     {
@@ -399,9 +400,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses a key limitation in Vision Language Models (VLMs): poor spatial reasoning when information is not directly visible.",
-        "The core contribution is the introduction of Imaginative Perception Tokens (IPT), which serve as intermediate perceptual representations.",
-        "IPTs aim to enable VLMs to perform 'imaginative perception,' such as inferring unseen viewpoints or tracing occluded paths."
+        "The research addresses a known limitation in Vision Language Models (VLMs): poor spatial reasoning when information is not directly observable.",
+        "The core contribution is the introduction of 'Imaginative Perception Tokens' (IPT), which act as intermediate perceptual representations.",
+        "IPTs help VLMs perform complex spatial tasks, such as inferring unseen viewpoints or tracing paths through occluded areas."
       ]
     },
     {
@@ -413,9 +414,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the critical issue of 'faithful calibration' (FC) in Large Reasoning Models (LRMs).",
+        "The paper addresses the critical issue of Faithful Confidence (FC) in Large Reasoning Models (LRMs).",
         "FC refers to the alignment between a model's actual uncertainty and the confidence it linguistically expresses.",
-        "Reliable uncertainty communication is vital for building trust in LLMs, especially given how users interpret LRM reasoning traces."
+        "Accurate uncertainty communication is vital for building user trust in complex LLMs."
       ]
     },
     {
@@ -427,9 +428,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces QUBRIC, a framework designed to advance Reinforcement Learning (RL) beyond reliance on strictly verifiable rewards.",
-        "Addresses a key limitation in existing rubric-based RL methods: the assumption of a fixed query distribution.",
-        "Proposes co-designing queries and rubrics to overcome the bottleneck where query structure constrains rubric quality."
+        "Introduces QUBRIC, a new framework for Rubric-based Reinforcement Learning (RL).",
+        "Addresses a key limitation where existing methods fix the query distribution while optimizing rubrics.",
+        "Proposes co-designing queries and rubrics to overcome the issue of vague or unverifiable rewards in open-ended RL tasks."
       ]
     },
     {
@@ -441,9 +442,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces AlignAtt4LLM, a new system for simultaneous speech translation (English to German, Italian, Chinese) designed for IWSLT 2026.",
-        "It utilizes a synchronous cascade architecture, combining Qwen3-ASR for incremental transcription and Gemma-4 E4B-it for translation.",
-        "A key novelty is its first application of AlignAtt to a decoder-only LLM, adapting the technique without traditional encoder-decoder cross-attention."
+        "Introduces AlignAtt4LLM, a new system for simultaneous speech translation (English to German, Italian, Chinese) targeting the IWSLT 2026 task.",
+        "The system utilizes a synchronous cascade, combining Qwen3-ASR for incremental transcript generation and Gemma-4 E4B-it for translation.",
+        "It marks a novel application of AlignAtt to decoder-only LLMs, adapting the technique to environments lacking traditional encoder-decoder cross-attention."
       ]
     },
     {
@@ -456,7 +457,7 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces AgenticRL, a framework designed to enhance autonomy in reinforcement learning for robotics.",
-        "Addresses the limitations of traditional RL, specifically the heavy reliance on manual reward function design and fine-tuning.",
+        "Addresses a key limitation in current deep RL: heavy reliance on manually designed and tuned reward functions.",
         "Focuses on applying this self-refining approach to complex tasks like vision-conditioned navigation for UAVs (drones)."
       ]
     },
@@ -469,23 +470,121 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses a limitation in classical Reinforcement Learning (RL) where policies tend to be deterministic, which is insufficient for modern tasks requiring diversity (e.g., LLM fine-tuning).",
+        "The paper addresses a limitation in classical Reinforcement Learning (RL), which typically favors deterministic policies.",
         "It proposes using 'Reward Uncertainty' as a novel mechanism to naturally induce diverse behavior in RL agents.",
-        "The proposed method aims to overcome limitations of existing diversity techniques, such as entropy regularization, which often involve fragile performance trade-offs."
+        "This approach aims to overcome limitations of existing diversity methods (like entropy regularization) that often involve fragile trade-offs."
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Neuron Populations Exhibit Divergent Selectivity with Scale",
+      "url": "https://arxiv.org/abs/2606.03990v1",
+      "source": "arXiv NLP",
+      "author": "Yossi Gandelsman",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research investigates how neuron population selectivity changes as neural network scale increases, moving beyond traditional loss metrics.",
+        "The study utilizes 'Rosetta Neurons,' a specific, consistently behaving class of neurons across different models.",
+        "Observations were made in both large language models (up to 30B parameters) and vision models (up to 5B parameters)."
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Skill-RM: Unifying Heterogeneous Evaluation Criteria via Agent Skill",
+      "url": "https://arxiv.org/abs/2606.03980v1",
+      "source": "arXiv NLP",
+      "author": "Guanjun Jiang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper addresses the challenge of integrating diverse evaluation criteria (rule-based, ground-truth, rubrics) used in LLM reward modeling.",
+        "It introduces Skill Reward Model (Skill-RM), a unified framework designed to consolidate heterogeneous feedback signals for LLM post-training.",
+        "This work is relevant to Reinforcement Learning from Human Feedback (RLHF) and advanced LLM fine-tuning pipelines."
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Quantifying Faithful Confidence Expression in Large Reasoning Models",
+      "url": "https://arxiv.org/abs/2606.03969v1",
+      "source": "arXiv NLP",
+      "author": "Arman Cohan",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research addresses the critical issue of 'faithful calibration' (FC) in Large Reasoning Models (LRMs).",
+        "FC refers to the alignment between a model's actual uncertainty and the confidence it linguistically expresses.",
+        "This topic is vital for LLM trustworthiness, as users often interpret reasoning traces as evidence of competence and confidence."
       ]
     },
     {
       "id": 49,
-      "title": "AI outperforms law professors in Stanford Law study",
-      "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
-      "source": "Hacker News",
-      "author": "berlianta",
-      "timestamp": "2026-06-02T23:43:12",
+      "title": "QUBRIC: Co-Designing Queries and Rubrics for RL Beyond Verifiable Rewards",
+      "url": "https://arxiv.org/abs/2606.03968v1",
+      "source": "arXiv NLP",
+      "author": "Chao Zhang",
+      "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "AI systems demonstrated performance surpassing human law professors in a Stanford Law study.",
-        "The research suggests advanced AI capabilities are encroaching on traditionally human, knowledge-intensive fields like law.",
-        "The study, linked from Stanford Law, provides empirical data on AI's proficiency in legal reasoning or analysis."
+        "Introduces QUBRIC, a framework addressing limitations in rubric-based Reinforcement Learning (RL).",
+        "Identifies a key bottleneck: rubric quality is constrained by the structure of the input queries.",
+        "Proposes co-designing queries and rubrics to move RL beyond reliance on strictly verifiable rewards."
+      ]
+    },
+    {
+      "id": 50,
+      "title": "AlignAtt4LLM: Fast AlignAtt for Decoder-Only LLMs at IWSLT 2026 Simultaneous Speech Translation Task",
+      "url": "https://arxiv.org/abs/2606.03967v1",
+      "source": "arXiv NLP",
+      "author": "Dominik Macháček",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces AlignAtt4LLM, a new system for simultaneous speech translation (English to German, Italian, Chinese) for the IWSLT 2026 task.",
+        "The system uses a synchronous cascade involving Qwen3-ASR for transcript generation and Gemma-4 E4B-it for translation.",
+        "It marks a notable application of AlignAtt to decoder-only LLMs, adapting the technique without traditional encoder-decoder cross-attention."
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Efficient ASR Training with Conversations that Never Happened",
+      "url": "https://arxiv.org/abs/2606.03957v1",
+      "source": "arXiv NLP",
+      "author": "Péter Mihajlik",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the data scarcity problem in Conversational Automatic Speech Recognition (ASR) for low-resource languages and niche domains.",
+        "Proposes an augmentation pipeline that synthesizes realistic, scenario-level dialogues using LLMs and TTS.",
+        "Evaluates different LLM families under various training budget and scaling strategies using the FastConformer-L model."
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Value-Aware Stochastic KV Cache Eviction for Reasoning Models",
+      "url": "https://arxiv.org/abs/2606.03928v1",
+      "source": "arXiv NLP",
+      "author": "Robin Jia",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper addresses the memory and compute bottleneck in large reasoning models caused by long outputs.",
+        "It proposes a 'Value-Aware Stochastic KV Cache Eviction' method to manage the KV cache efficiently.",
+        "The research identifies that abnormally large magnitudes in a small fraction of value states are crucial factors for accurate eviction."
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Run AI Coding Agents Safely with Docker Sandboxes",
+      "url": "https://dev.to/pradumnasaraf/run-ai-coding-agents-safely-with-docker-sandboxes-81g",
+      "source": "Dev.to",
+      "author": "pradumnasaraf",
+      "timestamp": "2026-06-03T13:15:02Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The article addresses the security risks associated with running AI coding agents.",
+        "It proposes using Docker sandboxes as a method to safely execute these agents.",
+        "The core problem involves agents potentially running commands or downloading files from untrusted sources."
       ]
     }
   ]
