@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-15T16:48:00.717342",
-  "total_stories": 36,
+  "generated_at": "2026-06-15T20:42:19.344403",
+  "total_stories": 43,
   "sources": [
     "Ars Technica",
+    "arXiv AI",
     "Lobsters",
     "Ollama",
     "Hugging Face Benchmarks",
     "Dev.to",
-    "arXiv AI",
     "arXiv Machine Learning",
-    "arXiv NLP",
     "The Verge",
-    "Hacker News"
+    "Hacker News",
+    "arXiv NLP"
   ],
   "stories": [
     {
@@ -23,9 +23,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It pertains to the core field of large language models (LLMs) and text generation.",
-        "Key technologies mentioned include transformers and safetensors, indicating a focus on model deployment and architecture."
+        "The story highlights the Meta-Llama-3-8B model, a significant release in the LLM space.",
+        "It is presented via Hugging Face Benchmarks, indicating its community relevance and performance tracking.",
+        "The associated tags confirm its relevance to transformer architectures and text generation tasks."
       ]
     },
     {
@@ -37,37 +37,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It pertains to the text-generation pipeline, indicating its use in generative AI tasks.",
-        "The model is categorized under key AI/ML tags including 'llama', 'transformers', and 'safetensors'."
-      ]
-    },
-    {
-      "id": 30,
-      "title": "Anthropic shuts down Fable, Mythos models following Trump admin directive",
-      "url": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/",
-      "source": "Ars Technica",
-      "author": "Kyle Orland",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Anthropic has ceased operation of its Fable and Mythos models.",
-        "The shutdown was reportedly due to a directive from the Trump administration's Commerce Department.",
-        "Concerns cited by the Commerce Department involve the potential for a Fable 5 'jailbreak' to pose a national security risk."
-      ]
-    },
-    {
-      "id": 32,
-      "title": "PeopleSoft 0-day affecting hundreds of organizations steals gigabytes of data",
-      "url": "https://arstechnica.com/security/2026/06/peoplesoft-0-day-affecting-hundreds-of-organizations-steals-gigabytes-of-data/",
-      "source": "Ars Technica",
-      "author": "Dan Goodin",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "A critical 0-day vulnerability exists in PeopleSoft software, which is owned by Oracle.",
-        "The exploit allows attackers to steal gigabytes of sensitive data from affected organizations.",
-        "The vulnerability is described as being among the most critical in the software landscape."
+        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It pertains to the text-generation pipeline, indicating its application in large language model tasks.",
+        "The tags confirm its relevance within the broader AI/ML ecosystem (transformers, llama)."
       ]
     },
     {
@@ -79,9 +51,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the 'deepseek-ai/DeepSeek-R1' model on Hugging Face Benchmarks.",
-        "The model is categorized for text generation tasks, indicating its primary function in NLP applications.",
-        "It is associated with key ML technologies like transformers and safetensors, placing it within the current LLM ecosystem."
+        "The story highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
+        "It is categorized under text-generation and conversational AI pipelines.",
+        "The model utilizes transformers and safetensors, indicating modern LLM architecture."
       ]
     },
     {
@@ -94,7 +66,7 @@
       "ai_score": 8,
       "bullet_points": [
         "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It is categorized under key ML/AI tags like 'transformers' and 'pytorch'.",
+        "It is categorized under core NLP/ML technologies like 'transformers' and 'pytorch'.",
         "The pipeline demonstrated is 'text-generation', indicating a focus on generative AI capabilities."
       ]
     },
@@ -107,23 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, has integrated MLX for enhanced performance.",
-        "This integration specifically targets Apple Silicon, optimizing AI workloads on Apple hardware.",
-        "The feature is currently available in preview, signaling a push for optimized local AI experiences."
-      ]
-    },
-    {
-      "id": 12,
-      "title": "OpenClaw",
-      "url": "https://ollama.com/blog/openclaw",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "OpenClaw is a personal AI assistant designed for local execution.",
-        "It integrates messaging apps with local AI coding agents.",
-        "The key feature is running all AI processes entirely on the user's own device for privacy/control."
+        "Ollama, a popular local LLM runner, is integrating MLX for performance gains.",
+        "This update specifically targets Apple Silicon, optimizing AI workloads for Apple hardware.",
+        "The feature is currently available in a preview build, indicating ongoing development."
       ]
     },
     {
@@ -135,23 +93,79 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama introduces a new command for easily setting up and running coding tools.",
-        "It supports various models like Claude Code, OpenCode, and Codex, running locally or in the cloud.",
-        "A key feature is its simplicity, requiring no environment variables or configuration files."
+        "Ollama introduces a new command to streamline the setup and execution of coding tools.",
+        "It supports running various coding models (Claude Code, OpenCode, Codex) using both local and cloud infrastructure.",
+        "A key feature is its simplicity, requiring no environment variables or configuration files for operation."
       ]
     },
     {
-      "id": 21,
-      "title": "Fox is buying Roku",
-      "url": "https://www.theverge.com/business/949727/fox-roku-acquisition-22-billion",
+      "id": 15,
+      "title": "Fox wants to take over your TV — and the tech inside it",
+      "url": "https://www.theverge.com/streaming/950116/fox-roku-takeover",
       "source": "The Verge",
-      "author": "Dominic Preston",
+      "author": "Emma Roth",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Fox is acquiring Roku in a $22 billion deal, signaling a major industry consolidation in streaming.",
-        "The merger will integrate Fox's TV networks and Tubi streamer with Roku's platform.",
-        "Fox content will receive increased promotion across Roku streamers and smart TVs post-acquisition."
+        "Fox is acquiring Roku, a major streaming platform and TV interface provider.",
+        "The deal is valued at $22 billion and impacts over 100 million global homes.",
+        "The acquisition represents a significant shift in the TV/streaming ecosystem, consolidating media control."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "All the news about Anthropic&#8217;s new AI fight with the White House",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
+      "source": "The Verge",
+      "author": "Richard Lawler",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Anthropic is facing regulatory scrutiny from the US government, specifically the White House.",
+        "The government issued an order restricting foreign access to Anthropic's new AI models, Fable 5 and Mythos 5.",
+        "This dispute adds to existing tensions between Anthropic and the Pentagon regarding AI deployment."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Trump’s Anthropic shutdown just made the case for non-American AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
+      "source": "The Verge",
+      "author": "Robert Hart",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Anthropic, an American AI company, temporarily shut down its newest and most powerful models.",
+        "The shutdown occurred following a demand from the White House to restrict access for all foreign nationals.",
+        "The incident highlights growing geopolitical tensions and concerns over US dominance in frontier AI technology."
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Chipmaker Nvidia seeks to raise over $25B in first bond deal since 2021",
+      "url": "https://arstechnica.com/ai/2026/06/chipmaker-nvidia-seeks-to-raise-over-25b-in-first-bond-deal-since-2021/",
+      "source": "Ars Technica",
+      "author": "Michelle Chan and Tim Bradshaw, Financial Times",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Nvidia, a key player in the AI sector, is planning a major debt issuance exceeding $25 billion.",
+        "The bond deal is significant as it is the first such transaction by Nvidia since 2021.",
+        "The move tests investor appetite for continued high exposure to the rapidly growing, yet heavily indebted, AI industry."
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Fox’s $22B Roku acquisition aims to expand its reach into smart TVs, advertising",
+      "url": "https://arstechnica.com/gadgets/2026/06/foxs-22b-roku-acquisition-aims-to-expand-its-reach-into-smart-tvs-advertising/",
+      "source": "Ars Technica",
+      "author": "Scharon Harding",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Fox is planning a major acquisition of Roku valued at $22 billion.",
+        "The acquisition aims to significantly expand Fox's presence in the smart TV and streaming market.",
+        "Fox intends to gain control over Roku's streaming hardware, operating system, and FAST services."
       ]
     },
     {
@@ -164,8 +178,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Introduces ClinHallu, a new benchmark specifically designed to diagnose stage-wise hallucinations in medical Multimodal Large Language Models (MLLMs).",
-        "Addresses a critical gap in current medical hallucination benchmarks by focusing on the *source* of errors, rather than just data collection.",
-        "Identifies varied hallucination origins, including visual misrecognition, incorrect medical knowledge recall, and flawed reasoning integration."
+        "Addresses a critical gap in current medical hallucination benchmarks by focusing on the *source* of the error (e.g., visual misrecognition, knowledge recall, reasoning integration) rather than just data collection.",
+        "Highlights the importance of building trustworthy MLLMs for reliable clinical decision support, signaling a major focus area in applied AI."
       ]
     },
     {
@@ -177,9 +191,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The paper investigates the reliability of self-improving Visual-Language Models (VLMs) that use a 'verifier' to guide self-improvement via DPO.",
-        "It challenges the common deployment assumption that a stronger verifier will always lead to a stronger student model.",
-        "The research demonstrates that verifier quality is highly task-specific, leading to potential performance regressions when the verifier is mismatched to the task."
+        "The paper investigates a common self-improvement technique for Visual-Language Models (VLMs) using verifier-driven self-DPO.",
+        "It challenges the deployment-time assumption that a stronger verifier will always lead to a stronger student model.",
+        "The research demonstrates that verifier quality is highly task-specific, leading to potential performance regressions when using these self-improvement loops."
       ]
     },
     {
@@ -191,23 +205,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces ClinHallu, a new benchmark designed to diagnose stage-wise hallucinations in medical Multimodal Large Language Models (MLLMs).",
-        "Addresses a critical gap in existing benchmarks by focusing on the *source* of hallucinations (e.g., visual misrecognition, knowledge recall, reasoning flaws) rather than just data collection.",
-        "Aims to enhance the trustworthiness and reliability of MLLMs for critical applications like clinical decision support."
+        "Introduces ClinHallu, a new benchmark designed to diagnose stage-wise hallucinations in Medical Multimodal Large Language Models (MLLMs).",
+        "Addresses a critical gap in current benchmarks by pinpointing the *source* of hallucinations (e.g., visual misrecognition, knowledge recall errors, flawed reasoning integration).",
+        "Highlights the importance of building trustworthy MLLMs for reliable clinical decision support in healthcare AI."
       ]
     },
     {
-      "id": 71,
-      "title": "Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
-      "url": "https://v1c.rocks/log/exploiting-slack-video/",
+      "id": 66,
+      "title": "A backdoor in a LinkedIn job offer",
+      "url": "https://roman.pt/posts/linkedin-backdoor/",
       "source": "Hacker News",
-      "author": "victorio",
-      "timestamp": "2026-06-15T15:43:17",
+      "author": "lwhsiao",
+      "timestamp": "2026-06-15T20:00:57",
       "ai_score": 8,
       "bullet_points": [
-        "A vulnerability was discovered in Slack's video embedding feature.",
-        "The exploit allows for the achievement of End-to-End Encryption (E2EE) communication.",
-        "This represents a significant security flaw in a widely used enterprise communication platform."
+        "A security vulnerability (backdoor) was discovered within LinkedIn's job offer system.",
+        "This represents a significant security breach targeting professional networking platforms.",
+        "The incident highlights risks associated with large-scale corporate software infrastructure."
       ]
     },
     {
@@ -219,9 +233,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama has achieved its peak performance on Apple Silicon using its MLX engine.",
-        "The performance improvements translate to higher quality model outputs.",
-        "The updates also result in faster response times and reduced memory usage."
+        "Ollama has achieved its best performance on Apple Silicon using the MLX engine.",
+        "The performance improvements result in higher quality model responses.",
+        "The updated engine also provides faster response times and reduced memory usage."
       ]
     },
     {
@@ -233,7 +247,7 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release introduces performance improvements and enhanced GGUF model compatibility.",
+        "Ollama 0.30 release brings performance improvements and enhanced GGUF model compatibility.",
         "The update leverages llama.cpp to broaden model support across various hardware configurations.",
         "It augments Ollama's MLX engine, specifically improving support on Apple silicon."
       ]
@@ -262,12 +276,68 @@
       "ai_score": 7,
       "bullet_points": [
         "OpenJarvis v1.0 is released, providing an open-source framework for personal AI agents.",
-        "The key feature is that these agents can run entirely on the user's local hardware.",
-        "Integration with Ollama is built-in, simplifying the deployment of local LLMs."
+        "The key feature is the ability to run these AI agents locally on the user's own hardware.",
+        "It features built-in support for Ollama, a popular tool for running local LLMs."
       ]
     },
     {
-      "id": 15,
+      "id": 12,
+      "title": "OpenClaw",
+      "url": "https://ollama.com/blog/openclaw",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
+        "It utilizes local AI coding agents, ensuring all processing runs on the user's own device.",
+        "The core value proposition is providing AI assistance while maintaining data privacy through local execution."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Google Chrome is closing the loopholes that let old ad blockers keep working",
+      "url": "https://www.theverge.com/tech/950005/google-chrome-removing-ad-blocker-loopholes",
+      "source": "The Verge",
+      "author": "Stevie Bonifield",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Google Chrome is phasing out support for legacy workarounds that allowed older ad blockers to function.",
+        "This change targets ad-blocking extensions built on Manifest V2, which were already deprecated in 2024.",
+        "The update is scheduled for Chrome versions 150 and 151, expected in late June and July."
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Big Tech’s desperate last push at AI regulation",
+      "url": "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
+      "source": "The Verge",
+      "author": "Tina Nguyen",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Big Tech is actively lobbying for comprehensive federal AI legislation.",
+        "The primary goal of the lobbying effort is 'preemption,' which would create a single national standard.",
+        "This federal approach aims to supersede the current fragmented, state-by-state regulatory landscape for AI."
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Xbox turmoil continues with a studio closure and executive departures",
+      "url": "https://www.theverge.com/games/949964/xbox-compulsion-games-closure-craig-duncan-departure",
+      "source": "The Verge",
+      "author": "Jay Peters",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Xbox is undergoing a significant internal 'reset' signaled by executive warnings.",
+        "Compulsion Games, the developer of South of Midnight, is reportedly slated for closure.",
+        "Recent changes under leadership include price adjustments to Xbox Game Pass."
+      ]
+    },
+    {
+      "id": 23,
       "title": "Roblox exec says ticking a box for age verification is &#8216;not enough anymore&#8217;",
       "url": "https://www.theverge.com/games/949853/roblox-age-verification-demo-nbc",
       "source": "The Verge",
@@ -277,49 +347,91 @@
       "bullet_points": [
         "Roblox is implementing new facial age estimation technology to improve age verification.",
         "The company acknowledges that simple self-declaration of age is insufficient for safety.",
-        "The feature was tested with a group of children as part of a collaboration with NBC News."
+        "The feature was tested with a group of children in a demonstration for NBC News."
       ]
     },
     {
-      "id": 24,
-      "title": "Under-16 social media ban announced by UK government",
-      "url": "https://www.theverge.com/policy/949679/uk-under-16-social-media-ban-announcement",
-      "source": "The Verge",
-      "author": "Dominic Preston",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The UK government is implementing a total social media ban for individuals under the age of 16.",
-        "This policy follows similar measures introduced by Australia.",
-        "The ban will be complemented by rules restricting online interactions with strangers in games and livestreaming."
-      ]
-    },
-    {
-      "id": 31,
-      "title": "SpaceX is now a public company valued for its AI potential, so what comes next?",
-      "url": "https://arstechnica.com/space/2026/06/spacex-is-now-a-public-company-valued-for-its-ai-potential-so-what-comes-next/",
-      "source": "Ars Technica",
-      "author": "Eric Berger",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "SpaceX has transitioned to a publicly valued entity, shifting focus toward profitability.",
-        "The narrative highlights the increasing investor interest in SpaceX's Artificial Intelligence capabilities.",
-        "The article prompts discussion on the future strategic direction of the company following its valuation change."
-      ]
-    },
-    {
-      "id": 33,
-      "title": "Controversial FISA spying law expires tonight. The spying will continue.",
-      "url": "https://arstechnica.com/tech-policy/2026/06/controversial-fisa-spying-law-expires-tonight-the-spying-will-continue/",
+      "id": 25,
+      "title": "UK to ban social media for kids under 16, may impose overnight curfews",
+      "url": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews/",
       "source": "Ars Technica",
       "author": "Jon Brodkin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Section 702 of the Foreign Intelligence Surveillance Act (FISA) is set to expire.",
-        "Despite the expiration, the underlying certification for the spying program remains active until March 2027.",
-        "The story highlights the continuation of surveillance activities despite the legislative deadline."
+        "The UK is considering a ban on social media platforms for children under the age of 16.",
+        "The potential legislation may also include imposing overnight curfews on social media use.",
+        "Critics argue that such bans could drive minors toward riskier online alternatives or circumvent them using VPNs."
+      ]
+    },
+    {
+      "id": 27,
+      "title": "A Chinese rocket breaks apart dangerously close to the Starlink constellation",
+      "url": "https://arstechnica.com/space/2026/06/a-chinese-rocket-breaks-apart-dangerously-close-to-the-starlink-constellation/",
+      "source": "Ars Technica",
+      "author": "Stephen Clark",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "A Chinese rocket experienced a dangerous breakup near the Starlink constellation.",
+        "The incident is estimated to have created 100 to 150 new pieces of space debris.",
+        "The event highlights the ongoing and growing threat of space junk to operational satellites."
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
+      "url": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
+      "source": "Ars Technica",
+      "author": "Dan Goodin",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "AMD has reportedly removed TSME (Total Memory Encryption) functionality from its consumer CPUs.",
+        "The removal is being characterized by users and analysts as a deliberate and potentially covert corporate decision.",
+        "This change impacts memory security features available to consumers using AMD processors."
+      ]
+    },
+    {
+      "id": 30,
+      "title": "20 years of Intel Macs: Why Apple switched, and why it switched again",
+      "url": "https://arstechnica.com/gadgets/2026/06/20-years-of-intel-macs-why-apple-switched-and-why-it-switched-again/",
+      "source": "Ars Technica",
+      "author": "Andrew Cunningham",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The article covers the conclusion of the Intel Mac era.",
+        "It analyzes the reasons behind Apple's transition away from Intel processors.",
+        "It discusses the subsequent shifts and changes in Apple's hardware strategy."
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2606.14693v1",
+      "source": "arXiv AI",
+      "author": "Jingdi Chen",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the challenge of Cooperative Multi-Objective Multi-Agent Reinforcement Learning (MOMARL) where objectives conflict.",
+        "Proposes Preference Coordinated Multi-agent Policy Optimization (PCMA) to manage these conflicts.",
+        "PCMA enables complementary trade-offs among agents by learning coordinated, agent-specific preferences."
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Flood and Harvest: The Provable Necessity of Trivia for Generating Valuable Mathematics via the Lens of Language Generation in the Limit",
+      "url": "https://arxiv.org/abs/2606.14688v1",
+      "source": "arXiv AI",
+      "author": "Junbin Gao",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research addresses the gap between what AI proof assistants can formally verify and what constitutes mathematically valuable output.",
+        "It models valuable mathematics generation as a process of nested language generation in the limit.",
+        "The core challenge involves revealing an unknown valuable language (H) through adversarial enumeration within a verifiable formal language (F)."
       ]
     },
     {
@@ -331,9 +443,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Current LLM-agent workflows struggle with parallel task exploration due to sequential text input.",
-        "Existing methods for merging parallel branches (e.g., concatenation) lose structural information and cause redundancy.",
-        "The research proposes 'Direct Latent-Space Synthesis' to better handle structured, parallel agent workflows."
+        "Current LLM-agent workflows struggle to efficiently handle parallel task branches due to sequential text processing.",
+        "The paper proposes 'Direct Latent-Space Synthesis' to address the inefficiency of concatenating textual outputs from parallel branches.",
+        "This approach aims to preserve the parallel structure of complex agent workflows, reducing redundant prefill costs."
       ]
     },
     {
@@ -345,23 +457,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Acoustic adversarial attacks can disrupt computer vision systems used in real-world applications like autonomous vehicles.",
-        "The attacks induce physical motion in cameras via acoustic vibrations, overwhelming internal stabilization mechanisms.",
-        "This induced motion causes artifacts in the video frames, leading to potential system failure or misinterpretation."
-      ]
-    },
-    {
-      "id": 41,
-      "title": "Abstracting Cross-Domain Action Sequences into Interpretable Workflows",
-      "url": "https://arxiv.org/abs/2606.14654v1",
-      "source": "arXiv AI",
-      "author": "Scott Counts",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research addresses the challenge of extracting meaningful insights from noisy, granular digital application usage logs.",
-        "It aims to move beyond existing deep learning methods that struggle with noise and cross-application generalization.",
-        "The proposed method focuses on abstracting complex, sequential user actions into interpretable workflows."
+        "The research details acoustic adversarial attacks targeting computer vision (CV) systems.",
+        "Acoustic vibrations can induce physical motion in cameras, disrupting internal stabilization mechanisms.",
+        "This induced motion causes artifacts in the camera frame, interfering with CV applications like autonomous driving."
       ]
     },
     {
@@ -373,9 +471,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the interpretability challenge in highly accurate Transformer-based Automatic Speech Recognition (ASR) models like Whisper.",
-        "Introduces LEAF-X, a novel, model-intrinsic Explainable AI (XAI) framework for ASR.",
-        "LEAF-X utilizes entropy-guided attention weighting and multi-layer attention rollout to provide faithful and temporally grounded explanations."
+        "Addresses the interpretability challenge in high-accuracy Transformer-based ASR models like Whisper.",
+        "Introduces LEAF-X, a model-intrinsic XAI framework using entropy-guided attention for faithful explanations.",
+        "Combines entropy-guided weighting and multi-layer attention rollout to provide precise temporal grounding."
       ]
     },
     {
@@ -387,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the growing challenge of anti-spoofing due to highly natural synthetic speech.",
-        "Proposes transforming a self-supervised speech representation model into a Mixture-of-Experts (MoE) architecture.",
-        "The MoE approach aims to significantly improve the generalization and robustness of spoofing detection systems against unseen synthesis methods."
+        "The paper addresses the growing challenge of anti-spoofing due to increasingly natural synthetic speech.",
+        "It proposes transforming a self-supervised speech representation model into a Mixture-of-Experts (MoE) architecture.",
+        "The MoE approach aims to improve the generalization and robustness of spoofing detection against unseen synthesis methods."
       ]
     },
     {
@@ -401,9 +499,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Researchers identified a specific internal mechanism in Vision-Language Models (VLMs) responsible for image description.",
-        "This mechanism, termed 'gaze heads,' consists of attention heads in the language backbone that track the image region being described.",
-        "The discovery was validated using a controlled testbed involving comic strips to map narrative order to spatial attention."
+        "Researchers identified a novel internal mechanism in Vision-Language Models (VLMs) called 'gaze heads'.",
+        "These gaze heads are specific attention heads in the language backbone that track the image region the model is currently describing.",
+        "The discovery was validated using a controlled testbed involving comic strips to map narrative order spatially."
       ]
     },
     {
@@ -415,9 +513,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the high computational cost of using large, generalist Language Models for specific persona-based role-playing.",
-        "Proposes 'Persona-Pruner' to reduce model size and computational overhead while maintaining persona fidelity.",
-        "Relevant to scaling AI applications, particularly in complex, multi-agent systems (e.g., virtual ecosystems)."
+        "Addresses the computational inefficiency of using large, generalist Language Models for specific personas.",
+        "Proposes 'Persona-Pruner' to create lightweight models tailored for specific roles or characters.",
+        "Relevant for scaling complex AI applications, such as large-scale interactive ecosystems with many NPCs."
+      ]
+    },
+    {
+      "id": 52,
+      "title": "When to Write and When to Suppress: Route-Specialized Dual Adapters for Memory-Assisted Knowledge Editing",
+      "url": "https://arxiv.org/abs/2606.14668v1",
+      "source": "arXiv Machine Learning",
+      "author": "Yining Huang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research addresses the challenge in knowledge editing: updating specific facts while preventing unintended changes to surrounding model behavior.",
+        "It proposes a novel 'route-specialized dual-adapter' editor that manages when to apply or suppress knowledge edits.",
+        "The system operates in a memory-assisted setting, retrieving an edit memory at inference time to guide the parameter-efficient adapter."
       ]
     },
     {
@@ -429,9 +541,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Researchers identified a specific internal mechanism in Vision-Language Models (VLMs) called 'gaze heads'.",
-        "These gaze heads are small attention heads in the language backbone that track the image region the model is currently describing.",
-        "The discovery was validated using comic strips as a controlled testbed to study narrative flow and attention."
+        "The research introduces 'gaze heads,' a specific mechanism within Vision-Language Models (VLMs) that dictates where the model focuses when generating image descriptions.",
+        "These attention heads track the exact image region corresponding to the part of the description currently being generated.",
+        "The discovery was validated using comic strips as a controlled testbed to map narrative order onto spatial attention."
       ]
     },
     {
@@ -443,9 +555,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the computational inefficiency of using large, generalist Language Models for specific, role-playing personas.",
-        "Introduces 'Persona-Pruner,' a method designed to create lightweight models tailored for specific character roles.",
-        "Relevant for scaling AI applications, particularly in complex environments like interactive simulations or games with many NPCs."
+        "Addresses the computational inefficiency of using large, generalist Language Models for single-persona role-playing.",
+        "Introduces 'Persona-Pruner,' a method to create lightweight models specifically tailored for distinct character personas.",
+        "Relevant for scaling AI applications, particularly in complex environments requiring many simultaneous, stylized interactions (e.g., NPC ecosystems)."
       ]
     },
     {
@@ -457,23 +569,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces AdaSR, a new method for adaptive streaming reasoning.",
-        "It addresses the limitation of traditional large reasoning models which require complete input before processing.",
-        "AdaSR is designed for dynamic, real-world scenarios like audio and video streaming where information arrives continuously and partially."
+        "The paper introduces AdaSR, a method for Adaptive Streaming Reasoning.",
+        "It addresses the limitation of traditional 'read-then-think' models in dynamic, real-world scenarios like audio/video streams.",
+        "AdaSR aims to enable models to reason and update their understanding under continuous, partial observations."
       ]
     },
     {
-      "id": 60,
-      "title": "Flood and Harvest: The Provable Necessity of Trivia for Generating Valuable Mathematics via the Lens of Language Generation in the Limit",
-      "url": "https://arxiv.org/abs/2606.14688v1",
+      "id": 59,
+      "title": "CORA: Analyzing and bridging thinking-answer gap in Multimodal RLVR via Consistency-Oriented Reasoning Alignment",
+      "url": "https://arxiv.org/abs/2606.14691v1",
       "source": "arXiv NLP",
-      "author": "Junbin Gao",
+      "author": "Nayu Liu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the gap between formally verifiable mathematics generated by AI and the actual value perceived by human mathematicians.",
-        "It models valuable mathematics generation as a nested language generation process, constrained by a formal verification system (proof checker).",
-        "The work suggests that 'trivia' (or external knowledge) is necessary for AI systems to generate mathematics that is truly valuable, not just formally correct."
+        "Addresses the 'thinking-answer gap' in Reinforcement Learning with Verifiable Rewards (RLVR) for multimodal scenarios.",
+        "Identifies semantic inconsistency between the reasoning process and the final answer as a key weakness in current RLVR methods.",
+        "Proposes a new approach, CORA, utilizing Consistency-Oriented Reasoning Alignment to bridge this gap in large vision-language models."
       ]
     },
     {
@@ -485,9 +597,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the complexity of modern LLM agents, which are built as composite, scaffolded systems (reasoning, memory, action, etc.).",
-        "A key problem identified is the difficulty in isolating and understanding the contribution of individual components within these tightly coupled agent pipelines.",
-        "AgentSpec is introduced as a modular specification framework designed to represent embodied agents in a way that allows for better analysis and comparison of different design choices."
+        "AgentSpec introduces a modular specification framework for embodied LLM agents.",
+        "It addresses the challenge of tightly coupled agent pipelines, allowing for better component isolation and comparison.",
+        "The framework helps researchers understand how different modules (reasoning, memory, reflection, etc.) interact to shape agent behavior."
       ]
     },
     {
@@ -499,23 +611,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "LLM-Agent workflows often struggle because they process structured, parallel tasks through a sequential text interface.",
-        "Current methods of merging parallel agent branches (e.g., concatenation) lose structural information and cause redundant computation.",
+        "LLM-Agent workflows often use sequential text interfaces, which conflicts with modern parallel agent structures.",
+        "Current methods for merging parallel agent branches (concatenation) lose structural information and cause redundant computation.",
         "The research proposes 'Direct Latent-Space Synthesis' to better handle parallel branches within LLM-driven agent systems."
-      ]
-    },
-    {
-      "id": 93,
-      "title": "Your AI agent doesn't have a memory. It has a transcript.",
-      "url": "https://dev.to/diran_adeola/your-ai-agent-doesnt-have-a-memory-it-has-a-transcript-16lp",
-      "source": "Dev.to",
-      "author": "diran_adeola",
-      "timestamp": "2026-06-15T15:36:16Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "The article addresses a fundamental limitation in current AI agents: the difference between true memory and mere transcript logging.",
-        "It discusses the concept of building a deliberate 'memory layer' for AI agents.",
-        "The focus is on advanced agent design, specifically incorporating mechanisms for intentional forgetting."
       ]
     }
   ]
