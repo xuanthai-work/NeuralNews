@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-16T10:48:21.848761",
-  "total_stories": 49,
+  "generated_at": "2026-06-16T16:16:46.237938",
+  "total_stories": 47,
   "sources": [
-    "The Verge",
     "Hugging Face Benchmarks",
-    "arXiv AI",
-    "Ars Technica",
-    "arXiv NLP",
-    "Ollama",
-    "Lobsters",
     "arXiv Machine Learning",
+    "arXiv AI",
+    "arXiv NLP",
+    "Hacker News",
+    "Lobsters",
     "Dev.to",
-    "Hacker News"
+    "Ars Technica",
+    "The Verge",
+    "Ollama"
   ],
   "stories": [
     {
@@ -24,8 +24,8 @@
       "ai_score": 9,
       "bullet_points": [
         "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It is categorized under key NLP/ML tags including 'transformers' and 'llama'.",
-        "The pipeline indicates its primary use case is text generation."
+        "It is categorized under key NLP/ML tags like 'transformers' and 'text-generation'.",
+        "The content points to the continued relevance of large language models (LLMs) from Meta."
       ]
     },
     {
@@ -37,23 +37,23 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
-        "It pertains to the core field of transformer-based text generation models.",
-        "The associated tags indicate relevance to major AI frameworks like transformers and safetensors."
+        "The news highlights the trending status of the meta-llama/Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
+        "The associated tags confirm its relevance within the transformer, llama, and AI/ML communities."
       ]
     },
     {
-      "id": 16,
-      "title": "Inside the fight over Claude Mythos 5",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
-      "source": "The Verge",
-      "author": "Hayden Field",
+      "id": 27,
+      "title": "Critical Copilot vulnerability allowed hackers to seal 2FA code from users",
+      "url": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
+      "source": "Ars Technica",
+      "author": "Dan Goodin",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Anthropic faced a US export control directive regarding its latest AI models, Mythos 5 and Fable 5.",
-        "The directive required the company to suspend access to the new models.",
-        "The conflict highlights geopolitical and regulatory hurdles facing advanced AI deployment in the US."
+        "A critical vulnerability in Copilot allowed attackers to intercept or seal Two-Factor Authentication (2FA) codes.",
+        "The exploit highlights systemic failures in the current security practices surrounding Large Language Models (LLMs).",
+        "The incident serves as a major warning about the security risks inherent in rapidly deploying AI tools."
       ]
     },
     {
@@ -65,9 +65,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The story highlights a trending model, DeepSeek-R1, on the Hugging Face platform.",
-        "It is categorized under text-generation and utilizes standard ML components like transformers and safetensors.",
-        "The model is associated with the DeepSeek_v3 architecture, indicating relevance within the LLM space."
+        "The story highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
+        "It is categorized under text-generation and conversational AI pipelines.",
+        "The associated tags indicate relevance to transformers and deepseek_v3 architectures."
       ]
     },
     {
@@ -79,23 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The content highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It is categorized under key NLP/ML tags including 'transformers' and 'pytorch'.",
-        "The pipeline demonstrated is 'text-generation', indicating its generative capabilities."
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Ollama's highest performance on Apple Silicon yet with MLX",
-      "url": "https://ollama.com/blog/mlx-performance",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Ollama has achieved its peak performance on Apple Silicon using the MLX engine.",
-        "The performance improvements result in higher quality model outputs.",
-        "The updated engine also delivers faster response times and reduced memory usage."
+        "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
+        "It relates to core NLP/ML components like transformers and PyTorch.",
+        "The context suggests tracking trending or benchmarked large language models."
       ]
     },
     {
@@ -107,23 +93,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, is integrating MLX for enhanced performance.",
-        "This integration specifically targets Apple Silicon hardware, optimizing AI workloads on Apple devices.",
-        "The feature is currently available in a preview state, indicating ongoing development and optimization."
-      ]
-    },
-    {
-      "id": 12,
-      "title": "OpenClaw",
-      "url": "https://ollama.com/blog/openclaw",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, ensuring processing runs entirely on the user's device.",
-        "The core value proposition is providing on-device, private AI assistance for coding tasks."
+        "Ollama, a popular local LLM runner, has integrated MLX for performance gains.",
+        "This update specifically targets and optimizes performance on Apple Silicon hardware.",
+        "The feature is currently available in a preview state."
       ]
     },
     {
@@ -136,68 +108,26 @@
       "ai_score": 8,
       "bullet_points": [
         "Ollama introduces a new command for easily setting up and running coding tools.",
-        "It supports various models, including Claude Code, OpenCode, and Codex, both locally and in the cloud.",
+        "It supports various models, including Claude Code, OpenCode, and Codex, locally or in the cloud.",
         "A key feature is its simplicity, requiring no environment variables or configuration files."
       ]
     },
     {
-      "id": 19,
-      "title": "Fox wants to take over your TV — and the tech inside it",
-      "url": "https://www.theverge.com/streaming/950116/fox-roku-takeover",
+      "id": 22,
+      "title": "The Microsoft Surface Laptop 8 and Surface Pro 12 now come with Snapdragon X2 chips",
+      "url": "https://www.theverge.com/tech/950146/microsoft-surface-laptop-8-surface-pro-12-snapdragon-x2-specs-price",
       "source": "The Verge",
-      "author": "Emma Roth",
+      "author": "Antonio G. Di Benedetto",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Fox is acquiring Roku, a major shift in the streaming technology landscape.",
-        "The deal is valued at $22 billion and targets Roku's position as a streaming portal.",
-        "This acquisition impacts over 100 million homes globally, affecting how consumers access streaming services."
+        "Microsoft is updating its Surface Laptop and Surface Pro lines with the new Snapdragon X2 chips.",
+        "This transition follows previous models that used the Snapdragon X1, continuing Microsoft's Windows on Arm strategy.",
+        "The hardware refresh supports and advances Microsoft's Copilot Plus PC initiative."
       ]
     },
     {
-      "id": 21,
-      "title": "All the news about Anthropic&#8217;s new AI fight with the White House",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
-      "source": "The Verge",
-      "author": "Richard Lawler",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Anthropic is facing a new government dispute involving the Pentagon.",
-        "The White House issued an order restricting foreign access to Anthropic's new AI models (Fable 5 and Mythos 5).",
-        "The models were recently launched, with Anthropic claiming Fable 5 has advanced capabilities."
-      ]
-    },
-    {
-      "id": 23,
-      "title": "Trump’s Anthropic shutdown just made the case for non-American AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
-      "source": "The Verge",
-      "author": "Robert Hart",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Anthropic temporarily shut down its newest, most powerful AI models following a request from the White House.",
-        "The US government reportedly demanded that Anthropic block access to its AI models for all foreign nationals, including its own staff.",
-        "The incident is framed by the article as evidence supporting the case for non-American AI development."
-      ]
-    },
-    {
-      "id": 28,
-      "title": "UK to ban social media for kids under 16, may impose overnight curfews",
-      "url": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews/",
-      "source": "Ars Technica",
-      "author": "Jon Brodkin",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The UK is considering banning social media access for children under the age of 16.",
-        "The proposed legislation may also include the imposition of overnight curfews for minors.",
-        "Critics argue that such bans could drive children toward riskier online alternatives or circumvent restrictions using VPNs."
-      ]
-    },
-    {
-      "id": 29,
+      "id": 32,
       "title": "Chipmaker Nvidia seeks to raise over $25B in first bond deal since 2021",
       "url": "https://arstechnica.com/ai/2026/06/chipmaker-nvidia-seeks-to-raise-over-25b-in-first-bond-deal-since-2021/",
       "source": "Ars Technica",
@@ -205,13 +135,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Nvidia is planning a significant debt issuance, aiming to raise over $25 billion.",
-        "The bond deal is being analyzed as a test of investor appetite for further AI sector exposure.",
-        "The move comes amid a current 'deluge of borrowing' within the technology industry."
+        "Nvidia is planning a substantial debt issuance, aiming to raise over $25 billion.",
+        "The bond deal is significant as it is the first major debt offering by Nvidia since 2021.",
+        "The move tests investor appetite for continued high exposure to the rapidly expanding AI sector."
       ]
     },
     {
-      "id": 31,
+      "id": 34,
       "title": "Fox’s $22B Roku acquisition aims to expand its reach into smart TVs, advertising",
       "url": "https://arstechnica.com/gadgets/2026/06/foxs-22b-roku-acquisition-aims-to-expand-its-reach-into-smart-tvs-advertising/",
       "source": "Ars Technica",
@@ -225,6 +155,20 @@
       ]
     },
     {
+      "id": 37,
+      "title": "FusionRS: A Large-Scale RGB-Infrared Remote Sensing Dataset for Dual-Modal Vision-Language Foundation Models",
+      "url": "https://arxiv.org/abs/2606.17020v1",
+      "source": "arXiv AI",
+      "author": "Jiujiang Guo",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces FusionRS, a new large-scale dataset combining RGB and Infrared remote sensing imagery.",
+        "Addresses a gap in current remote sensing AI by integrating infrared data, which offers unique thermal and illumination-invariant features.",
+        "Aims to enhance Vision-Language Foundation Models for Earth observation by leveraging dual-modal (RGB-IR) input."
+      ]
+    },
+    {
       "id": 38,
       "title": "TokenPilot: Cache-Efficient Context Management for LLM Agents",
       "url": "https://arxiv.org/abs/2606.17016v1",
@@ -234,8 +178,8 @@
       "ai_score": 8,
       "bullet_points": [
         "TokenPilot addresses the high inference costs associated with context accumulation in long-horizon LLM agent sessions.",
-        "It tackles the problem where traditional context management (pruning/eviction) causes cache invalidation due to sequence mutations.",
-        "The framework introduces a dual-granularity approach to balance text sparsity with prompt cache continuity."
+        "It tackles the issue where traditional context management methods (like pruning/eviction) cause cache invalidation due to sequence mutations.",
+        "The framework introduces a dual-granularity context management approach to balance text sparsity with prompt cache continuity."
       ]
     },
     {
@@ -247,9 +191,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "ActiveSAM addresses the inefficiency of applying large models like SAM 3 to Open-Vocabulary Semantic Segmentation (OVSS).",
+        "ActiveSAM addresses the inefficiency of using large models like SAM 3 for Open-Vocabulary Semantic Segmentation (OVSS).",
         "It introduces a training-free, zero-shot inference framework to convert SAM 3 into an active-vocabulary segmenter.",
-        "The core innovation involves pruning the decoding process to only focus on the small, active subset of classes present in each image."
+        "The core innovation involves pruning the decoding process to only focus on the active subset of classes present in each image."
       ]
     },
     {
@@ -261,9 +205,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Challenges the assumption that Differential Privacy (DP) inherently protects Federated Learning (FL) from backdoor attacks.",
-        "Finds a fundamental tension where DP compliance masks the statistical signatures of malicious updates.",
-        "Suggests that while bypassing DP allows current defenses to work, DP itself can inadvertently hide threats."
+        "Challenges the assumption that Differential Privacy (DP) inherently protects Federated Learning (FL) against backdoor attacks.",
+        "Demonstrates a fundamental tension: DP compliance can mask the statistical signatures needed to detect malicious updates.",
+        "Suggests that while bypassing DP allows for current defenses, adhering to DP inadvertently weakens security against specific attacks."
       ]
     },
     {
@@ -275,9 +219,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "TokenPilot addresses the rising inference costs in LLM agents due to context accumulation in long-horizon sessions.",
-        "It tackles the problem where traditional context management methods (pruning/eviction) cause cache invalidation and prefix mismatches.",
-        "The framework introduces a dual-granularity context management system to balance text sparsity with prompt cache continuity."
+        "TokenPilot addresses the high inference costs associated with context accumulation in long-horizon LLM agent sessions.",
+        "It tackles the problem where traditional context management methods (like pruning/eviction) cause cache invalidation due to sequence mutations.",
+        "The framework introduces a dual-granularity approach to balance text sparsity with prompt cache continuity."
       ]
     },
     {
@@ -289,9 +233,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Researchers investigated if Language Models (LMs) internally track the 'value' of their current operational trajectory.",
+        "Researchers investigated if language models internally track the 'value' of their current strategy (likelihood of achieving goals).",
         "A 'value' axis was constructed for Qwen3-8B using synthetic in-context reinforcement learning data.",
-        "Activations along this axis correlate with model performance, distinguishing between high/low confidence, correct/corrupted code, and backtracking behavior."
+        "Activations along this axis correlate with verbalized confidence, backtracking behavior, and code correctness."
       ]
     },
     {
@@ -303,9 +247,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces ContextRL, a new context-aware Reinforcement Learning (RL) method for LLMs.",
-        "Addresses a key LLM weakness: failing to identify decisive evidence within long or complex contexts (e.g., tool traces, images).",
-        "Improves long-horizon reasoning and multimodal performance by using an indirect auxiliary objective instead of only supervising the final answer."
+        "Introduces ContextRL, a novel context-aware Reinforcement Learning (RL) method for LLMs.",
+        "Addresses a key limitation of LLMs: difficulty in identifying small, decisive evidence within long or complex contexts (e.g., tool traces, images).",
+        "Improves long-horizon reasoning and multimodal performance by using an indirect auxiliary objective during training."
       ]
     },
     {
@@ -318,8 +262,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Introduces 'MetaSyn,' a new dataset of 442 expert-curated meta-analyses from Nature Portfolio journals.",
-        "The dataset is designed to benchmark Large Language Model (LLM) agents on complex, multi-stage scientific reasoning tasks.",
-        "It addresses a gap in current benchmarks by providing ground truth across the entire literature retrieval, screening, and synthesis pipeline."
+        "The dataset is designed to benchmark LLM agents on complex, multi-stage scientific reasoning tasks (retrieval, selection, synthesis).",
+        "Addresses a gap in existing benchmarks by providing ground truth across the entire systematic review pipeline."
       ]
     },
     {
@@ -331,13 +275,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses the high inference costs associated with context accumulation in long-horizon LLM agent sessions.",
-        "Introduces TokenPilot, a dual-granularity context management framework to improve efficiency.",
-        "Solves a critical trade-off between achieving text sparsity and maintaining prompt cache continuity, which is disrupted by existing pruning methods."
+        "TokenPilot addresses the high inference costs associated with context accumulation in long-horizon LLM agent sessions.",
+        "It tackles the problem where existing context management methods (pruning/eviction) cause cache invalidation due to sequence mutations.",
+        "The framework introduces a dual-granularity approach to balance text sparsity with prompt cache continuity."
       ]
     },
     {
-      "id": 66,
+      "id": 72,
       "title": "A backdoor in a LinkedIn job offer",
       "url": "https://roman.pt/posts/linkedin-backdoor/",
       "source": "Hacker News",
@@ -345,9 +289,23 @@
       "timestamp": "2026-06-15T20:00:57",
       "ai_score": 8,
       "bullet_points": [
-        "A security vulnerability (backdoor) was discovered within a LinkedIn job offer.",
-        "This represents a significant security risk targeting professional networking and recruitment platforms.",
-        "The incident highlights ongoing threats related to social engineering and platform vulnerabilities."
+        "A security vulnerability (backdoor) was discovered in LinkedIn's job offer system.",
+        "This represents a significant security risk within a major professional networking platform.",
+        "The story highlights the ongoing threat of sophisticated attacks targeting corporate/professional infrastructure."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ollama's highest performance on Apple Silicon yet with MLX",
+      "url": "https://ollama.com/blog/mlx-performance",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Ollama has achieved its peak performance on Apple Silicon using its MLX engine.",
+        "The performance improvements result in higher quality model responses.",
+        "The updated engine also offers faster response times and reduced memory usage."
       ]
     },
     {
@@ -361,7 +319,7 @@
       "bullet_points": [
         "Ollama 0.30 release brings performance improvements and enhanced GGUF model compatibility.",
         "The update leverages llama.cpp to broaden model support across various hardware configurations.",
-        "It augments Ollama's MLX engine specifically for improved functionality on Apple silicon."
+        "It augments Ollama's MLX engine, specifically improving support on Apple silicon."
       ]
     },
     {
@@ -387,9 +345,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "OpenJarvis v1.0 is released, offering an open-source framework for personal AI agents.",
-        "The key feature is the ability to run these AI agents locally on the user's own hardware.",
-        "It features built-in support for Ollama, facilitating local LLM execution."
+        "OpenJarvis v1.0 is released, providing an open-source framework for personal AI agents.",
+        "The framework emphasizes local-first operation, allowing AI to run entirely on the user's own hardware.",
+        "It features built-in support for Ollama, integrating with popular local LLM runners."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "OpenClaw",
+      "url": "https://ollama.com/blog/openclaw",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
+        "It utilizes local AI coding agents that run entirely on the user's own device.",
+        "The core value proposition is providing AI assistance while maintaining data privacy through local execution."
       ]
     },
     {
@@ -401,55 +373,41 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama now offers experimental image generation capabilities.",
-        "The feature is currently available for local execution on macOS.",
-        "Support for Windows and Linux platforms is planned for future releases."
+        "Ollama now supports local image generation capabilities on macOS.",
+        "This feature allows users to run image generation models entirely on their local machines.",
+        "Support for Windows and Linux platforms for this functionality is planned for the near future."
       ]
     },
     {
-      "id": 17,
-      "title": "Facebook’s new AI Mode search gets its info from public posts",
-      "url": "https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook",
-      "source": "The Verge",
-      "author": "Stevie Bonifield",
+      "id": 25,
+      "title": "Mobileye is entering the US robotaxi market with standalone service",
+      "url": "https://arstechnica.com/cars/2026/06/mobileye-is-entering-the-us-robotaxi-market-with-standalone-service/",
+      "source": "Ars Technica",
+      "author": "Jonathan M. Gitlin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Meta is rolling out a new 'AI Mode' search feature on Facebook.",
-        "This AI Mode utilizes data from users' public Facebook posts to generate search results.",
-        "The rollout is part of broader AI feature updates, including new photo presets."
+        "Mobileye is planning to enter the US robotaxi market.",
+        "The service will utilize its existing Moovit platform.",
+        "The planned launch date for the service in a US city is 2027."
       ]
     },
     {
-      "id": 18,
-      "title": "Xbox is closing down Hellblade creator Ninja Theory",
-      "url": "https://www.theverge.com/games/950204/xbox-ninja-theory-shutdown-hellblade-senua",
-      "source": "The Verge",
-      "author": "Tom Warren",
+      "id": 31,
+      "title": "UK to ban social media for kids under 16, may impose overnight curfews",
+      "url": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews/",
+      "source": "Ars Technica",
+      "author": "Jon Brodkin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Xbox is reportedly closing down Ninja Theory, the developer of the Hellblade series.",
-        "Staff members were notified of the closure via a call on Monday.",
-        "The closure aligns with broader restructuring at Microsoft, affecting several Xbox studios."
+        "The UK is considering legislation to ban social media access for children under the age of 16.",
+        "The proposed measures may include the implementation of overnight curfews for minors.",
+        "Critics argue that such bans could drive children toward riskier online alternatives or circumvent them using VPNs."
       ]
     },
     {
-      "id": 24,
-      "title": "Google Chrome is closing the loopholes that let old ad blockers keep working",
-      "url": "https://www.theverge.com/tech/950005/google-chrome-removing-ad-blocker-loopholes",
-      "source": "The Verge",
-      "author": "Stevie Bonifield",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Google Chrome is planning to eliminate support for legacy ad blocker workarounds in versions 150 and 151.",
-        "This update targets the final remaining methods that allowed older ad blockers to function within Chrome.",
-        "The move follows the earlier phase-out of Manifest V2-based ad-blocking extensions in 2024."
-      ]
-    },
-    {
-      "id": 30,
+      "id": 33,
       "title": "A Chinese rocket breaks apart dangerously close to the Starlink constellation",
       "url": "https://arstechnica.com/space/2026/06/a-chinese-rocket-breaks-apart-dangerously-close-to-the-starlink-constellation/",
       "source": "Ars Technica",
@@ -463,34 +421,6 @@
       ]
     },
     {
-      "id": 32,
-      "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
-      "url": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
-      "source": "Ars Technica",
-      "author": "Dan Goodin",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "AMD has removed TSME (Total Memory Encryption) from its consumer CPUs.",
-        "The removal is suggested by the article to be a deliberate and potentially covert corporate decision.",
-        "The change has drawn negative reactions and criticism from users."
-      ]
-    },
-    {
-      "id": 33,
-      "title": "20 years of Intel Macs: Why Apple switched, and why it switched again",
-      "url": "https://arstechnica.com/gadgets/2026/06/20-years-of-intel-macs-why-apple-switched-and-why-it-switched-again/",
-      "source": "Ars Technica",
-      "author": "Andrew Cunningham",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The article reviews the entire lifecycle of Intel Macs over the past two decades.",
-        "It analyzes the strategic reasons behind Apple's decision to transition away from Intel processors.",
-        "The piece discusses the implications and history of Apple's subsequent hardware shifts."
-      ]
-    },
-    {
       "id": 35,
       "title": "The Importance of Phase in Neural Representations: An Internal Oppenheim-Lim Test of Image Classifiers",
       "url": "https://arxiv.org/abs/2606.17037v1",
@@ -500,22 +430,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The research investigates whether modern neural networks (PRISM2D, GFNet, ViT-B/16) exhibit the phase-sensitivity asymmetry observed in natural images.",
-        "It tests the hypothesis, based on Oppenheim-Lim (1981), that image identity is more encoded in the phase of its Fourier representation than its magnitude.",
-        "The study uses a causal intervention method, transplanting phases between images, to determine which input the classifier's prediction follows."
-      ]
-    },
-    {
-      "id": 37,
-      "title": "FusionRS: A Large-Scale RGB-Infrared Remote Sensing Dataset for Dual-Modal Vision-Language Foundation Models",
-      "url": "https://arxiv.org/abs/2606.17020v1",
-      "source": "arXiv AI",
-      "author": "Jiujiang Guo",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces FusionRS, a new large-scale dataset combining RGB and Infrared remote sensing imagery with text.",
-        "Addresses a gap in current remote sensing AI by integrating infrared data, which offers thermal and illumination-invariant features.",
-        "Aims to advance dual-modal vision-language foundation models for improved Earth observation understanding."
+        "It tests the hypothesis, based on Oppenheim and Lim (1981), that image identity is more encoded in the Fourier phase than the magnitude.",
+        "The study uses a causal intervention method—transplanting phase between images—to determine which input the classifier's prediction follows."
       ]
     },
     {
@@ -527,9 +443,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces TuneJury, an open, instance-level pairwise reward model for text-to-music generation.",
-        "The model predicts a music preference score based on a text prompt and an audio clip.",
-        "It is trained on diverse public human preference labels, including A vs. B votes and expert ratings."
+        "Introduces TuneJury, an open, instance-level pairwise reward model specifically for text-to-music generation.",
+        "The model predicts a music preference score based on a text prompt and an audio clip, aiding in preference alignment.",
+        "It is trained on diverse public human-preference labels, including arena-style votes and expert aesthetic ratings."
       ]
     },
     {
@@ -541,9 +457,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper critiques the common practice of viewing public AI evaluations as simple, terminal leaderboards.",
-        "It frames the collection of various AI benchmarks (LiveBench, Open LLM Leaderboard v2, etc.) as a complex Bayesian inference problem.",
-        "The research suggests that evaluation results are heavily influenced by reporting rules, benchmark revisions, and data missingness, necessitating deeper longitudinal analysis."
+        "The paper critiques the common practice of viewing public AI evaluations (like leaderboards) as definitive, static measures.",
+        "It proposes framing the collection of AI evaluation data as a Bayesian inference problem to account for biases from reporting rules, benchmark changes, and missing data.",
+        "It analyzes longitudinal records from various benchmarks (LiveBench, Open LLM Leaderboard v2, LMArena, GAIA, tau-bench) to provide a more nuanced view of AI progress."
       ]
     },
     {
@@ -556,8 +472,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces PACT, a hybrid architecture designed to improve Reinforcement Learning (RL) robustness in unfamiliar environments.",
-        "Combines a fast, reactive RL policy with a slow, deliberative Small Language Model (SLM) planner for explicit planning.",
-        "The SLM generates and validates action plans via simulation before they are executed, bypassing the standard RL policy."
+        "Combines a fast, reactive RL policy with a slow, deliberative Small Language Model (SLM) planner for decision-making.",
+        "The SLM asynchronously generates and validates action plans, which are executed directly if deemed safe and feasible."
       ]
     },
     {
@@ -569,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses a key limitation in current Vision-Language-Action (VLA) and World-Action Models (WAMs) by focusing on 3D geometry.",
-        "Proposes a 'Geometric Action Model' to enable generalist robot policies to reason about 3D physical interactions.",
-        "Crucial for advancing contact-rich manipulation tasks where 2D representations are insufficient."
+        "Addresses the limitation of current Vision-Language-Action Models (VLAs) by focusing on 3D geometry for robot policy learning.",
+        "Proposes a 'Geometric Action Model' to handle complex, contact-rich manipulation in the physical world.",
+        "Aims to bridge the gap between high-level semantic understanding (from foundation models) and low-level 3D physical reasoning."
       ]
     },
     {
@@ -583,9 +499,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the challenge of sparse binary outcomes (success/failure) in online Reinforcement Learning (RL) fine-tuning of Vision-Language Agents (VLAs).",
-        "Critiques existing methods that reduce sparse outcomes to a single scalar reward, which conflates necessary transition-level feedback.",
-        "Proposes a new 'Hierarchical Advantage Weighting' mechanism to provide richer, more granular guidance during the fine-tuning process."
+        "Addresses the challenge of sparse rewards in online Reinforcement Learning (RL) fine-tuning of Vision-Language Agents (VLAs).",
+        "Proposes 'Hierarchical Advantage Weighting' to provide richer, per-transition supervision instead of relying on a single binary outcome.",
+        "Aims to overcome the limitation where conflating sparse outcomes into a single scalar signal limits learning guidance after basic task success is achieved."
       ]
     },
     {
@@ -598,8 +514,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The research investigates whether modern neural network classifiers (PRISM2D, GFNet, ViT-B/16) exhibit the phase-sensitivity asymmetry observed in natural images.",
-        "It tests the hypothesis, based on Oppenheim-Lim (1981), that image identity is encoded more in the phase of its Fourier representation than its magnitude.",
-        "The study uses a causal intervention technique—transplanting phase between images—to determine which input the classifier's prediction follows."
+        "It tests the hypothesis, based on Oppenheim-Lim (1981), that image identity is encoded more strongly in the phase of the Fourier transform than in its magnitude.",
+        "The study uses a causal intervention method—transplanting phase between two images—to determine which original image the classifier's prediction follows."
       ]
     },
     {
@@ -611,9 +527,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the difficulty of post-hoc context erasing in LLMs due to the global propagation of cached states.",
-        "Proposes 'KVEraser' to efficiently steer the KV cache for localized context removal.",
-        "Relevant for long-context LLM applications where stale facts or harmful injections require mid-stream correction."
+        "Addresses the challenge of post-hoc context erasing in LLMs due to the global propagation of cached states (KV cache).",
+        "Highlights the practical problem where local edits (like removing stale facts or injections) require expensive recomputation of all subsequent tokens.",
+        "Introduces 'KVEraser' as a method to efficiently steer the KV cache for localized context removal."
       ]
     },
     {
@@ -625,9 +541,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces ExpRL, a new approach using Exploratory Reinforcement Learning (RL) for LLM improvement during mid-training.",
-        "Addresses a limitation of current RL fine-tuning, which relies on manually specifying primitive reasoning skills (e.g., decomposition, self-correction).",
-        "Aims to improve LLM reasoning by exploring capabilities rather than relying solely on curated, manually defined training traces."
+        "Introduces ExpRL, a new approach using exploratory Reinforcement Learning (RL) for LLM improvement during mid-training.",
+        "Addresses a limitation of current RL methods, which rely heavily on manually curated reasoning traces to teach primitive skills.",
+        "Aims to improve LLM reasoning by making the learning process less dependent on pre-specifying exact skills."
       ]
     },
     {
@@ -639,9 +555,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the challenge of post-hoc context erasing in LLMs due to the global propagation of cached states.",
-        "Proposes 'KVEraser' to efficiently steer the KV cache for localized context removal.",
-        "Relevant for long-context LLM applications where stale or harmful information needs to be corrected after processing."
+        "Addresses the challenge of post-hoc context erasing in LLMs due to the global propagation of cached state influence.",
+        "Proposes 'KVEraser' to learn how to steer the KV cache for efficient, localized context removal.",
+        "Relevant for long-context LLM applications where stale facts or harmful injections require mid-stream correction."
       ]
     },
     {
@@ -653,9 +569,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces DEEPRUBRIC, a method using Evidence-Tree Rubric Supervision to improve Deep Research Agents.",
-        "The research addresses the efficiency challenge in RL-based research agents by using rubric-based rewards for quality assessment.",
-        "It tackles the limitation of current methods where LLMs generate rubrics that may fail to capture the necessary underlying information."
+        "Introduces DEEPRUBRIC, a method using Evidence-Tree Rubric Supervision to enhance Deep Research Agents.",
+        "The research addresses the inefficiency of current RL approaches where rubric quality depends on accurate task scope inference by the LLM.",
+        "It aims to improve the efficiency and reliability of RL-based agents that synthesize long-form reports from retrieved evidence."
       ]
     },
     {
@@ -667,9 +583,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces IMPACTeen, a novel dataset focusing on social influence in adolescent communication.",
-        "The dataset is rich, containing 1,021 texts and 5,100 annotations, labeled from five distinct expert perspectives.",
-        "It addresses a niche but critical area of AI/NLP: modeling intentions, manipulation, and persuasion in youth digital interactions."
+        "IMPACTeen is a new dataset focusing on social influence, manipulation, and persuasion in adolescent communication.",
+        "The dataset includes 1,021 texts and 5,100 annotations, labeled from five distinct expert perspectives (teenagers, parents, psychologists, etc.).",
+        "It was created using constrained LLM generation followed by rigorous human editing and validation."
       ]
     },
     {
@@ -681,13 +597,55 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces LESS, a training-free sampling method designed to improve the efficiency of Diffusion Language Models (dLLMs).",
-        "dLLMs are presented as a promising alternative to traditional autoregressive decoding, allowing for parallel and bidirectional token updates.",
-        "The core problem addressed is the inefficiency in current dLLM sampling, where computation is wasted on already-stable or prematurely committed tokens."
+        "Introduces LESS, a training-free method designed to improve the efficiency of Diffusion Language Models (dLLMs).",
+        "Addresses a key limitation of dLLMs: inefficient sampling procedures that waste computation on stable or prematurely committed tokens.",
+        "dLLMs are presented as a promising alternative to traditional autoregressive decoding due to their ability to allow parallel token updates and bidirectional conditioning."
       ]
     },
     {
-      "id": 87,
+      "id": 77,
+      "title": "A backdoor in a LinkedIn job offer",
+      "url": "https://roman.pt/posts/linkedin-backdoor/",
+      "source": "Lobsters",
+      "author": "roman.pt via hoistbypetard",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The story concerns a security vulnerability or 'backdoor' discovered within a LinkedIn job offer context.",
+        "This suggests a potential risk related to phishing, credential harvesting, or malicious recruitment practices on the platform.",
+        "The topic is relevant to cybersecurity and professional networking platforms, indicating a moderate but important security issue."
+      ]
+    },
+    {
+      "id": 82,
+      "title": "How memory safety CVEs differ between Rust and C/C++",
+      "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
+      "source": "Lobsters",
+      "author": "kobzol.github.io via nrposner",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The article compares memory safety vulnerabilities (CVEs) in Rust versus C/C++.",
+        "It addresses how the design philosophies of these two languages impact the nature of memory bugs.",
+        "This is relevant for developers and security professionals concerned with systems programming security."
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Why the Fable 5 Crisis Proves Your AI Context Layer Can't Live Inside the Model",
+      "url": "https://dev.to/jon_at_backboardio/why-the-fable-5-crisis-proves-your-ai-context-layer-cant-live-inside-the-model-2n6d",
+      "source": "Dev.to",
+      "author": "jon_at_backboardio",
+      "timestamp": "2026-06-16T14:41:02Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The article discusses the 'Fable 5 Crisis' as a case study.",
+        "It argues against embedding AI context layers directly within the core model.",
+        "The central theme is the separation of intelligence (model) from memory (context layer)."
+      ]
+    },
+    {
+      "id": 89,
       "title": "BrowserAct vs Playwright: Where Test Automation Hits Real-World Anti-Bot Friction (Hands-On Comparison)",
       "url": "https://dev.to/hadil/browseract-vs-playwright-where-test-automation-hits-real-world-anti-bot-friction-hands-on-432l",
       "source": "Dev.to",
@@ -695,9 +653,23 @@
       "timestamp": "2026-06-16T10:02:23Z",
       "ai_score": 7,
       "bullet_points": [
-        "Compares two tools, BrowserAct and Playwright, in the context of real-world anti-bot challenges.",
-        "Addresses the common gap between local testing success and CI/production environment failures due to bot detection.",
+        "Compares BrowserAct and Playwright specifically in the context of real-world anti-bot detection.",
+        "Addresses the common development challenge of tests passing locally but failing in CI due to bot detection.",
         "Provides a hands-on comparison relevant to QA engineers and automation practitioners."
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Your AI Provider Is a Single Point of Failure",
+      "url": "https://dev.to/aws/your-ai-provider-is-a-single-point-of-failure-26i2",
+      "source": "Dev.to",
+      "author": "maishsk",
+      "timestamp": "2026-06-16T14:25:48Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The story discusses regulatory scrutiny of major AI providers.",
+        "The U.S. Commerce Department reportedly sent a letter to Anthropic.",
+        "The topic touches upon the risk of single points of failure within AI infrastructure."
       ]
     }
   ]
