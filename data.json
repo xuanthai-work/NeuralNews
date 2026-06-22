@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-22T11:27:11.474716",
+  "generated_at": "2026-06-22T16:21:57.959364",
   "total_stories": 41,
   "sources": [
-    "arXiv AI",
+    "arXiv NLP",
     "Lobsters",
     "Hacker News",
-    "Ollama",
+    "Hugging Face Benchmarks",
     "Ars Technica",
     "The Verge",
-    "arXiv NLP",
-    "Hugging Face Benchmarks",
-    "arXiv Machine Learning",
-    "Dev.to"
+    "arXiv AI",
+    "Dev.to",
+    "Ollama",
+    "arXiv Machine Learning"
   ],
   "stories": [
     {
@@ -23,9 +23,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It is categorized under core NLP/ML topics like 'transformers' and 'text-generation'.",
-        "The presence of 'llama' indicates relevance to the latest generation of large language models."
+        "The story highlights the Meta-Llama-3-8B model, a significant LLM from Meta.",
+        "It is featured on Hugging Face Benchmarks, indicating its community relevance and performance tracking.",
+        "The context involves standard NLP pipelines (text-generation) and common ML formats (transformers, safetensors)."
       ]
     },
     {
@@ -37,23 +37,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
-        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
-        "The model is associated with key ML technologies like transformers and safetensors."
-      ]
-    },
-    {
-      "id": 31,
-      "title": "Microsoft discovers new lightweight backdoor that steals cryptocurrency",
-      "url": "https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/",
-      "source": "Ars Technica",
-      "author": "Dan Goodin",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Microsoft has identified a new malware strain called Crypto Clipper.",
-        "The malware is designed to steal cryptocurrency and spreads via USB drives.",
-        "Crypto Clipper utilizes Tor for its communication, suggesting advanced evasion techniques."
+        "The content highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It is categorized under key NLP/ML tags such as 'transformers', 'llama', and 'text-generation'.",
+        "This indicates active community interest and utilization of Meta's latest LLM releases within the ML ecosystem."
       ]
     },
     {
@@ -65,9 +51,23 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The research identifies that fine-tuning language models on insecure code can cause emergent misalignment due to poorly understood internal structures.",
-        "The study proposes and validates an 'actionable activation-space direction' capable of detecting this misalignment across multiple model architectures.",
-        "This direction achieved a high separation rate (99.6%) between aligned and misaligned activations in four different instruction-tuned model families."
+        "The research identifies that fine-tuning models on insecure code can cause emergent misalignment due to poorly understood internal structures.",
+        "The study proposes and validates an 'actionable activation-space direction' that correlates with this misalignment across multiple language model families.",
+        "This direction achieved a high separation rate (99.6%) between aligned and misaligned activations at the final layer of tested models."
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+      "url": "https://hustvl.github.io/Moebius/",
+      "source": "Hacker News",
+      "author": "DSemba",
+      "timestamp": "2026-06-22T13:53:02",
+      "ai_score": 9,
+      "bullet_points": [
+        "Moebius is a new image inpainting model.",
+        "It is notable for achieving 10B-level performance.",
+        "The model is relatively efficient, operating with only 0.2B parameters."
       ]
     },
     {
@@ -79,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
+        "The news highlights the trending status of the 'deepseek-ai/DeepSeek-R1' model on Hugging Face.",
         "The model is categorized for text generation and conversational AI tasks.",
-        "It is associated with key technologies like transformers and safetensors, indicating its technical nature."
+        "It utilizes standard ML components like transformers and safetensors."
       ]
     },
     {
@@ -94,8 +94,8 @@
       "ai_score": 8,
       "bullet_points": [
         "The story highlights the 'bigscience/bloom' model on Hugging Face Benchmarks.",
-        "It is categorized under key AI/ML technologies such as transformers and PyTorch.",
-        "The pipeline focuses on text-generation capabilities of the model."
+        "It is categorized under key NLP/ML tags like transformers and pytorch.",
+        "The pipeline demonstrated is 'text-generation', indicating a focus on generative AI capabilities."
       ]
     },
     {
@@ -107,9 +107,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama has achieved its peak performance on Apple Silicon using the MLX engine.",
-        "The performance improvements translate to higher quality model outputs and faster response times.",
-        "The updated engine also demonstrates reduced memory consumption when running models."
+        "Ollama has achieved its peak performance on Apple Silicon.",
+        "The performance boost is attributed to updates in the MLX engine.",
+        "Improvements include faster response times, higher output quality, and reduced memory usage."
       ]
     },
     {
@@ -121,9 +121,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama now integrates MLX, Apple's native machine learning framework.",
-        "This integration aims to provide the fastest performance for running Ollama on Apple Silicon.",
-        "The feature is currently available in a preview release."
+        "Ollama, a popular local LLM runner, has integrated support for MLX.",
+        "This integration specifically targets Apple Silicon hardware for optimized performance.",
+        "The feature is currently available in a preview build, indicating active development."
       ]
     },
     {
@@ -135,79 +135,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, ensuring all processing runs on the user's own device.",
+        "OpenClaw is a personal AI assistant designed to integrate with messaging apps.",
+        "It utilizes local AI coding agents, allowing all processing to run on the user's own device.",
         "The core value proposition is providing private, on-device AI assistance for coding tasks."
       ]
     },
     {
-      "id": 13,
-      "title": "ollama launch",
-      "url": "https://ollama.com/blog/launch",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Ollama introduces a new command to streamline the setup and execution of coding tools.",
-        "It allows users to run tools like Claude Code, OpenCode, and Codex using both local and cloud models.",
-        "A key feature is its simplicity, requiring no environment variables or configuration files."
-      ]
-    },
-    {
-      "id": 22,
-      "title": "The Atlantic created a searchable database of the music used to train AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
-      "source": "The Verge",
-      "author": "Terrence O’Brien",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The Atlantic has made four datasets of music used to train AI models publicly searchable.",
-        "Two of the discovered music datasets are massive, containing 12 million and 9 million tracks respectively.",
-        "This development highlights the transparency and scale of data fueling modern AI training."
-      ]
-    },
-    {
-      "id": 27,
-      "title": "The UK will scan asylum-seekers’ faces for age checks—despite knowing the tech is flawed",
-      "url": "https://arstechnica.com/tech-policy/2026/06/the-uk-will-scan-asylum-seekers-faces-for-age-checks-despite-knowing-the-tech-is-flawed/",
+      "id": 29,
+      "title": "How Anthropic may have talked itself into an AI export ban",
+      "url": "https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/",
       "source": "Ars Technica",
-      "author": "Matt Burgess, Maddy Varner, May Bulman, Gabriel Geiger, WIRED.com",
+      "author": "Clara Murray, Financial Times",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The UK government plans to use facial scanning technology for age verification of asylum seekers.",
-        "Independent tests have demonstrated significant risks of life-altering errors with the specific age-verification technology being used.",
-        "The implementation proceeds despite known flaws in the technology, raising major ethical and accuracy concerns."
-      ]
-    },
-    {
-      "id": 32,
-      "title": "FDA advisors unanimously vote to approve Moderna's mRNA after agency drama",
-      "url": "https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/",
-      "source": "Ars Technica",
-      "author": "Beth Mole",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The FDA advisors unanimously approved Moderna's mRNA vaccine.",
-        "The approval followed a period of 'agency drama,' including a refusal by a Trump official to review the vaccine.",
-        "This represents a significant milestone in the regulatory approval process for mRNA technology."
-      ]
-    },
-    {
-      "id": 33,
-      "title": "As China looms, Taiwan makes more drones for defense and the US military",
-      "url": "https://arstechnica.com/ai/2026/06/as-china-looms-taiwan-makes-more-drones-for-defense-and-the-us-military/",
-      "source": "Ars Technica",
-      "author": "Jeremy Hsu",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Taiwan is increasing its drone production for national defense.",
-        "The increased defense spending in Taiwan is expected to have positive economic spillover effects overseas.",
-        "The development is framed against the backdrop of geopolitical tensions involving China."
+        "Anthropic's public warnings about advanced AI risks are reportedly more pronounced than those from OpenAI.",
+        "The article speculates that Anthropic's cautionary stance may be influencing or leading to potential AI export restrictions.",
+        "This highlights a growing divergence in how major AI labs are framing the societal and regulatory risks of frontier models."
       ]
     },
     {
@@ -219,9 +163,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "FlowEdit addresses the static nature of high-quality flow-matching TTS models, which fail on out-of-vocabulary words post-deployment.",
-        "It introduces a lifelong adaptation framework that learns pronunciation corrections via latent conditioning edits instead of full model retraining.",
-        "The method optimizes token-level perturbations within the text embedding space when corrective feedback is provided."
+        "FlowEdit addresses the static nature of state-of-the-art flow-matching TTS systems, which fail on out-of-vocabulary words post-deployment.",
+        "It introduces a lifelong adaptation framework that allows pronunciation corrections without retraining the entire model.",
+        "The method achieves this by learning corrections as latent conditioning edits within the text embedding space, rather than updating model weights."
       ]
     },
     {
@@ -234,8 +178,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Introduces 'StylisticBias,' a new benchmark to evaluate attribute-level social bias in Multimodal Large Language Models (MLLMs).",
-        "Addresses the critical gap in understanding how visual cues influence MLLM judgments about people in consequential settings.",
-        "The benchmark uses controlled photorealistic faces to separate appearance effects from inherent identity differences."
+        "Addresses a critical gap in current research by separating appearance-based bias from inherent identity differences in MLLMs.",
+        "Focuses on how subtle visual cues influence how MLLMs judge people, highlighting a significant societal risk in deployed AI."
       ]
     },
     {
@@ -247,9 +191,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Proposes a novel LLM alignment technique using implicit user feedback instead of relying solely on expensive explicit human feedback.",
-        "Addresses two key limitations of current alignment methods: the rarity of explicit feedback and the failure to utilize valuable implicit user signals.",
-        "Leverages implicit feedback, drawing a parallel to the data advantages held by major internet platforms."
+        "Proposes a new LLM alignment method that utilizes implicit user feedback instead of relying solely on expensive explicit human feedback.",
+        "Addresses the limitations of current alignment techniques, specifically the high cost and scarcity of explicit preference annotations.",
+        "Leverages implicit feedback, drawing a parallel to how large internet companies build their economic moats."
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Codex logging bug may write TBs to local SSDs",
+      "url": "https://github.com/openai/codex/issues/28224",
+      "source": "Hacker News",
+      "author": "vantareed",
+      "timestamp": "2026-06-22T07:30:17",
+      "ai_score": 8,
+      "bullet_points": [
+        "A potential logging bug exists within Codex (an AI model).",
+        "The bug has the critical vulnerability of potentially writing terabytes (TBs) of data to local SSDs.",
+        "This represents a significant security flaw in a major AI development tool."
       ]
     },
     {
@@ -261,9 +219,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release brings improved performance and enhanced GGUF model compatibility.",
-        "The update leverages llama.cpp to broaden model support across various hardware.",
-        "It augments Ollama's MLX engine, specifically improving support on Apple silicon."
+        "Ollama 0.30 introduces performance improvements and enhanced GGUF model compatibility.",
+        "The update leverages llama.cpp to broaden model support across various hardware platforms.",
+        "It augments Ollama's MLX engine, specifically benefiting users on Apple silicon."
       ]
     },
     {
@@ -289,13 +247,41 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "OpenJarvis v1.0 is released, an open-source framework for personal AI agents.",
-        "The framework emphasizes a 'local-first' approach, allowing AI to run on user hardware.",
+        "OpenJarvis v1.0 is released, providing an open-source framework for personal AI agents.",
+        "The framework emphasizes a 'local-first' approach, allowing AI to run on user's own hardware.",
         "It features built-in support for Ollama, facilitating the use of local LLMs."
       ]
     },
     {
-      "id": 18,
+      "id": 13,
+      "title": "ollama launch",
+      "url": "https://ollama.com/blog/launch",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Ollama introduces a new command for running coding tools locally or in the cloud.",
+        "It supports various coding models, including Claude Code, OpenCode, and Codex.",
+        "A key feature is its simplicity, requiring no environment variables or config files."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Image generation (experimental)",
+      "url": "https://ollama.com/blog/image-generation",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Ollama now offers experimental image generation capabilities.",
+        "The feature is currently available for local execution on macOS.",
+        "Support for Windows and Linux platforms is planned for future releases."
+      ]
+    },
+    {
+      "id": 24,
       "title": "Polymarket reportedly paid people to post fake videos of themselves placing bets",
       "url": "https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets",
       "source": "The Verge",
@@ -303,23 +289,37 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Polymarket, a prediction market platform, is reportedly paying users to create deceptive content.",
-        "The scheme involves filming fake bets and celebrating fabricated wins on social media.",
+        "Polymarket, a prediction market platform, is accused of paying users to create deceptive content.",
+        "The scheme involved individuals filming fake bets and celebrating fabricated wins on social media.",
         "The Wall Street Journal investigation uncovered over 1,100 such deceptive clips."
       ]
     },
     {
-      "id": 34,
-      "title": "NASA asks Northrop Grumman to stop working on lunar HALO module",
-      "url": "https://arstechnica.com/space/2026/06/nasas-1-1-billion-gateway-habitation-module-is-unlikely-to-be-used-for-something-else/",
+      "id": 26,
+      "title": "A US military exercise in space got underway with barely anyone noticing",
+      "url": "https://arstechnica.com/space/2026/06/a-us-military-exercise-in-space-got-underway-with-barely-anyone-noticing/",
       "source": "Ars Technica",
-      "author": "Eric Berger",
+      "author": "Stephen Clark",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "NASA has directed Northrop Grumman to halt work on the lunar HALO module.",
-        "The decision involves reassigning the majority of the affected employees to other ongoing programs.",
-        "This signals a potential shift or change in NASA's lunar mission priorities or contractor assignments."
+        "The US Space Force is focused on drastically accelerating satellite fielding timelines.",
+        "The goal is to reduce deployment time from years down to mere weeks, days, or hours.",
+        "The initiative is part of a broader effort to modernize and speed up military space capabilities."
+      ]
+    },
+    {
+      "id": 32,
+      "title": "The UK will scan asylum-seekers’ faces for age checks—despite knowing the tech is flawed",
+      "url": "https://arstechnica.com/tech-policy/2026/06/the-uk-will-scan-asylum-seekers-faces-for-age-checks-despite-knowing-the-tech-is-flawed/",
+      "source": "Ars Technica",
+      "author": "Matt Burgess, Maddy Varner, May Bulman, Gabriel Geiger, WIRED.com",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The UK government plans to use facial scanning technology to verify the ages of asylum seekers.",
+        "The technology in question has been shown in tests to carry significant risks of making life-altering errors.",
+        "The decision to proceed with the flawed technology despite known risks is a major point of contention."
       ]
     },
     {
@@ -331,9 +331,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research investigates the transparency of DiffusionGemma, an LLM utilizing a continuous latent space for computation.",
-        "Model reasoning transparency is highlighted as crucial for debugging, mitigating misuse, and ensuring alignment in AI.",
-        "Transparency is decomposed into 'variable transparency' (understanding intermediate states) and algorithmic aspects."
+        "The research addresses the critical need for LLM reasoning transparency to ensure model safety and debug behavior.",
+        "It investigates whether DiffusionGemma's computation in a continuous latent space impacts its reasoning transparency.",
+        "Transparency is decomposed into two components: variable transparency (understanding intermediate states) and algorithmic transparency."
       ]
     },
     {
@@ -345,9 +345,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the lack of clarity regarding how individual words influence the acoustic output in style-captioned Text-to-Speech (TTS) systems.",
-        "It introduces cross-attention attribution, adapting the DAAM framework to the speech domain for the first time, to analyze this influence.",
-        "The method generates per-token heatmaps across multiple layers of speech diffusion models to improve controllability in expressive TTS."
+        "The research addresses the lack of clarity on how individual words influence acoustic output in style-captioned Text-to-Speech (TTS) systems.",
+        "It introduces cross-attention attribution, adapting the DAAM framework to the speech domain for the first time.",
+        "The method generates per-token heatmaps across multiple layers of speech diffusion models to improve TTS controllability."
       ]
     },
     {
@@ -360,8 +360,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces LedgerAgent, a framework designed to manage structured task states for AI agents.",
-        "Addresses a key limitation in current agents where state information (facts, constraints) is implicitly reconstructed from the prompt across turns.",
-        "Focuses specifically on improving policy adherence and state management in complex domains like customer service."
+        "Addresses a key limitation in current agents where state (facts, constraints, conditions) must be reconstructed from the prompt each turn.",
+        "Focuses on improving policy-adherence in complex domains like customer service by explicitly tracking state across tool calls."
       ]
     },
     {
@@ -373,9 +373,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "DeepSWIP addresses the limitation of standard associational inference in neurosymbolic systems like DeepProbLog.",
-        "It introduces a single-world counterfactual semantics to enable causal reasoning and interventions within these systems.",
-        "The method utilizes neural materialization to translate fixed-context neural predicates into standard ProbLog choices for counterfactual computation."
+        "DeepSWIP addresses a limitation in neurosymbolic systems (like DeepProbLog) by introducing counterfactual reasoning capabilities.",
+        "The system provides a 'single-world counterfactual semantics' to handle causal semantics for interventions and evidence.",
+        "It achieves this by using neural materialization to map fixed-context neural predicates to standard ProbLog choices and applying SWIPs."
       ]
     },
     {
@@ -387,9 +387,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces SARLO-80, a new large-scale dataset designed to bridge the gap between optical and Synthetic Aperture Radar (SAR) data.",
-        "Addresses a critical limitation in multimodal AI by providing high-resolution SAR data that preserves complex-valued measurements and native acquisition geometry.",
-        "Aims to enable more physically grounded multimodal learning for foundation models, moving beyond current low-resolution, intensity-only SAR benchmarks."
+        "SARLO-80 introduces a new, large-scale dataset designed to bridge the gap between optical and Synthetic Aperture Radar (SAR) data.",
+        "Current SAR datasets are limited, often using low-resolution, intensity-only products that lack complex-valued measurements and native acquisition geometry.",
+        "The dataset aims to enable more physically grounded multimodal learning for foundation models in remote sensing applications."
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Sovereign Execution Brokers: Enforcing Certificate-Bound Authority in Agentic Control Planes",
+      "url": "https://arxiv.org/abs/2606.20520v1",
+      "source": "arXiv AI",
+      "author": "Deying Yu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the security gap where autonomous agents' non-deterministic reasoning processes control production mutation.",
+        "Introduces the Sovereign Execution Broker (SEB) as a runtime enforcement boundary for certified authority.",
+        "Moves beyond traditional identity-based access control by providing a mandatory enforcement point for certified actions."
       ]
     },
     {
@@ -402,8 +416,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The paper introduces Multi-LCB, an extension of the LiveCodeBench (LCB) benchmark.",
-        "LCB is a recognized benchmark for evaluating LLMs on code generation, known for its contamination-aware design.",
-        "Multi-LCB addresses LCB's limitation by expanding evaluation capabilities beyond Python to multiple programming languages."
+        "LCB is a recognized tool for evaluating LLMs on code generation, currently limited to Python.",
+        "Multi-LCB aims to address this limitation by extending the benchmark to support multiple programming languages, testing LLM generalization."
       ]
     },
     {
@@ -415,7 +429,7 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper investigates the transparency of DiffusionGemma, an LLM that operates significantly in a continuous latent space.",
+        "The paper investigates the transparency of DiffusionGemma, an LLM utilizing a continuous latent space for computation.",
         "Model reasoning transparency is highlighted as crucial for debugging, mitigating misuse, and ensuring alignment in LLMs.",
         "Transparency is decomposed into 'variable transparency' (understanding intermediate states) and algorithmic aspects."
       ]
@@ -429,9 +443,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'privacy via predictability' as a new framework to measure privacy leakage.",
-        "Addresses the limitations of traditional Differential Privacy (DP) by moving beyond worst-case guarantees.",
-        "Explicitly incorporates attacker knowledge, compromised data portions, and query families into the privacy model."
+        "Introduces 'privacy via predictability' as a fine-grained alternative to traditional Differential Privacy (DP).",
+        "Addresses the costly worst-case privacy-accuracy tradeoff inherent in standard DP mechanisms.",
+        "Explicitly incorporates attacker knowledge, compromised data portions, and query families into the privacy measure."
       ]
     },
     {
@@ -443,8 +457,8 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses a gap in LLM serving systems by focusing on low-latency, small-batch, on-device scenarios, contrasting with high-throughput KV caching.",
-        "Introduces 'Execution-State Capsules' for checkpointing and restoring the full execution state, not just the KV cache.",
+        "Addresses a gap in current LLM serving by focusing on low-latency, small-batch, on-device scenarios, contrasting with high-throughput systems.",
+        "Proposes 'Execution-State Capsules' to manage the full execution state, not just the traditional KV cache, which is crucial for interactive agents.",
         "Targets use cases like interactive LLM agents, speech systems, and robot policies that require frequent branching and tight responsiveness budgets."
       ]
     },
@@ -457,9 +471,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses a key limitation of LLM coding agents: their lack of high-level operational knowledge about a software repository.",
-        "The paper investigates the effectiveness of using supplementary context files (like AGENTS.md) to guide coding agents.",
-        "It proposes a 'Probe-and-Refine' tuning method to improve agent performance by incorporating repository guidance."
+        "The paper addresses the need for LLM-based coding agents to possess high-level operational knowledge about a software repository beyond just the code itself.",
+        "It investigates the effectiveness of using supplementary context files (like AGENTS.md) to guide these coding agents, noting existing conflicting research.",
+        "The proposed method involves 'Probe-and-Refine Tuning' to improve how agents utilize repository guidance for better coding performance."
       ]
     },
     {
@@ -471,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces LedgerAgent, a framework designed to manage structured task states for policy-adherent AI agents.",
-        "Addresses a limitation in standard agents where task state (facts, constraints, conditions) must be reconstructed from the prompt each turn.",
-        "Focuses on improving reliability in complex domains like customer service by explicitly tracking state across tool calls and policy adherence."
+        "Introduces LedgerAgent, a framework designed to give policy-adherent agents a structured state for tool-calling.",
+        "Addresses a limitation in standard agents where task state (facts, constraints, conditions) is implicitly reconstructed from the prompt across turns.",
+        "Focuses on improving reliability in complex domains like customer service by explicitly managing state alongside tool interactions and policy adherence."
       ]
     },
     {
@@ -485,9 +499,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces RefRad2D, a large-scale bilingual (German/English) dataset (1.2M pairs) for radiology image-text tasks.",
-        "Proposes RefRad2D to enable training of Spatially Grounded Vision-Language Models (VLMs) without manual spatial annotations.",
-        "The model, RadGrounder, jointly performs report generation, visual question answering (VQA), and spatial grounding using LLM-based curation."
+        "Introduces RefRad2D, a large-scale, bilingual (German/English) dataset of 1.2M CT/MR image-text pairs for radiology.",
+        "Develops RefRad2D using automated curation and LLM-based methods to avoid manual spatial annotations.",
+        "Presents RadGrounder, a model capable of joint report generation, VQA, and spatial grounding in medical imaging."
       ]
     },
     {
@@ -499,9 +513,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the intersection of hate speech and misinformation, a gap in current NLP research.",
-        "Proposes a new dataset ('CATCH-ME') to provide high-quality, contextually annotated examples for training LLMs.",
-        "Aims to improve the generation of effective counterspeech by overcoming the vagueness of zero-shot models."
+        "Addresses the overlap between hate speech and misinformation, a common challenge in online discourse.",
+        "Proposes a new dataset, 'CATCH-ME if you RAG,' to provide high-quality, contextually annotated examples for counterspeech generation.",
+        "Aims to improve LLM performance in generating non-repetitive and effective counterspeech against complex, multi-turn exchanges."
       ]
     },
     {
@@ -513,9 +527,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Focuses on token-oriented inference optimization, a critical area for making large models scalable and cost-effective.",
-        "Proposes a novel four-layer technical architecture: Multi-model Fusion, Model Optimization, Compute-Model Fusion, and Compute-Network-Model Fusion.",
-        "Provides a systematic review of key technologies and current industry status within these optimization layers."
+        "The paper addresses the critical need for optimizing large model inference for scalable and low-cost deployment.",
+        "It introduces a novel four-layer technical architecture for token-oriented inference optimization.",
+        "The architecture comprises Multi-model Fusion, Model Optimization, Compute-Model Fusion, and Compute-Network-Model Fusion."
       ]
     },
     {
@@ -527,9 +541,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces PsyScore, a framework designed to improve Automated Essay Scoring (AES) by integrating psychological principles.",
-        "Addresses the limitation of current systems where scoring and feedback are treated separately, often lacking personalization.",
-        "The framework aims to provide both reliable assessment and actionable, proficiency-level-aware instructional feedback."
+        "Introduces PsyScore, a framework designed to integrate psychometrics into Automated Essay Scoring (AES).",
+        "Addresses the limitation of current systems where scoring and feedback are treated separately, often lacking learner-specific context.",
+        "Aims to provide both reliable assessment and actionable, proficiency-level-aware instructional feedback using LLMs."
       ]
     },
     {
@@ -541,27 +555,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces the Meaning Intelligence Framework (MIF), a nine-dimension schema for analyzing Nigerian public discourse.",
-        "Argues that current AI models fail on Nigerian languages due to 'context failure,' not just translation issues.",
-        "Critiques existing benchmarks (like NaijaSenti) for oversimplifying sentiment classification to a three-way polarity task."
+        "Introduces the Meaning Intelligence Framework (MIF) to analyze Nigerian public discourse.",
+        "MIF is a nine-dimension schema designed to distinguish true communicative intent from surface sentiment.",
+        "Highlights that AI failure in Nigerian languages is primarily due to context failure, not just translation issues."
       ]
     },
     {
-      "id": 72,
-      "title": "Codex logging bug may write TBs to local SSDs",
-      "url": "https://github.com/openai/codex/issues/28224",
-      "source": "Hacker News",
-      "author": "vantareed",
-      "timestamp": "2026-06-22T07:30:17",
-      "ai_score": 7,
-      "bullet_points": [
-        "A potential logging bug exists within Codex.",
-        "The bug has the capability to write massive amounts of data (TBs) to local SSDs.",
-        "This represents a significant security vulnerability in a major AI tool."
-      ]
-    },
-    {
-      "id": 86,
+      "id": 88,
       "title": "When Software Started Writing Software: A Developer’s History of AI",
       "url": "https://dev.to/adamthedeveloper/when-software-started-writing-software-a-developers-history-of-ai-4p9n",
       "source": "Dev.to",
@@ -571,21 +571,21 @@
       "bullet_points": [
         "The article discusses the historical shift in software development driven by AI.",
         "It addresses the noticeable impact of AI on modern job descriptions for developers.",
-        "The content is framed as a personal reflection on the evolution of software creation."
+        "The content offers a personal narrative perspective on the integration of AI into the industry."
       ]
     },
     {
-      "id": 91,
-      "title": "Phase 1: Document Ingestion - The Hidden Complexity Before Embeddings",
-      "url": "https://dev.to/surajrkhonde/phase-1-document-ingestion-the-hidden-complexity-before-embeddings-4d32",
+      "id": 92,
+      "title": "The AI Security Gap: Why your autonomous agents are completely unprotected",
+      "url": "https://dev.to/magopredator/the-ai-security-gap-why-your-autonomous-agents-are-completely-unprotected-132",
       "source": "Dev.to",
-      "author": "surajrkhonde",
-      "timestamp": "2026-06-22T10:46:44Z",
+      "author": "magopredator",
+      "timestamp": "2026-06-22T16:01:35Z",
       "ai_score": 7,
       "bullet_points": [
-        "The article addresses a common failure point in Retrieval-Augmented Generation (RAG) systems: the initial document ingestion phase.",
-        "It highlights that the complexity often lies in preprocessing and ingestion, not just the embedding generation itself.",
-        "This suggests that robust RAG implementation requires deep attention to data quality and ingestion pipelines before advanced ML steps."
+        "Focuses on the critical security vulnerabilities inherent in autonomous AI agents.",
+        "Highlights the current lack of robust protection mechanisms for these agents.",
+        "Addresses a growing, niche, but highly relevant area of AI safety and security."
       ]
     }
   ]
