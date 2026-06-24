@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-24T13:58:48.964009",
-  "total_stories": 33,
+  "generated_at": "2026-06-24T19:22:44.892170",
+  "total_stories": 41,
   "sources": [
-    "arXiv NLP",
+    "Lobsters",
+    "Ollama",
+    "Hugging Face Benchmarks",
+    "The Verge",
+    "arXiv AI",
     "Ars Technica",
     "arXiv Machine Learning",
-    "Lobsters",
-    "Hugging Face Benchmarks",
-    "arXiv AI",
-    "The Verge",
     "Dev.to",
-    "Ollama",
-    "Hacker News"
+    "Hacker News",
+    "arXiv NLP"
   ],
   "stories": [
     {
@@ -23,9 +23,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The story highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It is categorized under key NLP/ML tags including 'transformers', 'llama', and 'text-generation'.",
-        "This indicates ongoing community interest and performance tracking for a major LLM model."
+        "The story highlights the Meta-Llama-3-8B model, a significant large language model.",
+        "It is tracked on Hugging Face Benchmarks, indicating its community relevance in the ML ecosystem.",
+        "The associated tags confirm its use in text-generation tasks using transformer architectures."
       ]
     },
     {
@@ -38,8 +38,22 @@
       "ai_score": 9,
       "bullet_points": [
         "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
-        "It pertains to the core field of large language models (LLMs) and text generation.",
-        "The associated tags indicate its relevance within the transformers and safetensors ecosystem."
+        "It pertains to the core areas of transformers and text-generation, indicating relevance in the LLM space.",
+        "The model is associated with Meta's Llama family, a significant player in the AI industry."
+      ]
+    },
+    {
+      "id": 65,
+      "title": "OpenAI unveils its first custom chip, built by Broadcom",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "source": "Hacker News",
+      "author": "jamdesk",
+      "timestamp": "2026-06-24T17:47:00",
+      "ai_score": 9,
+      "bullet_points": [
+        "OpenAI has announced the development of its first custom AI chip, named 'Jalapeno'.",
+        "The chip was developed in collaboration with Broadcom, indicating a strategic hardware partnership.",
+        "This move signals a significant industry trend toward specialized, in-house silicon for optimizing AI inference workloads."
       ]
     },
     {
@@ -51,9 +65,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The story highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
-        "The model is categorized for text generation and conversational AI tasks.",
-        "It is associated with the deepseek_v3 architecture and uses standard ML formats like transformers and safetensors."
+        "The story highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
+        "The model is categorized under text-generation and conversational AI pipelines.",
+        "It utilizes common ML frameworks and formats like transformers and safetensors."
       ]
     },
     {
@@ -65,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the DeepSeek-V4-Pro model on Hugging Face Benchmarks.",
-        "The model is categorized under text-generation and conversational AI, indicating its primary function.",
-        "It is associated with key ML technologies like transformers and safetensors."
+        "The story highlights the trending status of the DeepSeek-V4-Pro model on Hugging Face Benchmarks.",
+        "It is categorized under text-generation and conversational AI, indicating its primary function.",
+        "The presence of tags like 'transformers' and 'safetensors' confirms its relevance within the modern LLM ecosystem."
       ]
     },
     {
@@ -79,9 +93,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, is integrating MLX for enhanced performance.",
+        "Ollama, a popular local LLM runner, is integrating MLX for performance gains.",
         "The integration specifically targets Apple Silicon, optimizing AI workloads on Apple hardware.",
-        "This is presented as a preview, indicating an upcoming performance boost for local AI deployment."
+        "This is presented as a preview, indicating early-stage but significant performance improvements for local AI."
       ]
     },
     {
@@ -93,13 +107,69 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It connects users to local AI coding agents, emphasizing on-device processing.",
-        "The core value proposition is running AI agents entirely on the user's own device for privacy and control."
+        "OpenClaw is a personal AI assistant designed for local execution.",
+        "It integrates messaging applications with local AI coding agents.",
+        "The key feature is running all AI processes entirely on the user's own device for privacy/control."
       ]
     },
     {
-      "id": 25,
+      "id": 13,
+      "title": "ollama launch",
+      "url": "https://ollama.com/blog/launch",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Ollama introduces a new command for easily setting up and running coding tools.",
+        "It supports various models, including Claude Code, OpenCode, and Codex, locally or in the cloud.",
+        "A key feature is its simplicity, requiring no environment variables or configuration files."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Google is finally opening the Play Store to outside payments",
+      "url": "https://www.theverge.com/policy/956296/google-play-app-store-alternative-billing-fee-antitrust",
+      "source": "The Verge",
+      "author": "Richard Lawler",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Google is beginning to implement changes allowing outside payment options on the Play Store.",
+        "This move comes amidst ongoing legal scrutiny from Epic's antitrust lawsuit regarding Google's Android monopoly.",
+        "The changes relate to billing structures for developers, potentially impacting the standard 30% commission."
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Figma now has AI motion graphics and shader tools",
+      "url": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
+      "source": "The Verge",
+      "author": "Jess Weatherbed",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Figma introduced new AI-powered motion graphics and shader tools at its Config conference.",
+        "The updates aim to automate tedious creative tasks and help designers realize more complex ideas.",
+        "The platform is being reimagined to be optimized for full-stack development, integrating AI agents and tools."
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Google starts lowering Play Store fees, making good on Epic Games settlement",
+      "url": "https://arstechnica.com/google/2026/06/google-starts-lowering-play-store-fees-making-good-on-epic-games-settlement/",
+      "source": "Ars Technica",
+      "author": "Ryan Whitwam",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Google is reducing the fees charged on the Play Store.",
+        "This change is partly in response to the Epic Games settlement.",
+        "The fee reduction will begin in select markets this year, with a global rollout planned for 2027."
+      ]
+    },
+    {
+      "id": 32,
       "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
       "url": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/",
       "source": "Ars Technica",
@@ -107,23 +177,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The White House has accelerated the deadline for transitioning to quantum-resistant cryptography.",
-        "The urgency stems from national security concerns regarding current crypto systems being vulnerable to quantum computing attacks.",
-        "This signals a major, government-mandated shift in cybersecurity infrastructure adoption."
-      ]
-    },
-    {
-      "id": 28,
-      "title": "Oracle’s 21,000 layoffs help drive its debt-fueled AI investments",
-      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/",
-      "source": "Ars Technica",
-      "author": "Scharon Harding",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Oracle is undertaking massive, debt-fueled investments in data center infrastructure to support its AI initiatives.",
-        "The company is implementing significant workforce reductions (21,000 layoffs) concurrently with its major AI spending push.",
-        "The story highlights the financial strategy of large tech firms balancing operational costs (layoffs) with aggressive future investment (AI infrastructure)."
+        "The White House has accelerated the timeline for transitioning away from current, quantum-vulnerable encryption methods.",
+        "The urgency is driven by significant national security risks associated with unpatched cryptographic systems.",
+        "The directive mandates the adoption of post-quantum cryptography (PQC) within a shortened timeframe."
       ]
     },
     {
@@ -135,9 +191,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces 'InSight,' a framework designed to overcome the limitations of Vision-Language-Action (VLA) models in skill acquisition.",
-        "The core innovation is making VLAs 'steerable' at the primitive-action level (e.g., specific actions like 'lift upward').",
-        "The framework uses an automated segmentation pipeline to partition demonstrations into labeled, actionable primitives."
+        "Introduces 'InSight,' a framework designed to enable autonomous skill acquisition in Vision-Language-Action (VLA) models.",
+        "Addresses the limitation of current VLAs being restricted by their training data by making them 'steerable' at the primitive-action level.",
+        "The framework utilizes an automated segmentation pipeline to partition demonstrations into labeled, actionable primitives (e.g., 'move gripper to the bowl')."
       ]
     },
     {
@@ -149,9 +205,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "FLUX3D introduces a new method for high-fidelity 3D Gaussian generation.",
-        "It addresses limitations in current sparse voxel representations used for image-to-3DGS, specifically detail loss.",
-        "The method tackles bottlenecks by moving beyond discriminative 2D features and improving diffusion transformer integration."
+        "FLUX3D addresses limitations in high-fidelity 3D Gaussian generation by improving sparse voxel representation.",
+        "The research tackles two bottlenecks: the use of semantic 2D features that suppress fine visual details, and limitations in standard diffusion transformers.",
+        "The method aims to enhance the preservation of high-frequency visual details during the image-to-3D Gaussian Splatting process."
       ]
     },
     {
@@ -163,23 +219,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses the critical gap in training data curation for broadly capable agentic AI models.",
-        "Introduces OpenThoughts-Agent (OT-Agent), a fully open data curation pipeline for these models.",
-        "Moves beyond single-benchmark training efforts (like SWE-Smith or SERA) to promote generalization across diverse agentic tasks."
-      ]
-    },
-    {
-      "id": 39,
-      "title": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
-      "url": "https://arxiv.org/abs/2606.24849v1",
-      "source": "arXiv AI",
-      "author": "Zhenan Sun",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Addresses a key limitation in current Text-to-Image models: poor structure-aware prompt following (e.g., object counts, spatial relations).",
-        "Proposes IV-CoT (Implicit Visual Chain-of-Thought) to decouple structural planning from appearance rendering.",
-        "Aims to improve the fidelity and controllability of unified multi-modal large language models (MLLMs) in image generation."
+        "Addresses a critical gap in AI: the lack of publicly known methods for curating diverse training data for general-purpose agentic models.",
+        "Introduces OpenThoughts-Agent (OT-Agent), a fully open data curation pipeline designed to train models capable of generalizing across various agentic tasks.",
+        "Contrasts with existing efforts (like SWE-Smith, SERA) which often focus narrowly on single benchmarks, highlighting the need for broader task coverage."
       ]
     },
     {
@@ -191,8 +233,8 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces 'InSight,' a framework designed to enable autonomous skill acquisition in Vision-Language-Action (VLA) models.",
-        "Addresses the limitation of existing VLAs by making them 'steerable' at the primitive-action level (e.g., 'lift upward').",
+        "Introduces 'InSight,' a framework designed to overcome the skill-limitation of Vision-Language-Action (VLA) models.",
+        "The core innovation is rendering VLAs 'steerable' at the primitive-action level (e.g., 'lift upward'), enabling autonomous skill acquisition.",
         "The framework utilizes an automated segmentation pipeline to partition demonstrations into labeled, actionable primitives."
       ]
     },
@@ -207,7 +249,21 @@
       "bullet_points": [
         "Introduces 'Grad Detect,' a novel gradient-based method for detecting hallucinations in Large Language Models (LLMs).",
         "The technique analyzes layer-wise gradient patterns during a single forward-backward pass at inference time.",
-        "Addresses the critical need for reliable LLM deployment in high-stakes applications by mitigating hallucination risks."
+        "Addresses a critical issue for LLM deployment, enhancing reliability in high-stakes applications."
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Krea 2: SOTA open-weights 12B image model",
+      "url": "https://www.krea.ai/blog/krea-2-technical-report",
+      "source": "Hacker News",
+      "author": "mattnewton",
+      "timestamp": "2026-06-23T15:31:21",
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduction of Krea 2, a new state-of-the-art (SOTA) image generation model.",
+        "The model utilizes an open-weights architecture, promoting community access and research.",
+        "It features a 12-billion parameter size, indicating a significant advancement in model capability."
       ]
     },
     {
@@ -219,9 +275,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama has achieved its peak performance on Apple Silicon.",
-        "The performance boost is attributed to updates in the MLX engine.",
-        "Improvements include faster response times, higher output quality, and reduced memory usage."
+        "Ollama has achieved its peak performance on Apple Silicon using the MLX engine.",
+        "The performance improvements result in higher quality model outputs.",
+        "The updated engine also provides faster response times and reduced memory usage."
       ]
     },
     {
@@ -233,9 +289,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release brings performance improvements and enhanced GGUF model compatibility.",
+        "Ollama 0.30 release introduces performance improvements and enhanced GGUF model compatibility.",
         "The update leverages llama.cpp to broaden model support across various hardware configurations.",
-        "It augments Ollama's MLX engine, particularly benefiting users on Apple silicon."
+        "It augments Ollama's MLX engine, specifically improving support on Apple silicon."
       ]
     },
     {
@@ -247,7 +303,7 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "NVIDIA has announced Nemotron 3 Ultra.",
+        "NVIDIA has introduced Nemotron 3 Ultra.",
         "The model is specifically designed for high-throughput reasoning tasks.",
         "It is optimized for supporting long-running agent workflows."
       ]
@@ -261,23 +317,65 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "OpenJarvis v1.0 is released, providing an open-source framework for personal AI agents.",
+        "OpenJarvis v1.0 is released, offering an open-source framework for personal AI agents.",
         "The key feature is the ability to run these AI agents locally on the user's own hardware.",
         "It features built-in support for Ollama, facilitating local LLM execution."
       ]
     },
     {
-      "id": 13,
-      "title": "ollama launch",
-      "url": "https://ollama.com/blog/launch",
-      "source": "Ollama",
-      "author": "unknown",
+      "id": 15,
+      "title": "GTA VI is a worrying sign for the future of physical games",
+      "url": "https://www.theverge.com/games/956389/grand-theft-auto-6-gta-digital-code-in-box-physical-games",
+      "source": "The Verge",
+      "author": "Jay Peters",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama introduces a new command for running coding tools locally or in the cloud.",
-        "It supports various coding models, including Claude Code, OpenCode, and Codex.",
-        "A key feature is its simplicity, requiring no environment variables or config files."
+        "GTA VI is launching on November 19th with a price tag of $79.99.",
+        "Physical copies of GTA VI will not include a game disc.",
+        "Physical editions will instead contain only a download code."
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Riot now lets you enable its anti-cheat when you want to",
+      "url": "https://www.theverge.com/games/956137/riot-games-vanguard-pre-check-anti-cheat-on-demand-valorant",
+      "source": "The Verge",
+      "author": "Jay Peters",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Riot Games is introducing an 'on-demand' option for its Vanguard anti-cheat software in League of Legends and Valorant.",
+        "This change allows players to opt into pre-boot security mechanisms rather than having the kernel-level driver run constantly.",
+        "The feature, called 'Vanguard Pre-Check,' requires players to have compatible hardware and actively choose to enable the protection."
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Elon Musk denies Tesla’s Autopilot caused crash that killed grandmother",
+      "url": "https://arstechnica.com/tech-policy/2026/06/elon-musk-denies-teslas-autopilot-caused-crash-that-killed-grandmother/",
+      "source": "Ars Technica",
+      "author": "Ashley Belanger",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Elon Musk has publicly denied that Tesla's Autopilot system was responsible for a fatal crash.",
+        "Tesla is reportedly accused of not adequately addressing pre-existing design flaws in the system.",
+        "The company's defense centers on the driver's actions, specifically blaming the driver for pressing the accelerator."
+      ]
+    },
+    {
+      "id": 39,
+      "title": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+      "url": "https://arxiv.org/abs/2606.24849v1",
+      "source": "arXiv AI",
+      "author": "Zhenan Sun",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses a key limitation in current Text-to-Image models: poor structure-aware prompt following (e.g., object counts, spatial relations).",
+        "Proposes Implicit Visual Chain-of-Thought (IV-CoT) to decouple structural planning from appearance rendering.",
+        "Aims to improve the fidelity and adherence to complex instructions in unified multi-modal large language models (MLLMs)."
       ]
     },
     {
@@ -289,9 +387,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the limitation of standard guarantees for general AI agents operating in complex environments ('big-world regime').",
-        "It proves that general agents cannot be universally capable, invalidating traditional worst-case analysis.",
-        "A new methodology, 'structural certification,' is introduced as a transition-local framework to certify agent capabilities."
+        "The paper addresses the limitation of standard guarantees for general AI agents operating in complex, 'big-world' environments.",
+        "It formally proves that general agents cannot be universally capable, invalidating traditional worst-case analysis.",
+        "A novel approach called 'structural certification' is introduced as a transition-local framework to certify agent capabilities."
       ]
     },
     {
@@ -303,9 +401,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the complex evaluation of agentic data analysis systems, which produce multi-faceted outputs (code, results, diagnostics).",
-        "A key challenge identified is distinguishing genuine output disagreement from artifacts introduced by automated grading methods.",
-        "The research investigates automated grader reliability and proposes strategies, utilizing a multi-agent system (LAMBDA), to improve grading quality."
+        "The paper addresses the complexity of evaluating agentic data analysis systems, which produce rich, multi-faceted outputs (code, numbers, diagnostics).",
+        "A key challenge identified is distinguishing genuine output disagreement from artifacts introduced by the automated grading process itself.",
+        "The research investigates the reliability of automated graders and proposes strategies to improve grading quality using a multi-agent system (LAMBDA)."
       ]
     },
     {
@@ -317,9 +415,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Current LLM evaluation benchmarks primarily focus on functional correctness, neglecting conversational quality.",
+        "Current LLM evaluation benchmarks primarily focus only on functional correctness.",
         "There is a critical gap in assessing LLM dialogue assistants' ability to handle Non-Functional Requirements (NFRs).",
-        "The research proposes new methods needed to evaluate collaborative reasoning about vague and context-dependent NFRs."
+        "The research proposes new methods to evaluate collaborative reasoning about inherently vague and context-dependent NFRs."
       ]
     },
     {
@@ -333,21 +431,21 @@
       "bullet_points": [
         "Introduces the Hartley Neural Operator (HNO) as a real-valued alternative to Fourier Neural Operators (FNO).",
         "HNO replaces the complex Fast Fourier Transform (FFT) with the purely real Discrete Hartley Transform.",
-        "This change aims to eliminate representational redundancy inherent in complex FFTs when dealing with real-valued PDE solutions."
+        "This modification aims to eliminate representational redundancy inherent in using complex FFTs for real-valued PDE solutions."
       ]
     },
     {
-      "id": 52,
-      "title": "A Physics-Informed Fourier-Wavelet Transformer for Multiscale Computational Fluid Dynamics Surrogate Modeling",
-      "url": "https://arxiv.org/abs/2606.24696v1",
+      "id": 48,
+      "title": "L3Cube-MahaPOS: A Marathi Part-of-Speech Tagging Dataset and BERT Models",
+      "url": "https://arxiv.org/abs/2606.24825v1",
       "source": "arXiv Machine Learning",
-      "author": "Xizhong Chen",
+      "author": "Raviraj Joshi",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces a Physics-Informed Fourier-Wavelet Transformer for CFD surrogate modeling.",
-        "Addresses a limitation in existing methods by improving the reproduction of localized multiscale flow structures.",
-        "Combines hybrid Fourier-wavelet spectral encoding with physics-biased self-attention for velocity-field reconstruction."
+        "The research introduces L3Cube-MahaPOS, a new dataset specifically for Marathi Part-of-Speech (POS) tagging.",
+        "Marathi is an under-resourced language in NLP, despite having a large speaker base (over 83 million).",
+        "The work addresses challenges posed by Marathi's rich morphology and free word order using BERT models."
       ]
     },
     {
@@ -359,9 +457,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces FlowPipe, an LLM-enhanced method for automatically constructing data preparation pipelines.",
-        "Addresses the computational difficulty of pipeline construction due to the combinatorial nature of operator sequences.",
-        "Overcomes limitations of existing Multi-DQN methods, specifically concerning long-horizon credit assignment in sequential tasks."
+        "The paper introduces FlowPipe, an LLM-enhanced method for automatically constructing data preparation pipelines.",
+        "Data preparation pipeline construction is challenging due to the combinatorial nature of operator sequences and expensive evaluation.",
+        "FlowPipe aims to overcome limitations of existing Multi-DQN methods, specifically issues with long-horizon credit assignment."
       ]
     },
     {
@@ -373,9 +471,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the issue of low quality and inconsistent alignment of author-written abstracts used as gold standards in scientific summarization.",
-        "Presents a solution by constructing and releasing one of the largest biomedical and life science datasets for long-document summarization.",
-        "Contributes to improving long-context models by providing a larger and more structured dataset for scientific summarization tasks."
+        "Addresses limitations in scientific summarization datasets, specifically the quality of abstract references.",
+        "Introduces a large-scale biomedical and life science dataset for long-document summarization.",
+        "Aims to improve training data quality for modern long-context NLP models."
       ]
     },
     {
@@ -387,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces SHERLOC, a new training-free framework designed for structured diagnostic localization in code repair.",
-        "Addresses a key limitation in current LLM-based code repair agents: excessive budget spent on fault location without proper diagnostic context.",
-        "Combines a reasoning LLM with compact representations to move beyond simple file retrieval toward actionable diagnosis."
+        "Introduces SHERLOC, a training-free framework designed to improve fault localization for LLM code repair agents.",
+        "Addresses a key limitation in current localization methods: they provide locations without the necessary diagnostic context for effective repair.",
+        "The framework pairs a reasoning LLM with compact representations to enable structured, hypothesis-driven exploration."
       ]
     },
     {
@@ -401,9 +499,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper proposes a shift in e-commerce focus from product matching to information acquisition in agentic systems.",
-        "It argues that autonomous buyer agents make exhaustive product investigation possible, changing the bottleneck.",
-        "The solution envisioned is a micro-transaction market where users pay for trustworthy, decision-relevant product information."
+        "The paper proposes a shift in e-commerce where autonomous agents, capable of exhaustive investigation, change the bottleneck from product matching to information acquisition.",
+        "It introduces the concept of agentic e-commerce functioning as a micro-transaction market for verified product information.",
+        "The research leverages the emergence of agent-native micro-payment rails (e.g., x402, AP2) to enable this new information economy."
       ]
     },
     {
@@ -415,8 +513,8 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "LLM agent memory is evolving beyond simple retrieval to complex data management systems supporting storage, retrieval, and governance.",
-        "Current evaluations often treat agent memory as a monolithic black box, relying only on end-to-end task success metrics (e.g., F1, BLEU).",
+        "LLM agent memory is evolving beyond simple retrieval into complex data management systems supporting storage, retrieval, and lifecycle governance.",
+        "Current evaluations often treat agent memory as a monolithic black box, relying only on end-to-end task success metrics (like F1/BLEU).",
         "The paper suggests a need for more granular evaluation methods to properly assess the capabilities of underlying agent memory systems."
       ]
     },
@@ -430,26 +528,12 @@
       "ai_score": 7,
       "bullet_points": [
         "The paper addresses limitations in non-autoregressive language generation, specifically the factorization error in Masked Diffusion Models (MDMs).",
-        "It introduces a method leveraging Flow Map Language Models (FMLMs) to enable iterative refinement and simultaneous token generation.",
-        "The core concept is 'Posterior Refinement,' allowing models to recursively critique and regenerate subsets of tokens for improved sample quality."
+        "It proposes a method utilizing Flow Map Language Models (FMLMs) to enable iterative refinement in non-autoregressive generation.",
+        "The core concept involves using joint sequence transport within FMLMs to overcome bottlenecks and achieve high sample quality."
       ]
     },
     {
-      "id": 71,
-      "title": "Haystack: Open-Source AI Framework for Production Ready Agents, RAG",
-      "url": "https://haystack.deepset.ai/",
-      "source": "Hacker News",
-      "author": "doener",
-      "timestamp": "2026-06-24T11:21:32",
-      "ai_score": 7,
-      "bullet_points": [
-        "Haystack is an open-source AI framework designed for building production-ready AI agents.",
-        "The framework specifically supports Retrieval-Augmented Generation (RAG) workflows.",
-        "Its release targets the practical application and deployment of advanced AI systems."
-      ]
-    },
-    {
-      "id": 88,
+      "id": 87,
       "title": "Everyone's Excited About Claude Tag. Nobody's Built the Trust Layer.",
       "url": "https://dev.to/dannwaneri/everyones-excited-about-claude-tag-nobodys-built-the-trust-layer-1ohp",
       "source": "Dev.to",
@@ -458,22 +542,50 @@
       "ai_score": 7,
       "bullet_points": [
         "The article discusses 'Claude Tag,' a topic generating significant excitement in the tech community.",
-        "It highlights a perceived gap in the current ecosystem: the lack of a dedicated 'Trust Layer' for such technologies.",
-        "The discussion involves high-profile figures, referencing Andrej Karpathy (OpenAI co-founder)."
+        "It highlights a perceived gap in the current ecosystem: the lack of a robust 'Trust Layer' for these new AI concepts.",
+        "The discussion involves high-profile figures, specifically mentioning Andrej Karpathy."
       ]
     },
     {
-      "id": 89,
-      "title": "Auto-verifying your AI-SRE's fixes (Part II): HolmesGPT end-to-end on a real cluster",
-      "url": "https://dev.to/metalbear/auto-verifying-your-ai-sres-fixes-part-ii-holmesgpt-end-to-end-on-a-real-cluster-594p",
+      "id": 88,
+      "title": "Cognitive Pong: An Open Source Arena Where AI Agents Compete, Learn, and Train",
+      "url": "https://dev.to/bclonan/cognitive-pong-an-open-source-arena-where-ai-agents-compete-learn-and-train-mdp",
       "source": "Dev.to",
-      "author": "eyalb",
-      "timestamp": "2026-06-24T12:18:12Z",
+      "author": "bclonan",
+      "timestamp": "2026-06-24T15:10:00Z",
       "ai_score": 7,
       "bullet_points": [
-        "The article details the testing of HolmesGPT, an AI-SRE tool, in a live GKE cluster.",
-        "The AI was used to automatically verify fixes for planted bugs, demonstrating end-to-end capability.",
-        "The system successfully passed one fix and correctly rejected another, indicating functional validation."
+        "Introduces 'Cognitive Pong,' an open-source platform for AI agent competition.",
+        "The core concept tests if structured competition enhances AI reasoning and training data quality.",
+        "Focuses on the potential for competitive environments to drive better model development."
+      ]
+    },
+    {
+      "id": 91,
+      "title": "From Transcript to Typed Action Items: Three Parallel Agents in TypeScript",
+      "url": "https://dev.to/jackchenme/from-transcript-to-typed-action-items-three-parallel-agents-in-typescript-3oe",
+      "source": "Dev.to",
+      "author": "jackchenme",
+      "timestamp": "2026-06-24T11:34:38Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "Proposes an architectural improvement for meeting summarization using specialized, parallel AI agents.",
+        "Replaces monolithic LLM prompts with three distinct agents for summary, action items, and sentiment.",
+        "Leverages TypeScript and Zod for enforcing typed, structured output from the specialized agents."
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Choosing a Vector Database in 2026: pgvector vs. Pinecone vs. Qdrant vs. Weaviate vs. Milvus",
+      "url": "https://dev.to/arya_koste_5845807df94776/choosing-a-vector-database-in-2026-pgvector-vs-pinecone-vs-qdrant-vs-weaviate-vs-milvus-422k",
+      "source": "Dev.to",
+      "author": "arya_koste_5845807df94776",
+      "timestamp": "2026-06-24T17:56:49Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The article addresses the critical decision-making process for selecting a vector database in the context of Retrieval-Augmented Generation (RAG).",
+        "It compares several leading vector database solutions: pgvector, Pinecone, Qdrant, Weaviate, and Milvus.",
+        "The content targets developers looking to move beyond basic RAG tutorials to production-grade infrastructure choices."
       ]
     }
   ]
