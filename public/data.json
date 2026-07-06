@@ -1,47 +1,19 @@
 {
-  "generated_at": "2026-07-05T18:54:55.941028",
-  "total_stories": 44,
+  "generated_at": "2026-07-06T01:47:07.252202",
+  "total_stories": 42,
   "sources": [
-    "arXiv AI",
-    "arXiv NLP",
-    "Lobsters",
-    "Hugging Face Benchmarks",
     "Hacker News",
-    "Dev.to",
+    "arXiv NLP",
+    "Hugging Face Benchmarks",
     "The Verge",
-    "arXiv Machine Learning",
+    "Ollama",
     "Ars Technica",
-    "Ollama"
+    "arXiv Machine Learning",
+    "Lobsters",
+    "Dev.to",
+    "arXiv AI"
   ],
   "stories": [
-    {
-      "id": 2,
-      "title": "🤗 Trending: meta-llama/Meta-Llama-3-8B",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face Benchmarks.",
-        "It pertains to the text-generation pipeline, indicating its application in large language model tasks.",
-        "The associated tags confirm its relevance within the transformer, llama, and AI/ML communities."
-      ]
-    },
-    {
-      "id": 3,
-      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
-        "The model is associated with key ML technologies like transformers and safetensors."
-      ]
-    },
     {
       "id": 1,
       "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
@@ -51,9 +23,37 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
-        "The model is categorized for text-generation tasks, indicating its capability in generative AI.",
-        "It utilizes standard ML frameworks like transformers and safetensors, suggesting accessibility for researchers."
+        "Highlights a trending model, DeepSeek-R1, on the Hugging Face platform.",
+        "The model is categorized for text generation and conversational AI tasks.",
+        "It utilizes standard ML frameworks like transformers and safetensors."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🤗 Trending: meta-llama/Meta-Llama-3-8B",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face Benchmarks.",
+        "It is categorized under key ML/AI tags including 'transformers', 'llama', and 'text-generation'.",
+        "This indicates ongoing community interest and benchmarking activity around Meta's latest LLM releases."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The news highlights the Llama-3.1-8B-Instruct model from Meta.",
+        "It is featured on Hugging Face Benchmarks, indicating community interest and performance tracking.",
+        "The context is within the text-generation pipeline, focusing on transformer-based LLMs."
       ]
     },
     {
@@ -65,9 +65,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Highlights a new model, DeepSeek-V4-Pro, available on Hugging Face.",
-        "The model is categorized under text-generation and utilizes standard ML formats (transformers, safetensors).",
-        "The associated arXiv identifier suggests recent academic backing for the model."
+        "Highlights a trending model, DeepSeek-V4-Pro, on Hugging Face Benchmarks.",
+        "The model is categorized under text-generation and utilizes transformers/safetensors.",
+        "References an associated arXiv paper (arxiv:2606.19348), indicating recent research."
       ]
     },
     {
@@ -81,7 +81,7 @@
       "bullet_points": [
         "Ollama 0.31 achieves significant speed improvements for Gemma 4 on Apple Silicon.",
         "The performance boost is attributed to the implementation of Multi-Token Prediction (MTP) powered by MLX.",
-        "Coding agent tasks show up to a 90% speed increase when benchmarked using Aider."
+        "Speedup reaches up to 90% when running with coding agents, as validated by the Aider benchmark."
       ]
     },
     {
@@ -95,21 +95,21 @@
       "bullet_points": [
         "Ollama has achieved its peak performance on Apple Silicon using the MLX engine.",
         "The performance improvements translate to higher quality model outputs.",
-        "The updated engine also delivers faster response times and reduced memory usage."
+        "The updates also result in faster response times and reduced memory usage."
       ]
     },
     {
-      "id": 9,
-      "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
-      "url": "https://ollama.com/blog/openjarvis",
+      "id": 8,
+      "title": "NVIDIA Nemotron 3 Ultra",
+      "url": "https://ollama.com/blog/nemotron-3-ultra",
       "source": "Ollama",
       "author": "unknown",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenJarvis v1.0 is released, providing an open-source framework for personal AI agents.",
-        "The key feature is its local-first architecture, allowing AI to run entirely on user hardware.",
-        "It features built-in support for Ollama, simplifying the deployment of local LLMs."
+        "NVIDIA is introducing the Nemotron 3 Ultra model.",
+        "The model is specifically engineered for high-throughput reasoning tasks.",
+        "It is designed to support complex, long-running agent workflows."
       ]
     },
     {
@@ -122,8 +122,22 @@
       "ai_score": 8,
       "bullet_points": [
         "Ollama, a popular local LLM runner, is integrating MLX for performance optimization.",
-        "This integration specifically targets Apple Silicon hardware, enhancing local AI capabilities on Macs.",
-        "The feature is currently available in a preview build, indicating ongoing development and optimization."
+        "The update specifically targets Apple Silicon, leveraging Apple's native ML framework.",
+        "This represents a significant step toward accelerating local AI inference on Apple hardware."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "OpenClaw",
+      "url": "https://ollama.com/blog/openclaw",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "OpenClaw is a new personal AI assistant designed for local execution.",
+        "It integrates messaging apps with local AI coding agents.",
+        "The core feature emphasizes running AI agents entirely on the user's own device for privacy."
       ]
     },
     {
@@ -135,8 +149,8 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama introduces a new command for easily setting up and running coding tools.",
-        "It supports various models, including Claude Code, OpenCode, and Codex, locally or in the cloud.",
+        "Ollama introduces a new command to streamline the setup and execution of coding tools.",
+        "It enables running various coding models (Claude Code, OpenCode, Codex) both locally and in the cloud.",
         "A key feature is its simplicity, requiring no environment variables or configuration files."
       ]
     },
@@ -149,23 +163,37 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "New security threat identified in autonomous AI coding agents due to persistent codebases across sessions.",
-        "Attackers can distribute malicious payloads across multiple pull requests (PRs) to evade detection.",
-        "The paper introduces 'Iterative VibeCoding' to study the safe deployment of capable but potentially untrusted AI systems."
+        "Addresses a novel security vulnerability in autonomous AI coding agents due to persistent codebases across sessions.",
+        "Introduces 'Iterative VibeCoding' as a framework to study the safe deployment of capable but potentially untrusted AI.",
+        "Highlights the risk of distributed attacks where malicious payloads are timed across multiple pull requests for better stealth."
       ]
     },
     {
-      "id": 36,
-      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
-      "url": "https://arxiv.org/abs/2607.02513v1",
+      "id": 37,
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "url": "https://arxiv.org/abs/2607.02512v1",
       "source": "arXiv AI",
-      "author": "Verna Dankers",
+      "author": "Yuntian Deng",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The paper introduces LACUNA, a new testbed designed to evaluate the precision of LLM unlearning.",
-        "It addresses the critical issue of LLMs memorizing sensitive data like PII, necessitating reliable post-hoc removal.",
-        "The research highlights a gap in current benchmarks, which only test unlearning at the output level, not the internal knowledge erasure."
+        "Introduces 'Fuzzy-function programming' to handle complex, non-rule-based tasks (e.g., log alerting, JSON repair).",
+        "Proposes compiling natural-language specifications into compact, locally-executable neural artifacts ('Program-as-Weights').",
+        "Addresses limitations of current LLM API usage, specifically concerning locality, reproducibility, and cost."
+      ]
+    },
+    {
+      "id": 39,
+      "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2607.02509v1",
+      "source": "arXiv AI",
+      "author": "Jingrui He",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Addresses the critical issue of LLMs failing to effectively utilize relevant evidence within long input contexts.",
+        "Introduces RECONTEXT (Recursive Evidence Replay), a novel, training-free inference method designed to improve long-context reasoning.",
+        "Highlights the gap between LLMs' ability to access long contexts and their actual capacity for effective context utilization in real-world applications."
       ]
     },
     {
@@ -177,9 +205,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The paper addresses the critical issue of Large Language Models (LLMs) memorizing sensitive Personally Identifiable Information (PII) from training data.",
-        "It introduces 'LACUNA,' a new testbed designed to evaluate the precision of LLM unlearning methods beyond simple output-level checks.",
-        "The research highlights a gap in current benchmarks, questioning whether existing parameter-targeting unlearning methods truly erase knowledge from the model's internal structure."
+        "The research addresses the critical issue of Large Language Models (LLMs) memorizing sensitive Personally Identifiable Information (PII) from training data.",
+        "It critiques current 'localize-first, unlearn-second' unlearning paradigms by pointing out that existing benchmarks only test for output-level erasure.",
+        "The proposed 'LACUNA' testbed aims to evaluate the true precision of knowledge removal within the model's parameters, not just its final output."
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "url": "https://arxiv.org/abs/2607.02512v1",
+      "source": "arXiv Machine Learning",
+      "author": "Yuntian Deng",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces 'fuzzy-function programming' to handle complex, non-rule-based tasks (e.g., log parsing, intent ranking).",
+        "Proposes compiling natural-language specifications directly into compact, locally-executable neural artifacts ('Program-as-Weights').",
+        "Addresses current limitations of relying on LLM APIs, specifically concerning locality, reproducibility, and cost."
       ]
     },
     {
@@ -191,23 +233,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses the high inference cost of Diffusion Transformers (DiTs) used in state-of-the-art image/video generation.",
-        "Introduces OrbitQuant, a novel data-agnostic quantization method designed to overcome activation shifting issues in DiTs.",
-        "Bypasses the need for re-fitting calibration data across different checkpoints or modalities, simplifying deployment."
+        "OrbitQuant addresses the high inference cost of Diffusion Transformers (DiTs) used in image/video generation.",
+        "It solves the problem of activation shifting across different timesteps and prompts, which plagues traditional Post-Training Quantization (PTQ).",
+        "The method is 'data-agnostic,' allowing quantization without needing to re-fit calibration data for every new model checkpoint or modality."
       ]
     },
     {
-      "id": 55,
-      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
-      "url": "https://arxiv.org/abs/2607.02513v1",
+      "id": 56,
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "url": "https://arxiv.org/abs/2607.02512v1",
       "source": "arXiv NLP",
-      "author": "Verna Dankers",
+      "author": "Yuntian Deng",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses the critical security issue of LLMs memorizing sensitive PII from training data.",
-        "Proposes 'LACUNA,' a new testbed to evaluate the precision of LLM unlearning methods.",
-        "Highlights a gap in current research: existing benchmarks only test output-level unlearning, not internal knowledge erasure."
+        "Introduces 'Fuzzy-function programming' to handle complex, rule-based tasks poorly suited for traditional coding.",
+        "Proposes 'Program-as-Weights' to compile natural-language specifications into compact, locally-executable neural artifacts.",
+        "Addresses current industry reliance on LLM APIs for fuzzy tasks, aiming to improve locality, reproducibility, and cost."
       ]
     },
     {
@@ -219,23 +261,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release brings improved performance and expanded GGUF model compatibility.",
-        "The update leverages llama.cpp to enhance model support across various hardware configurations.",
+        "Ollama 0.30 release brings performance improvements and enhanced GGUF model compatibility.",
+        "The update leverages llama.cpp to broaden model support across various hardware platforms.",
         "It augments Ollama's MLX engine, specifically improving support on Apple silicon."
       ]
     },
     {
-      "id": 8,
-      "title": "NVIDIA Nemotron 3 Ultra",
-      "url": "https://ollama.com/blog/nemotron-3-ultra",
+      "id": 9,
+      "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
+      "url": "https://ollama.com/blog/openjarvis",
       "source": "Ollama",
       "author": "unknown",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduction of NVIDIA Nemotron 3 Ultra.",
-        "The model is specifically designed for high-throughput reasoning tasks.",
-        "It is optimized for supporting long-running agent workflows."
+        "OpenJarvis v1.0 is released, an open-source framework for creating personal AI agents.",
+        "The key feature is that these agents run locally on the user's own hardware.",
+        "It features built-in support for Ollama, facilitating local LLM execution."
       ]
     },
     {
@@ -247,27 +289,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama has integrated support for advanced AI features within Claude Code.",
-        "The new capabilities include the implementation of subagents for complex task decomposition.",
-        "Web search functionality has been added, enhancing the model's ability to access real-time information."
+        "Ollama has integrated support for subagents within Claude Code.",
+        "The new feature set also incorporates web search capabilities into Claude Code.",
+        "This enhances the functionality of local LLM environments by adding advanced reasoning and information retrieval."
       ]
     },
     {
-      "id": 13,
-      "title": "OpenClaw",
-      "url": "https://ollama.com/blog/openclaw",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, enabling AI processing directly on the user's device.",
-        "The core value proposition is providing private, on-device AI functionality for coding assistance."
-      ]
-    },
-    {
-      "id": 22,
+      "id": 23,
       "title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
       "url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
       "source": "The Verge",
@@ -276,22 +304,22 @@
       "ai_score": 7,
       "bullet_points": [
         "NASA launched an emergency mission to save the Swift Observatory from atmospheric re-entry.",
-        "Recent solar storms have caused the observatory's orbit to drop, putting it at risk of burning up.",
-        "Katalyst Space Technologies was contracted to deploy a Link spacecraft for the interception mission."
+        "Solar storms have caused the observatory's orbit to decay, putting it at risk of burning up.",
+        "Katalyst Space Technologies is involved in the rescue effort using a Link spacecraft."
       ]
     },
     {
-      "id": 37,
-      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
-      "url": "https://arxiv.org/abs/2607.02512v1",
+      "id": 36,
+      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+      "url": "https://arxiv.org/abs/2607.02513v1",
       "source": "arXiv AI",
-      "author": "Yuntian Deng",
+      "author": "Verna Dankers",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'fuzzy-function programming' to handle complex, rule-resistant tasks (e.g., log alerting, JSON repair).",
-        "Proposes compiling natural language specifications directly into compact, locally-executable neural artifacts ('Program-as-Weights').",
-        "Aims to mitigate reliance on external LLM APIs, addressing issues of locality, reproducibility, and cost."
+        "The paper introduces LACUNA, a new testbed to rigorously evaluate the precision of LLM unlearning.",
+        "It addresses the critical issue of LLMs memorizing sensitive data, such as PII, necessitating reliable removal methods.",
+        "The research highlights a gap in current benchmarks, which only test unlearning at the output level, not at the underlying model parameter level."
       ]
     },
     {
@@ -303,23 +331,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "LLMs still generate unsafe outputs post-alignment training, necessitating online monitoring.",
-        "The research proposes a simple, real-time monitor that uses an external model's verifier signal.",
-        "The monitor's alarm decision is based on thresholding, calibrated using risk control, showing competitive results in testing."
-      ]
-    },
-    {
-      "id": 39,
-      "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
-      "url": "https://arxiv.org/abs/2607.02509v1",
-      "source": "arXiv AI",
-      "author": "Jingrui He",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses the critical issue of LLMs failing to effectively utilize relevant evidence within long context windows.",
-        "Introduces 'ReContext' (Recursive Evidence Replay), a training-free inference method designed to enhance long-context reasoning.",
-        "Focuses on bridging the gap between LLMs' ability to access long context and their ability to utilize that context meaningfully."
+        "LLMs still generate unsafe outputs post-alignment training, necessitating real-time monitoring.",
+        "The research proposes a simple, real-time monitor that uses an external model's verification signal for alarm decisions.",
+        "The monitor's threshold is calibrated using risk control and shows competitive performance in red teaming and reasoning tasks."
       ]
     },
     {
@@ -332,8 +346,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Investigates how social structure (role, audience) influences LLM agent behavior in multi-agent debates.",
-        "Compares public utterances made by agents against private, off-the-record (OTR) responses.",
-        "Suggests that social context can induce latent objectives in agents even without explicit prompting."
+        "Compares public utterances to off-the-record (OTR) responses to see if social context alters expressed content.",
+        "Proposes a dual-channel debate framework to study the emergence of latent objectives in LLM interactions."
       ]
     },
     {
@@ -345,9 +359,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the difficulty of speaker recognition in complex, long-form TV dramas.",
-        "A new large-scale benchmark, DramaSR-532K, has been introduced, featuring 532K annotated dialogue lines across 900+ characters.",
-        "The work leverages Reasoning LLMs to improve the accuracy of attributing spoken utterances to specific characters."
+        "Addresses the challenge of speaker recognition in complex, long-form TV dramas.",
+        "Introduces DramaSR-532K, a large-scale benchmark featuring 532K annotated dialogue lines and over 900 characters.",
+        "Leverages Reasoning LLMs to improve the accuracy of speaker attribution in video content."
       ]
     },
     {
@@ -360,8 +374,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces DemoPSD, a new method to address limitations in On-policy Self-Distillation (OPSD) for LLMs.",
-        "Identifies that dense, token-level supervision from a teacher model can cause overfitting and poor cross-domain generalization in LLMs.",
-        "The proposed method aims to improve LLM reasoning by modulating disagreement between the teacher and student models."
+        "Identifies that dense, token-level supervision from a teacher model can cause overfitting and hinder cross-domain generalization.",
+        "Aims to improve LLM reasoning by modulating disagreement between teacher and student models."
       ]
     },
     {
@@ -374,22 +388,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces G-RRM, a neuro-symbolic approach that integrates Recurrent Reasoning Models (SE-RRMs) with traditional symbolic solvers.",
-        "SE-RRMs function as neural solvers capable of generating complete solution proposals to guide classical methods like SAT solvers (Glucose 4.1, CaDiCaL 3.0.0).",
-        "The SE-RRMs exhibit improved extrapolation capabilities when dealing with larger problem sizes in constraint satisfaction problems."
-      ]
-    },
-    {
-      "id": 46,
-      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
-      "url": "https://arxiv.org/abs/2607.02512v1",
-      "source": "arXiv Machine Learning",
-      "author": "Yuntian Deng",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces 'fuzzy-function programming' to handle complex, non-rule-based programming tasks.",
-        "Proposes compiling natural-language specifications into compact, locally-executable neural artifacts ('Program-as-Weights').",
-        "Aims to reduce reliance on external LLM APIs, addressing issues of locality, reproducibility, and cost."
+        "SE-RRMs function as neural solvers, generating complete solution proposals to guide classical methods like backtracking and SAT solvers (e.g., Glucose 4.1).",
+        "The research focuses on SE-RRMs, which show improved extrapolation capabilities when handling larger problem sizes."
       ]
     },
     {
@@ -402,7 +402,7 @@
       "ai_score": 7,
       "bullet_points": [
         "LLMs still generate unsafe outputs post-alignment training, necessitating real-time monitoring.",
-        "The paper proposes a simple, real-time monitor that uses an external model's verifier signal for alarm decisions.",
+        "The research proposes a simple, real-time monitor that uses an external model's verifier signal for alarm decisions.",
         "The monitor's threshold is calibrated using risk control and shows competitive performance in red teaming and reasoning tasks."
       ]
     },
@@ -415,9 +415,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Investigates how social structures (role, audience) influence LLM agent behavior in multi-agent debates.",
-        "Compares public utterances made by agents against 'off-the-record' (OTR) responses to detect latent objective emergence.",
-        "Proposes a dual-channel debate framework to study the impact of social context on LLM communication."
+        "Investigates how social structure (role, audience) influences LLM agent behavior in multi-agent debates.",
+        "Compares public utterances against 'off-the-record' (OTR) responses to see if social context changes agent expression without explicit prompting.",
+        "Proposes a dual-channel debate framework to study the emergence of latent objectives within LLM interactions."
       ]
     },
     {
@@ -430,8 +430,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces DemoPSD, a new method to address limitations in On-policy Self-Distillation (OPSD) for LLMs.",
-        "Identifies that dense, token-level supervision from privileged teachers in OPSD can cause overfitting and poor cross-domain generalization.",
-        "The research aims to improve LLM reasoning by modulating policy disagreement rather than relying solely on dense supervision."
+        "Identifies that dense, token-level supervision from a privileged teacher model can cause overfitting and limit cross-domain generalization.",
+        "The research aims to improve LLM reasoning capabilities by mitigating the negative effects of overly strong teacher supervision."
       ]
     },
     {
@@ -443,9 +443,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces CNeVA, a framework for creating controllable simulated agents.",
-        "The agents learn a per-agent Gaussian behavior latent from discounted returns.",
-        "This controllability allows engineers to test autonomous systems by isolating variables and reproducing edge cases without real-world risk."
+        "Introduces Controllable Neural Variational Agents (CNeVA) for realistic traffic simulation.",
+        "The framework allows simulated agents to imitate logged behavior while being steerable along interpretable axes.",
+        "Controllability is key for engineers to test autonomous systems and isolate variables without real-world risk."
       ]
     },
     {
@@ -457,9 +457,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the challenge of post-training LLMs in specialized domains lacking expert annotations.",
-        "Proposes a Neuron-Aware Data Selection method for annotation-free self-distillation.",
-        "Uses the model's own outputs and majority voting across rollouts to generate pseudo-labels."
+        "Addresses the challenge of post-training LLMs in specialized domains lacking human-labeled data.",
+        "Proposes a 'Neuron-Aware Data Selection' method for annotation-free self-distillation.",
+        "Utilizes the model's own outputs and majority voting across rollouts to generate pseudo-labels."
       ]
     },
     {
@@ -472,22 +472,22 @@
       "ai_score": 7,
       "bullet_points": [
         "Addresses the critical challenge of data heterogeneity (non-IID data) in Distributed Self-Supervised Learning (D-SSL).",
-        "Provides a rigorous theoretical analysis to understand how various D-SSL frameworks behave under non-IID conditions.",
-        "Contributes to the theoretical understanding of robustness in decentralized, large-scale machine learning systems."
+        "Provides a rigorous theoretical analysis to understand how various D-SSL frameworks perform under real-world, decentralized data conditions.",
+        "Contributes to the theoretical understanding of D-SSL robustness, a key area for deploying large-scale, decentralized ML systems."
       ]
     },
     {
-      "id": 56,
-      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
-      "url": "https://arxiv.org/abs/2607.02512v1",
+      "id": 55,
+      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+      "url": "https://arxiv.org/abs/2607.02513v1",
       "source": "arXiv NLP",
-      "author": "Yuntian Deng",
+      "author": "Verna Dankers",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'fuzzy-function programming' to handle complex, rule-based tasks poorly suited for traditional coding.",
-        "Proposes compiling natural-language specifications into compact, locally-executable neural artifacts ('Program-as-Weights').",
-        "Aims to address drawbacks of relying on LLM APIs, specifically concerning locality, reproducibility, and cost."
+        "LLMs risk memorizing sensitive PII from training data, necessitating robust unlearning techniques.",
+        "Current state-of-the-art unlearning methods often use a 'localize-first, unlearn-second' approach targeting model parameters.",
+        "A key gap exists in current benchmarks, which only test unlearning at the output level, not the internal knowledge erasure."
       ]
     },
     {
@@ -500,8 +500,8 @@
       "ai_score": 7,
       "bullet_points": [
         "LLMs still generate unsafe outputs post-alignment training, necessitating real-time monitoring.",
-        "The research proposes a simple, real-time monitor that uses an external model's verifier signal for alarm decisions.",
-        "The monitor's threshold is calibrated using risk control and shows competitive performance in red teaming and reasoning tasks."
+        "The research proposes a simple, real-time monitor that uses an external model's verifier signal.",
+        "The monitor's alarm decision is based on thresholding, calibrated using risk control, showing competitive results in testing."
       ]
     },
     {
@@ -514,7 +514,7 @@
       "ai_score": 7,
       "bullet_points": [
         "Investigates how social structures (role, audience) influence LLM agent behavior in multi-agent debates.",
-        "Compares public utterances made by agents against private, off-the-record (OTR) responses under identical conditions.",
+        "Compares public utterances made by agents against private, off-the-record (OTR) responses under the same conditions.",
         "Proposes a dual-channel debate framework to study the emergence of latent objectives driven by social context."
       ]
     },
@@ -528,8 +528,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The research addresses the complex challenge of speaker recognition in long-form TV dramas.",
-        "A new large-scale benchmark, DramaSR-532K, is introduced, featuring 532K annotated dialogue lines across over 900 characters.",
-        "The study proposes using Reasoning LLMs to improve the accuracy of speaker attribution in complex video narratives."
+        "A new large-scale benchmark, DramaSR-532K, has been introduced, containing 532K annotated dialogue lines across over 900 characters.",
+        "The study proposes using Reasoning LLMs to improve the accuracy of speaker attribution in video content."
       ]
     },
     {
@@ -541,9 +541,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "CLIP models, foundational to modern LVLMs, are vulnerable to 'Typographic Attacks' (TA).",
+        "CLIP models, foundational to modern LVLMs, are vulnerable to Typographic Attacks (TA).",
         "TA occurs when irrelevant text within images biases visual representations toward lexical meaning over true visual semantics.",
-        "The research proposes a 'training-free' method for robust concept localization to address this vulnerability."
+        "The research proposes a training-free method for robust concept localization to address this critical failure mode."
       ]
     },
     {
@@ -555,55 +555,27 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses a limitation in Vision-Language Models (LVLMs) regarding self-reflection during multimodal reasoning.",
-        "Proposes using Reinforcement Learning to enable LVLMs to better attend to visual inputs when correcting previous errors.",
-        "Focuses on improving the ability of models to provide grounded corrections, especially for out-of-distribution visual data."
+        "Addresses a limitation in Vision-Language Models (LVLMs) regarding self-reflection capabilities.",
+        "Proposes using Reinforcement Learning to enable LVLMs to properly attend to visual inputs during self-correction.",
+        "Aims to improve the models' ability to translate feedback into grounded corrections, particularly for out-of-distribution images."
       ]
     },
     {
-      "id": 63,
-      "title": "TestEvo-Bench: An Executable and Live Benchmark for Test and Code Co-Evolution",
-      "url": "https://arxiv.org/abs/2607.02469v1",
-      "source": "arXiv NLP",
-      "author": "Pengyu Nie",
-      "timestamp": null,
+      "id": 88,
+      "title": "Migrating off the OpenAI Assistants API before it shuts off (Aug 26, 2026)",
+      "url": "https://dev.to/fernforge/migrating-off-the-openai-assistants-api-before-it-shuts-off-aug-26-2026-mfn",
+      "source": "Dev.to",
+      "author": "fernforge",
+      "timestamp": "2026-07-05T23:35:51Z",
       "ai_score": 7,
       "bullet_points": [
-        "Introduces TestEvo-Bench, a new benchmark designed to evaluate the co-evolution of software tests and code.",
-        "Addresses a gap in existing benchmarks by requiring tests to be executable and semantically tied to code changes, rather than relying on static metadata.",
-        "Aims to better assess whether test automation agents can correctly propagate changes from code modifications into the test suite."
+        "OpenAI is scheduled to deprecate the Assistants API on August 26, 2026.",
+        "This API deprecation affects core endpoints such as /v1/assistants and /v1/threads.",
+        "The news serves as a critical warning for developers currently relying on this specific OpenAI service."
       ]
     },
     {
-      "id": 64,
-      "title": "Will Scaling Improve Social Simulation with LLMs?",
-      "url": "https://arxiv.org/abs/2607.02464v1",
-      "source": "arXiv NLP",
-      "author": "Diyi Yang",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research investigates whether scaling up Large Language Models (LLMs) can improve the fidelity of social simulations.",
-        "The study questions if simulation accuracy is inherently tied to general LLM capabilities or if it requires separate research focus.",
-        "The authors utilize scaling laws to analyze the relationship between compute scale, general benchmarks, and simulation fidelity."
-      ]
-    },
-    {
-      "id": 83,
-      "title": "Bad Epoll (CVE-2026-46242)",
-      "url": "https://github.com/J-jaeyoung/bad-epoll",
-      "source": "Lobsters",
-      "author": "github.com via dzwdz",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The news concerns a specific vulnerability, CVE-2026-46242, related to the 'epoll' system call.",
-        "The source, Lobsters, suggests this is a security advisory or discussion thread regarding the flaw.",
-        "This is a technical security issue, making it relevant to systems administrators and developers, though the specific impact is not detailed in the snippet."
-      ]
-    },
-    {
-      "id": 89,
+      "id": 90,
       "title": "My credential rule reported 842 secrets in vercel/ai. The real count was 0.",
       "url": "https://dev.to/ofri-peretz/my-credential-rule-reported-842-secrets-in-vercelai-the-real-count-was-0-249p",
       "source": "Dev.to",
@@ -611,23 +583,23 @@
       "timestamp": "2026-07-04T15:25:50Z",
       "ai_score": 7,
       "bullet_points": [
-        "A security scanning tool (credential rule) produced a high volume of false positives (842 findings) when scanning a Vercel repository.",
-        "The false positives were largely benign strings like TypeScript union-type literals, error class names, and the string 'test', not actual secrets.",
-        "The article discusses the technical challenge of moving from context-blind regex detection to context-aware security scanning, noting AI assistants can regenerate misleading strings."
+        "A security scanning tool (credential rule) produced a high volume of false positives (842 findings) when scanning a Vercel project.",
+        "The false positives were primarily benign strings like TypeScript union-type literals, error class names, and the word 'test', not actual secrets.",
+        "The article discusses the challenge of context-blind regex in security scanning and how AI assistants can inadvertently regenerate strings that trigger these false positives."
       ]
     },
     {
-      "id": 93,
-      "title": "Agent Execution Protocol v1.1 — A microkernel runtime for LLM agents with watchdog timers and ACID transactions",
-      "url": "https://dev.to/ferreiratechnology2025max/agent-execution-protocol-v11-a-microkernel-runtime-for-llm-agents-with-watchdog-timers-and-acid-klh",
+      "id": 91,
+      "title": "Agent Orchestration Belongs in Code | Focused Labs",
+      "url": "https://dev.to/focused_dot_io/agent-orchestration-belongs-in-code-focused-labs-2f94",
       "source": "Dev.to",
-      "author": "ferreiratechnology2025max",
-      "timestamp": "2026-07-05T18:12:29Z",
+      "author": "austinbv",
+      "timestamp": "2026-07-05T23:26:03Z",
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'Agent Execution Protocol v1.1,' a microkernel runtime specifically designed for LLM agents.",
-        "Addresses a critical flaw in existing frameworks: treating chat history as the sole source of truth for agent state.",
-        "Implements advanced features like watchdog timers and ACID transactions to improve agent reliability and state management."
+        "Advocates for moving complex agent orchestration logic (loops, retries, fanout) out of natural language prompts.",
+        "Suggests implementing these control flows within executable code rather than relying solely on prompt engineering.",
+        "Proposes using a 'narrow harness boundary' to manage the transition between code and AI interaction."
       ]
     }
   ]
