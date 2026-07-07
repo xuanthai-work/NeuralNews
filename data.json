@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-07-06T19:27:01.173048",
-  "total_stories": 50,
+  "generated_at": "2026-07-07T01:44:43.726756",
+  "total_stories": 47,
   "sources": [
+    "Lobsters",
+    "Ollama",
+    "Dev.to",
+    "arXiv AI",
+    "The Verge",
     "arXiv NLP",
     "Ars Technica",
-    "Dev.to",
     "arXiv Machine Learning",
-    "arXiv AI",
-    "Lobsters",
-    "The Verge",
-    "Hacker News",
-    "Ollama",
-    "Hugging Face Benchmarks"
+    "Hugging Face Benchmarks",
+    "Hacker News"
   ],
   "stories": [
+    {
+      "id": 2,
+      "title": "🤗 Trending: meta-llama/Meta-Llama-3-8B",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face Benchmarks.",
+        "It is categorized under key AI/ML tags such as 'transformers', 'llama', and 'text-generation'.",
+        "This indicates active community interest and performance tracking for a significant open-source LLM."
+      ]
+    },
     {
       "id": 3,
       "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
@@ -24,12 +38,12 @@
       "ai_score": 9,
       "bullet_points": [
         "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It pertains to the core area of text generation within the AI/ML ecosystem.",
-        "The associated tags indicate relevance to transformers, safetensors, and the Llama family of models."
+        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
+        "The associated tags confirm its relevance within the transformers and Llama ecosystem."
       ]
     },
     {
-      "id": 26,
+      "id": 30,
       "title": "Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance",
       "url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
       "source": "Ars Technica",
@@ -37,9 +51,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Anthropic, creator of Claude, is accused of secretly tracking its users.",
-        "The controversy stems from a perceived contradiction with Anthropic's public stance on anti-surveillance.",
-        "An engineer involved in the project has reportedly stated that the tracking 'experiment' has concluded."
+        "Anthropic, developer of Claude, is accused of secretly tracking users.",
+        "The controversy directly contradicts Anthropic's stated anti-surveillance policy.",
+        "An internal engineer has confirmed the alleged tracking 'experiment' has been terminated."
       ]
     },
     {
@@ -51,23 +65,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on the Hugging Face platform.",
-        "The model is categorized for text generation and conversational AI tasks.",
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
+        "The model is categorized for text-generation and conversational AI tasks.",
         "It utilizes standard ML components like transformers and safetensors."
-      ]
-    },
-    {
-      "id": 2,
-      "title": "🤗 Trending: meta-llama/Meta-Llama-3-8B",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The news highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
-        "Key technologies associated include transformers, safetensors, and the Llama architecture."
       ]
     },
     {
@@ -79,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the DeepSeek-V4-Pro model on Hugging Face Benchmarks.",
-        "The model is categorized under text-generation and utilizes standard ML formats like transformers and safetensors.",
-        "The associated arXiv identifier (arxiv:2606.19348) suggests a recent academic publication supporting the model."
+        "Highlights the trending status of the DeepSeek-V4-Pro model on Hugging Face.",
+        "The model is categorized under text-generation and utilizes standard ML formats (transformers, safetensors).",
+        "References an associated academic paper (arxiv:2606.19348), indicating research backing."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Gemma 4 inference speed is significantly boosted in Ollama 0.31 on Apple Silicon.",
-        "The performance gain is achieved through Multi-Token Prediction (MTP) powered by MLX.",
-        "Coding agent performance using Gemma 4 saw up to 90% speed improvement on the Aider benchmark."
+        "Ollama 0.31 achieves significant speed improvements for Gemma 4 on Apple Silicon.",
+        "The performance boost is attributed to the use of Multi-Token Prediction (MTP) powered by MLX.",
+        "Speedup reaches up to 90% when running with coding agents, as validated by the Aider benchmark."
       ]
     },
     {
@@ -107,9 +107,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama has achieved its peak performance on Apple Silicon using the MLX engine.",
-        "The performance improvements translate to higher quality model outputs.",
-        "The updates also result in faster response times and reduced memory usage."
+        "Ollama has achieved its peak performance on Apple Silicon.",
+        "The performance boost is attributed to updates in the MLX engine.",
+        "Improvements include faster response times, higher output quality, and reduced memory usage."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "NVIDIA Nemotron 3 Ultra",
+      "url": "https://ollama.com/blog/nemotron-3-ultra",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduction of NVIDIA Nemotron 3 Ultra, a new AI model.",
+        "The model is specifically engineered for high-throughput reasoning tasks.",
+        "It is designed to support complex, long-running agent workflows."
       ]
     },
     {
@@ -121,9 +135,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenJarvis v1.0 is released, offering an open-source framework for personal AI agents.",
-        "The key feature is its local-first architecture, allowing AI to run entirely on user hardware.",
-        "It features built-in support for Ollama, leveraging local LLM execution."
+        "OpenJarvis v1.0 is released, providing an open-source framework for building personal AI agents.",
+        "The key feature is its local-first architecture, allowing AI agents to run entirely on the user's own hardware.",
+        "It features built-in support for Ollama, leveraging existing local LLM infrastructure."
       ]
     },
     {
@@ -135,9 +149,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, is integrating MLX for performance optimization.",
-        "This integration specifically targets Apple Silicon hardware, promising faster local AI inference.",
-        "The feature is currently available in a preview build, indicating ongoing development and adoption."
+        "Ollama, a popular local LLM runner, is integrating MLX for enhanced performance.",
+        "This integration specifically targets Apple Silicon hardware.",
+        "The feature is currently available in a preview release."
       ]
     },
     {
@@ -150,12 +164,26 @@
       "ai_score": 8,
       "bullet_points": [
         "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, ensuring all processing runs entirely on the user's device.",
-        "The core value proposition is providing private, on-device AI assistance for coding tasks."
+        "It utilizes local AI coding agents, emphasizing on-device processing for privacy and control.",
+        "The tool leverages the Ollama ecosystem to run AI models entirely on the user's own hardware."
       ]
     },
     {
-      "id": 23,
+      "id": 14,
+      "title": "ollama launch",
+      "url": "https://ollama.com/blog/launch",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Ollama introduces a new command for easily setting up and running coding tools.",
+        "It supports various models, including Claude Code, OpenCode, and Codex, locally or in the cloud.",
+        "A key feature is its simplicity, requiring no environment variables or configuration files."
+      ]
+    },
+    {
+      "id": 24,
       "title": "Microsoft is selling off four Xbox studios as part of significant gaming cuts",
       "url": "https://www.theverge.com/news/961546/xbox-layoffs-studio-sales-2026",
       "source": "The Verge",
@@ -164,12 +192,12 @@
       "ai_score": 8,
       "bullet_points": [
         "Microsoft is implementing significant layoffs, affecting 4,800 employees, with a large portion concentrated in the Xbox division.",
-        "Four Xbox game studios are being spun off to operate independently from Microsoft.",
-        "The cuts are described as affecting nearly every part of the Xbox ecosystem."
+        "As part of the cuts, four Xbox game studios are being spun off to operate independently from Microsoft.",
+        "The restructuring indicates a major strategic shift within Microsoft's gaming division."
       ]
     },
     {
-      "id": 30,
+      "id": 34,
       "title": "UK regulator warns of \"arms race\" to keep up with AI use in financial services",
       "url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/",
       "source": "Ars Technica",
@@ -177,9 +205,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "UK regulator (FCA) is concerned about an escalating 'arms race' in AI adoption within financial services.",
-        "The warning highlights the increasing reliance of millions of individuals on AI for personal finance decisions.",
-        "The regulator is advocating for enhanced powers for the watchdog to effectively oversee AI use in the sector."
+        "UK financial regulator (FCA) is concerned about an 'arms race' in AI adoption within financial services.",
+        "The warning signals a growing regulatory challenge as consumers increasingly rely on AI for personal finance decisions.",
+        "The FCA is advocating for expanded powers to effectively monitor and govern the use of AI in this sector."
       ]
     },
     {
@@ -191,9 +219,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The paper addresses a novel security vulnerability in autonomous AI coding agents due to persistent state across iterative code changes.",
-        "It introduces 'Iterative VibeCoding' to model the dynamics of safely deploying capable but potentially untrusted AI systems.",
-        "The core threat involves prompt-injected agents distributing malicious payloads across multiple pull requests for stealth."
+        "New attack vector identified in autonomous AI coding agents due to persistent codebases across sessions.",
+        "Attackers can distribute malicious payloads across multiple Pull Requests (PRs) to evade detection.",
+        "The paper introduces 'Iterative VibeCoding' to study the safe deployment of capable but potentially untrusted AI."
+      ]
+    },
+    {
+      "id": 36,
+      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+      "url": "https://arxiv.org/abs/2607.02513v1",
+      "source": "arXiv AI",
+      "author": "Verna Dankers",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The paper introduces LACUNA, a new testbed to evaluate the precision of LLM unlearning methods.",
+        "LLMs are known to memorize sensitive data (PII), making reliable post-hoc removal (unlearning) critical.",
+        "Current benchmarks are criticized for only testing unlearning at the output level, failing to verify true knowledge erasure within the model parameters."
       ]
     },
     {
@@ -205,9 +247,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces 'Fuzzy-function programming' to handle complex, non-rule-based tasks (e.g., log alerting, JSON repair).",
+        "Introduces 'fuzzy-function programming' to handle complex, non-rule-based tasks (e.g., log parsing, search ranking).",
         "Proposes compiling natural-language specifications directly into compact, locally-executable neural artifacts ('Program-as-Weights').",
-        "Addresses current limitations of relying on LLM APIs, specifically concerning locality, reproducibility, and cost."
+        "Addresses limitations of current LLM reliance, specifically concerning locality, reproducibility, and operational cost."
       ]
     },
     {
@@ -219,51 +261,37 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses the critical limitation of LLMs failing to effectively utilize relevant evidence within long input contexts.",
-        "Introduces RECONTEXT (Recursive Evidence Replay), a novel, training-free inference method designed to improve long-context reasoning.",
-        "Focuses on bridging the gap between LLMs' ability to access long context windows and their actual ability to leverage that information."
+        "Addresses the critical issue of LLMs failing to effectively utilize relevant evidence within long context windows.",
+        "Introduces 'ReContext' (Recursive Evidence Replay), a novel, training-free inference method designed to improve long-context reasoning.",
+        "Highlights the ongoing industry challenge of bridging the gap between LLM context access and actual context utilization in real-world applications."
       ]
     },
     {
-      "id": 46,
-      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
-      "url": "https://arxiv.org/abs/2607.02512v1",
-      "source": "arXiv Machine Learning",
-      "author": "Yuntian Deng",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces 'Fuzzy-function programming' to handle complex, rule-based tasks poorly suited for traditional code.",
-        "Proposes 'Program-as-Weights,' a method to compile natural language specifications into compact, locally executable neural artifacts.",
-        "Addresses current limitations of relying on LLM APIs (locality, reproducibility, cost) for everyday programming tasks."
-      ]
-    },
-    {
-      "id": 52,
-      "title": "OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers",
-      "url": "https://arxiv.org/abs/2607.02461v1",
-      "source": "arXiv Machine Learning",
-      "author": "Saurabh Shukla",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces OrbitQuant, a new data-agnostic quantization method specifically designed for Diffusion Transformers (DiTs).",
-        "Addresses the high inference cost of DiTs, which is exacerbated by multi-step sampling and large parameter counts.",
-        "Solves a critical limitation of prior quantization methods where activation shifts across different timesteps and prompts required constant re-calibration."
-      ]
-    },
-    {
-      "id": 57,
-      "title": "Online Safety Monitoring for LLMs",
-      "url": "https://arxiv.org/abs/2607.02510v1",
+      "id": 59,
+      "title": "Reading Between the Dots: Decoding Hidden Computation across Filler Tokens",
+      "url": "https://arxiv.org/abs/2607.03502v1",
       "source": "arXiv NLP",
-      "author": "Eric Nalisnick",
+      "author": "Samuel Marks",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "LLMs still produce unsafe outputs post-alignment training, necessitating real-time monitoring.",
-        "The research proposes a simple, real-time monitor that uses an external model's verifier signal for alarm decisions.",
-        "The monitor's threshold is calibrated using risk control and shows competitive performance in red teaming and reasoning tasks."
+        "Frontier LLMs exhibit multi-step reasoning capabilities even when processing content-free filler tokens (e.g., dots, counting sequences).",
+        "This suggests a limit case for current behavioral oversight, as the underlying reasoning is not reflected in visible Chain-of-Thought (CoT) outputs.",
+        "The study tests this phenomenon across four task families: fact retrieval, numeric composition, string manipulation, and in-context computation."
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
+      "url": "https://ternlight-demo.vercel.app/",
+      "source": "Hacker News",
+      "author": "soycaporal",
+      "timestamp": "2026-07-06T23:06:31",
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduction of Ternlight, a compact 7MB embedding model.",
+        "Key feature is its ability to run directly within the web browser using WebAssembly (WASM).",
+        "This enables on-device, low-latency AI processing without server reliance."
       ]
     },
     {
@@ -275,23 +303,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release brings improved performance and expanded GGUF model compatibility.",
-        "The update leverages llama.cpp to enhance model support across various hardware configurations.",
-        "It augments Ollama's MLX engine, particularly benefiting users on Apple silicon."
-      ]
-    },
-    {
-      "id": 8,
-      "title": "NVIDIA Nemotron 3 Ultra",
-      "url": "https://ollama.com/blog/nemotron-3-ultra",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "NVIDIA is introducing Nemotron 3 Ultra.",
-        "The model is specifically designed for high-throughput reasoning tasks.",
-        "It is optimized for supporting long-running agent workflows."
+        "Ollama 0.30 release introduces performance improvements and expanded GGUF model compatibility.",
+        "The update leverages llama.cpp to broaden model support across various hardware configurations.",
+        "It enhances Ollama's MLX engine specifically for better performance on Apple silicon."
       ]
     },
     {
@@ -304,26 +318,12 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama has integrated support for advanced AI features within Claude Code.",
-        "The new capabilities include the implementation of 'subagents' for more complex task decomposition.",
+        "The new capabilities include the implementation of subagents for complex task decomposition.",
         "Web search functionality has been added, enhancing the model's ability to access real-time information."
       ]
     },
     {
-      "id": 14,
-      "title": "ollama launch",
-      "url": "https://ollama.com/blog/launch",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Ollama introduces a new command for running coding tools locally or in the cloud.",
-        "It supports various models, including Claude Code, OpenCode, and Codex.",
-        "A key feature is its simplicity, requiring no environment variables or config files."
-      ]
-    },
-    {
-      "id": 17,
+      "id": 18,
       "title": "Former Xbox studios Double Fine and Compulsion will keep games after going indie",
       "url": "https://www.theverge.com/games/961749/xbox-layoffs-compulsion-double-fine-indie",
       "source": "The Verge",
@@ -331,13 +331,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Microsoft is restructuring by spinning off four Xbox game studios.",
-        "Double Fine Productions and Compulsion Games will become independent entities.",
-        "The two spinning-off studios will retain their existing game franchises and catalogs."
+        "Microsoft is spinning off four Xbox game studios, including Compulsion Games and Double Fine Productions.",
+        "Double Fine and Compulsion will retain ownership of their existing game franchises and catalogs post-spin-off.",
+        "The move is part of a broader restructuring within Microsoft's Xbox gaming division."
       ]
     },
     {
-      "id": 21,
+      "id": 22,
       "title": "Nintendo will stop selling the original Switch in Europe next year",
       "url": "https://www.theverge.com/games/961632/nintendo-switch-europe-discontinued",
       "source": "The Verge",
@@ -345,27 +345,41 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Nintendo is discontinuing sales of the original Switch model in Europe next year.",
-        "The successor, referred to as Switch 2, will feature a replaceable battery in the European market.",
-        "The announcement comes via an updated FAQ regarding hardware revisions in Europe."
+        "Nintendo is ceasing sales of the original Nintendo Switch in Europe next year.",
+        "The replacement hardware, referred to as Switch 2, will feature a replaceable battery in the European market.",
+        "The announcement comes via an updated FAQ detailing revisions to Nintendo's hardware in Europe."
       ]
     },
     {
-      "id": 24,
-      "title": "Microsoft is laying off 4,800 employees",
-      "url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
-      "source": "The Verge",
-      "author": "Tom Warren",
+      "id": 25,
+      "title": "FCC to end Biden-era rule that forces ISPs to list all their fees",
+      "url": "https://arstechnica.com/tech-policy/2026/07/fcc-to-end-biden-era-rule-that-forces-isps-to-list-all-their-fees/",
+      "source": "Ars Technica",
+      "author": "Jon Brodkin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Microsoft is conducting further layoffs, cutting approximately 4,800 employees.",
-        "This latest round of cuts follows a previous layoff of around 9,100 employees.",
-        "The affected roles are primarily concentrated in Microsoft's commercial sales and Xbox divisions."
+        "The FCC is set to repeal a Biden-era regulation requiring Internet Service Providers (ISPs) to itemize all their fees.",
+        "The change allows ISPs to transition to a single, 'up to' pricing structure for their services.",
+        "This shift impacts consumer transparency regarding ISP billing practices."
       ]
     },
     {
-      "id": 27,
+      "id": 26,
+      "title": "Kremlin suspected of flying drones over Europe using Russian shadow fleet",
+      "url": "https://arstechnica.com/gadgets/2026/07/kremlin-suspected-of-flying-drones-over-europe-using-russian-shadow-fleet/",
+      "source": "Ars Technica",
+      "author": "Jeremy Hsu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Kremlin is suspected of using drones over Europe.",
+        "These drones may have originated from Russian shadow fleet vessels.",
+        "The incident suggests Europe may lack adequate defensive readiness against such threats."
+      ]
+    },
+    {
+      "id": 31,
       "title": "The incredible shrinking Xbox: Five studios, 3,200 employees let go",
       "url": "https://arstechnica.com/gaming/2026/07/the-incredible-shrinking-xbox-five-studios-3200-employees-let-go/",
       "source": "Ars Technica",
@@ -374,22 +388,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Microsoft/Xbox is undergoing significant restructuring within its gaming division.",
-        "Approximately 20% of the gaming division workforce, totaling around 3,200 employees, has been laid off.",
-        "The strategic shift involves refocusing development efforts on the company's most prominent and established franchises."
-      ]
-    },
-    {
-      "id": 36,
-      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
-      "url": "https://arxiv.org/abs/2607.02513v1",
-      "source": "arXiv AI",
-      "author": "Verna Dankers",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses the critical issue of LLMs memorizing sensitive PII from training data.",
-        "Focuses on 'unlearning' techniques, specifically evaluating localization precision for post-hoc data removal.",
-        "Highlights a gap in current research: existing benchmarks only test output-level erasure, not true knowledge removal from model parameters."
+        "The layoffs affect approximately 20% of the gaming workforce, including 3,200 employees across five studios.",
+        "The strategic shift involves refocusing resources on the company's most established and major franchises."
       ]
     },
     {
@@ -401,9 +401,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "LLMs still produce unsafe outputs post-alignment training, necessitating real-time monitoring.",
-        "The research proposes a simple, real-time monitor that uses an external model's verifier signal for alarm decisions.",
-        "The monitor's effectiveness is shown to be competitive in mathematical reasoning and red teaming tests."
+        "LLMs still generate unsafe outputs post-alignment training, necessitating online monitoring.",
+        "The research proposes a simple, real-time monitor that uses an external model's verifier signal.",
+        "The monitor's effectiveness is shown to be competitive in testing against mathematical reasoning and red teaming datasets."
       ]
     },
     {
@@ -416,8 +416,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Investigates how social structures (role, audience) influence LLM agent behavior in multi-agent debates.",
-        "Compares public utterances to off-the-record (OTR) responses to detect latent objective emergence.",
-        "Proposes a dual-channel debate framework to study the impact of relational context on AI communication."
+        "Compares public utterances in a shared debate setting against 'off-the-record' (OTR) responses to detect emergent social dynamics.",
+        "Suggests that social context can shape agent expression even without explicit objectives in the prompt."
       ]
     },
     {
@@ -430,8 +430,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The research addresses the challenge of speaker recognition in complex, long-form TV dramas.",
-        "A new large-scale benchmark, DramaSR-532K, is introduced, featuring 532K annotated dialogue lines across over 900 characters.",
-        "The study leverages Reasoning LLMs to improve the accuracy of speaker attribution in video content."
+        "A new large-scale benchmark, DramaSR-532K, has been introduced, featuring 532K annotated dialogue lines across over 900 characters.",
+        "The work leverages Reasoning LLMs to improve the accuracy of attributing spoken utterances to specific characters."
       ]
     },
     {
@@ -443,9 +443,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces DemoPSD, a new method building upon On-policy Self-Distillation (OPSD) for LLM training.",
-        "Addresses a critical limitation of existing OPSD: dense, privileged token-level supervision causes overfitting and poor cross-domain generalization.",
-        "The research aims to improve LLM reasoning capabilities by mitigating the negative effects of overly strong teacher supervision."
+        "Introduces DemoPSD, a new method to address limitations in On-policy Self-Distillation (OPSD) for LLMs.",
+        "Highlights that traditional dense, token-level supervision from the teacher model can cause overfitting and poor cross-domain generalization.",
+        "The research aims to improve LLM reasoning capabilities by mitigating the negative effects of privileged information in self-distillation."
       ]
     },
     {
@@ -457,261 +457,219 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces G-RRM, a neuro-symbolic approach that integrates Recurrent Reasoning Models (RRMs) with traditional symbolic solvers.",
-        "Utilizes Symbol-Equivariant RRMs (SE-RRMs) to generate full solution proposals and guide classical solvers like SAT-based methods.",
-        "Focuses on improving extrapolation capabilities of neural models to handle larger constraint satisfaction problems."
+        "Introduces G-RRM, a neuro-symbolic approach that integrates Recurrent Reasoning Models (SE-RRMs) with traditional symbolic solvers.",
+        "SE-RRMs function as neural solvers capable of generating complete solution proposals to guide classical methods like SAT solvers (e.g., Glucose 4.1).",
+        "The research focuses on SE-RRMs, a symbol-equivariant instantiation designed to improve extrapolation capabilities to larger problem sizes."
       ]
     },
     {
-      "id": 45,
-      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
-      "url": "https://arxiv.org/abs/2607.02513v1",
+      "id": 46,
+      "title": "Modular Foundation Models for Time-Series Perception in Digital Twins",
+      "url": "https://arxiv.org/abs/2607.03585v1",
       "source": "arXiv Machine Learning",
-      "author": "Verna Dankers",
+      "author": "Luc Vouligny",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the critical issue of Large Language Models (LLMs) memorizing sensitive Personally Identifiable Information (PII) from training data.",
-        "It critiques existing 'localize-first, unlearn-second' unlearning methods, noting that current benchmarks only test output-level erasure.",
-        "The research introduces 'LACUNA' as a new testbed to evaluate the precision of knowledge removal within the model itself, not just at the output."
+        "Addresses limitations in current time-series perception for Digital Twins and PHM systems.",
+        "Proposes Modular Foundation Models to overcome task-specificity and data dependency.",
+        "Aims to improve robustness and transferability of models across diverse operating conditions."
       ]
     },
     {
       "id": 47,
-      "title": "Online Safety Monitoring for LLMs",
-      "url": "https://arxiv.org/abs/2607.02510v1",
+      "title": "When Geometry Aligns: Dihedral Hidden-State Transformations in UNet, ViT, and DiT Architectures",
+      "url": "https://arxiv.org/abs/2607.03580v1",
       "source": "arXiv Machine Learning",
-      "author": "Eric Nalisnick",
+      "author": "Irina Rish",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "LLMs continue to produce unsafe outputs even after alignment training, necessitating real-time monitoring.",
-        "The research proposes a simple, real-time monitor that uses an external model's verifier signal for alarm decisions.",
-        "The monitor's threshold is calibrated using risk control and shows competitive performance in red teaming and reasoning tasks."
+        "The research investigates the impact of structured geometric perturbations (specifically dihedral group reflections) on modern diffusion models.",
+        "It unifies analysis across different architectures, including UNet (convolutional), ViT, and DiT (transformer-based).",
+        "The study aims to understand how geometric consistency affects the internal hidden states of these advanced AI models."
       ]
     },
     {
       "id": 48,
-      "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates",
-      "url": "https://arxiv.org/abs/2607.02507v1",
+      "title": "Differentiate the Evaluator, Not the Program: An Efficient Runtime Representation for Neuro-Symbolic Learning",
+      "url": "https://arxiv.org/abs/2607.03574v1",
       "source": "arXiv Machine Learning",
-      "author": "Shahriar Noroozizadeh",
+      "author": "Lucas Sheneman",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Investigates how social structures (role, audience) influence LLM agent behavior in multi-agent debates.",
-        "Compares public utterances against off-the-record (OTR) responses to detect emergent, unprompted objectives.",
-        "Introduces a dual-channel debate framework to study the impact of relational context on LLM communication."
+        "Addresses the computational bottleneck in Neuro-Symbolic Learning where evaluating candidate programs requires extensive inner-loop optimization.",
+        "Proposes a new runtime representation to differentiate the evaluator rather than the program structure itself.",
+        "Aims to overcome the trade-off between fast individual model evaluation and the ability to treat the program as data for efficient co-search."
       ]
     },
     {
       "id": 49,
-      "title": "DemoPSD: Disagreement-Modulated Policy Self-Distillation",
-      "url": "https://arxiv.org/abs/2607.02502v1",
+      "title": "Teacher Supervision over Representation Equivalence Classes",
+      "url": "https://arxiv.org/abs/2607.03572v1",
       "source": "arXiv Machine Learning",
-      "author": "Linqi Song",
+      "author": "Sang Il Han",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces DemoPSD, a new method to address limitations in On-policy Self-Distillation (OPSD) for LLMs.",
-        "Identifies that traditional dense token-level supervision in OPSD can cause overfitting and hinder cross-domain generalization.",
-        "Aims to improve LLM reasoning capabilities by modulating disagreement during the self-distillation process."
+        "The paper challenges the standard assumption in knowledge distillation that a teacher's representation has absolute coordinates for matching.",
+        "It proposes that a student model should learn the teacher's 'equivalence class' of representations, as pretrained representations are only identifiable up to an orthogonal-and-isotropic-scaling.",
+        "The core idea is that the teacher's 'capability' (its output function) is the true organizing factor to be transferred, rather than specific feature values."
+      ]
+    },
+    {
+      "id": 50,
+      "title": "How to Avoid Debate: Scalable AI Safety via Doubly-Efficient Interactive Proofs",
+      "url": "https://arxiv.org/abs/2607.03561v1",
+      "source": "arXiv Machine Learning",
+      "author": "Zoe Xi",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper addresses the critical need for verifying AI model outputs to ensure alignment with human intentions.",
+        "It critiques the current 'debate' model of interactive proofs, which assumes equal capabilities and truthfulness among competing AI provers.",
+        "The proposed solution introduces 'Doubly-Efficient Interactive Proofs' to offer a scalable alternative for AI safety verification."
       ]
     },
     {
       "id": 51,
-      "title": "Controllable Sim Agents with Behavior Latents",
-      "url": "https://arxiv.org/abs/2607.02496v1",
+      "title": "Latent Clarity: Bridging World-Model Kinematics to Semantic Manifolds for Video Anomaly Anticipation",
+      "url": "https://arxiv.org/abs/2607.03558v1",
       "source": "arXiv Machine Learning",
-      "author": "Ziran Wang",
+      "author": "Abu Anas Ibn Samad",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces CNeVA, a framework for controllable simulated agents designed for realistic traffic simulation.",
-        "The agents learn a per-agent Gaussian behavior latent from discounted returns, enabling controllable behavior.",
-        "This controllability allows engineers to isolate variables and test autonomous systems safely without real-world risk."
+        "Introduces PULS, a new continuous semantic world-model pipeline for video anomaly anticipation.",
+        "The system features a KSD Bridge (490M params) to map physical tensors (from V-JEPA 2) into semantic embeddings.",
+        "It utilizes an Anticipatory State Predictor (ASP) to move beyond reactive Multiple Instance Learning (MIL) methods."
+      ]
+    },
+    {
+      "id": 52,
+      "title": "WeightCLIP: Aligning Datasets and Models for Weight Space Learning",
+      "url": "https://arxiv.org/abs/2607.03551v1",
+      "source": "arXiv Machine Learning",
+      "author": "Damian Borth",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces WeightCLIP, a new method for learning dataset-aligned latent spaces for neural network weights.",
+        "Addresses a limitation in existing weight space learning approaches by incorporating dataset information during training.",
+        "Aims to improve the applicability of weight-space representations across various downstream tasks."
       ]
     },
     {
       "id": 53,
-      "title": "Neuron-Aware Data Selection for Annotation-Free LLM Self-Distillation",
-      "url": "https://arxiv.org/abs/2607.02460v1",
+      "title": "Aligning Language Models with Selective Prediction",
+      "url": "https://arxiv.org/abs/2607.03528v1",
       "source": "arXiv Machine Learning",
-      "author": "Xiang Lorraine Li",
+      "author": "Ju Sun",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the challenge of training LLMs in specialized domains without costly human annotations.",
-        "Proposes a 'Neuron-Aware Data Selection' method for annotation-free self-distillation.",
-        "Utilizes the LLM's own outputs and majority voting across rollouts to generate pseudo-labels for self-supervision."
+        "The paper addresses the critical issue of LLM reliability in high-stakes, real-world AI applications.",
+        "It introduces 'Selective Prediction' (SP) as a method to improve LLM performance by only making predictions when the model is confident.",
+        "SP aims to reduce the error rate (risk) on covered inputs while flagging uncertain inputs for further human review."
       ]
     },
     {
       "id": 54,
-      "title": "Understanding the Robustness of Distributed Self-Supervised Learning Frameworks Against Non-IID Data",
-      "url": "https://arxiv.org/abs/2607.02447v1",
+      "title": "Co-Adaptive Multi-Task LoRA: Transfer-Aware, Label-Free Control of Domain Participation",
+      "url": "https://arxiv.org/abs/2607.03522v1",
       "source": "arXiv Machine Learning",
-      "author": "Dong Yuan",
+      "author": "Yuxuan Wang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the critical challenge of data heterogeneity (non-IID data) in Distributed Self-Supervised Learning (D-SSL).",
-        "Provides a rigorous theoretical analysis to understand how various D-SSL frameworks perform under real-world, decentralized data conditions.",
-        "Contributes to the foundational understanding of D-SSL robustness, moving beyond purely empirical studies."
+        "Introduces 'Co-Adaptive Multi-Task LoRA' to address challenges in multi-domain fine-tuning using low-rank adapters.",
+        "Addresses the critical issue of how different domains interact during co-learning (i.e., whether they help or hurt each other).",
+        "Proposes a method to dynamically determine optimal domain participation levels and suitable co-training groups."
       ]
     },
     {
       "id": 55,
-      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
-      "url": "https://arxiv.org/abs/2607.02513v1",
+      "title": "Mental Health Disorder Detection Beyond Social Media: A Systematic Review of Available Datasets",
+      "url": "https://arxiv.org/abs/2607.03540v1",
       "source": "arXiv NLP",
-      "author": "Verna Dankers",
+      "author": "Marcos Zampieri",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the critical issue of Large Language Models (LLMs) memorizing sensitive Personally Identifiable Information (PII) from training data.",
-        "It critiques existing unlearning methods, which often rely on a 'localize-first, unlearn-second' approach targeting specific model parameters.",
-        "The research introduces a new testbed (LACUNA) to evaluate localization precision, arguing that current benchmarks only test output-level erasure, not true knowledge removal."
+        "Addresses the critical limitation of relying solely on social media data for mental health disorder detection.",
+        "Presents a systematic review of non-social media, free-text datasets for mental health research.",
+        "Highlights the need to overcome sampling biases and privacy concerns associated with social media data."
       ]
     },
     {
       "id": 56,
-      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
-      "url": "https://arxiv.org/abs/2607.02512v1",
+      "title": "Aligning Language Models with Selective Prediction",
+      "url": "https://arxiv.org/abs/2607.03528v1",
       "source": "arXiv NLP",
-      "author": "Yuntian Deng",
+      "author": "Ju Sun",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'fuzzy-function programming' to handle complex, non-rule-based programming tasks.",
-        "Proposes compiling natural-language specifications into compact, locally-executable neural artifacts (Program-as-Weights).",
-        "Addresses limitations of relying on LLM APIs for tasks like log alerting or JSON repair (locality, reproducibility, cost)."
+        "Addresses the critical issue of LLM reliability in high-stakes, real-world AI systems.",
+        "Proposes 'Selective Prediction' (SP) as a method to enhance LLM reliability.",
+        "SP works by having the LLM only predict when it is highly confident (high coverage), thus reducing error risk on those inputs."
+      ]
+    },
+    {
+      "id": 57,
+      "title": "GameEngineBench: Evaluating Coding Agents on Real C++ Runtime Environments",
+      "url": "https://arxiv.org/abs/2607.03525v1",
+      "source": "arXiv NLP",
+      "author": "Gonzalo Gonzalez-Pumariega",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces GameEngineBench, a new benchmark for evaluating coding agents.",
+        "The benchmark tests agents on real C++ runtime environments found in game engines.",
+        "Highlights the utility of game engines as a practical testbed for AI agents needing to modify complex, stateful, real-time systems applicable beyond gaming (e.g., robotics, healthcare)."
       ]
     },
     {
       "id": 58,
-      "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates",
-      "url": "https://arxiv.org/abs/2607.02507v1",
+      "title": "Anchored Self-Play for Code Repair",
+      "url": "https://arxiv.org/abs/2607.03523v1",
       "source": "arXiv NLP",
-      "author": "Shahriar Noroozizadeh",
+      "author": "Ludwig Schmidt",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Investigates how social structure (role, audience) influences LLM agent behavior in multi-agent debates.",
-        "Compares public utterances made by agents against 'off-the-record' (OTR) responses under the same conditions.",
-        "Proposes a dual-channel debate framework to study the emergence of latent objectives in social AI settings."
+        "The research addresses the challenge of limited data in code repair tasks for Language Models (LMs).",
+        "It proposes a novel 'generator-fixer self-play' framework trained with Reinforcement Learning.",
+        "This self-play mechanism allows a single model to iteratively generate increasingly difficult bugs and fix them, scaling supervision."
       ]
     },
     {
-      "id": 59,
-      "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
-      "url": "https://arxiv.org/abs/2607.02504v1",
+      "id": 63,
+      "title": "TRIAGE: Trustworthy Retrieval Instrumentation And Graph Evaluation",
+      "url": "https://arxiv.org/abs/2607.03447v1",
       "source": "arXiv NLP",
-      "author": "Qi Tian",
+      "author": "Martin Royer",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the complex challenge of speaker recognition in long-form TV dramas.",
-        "Introduces DramaSR-532K, a new large-scale benchmark with 532K annotated dialogue lines.",
-        "Proposes using Reasoning LLMs to improve the accuracy of speaker attribution in video content."
-      ]
-    },
-    {
-      "id": 60,
-      "title": "Towards Robustness against Typographic Attack with Training-free Concept Localization",
-      "url": "https://arxiv.org/abs/2607.02494v1",
-      "source": "arXiv NLP",
-      "author": "Aidong Zhang",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "CLIP models, foundational to modern LVLMs, are vulnerable to Typographic Attacks (TA).",
-        "TA occurs when irrelevant text within images biases visual representations toward lexical meaning.",
-        "The research proposes a training-free method for robust concept localization to address this vulnerability."
-      ]
-    },
-    {
-      "id": 61,
-      "title": "Visually Grounded Self-Reflection for Vision-Language Models via Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2607.02490v1",
-      "source": "arXiv NLP",
-      "author": "Greg Durrett",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses a limitation in Vision-Language Models (LVLMs) regarding self-reflection during reasoning.",
-        "Proposes using Reinforcement Learning to enable LVLMs to properly attend to visual inputs during self-correction.",
-        "Aims to improve the models' ability to translate feedback into grounded corrections, especially for out-of-distribution images."
-      ]
-    },
-    {
-      "id": 66,
-      "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
-      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
-      "source": "Hacker News",
-      "author": "LabsLucas",
-      "timestamp": "2026-07-06T15:01:18",
-      "ai_score": 7,
-      "bullet_points": [
-        "AMD is introducing the Ryzen AI Halo, indicating a push into AI-centric computing.",
-        "The product is being offered as a high-end development kit priced at $4k.",
-        "This signals AMD's strategy to target AI developers and enterprise/prosumer markets."
-      ]
-    },
-    {
-      "id": 72,
-      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "source": "Hacker News",
-      "author": "maxloh",
-      "timestamp": "2026-07-06T16:47:44",
-      "ai_score": 7,
-      "bullet_points": [
-        "OfficeCLI is a new tool designed to allow AI agents to interact with Microsoft Office files.",
-        "Its primary function is enabling AI agents to read and edit documents within the Office suite.",
-        "This represents a step toward deeper integration of AI into standard productivity workflows."
-      ]
-    },
-    {
-      "id": 86,
-      "title": "Where Do Your LLM API Keys Actually Live?",
-      "url": "https://dev.to/hadil/where-do-your-llm-api-keys-actually-live-2cjm",
-      "source": "Dev.to",
-      "author": "hadil",
-      "timestamp": "2026-07-06T08:32:55Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses a critical security concern regarding LLM API key management.",
-        "Highlights the risk of dependency compromise leading to credential theft.",
-        "Focuses on practical security practices for developers using LLMs."
+        "The paper addresses the growing reliance on LLM-driven extraction for building Knowledge Graphs (KGs) used in Graph-RAG systems.",
+        "It highlights a critical need for comprehensive evaluation that instruments all stages: extraction, graph construction, and inference.",
+        "The proposed solution, TRIAGE, is a stage-aware instrumentation framework designed to precisely localize failures within the RAG pipeline."
       ]
     },
     {
       "id": 89,
-      "title": "Performance Testing RAG Applications: Complete Engineering Guide",
-      "url": "https://dev.to/qainsights/performance-testing-rag-applications-complete-engineering-guide-25g7",
+      "title": "Observability Design for the AI Era — Application / Infrastructure / CI / LLM, Each in Its Own Shape (Part 1)",
+      "url": "https://dev.to/ryantsuji/observability-design-for-the-ai-era-application-infrastructure-ci-llm-each-in-its-own-56eg",
       "source": "Dev.to",
-      "author": "qainsights",
-      "timestamp": "2026-07-06T15:56:54Z",
+      "author": "ryantsuji",
+      "timestamp": "2026-07-06T23:44:23Z",
       "ai_score": 7,
       "bullet_points": [
-        "The guide focuses specifically on performance testing Retrieval-Augmented Generation (RAG) applications.",
-        "It provides a comprehensive engineering walkthrough for optimizing RAG system performance.",
-        "This addresses a practical, advanced operational challenge in deploying modern LLM applications."
-      ]
-    },
-    {
-      "id": 91,
-      "title": "🧠 Tokenization in Modern LLMs: The Hidden Mechanics Behind AI Costs and Reasoning",
-      "url": "https://dev.to/xenocoregiger31/tokenization-in-modern-llms-the-hidden-mechanics-behind-ai-costs-and-reasoning-1cd3",
-      "source": "Dev.to",
-      "author": "xenocoregiger31",
-      "timestamp": "2026-07-06T17:37:04Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "The article delves into the technical mechanics of tokenization within Large Language Models (LLMs).",
-        "It connects tokenization directly to understanding the operational costs associated with modern AI.",
-        "The piece aims to demystify the 'magic' of LLMs by revealing underlying computational processes."
+        "The article discusses the need to reshape observability data structures to support the demands of the AI era.",
+        "It analyzes four distinct axes of observability: Application, Infrastructure, CI, and LLM, noting their unique design requirements.",
+        "Specific design decisions are highlighted, such as client-side Gemini cost calculation and routing Claude Code OTel data to BigQuery."
       ]
     }
   ]
