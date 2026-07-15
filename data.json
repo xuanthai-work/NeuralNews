@@ -1,21 +1,35 @@
 {
-  "generated_at": "2026-07-14T18:56:33.135347",
+  "generated_at": "2026-07-15T01:06:40.699985",
   "total_stories": 48,
   "sources": [
-    "The Verge",
-    "arXiv Machine Learning",
-    "Hacker News",
-    "arXiv NLP",
-    "Lobsters",
-    "Dev.to",
     "Ars Technica",
+    "arXiv Machine Learning",
     "Hugging Face Benchmarks",
-    "Ollama",
-    "arXiv AI"
+    "arXiv NLP",
+    "Hacker News",
+    "Lobsters",
+    "arXiv AI",
+    "Dev.to",
+    "The Verge",
+    "Ollama"
   ],
   "stories": [
     {
       "id": 18,
+      "title": "SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+      "source": "The Verge",
+      "author": "Stevie Bonifield",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "SpaceXAI's Grok Build AI coding tool was found to be uploading users' entire codebases to Google Cloud.",
+        "The tool was observed packaging and uploading entire code repositories, even files it was instructed to ignore.",
+        "The issue was reported by Cereblab, leading SpaceXAI to disable the Grok Build CLI."
+      ]
+    },
+    {
+      "id": 22,
       "title": "Meta accused of using biased AI targeting for mass layoffs",
       "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
       "source": "The Verge",
@@ -23,23 +37,23 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Former Meta employees are suing the company over allegations of biased AI use in layoffs.",
-        "The lawsuit claims Meta used a 'constellation' of internal AI tools to unfairly target workers.",
-        "The core allegation is that AI determined which employees to dismiss, specifically targeting those on leave."
+        "Meta is facing a lawsuit from 26 former employees regarding its layoff practices.",
+        "The core allegation is that Meta used internal AI tools to unfairly target specific workers for dismissal.",
+        "The lawsuit claims AI tools analyzed performance data to determine which employees were laid off."
       ]
     },
     {
-      "id": 67,
-      "title": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
-      "url": "https://prismml.com/news/bonsai-27b",
-      "source": "Hacker News",
-      "author": "xenova",
-      "timestamp": "2026-07-14T17:50:48",
+      "id": 25,
+      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+      "source": "Ars Technica",
+      "author": "Dan Goodin",
+      "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Introduction of Bonsai 27B, a 27-billion parameter Large Language Model (LLM).",
-        "The model is notable for being one of the first of its class capable of running directly on a mobile phone.",
-        "This signifies a major step toward highly efficient, on-device AI inference."
+        "Microsoft's Secure Boot implementation has a decade-long vulnerability.",
+        "The bypass is enabled by unrevoked, outdated 'shims' within the system.",
+        "This flaw allows for relatively simple circumvention of a core security feature."
       ]
     },
     {
@@ -51,8 +65,8 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
-        "The model is categorized for text-generation and conversational AI tasks.",
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on the Hugging Face platform.",
+        "The model is categorized for text generation and conversational AI tasks.",
         "It utilizes standard ML components like transformers and safetensors."
       ]
     },
@@ -65,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the Meta-Llama-3-8B model, a significant large language model.",
-        "It is featured on Hugging Face Benchmarks, indicating its community relevance and performance tracking.",
-        "The associated pipeline is 'text-generation,' placing it within the generative AI domain."
+        "The news highlights the trending status of Meta-Llama-3-8B on Hugging Face.",
+        "It is categorized under text-generation pipelines, indicating its primary function as a large language model.",
+        "The associated tags (transformers, safetensors, llama) confirm its relevance within the modern NLP/AI ecosystem."
       ]
     },
     {
@@ -79,9 +93,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
-        "The associated tags confirm its relevance within the transformer, llama, and safetensors ecosystems."
+        "The news highlights the trending status of the meta-llama/Llama-3.1-8B-Instruct model on Hugging Face.",
+        "The model is categorized under text-generation, indicating its primary function as a generative language model.",
+        "It is associated with key ML technologies like transformers and safetensors, placing it within the mainstream LLM ecosystem."
       ]
     },
     {
@@ -93,9 +107,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Highlights the trending status of the DeepSeek-V4-Pro model on Hugging Face.",
-        "The model is categorized for text-generation tasks, indicating its generative capabilities.",
-        "It utilizes standard ML frameworks like transformers and safetensors."
+        "The news highlights the trending status of the 'deepseek-ai/DeepSeek-V4-Pro' model on Hugging Face.",
+        "The model is categorized for text generation tasks, indicating its primary function as a large language model (LLM).",
+        "It is associated with key ML technologies like transformers and safetensors, placing it within the current LLM ecosystem."
       ]
     },
     {
@@ -107,9 +121,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama has secured $88 million in funding from prominent investors including Y Combinator and 8VC.",
-        "The company boasts a significant developer base, currently serving 8.9 million developers.",
-        "The funding validates the growing importance and adoption of open-source large language models (LLMs)."
+        "Ollama, a platform for running open models, has secured significant funding.",
+        "The company raised $88 million from prominent investors including Y Combinator and Benchmark.",
+        "Ollama currently serves a substantial user base of 8.9 million developers."
       ]
     },
     {
@@ -121,9 +135,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Gemma 4 achieves significant speed improvements on Apple Silicon when run through Ollama 0.31.",
-        "The performance boost is attributed to the implementation of Multi-Token Prediction (MTP) powered by MLX.",
-        "Speed gains reach up to 90% faster, particularly when utilized with coding agents, as validated by the Aider benchmark."
+        "Gemma 4 inference speed is significantly improved in Ollama 0.31 on Apple Silicon.",
+        "The performance boost is achieved through the implementation of Multi-Token Prediction (MTP) powered by MLX.",
+        "Coding agent performance saw up to a 90% speed increase when benchmarked using Aider."
       ]
     },
     {
@@ -135,23 +149,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama has achieved its peak performance on Apple Silicon using the MLX engine.",
-        "The performance improvements result in higher quality model outputs.",
-        "The updated engine also provides faster response times and reduced memory usage."
-      ]
-    },
-    {
-      "id": 9,
-      "title": "NVIDIA Nemotron 3 Ultra",
-      "url": "https://ollama.com/blog/nemotron-3-ultra",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduction of NVIDIA Nemotron 3 Ultra, a new model architecture.",
-        "The model is specifically engineered for high-throughput reasoning tasks.",
-        "It is designed to support complex, long-running agent workflows."
+        "Ollama has achieved its peak performance on Apple Silicon.",
+        "The performance boost is attributed to updates in the MLX engine.",
+        "Improvements include faster response times, higher output quality, and reduced memory usage."
       ]
     },
     {
@@ -164,7 +164,7 @@
       "ai_score": 8,
       "bullet_points": [
         "OpenJarvis v1.0 is released, providing an open-source framework for personal AI agents.",
-        "The key feature is that these agents can run entirely on the user's local hardware.",
+        "The key feature is the ability to run these AI agents locally on the user's own hardware.",
         "It features built-in support for Ollama, leveraging local LLM execution."
       ]
     },
@@ -177,9 +177,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, is integrating MLX for performance optimization.",
-        "The integration leverages MLX, Apple's native machine learning framework.",
-        "This update provides a preview of faster LLM execution specifically on Apple Silicon hardware."
+        "Ollama, a popular local LLM runner, is integrating MLX for performance gains.",
+        "This integration specifically targets Apple Silicon hardware for optimized AI inference.",
+        "The feature is currently available in a preview build, indicating active development."
       ]
     },
     {
@@ -191,13 +191,41 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, ensuring all processing runs directly on the user's device.",
-        "This architecture emphasizes user privacy and local control over AI interactions."
+        "OpenClaw is a personal AI assistant designed to integrate with messaging apps.",
+        "It connects these apps to local AI coding agents.",
+        "A key feature is that all AI processing runs entirely on the user's local device for privacy."
       ]
     },
     {
-      "id": 28,
+      "id": 17,
+      "title": "OpenAI may announce a ChatGPT smart speaker this year",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+      "source": "The Verge",
+      "author": "Jay Peters",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "OpenAI is reportedly developing a dedicated smart speaker device powered by ChatGPT.",
+        "The device is expected to be screenless but will utilize a camera and sensors for environmental understanding.",
+        "The news surfaces shortly after Apple initiated a lawsuit against OpenAI."
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Lawsuit claims Meta's layoff decisions were made by AI, not humans",
+      "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
+      "source": "Ars Technica",
+      "author": "Jon Brodkin",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "A lawsuit alleges that Meta utilized Artificial Intelligence in its layoff decisions.",
+        "The core of the legal challenge focuses on potential bias against workers with disabilities or medical issues.",
+        "Meta has officially denied the claim that AI was used to terminate employees based on these protected characteristics."
+      ]
+    },
+    {
+      "id": 32,
       "title": "New York bans data center construction for a year, rattling AI industry",
       "url": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
       "source": "Ars Technica",
@@ -206,7 +234,7 @@
       "ai_score": 8,
       "bullet_points": [
         "New York has implemented a one-year moratorium on new data center construction.",
-        "This regulatory action is noted as a potential precursor to broader anti-AI movements.",
+        "This regulatory action is viewed as a potential precursor to broader anti-AI movements.",
         "The ban directly impacts the infrastructure needs of the rapidly expanding AI industry."
       ]
     },
@@ -219,9 +247,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The research moves beyond input-output analysis of LLM-as-judge bias to offer a mechanistic interpretability account within the judge's hidden state.",
-        "It provides a complementary, representation-level understanding of bias, which is operationally more useful than current prompt-level mitigations.",
-        "The study is robust, testing across seven judges, seven bias types, and nine different benchmarks."
+        "The research moves beyond surface-level input-output analysis of LLM-as-judge bias to investigate biases within the model's internal hidden states (representation-level account).",
+        "It provides a mechanistic interpretability framework to explain *why* LLMs exhibit judging biases, offering a deeper, complementary view to current methods.",
+        "The study is highly empirical, testing across seven judges, seven bias types, and nine benchmarks to validate its findings."
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Evidence-Backed Video Question Answering",
+      "url": "https://arxiv.org/abs/2607.11862v1",
+      "source": "arXiv AI",
+      "author": "Juan Carlos Niebles",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Proposes Evidence-Backed Video Question Answering (E-VQA) to address the black-box nature of current Video LLMs.",
+        "Current Video LLMs lack verifiable visual grounding for their textual answers, especially concerning complex dynamics like occlusions.",
+        "E-VQA requires models to jointly output a semantic answer alongside precise visual evidence."
       ]
     },
     {
@@ -233,9 +275,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces MM-ToolSandBox, a new benchmark and evaluation framework for visually grounded tool-calling agents.",
-        "The framework supports complex, stateful tasks involving over 500 tools across 16 application domains.",
-        "It specifically tests agents' ability to handle multi-turn interactions, goal revisions, and visual input grounding for tool execution."
+        "Introduces MM-ToolSandBox, a new benchmark and evaluation framework specifically for visually grounded tool-calling agents.",
+        "The framework supports complex, stateful tasks involving 500+ tools across 16 application domains, handling multi-image and multi-turn interactions.",
+        "It tests agents' ability to manage realistic conversational challenges like goal revisions, error corrections, and state mutations during tool execution."
       ]
     },
     {
@@ -247,9 +289,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The paper proposes a novel mechanistic interpretability approach to understand LLM-as-Judge bias, moving beyond traditional input-output level analysis.",
-        "It argues that biases can be accounted for within the judge's internal hidden state representations, offering a complementary and operationally useful perspective.",
-        "The research is highly empirical, reporting findings across seven judges, seven bias types, and nine benchmarks."
+        "The paper introduces a novel mechanistic interpretability approach to analyze bias in LLM-as-Judge systems.",
+        "It shifts the focus from input-output perturbations to analyzing biases within the judge's internal hidden state (representation-level account).",
+        "The research provides empirical evidence across multiple judges, bias types, and benchmarks, offering new avenues for bias mitigation."
       ]
     },
     {
@@ -261,9 +303,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The paper moves beyond input-output level analysis of LLM-as-Judge bias to offer a mechanistic interpretability account.",
-        "It posits that biases exist within the judge's hidden state (representation-level), complementing existing methods.",
-        "The research validates this approach across seven judges, seven bias types, and nine benchmarks."
+        "The paper moves beyond surface-level input-output analysis of LLM-as-Judge bias to investigate the underlying representation-level causes within the judge's hidden state.",
+        "It provides a mechanistic interpretability account of bias, offering a deeper, complementary understanding to existing perturbation-based studies.",
+        "The research is highly empirical, testing findings across seven judges, seven bias types, and nine benchmarks."
       ]
     },
     {
@@ -275,9 +317,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 introduces performance improvements and enhanced GGUF model compatibility.",
-        "The update leverages llama.cpp to broaden model support across various hardware platforms.",
-        "It augments Ollama's MLX engine, specifically benefiting users on Apple silicon."
+        "Ollama 0.30 release introduces performance enhancements and expanded GGUF model compatibility.",
+        "The update leverages llama.cpp to broaden model support across various hardware configurations.",
+        "It enhances Ollama's MLX engine specifically for improved functionality on Apple silicon."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "NVIDIA Nemotron 3 Ultra",
+      "url": "https://ollama.com/blog/nemotron-3-ultra",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduction of NVIDIA Nemotron 3 Ultra.",
+        "Designed specifically for high-throughput reasoning tasks.",
+        "Optimized for supporting long-running agent workflows."
       ]
     },
     {
@@ -289,13 +345,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama has integrated support for advanced AI features within Claude Code.",
-        "The new capabilities include the implementation of 'subagents' for more complex task decomposition.",
-        "Web search functionality has been added, enhancing the model's ability to access real-time information."
+        "Ollama has integrated support for subagents within Claude Code.",
+        "The new feature set includes the capability for web search functionality in Claude Code.",
+        "This update enhances the complexity and capability of AI agents running through Ollama."
       ]
     },
     {
-      "id": 19,
+      "id": 23,
       "title": "Boston Dynamics tries using &#8216;robot dogs&#8217; for deliveries",
       "url": "https://www.theverge.com/tech/965378/boston-dynamics-spot-robot-dog-delivery-assistant",
       "source": "The Verge",
@@ -303,41 +359,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Boston Dynamics is expanding the utility of its Spot robot beyond inspections and patrolling.",
+        "Boston Dynamics is expanding the use of its Spot robot beyond inspections and patrolling.",
         "The company is testing a new conveyor belt accessory to enable package delivery.",
-        "The goal of this development is to allow Spot to autonomously unload items at customer doorsteps."
+        "The goal of this development is to allow Spot to autonomously unload packages at customer doorsteps."
       ]
     },
     {
-      "id": 22,
-      "title": "The OLED Xbox Ally X20 is so good, Asus will sell it solo",
-      "url": "https://www.theverge.com/games/965123/asus-rog-xbox-ally-x20-oled-preview",
-      "source": "The Verge",
-      "author": "Sean Hollister",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The OLED Xbox Ally X20 is being highlighted as a highly capable handheld device.",
-        "Initially, the device was planned for sale bundled with expensive AR glasses.",
-        "Asus has changed its sales strategy, opting to sell the Ally X20 independently."
-      ]
-    },
-    {
-      "id": 24,
-      "title": "Spotify is now an AI chatbot, too",
-      "url": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
-      "source": "The Verge",
-      "author": "Jess Weatherbed",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Spotify is integrating a new AI chatbot feature for Premium subscribers.",
-        "Users can interact with the chatbot to discover and play music, audiobooks, and podcasts through conversation.",
-        "The 'Talk to Spotify' feature is currently being tested and is visible in the mobile app's Home and Now Playing views."
-      ]
-    },
-    {
-      "id": 25,
+      "id": 29,
       "title": "US military sent explosive drone boats into combat for the first time",
       "url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
       "source": "Ars Technica",
@@ -347,11 +375,11 @@
       "bullet_points": [
         "The US military has deployed explosive drone boats into combat operations.",
         "These drone boats were used to strike an Iranian naval port.",
-        "The deployment signals an escalation in regional military tensions."
+        "The deployment occurs amid escalating tensions in the region."
       ]
     },
     {
-      "id": 26,
+      "id": 30,
       "title": "These painted e-tattoos could be the future of wearable biosensors",
       "url": "https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/",
       "source": "Ars Technica",
@@ -359,13 +387,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The article discusses the use of painted, conductive ink for creating e-tattoos.",
-        "These e-tattoos function as wearable biosensors by drying into working electrodes.",
-        "This technology suggests a future trend toward highly customizable and discreet health monitoring."
+        "The article discusses the potential of painted e-tattoos as next-generation wearable biosensors.",
+        "These sensors utilize conductive ink applied directly to the skin to form functional electrodes.",
+        "This technology suggests a shift towards more aesthetically integrated and user-friendly health monitoring."
       ]
     },
     {
-      "id": 27,
+      "id": 31,
       "title": "Google revamps image search for its 25th anniversary with more images and more AI",
       "url": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai/",
       "source": "Ars Technica",
@@ -374,12 +402,12 @@
       "ai_score": 7,
       "bullet_points": [
         "Google is updating its image search functionality for its 25th anniversary.",
-        "The revamped search will leverage user 'unique interests' to generate a personalized, always-updated gallery.",
-        "The update emphasizes the integration of more AI into the image search experience."
+        "The revamp integrates AI to create an always-updated gallery based on user 'unique interests'.",
+        "This signals a continued push by Google to personalize and deepen AI integration across core services."
       ]
     },
     {
-      "id": 31,
+      "id": 34,
       "title": "SpaceX is gearing up for Starship's 13th test flight later this week",
       "url": "https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week/",
       "source": "Ars Technica",
@@ -387,37 +415,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "SpaceX is preparing for the 13th test flight of its Starship vehicle.",
-        "The upcoming flight is designed to subject Starship to increased operational pressure.",
-        "The test will also involve deploying new Starlink satellites into orbit."
-      ]
-    },
-    {
-      "id": 33,
-      "title": "The US government warns that Russia state hackers are coming after your router",
-      "url": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
-      "source": "Ars Technica",
-      "author": "Dan Goodin",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "CISA has issued a warning regarding cyber threats targeting residential routers.",
-        "The threat specifically points to state-sponsored hacking groups originating from Russia.",
-        "The warning is issued in the context of increased use of residential proxies."
-      ]
-    },
-    {
-      "id": 34,
-      "title": "Ukrainian drone strikes forced Russia to stop shipping in vital sea corridor",
-      "url": "https://arstechnica.com/gadgets/2026/07/ukrainian-drone-strikes-forced-russia-to-stop-shipping-in-vital-sea-corridor/",
-      "source": "Ars Technica",
-      "author": "Jeremy Hsu",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Ukrainian drone attacks have significantly impacted Russian maritime operations.",
-        "The Sea of Azov shipping corridor has been halted or severely disrupted.",
-        "The disruption occurred rapidly, within a timeframe of under a week."
+        "SpaceX is preparing for the 13th test flight of the Starship vehicle.",
+        "The upcoming flight is designed to subject Starship to increased operational pressures.",
+        "The mission will also involve testing new Starlink satellites in orbit."
       ]
     },
     {
@@ -429,9 +429,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Metacognition is identified as a critical, foundational component for advanced intelligence in AI systems.",
-        "Despite LLM progress, the extent and mechanism of their metacognitive abilities remain unclear.",
-        "The paper explores the foundations, current progress, and future opportunities for integrating metacognition into LLMs."
+        "Metacognition is identified as a crucial, foundational component for advanced intelligence in AI.",
+        "The paper addresses the current gap in understanding how and when Large Language Models (LLMs) can achieve effective metacognitive abilities.",
+        "The research highlights the need to explore how metacognitive skills can be adapted within AI systems for better performance."
       ]
     },
     {
@@ -444,36 +444,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Presents a theoretical framework to explain how Transformer models develop inductive reasoning abilities.",
-        "Unifies several synthetic inductive tasks (like in-context n-grams and multi-hop reasoning) into a generalized class.",
-        "The research theoretically proves that the training dynamics of attention models can be confined within this generalized task class."
-      ]
-    },
-    {
-      "id": 37,
-      "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
-      "url": "https://arxiv.org/abs/2607.11874v1",
-      "source": "arXiv AI",
-      "author": "Preston Culbertson",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces REGRIND, a new minimalist pipeline for dexterous manipulation.",
-        "Addresses the challenge of applying simple motion retargeting recipes to complex, contact-rich manipulation tasks.",
-        "Utilizes Reinforcement Learning (RL) guided by retargeting to learn delicate force and contact regulation."
-      ]
-    },
-    {
-      "id": 39,
-      "title": "Evidence-Backed Video Question Answering",
-      "url": "https://arxiv.org/abs/2607.11862v1",
-      "source": "arXiv AI",
-      "author": "Juan Carlos Niebles",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Current Video LLMs lack verifiable visual grounding when answering questions about videos.",
-        "Existing explainability methods (textual rationales, sparse bounding boxes) fail to capture complex video dynamics like occlusions.",
-        "The paper introduces Evidence-Backed Video Question Answering (E-VQA) to require joint output of a semantic answer and precise evidence."
+        "The research generalizes inductive tasks, unifying concepts like in-context n-grams and multi-hop reasoning.",
+        "The study theoretically proves that the training dynamics of attention models can be confined within a specific class of tasks."
       ]
     },
     {
@@ -485,9 +457,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes a new 'frugal' Neural Architecture Search (NAS) framework to reduce computational costs.",
+        "Proposes a new, frugal Neural Architecture Search (NAS) framework to reduce computational costs.",
         "Combines a Transformer controller (trained via RL) for global search with local micro-exploitation.",
         "Aims to democratize model design by enabling NAS on consumer-grade hardware instead of requiring massive GPU clusters."
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Encoder-Side Neuron Identification and Amplification for Acoustic Perception in Large Audio-Language Models",
+      "url": "https://arxiv.org/abs/2607.11801v1",
+      "source": "arXiv AI",
+      "author": "Hung-yi Lee",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the limitation of Large Audio-Language Models (LALMs) in capturing fine-grained speech attributes like emotion.",
+        "Proposes an inference-time intervention method focused on the audio encoder, rather than post-encoding processing.",
+        "Aims to enhance acoustic perception without the computational cost of full model retraining."
       ]
     },
     {
@@ -499,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces 'Prequential Coding' as a novel method to improve model compression.",
-        "It addresses a limitation of traditional methods (like quantization) where code length scales with model size rather than inherent information content.",
-        "The core idea is that effective compression reflects the model's ability to discover underlying data regularities for better generalization."
+        "The paper introduces 'Prequential Coding' as a novel approach to model compression.",
+        "It addresses a limitation of traditional methods (like quantization) where code length scales with model size, regardless of actual information stored.",
+        "The core idea is that a model's ability to represent training data as a short code indicates discovered regularities crucial for generalization."
       ]
     },
     {
@@ -514,8 +500,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Presents a theoretical framework to explain how Transformer models develop inductive reasoning abilities.",
-        "The research generalizes several known synthetic tasks (like in-context n-grams and multi-hop reasoning) into a unified class.",
-        "The study theoretically proves that the training dynamics of attention models can be confined within this generalized inductive task class."
+        "Studies a generalized class of inductive tasks, unifying concepts like in-context n-grams and multi-hop reasoning.",
+        "The research theoretically proves that the training dynamics of attention models can be constrained within this generalized task class."
       ]
     },
     {
@@ -527,9 +513,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces REGRIND, a new minimalist pipeline for dexterous manipulation using Reinforcement Learning (RL).",
+        "Introduces REGRIND, a new minimalist pipeline for dexterous manipulation.",
         "Addresses the challenge of applying simple motion retargeting recipes to complex, contact-rich manipulation tasks.",
-        "Focuses on learning delicate regulation of contact modes and forces, a key hurdle in dexterous control."
+        "Utilizes Reinforcement Learning (RL) guided by motion retargeting to achieve delicate control over contact modes and forces."
       ]
     },
     {
@@ -542,8 +528,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The research addresses security vulnerabilities in Quantum Neural Networks (QNNs), a promising area for quantum machine learning.",
-        "It introduces an 'Input-Aware Dynamic Backdoor Attack,' moving beyond traditional fixed-trigger backdoor methods.",
-        "The dynamic nature of the attack is designed to circumvent existing defenses that target repetitive patterns left by fixed triggers."
+        "It introduces a novel 'Input-Aware Dynamic Backdoor Attack,' moving beyond traditional fixed-trigger backdoor methods.",
+        "This dynamic approach is designed to circumvent existing defenses that target repetitive patterns left by static triggers."
       ]
     },
     {
@@ -555,23 +541,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes a new Neural Architecture Search (NAS) framework to reduce computational costs.",
-        "Combines a Transformer controller (using RL) for global search with local micro-exploitation.",
-        "Aims to democratize model design by enabling NAS on consumer-grade hardware."
-      ]
-    },
-    {
-      "id": 53,
-      "title": "An Exact Instrument for State Usage in Selective State-Space Models, and the Input-Driven Migration It Reveals",
-      "url": "https://arxiv.org/abs/2607.11796v1",
-      "source": "arXiv Machine Learning",
-      "author": "Raktim Bhattacharya",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces an exact measurement tool for understanding state usage within Selective State-Space Models (like Mamba).",
-        "Leverages the diagonal nature of the state matrix to decompose channel outputs into precise per-mode contributions.",
-        "Allows for offline calculation of output error when selectively dropping subsets of modes, enabling budget-aware analysis."
+        "Proposes a new, frugal Neural Architecture Search (NAS) framework to reduce computational costs.",
+        "Combines a Transformer controller (trained via RL) for global search with local micro-exploitation.",
+        "Aims to democratize model design by enabling NAS on consumer-grade hardware instead of requiring massive GPU clusters."
       ]
     },
     {
@@ -583,9 +555,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Metacognition is identified as a crucial, foundational component for advanced AI capabilities like learning and decision-making.",
-        "The paper addresses the current gap in understanding how and when Large Language Models (LLMs) can exhibit effective metacognitive abilities.",
-        "It outlines the current progress and future opportunities for integrating metacognition into transparent and capable AI systems."
+        "The paper addresses metacognition, a key component of intelligence, in the context of Large Language Models (LLMs).",
+        "It highlights that while LLMs show progress in various tasks, their capacity for effective metacognition remains unclear.",
+        "The research points to the need to understand how and when LLMs can be endowed with or exhibit metacognitive abilities."
       ]
     },
     {
@@ -597,9 +569,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces AdvancedMathBench, a new benchmark suite designed to test advanced mathematical proof generation and verification by LLMs.",
-        "Addresses a gap in current benchmarks, which lack scope and granular evaluation, often only assessing final answer correctness.",
-        "Aims to improve the understanding of LLM capabilities in complex, advanced mathematical reasoning beyond high-school or olympiad levels."
+        "Introduces AdvancedMathBench, a new benchmark suite designed to test LLMs on advanced mathematical proof generation and verification.",
+        "Addresses the current gap where existing benchmarks fail to adequately assess the validity of reasoning processes in complex math problems.",
+        "Aims to push the boundaries of LLM capabilities beyond high-school/Olympiad level mathematics into more advanced domains."
       ]
     },
     {
@@ -611,9 +583,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research investigates how temperature settings influence ideological discourse within Retrieval-Augmented Generation (RAG) systems.",
-        "It highlights a gap in current RAG research: the impact of ideological bias present in retrieved source material on LLM outputs.",
-        "The study aims to determine if RAG systems transmit, amplify, or suppress existing ideological positions from their knowledge base."
+        "The research investigates how 'Temperature' settings influence ideological discourse within Retrieval-Augmented Generation (RAG) models.",
+        "It addresses a gap in current LLM research by focusing on the impact of ideological bias transmitted through retrieved documents.",
+        "The study examines whether RAG systems amplify, transmit, or suppress existing ideological positions found in the source material."
       ]
     },
     {
@@ -625,9 +597,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Existing multilingual moral reasoning benchmarks fail because they rely on direct translation instead of adapting to culture-specific items.",
-        "Current inference methods for moral reasoning are limited by static, English-centric scaffolds and lack grounding in established moral theory.",
-        "Training approaches for moral decision-making are often hindered by the high cost of obtaining necessary supervision."
+        "Addresses limitations in current language models for multilingual moral reasoning.",
+        "Identifies issues with current benchmarks (relying on direct translation) and inference methods (static, English-centric scaffolds).",
+        "Proposes addressing the need for theory-grounded and culture-aware training methods."
       ]
     },
     {
@@ -639,9 +611,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the challenge of analyzing career paths encoded in unstructured resume data.",
-        "It proposes using temporal and educational trajectory modeling, leveraging Large Language Models (LLMs), for this analysis.",
-        "The application has significant implications for workforce planning, labor market policy, and job recommendation systems."
+        "The research proposes 'STEP' to recommend career paths by modeling temporal and educational trajectories from resumes.",
+        "It addresses the challenge of analyzing resumes at scale due to their unstructured, heterogeneous, and multilingual nature.",
+        "The work leverages Large Language Models (LLMs) to enable systematic analysis for workforce planning and job recommendations."
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "source": "Hacker News",
+      "author": "xenova",
+      "timestamp": "2026-07-14T17:50:48",
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduction of 'Bonsai 27B', a new 27-billion parameter model.",
+        "Key feature is its ability to run inference directly on a mobile phone.",
+        "This suggests significant progress in model quantization and on-device AI capabilities."
       ]
     },
     {
@@ -654,26 +640,40 @@
       "ai_score": 7,
       "bullet_points": [
         "Addresses the complex challenge of maintaining PII protection while enabling AI searchability in observability systems.",
-        "Proposes a multi-layer design utilizing consistent hashing at both write and search times for data security.",
-        "Connects observability data flow directly to advanced automation, driving self-healing capabilities from CI failures to PR proposals."
+        "Proposes a multi-layer design utilizing consistent hashing at both write and search times for data privacy.",
+        "Connects observability data flow (from CI failure to PR proposal) to driving automated Self-Healing capabilities."
+      ]
+    },
+    {
+      "id": 91,
+      "title": "I Put a Hailo 8 in a Handheld and Stopped Paying for Inference",
+      "url": "https://dev.to/numbpill3d/i-put-a-hailo-8-in-a-handheld-and-stopped-paying-for-inference-3ih7",
+      "source": "Dev.to",
+      "author": "numbpill3d",
+      "timestamp": "2026-07-14T22:23:02Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The article discusses the shift from cloud-based AI inference to on-device processing.",
+        "The author successfully integrated a Hailo 8 accelerator into a handheld device.",
+        "The core theme is challenging the subscription model of cloud AI services by enabling local, cost-effective inference."
       ]
     },
     {
       "id": 92,
-      "title": "Porting Gemma-4 (2B / 4B / 12B) to AWS Inferentia2",
-      "url": "https://dev.to/gde/porting-gemma-4-2b-4b-12b-to-aws-inferentia2-2jnf",
+      "title": "Your RAG Eval Isn't Flaky. Your Retrieval Is Non-Deterministic.",
+      "url": "https://dev.to/mrviduus/your-rag-eval-isnt-flaky-your-retrieval-is-non-deterministic-42ab",
       "source": "Dev.to",
-      "author": "xbill",
-      "timestamp": "2026-07-13T13:36:03Z",
+      "author": "mrviduus",
+      "timestamp": "2026-07-14T14:48:00Z",
       "ai_score": 7,
       "bullet_points": [
-        "The article details the practical challenges of deploying Google's Gemma-4 models (2B/4B/12B) on AWS Inferentia2 hardware.",
-        "It highlights specific technical hurdles encountered, including issues with mixed attention heads and limitations within vLLM, optimum-neuron, and NxD.",
-        "The analysis points to constraints imposed by the neuronx-cc compiler as a key bottleneck in the porting process."
+        "The article addresses non-deterministic behavior in Retrieval-Augmented Generation (RAG) evaluation.",
+        "It suggests that perceived 'flakiness' in RAG evaluations might stem from issues in the retrieval component, not the evaluation itself.",
+        "This highlights a critical, practical challenge in deploying and debugging production-grade RAG systems."
       ]
     },
     {
-      "id": 94,
+      "id": 93,
       "title": "DiffusionGemma: 4x faster text generation",
       "url": "https://dev.to/googleai/diffusiongemma-4x-faster-text-generation-fmd",
       "source": "Dev.to",
