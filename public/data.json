@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-07-19T07:53:27.667253",
-  "total_stories": 49,
+  "generated_at": "2026-07-19T12:43:56.035107",
+  "total_stories": 48,
   "sources": [
+    "Dev.to",
     "Hacker News",
-    "Ars Technica",
-    "The Verge",
-    "Ollama",
-    "Lobsters",
-    "Hugging Face Benchmarks",
     "arXiv AI",
     "arXiv NLP",
-    "Dev.to",
-    "arXiv Machine Learning"
+    "Hugging Face Benchmarks",
+    "Ars Technica",
+    "arXiv Machine Learning",
+    "Lobsters",
+    "The Verge",
+    "Ollama"
   ],
   "stories": [
+    {
+      "id": 3,
+      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
+        "It pertains to the core field of large language models (LLMs) and text generation.",
+        "The associated tags indicate its relevance within the transformer and safetensors ecosystem."
+      ]
+    },
     {
       "id": 35,
       "title": "RoboTTT: Context Scaling for Robot Policies",
@@ -24,8 +38,8 @@
       "ai_score": 9,
       "bullet_points": [
         "Introduces RoboTTT, a method to scale visuomotor context for robot policies up to 8K timesteps.",
-        "Achieves this massive context scaling without increasing inference latency, a significant technical achievement.",
-        "Enables new capabilities like one-shot imitation from video and on-the-fly policy improvement."
+        "Achieves a three-order-of-magnitude increase in context length without increasing inference latency.",
+        "Enables new capabilities such as one-shot in-context imitation and on-the-fly policy improvement."
       ]
     },
     {
@@ -37,13 +51,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Introduces RoboTTT, a method to scale visuomotor context for robot policies up to 8K timesteps.",
-        "Achieves this massive context scaling without increasing inference latency, a significant technical feat.",
-        "Unlocks advanced robot capabilities, including one-shot imitation from video and on-the-fly policy improvement."
+        "Introduces RoboTTT, a new framework for robot policies that significantly scales visuomotor context to 8K timesteps.",
+        "Achieves this massive context scaling without increasing inference latency, a key technical achievement.",
+        "Unlocks advanced capabilities such as one-shot in-context imitation and on-the-fly policy improvement in robotics."
       ]
     },
     {
-      "id": 79,
+      "id": 83,
       "title": "wp2shell: Pre Authentication RCE in WordPress Core",
       "url": "https://wp2shell.com/",
       "source": "Lobsters",
@@ -52,22 +66,8 @@
       "ai_score": 9,
       "bullet_points": [
         "A critical vulnerability, 'wp2shell', has been discovered in WordPress core.",
-        "The vulnerability is classified as a Pre-Authentication Remote Code Execution (RCE).",
-        "RCE flaws in core CMS platforms like WordPress represent a high-severity security risk."
-      ]
-    },
-    {
-      "id": 89,
-      "title": "Clinejection: How a GitHub Issue Title Compromised an AI Coding Assistant Used by 5M Developers",
-      "url": "https://dev.to/eldor_zufarov_1966/clinejection-how-a-github-issue-title-compromised-an-ai-coding-assistant-used-by-5m-developers-1kb5",
-      "source": "Dev.to",
-      "author": "eldor_zufarov_1966",
-      "timestamp": "2026-07-19T03:17:32Z",
-      "ai_score": 9,
-      "bullet_points": [
-        "A vulnerability, dubbed 'Clinejection,' was exploited via a GitHub issue title.",
-        "The attack compromised Cline, an AI coding assistant utilized by over 5 million developers.",
-        "The incident highlights significant security risks associated with AI tools integrated into developer workflows."
+        "The vulnerability allows for Remote Code Execution (RCE) before authentication is required.",
+        "This represents a high-severity security flaw impacting a massive portion of the web."
       ]
     },
     {
@@ -79,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
-        "The model is categorized for text generation and conversational AI tasks.",
-        "It utilizes standard ML components like transformers and safetensors."
+        "The news highlights the trending status of the 'deepseek-ai/DeepSeek-R1' model on Hugging Face.",
+        "The model is categorized under text-generation and conversational AI pipelines.",
+        "It utilizes standard ML components like transformers and safetensors, indicating a focus on practical model deployment."
       ]
     },
     {
@@ -93,23 +93,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of Meta's Llama 3 8B model on Hugging Face.",
-        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
-        "The associated tags confirm its relevance within the transformer and LLM ecosystem."
-      ]
-    },
-    {
-      "id": 3,
-      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
-        "The tags confirm its relevance within the transformer and Llama ecosystem."
+        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
+        "The model is categorized under text-generation pipelines, indicating its primary function.",
+        "Key associated technologies include transformers and safetensors, standard in modern LLM deployment."
       ]
     },
     {
@@ -121,8 +107,8 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "DeepSeek-V4-Pro is trending on Hugging Face Benchmarks.",
-        "The model is categorized for text-generation and conversational AI tasks.",
+        "DeepSeek-V4-Pro is a trending model on Hugging Face Benchmarks.",
+        "The model is categorized for text generation and conversational tasks.",
         "It utilizes standard ML components like transformers and safetensors."
       ]
     },
@@ -149,9 +135,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Gemma 4 model performance is significantly boosted on Apple Silicon.",
-        "The speedup is achieved through Multi-Token Prediction (MTP) powered by MLX within Ollama 0.31.",
-        "Performance gains reach up to 90% faster when utilized with coding agents, as validated by the Aider benchmark."
+        "Gemma 4 inference speed is significantly boosted on Apple Silicon when running through Ollama 0.31.",
+        "The performance gain is achieved by utilizing Multi-Token Prediction (MTP) powered by MLX.",
+        "Coding agent tasks show up to 90% faster performance according to the Aider polyglot benchmark."
       ]
     },
     {
@@ -163,9 +149,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama has achieved its peak performance on Apple Silicon through updates to its MLX engine.",
-        "The performance improvements translate to faster response times and reduced memory usage for LLMs.",
-        "The updated engine also enables models to generate higher quality outputs on Apple Silicon hardware."
+        "Ollama has achieved its peak performance on Apple Silicon using the MLX engine.",
+        "The performance improvements translate to higher quality model outputs.",
+        "Users benefit from faster response times and reduced memory consumption."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "NVIDIA Nemotron 3 Ultra",
+      "url": "https://ollama.com/blog/nemotron-3-ultra",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduction of NVIDIA Nemotron 3 Ultra, a new model architecture.",
+        "The model is specifically engineered for high-throughput reasoning tasks.",
+        "It is designed to support complex, long-running agent workflows."
       ]
     },
     {
@@ -177,9 +177,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenJarvis v1.0 is released as an open-source framework for building personal AI agents.",
-        "The key feature is that these agents run locally on the user's own hardware, enhancing privacy.",
-        "It features built-in support for Ollama, leveraging local LLM execution."
+        "OpenJarvis v1.0 is released, providing an open-source framework for personal AI agents.",
+        "The key feature is that these AI agents can run entirely on the user's local hardware.",
+        "It features built-in support for Ollama, facilitating local LLM execution."
       ]
     },
     {
@@ -191,9 +191,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, has integrated support for MLX.",
-        "This integration specifically targets Apple Silicon hardware for optimized performance.",
-        "The feature is currently available in a preview release."
+        "Ollama, a popular local LLM runner, is integrating MLX for performance optimization.",
+        "This integration specifically targets Apple Silicon hardware, enhancing local AI capabilities on Macs.",
+        "The feature is currently available in a preview build, indicating active development and adoption of Apple's ML framework."
       ]
     },
     {
@@ -207,11 +207,11 @@
       "bullet_points": [
         "OpenClaw is a personal AI assistant designed for local execution.",
         "It integrates messaging applications with local AI coding agents.",
-        "The key feature is running all AI processes entirely on the user's own device for privacy."
+        "The core value proposition is running AI agents entirely on the user's own device for privacy."
       ]
     },
     {
-      "id": 26,
+      "id": 27,
       "title": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",
       "url": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
       "source": "Ars Technica",
@@ -219,13 +219,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Google-backed FireSat program utilizes advanced satellites for wildfire detection.",
-        "The system is designed to identify wildfires that current satellite technology often misses.",
-        "The deployment is timely, addressing significant wildfire smoke issues across the US and Canada."
+        "Google-backed FireSat satellites are being deployed to enhance wildfire detection capabilities.",
+        "The new satellite system is designed to identify wildfires that existing satellite technology often misses.",
+        "The deployment is timely, addressing the critical issue of smoke and wildfires affecting the US and Canada."
       ]
     },
     {
-      "id": 33,
+      "id": 34,
       "title": "San Francisco orders Apple, Google to remove nudify apps from app stores",
       "url": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
       "source": "Ars Technica",
@@ -234,8 +234,8 @@
       "ai_score": 8,
       "bullet_points": [
         "San Francisco has mandated that Apple and Google remove 'nudify' applications from their respective app stores.",
-        "The regulatory action targets apps that use manipulative design techniques (nudging) to influence user behavior.",
-        "The ordinance implies significant potential revenue loss for Apple and Google from these specific app fees."
+        "The regulatory action targets apps that use manipulative design patterns to influence user behavior.",
+        "The ruling implies significant potential revenue loss for Apple and Google from these specific types of applications."
       ]
     },
     {
@@ -248,8 +248,8 @@
       "ai_score": 8,
       "bullet_points": [
         "The research demonstrates that Large Language Models (LLMs) can be poisoned during pretraining using computational propaganda.",
-        "This poisoning introduces harmful behaviors into LMs that are challenging to detect and mitigate.",
-        "The attack is feasible beyond previous, limited studies that focused only on established data sources like Wikipedia."
+        "The attack vector moves beyond limited, established datasets (like Wikipedia) to target the large-scale, heterogeneous corpora used in modern LLM training.",
+        "The study highlights the difficulty in detecting and mitigating these poisoning attacks, especially when considering data curation pipelines."
       ]
     },
     {
@@ -261,9 +261,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "SceneBind introduces an omni-modal representation for realistic scenes, integrating vision, audio, and language.",
-        "It specifically addresses a limitation in existing models by providing explicit 3D spatial understanding, moving beyond mere instance-level semantics.",
-        "The core innovation is representing scenes as semantic-spatial entities, combining global semantic embeddings with object-centric slots."
+        "Introduces SceneBind, an omni-modal representation designed to integrate vision, audio, and language.",
+        "Addresses a key limitation in existing models by explicitly incorporating 3D spatial understanding alongside semantic information.",
+        "Represents scenes as semantic-spatial entities, combining global embeddings with object-centric slots."
       ]
     },
     {
@@ -276,8 +276,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Introduces AutoSynthesis, an end-to-end multi-agent system designed for automated meta-analysis.",
-        "Addresses the critical, yet manual and hard-to-scale, process of quantitative evidence synthesis in research.",
-        "The system takes a natural language research question and automates literature searching, screening, and data extraction."
+        "Addresses the current bottleneck of manual and difficult-to-scale quantitative evidence synthesis in research.",
+        "The system can take a natural language research question and autonomously handle literature searching, screening, and data extraction."
       ]
     },
     {
@@ -289,9 +289,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Investigates the critical gap where linguistically safe instructions from LLMs become physically dangerous when controlling embodied agents.",
-        "Demonstrates that 'physical danger' (PD) and traditional 'content danger' (CD) are distinct, separable safety signals within LLM representations.",
-        "Uses advanced techniques like hidden-state direction analysis on models like Qwen2.5 to probe this nuanced safety issue."
+        "Investigates the critical gap between text-level safety and physical safety when LLMs control embodied agents.",
+        "Demonstrates that 'physical danger' (PD) and 'content danger' (CD) are distinct, separable safety signals within LLM representations.",
+        "Uses advanced techniques like hidden-state direction analysis on models like Qwen2.5 to probe this physical risk space."
       ]
     },
     {
@@ -304,8 +304,22 @@
       "ai_score": 8,
       "bullet_points": [
         "The research demonstrates that Large Language Models (LLMs) can be poisoned during pretraining using computational propaganda.",
-        "This poisoning can introduce harmful behaviors into LMs that are challenging to detect and mitigate.",
-        "The study expands previous work by showing attacks are feasible beyond limited, established data sources, incorporating data curation pipeline interactions."
+        "Previous poisoning research was limited to established, small-scale data sources (like Wikipedia) and ignored data curation pipelines.",
+        "The study proves that poisoning attacks are feasible across the large-scale and heterogeneous corpora typical of modern LLM training."
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Qwen3.8 is launching and going open-weight soon",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "source": "Hacker News",
+      "author": "nh43215rgb",
+      "timestamp": "2026-07-19T08:44:57",
+      "ai_score": 8,
+      "bullet_points": [
+        "Qwen3.8 is on the verge of a launch.",
+        "The model is slated to become open-weight soon.",
+        "This signals a significant update in the large language model landscape."
       ]
     },
     {
@@ -317,23 +331,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release introduces performance improvements and enhanced GGUF model compatibility.",
-        "The update leverages llama.cpp to broaden model support across various hardware configurations.",
-        "It augments Ollama's MLX engine, specifically improving support on Apple silicon devices."
-      ]
-    },
-    {
-      "id": 9,
-      "title": "NVIDIA Nemotron 3 Ultra",
-      "url": "https://ollama.com/blog/nemotron-3-ultra",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "NVIDIA is introducing the Nemotron 3 Ultra model.",
-        "The model is specifically engineered for high-throughput reasoning tasks.",
-        "It is designed to support complex, long-running agent workflows."
+        "Ollama 0.30 release brings performance improvements and enhanced GGUF model compatibility.",
+        "The update leverages llama.cpp to broaden the range of supported models and hardware.",
+        "It augments Ollama's MLX engine, particularly benefiting users on Apple silicon."
       ]
     },
     {
@@ -345,13 +345,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama has integrated support for subagents within Claude Code.",
-        "The update also enables web search functionality within the Claude Code environment.",
-        "This enhances the capabilities of local LLM deployment by adding advanced reasoning and information retrieval."
+        "Ollama has integrated support for advanced AI features within Claude Code.",
+        "The new capabilities include the implementation of subagents for more complex task decomposition.",
+        "Web search functionality has been added, enhancing Claude Code's ability to access real-time information."
       ]
     },
     {
-      "id": 15,
+      "id": 17,
       "title": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
       "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
       "source": "The Verge",
@@ -359,13 +359,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Author Dave Eggers criticized ChatGPT to OpenAI staff, claiming it is 'silencing an entire generation.'",
-        "The discussion highlights concerns from creative professionals regarding the impact of generative AI on writers.",
-        "The event took place during a talk given to approximately 200 OpenAI employees."
+        "Author Dave Eggers expressed concern to OpenAI staff that ChatGPT is 'silencing an entire generation.'",
+        "The discussion took place during a talk given by Eggers to approximately 200 OpenAI employees.",
+        "Eggers is a prominent writer and advocate for the arts, lending weight to his critique of generative AI's impact."
       ]
     },
     {
-      "id": 25,
+      "id": 26,
       "title": "Will AI fix prior authorization—or make it worse?",
       "url": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
       "source": "Ars Technica",
@@ -373,9 +373,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Government is piloting an AI program to assist with insurance coverage decisions.",
-        "The article explores the potential dual impact of AI on prior authorization processes.",
-        "The core tension lies in whether AI will streamline or complicate existing healthcare bureaucracy."
+        "A government pilot program is testing the use of Artificial Intelligence in insurance coverage decisions.",
+        "The article explores the potential dual impact of AI on the prior authorization process: improvement versus complication.",
+        "This touches upon the intersection of AI adoption, healthcare administration, and regulatory oversight."
       ]
     },
     {
@@ -389,7 +389,7 @@
       "bullet_points": [
         "SciDiagramEdit addresses the manual and time-consuming process of editing scientific diagrams during paper revisions.",
         "The system aims to automate figure editing using natural language instructions.",
-        "The challenge lies in the complex visual grammar of scientific figures, which combine heterogeneous elements like plots, schematics, and captions."
+        "The challenge lies in the complex, heterogeneous visual grammar of scientific infographics (schematics, plots, arrows, etc.)."
       ]
     },
     {
@@ -401,9 +401,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces a new evaluation paradigm for AI security agents that incorporates computational cost alongside success rate.",
-        "Current security evaluations often overlook the operational cost (inference budget) of reasoning steps, tool calls, and queries.",
-        "The research tests these cost-aware metrics on offensive (Cybench) and defensive (Splunk BOTS v1) security challenges."
+        "The paper introduces a new evaluation paradigm for AI security agents that moves beyond simple success rates.",
+        "It emphasizes 'cost-aware' evaluation, recognizing that operational security tasks consume computational budget (inference, tool calls, etc.).",
+        "The methodology is tested on offensive Cybench challenges and defensive Splunk BOTS v1."
       ]
     },
     {
@@ -415,9 +415,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces SearchOS, a system-level multi-agent framework designed to improve information-seeking capabilities.",
-        "Addresses a key limitation in current LLM agents: getting trapped in repetitive search loops when initial queries fail.",
-        "Focuses on enhancing the robustness and efficiency of open-domain information retrieval by managing interaction histories."
+        "Introduces SearchOS, a system-level multi-agent framework designed to improve open-domain information seeking.",
+        "Addresses a key limitation in current LLM agents: getting stuck in repetitive search loops when initial queries fail.",
+        "Focuses on enhancing task progress tracking and search efficiency in complex, multi-step information retrieval tasks."
       ]
     },
     {
@@ -429,7 +429,7 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'teLLMe,' a system designed for exploratory causal analysis of urban driving datasets.",
+        "Introduces 'teLLMe,' a system designed for exploratory causal analysis of urban driving data.",
         "Addresses the challenge of answering causal questions (e.g., impact of rain) using purely observational traffic data.",
         "Combines causal structure learning with structured event tables derived from dashcam annotations."
       ]
@@ -444,8 +444,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Current LLM tokenizers are fixed based on pre-training corpus priorities, leading to suboptimal performance for later-added languages.",
-        "Expanding tokenizers in-place can mitigate the issue where new languages are overly fragmented into many tokens, increasing latency and resource usage.",
-        "The impact of vocabulary size on resource consumption differs significantly between large cloud models and compact, resource-constrained models."
+        "Adding new languages can cause increased tokenization overhead (more tokens per word), negatively impacting latency, compute, and energy use.",
+        "The issue is exacerbated in compact models where the overhead of large vocabularies (embedding/LM-head matrices) is more significant compared to large cloud models."
       ]
     },
     {
@@ -457,9 +457,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the real-time constraint in dynamic novel view synthesis from streaming video.",
-        "Identifies a core trade-off between maintaining long-horizon memory and computational efficiency.",
-        "Proposes a solution to overcome the high computational cost of gradient-based memory updates in Test-Time Training (TTT)."
+        "Addresses the real-time constraint challenge in dynamic novel view synthesis from streaming video.",
+        "Identifies the computational bottleneck of traditional Test-Time Training (TTT) due to required gradient-based memory updates.",
+        "Proposes an 'Online Neural Space Time Memory' to overcome the trade-off between long-horizon memory and real-time performance."
       ]
     },
     {
@@ -472,8 +472,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Addresses the 'embedding staleness' bottleneck in two-stage recommendation systems.",
-        "Proposes 'mutable sketches' using a KP-tree to store user preferences efficiently.",
-        "Allows for on-the-fly embedding recomputation as new ratings arrive, improving prediction accuracy."
+        "Introduces 'mutable sketches' using a KP-tree to store user preferences efficiently.",
+        "Allows for on-the-fly embedding updates upon new user ratings without requiring full retraining."
       ]
     },
     {
@@ -485,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Current LLM tokenizers are fixed based on initial pre-training priorities, leading to suboptimal performance for later-added languages.",
-        "Adding new languages can cause increased tokenization fragmentation, negatively impacting latency, compute, and energy use.",
-        "The paper proposes an 'In-Place Tokenizer Expansion' method to address these efficiency issues, particularly for compact models."
+        "Current LLM tokenizers are fixed based on initial pre-training corpus priorities.",
+        "Adding new languages later can lead to inefficient tokenization (more tokens per word), increasing latency and resource usage.",
+        "The issue is more critical for compact models, as large vocabulary matrices are a significant overhead compared to massive cloud models."
       ]
     },
     {
@@ -500,8 +500,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces NeuronSoup, a novel neural computation architecture that moves away from traditional synchronous, layer-by-layer processing.",
-        "Employs asynchronous, delay-mediated signal propagation through a shared pool of neurons, allowing multiple paths to interact.",
-        "Notably, the architecture operates without relying on the standard backpropagation algorithm for learning."
+        "Employs asynchronous, delay-mediated signal propagation through a pool of shared neurons, allowing continuous-valued signals to traverse variable paths.",
+        "Notably, the architecture operates without relying on backpropagation, suggesting a potential shift in training paradigms for neural networks."
       ]
     },
     {
@@ -513,9 +513,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "World-Action Models (WAMs) are a new paradigm in embodied control, linking action generation with future world prediction.",
-        "The paper introduces 'BadWAM' to challenge the assumption that this coupling inherently leads to robust and safe robotic behavior.",
-        "BadWAM provides a unified framework for modeling and evaluating the potential failures in these advanced predictive control systems."
+        "World-Action Models (WAMs) are a promising new paradigm for embodied control by coupling action generation with future world prediction.",
+        "The paper introduces 'BadWAM' to demonstrate that the assumption of inherent robustness and safety in WAMs is fragile.",
+        "BadWAM provides a unified framework for modeling and evaluating the potential failures in these advanced control models."
       ]
     },
     {
@@ -527,9 +527,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "SciDiagramEdit addresses the manual, time-consuming process of editing scientific figures during manuscript revisions.",
-        "The system aims to automate figure editing using natural language instructions.",
-        "The challenge lies in the complex visual grammar of scientific diagrams, which combine diverse elements like schematics, plots, and arrows."
+        "Introduces SciDiagramEdit, a system designed to automate the editing of scientific diagrams.",
+        "The system allows authors to modify figures (relabeling, rearranging, restyling) using natural language instructions.",
+        "Addresses the complexity of scientific figures, which are dense infographics composed of heterogeneous visual elements."
       ]
     },
     {
@@ -542,8 +542,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Traditional retrieval system evaluation (static usefulness) fails when LLMs act as multi-step search agents.",
-        "The utility of a document in agentic search depends on what it enables the agent to do next, not just its content relevance to the current query.",
-        "The research highlights a critical gap between static document relevance and dynamic, multi-turn reasoning capabilities in AI agents."
+        "The utility of a retrieved document in agentic search depends on its potential to enable future actions, not just answering the current query.",
+        "The research highlights a critical gap between static document relevance and dynamic, multi-turn reasoning in AI agents."
       ]
     },
     {
@@ -556,8 +556,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The research focuses on designing trustworthy and interpretable multimodal Visual Question Answering (VQA) systems for healthcare applications.",
-        "The study analyzes nine existing systems using a GI endoscopy case study from MediaEval Medico 2025.",
-        "While parameter-efficient adaptation improves performance, it does not guarantee faithful or complete clinical reasoning in the models."
+        "The study uses a GI endoscopy case study from MediaEval Medico 2025 to evaluate nine existing systems.",
+        "While parameter-efficient adaptation improves performance, it doesn't guarantee faithful or complete clinical reasoning in the AI answers."
       ]
     },
     {
@@ -569,9 +569,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces TikStance, a new multimodal and hierarchical dataset specifically for stance analysis in TikTok political conversations.",
-        "Addresses the gap in computational analysis for short-video platforms by jointly preserving audiovisual and conversational data.",
-        "The dataset is built from 161 TikTok videos and 13,876 comments, focusing on the 2024 U.S. election cycle."
+        "Introduces TikStance, a new multimodal and hierarchical dataset specifically designed for stance detection in political conversations on TikTok.",
+        "Addresses the current gap in computational analysis by combining audiovisual information with conversational context from short-video platforms.",
+        "The dataset is focused on the 2024 U.S. election cycle, covering discussions around major political figures."
       ]
     },
     {
@@ -585,7 +585,21 @@
       "bullet_points": [
         "Current LLM tokenizers are fixed based on initial pre-training corpus priorities.",
         "Adding new languages later can lead to inefficient tokenization (more tokens per word), increasing latency and resource usage.",
-        "The impact of vocabulary size on performance differs significantly between large cloud models and compact, resource-constrained models."
+        "The issue is more critical for compact models, as large models can absorb a broader vocabulary due to parameter distribution."
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Expanding the Lexicon of Ge'ez Based African Languages: A Comparative Study of Amharic and Tigrinya",
+      "url": "https://arxiv.org/abs/2607.15209v1",
+      "source": "arXiv NLP",
+      "author": "Wolfgang Nejdl",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the performance degradation of Multilingual Pre-trained Language Models (PLMs) on low-resource, non-Latin-script African languages.",
+        "Introduces VEXMLM, a vocabulary-extended variant of XLM-R specifically designed for Ge'ez-script languages (Amharic and Tigrinya).",
+        "Evaluates the model's effectiveness across 19 African languages, aiming to mitigate high Out-of-Vocabulary (OOV) rates caused by Latin-centric tokenizers."
       ]
     },
     {
@@ -598,12 +612,12 @@
       "ai_score": 7,
       "bullet_points": [
         "The research addresses the challenge of applying Reinforcement Learning (RL) to Masked Diffusion Language Models (MDLMs).",
-        "A key hurdle is the intractability of log-likelihood estimation in MDLMs, which existing methods approximate poorly.",
-        "The proposed method introduces a 'Mask-Aware Policy Gradient' to account for the sequential decision-making during the unmasking process."
+        "A key difficulty in current approaches is the intractability of log-likelihood estimation in MDLMs.",
+        "The proposed method accounts for the sequential nature of unmasking decisions during MDLM generation, improving upon existing token-prediction-only approximations."
       ]
     },
     {
-      "id": 67,
+      "id": 72,
       "title": "Speech Recognition and TTS in less than 500kb",
       "url": "https://github.com/moonshine-ai/moonshine/tree/main/micro",
       "source": "Hacker News",
@@ -611,93 +625,65 @@
       "timestamp": "2026-07-14T19:25:10",
       "ai_score": 7,
       "bullet_points": [
-        "Focuses on highly efficient Speech Recognition and Text-to-Speech (TTS) models.",
-        "The key achievement is achieving functionality in a very small footprint (under 500kb).",
-        "This suggests significant potential for on-device or edge AI applications."
-      ]
-    },
-    {
-      "id": 73,
-      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
-      "source": "Hacker News",
-      "author": "mbustamanter",
-      "timestamp": "2026-07-18T13:00:52",
-      "ai_score": 7,
-      "bullet_points": [
-        "GPT-5.6 demonstrated an advanced capability in solving a complex mathematical problem.",
-        "The model successfully closed a 30-year gap in the field of convex optimization.",
-        "This suggests significant progress in AI's ability to handle highly specialized, theoretical computational tasks."
-      ]
-    },
-    {
-      "id": 86,
-      "title": "Porting a 128-expert MoE (Gemma-4 26B-A4B) to AWS Inferentia2 — where every rank weighted the wrong experts",
-      "url": "https://dev.to/xbill/porting-a-128-expert-moe-gemma-4-26b-a4b-to-aws-inferentia2-where-every-rank-weighted-the-wrong-2ege",
-      "source": "Dev.to",
-      "author": "xbill",
-      "timestamp": "2026-07-17T13:29:28Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "The article details the complex engineering challenge of porting a large Mixture-of-Experts (MoE) model (Gemma-4 26B-A4B) to AWS Inferentia2 hardware.",
-        "Key technical hurdles included implementing a dual-path Feed-Forward Network (FFN) and managing a sparse expert loop that resisted standard tracing.",
-        "The project encountered a critical bug where the GPU output was empty despite successful CPU reference and passing unit tests, highlighting deployment difficulties."
-      ]
-    },
-    {
-      "id": 87,
-      "title": "My Inferentia port matched its reference token-for-token — and still output garbage",
-      "url": "https://dev.to/xbill/my-inferentia-port-matched-its-reference-token-for-token-and-still-output-garbage-16d4",
-      "source": "Dev.to",
-      "author": "xbill",
-      "timestamp": "2026-07-17T13:29:49Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "The article discusses a challenging porting effort of the Gemma-4 31B model to AWS Inferentia2 hardware.",
-        "The standard tensor-parallel recipe used for smaller models fails when scaling to 31B parameters.",
-        "The author notes a discrepancy where validation passes successfully, but the actual output quality remains poor ('garbage')."
+        "Achieving speech recognition and Text-to-Speech (TTS) in a very small footprint (<500kb).",
+        "This suggests significant progress in model compression and efficient on-device AI.",
+        "The small size makes deployment on resource-constrained devices highly feasible."
       ]
     },
     {
       "id": 90,
-      "title": "Your LLM can't actually watch video. Here's the smallest fix (MIT)",
-      "url": "https://dev.to/huangchihhungleo/your-llm-cant-actually-watch-video-heres-the-smallest-fix-mit-2igp",
+      "title": "Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40%",
+      "url": "https://dev.to/imus_d7584cbc8ee9b0336256/optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-3oi9",
       "source": "Dev.to",
-      "author": "huangchihhungleo",
-      "timestamp": "2026-07-19T03:01:16Z",
+      "author": "imus_d7584cbc8ee9b0336256",
+      "timestamp": "2026-07-19T11:40:18Z",
       "ai_score": 7,
       "bullet_points": [
-        "Challenges the common claim of 'multimodal' capability in LLMs when presented with raw video files.",
-        "Suggests a specific, small technical fix (potentially from MIT research) to address this limitation.",
-        "Highlights a gap between marketing claims (model cards) and actual model functionality regarding video processing."
+        "Focuses on optimizing Retrieval-Augmented Generation (RAG) systems for large-scale deployment.",
+        "Addresses key technical challenges including chunking strategies and retrieval efficiency.",
+        "Highlights the implementation of a Bayesian Search method that resulted in a 40% latency reduction."
       ]
     },
     {
-      "id": 91,
-      "title": "AgentPool: A Stack Overflow for Coding Agents",
-      "url": "https://dev.to/zugatech/agentpool-a-stack-overflow-for-coding-agents-2676",
+      "id": 92,
+      "title": "Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40%",
+      "url": "https://dev.to/imus_d7584cbc8ee9b0336256/optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-e4b",
       "source": "Dev.to",
-      "author": "zugatech",
-      "timestamp": "2026-07-19T01:53:24Z",
+      "author": "imus_d7584cbc8ee9b0336256",
+      "timestamp": "2026-07-19T11:10:12Z",
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'AgentPool,' a platform designed to solve context/memory issues in coding AI agents.",
-        "Addresses the common problem of AI agents suffering from 'amnesia' during complex coding tasks.",
-        "Highlights the need for persistent context to improve the efficiency and reliability of AI coding assistants."
+        "Focuses on optimizing Retrieval-Augmented Generation (RAG) systems for large-scale deployment.",
+        "Addresses key technical challenges including chunking strategies and retrieval efficiency.",
+        "Highlights the implementation of a Bayesian Search method that resulted in a 40% latency reduction."
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics",
+      "url": "https://dev.to/imus_d7584cbc8ee9b0336256/building-production-grade-llm-evaluation-pipelines-from-vibes-to-metrics-2b8e",
+      "source": "Dev.to",
+      "author": "imus_d7584cbc8ee9b0336256",
+      "timestamp": "2026-07-19T11:10:10Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "Focuses on the practical engineering challenge of moving LLM evaluation from subjective assessment ('vibes') to quantifiable metrics.",
+        "Addresses the need for robust, production-grade pipelines for Large Language Model testing.",
+        "Relevant to ML engineers and AI practitioners building enterprise-level LLM applications."
       ]
     },
     {
       "id": 94,
-      "title": "Your AI agent agrees to the constraint, then violates it anyway. Build the harness that stops it.",
-      "url": "https://dev.to/srinivasnelakuditi/your-ai-agent-agrees-to-the-constraint-then-violates-it-anyway-build-the-harness-that-stops-it-4lgg",
+      "title": "Personal AI Should Ask Before It Remembers",
+      "url": "https://dev.to/diaryvault/personal-ai-should-ask-before-it-remembers-20h2",
       "source": "Dev.to",
-      "author": "srinivasnelakuditi",
-      "timestamp": "2026-07-19T00:55:33Z",
+      "author": "diaryvault",
+      "timestamp": "2026-07-19T10:58:21Z",
       "ai_score": 7,
       "bullet_points": [
-        "Highlights a common failure mode in frontier AI models: agreement followed by constraint violation.",
-        "Suggests the need for 'harnesses' or guardrails to enforce model adherence to specified constraints.",
-        "Implies practical, real-world risks associated with current LLM reliability, potentially impacting enterprise systems like data warehouses."
+        "Focuses on building a personal AI memory layer using Python.",
+        "Emphasizes user control by implementing features like persistent drafts and explicit human approval.",
+        "Contributes to the growing trend of making AI systems more transparent and controllable."
       ]
     }
   ]
