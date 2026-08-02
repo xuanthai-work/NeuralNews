@@ -1,33 +1,19 @@
 {
-  "generated_at": "2026-08-02T12:49:13.892338",
-  "total_stories": 44,
+  "generated_at": "2026-08-02T18:48:00.602284",
+  "total_stories": 43,
   "sources": [
-    "Lobsters",
+    "arXiv AI",
+    "arXiv Machine Learning",
+    "Hacker News",
     "Dev.to",
-    "arXiv NLP",
+    "The Verge",
     "Ars Technica",
     "Ollama",
     "Hugging Face Benchmarks",
-    "Hacker News",
-    "arXiv AI",
-    "arXiv Machine Learning",
-    "The Verge"
+    "arXiv NLP",
+    "Lobsters"
   ],
   "stories": [
-    {
-      "id": 1,
-      "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
-        "The model is categorized for text generation and conversational AI tasks.",
-        "It utilizes standard ML components like transformers and safetensors."
-      ]
-    },
     {
       "id": 2,
       "title": "🤗 Trending: meta-llama/Meta-Llama-3-8B",
@@ -35,11 +21,11 @@
       "source": "Hugging Face Benchmarks",
       "author": "unknown",
       "timestamp": null,
-      "ai_score": 8,
+      "ai_score": 9,
       "bullet_points": [
-        "The news highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It is categorized under key AI/ML tags including 'transformers', 'llama', and 'text-generation'.",
-        "This indicates continued community interest and performance tracking for a major open-source LLM."
+        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
+        "The model is categorized under text-generation and utilizes transformers and safetensors.",
+        "This indicates continued industry interest and availability of Meta's Llama architecture for NLP tasks."
       ]
     },
     {
@@ -49,11 +35,39 @@
       "source": "Hugging Face Benchmarks",
       "author": "unknown",
       "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "The news highlights the trending status of the meta-llama/Llama-3.1-8B-Instruct model on Hugging Face.",
+        "The model is categorized under text-generation pipelines, indicating its primary function.",
+        "It is associated with key ML technologies like transformers and safetensors, and the Llama family."
+      ]
+    },
+    {
+      "id": 62,
+      "title": "ORCA-bench: How Ready Are Language Model Agents for Oncall?",
+      "url": "https://arxiv.org/abs/2607.28545v1",
+      "source": "arXiv NLP",
+      "author": "Raaz Dwivedi",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Introduces ORCA-bench, a new benchmark designed to test LLM agents in a production-fidelity oncall scenario.",
+        "Highlights the gap between current LLM coding capabilities and the complex reasoning required for Root Cause Analysis (RCA) from noisy, multi-source data (metrics, logs, traces).",
+        "Uses a live, OpenTelemetry-instrumented microservice system to provide realistic, production-level testing data for agent evaluation."
+      ]
+    },
+    {
+      "id": 1,
+      "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It is categorized under text-generation pipelines, indicating its primary function as a large language model.",
-        "The tags confirm its relevance to major AI/ML components like transformers and safetensors."
+        "Highlights a specific trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
+        "The model is categorized for text-generation and conversational AI tasks.",
+        "It utilizes standard ML components like transformers and safetensors."
       ]
     },
     {
@@ -81,7 +95,7 @@
       "bullet_points": [
         "Gemma 4 inference speed is significantly improved within Ollama 0.31 on Apple Silicon.",
         "The performance boost is achieved through the implementation of Multi-Token Prediction (MTP) powered by MLX.",
-        "Speedups of up to 90% were observed when using the model with coding agents, as validated by the Aider benchmark."
+        "Coding agent tasks show up to 90% faster performance according to the Aider polyglot benchmark."
       ]
     },
     {
@@ -99,6 +113,34 @@
       ]
     },
     {
+      "id": 8,
+      "title": "NVIDIA Nemotron 3 Ultra",
+      "url": "https://ollama.com/blog/nemotron-3-ultra",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "NVIDIA is introducing Nemotron 3 Ultra, a new model architecture.",
+        "The model is specifically designed for high-throughput reasoning tasks.",
+        "It is optimized for complex, long-running agent workflows."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
+      "url": "https://ollama.com/blog/openjarvis",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "OpenJarvis v1.0 is released, providing an open-source framework for personal AI agents.",
+        "The framework emphasizes 'local-first' operation, allowing AI to run entirely on user hardware.",
+        "It features built-in support for Ollama, integrating with local LLM ecosystems."
+      ]
+    },
+    {
       "id": 10,
       "title": "Ollama is now powered by MLX on Apple Silicon in preview",
       "url": "https://ollama.com/blog/mlx",
@@ -107,9 +149,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, is integrating MLX for performance optimization.",
-        "This integration specifically targets Apple Silicon hardware, enhancing local AI capabilities on Macs.",
-        "The feature is currently available in a preview release, indicating ongoing development and adoption."
+        "Ollama, a popular local LLM runner, is integrating MLX for enhanced performance.",
+        "This integration specifically targets Apple Silicon hardware, optimizing AI workloads for Mac users.",
+        "The feature is currently available in preview, indicating ongoing development and adoption of Apple's ML ecosystem."
       ]
     },
     {
@@ -121,23 +163,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, emphasizing on-device processing for privacy and speed.",
-        "The core value proposition is connecting external communication tools to private, local AI capabilities."
-      ]
-    },
-    {
-      "id": 38,
-      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
-      "url": "https://arxiv.org/abs/2607.28617v1",
-      "source": "arXiv AI",
-      "author": "Jiaxin Pei",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Addresses the critical 'trust and accountability gap' caused by undisclosed system prompts in commercial LLM applications.",
-        "Introduces AISPA (Artificial Intelligence System Prompt Assurance), a new user-centric framework for auditing these prompts.",
-        "Focuses on systematically examining system prompts to ensure responsible and transparent AI behavior."
+        "OpenClaw is a personal AI assistant designed for local execution.",
+        "It integrates messaging applications with local AI coding agents.",
+        "The core feature emphasizes running AI processes entirely on the user's own device for privacy."
       ]
     },
     {
@@ -149,9 +177,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Repeated sampling (simple baseline) outperforms complex self-refinement and reflection methods in LLM performance.",
-        "The study suggests that increased output length itself, rather than the planning/critique mechanism, drives accuracy gains in some contexts.",
-        "The finding challenges the prevailing trend of complex, iterative prompting techniques (like Reflexion) in LLM optimization."
+        "Repeated sampling (simple repetition) outperforms complex self-refinement and reflection methods in LLMs at equal token costs.",
+        "The study suggests that the increased text generation inherent in complex methods might artificially inflate performance gains.",
+        "The finding challenges the prevailing trend of using elaborate prompting/chain-of-thought techniques for accuracy improvement."
       ]
     },
     {
@@ -163,9 +191,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces KAISEN, a comprehensive five-phase audit pipeline designed to address subgroup fairness in clinical risk models.",
-        "Addresses a critical gap where existing fairness audit components are rarely stress-tested, leading to uncertainty about their reliability.",
+        "Introduces KAISEN, a comprehensive five-phase audit pipeline designed to rigorously test fairness in clinical risk models.",
+        "Addresses a critical gap where existing fairness audit pipelines lack stress-testing, leading to uncertainty about their reliability.",
         "Covers the full lifecycle of fairness auditing, including stratification, disparity measurement, mechanism diagnostics, mitigation, and drift monitoring."
+      ]
+    },
+    {
+      "id": 55,
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "url": "https://arxiv.org/abs/2607.28617v1",
+      "source": "arXiv NLP",
+      "author": "Jiaxin Pei",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Addresses the critical 'trust and accountability gap' caused by undisclosed system prompts in commercial LLM applications.",
+        "Introduces AISPA, a novel, user-centric framework designed for systematically auditing the behavior of LLM system prompts.",
+        "Focuses on governance and safety, providing a technical solution for ensuring responsible deployment of foundation models."
       ]
     },
     {
@@ -177,37 +219,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Safety fine-tuning in LLMs suppresses the tendency to attribute consciousness to themselves and other entities (including animals and objects).",
-        "The research demonstrates that aligning models to prevent self-attribution of consciousness also reduces spiritual beliefs.",
-        "The study explores the mechanistic impact of safety alignment on how models represent 'mindedness' in different entities."
-      ]
-    },
-    {
-      "id": 62,
-      "title": "ORCA-bench: How Ready Are Language Model Agents for Oncall?",
-      "url": "https://arxiv.org/abs/2607.28545v1",
-      "source": "arXiv NLP",
-      "author": "Raaz Dwivedi",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces ORCA-bench, a new benchmark designed to test LLM agents in a production-fidelity oncall setting.",
-        "Highlights the gap between LLMs' current coding capabilities and the complex requirements of Root Cause Analysis (RCA) in real-world incidents.",
-        "Tests agents' ability to reason over noisy, multi-modal data streams, including metrics, logs, traces, and source code, starting from ambiguous reports."
-      ]
-    },
-    {
-      "id": 86,
-      "title": "OpenAI Reports Internal Model Disproved an 80-Year-Old Geometry Problem",
-      "url": "https://dev.to/alifar/openai-reports-internal-model-disproved-an-80-year-old-geometry-problem-2io5",
-      "source": "Dev.to",
-      "author": "alifar",
-      "timestamp": "2026-08-02T11:00:30Z",
-      "ai_score": 8,
-      "bullet_points": [
-        "OpenAI claims an internal general-purpose reasoning model achieved a significant milestone.",
-        "The model autonomously solved/disproved a complex, 80-year-old geometry problem.",
-        "This suggests a potential leap in the reasoning capabilities of large language models."
+        "Safety fine-tuning in LLMs demonstrably suppresses the tendency for models to attribute consciousness to themselves.",
+        "The alignment process also reduces the attribution of 'mindedness' to non-human entities and natural objects.",
+        "The research indicates that safety mechanisms can drive a measurable reduction in spiritual belief within language models."
       ]
     },
     {
@@ -219,37 +233,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release introduces improved performance and expanded GGUF model compatibility.",
-        "The update leverages llama.cpp to broaden model support across various hardware configurations.",
-        "It enhances Ollama's MLX engine specifically for better performance on Apple silicon."
-      ]
-    },
-    {
-      "id": 8,
-      "title": "NVIDIA Nemotron 3 Ultra",
-      "url": "https://ollama.com/blog/nemotron-3-ultra",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "NVIDIA is introducing the Nemotron 3 Ultra model.",
-        "The model is specifically engineered for high-throughput reasoning tasks.",
-        "It is designed to support complex, long-running agent workflows."
-      ]
-    },
-    {
-      "id": 9,
-      "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
-      "url": "https://ollama.com/blog/openjarvis",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "OpenJarvis v1.0 is released, offering an open-source framework for personal AI agents.",
-        "The key feature is the ability to run these AI agents locally on the user's own hardware.",
-        "It features built-in support for Ollama, facilitating local LLM integration."
+        "Ollama 0.30 release introduces performance improvements and enhanced GGUF model compatibility.",
+        "The update leverages llama.cpp to broaden the range of supported models and hardware.",
+        "It augments Ollama's MLX engine, particularly benefiting users on Apple silicon."
       ]
     },
     {
@@ -262,8 +248,22 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama has integrated support for advanced AI features within Claude Code.",
-        "The new capabilities include the implementation of 'subagents' for more complex task decomposition.",
-        "Web search functionality has been added, enhancing the model's ability to access real-time information."
+        "The new capabilities include the implementation of subagents for complex task decomposition.",
+        "Web search functionality has been added, enhancing the model's access to real-time information."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Is paying artists enough to convince them to embrace AI?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "source": "The Verge",
+      "author": "Charles Pulliam-Moore",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Generative AI startups are training models using artists' work without explicit permission.",
+        "Artists view this practice as theft, leading to significant ethical and legal disputes.",
+        "The debate pits artists' rights against arguments that such data usage is necessary for AI evolution."
       ]
     },
     {
@@ -275,9 +275,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Reddit is reportedly re-evaluating its licensing agreement with Google.",
-        "The decision is influenced by recent stock performance and skepticism regarding Google's AI Overviews.",
-        "This signals potential friction between major platforms regarding AI data usage and monetization."
+        "Reddit is reportedly reconsidering its licensing agreement with Google.",
+        "The uncertainty is linked to Reddit's stock performance and CEO questioning the value of Google's AI Overviews.",
+        "This signals potential friction or re-evaluation in the partnership between major platforms and generative AI features."
       ]
     },
     {
@@ -289,9 +289,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Defcon's new badge incorporates a removable chip for security key functionality.",
-        "The chip design allows hackers to inspect the badge's contents.",
-        "The badge remains usable by attackers even after the Defcon event concludes."
+        "Defcon's new badge incorporates a removable chip.",
+        "This chip allows hackers to inspect the badge's contents.",
+        "The badge remains usable by attackers even after the conference concludes."
       ]
     },
     {
@@ -303,23 +303,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Google is planning to exempt sanctioned nations from Android developer verification requirements.",
-        "This change could allow developers in countries like Cuba or Iran to continue installing APKs without new restrictions.",
-        "The policy shift is expected to negatively impact the developers themselves, despite the exemption."
-      ]
-    },
-    {
-      "id": 33,
-      "title": "Reddit keeps its strange DMCA fight over Google search results alive",
-      "url": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/",
-      "source": "Ars Technica",
-      "author": "Ashley Belanger",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Reddit is actively pursuing a lawsuit against Perplexity AI.",
-        "The legal action centers on accusations of conspiracy involving web scraping.",
-        "The case relates to the use of Google search results and DMCA concerns."
+        "Google is reportedly planning to exempt sanctioned nations from Android developer verification requirements.",
+        "This change would allow developers in countries like Cuba or Iran to continue installing APKs without new restrictions.",
+        "The policy shift is expected to negatively impact developers, despite easing restrictions for end-users in sanctioned regions."
       ]
     },
     {
@@ -331,9 +317,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "ReToken addresses the computational and performance limitations of long visual contexts in Vision-Language Models (VLMs).",
+        "ReToken addresses the computational and performance limitations of Vision-Language Models (VLMs) when dealing with long visual contexts.",
         "It introduces a single learnable embedding that acts as an explicit retrieval target to select sparse, query-relevant visual tokens from the KV cache.",
-        "The method shows consistent performance gains across image and video benchmarks despite being trained on a relatively small dataset."
+        "The method shows consistent performance gains across image and video benchmarks while being trained on a relatively small dataset."
       ]
     },
     {
@@ -346,8 +332,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces PAC-MAN, a novel perception-aware Control Barrier Function Reinforcement Learning (CBF-RL) framework.",
-        "Addresses whole-body safety in humanoid robotics by integrating realistic onboard sensing (segmentation-masked depth) with detailed training-time safety constraints.",
-        "The system uses an adversarial motion prior to regularize evasive reflexes during humanoid dodgeball tasks."
+        "Addresses whole-body safety in humanoid robotics by coupling safety constraints with realistic, limited onboard sensing (segmentation-masked depth).",
+        "Utilizes an adversarial motion prior to regularize evasive reflexes during complex tasks like humanoid dodgeball."
       ]
     },
     {
@@ -360,8 +346,22 @@
       "ai_score": 7,
       "bullet_points": [
         "AskChem introduces a novel, claim-centered infrastructure for synthesizing information from chemistry literature.",
-        "It addresses the limitation of current search systems, which only return ranked document lists instead of specific findings.",
+        "It addresses the limitation of current search systems, which only provide ranked document lists instead of specific findings.",
         "The system allows users and AI agents to locate, verify provenance, and assemble cross-paper answers directly."
+      ]
+    },
+    {
+      "id": 38,
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "url": "https://arxiv.org/abs/2607.28617v1",
+      "source": "arXiv AI",
+      "author": "Jiaxin Pei",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the critical lack of transparency regarding system prompts, which govern LLM behavior in commercial AI.",
+        "Introduces AISPA, a new user-centric framework designed to systematically audit these often-hidden system prompts.",
+        "Focuses on closing the trust and accountability gap created by undisclosed AI system instructions."
       ]
     },
     {
@@ -375,7 +375,7 @@
       "bullet_points": [
         "The paper introduces OSReward, a method for standardizing the evaluation of Computer-Using Agents (CUAs).",
         "Current CUA evaluation relies heavily on Vision-Language Models (VLMs) to verify task completion, as human verification is not scalable.",
-        "The research addresses the fundamental challenge of reliably and consistently judging the complex trajectories of autonomous agents."
+        "OSReward addresses a fundamental gap in the field regarding reliable, standardized judgment of complex agent trajectories."
       ]
     },
     {
@@ -387,9 +387,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces PAIChecker to address misalignment issues in PR-Issue pairings used in SWE-Bench-like benchmarks.",
-        "Current LLM evaluation benchmarks rely on pairing PRs with issues, using the issue as the problem and the PR patch as the oracle.",
-        "The research highlights that practical repository maintenance often leads to these critical PR-Issue pairings being misaligned, potentially skewing LLM performance evaluations."
+        "The paper introduces PAIChecker to address misalignment issues in PR-Issue pairings used in SWE-Bench-like LLM evaluation benchmarks.",
+        "Current benchmarks rely on pairing PRs with issues, using the issue description as the problem and the PR patch as the oracle.",
+        "The core problem identified is that these pairings are often misaligned due to the complexity of maintaining large software repositories."
       ]
     },
     {
@@ -401,9 +401,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces DualG-MRAG to address limitations in Multimodal Retrieval-Augmented Generation (MM-RAG) regarding complex multi-hop reasoning.",
-        "Current MM-RAG methods often fail because they focus on independent instance-level matching, missing cross-modal relationships.",
-        "The research tackles the challenge of graph expansion in multimodal settings when incorporating fine-grained visual features."
+        "The paper addresses limitations in Multimodal Retrieval-Augmented Generation (MM-RAG) concerning complex multi-hop reasoning.",
+        "Current methods often fail because they focus on independent instance-level matching rather than cross-modal relationships.",
+        "The proposed DualG-MRAG aims to decouple macro-reasoning from micro-matching to improve performance while mitigating graph expansion issues."
       ]
     },
     {
@@ -416,7 +416,7 @@
       "ai_score": 7,
       "bullet_points": [
         "ReToken addresses the computational and performance degradation issues in Vision-Language Models (VLMs) when handling long visual contexts.",
-        "It introduces a single, learnable embedding that acts as an explicit retrieval target to select only the most relevant visual tokens from a KV cache.",
+        "It introduces a single learnable embedding that acts as an explicit retrieval target to select sparse, query-relevant visual tokens from the KV cache.",
         "The method shows consistent performance gains across image and video benchmarks while requiring training on a relatively small dataset."
       ]
     },
@@ -429,9 +429,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "AskChem is a new infrastructure designed to synthesize information from chemistry literature.",
-        "It shifts the focus of literature retrieval from entire papers to specific, provenance-carrying claims.",
-        "This aims to solve the current problem where scientists must manually assemble cross-paper answers from ranked document lists."
+        "AskChem introduces a novel, claim-centered infrastructure for synthesizing information from chemistry literature.",
+        "It addresses the limitation of traditional search systems that only provide ranked document lists, forcing manual synthesis.",
+        "The system shifts the unit of retrieval from the entire paper to specific, provenance-carrying claims."
       ]
     },
     {
@@ -443,9 +443,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces Change2Task, a system designed to generate executable coding tasks from repository history.",
-        "Addresses the critical need for a continuous supply of realistic, verifiable data to train and benchmark large coding agents.",
-        "Converts merged pull requests into structured tasks by coupling historical code changes with modern repository states and tools."
+        "Introduces Change2Task, a system designed to generate executable tasks for training and evaluating coding AI agents.",
+        "The system leverages repository history, specifically merged pull requests, to create realistic software states and specifications.",
+        "Addresses the critical need for a continuous supply of verified, high-quality data to scale modern coding agents."
       ]
     },
     {
@@ -458,8 +458,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces MixFrag, a new framework for mixed-precision Post-Training Quantization (PTQ) specifically for Vision Transformers (ViTs).",
-        "Addresses the limitation of existing PTQ methods which use uniform bit-widths, failing to account for component-specific quantization sensitivity.",
-        "The core innovation is using a 'fragility-guided' approach to allocate precision efficiently across different transformer components."
+        "Addresses the limitation of existing PTQ methods which use uniform bit-widths, ignoring the heterogeneous sensitivity of different transformer components.",
+        "The core innovation is using a 'fragility-guided' approach to allocate precision efficiently across ViT components for deployment on resource-constrained devices."
       ]
     },
     {
@@ -471,9 +471,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the practical brittleness of On-policy Self-Distillation (OPSD) in improving reasoning language models.",
-        "It reframes OPSD as a specific case ($\\beta=1$) within a broader family of policy-optimization methods.",
-        "The core contribution is making the KL penalty weighting factor ($\\beta$) a controllable parameter rather than a fixed value."
+        "The paper addresses the practical brittleness of On-policy Self-Distillation (OPSD) in reasoning language models.",
+        "It introduces a framework where OPSD is viewed as a specific case ($\\beta=1$) of a broader policy-optimization family.",
+        "The core contribution is making the KL penalty weight ($\\beta$) a controllable parameter to improve reliability."
       ]
     },
     {
@@ -485,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper challenges the prevailing trend of using complex self-refinement and reflection techniques in LLMs.",
-        "It suggests that simple repeated sampling of a prompt, rather than complex reasoning loops, can achieve comparable or better accuracy at the same token cost.",
-        "This finding implies that the benefit of iterative text generation might often be due to sheer volume rather than the sophistication of the planning/critique mechanism."
+        "The paper challenges the prevailing trend of complex self-refinement and reflection methods in LLMs.",
+        "It suggests that simple repeated sampling of a prompt can achieve comparable or better accuracy than elaborate planning/critique methods at the same token cost.",
+        "The finding implies that increased output length itself can drive accuracy gains, potentially overshadowing the benefits of sophisticated reasoning techniques."
       ]
     },
     {
@@ -500,7 +500,7 @@
       "ai_score": 7,
       "bullet_points": [
         "The research introduces APO, an Unsupervised Atomic Policy Optimization method for predicting 3D atomic structures.",
-        "It addresses a major bottleneck in material science and drug discovery: the high cost of obtaining labeled data for novel structures.",
+        "It addresses a major bottleneck in material science and drug discovery: the high cost of obtaining labeled data for novel atomic systems.",
         "APO aims to overcome the reliance on supervised preference learning used by existing flow-matching models (like FlowDPO)."
       ]
     },
@@ -513,23 +513,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "AskChem introduces a claim-centered infrastructure to address limitations in traditional chemistry literature search.",
-        "It moves beyond simple ranked document lists to allow for the assembly of specific, cross-paper findings.",
-        "The system focuses on retrieving provenance-carrying claims, aiding scientists and AI agents in verification and synthesis."
-      ]
-    },
-    {
-      "id": 55,
-      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
-      "url": "https://arxiv.org/abs/2607.28617v1",
-      "source": "arXiv NLP",
-      "author": "Jiaxin Pei",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The paper introduces AISPA, a framework designed to audit system prompts in Large Language Model (LLM) applications.",
-        "System prompts, which govern LLM behavior, are often undisclosed, leading to significant trust and accountability gaps in AI deployment.",
-        "AISPA provides a user-centric methodology for systematically examining these critical, yet opaque, instructions."
+        "AskChem is a new infrastructure designed to synthesize information from chemistry literature across multiple publications.",
+        "It shifts the focus of retrieval from entire documents (papers) to specific, provenance-carrying claims.",
+        "This addresses the current limitation where existing search systems only provide ranked document lists, forcing manual synthesis by researchers."
       ]
     },
     {
@@ -541,9 +527,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces OSReward, a method for standardizing the evaluation of Computer-Using Agents (CUAs).",
-        "Evaluating CUA trajectories (actions, states, reasoning) is crucial but difficult to scale using human verification.",
-        "The research addresses the reliance on Vision-Language Models (VLMs) as judges for CUA performance."
+        "The paper addresses the critical need for standardized evaluation methods for Computer-Using Agents (CUAs).",
+        "It highlights the current reliance on Vision-Language Models (VLMs) to verify CUA task completion, noting scalability issues.",
+        "OSReward proposes a framework to institutionalize standardized evaluation for cross-platform CUA reward models."
       ]
     },
     {
@@ -557,7 +543,7 @@
       "bullet_points": [
         "Change2Task addresses the need for large, executable datasets to train and evaluate coding AI agents.",
         "The system converts historical repository changes (merged pull requests) into structured, verifiable tasks.",
-        "It links historical code evidence with the current, healthy state of the software repository."
+        "It ensures tasks are grounded in healthy, modern revisions of the source code, coupling state with specifications and tools."
       ]
     },
     {
@@ -569,9 +555,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper challenges the prevailing trend in LLM prompting where self-refinement and reflection methods (which generate more text) are assumed to be superior.",
-        "It suggests that simply increasing the amount of generated text through repeated sampling can achieve accuracy gains comparable to, or better than, complex reasoning methods.",
-        "The finding implies that the mechanism of generating more text itself might be a significant driver of performance improvement, rather than the specific planning or reflection logic."
+        "The paper challenges the prevailing trend of using complex self-refinement and reflection techniques in LLMs.",
+        "It suggests that simple repeated sampling (generating the same prompt multiple times) can outperform sophisticated methods like Reflexion at equal token costs.",
+        "The finding implies that increased output length itself can boost accuracy, potentially overshadowing the benefits of complex reasoning strategies."
       ]
     },
     {
@@ -583,51 +569,51 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces Frontis-MA1, an AI4AI model designed to pursue recursive self-improvement (RSI) within Machine Learning Engineering.",
-        "Presents OpenMLE, a new open full-stack system providing a concrete testbed for RSI research, including environments (OpenMLE-Gym), RL (OpenMLE-RL), and evolutionary search (OpenMLE-Evo).",
-        "The research focuses on enabling AI systems to improve the process of building AI, a key goal in advanced AI development."
+        "Introduces Frontis-MA1, a large-scale (35B) AI model designed for Recursive Self-Improvement (RSI).",
+        "Presents OpenMLE, an open-source, full-stack system designed to serve as a testbed for RSI research in Machine Learning Engineering (MLE).",
+        "The OpenMLE stack integrates verifiable task environments (OpenMLE-Gym), reinforcement learning (OpenMLE-RL), and evolutionary search (OpenMLE-Evo)."
+      ]
+    },
+    {
+      "id": 63,
+      "title": "AI systems and the reproduction of (standard) language ideologies in World Englishes",
+      "url": "https://arxiv.org/abs/2607.28528v1",
+      "source": "arXiv NLP",
+      "author": "Kingsley Ugwuanyi",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper investigates how Large Language Models (LLMs) reflect and reinforce existing language ideologies.",
+        "It examines the sociolinguistic issue of who defines 'legitimate' English, particularly concerning World Englishes.",
+        "The research highlights how AI systems often privilege 'Inner Circle' norms while marginalizing non-dominant English varieties."
       ]
     },
     {
       "id": 64,
-      "title": "Only 8.9% of sites block AI crawlers, but 94.8% are never cited in AI answers",
-      "url": "https://website-auditor.io/ai-visibility-index",
+      "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
+      "url": "https://github.com/wie-project/kakehashi",
       "source": "Hacker News",
-      "author": "SpikeyCoder",
-      "timestamp": "2026-08-02T11:53:52",
+      "author": "vlad_kalinkin",
+      "timestamp": "2026-08-02T16:26:40",
       "ai_score": 7,
       "bullet_points": [
-        "A significant disparity exists in how websites handle AI crawlers.",
-        "Only a small percentage (8.9%) of sites actively block AI crawlers.",
-        "A much larger majority (94.8%) of sites are not being cited in AI-generated answers."
+        "Introduction of Kakehashi, an experimental userspace project.",
+        "The project aims to run macOS binaries on Linux ARM architecture.",
+        "This represents a niche but technically interesting cross-platform compatibility effort."
       ]
     },
     {
-      "id": 87,
-      "title": "You Bought the Machine. Now Build the Software Factory.",
-      "url": "https://dev.to/suckup_de/you-bought-the-machine-now-build-the-software-factory-1nhp",
+      "id": 93,
+      "title": "From Lean 4 to ClickHouse: Architecting Verifiable AI Infrastructure with Formal Methods and Real-Time Analytics",
+      "url": "https://dev.to/tamizuddin/from-lean-4-to-clickhouse-architecting-verifiable-ai-infrastructure-with-formal-methods-and-134b",
       "source": "Dev.to",
-      "author": "suckup_de",
-      "timestamp": "2026-08-02T12:03:19Z",
+      "author": "tamizuddin",
+      "timestamp": "2026-08-02T18:01:24Z",
       "ai_score": 7,
       "bullet_points": [
-        "AI coding agents generate code rapidly, indicating increased automation in software development.",
-        "The article warns that unconstrained code generation leads to the mass production of defects.",
-        "The necessity of implementing constraints, verification, and accountability is highlighted for reliable AI-driven software factories."
-      ]
-    },
-    {
-      "id": 91,
-      "title": "AI Makes Bad Developers Faster Too",
-      "url": "https://dev.to/suckup_de/ai-makes-bad-developers-faster-too-2o10",
-      "source": "Dev.to",
-      "author": "suckup_de",
-      "timestamp": "2026-08-02T11:27:04Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "LLMs can boost the productivity of skilled developers.",
-        "AI tools risk scaling negative habits like poor architecture and weak judgment.",
-        "The article emphasizes that AI tools augment, but do not replace, developer craftsmanship."
+        "Proposes integrating Lean 4 for formal verification of AI logic.",
+        "Utilizes ClickHouse to provide real-time analytics capabilities.",
+        "Aims to build a robust, verifiable, and high-performance AI infrastructure."
       ]
     }
   ]
