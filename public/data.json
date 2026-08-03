@@ -1,33 +1,19 @@
 {
-  "generated_at": "2026-08-03T01:22:19.612628",
-  "total_stories": 44,
+  "generated_at": "2026-08-03T08:54:34.315051",
+  "total_stories": 37,
   "sources": [
+    "Ollama",
+    "arXiv NLP",
+    "arXiv AI",
+    "Ars Technica",
+    "Lobsters",
+    "Hugging Face Benchmarks",
     "arXiv Machine Learning",
     "Hacker News",
-    "Lobsters",
-    "arXiv NLP",
-    "Ars Technica",
-    "Dev.to",
-    "Hugging Face Benchmarks",
     "The Verge",
-    "arXiv AI",
-    "Ollama"
+    "Dev.to"
   ],
   "stories": [
-    {
-      "id": 3,
-      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "The news highlights the trending status of the meta-llama/Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
-        "It is categorized under key AI/ML topics including transformers, safetensors, and text-generation.",
-        "This indicates continued community interest and activity surrounding advanced LLMs like Llama 3.1."
-      ]
-    },
     {
       "id": 1,
       "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
@@ -37,9 +23,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
-        "The model is categorized for text generation and conversational AI tasks.",
-        "Tags indicate its use of transformers and safetensors formats."
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
+        "The model is categorized for text generation tasks, indicating its primary function.",
+        "It utilizes standard ML components like transformers and safetensors, suggesting it is a contemporary LLM."
       ]
     },
     {
@@ -52,8 +38,22 @@
       "ai_score": 8,
       "bullet_points": [
         "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
-        "It is categorized under text-generation pipelines, indicating its primary function as a large language model.",
-        "The associated tags (transformers, llama, safetensors) confirm its relevance within the modern AI/ML ecosystem."
+        "It is categorized under text-generation, indicating its primary function as a large language model.",
+        "The associated tags (transformers, safetensors, llama) confirm its relevance within the modern NLP/AI ecosystem."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It is categorized under text-generation pipelines, indicating its primary function as a language model.",
+        "The tags confirm its relevance to the broader transformer and Llama ecosystem in AI."
       ]
     },
     {
@@ -79,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Gemma 4 inference speed is significantly improved in Ollama 0.31 on Apple Silicon.",
-        "The performance boost is achieved through Multi-Token Prediction (MTP) powered by MLX.",
-        "Speedup reaches up to 90% when utilized with coding agents, as validated by the Aider benchmark."
+        "Gemma 4 inference speed is significantly boosted in Ollama 0.31 on Apple Silicon.",
+        "The performance gain is achieved through Multi-Token Prediction (MTP) utilizing MLX.",
+        "Speed improvements reach up to 90% faster when running with coding agents, as validated by the Aider benchmark."
       ]
     },
     {
@@ -93,9 +93,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama has achieved its peak performance on Apple Silicon utilizing the MLX engine.",
-        "The performance improvements translate to faster response times and higher quality model outputs.",
-        "The updated engine also demonstrates reduced memory consumption when running models."
+        "Ollama has achieved its peak performance on Apple Silicon using the MLX engine.",
+        "The performance improvements result in faster response times and reduced memory usage for LLMs.",
+        "Model output quality has also been enhanced alongside the speed and efficiency gains."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "NVIDIA Nemotron 3 Ultra",
+      "url": "https://ollama.com/blog/nemotron-3-ultra",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduction of NVIDIA Nemotron 3 Ultra, a new model.",
+        "The model is specifically engineered for high-throughput reasoning tasks.",
+        "It is designed to support complex, long-running agent workflows."
       ]
     },
     {
@@ -108,8 +122,8 @@
       "ai_score": 8,
       "bullet_points": [
         "OpenJarvis v1.0 is released, providing an open-source framework for building personal AI agents.",
-        "The key feature is the ability to run these personal AI agents entirely on local hardware.",
-        "It features built-in support for Ollama, facilitating local LLM integration."
+        "The framework emphasizes 'local-first' operation, allowing AI to run entirely on the user's own hardware.",
+        "It features built-in support for Ollama, integrating with popular local LLM execution tools."
       ]
     },
     {
@@ -121,37 +135,51 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, is integrating MLX for performance gains.",
-        "The integration specifically targets Apple Silicon, optimizing LLM execution on Apple hardware.",
-        "This is currently available in a preview state, indicating ongoing development and optimization."
+        "Ollama, a popular local LLM runner, has integrated support for MLX.",
+        "This integration specifically targets Apple Silicon hardware for optimized performance.",
+        "The feature is currently available in a preview release, indicating ongoing development."
       ]
     },
     {
-      "id": 42,
-      "title": "Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B",
-      "url": "https://arxiv.org/abs/2607.28576v1",
+      "id": 13,
+      "title": "OpenClaw",
+      "url": "https://ollama.com/blog/openclaw",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "OpenClaw is a personal AI assistant designed to integrate with messaging apps.",
+        "It utilizes local AI coding agents, ensuring data privacy by running entirely on the user's device.",
+        "This represents a trend toward decentralized, on-device AI applications."
+      ]
+    },
+    {
+      "id": 34,
+      "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+      "url": "https://arxiv.org/abs/2607.29677v1",
       "source": "arXiv AI",
-      "author": "Iliya Mirzaei",
+      "author": "Simon Suo",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Repeated sampling (simple repetition) outperforms complex self-refinement and reflection techniques in LLMs when token costs are equal.",
-        "The study suggests that the increased text generation inherent in complex methods might artificially inflate perceived accuracy gains.",
-        "The finding challenges the prevailing assumption that complex, multi-step reasoning (like self-critique) is always superior to simpler generation strategies."
+        "Introduces ExtractBench, a new benchmark specifically designed for schema-guided document extraction in enterprise settings.",
+        "It is notable for being the first benchmark to evaluate multiple critical metrics simultaneously: value accuracy, record completeness, grounding, and measured cost.",
+        "The benchmark is substantial, comprising 4,869 pages across 370 different enterprise documents."
       ]
     },
     {
-      "id": 47,
-      "title": "KAISEN: Reproducible Subgroup Fairness Auditing for Clinical Risk Models",
-      "url": "https://arxiv.org/abs/2607.28608v1",
-      "source": "arXiv Machine Learning",
-      "author": "Nishita Chavan",
+      "id": 54,
+      "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
+      "url": "https://arxiv.org/abs/2607.29678v1",
+      "source": "arXiv NLP",
+      "author": "Zhichao Cao",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces KAISEN, a comprehensive five-phase audit pipeline designed for assessing fairness in clinical risk models.",
-        "Addresses the critical issue where high aggregate model performance masks significant, unequal error rates across different patient subgroups.",
-        "The pipeline covers stratification, disparity measurement, mechanism diagnostics, mitigation, and drift monitoring to ensure audit reliability."
+        "TokTier addresses an inefficiency in LLM serving where front ends re-tokenize full requests instead of leveraging cached KV state.",
+        "The problem is highlighted by agentic workflows, where appending small tool results to long transcripts causes token boundary issues, hindering state reuse.",
+        "Empirical data shows that while most calls append small amounts of data, session rebuilding with large contexts remains a significant bottleneck."
       ]
     },
     {
@@ -163,23 +191,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release introduces performance enhancements and expanded GGUF model compatibility.",
-        "The update leverages llama.cpp to broaden model support across various hardware configurations.",
-        "It specifically augments Ollama's MLX engine, improving capabilities on Apple silicon."
-      ]
-    },
-    {
-      "id": 8,
-      "title": "NVIDIA Nemotron 3 Ultra",
-      "url": "https://ollama.com/blog/nemotron-3-ultra",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduction of NVIDIA Nemotron 3 Ultra.",
-        "The model is specifically designed for high-throughput reasoning tasks.",
-        "It is optimized for supporting long-running agent workflows."
+        "Ollama 0.30 release brings performance improvements and expanded GGUF model compatibility.",
+        "Integration with llama.cpp enhances model support across a broader range of hardware.",
+        "The update augments Ollama's MLX engine, specifically benefiting Apple silicon users."
       ]
     },
     {
@@ -191,23 +205,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama has integrated support for advanced AI features within Claude Code.",
-        "The new capabilities include the implementation of subagents for more complex task decomposition.",
-        "Web search functionality has been added, enhancing the model's ability to access real-time information."
-      ]
-    },
-    {
-      "id": 13,
-      "title": "OpenClaw",
-      "url": "https://ollama.com/blog/openclaw",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
-        "It utilizes local AI coding agents, emphasizing on-device processing.",
-        "The core value proposition is providing private, local AI assistance without reliance on cloud services."
+        "Ollama has integrated support for subagents within Claude Code.",
+        "The update also enables web search functionality within the Claude Code environment.",
+        "This suggests an enhancement in the complexity and capability of AI agentic workflows."
       ]
     },
     {
@@ -220,8 +220,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Generative AI models are being trained on artists' work without explicit permission.",
-        "Artists view this practice as theft, while AI proponents argue it is necessary for technological evolution.",
-        "The conflict has escalated into contentious legal battles regarding intellectual property rights in AI."
+        "Artists view this practice as theft, leading to significant ethical and legal disputes.",
+        "The debate pits artists' rights against the perceived necessity of data for AI technology evolution."
       ]
     },
     {
@@ -233,9 +233,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Reddit is reportedly re-evaluating its licensing agreement with Google.",
-        "The uncertainty is linked to recent performance issues and questions surrounding Google's AI Overviews.",
-        "The situation highlights growing tension between content providers and major AI developers."
+        "Reddit is reportedly reconsidering its licensing agreement with Google.",
+        "The uncertainty is linked to Reddit's stock performance and CEO skepticism regarding Google's AI Overviews.",
+        "This highlights ongoing tension and valuation debates surrounding major AI integrations between tech giants."
       ]
     },
     {
@@ -248,8 +248,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Defcon's new badge incorporates a removable chip for enhanced security.",
-        "The chip design allows hackers to inspect the badge's internal workings.",
-        "A significant security vulnerability exists, enabling badge reuse even after the event."
+        "The chip's design allows hackers to inspect the badge's contents.",
+        "The badge retains functionality even after the Defcon event, posing a persistent security risk."
       ]
     },
     {
@@ -262,208 +262,152 @@
       "ai_score": 7,
       "bullet_points": [
         "Google is planning to exempt sanctioned nations from Android developer verification requirements.",
-        "This change means developers in countries like Cuba or Iran can continue installing APKs without new restrictions.",
-        "The policy shift is expected to negatively impact developers operating within these sanctioned regions."
-      ]
-    },
-    {
-      "id": 35,
-      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
-      "url": "https://arxiv.org/abs/2607.28627v1",
-      "source": "arXiv AI",
-      "author": "Derek Hoiem",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "ReToken addresses the computational and performance challenges of long visual context in Vision-Language Models (VLMs).",
-        "It introduces a single learnable embedding that acts as an explicit retrieval target to select sparse, query-relevant visual tokens from the KV cache.",
-        "The method shows consistent performance gains across image and video benchmarks using only a small dataset."
+        "This change allows developers in countries like Cuba or Iran to continue installing APKs without new restrictions.",
+        "The policy shift is expected to negatively impact developers operating in these sanctioned regions."
       ]
     },
     {
       "id": 36,
-      "title": "PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball",
-      "url": "https://arxiv.org/abs/2607.28623v1",
+      "title": "AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers",
+      "url": "https://arxiv.org/abs/2607.29626v1",
       "source": "arXiv AI",
-      "author": "Aaron D. Ames",
+      "author": "Xuanjing Huang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces PAC-MAN, a novel Perception-Aware Control Barrier Function Reinforcement Learning (CBF-RL) framework.",
-        "Addresses whole-body safety in humanoid robotics by integrating realistic, limited onboard sensing (e.g., segmentation-masked depth) with comprehensive training-time safety constraints.",
-        "Applies the framework to a complex physical task, humanoid dodgeball, using adversarial motion priors to enhance evasive reflexes."
-      ]
-    },
-    {
-      "id": 37,
-      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
-      "url": "https://arxiv.org/abs/2607.28618v1",
-      "source": "arXiv AI",
-      "author": "Kyunghyun Cho",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "AskChem is a new infrastructure designed to improve chemistry literature synthesis by moving beyond simple document retrieval.",
-        "It shifts the focus of retrieval from entire papers to specific, provenance-carrying claims within the literature.",
-        "The tool aims to automate the manual process scientists currently use to locate, verify, and assemble cross-paper answers."
-      ]
-    },
-    {
-      "id": 38,
-      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
-      "url": "https://arxiv.org/abs/2607.28617v1",
-      "source": "arXiv AI",
-      "author": "Jiaxin Pei",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses the critical lack of transparency regarding system prompts, which govern LLM behavior in commercial AI.",
-        "Introduces AISPA, a new user-centric framework designed to systematically audit these often-hidden system prompts.",
-        "Focuses on closing the trust and accountability gap created by the non-disclosure of these foundational AI instructions."
+        "Introduces AgentHPOBench, a new benchmark specifically designed for evaluating LLM agents.",
+        "The benchmark focuses on assessing agents' ability to act as sequential hyperparameter optimizers, a critical capability for autonomous scientific agents.",
+        "It addresses a gap in existing benchmarks that typically only test static code generation or final answer correctness, not iterative experimental decision-making."
       ]
     },
     {
       "id": 39,
-      "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
-      "url": "https://arxiv.org/abs/2607.28609v1",
+      "title": "When Does On-Policy Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning",
+      "url": "https://arxiv.org/abs/2607.29617v1",
       "source": "arXiv AI",
-      "author": "Lingpeng Kong",
+      "author": "Dylan J. Foster",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the critical need for standardized evaluation methods for Computer-Using Agents (CUAs).",
-        "Current evaluation relies heavily on Vision-Language Models (VLMs) to judge CUA trajectories, but standardization is lacking.",
-        "OSReward proposes a framework to institute standardized evaluation for cross-platform CUA reward models."
-      ]
-    },
-    {
-      "id": 40,
-      "title": "PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks",
-      "url": "https://arxiv.org/abs/2607.28587v1",
-      "source": "arXiv AI",
-      "author": "Pinjia He",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces PAIChecker, a tool designed to identify and check for misalignment between Pull Requests (PRs) and their linked issues.",
-        "Addresses a critical flaw in current LLM evaluation benchmarks (like SWE-Bench), where PR-Issue pairings can be incorrectly constructed.",
-        "Highlights the practical challenge in maintaining large code repositories, leading to unreliable data for assessing LLM issue resolution capabilities."
+        "The paper addresses limitations in Imitation Learning (IL), specifically the compounding errors of standard Behavior Cloning (BC).",
+        "It investigates the role of on-policy interaction in improving IL performance when perfect expert representation is unattainable.",
+        "The research focuses on representational tradeoffs to enhance agent learning from expert demonstrations, relevant to robotics and LLM training."
       ]
     },
     {
       "id": 41,
-      "title": "DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation",
-      "url": "https://arxiv.org/abs/2607.28580v1",
+      "title": "FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models",
+      "url": "https://arxiv.org/abs/2607.29602v1",
       "source": "arXiv AI",
-      "author": "Jianxin Li",
+      "author": "Benjamin Peloquin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses limitations in Multimodal Retrieval-Augmented Generation (MM-RAG), specifically its struggle with complex multi-hop reasoning.",
-        "Existing methods often rely on independent instance-level matching, failing to capture cross-modal relationships effectively.",
-        "The proposed DualG-MRAG decouples macro-reasoning from micro-matching to overcome the challenges of fine-grained feature integration in graph-enhanced multimodal systems."
+        "Introduces FriendBench, a new benchmark designed to test the ability of AI models to infer dyadic familiarity (stranger vs. familiar) from short social interactions.",
+        "The benchmark evaluates models across multimodal inputs (text, audio, video) by comparing them against human panels.",
+        "The research compares 26 models from seven different companies, focusing on non-verbal cues in ice-breaker conversations."
+      ]
+    },
+    {
+      "id": 42,
+      "title": "TraceViT: Grounded Trace Supervision for Visual Abstract Reasoning",
+      "url": "https://arxiv.org/abs/2607.29586v1",
+      "source": "arXiv AI",
+      "author": "Wei Hua",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "TraceViT is a new looped visual reasoner designed to improve performance on the Abstraction and Reasoning Corpus (ARC).",
+        "The core innovation is introducing 'Grounded Trace Supervision,' which constrains the intermediate refinement steps of the model, not just the final output.",
+        "This addresses a limitation in conventional training methods for visual reasoners, allowing for step-by-step adherence to the inferred transformation."
       ]
     },
     {
       "id": 45,
-      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
-      "url": "https://arxiv.org/abs/2607.28627v1",
+      "title": "Sign compression for Muon: SignMuon, MuonSign, and the Limits of Error Feedback",
+      "url": "https://arxiv.org/abs/2607.29674v1",
       "source": "arXiv Machine Learning",
-      "author": "Derek Hoiem",
+      "author": "Alexey Kravatskiy",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "ReToken addresses the computational and performance challenges of long visual context in Vision-Language Models (VLMs).",
-        "It introduces a single learnable embedding that acts as an explicit retrieval target to select sparse, query-relevant visual tokens from the KV cache.",
-        "The method shows consistent performance gains across image and video benchmarks while requiring training on a small dataset."
+        "Introduces SignMuon, a new method to compress the Muon update to one bit per parameter for low-communication optimization.",
+        "SignMuon demonstrates practical superiority over SignSGD in performance benchmarks.",
+        "The research highlights a theoretical limitation where signing the gradient before the LMO causes ascent on linear functions, which the authors address with variations like MuonUSign and MuonSign."
       ]
     },
     {
-      "id": 46,
-      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
-      "url": "https://arxiv.org/abs/2607.28618v1",
+      "id": 47,
+      "title": "GQ-FSL: Green Quantized Federated Split Learning",
+      "url": "https://arxiv.org/abs/2607.29659v1",
       "source": "arXiv Machine Learning",
-      "author": "Kyunghyun Cho",
+      "author": "Lutz Lampe",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "AskChem introduces a claim-centered infrastructure to address limitations in traditional chemistry literature search.",
-        "It moves beyond simple ranked document lists to allow for the assembly of specific, cross-paper findings.",
-        "The system focuses on retrieving provenance-carrying claims rather than entire papers, aiding verification."
-      ]
-    },
-    {
-      "id": 48,
-      "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
-      "url": "https://arxiv.org/abs/2607.28591v1",
-      "source": "arXiv Machine Learning",
-      "author": "Qi Zhang",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces Change2Task, a system designed to generate executable coding tasks from repository history.",
-        "Addresses the critical need for a continuous supply of realistic, verified data to train and benchmark coding AI agents.",
-        "Converts merged pull requests into structured tasks, coupling historical code changes with modern repository states and development tools."
+        "Addresses energy and resource constraints when deploying deep neural networks (DNNs) on mobile devices at the wireless edge.",
+        "Proposes a Green Quantized Federated Split Learning (GQ-FSL) framework to improve efficiency.",
+        "Mitigates overheads associated with traditional Federated Split Learning (FSL) by reducing data exchange energy consumption."
       ]
     },
     {
       "id": 49,
-      "title": "MixFrag: Fragility-Guided Mixed-Precision Post-Training Quantization for Vision Transformers",
-      "url": "https://arxiv.org/abs/2607.28589v1",
+      "title": "When Does On-Policy Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning",
+      "url": "https://arxiv.org/abs/2607.29617v1",
       "source": "arXiv Machine Learning",
-      "author": "Md. Umar Faruk",
+      "author": "Dylan J. Foster",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces MixFrag, a new mixed-precision Post-Training Quantization (PTQ) framework specifically for Vision Transformers (ViTs).",
-        "Addresses the limitation of existing PTQ methods by moving beyond uniform bit-widths, recognizing the heterogeneous sensitivity of different transformer components.",
-        "Aims to improve deployment efficiency of ViTs on resource-constrained devices by intelligently allocating precision based on component fragility."
+        "The paper addresses limitations in Imitation Learning (IL), specifically compounding errors in standard Behavior Cloning (BC).",
+        "It investigates the role of on-policy interaction in improving IL performance when perfect expert representation is unattainable.",
+        "The research focuses on representational tradeoffs as a method to enhance the robustness of imitation learning algorithms."
       ]
     },
     {
       "id": 50,
-      "title": "$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
-      "url": "https://arxiv.org/abs/2607.28582v1",
+      "title": "A Human-Centered Validation of the Explainability-Performance Coefficient",
+      "url": "https://arxiv.org/abs/2607.29614v1",
       "source": "arXiv Machine Learning",
-      "author": "Furong Huang",
+      "author": "Luis F. Lago-Fernández",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the practical brittleness of On-policy Self-Distillation (OPSD) in reasoning language models.",
-        "It introduces $\\beta$-OPSD, framing OPSD as a specific case ($\\beta=1$) within a broader policy-optimization family.",
-        "The core contribution is making the KL penalty weighting factor ($\\beta$) a controllable parameter to improve reliability."
+        "Addresses the critical need for trustworthy Explainable AI (XAI) in high-risk domains.",
+        "Proposes a new model-agnostic metric, the EPC score, to quantify explanation quality.",
+        "Focuses on balancing explanation fidelity with human-centered understanding, a current research challenge."
       ]
     },
     {
       "id": 51,
-      "title": "Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B",
-      "url": "https://arxiv.org/abs/2607.28576v1",
+      "title": "QASP: Query-Adaptive Robust Vector Search Policy",
+      "url": "https://arxiv.org/abs/2607.29606v1",
       "source": "arXiv Machine Learning",
-      "author": "Iliya Mirzaei",
+      "author": "Andy Warfield",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper challenges the prevailing trend of complex self-correction methods (like Reflexion) in LLMs.",
-        "It suggests that simple, repeated sampling of the same prompt can achieve comparable or better accuracy than elaborate planning/reflection techniques at the same token cost.",
-        "This implies that the benefit of generating more text might be an inherent factor in accuracy improvement, rather than the sophistication of the self-refinement mechanism itself."
+        "Addresses the core challenge in vector search: balancing high recall with low computational cost.",
+        "Introduces QASP, a Query-Adaptive robust vector Search Policy, to mitigate performance variance across different queries.",
+        "QASP uses a single upfront supervised regression to predict the full recall progression curve for any given query."
       ]
     },
     {
-      "id": 53,
-      "title": "APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems",
-      "url": "https://arxiv.org/abs/2607.28553v1",
+      "id": 52,
+      "title": "The Parts Are Greater Than the Sum: Automated Task Sequencing for Efficient Training of Multi-Policy LLMs",
+      "url": "https://arxiv.org/abs/2607.29601v1",
       "source": "arXiv Machine Learning",
-      "author": "Yatao Bian",
+      "author": "Adam Sobey",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces APO, an Unsupervised Atomic Policy Optimization method for predicting 3D structures of atomic systems.",
-        "It addresses a major bottleneck in material science and drug discovery: the high cost of obtaining labeled data for novel structures.",
-        "APO aims to overcome the dependency of existing flow-matching models (like FlowDPO) on supervised preference learning."
+        "Addresses a limitation in Parameter-Efficient Fine-Tuning (PEFT) where shared LoRA adapters cause interference when training LLMs on diverse tasks.",
+        "Proposes a new optimization method to overcome the issues of poor transfer and catastrophic forgetting in multi-policy LLM training.",
+        "Moves beyond simply increasing adapter capacity or composing adapters by introducing a novel approach to task sequencing and optimization."
       ]
     },
     {
-      "id": 55,
+      "id": 56,
       "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
       "url": "https://arxiv.org/abs/2607.29613v1",
       "source": "arXiv NLP",
@@ -471,13 +415,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces WCM, a World Critic Model, to address limitations in Vision-Language-Action (VLA) reinforcement learning.",
-        "Existing critic-based RL methods struggle with partially observable robot control because they rely on single-frame observations or latent representations.",
-        "WCM aims to overcome the exponential complexity issue associated with naively incorporating full observation history into the critic."
+        "The paper introduces WCM, a World Critic Model, to address limitations in Reinforcement Learning (RL) for Vision-Language-Action (VLA) models.",
+        "Existing critic-based RL methods struggle with partially observable robot control because they rely on single-frame observations or latent states.",
+        "WCM aims to overcome the exponential complexity associated with naively incorporating full observation history into the critic."
       ]
     },
     {
-      "id": 56,
+      "id": 57,
       "title": "FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models",
       "url": "https://arxiv.org/abs/2607.29602v1",
       "source": "arXiv NLP",
@@ -485,13 +429,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces FriendBench, a new benchmark for inferring dyadic familiarity (strangers vs. familiar) from short social interactions.",
-        "Evaluates 26 models from seven companies across text, audio, and video modalities against human panels.",
-        "Highlights the importance of non-verbal cues and behavior in understanding social dynamics, moving beyond purely textual analysis."
+        "Introduces FriendBench, a new benchmark designed to test the ability to infer dyadic familiarity (strangers vs. acquaintances) from short conversational clips.",
+        "The benchmark evaluates multimodal LLMs (text, audio, video) against human panels using 96 balanced dyads.",
+        "Focuses on behavioral cues in social interactions, highlighting that context and manner of interaction are as important as explicit language."
       ]
     },
     {
-      "id": 57,
+      "id": 58,
       "title": "ResKV: Reconstructing Omitted Attention Contributions for Fixed-Budget KV Cache Compression",
       "url": "https://arxiv.org/abs/2607.29591v1",
       "source": "arXiv NLP",
@@ -499,13 +443,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the critical issue of KV cache compression for efficient long-context LLM inference.",
-        "Existing compression methods either permanently discard information or perturb retained key/value pairs.",
-        "The proposed 'ResKV' method formulates omitted attention contributions as residual statistics to improve compression accuracy."
+        "The research addresses the critical need for efficient long-context inference by tackling KV cache compression.",
+        "Existing compression methods either permanently discard information (eviction) or risk perturbing retained data (merging-based alternatives).",
+        "The proposed method, ResKV, formulates omitted attention contributions as residual statistics to allow for more accurate reconstruction."
       ]
     },
     {
-      "id": 59,
+      "id": 60,
       "title": "ARB: A Matched Authorship-Rewriting Benchmark Dataset for AI-Text Detector Evaluation",
       "url": "https://arxiv.org/abs/2607.29539v1",
       "source": "arXiv NLP",
@@ -513,13 +457,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces ARB, a new benchmark dataset specifically designed for evaluating AI-text detectors.",
-        "Addresses a gap in current research by testing how detectors perform when human-written text is rewritten by LLMs, rather than just comparing human vs. raw LLM output.",
-        "The dataset is built from 1,800 human source texts, aiming to provide a more realistic evaluation of detector robustness against paraphrasing."
+        "Introduces ARB, a new benchmark dataset designed to evaluate AI-text detectors.",
+        "Addresses a gap in current research by testing detectors against human text rewritten by LLMs, rather than just direct LLM output.",
+        "The dataset is built from 1,800 human source texts, focusing on how rewriting affects detection accuracy."
       ]
     },
     {
-      "id": 60,
+      "id": 61,
       "title": "Evidence-Type Competition: When Can Interventional Data Teach Language Models Causal Direction?",
       "url": "https://arxiv.org/abs/2607.29484v1",
       "source": "arXiv NLP",
@@ -527,13 +471,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper challenges the assumption that interventional data is always sufficient to teach causal reasoning to language models.",
-        "In controlled synthetic environments (Simpson's-paradox worlds), increasing interventional data does not improve the model's ability to infer causal direction.",
-        "The study suggests that simply increasing the fraction of interventional samples during pretraining may not guarantee better causal understanding."
+        "The paper challenges the assumption that interventional data is always sufficient to teach causal reasoning in Language Models (LMs).",
+        "Testing in synthetic environments, the study found that increasing interventional samples does not guarantee improved causal direction.",
+        "Specifically, in scenarios like Simpson's paradox, the model's causal response magnitude increases monotonically despite the presence of interventional data."
       ]
     },
     {
-      "id": 61,
+      "id": 62,
       "title": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization",
       "url": "https://arxiv.org/abs/2607.29433v1",
       "source": "arXiv NLP",
@@ -541,13 +485,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Investigates the critical role of memory in making Large Language Models (LLMs) personalized companions.",
-        "Addresses the 'knowledge utilization problem' where LLMs may fail to act on relevant user preferences even when the data is in context.",
-        "Aims to distinguish between LLMs failing to remember information versus remembering it but failing to apply it correctly."
+        "Investigates the critical issue of memory utilization in personalized Large Language Model (LLM) agents.",
+        "Addresses the 'knowledge utilization problem' where LLMs may possess relevant user data but fail to act upon it.",
+        "Aims to differentiate between models that fail to remember information versus those that remember but fail to apply it contextually."
       ]
     },
     {
-      "id": 62,
+      "id": 63,
       "title": "Bridging the Question-Answer Gap in Retrieval-Augmented Generation: Hypothetical Prompt Embeddings",
       "url": "https://arxiv.org/abs/2607.29402v1",
       "source": "arXiv NLP",
@@ -555,79 +499,37 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses a core challenge in Retrieval-Augmented Generation (RAG): the style mismatch between user queries and retrieved document text.",
-        "It proposes a method involving 'Hypothetical Prompt Embeddings' to improve alignment, aiming to overcome limitations of existing runtime solutions like HyDE.",
-        "The research focuses on reducing the computational overhead associated with improving query-document relevance in RAG systems."
-      ]
-    },
-    {
-      "id": 63,
-      "title": "Studying quantization trade-offs for efficient inference deployment in machine translation",
-      "url": "https://arxiv.org/abs/2607.29397v1",
-      "source": "arXiv NLP",
-      "author": "Teryn Jones",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research addresses the practical challenge of deploying large language models (LLMs) in real-world server environments.",
-        "It specifically investigates the trade-offs of quantization—a technique used to reduce model size and improve inference efficiency.",
-        "The study evaluates these quantization effects on latency and throughput using two specific machine translation model families."
-      ]
-    },
-    {
-      "id": 66,
-      "title": "Autoregressive Language Model on the 6502 Processor",
-      "url": "https://mattbeton.com/blog/bitnet-6502.html",
-      "source": "Hacker News",
-      "author": "nmstoker",
-      "timestamp": "2026-07-31T13:08:30",
-      "ai_score": 7,
-      "bullet_points": [
-        "An autoregressive language model has been successfully implemented on the 6502 processor.",
-        "This demonstrates the feasibility of running complex AI models on extremely low-power, legacy hardware.",
-        "The project is highly relevant to embedded AI and resource-constrained computing."
-      ]
-    },
-    {
-      "id": 67,
-      "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
-      "url": "https://github.com/wie-project/kakehashi",
-      "source": "Hacker News",
-      "author": "vlad_kalinkin",
-      "timestamp": "2026-08-02T16:26:40",
-      "ai_score": 7,
-      "bullet_points": [
-        "Kakehashi is an experimental userspace project.",
-        "Its goal is to run macOS binaries on Linux ARM architecture.",
-        "This represents a niche but technically interesting cross-platform compatibility effort."
+        "The paper addresses a core limitation in Retrieval-Augmented Generation (RAG) systems: the style mismatch between user queries and retrieved document content.",
+        "It proposes a method involving 'Hypothetical Prompt Embeddings' to improve alignment between the query and the retrieved context.",
+        "The research aims to mitigate the computational overhead associated with existing runtime solutions like HyDE, suggesting a more efficient approach to RAG improvement."
       ]
     },
     {
       "id": 88,
-      "title": "Your AI Agent's Chat History Is User Input",
-      "url": "https://dev.to/y11t0/your-ai-agents-chat-history-is-user-input-fl6",
+      "title": "Long-Running AI Agents Accumulate Context Debt",
+      "url": "https://dev.to/coryntas/long-running-ai-agents-accumulate-context-debt-3n01",
       "source": "Dev.to",
-      "author": "y11t0",
-      "timestamp": "2026-08-02T23:23:05Z",
+      "author": "vincent_tuan",
+      "timestamp": "2026-08-03T07:46:55Z",
       "ai_score": 7,
       "bullet_points": [
-        "A functional jailbreak technique has been discovered affecting numerous production chat assistants.",
-        "The vulnerability reportedly does not require complex or 'clever' prompts to exploit.",
-        "The core issue relates to how AI agents handle and process their own chat history as user input."
+        "The article discusses 'Context Debt' in long-running AI agents.",
+        "This debt arises as agents accumulate information from various sources (e.g., finance, CRM) over time.",
+        "The concept is illustrated using an agent preparing a monthly operating review."
       ]
     },
     {
-      "id": 91,
-      "title": "What I Learned Shipping 90+ Mobile Apps with AI Coding Agents",
-      "url": "https://dev.to/mashi_mashi_3092153ef1ab5/what-i-learned-shipping-90-mobile-apps-with-ai-coding-agents-13lk",
+      "id": 90,
+      "title": "Gartner Says 40% of Apps Will Have AI Agents by December. Here's the Plumbing Nobody Puts on the Slide.",
+      "url": "https://dev.to/mickyarun/gartner-says-40-of-apps-will-have-ai-agents-by-december-heres-the-plumbing-nobody-puts-on-the-5196",
       "source": "Dev.to",
-      "author": "mashi_mashi_3092153ef1ab5",
-      "timestamp": "2026-08-02T21:40:35Z",
+      "author": "mickyarun",
+      "timestamp": "2026-08-03T08:09:14Z",
       "ai_score": 7,
       "bullet_points": [
-        "The author has shipped over 90 mobile applications in the past year.",
-        "The development process heavily involved the use of AI coding agents.",
-        "The article details lessons learned from scaling mobile app development with AI assistance."
+        "Gartner predicts a significant adoption rate, stating 40% of enterprise apps will feature AI agents by December.",
+        "The article promises to delve into the underlying technical infrastructure ('the plumbing') required for this AI agent integration.",
+        "The source is Dev.to, suggesting the content is aimed at a developer audience interested in implementation details."
       ]
     }
   ]
