@@ -1,35 +1,20 @@
 {
-  "generated_at": "2026-08-04T01:13:31.961254",
-  "total_stories": 38,
+  "generated_at": "2026-08-04T08:12:28.192141",
+  "total_stories": 35,
   "sources": [
     "Ars Technica",
-    "arXiv Machine Learning",
-    "Hugging Face Benchmarks",
+    "Hacker News",
+    "Ollama",
     "The Verge",
     "arXiv AI",
-    "Ollama",
-    "arXiv NLP",
-    "Hacker News",
     "Dev.to",
+    "arXiv Machine Learning",
+    "arXiv NLP",
     "Lobsters"
   ],
   "stories": [
     {
-      "id": 3,
-      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It is categorized under key NLP/ML tags including 'transformers' and 'text-generation'.",
-        "The model is associated with Meta's Llama family, indicating relevance in the large language model space."
-      ]
-    },
-    {
-      "id": 17,
+      "id": 14,
       "title": "Europe’s AI labeling and transparency rules are now in effect",
       "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
       "source": "The Verge",
@@ -37,13 +22,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The EU's AI Act transparency rules are now active, specifically targeting AI identification.",
-        "Companies must now disclose when users are interacting with AI models (e.g., chatbots).",
-        "The regulations also mandate disclosure for AI-generated content, such as deepfakes."
+        "The EU's AI Act now mandates transparency regarding AI interactions.",
+        "Companies must disclose when users are interacting with AI models like chatbots.",
+        "The rules also require labeling of AI-generated content, such as deepfakes."
       ]
     },
     {
-      "id": 24,
+      "id": 21,
       "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
       "url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
       "source": "Ars Technica",
@@ -51,41 +36,41 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "US company is providing advanced AI capabilities to Ukraine's existing drone fleet.",
-        "The deal involves equipping 50,000 Ukrainian kamikaze drones with autonomous target tracking.",
-        "The total value of the agreement is reported to be $100 million."
+        "A US company is providing advanced AI capabilities to Ukraine's inexpensive kamikaze drones.",
+        "The deal involves equipping 50,000 Ukrainian drones with US-developed autonomous tracking AI.",
+        "The transaction is valued at $100 million, highlighting significant military tech transfer."
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Structured Memory for Edge Language Models: Persistent Context and Corpus Retrieval via O(1) SSM State Injection",
+      "url": "https://arxiv.org/abs/2608.02560v1",
+      "source": "arXiv Machine Learning",
+      "author": "Jonathan Tapson",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Introduces PRECOG, a novel retrieval mechanism designed to enhance Edge Language Models.",
+        "Addresses the high prefill cost ($O(L_{context})$) associated with Retrieval-Augmented Generation (RAG) by collapsing it to $O(1)$ per query.",
+        "Leverages the inherent properties of State-Space Models (SSMs) to manage persistent context efficiently, bypassing traditional KV-cache growth issues."
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "url": "https://github.com/leonickson1/Swiftlet",
+      "source": "Hacker News",
+      "author": "leonickson",
+      "timestamp": "2026-08-03T16:54:15",
+      "ai_score": 9,
+      "bullet_points": [
+        "Demonstrates extreme efficiency in running large language models (LLMs) locally.",
+        "Achieves significant memory reduction, running an 80B parameter model on only 4.3 GB of RAM on a Mac.",
+        "Highlights the feasibility of running powerful models on consumer-grade, resource-constrained devices like iPhones."
       ]
     },
     {
       "id": 1,
-      "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
-        "The model is categorized for text-generation and conversational AI tasks.",
-        "It utilizes standard ML components like transformers and safetensors."
-      ]
-    },
-    {
-      "id": 2,
-      "title": "🤗 Trending: meta-llama/Meta-Llama-3-8B",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
-        "It is categorized under text-generation pipelines, indicating its primary function as a generative language model.",
-        "The associated tags (transformers, llama, safetensors) confirm its relevance within the modern NLP/LLM ecosystem."
-      ]
-    },
-    {
-      "id": 4,
       "title": "Ollama: all aboard open models",
       "url": "https://ollama.com/blog/all-aboard-open-models",
       "source": "Ollama",
@@ -95,11 +80,11 @@
       "bullet_points": [
         "Ollama, a platform for running open models, has secured significant funding.",
         "The company raised $88 million from prominent investors including Y Combinator and Benchmark.",
-        "Ollama currently serves a large developer base of 8.9 million users."
+        "Ollama is currently serving a large developer base of 8.9 million users."
       ]
     },
     {
-      "id": 5,
+      "id": 2,
       "title": "Faster Gemma 4 on MLX with multi-token prediction",
       "url": "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
       "source": "Ollama",
@@ -107,13 +92,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Gemma 4 achieves significant speed improvements on Apple Silicon when run through Ollama 0.31.",
-        "The performance boost is attributed to the implementation of Multi-Token Prediction (MTP) powered by MLX.",
-        "Speedup reaches up to 90% faster when utilized with coding agents, as validated by the Aider benchmark."
+        "Gemma 4 performance is significantly boosted in Ollama 0.31 when running on Apple Silicon.",
+        "The speed improvement is achieved through Multi-Token Prediction (MTP) leveraging the MLX framework.",
+        "Coding agent tasks show up to a 90% speed increase according to the Aider polyglot benchmark."
       ]
     },
     {
-      "id": 6,
+      "id": 3,
       "title": "Ollama's highest performance on Apple Silicon yet with MLX",
       "url": "https://ollama.com/blog/mlx-performance",
       "source": "Ollama",
@@ -121,27 +106,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama has achieved its peak performance on Apple Silicon.",
-        "The performance boost is attributed to updates within the MLX engine.",
-        "Improvements include faster response times, higher output quality, and reduced memory usage."
+        "Ollama has achieved its peak performance on Apple Silicon using its MLX engine.",
+        "The performance improvements translate to higher quality model responses.",
+        "The updated engine also delivers faster response times and reduced memory usage."
       ]
     },
     {
-      "id": 8,
-      "title": "NVIDIA Nemotron 3 Ultra",
-      "url": "https://ollama.com/blog/nemotron-3-ultra",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduction of NVIDIA Nemotron 3 Ultra, a new AI model.",
-        "The model is specifically engineered for high-throughput reasoning tasks.",
-        "It is designed to support complex, long-running agent workflows."
-      ]
-    },
-    {
-      "id": 9,
+      "id": 6,
       "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
       "url": "https://ollama.com/blog/openjarvis",
       "source": "Ollama",
@@ -150,12 +121,12 @@
       "ai_score": 8,
       "bullet_points": [
         "OpenJarvis v1.0 is released, providing an open-source framework for personal AI agents.",
-        "The framework emphasizes a 'local-first' approach, allowing AI to run entirely on user hardware.",
-        "It features built-in support for Ollama, leveraging local LLM execution capabilities."
+        "The key feature is its local-first architecture, allowing AI to run entirely on user hardware.",
+        "It features built-in support for Ollama, integrating with local LLM ecosystems."
       ]
     },
     {
-      "id": 10,
+      "id": 7,
       "title": "Ollama is now powered by MLX on Apple Silicon in preview",
       "url": "https://ollama.com/blog/mlx",
       "source": "Ollama",
@@ -163,13 +134,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a popular local LLM runner, is integrating MLX for enhanced performance.",
-        "The integration specifically targets Apple Silicon, optimizing LLM execution on Apple hardware.",
+        "Ollama, a popular local LLM runner, is integrating MLX for performance gains.",
+        "The integration specifically targets Apple Silicon hardware, optimizing local AI inference.",
         "This is currently available in a preview state, indicating ongoing development and optimization."
       ]
     },
     {
-      "id": 13,
+      "id": 10,
       "title": "OpenClaw",
       "url": "https://ollama.com/blog/openclaw",
       "source": "Ollama",
@@ -177,13 +148,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenClaw is a personal AI assistant designed to integrate with existing messaging applications.",
-        "It utilizes local AI coding agents, emphasizing on-device processing for privacy and control.",
-        "The core value proposition is running AI functionality entirely on the user's own device."
+        "OpenClaw is a personal AI assistant designed to integrate with messaging applications.",
+        "It utilizes local AI coding agents, emphasizing on-device processing for privacy and speed.",
+        "The core value proposition is bringing powerful AI capabilities directly onto the user's own hardware."
       ]
     },
     {
-      "id": 19,
+      "id": 16,
       "title": "Microsoft is bringing Xbox 360 games to PC",
       "url": "https://www.theverge.com/games/974544/microsoft-xbox-360-games-pc-disc-digital-program",
       "source": "The Verge",
@@ -191,27 +162,69 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Microsoft is expanding its PC gaming strategy to include Xbox 360 titles.",
-        "The move allows third-party developers to port their Xbox 360 games to PC.",
-        "This initiative builds upon Microsoft's existing plans to bring original Xbox games to PC."
+        "Microsoft is expanding its PC gaming initiative to include Xbox 360 titles.",
+        "The move follows the prior announcement of bringing original Xbox games to PC.",
+        "The plan allows developers to port their Xbox 360 games to run on next-gen PCs."
       ]
     },
     {
-      "id": 54,
-      "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
-      "url": "https://arxiv.org/abs/2607.29678v1",
-      "source": "arXiv NLP",
-      "author": "Zhichao Cao",
+      "id": 35,
+      "title": "Structured Memory for Edge Language Models: Persistent Context and Corpus Retrieval via O(1) SSM State Injection",
+      "url": "https://arxiv.org/abs/2608.02560v1",
+      "source": "arXiv AI",
+      "author": "Jonathan Tapson",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "TokTier addresses an inefficiency in LLM serving where front ends re-tokenize full requests instead of leveraging cached KV state.",
-        "The problem is particularly acute for coding agents that frequently append small tool results to long transcripts, complicating token boundary reuse.",
-        "Empirical data shows that while most calls append significant text (median 1.4K characters), session rebuilding remains a major overhead."
+        "Introduces PRECOG, a novel retrieval mechanism designed for Edge Language Models.",
+        "Addresses the high prefill cost ($O(L_{context})$) associated with Retrieval-Augmented Generation (RAG) by achieving $O(1)$ prefill.",
+        "Leverages the inherent properties of State-Space Models (SSMs) to manage persistent context efficiently, bypassing the growing KV-cache issue of Transformers."
       ]
     },
     {
-      "id": 7,
+      "id": 39,
+      "title": "Magnet: Detecting Cross-Session AI Misuse Through Capability Accumulation",
+      "url": "https://arxiv.org/abs/2608.02518v1",
+      "source": "arXiv AI",
+      "author": "Matthew Dressman",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The paper addresses a critical gap in AI safety by focusing on cross-session misuse, moving beyond single-session threat models.",
+        "It highlights that modern, powerful AI systems are increasingly composed of coordinated ensembles of specialized agents, not just single models.",
+        "This ensemble architecture introduces new, complex risks that current abuse detection frameworks are ill-equipped to handle."
+      ]
+    },
+    {
+      "id": 56,
+      "title": "MedPRESS: A Multi-turn Benchmark for Patient-Pressure-Induced Medical Sycophancy in LLMs",
+      "url": "https://arxiv.org/abs/2608.02520v1",
+      "source": "arXiv NLP",
+      "author": "Niloy Farhan",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces MedPRESS, a new multi-turn benchmark specifically designed to test LLMs in realistic, patient-facing medical conversations.",
+        "Addresses a critical gap in current LLM safety research by moving beyond static questions to measure 'patient-pressure-induced sycophancy'.",
+        "Comprises 600 medically grounded dialogues across scenarios like medication demand, self-care, and symptom triage."
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Cultural Awareness is Represented but Not Decoded: Tracing Mythological Knowledge across 18 Open-Source LLMs",
+      "url": "https://arxiv.org/abs/2608.02486v1",
+      "source": "arXiv NLP",
+      "author": "Mika Hämäläinen",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The study investigates how cultural knowledge is encoded in 18 open-source Large Language Models (LLMs).",
+        "LLMs show strong recall for major Western deities (Zeus, Jupiter, Thor) but struggle significantly with less-represented mythological figures.",
+        "Researchers use advanced interpretability techniques (linear probing, activation patching) to trace where this cultural bias originates within the model architecture."
+      ]
+    },
+    {
+      "id": 4,
       "title": "Improved performance and model support with GGUF",
       "url": "https://ollama.com/blog/improved-performance-and-model-support-with-gguf",
       "source": "Ollama",
@@ -219,13 +232,27 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release introduces performance improvements and enhanced GGUF model compatibility.",
-        "The update leverages llama.cpp to broaden model support across various hardware platforms.",
-        "It specifically augments Ollama's MLX engine capabilities on Apple silicon."
+        "Ollama 0.30 release brings performance improvements and enhanced GGUF model compatibility.",
+        "The update leverages llama.cpp to broaden model support across various hardware configurations.",
+        "It augments Ollama's MLX engine, specifically improving support on Apple silicon."
       ]
     },
     {
-      "id": 12,
+      "id": 5,
+      "title": "NVIDIA Nemotron 3 Ultra",
+      "url": "https://ollama.com/blog/nemotron-3-ultra",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduction of NVIDIA Nemotron 3 Ultra, a new model architecture.",
+        "The model is specifically engineered for high-throughput reasoning tasks.",
+        "It is designed to support complex, long-running agent workflows."
+      ]
+    },
+    {
+      "id": 9,
       "title": "Subagents and web search in Claude Code",
       "url": "https://ollama.com/blog/web-search-subagents-claude-code",
       "source": "Ollama",
@@ -233,27 +260,27 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama has integrated support for advanced features within Claude Code.",
+        "Ollama has integrated support for advanced AI features within Claude Code.",
         "The new capabilities include the implementation of subagents for complex task decomposition.",
-        "Web search functionality is now available within the Claude Code environment via Ollama."
+        "Web search functionality has been added to enhance Claude Code's ability to access real-time information."
       ]
     },
     {
-      "id": 15,
-      "title": "Your Fitbit data can now connect directly to Apple Health",
-      "url": "https://www.theverge.com/gadgets/974778/google-health-fitbit-data-apple-health-syncing",
+      "id": 18,
+      "title": "Palworld’s expanding to mobile with a new MMORPG",
+      "url": "https://www.theverge.com/games/974450/palworld-online-mobile-mmo",
       "source": "The Verge",
-      "author": "Emma Roth",
+      "author": "Stevie Bonifield",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Fitbit data can now integrate directly with Apple Health via a Google Health update.",
-        "The feature is accessible through the Fitbit profile icon under 'Partner apps'.",
-        "This integration allows users to sync workouts, steps, and vital statistics between platforms."
+        "Palworld is expanding its reach to mobile platforms (iOS and Android).",
+        "The mobile version will be a new open-world MMORPG, titled Palworld Online.",
+        "Garena is developing the new title, aiming to reimagine the original PC game's depth for mobile."
       ]
     },
     {
-      "id": 27,
+      "id": 24,
       "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
       "url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
       "source": "Ars Technica",
@@ -261,289 +288,219 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "AI-supervised remote exams experienced significant failure.",
-        "The system led to a 5x increase in top scores, indicating potential bias or flaws.",
-        "58,000 students were required to retake the flawed examination."
+        "An AI-supervised remote examination system experienced significant failure.",
+        "The system's performance was flawed, leading to an increase in top scores by fivefold.",
+        "Consequently, 58,000 students were required to retake the examination."
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
+      "url": "https://arxiv.org/abs/2608.02599v1",
+      "source": "arXiv AI",
+      "author": "Li",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper addresses the gap between advanced AI applications in power systems and the lack of reusable educational tools for newcomers.",
+        "It proposes the concept of Engineering-Grounded AI (EGAI) to integrate AI workflows with established power system engineering practices.",
+        "The work introduces a hands-on, executable framework designed to bridge the gap between AI theory and practical power system education."
+      ]
+    },
+    {
+      "id": 32,
+      "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
+      "url": "https://arxiv.org/abs/2608.02583v1",
+      "source": "arXiv AI",
+      "author": "Shu Wu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces UEmbed, a new unified embedding model designed for multimodal tasks.",
+        "Addresses limitations in existing Learned Sparse Retrieval (LSR) methods, which are often tied to encoder-style architectures.",
+        "Aims to improve multimodal retrieval by moving beyond reliance on auxiliary cross-modal modules using a decoder-only approach."
       ]
     },
     {
       "id": 34,
-      "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
-      "url": "https://arxiv.org/abs/2607.29677v1",
+      "title": "AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies",
+      "url": "https://arxiv.org/abs/2608.02569v1",
       "source": "arXiv AI",
-      "author": "Simon Suo",
+      "author": "Jovan Stojkovic",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces ExtractBench, a new benchmark specifically designed for schema-guided enterprise document extraction.",
-        "The benchmark uniquely evaluates multiple critical metrics simultaneously: value accuracy, record completeness, grounding, and measured cost.",
-        "Addresses the growing industry need for AI agents to reliably extract structured data from complex enterprise documents based on predefined schemas."
+        "The paper introduces AtumAI, a framework designed to automate the complex design of datacenter control-plane policies.",
+        "The challenge addressed is the growing complexity and vast design space of modern hardware-software datacenter stacks.",
+        "The framework aims to overcome limitations in off-the-shelf agentic AI by providing a formal and structured approach to policy generation."
       ]
     },
     {
       "id": 36,
-      "title": "AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers",
-      "url": "https://arxiv.org/abs/2607.29626v1",
+      "title": "A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI",
+      "url": "https://arxiv.org/abs/2608.02553v1",
       "source": "arXiv AI",
-      "author": "Xuanjing Huang",
+      "author": "Shahram Rahimi",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces AgentHPOBench, a new benchmark specifically designed to test LLM agents' capability as sequential hyperparameter optimizers.",
-        "Addresses a gap in current LLM evaluation, which often focuses on static tasks rather than dynamic, evidence-guided experimentation.",
-        "Highlights the growing importance of evaluating LLMs as autonomous scientific agents capable of interpreting experimental results to inform future decisions."
+        "The paper addresses the limitations of current Generative and Agentic AI, which often lack sustained reasoning and adaptive behavior.",
+        "It proposes a taxonomy to categorize the 'cognitive capability gaps' in existing AI systems.",
+        "The goal of Cognitive AI is to move beyond simple task execution toward systems with persistent memory and self-regulation."
       ]
     },
     {
-      "id": 39,
-      "title": "When Does On-Policy Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning",
-      "url": "https://arxiv.org/abs/2607.29617v1",
+      "id": 37,
+      "title": "Who Should Be Generated? Justifying Demographic Targets in Open-Ended Generation",
+      "url": "https://arxiv.org/abs/2608.02551v1",
       "source": "arXiv AI",
-      "author": "Dylan J. Foster",
+      "author": "Wenqing Chen",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses limitations in Imitation Learning (IL), specifically the compounding errors of standard Behavior Cloning (BC).",
-        "It investigates the role of on-policy interaction in improving IL performance when perfect expert representation is unattainable.",
-        "The research explores representational tradeoffs as a means to enhance agent learning from expert demonstrations."
+        "The paper addresses the critical issue of justifying demographic targets in open-ended AI generation.",
+        "Current fairness evaluations often focus only on model output composition without establishing what the 'correct' composition should be.",
+        "It highlights the gap between input-side fairness definitions and output-side auditing practices in generative models."
       ]
     },
     {
       "id": 41,
-      "title": "FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models",
-      "url": "https://arxiv.org/abs/2607.29602v1",
-      "source": "arXiv AI",
-      "author": "Benjamin Peloquin",
+      "title": "onepot-Bench 0: towards lab-aware in silico chemistry benchmarks",
+      "url": "https://arxiv.org/abs/2608.02595v1",
+      "source": "arXiv Machine Learning",
+      "author": "Daniil A. Boiko",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces FriendBench, a new benchmark for testing dyadic familiarity inference.",
-        "Evaluates multimodal LLMs (text, audio, video) against human panels on short social interaction clips.",
-        "Focuses on the non-verbal cues and interaction manner to determine if two individuals are familiar or strangers."
-      ]
-    },
-    {
-      "id": 42,
-      "title": "TraceViT: Grounded Trace Supervision for Visual Abstract Reasoning",
-      "url": "https://arxiv.org/abs/2607.29586v1",
-      "source": "arXiv AI",
-      "author": "Wei Hua",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces TraceViT, a new looped visual reasoner designed for visual abstract reasoning tasks like ARC.",
-        "Addresses a limitation in conventional training where intermediate refinement steps in iterative reasoning are unconstrained.",
-        "Proposes training the model to follow the transformation step-by-step using grounded trace supervision."
+        "Language models are increasingly used in laboratory science for tasks like experiment planning and analysis.",
+        "Current evaluations struggle to accurately measure scientific capabilities because they require both problem-solving and domain intuition.",
+        "The paper introduces 'onepot-Bench' to create benchmarks that specifically test lab-aware decision-making, moving beyond reliance on public datasets."
       ]
     },
     {
       "id": 43,
-      "title": "DungeonBench: A Benchmark for Rules-Rich Tactical Reasoning in Dungeons & Dragons Combat",
-      "url": "https://arxiv.org/abs/2607.29577v1",
-      "source": "arXiv AI",
-      "author": "Kaan Oktay",
+      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+      "url": "https://arxiv.org/abs/2608.02585v1",
+      "source": "arXiv Machine Learning",
+      "author": "Zilong Zheng",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces DungeonBench, a new benchmark specifically designed for testing rules-rich tactical reasoning.",
-        "The benchmark focuses on simulating complex decision-making found in Dungeons & Dragons combat.",
-        "It addresses a gap in current AI benchmarks by requiring models to handle interactions involving geometry, timing, resources, and specific game rules."
+        "Introduces GradCuit, a method to improve LLM outputs via optimization-based latent reasoning at test time.",
+        "Addresses a limitation in existing methods where latent state updates are indirectly linked to reasoning via decoded tokens.",
+        "GradCuit directly inserts optimizable latent states to enable robust and interpretable credit assignment for latent updates."
       ]
     },
     {
-      "id": 45,
-      "title": "Sign compression for Muon: SignMuon, MuonSign, and the Limits of Error Feedback",
-      "url": "https://arxiv.org/abs/2607.29674v1",
+      "id": 46,
+      "title": "Pseudorandom Streams within Diffusion Models Act as Learnable Inputs That Affect Generation Quality",
+      "url": "https://arxiv.org/abs/2608.02575v1",
       "source": "arXiv Machine Learning",
-      "author": "Alexey Kravatskiy",
+      "author": "Yanze Guo",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces SignMuon, a method to compress the Muon update to one bit per parameter using elementwise sign.",
-        "SignMuon achieves superior practical performance compared to SignSGD while operating under a very low communication budget.",
-        "The research highlights limitations in gradient signing placement, demonstrating that signing before the LMO is crucial for avoiding ascent on simple functions."
-      ]
-    },
-    {
-      "id": 47,
-      "title": "GQ-FSL: Green Quantized Federated Split Learning",
-      "url": "https://arxiv.org/abs/2607.29659v1",
-      "source": "arXiv Machine Learning",
-      "author": "Lutz Lampe",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses energy and resource constraints when deploying deep neural networks (DNNs) at the wireless edge.",
-        "Proposes Green Quantized Federated Split Learning (GQ-FSL) to overcome overheads in traditional Federated Split Learning (FSL).",
-        "Aims to reduce energy consumption associated with continuous data and submodel exchange in edge AI deployments."
-      ]
-    },
-    {
-      "id": 49,
-      "title": "When Does On-Policy Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning",
-      "url": "https://arxiv.org/abs/2607.29617v1",
-      "source": "arXiv Machine Learning",
-      "author": "Dylan J. Foster",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The paper addresses limitations in Imitation Learning (IL), specifically compounding errors in standard Behavior Cloning (BC).",
-        "It investigates the role of on-policy interaction in improving IL performance when perfect expert representation is unattainable.",
-        "The research explores representational tradeoffs as a method to enhance agent learning from expert demonstrations."
-      ]
-    },
-    {
-      "id": 50,
-      "title": "A Human-Centered Validation of the Explainability-Performance Coefficient",
-      "url": "https://arxiv.org/abs/2607.29614v1",
-      "source": "arXiv Machine Learning",
-      "author": "Luis F. Lago-Fernández",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses the critical need for trustworthy Explainable AI (XAI) in high-risk domains.",
-        "Proposes a new model-agnostic metric, the EPC score, to quantify explanation quality.",
-        "The metric explicitly balances explanation fidelity with performance, focusing on human-centered understanding."
+        "Diffusion models' stochastic inputs are effectively deterministic numerical orbits on finite-precision hardware.",
+        "The structure of these accessible pseudorandom orbits can be treated as a learnable input influencing model training and generation quality.",
+        "A small MLP can be used to predict the next state of these orbits based on their recent history."
       ]
     },
     {
       "id": 51,
-      "title": "QASP: Query-Adaptive Robust Vector Search Policy",
-      "url": "https://arxiv.org/abs/2607.29606v1",
-      "source": "arXiv Machine Learning",
-      "author": "Andy Warfield",
+      "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+      "url": "https://arxiv.org/abs/2608.02602v1",
+      "source": "arXiv NLP",
+      "author": "Chenyang Si",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the core problem in vector search: balancing high recall with low computational cost.",
-        "Introduces QASP, a novel policy that predicts the full recall progression curve for each query.",
-        "Moves beyond average recall evaluation to address significant performance variance across individual queries."
+        "AURORA-LM proposes a novel approach to bridge the gap between continuous latent space modeling (used for images/video) and discrete token-based language modeling.",
+        "The model addresses the fidelity loss in existing continuous language models by preserving a high-capacity representation instead of simplifying it for diffusion.",
+        "This research tackles a key limitation in generative AI, where text generation remains predominantly discrete despite advancements in continuous modeling for other modalities."
       ]
     },
     {
       "id": 52,
-      "title": "The Parts Are Greater Than the Sum: Automated Task Sequencing for Efficient Training of Multi-Policy LLMs",
-      "url": "https://arxiv.org/abs/2607.29601v1",
-      "source": "arXiv Machine Learning",
-      "author": "Adam Sobey",
+      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+      "url": "https://arxiv.org/abs/2608.02585v1",
+      "source": "arXiv NLP",
+      "author": "Zilong Zheng",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the interference problem in Multi-Policy LLM training when using shared PEFT methods like LoRA for heterogeneous tasks.",
-        "Proposes a novel optimization strategy to move beyond the limitations of relying on a single shared optimization path.",
-        "Focuses on improving task sequencing and adapter composition for better transfer learning and mitigating catastrophic forgetting in LLMs."
+        "Introduces GradCuit, a method for optimizing instance-specific latent states in LLMs at test time without altering model parameters.",
+        "Addresses a limitation in existing methods where credit assignment for latent updates is indirect, obscuring how latent states influence reasoning.",
+        "Uses 'gradient through circuit' to enable direct and interpretable credit assignment for latent reasoning within LLMs."
       ]
     },
     {
-      "id": 56,
-      "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2607.29613v1",
+      "id": 53,
+      "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
+      "url": "https://arxiv.org/abs/2608.02583v1",
       "source": "arXiv NLP",
-      "author": "Xipeng Qiu",
+      "author": "Shu Wu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces WCM, a World Critic Model designed for Vision-Language-Action (VLA) Reinforcement Learning.",
-        "It addresses a critical limitation in current RL approaches for robotic manipulation: critics often rely only on single-frame observations.",
-        "WCM aims to overcome the exponential complexity associated with naively incorporating full observation history into the critic."
+        "Introduces UEmbed, a new unified embedding framework for multimodal tasks.",
+        "Addresses limitations in existing Learned Sparse Retrieval (LSR) by moving beyond encoder-style bidirectional architectures.",
+        "Aims to simplify multimodal embedding by integrating sparse and dense representations within a decoder-only structure."
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Who Should Be Generated? Justifying Demographic Targets in Open-Ended Generation",
+      "url": "https://arxiv.org/abs/2608.02551v1",
+      "source": "arXiv NLP",
+      "author": "Wenqing Chen",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper addresses the critical issue of justifying demographic targets in open-ended generative AI outputs.",
+        "It highlights a gap in current fairness evaluations, which often assume sensitive attributes are provided in the input prompt.",
+        "The research focuses on output-side demographic composition audits, questioning the arbitrary nature of the targets used for comparison."
       ]
     },
     {
       "id": 57,
-      "title": "FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models",
-      "url": "https://arxiv.org/abs/2607.29602v1",
+      "title": "LiveMem: Maintaining Memory State Continuity in Long-Running LLM Inference",
+      "url": "https://arxiv.org/abs/2608.02515v1",
       "source": "arXiv NLP",
-      "author": "Benjamin Peloquin",
+      "author": "Yang Xu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces FriendBench, a new benchmark for assessing dyadic familiarity inference.",
-        "Evaluates multimodal LLMs (text, audio, video) against human panels using 20-second conversation clips.",
-        "Focuses on the non-verbal aspects of social interaction to determine if individuals are familiar or strangers."
+        "Addresses the challenge of maintaining persistent state in long-running LLM inference where context windows are finite.",
+        "Introduces the concept of 'state continuity under context turnover' to manage computation across memory state changes.",
+        "Proposes 'LiveMem' as a method to carry forward computation independent of the active context size."
       ]
     },
     {
-      "id": 58,
-      "title": "ResKV: Reconstructing Omitted Attention Contributions for Fixed-Budget KV Cache Compression",
-      "url": "https://arxiv.org/abs/2607.29591v1",
+      "id": 59,
+      "title": "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code",
+      "url": "https://arxiv.org/abs/2608.02499v1",
       "source": "arXiv NLP",
-      "author": "Shuo Shang",
+      "author": "Kang Liu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the critical need for efficient long-context inference by tackling KV cache compression.",
-        "Existing compression methods either permanently discard information (eviction) or risk perturbing retained data (merging).",
-        "The proposed method, ResKV, formulates omitted attention contributions as residual statistics to enable better reconstruction."
+        "Introduces SWE-Touch, a new framework to benchmark coding agents in real-world, shared development environments.",
+        "Addresses a gap in current benchmarks by testing how agents handle code modifications made by human users during an active task.",
+        "Uses 'Counter-Edits' to simulate plausible user interventions, stress-testing the agent's ability to understand and respond to external code changes."
       ]
     },
     {
-      "id": 60,
-      "title": "ARB: A Matched Authorship-Rewriting Benchmark Dataset for AI-Text Detector Evaluation",
-      "url": "https://arxiv.org/abs/2607.29539v1",
-      "source": "arXiv NLP",
-      "author": "Simon Pietro Romano",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces ARB, a new benchmark dataset designed to test AI-text detectors under realistic conditions.",
-        "Addresses a gap in current research by evaluating detectors when human-authored text is rewritten by LLMs, not just direct LLM output.",
-        "The dataset is built from 1,800 human source texts, aiming to provide a more robust evaluation of text detection capabilities."
-      ]
-    },
-    {
-      "id": 61,
-      "title": "Evidence-Type Competition: When Can Interventional Data Teach Language Models Causal Direction?",
-      "url": "https://arxiv.org/abs/2607.29484v1",
-      "source": "arXiv NLP",
-      "author": "Xining Xun",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The paper challenges the assumption that interventional data is always sufficient to teach causal reasoning in Language Models (LMs).",
-        "In synthetic environments exhibiting Simpson's paradox, increasing interventional data does not improve the model's ability to infer causal direction.",
-        "The study demonstrates that the magnitude of the model's 'do()'-response grows monotonically, even when correlation and causation conflict."
-      ]
-    },
-    {
-      "id": 62,
-      "title": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization",
-      "url": "https://arxiv.org/abs/2607.29433v1",
-      "source": "arXiv NLP",
-      "author": "Emmanuele Chersoni",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Memory utilization is a critical, emerging capability for personalized LLM agents.",
-        "A key challenge is the 'knowledge utilization problem,' where LLMs may fail to act on relevant user preferences even when the data is in context.",
-        "The research aims to distinguish between a failure to remember information versus a failure to effectively use remembered information."
-      ]
-    },
-    {
-      "id": 63,
-      "title": "Bridging the Question-Answer Gap in Retrieval-Augmented Generation: Hypothetical Prompt Embeddings",
-      "url": "https://arxiv.org/abs/2607.29402v1",
-      "source": "arXiv NLP",
-      "author": "Aleksandar Tošić",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The paper addresses a key limitation in Retrieval-Augmented Generation (RAG) systems: the style mismatch between user queries and retrieved document text.",
-        "It proposes a method involving 'Hypothetical Prompt Embeddings' to improve alignment between the query and the retrieved context.",
-        "The research aims to mitigate the computational overhead associated with existing runtime solutions like HyDE while enhancing RAG accuracy."
-      ]
-    },
-    {
-      "id": 90,
-      "title": "Token Cost Optimization: The Complete Guide to Building Cost-Efficient LLM Applications",
-      "url": "https://dev.to/abhishekjaiswal_4896/token-cost-optimization-the-complete-guide-to-building-cost-efficient-llm-applications-66c",
+      "id": 89,
+      "title": "I made my website callable by another AI agent — here's the actual JSON-RPC",
+      "url": "https://dev.to/andriy_pyvovarchuk/i-made-my-website-callable-by-another-ai-agent-heres-the-actual-json-rpc-42m",
       "source": "Dev.to",
-      "author": "abhishekjaiswal_4896",
-      "timestamp": "2026-08-04T00:42:35Z",
+      "author": "andriy_pyvovarchuk",
+      "timestamp": "2026-08-04T06:01:22Z",
       "ai_score": 7,
       "bullet_points": [
-        "Focuses on token cost optimization for LLM applications, a critical operational concern.",
-        "Addresses the fundamentals of token economics and hidden costs in AI development.",
-        "Targets AI engineers looking to build more cost-efficient LLM solutions."
+        "The article discusses enabling direct communication between AI agents (A2A) rather than relying on human intervention.",
+        "It focuses on implementing a JSON-RPC interface to allow one AI agent to call another's website/API.",
+        "This represents a shift from traditional AI integration methods that require manual client development."
       ]
     }
   ]
