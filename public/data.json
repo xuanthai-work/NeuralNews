@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-02T10:00:43.639011",
-  "total_stories": 50,
+  "generated_at": "2026-09-02T15:24:54.662046",
+  "total_stories": 53,
   "sources": [
     "arXiv NLP",
-    "arXiv AI",
-    "Hacker News",
+    "Dev.to",
     "Lobsters",
+    "Hacker News",
+    "arXiv AI",
+    "The Verge",
+    "Ars Technica",
     "Hugging Face Benchmarks",
     "arXiv Machine Learning",
-    "Ollama",
-    "The Verge",
-    "Dev.to",
-    "Ars Technica"
+    "Ollama"
   ],
   "stories": [
     {
@@ -23,13 +23,27 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Meta has released Muse Glimmer, its first open model from Meta Superintelligence Labs.",
-        "Muse Glimmer is a 30B multimodal model released under the permissive Apache 2.0 license.",
-        "The model is optimized for local coding agents and features new support via Ollama's MLX engine, including native DFlash and image input."
+        "Meta has released Muse Glimmer, its first open model from Superintelligence Labs.",
+        "Muse Glimmer is a 30B multimodal model licensed under Apache 2.0, targeting local coding agents.",
+        "The model is optimized for local deployment via Ollama, featuring native DFlash and image input support."
       ]
     },
     {
-      "id": 28,
+      "id": 15,
+      "title": "OpenAI accused of ‘aiding and abetting’ Tumbler Ridge mass shooting in dozens of new lawsuits",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
+      "source": "The Verge",
+      "author": "Emma Roth",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "OpenAI and CEO Sam Altman are facing 30 new lawsuits.",
+        "The lawsuits allege OpenAI provided 'substantial assistance and encouragement' to a suspect in the Tumbler Ridge mass shooting.",
+        "The legal action was filed in a California federal court by students, teachers, and the principal."
+      ]
+    },
+    {
+      "id": 32,
       "title": "FTC alleges Amazon illegally made $20 billion by rigging billions of ad auctions",
       "url": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/",
       "source": "Ars Technica",
@@ -38,8 +52,8 @@
       "ai_score": 9,
       "bullet_points": [
         "The FTC has filed allegations against Amazon regarding its advertising practices.",
-        "The core accusation is that Amazon illegally manipulated ad auctions to inflate prices.",
-        "The FTC claims Amazon replaced actual auction results with higher prices it set."
+        "The core allegation is that Amazon illegally manipulated ad auctions to inflate prices.",
+        "The FTC claims Amazon replaced actual auction results with higher prices it set itself, potentially amounting to $20 billion."
       ]
     },
     {
@@ -51,9 +65,23 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "H3-World is a new framework designed to transform large video generators (like MiniMax-H3) into interactive world models.",
-        "The research highlights that natural language is becoming a primary and effective interface for controlling increasingly capable large video generation models.",
-        "H3-World refines the existing coarse language control into precise, temporally grounded world control."
+        "Introduces H3-World, a framework that converts large video generators (like MiniMax-H3) into interactive world models.",
+        "Highlights that natural language is emerging as a primary and effective interface for controlling complex AI systems.",
+        "Demonstrates that the system allows for precise, temporally grounded control over generated video content using language instructions."
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
+      "url": "https://arxiv.org/abs/2609.01596v1",
+      "source": "arXiv Machine Learning",
+      "author": "Ziwei Wang",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Facet-0 is a new robotic foundation model designed for highly precise, contact-rich manipulation tasks.",
+        "It uniquely predicts and evaluates the consequences of physical actions by unifying multimodal learning and Reinforcement Learning (RL).",
+        "The model integrates causal wrench history with vision-language semantics and kinematic state to enable sub-millimeter assembly."
       ]
     },
     {
@@ -65,9 +93,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the DeepSeek-R1 model on Hugging Face Benchmarks.",
-        "The model is categorized under text-generation, indicating its primary function as a generative AI.",
-        "Key associated technologies include transformers and safetensors, standard in modern NLP/LLM deployment."
+        "Highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
+        "The model is categorized for text generation and conversational AI tasks.",
+        "It utilizes standard ML components like transformers and safetensors."
       ]
     },
     {
@@ -79,9 +107,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "Indicates the model is relevant for text-generation tasks.",
-        "Categorizes the model under key ML frameworks like transformers and safetensors."
+        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
+        "The tags confirm its relevance within the transformer and Llama ecosystem."
       ]
     },
     {
@@ -94,8 +122,8 @@
       "ai_score": 8,
       "bullet_points": [
         "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
-        "It pertains to the text-generation pipeline, indicating its use in generative AI tasks.",
-        "The associated tags confirm its relevance to transformers, Llama architectures, and the AI community."
+        "It is categorized under key AI/ML tags including 'transformers', 'llama', and 'text-generation'.",
+        "This indicates continued community interest and benchmarking activity around Meta's latest open-source LLM releases."
       ]
     },
     {
@@ -107,9 +135,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "NVIDIA Nemotron 3.5 Lightning is now accessible via Ollama.",
-        "It is a 30 billion parameter open model optimized for agentic workflows.",
-        "The model is designed for local hardware execution, enabling multi-step tasks and tool calling."
+        "NVIDIA Nemotron 3.5 Lightning, a 30B parameter open model, is now accessible via Ollama.",
+        "The model is specifically designed for autonomous agents capable of multi-step tasks and tool calling.",
+        "It is optimized to run locally on user hardware, emphasizing on-device AI capabilities."
       ]
     },
     {
@@ -121,9 +149,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a platform for running open models, has secured significant funding.",
-        "The company raised $88 million from prominent investors including Y Combinator and Benchmark.",
-        "Ollama currently serves a large developer base of 8.9 million users."
+        "Ollama has secured significant funding, raising $88 million.",
+        "The funding round includes major investors such as Y Combinator and Benchmark.",
+        "Ollama is rapidly growing, serving a large developer base of 8.9 million users."
       ]
     },
     {
@@ -135,9 +163,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Gemma 4 performance is significantly boosted in Ollama 0.31 on Apple Silicon.",
-        "The speed improvement is achieved through Multi-Token Prediction (MTP) powered by MLX.",
-        "Performance gains reach up to 90% faster when utilized with coding agents, as validated by the Aider benchmark."
+        "Ollama 0.31 achieves significant speed improvements for Gemma 4 on Apple Silicon.",
+        "The performance boost is attributed to the implementation of Multi-Token Prediction (MTP) powered by MLX.",
+        "Speedups reach up to 90% when Gemma 4 is utilized with coding agents, as validated by the Aider benchmark."
       ]
     },
     {
@@ -163,7 +191,7 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "NVIDIA is introducing Nemotron 3 Ultra, a new large language model.",
+        "Introduction of NVIDIA Nemotron 3 Ultra, a new model architecture.",
         "The model is specifically engineered for high-throughput reasoning tasks.",
         "It is designed to support complex, long-running agent workflows."
       ]
@@ -177,37 +205,37 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenJarvis v1.0 is released, offering an open-source framework for building personal AI agents.",
-        "The key feature is that these agents can run entirely on the user's local hardware.",
-        "It features built-in support for Ollama, facilitating local LLM execution."
+        "OpenJarvis v1.0 is released, providing an open-source framework for building personal AI agents.",
+        "The key feature is the ability to run these personal AI agents locally on the user's own hardware.",
+        "It features built-in support for Ollama, leveraging local LLM execution."
       ]
     },
     {
-      "id": 20,
-      "title": "Google needs Hollywood more than the studios need AI",
-      "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
+      "id": 19,
+      "title": "Elon Musk’s heterodox robotaxi philosophy gets put to the test",
+      "url": "https://www.theverge.com/transportation/987901/tesla-cybercab-launch-elon-musk-robotaxi-camera-lidar",
       "source": "The Verge",
-      "author": "Charles Pulliam-Moore",
+      "author": "Andrew J. Hawkins",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Google is actively seeking licensing agreements with major Hollywood studios.",
-        "The goal is to train Google's AI models using copyrighted studio material.",
-        "Studios are reportedly being offered substantial financial compensation for these data rights."
+        "Tesla is launching its robotaxi service in Austin, Texas, featuring the Cybercab.",
+        "The Cybercab is a steering-wheel-free, autonomous vehicle designed as Tesla's future mobility solution.",
+        "This rollout marks a significant operational step in Tesla's autonomous driving ambitions."
       ]
     },
     {
-      "id": 21,
-      "title": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
-      "source": "The Verge",
-      "author": "Stevie Bonifield",
+      "id": 25,
+      "title": "The Army just used a 20-kilowatt laser to take out three drones",
+      "url": "https://arstechnica.com/gadgets/2026/09/the-army-just-used-a-20-kilowatt-laser-to-take-out-three-drones/",
+      "source": "Ars Technica",
+      "author": "Fernanda González, wired.com",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Anthropic released new models, Claude Fable 5.1 and Mythos 5.1, addressing prior customer concerns.",
-        "Fable 5.1 offers improved performance over Fable 5 while significantly reducing operational costs.",
-        "The new models boast substantial cost savings, up to 45% cheaper for complex agentic tasks."
+        "The U.S. Army has successfully demonstrated the use of a 20-kilowatt laser system.",
+        "The technology is designed for tracking and neutralizing hostile drone threats.",
+        "This represents a significant advancement in directed energy weapons for defense applications."
       ]
     },
     {
@@ -219,23 +247,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces Verbal Reinforcement Learning (VRL) as a paradigm where natural language serves as a primary feedback mechanism for improving language agents.",
-        "VRL allows language models to receive feedback conveying intent, preferences, and causal structure in a human-interpretable format.",
+        "Introduces Verbal Reinforcement Learning (VRL) as a paradigm where natural language serves as a primary feedback channel for improving language agents.",
+        "VRL allows for the conveyance of complex information like intent, preferences, and causal structure to AI models.",
         "The field is structured around two axes: when verbal feedback is applied in an agent's lifecycle and what aspects of the agent it modifies."
-      ]
-    },
-    {
-      "id": 45,
-      "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
-      "url": "https://arxiv.org/abs/2609.01596v1",
-      "source": "arXiv Machine Learning",
-      "author": "Ziwei Wang",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Facet-0 is a new robotic foundation model designed for high-precision, contact-rich manipulation tasks.",
-        "It integrates multimodal representation learning with reinforcement learning to predict and value contact consequences.",
-        "The model unifies causal wrench history with vision-language semantics and kinematic state for robust action planning."
       ]
     },
     {
@@ -247,9 +261,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Investigates the uneven accuracy cost of Post-Training Quantization (PTQ) in Large Language Models (LLMs).",
-        "Proposes a method to strategically allocate a limited additional precision budget to mitigate quantization damage.",
-        "Uses causal mixed-precision intervention across 9 open-weight models to test hypotheses on damage localization."
+        "The research investigates the uneven accuracy cost associated with Post-Training Quantization (PTQ) in Large Language Models (LLMs).",
+        "It proposes a method to intelligently allocate a limited additional precision budget to mitigate quantization damage across different layers.",
+        "The study validates its findings across 9 open-weight models spanning 4 architecture families using causal mixed-precision intervention."
       ]
     },
     {
@@ -263,21 +277,35 @@
       "bullet_points": [
         "Introduces NashDreamer, a novel Model-Based Reinforcement Learning (MBRL) approach.",
         "Addresses the significant challenge of applying MBRL to competitive, imperfect-information games (IIGs).",
-        "Argues for the necessity of centralized model learning to overcome non-stationarity and identifiability issues in multi-agent settings."
+        "Argues for the necessity of centralized model learning to overcome identifiability barriers in multi-agent settings."
       ]
     },
     {
-      "id": 61,
-      "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
-      "url": "https://arxiv.org/abs/2609.01587v1",
-      "source": "arXiv NLP",
-      "author": "Shekar Ramachandran",
-      "timestamp": null,
+      "id": 68,
+      "title": "Mistral now trains on user input by default, except on enterprise tier",
+      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "source": "Hacker News",
+      "author": "teekert",
+      "timestamp": "2026-09-02T12:30:39",
       "ai_score": 8,
       "bullet_points": [
-        "The research investigates the uneven accuracy cost associated with Post-Training Quantization (PTQ) in Large Language Models (LLMs).",
-        "It proposes a method to intelligently allocate a limited additional precision budget by studying where quantization damage occurs.",
-        "The study validates hypotheses across 9 open-weight models and 4 architecture families using causal mixed-precision intervention as a ground truth."
+        "Mistral AI has updated its model training process to incorporate user input by default.",
+        "This change applies to standard user tiers, indicating a shift in data utilization for model improvement.",
+        "Enterprise customers retain the option to opt-out of having their input used for training."
+      ]
+    },
+    {
+      "id": 70,
+      "title": "WebLLM: high-performance in-browser LLM inference engine",
+      "url": "https://github.com/mlc-ai/web-llm",
+      "source": "Hacker News",
+      "author": "saikatsg",
+      "timestamp": "2026-09-02T14:02:35",
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces WebLLM, a new engine designed for high-performance LLM inference directly in the browser.",
+        "Signifies a move toward decentralized or client-side AI processing, reducing reliance on large cloud APIs.",
+        "Addresses the technical challenge of running large language models efficiently within web environments."
       ]
     },
     {
@@ -303,65 +331,79 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release brings improved performance and expanded GGUF model compatibility.",
-        "The update enhances Ollama's MLX engine specifically for Apple silicon.",
-        "This allows Ollama to support a broader range of models across diverse hardware configurations."
+        "Ollama 0.30 release brings performance improvements and enhanced GGUF model compatibility.",
+        "The update leverages llama.cpp to broaden model support across various hardware platforms.",
+        "It specifically augments Ollama's MLX engine for better performance on Apple silicon."
       ]
     },
     {
       "id": 16,
-      "title": "Acer’s new concept hardware is a gaming handheld with a keyboard",
-      "url": "https://www.theverge.com/games/988029/acer-project-dualplay-mini-concept-gaming-handheld-keyboard-ifa",
+      "title": "NYC bans AI use for students until they reach high school",
+      "url": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
       "source": "The Verge",
-      "author": "Dominic Preston",
+      "author": "Jess Weatherbed",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Acer has unveiled a concept gaming handheld called Project DualPlay Mini.",
-        "The device aims to bridge the gap between bulky gaming laptops and smaller, less versatile handhelds.",
-        "It features a keyboard, suggesting a focus on enhanced PC gaming portability."
+        "NYC is implementing a one-year ban on AI use in classrooms for younger students.",
+        "The moratorium targets students in grades 2-8, affecting approximately 600,000 public school students.",
+        "The policy, announced by Mayor Zohran Mamdani, is part of broader limits on digital devices."
       ]
     },
     {
       "id": 17,
-      "title": "Microsoft is enabling a Windows 11 security feature that can hurt gaming performance",
-      "url": "https://www.theverge.com/news/988056/microsoft-windows-11-memory-integrity-rollout-october-2026",
+      "title": "Tado’s new thermostat is designed as a Nest killer",
+      "url": "https://www.theverge.com/tech/987888/tado-smart-thermostat-x-2nd-gen-launch-google-nest",
       "source": "The Verge",
-      "author": "Tom Warren",
+      "author": "Jennifer Pattison Tuohy",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Microsoft is expanding the rollout of the Windows 11 memory integrity security feature.",
-        "This kernel-level protection aims to prevent malicious code and drivers from running on the system.",
-        "A known side effect of the feature is a potential negative impact on PC gaming performance."
+        "Tado is launching its Smart Thermostat X (2nd gen) to compete directly in the European smart thermostat market.",
+        "The launch is strategically timed following Google's exit from the European thermostat market, which impacted existing users.",
+        "Tado is specifically targeting European users who were previously invested in Nest thermostats."
       ]
     },
     {
-      "id": 30,
-      "title": "It turns out that Orion's much-maligned heat shield performed really well",
-      "url": "https://arstechnica.com/space/2026/09/it-turns-out-that-orions-much-maligned-heat-shield-performed-really-well/",
-      "source": "Ars Technica",
-      "author": "Eric Berger",
+      "id": 23,
+      "title": "Acer’s new MacBook Air rival is nearly a pound lighter than Apple’s laptop",
+      "url": "https://www.theverge.com/gadgets/987802/acer-swift-blade-14-air-16-laptop-ifa-price-specs",
+      "source": "The Verge",
+      "author": "Antonio G. Di Benedetto",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Orion's heat shield has been validated as performing effectively, contrary to previous negative assessments.",
-        "Independent safety officials have provided positive feedback regarding recent leadership changes within NASA.",
-        "The story addresses a critical aspect of space exploration hardware performance and organizational oversight."
+        "Acer has released the Swift Blade 14, positioning it as a direct competitor to the MacBook Air.",
+        "The new laptop emphasizes portability, weighing in at just 1.76 pounds (799g) and being extremely thin.",
+        "The announcement highlights a competitive push in the premium, ultrabook segment against Apple's established market leader."
       ]
     },
     {
-      "id": 31,
-      "title": "Without new landers or rovers, it's helicopters or bust for NASA's Mars program",
-      "url": "https://arstechnica.com/space/2026/09/without-new-landers-or-rovers-its-helicopters-or-bust-for-nasas-mars-program/",
+      "id": 26,
+      "title": "Is Russia's rival to Starlink failing? Here's what we know.",
+      "url": "https://arstechnica.com/space/2026/09/rassvet-russias-rival-to-starlink-is-getting-off-to-a-slow-start/",
       "source": "Ars Technica",
       "author": "Stephen Clark",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "NASA's Mars program relies on helicopters as a potential means of surface mobility.",
-        "The SR-1 Freedom project has a base cost estimate of $2.1 billion, excluding helicopter costs.",
-        "The reliance on helicopters suggests a potential shift or constraint in future Mars mission design."
+        "The article discusses potential failures within Rassvet, a satellite system positioned as a rival to Starlink.",
+        "Initial data suggests at least three of the first 32 Rassvet satellites have experienced outright failures.",
+        "The news points to potential reliability issues with the competing satellite constellation."
+      ]
+    },
+    {
+      "id": 27,
+      "title": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all",
+      "url": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/",
+      "source": "Ars Technica",
+      "author": "Dan Goodin",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The article discusses a BGP hijacking incident that negatively impacted production software.",
+        "The incident is characterized as a 'comedy of errors,' suggesting human or configuration mistakes were involved.",
+        "The piece aims to draw lessons from the event regarding network security and BGP vulnerabilities."
       ]
     },
     {
@@ -373,23 +415,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the high computational cost of evaluating AI software engineering agents on complex tasks.",
-        "Introduces PTA-IRT, a new framework that moves beyond simple pass/fail metrics to analyze *how* agents solve problems.",
-        "Leverages Trajectory-Aware Item Response Theory to provide a more nuanced and efficient performance evaluation."
-      ]
-    },
-    {
-      "id": 35,
-      "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
-      "url": "https://arxiv.org/abs/2609.01601v1",
-      "source": "arXiv AI",
-      "author": "Zibin Zheng",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Addresses the challenge of repository-level code generation where context exceeds LLM input limits.",
-        "Proposes an 'Adaptive Critical Token-Aware Retrieval' method to improve context provision.",
-        "Highlights a limitation in existing RAG approaches: they often provide task-level support without explicit context identification."
+        "Addresses the high computational cost of evaluating Software Engineering (SWE) AI agents on complex tasks.",
+        "Proposes PTA-IRT, a new framework that moves beyond simple pass/fail metrics to analyze *how* agents solve problems.",
+        "Integrates Trajectory-Aware evaluation with Item Response Theory (IRT) for more nuanced performance assessment."
       ]
     },
     {
@@ -401,9 +429,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces CordisBench, a new 1,200-question benchmark designed to test language models' reasoning capabilities.",
-        "The benchmark focuses on the complex lifecycle reasoning required when language models dynamically alter their own execution environments (dynamic agent harnesses).",
-        "It addresses the challenge of tracking how local component changes propagate through dependencies and cleanup processes in complex software systems."
+        "Introduces CordisBench, a new 1,200-question benchmark for evaluating language model reasoning.",
+        "Focuses on the complex lifecycle reasoning required when language models dynamically alter their own execution environments (dynamic agent harnesses).",
+        "Tests models' ability to track dependency propagation and cleanup across changing software components."
       ]
     },
     {
@@ -415,9 +443,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Presents a framework for mechanism design specifically tailored for AI agents with unknown preferences and capabilities.",
-        "The core challenge addressed is incentivizing AI agents to be both honest and obedient when acting on behalf of a designer.",
-        "The research establishes a 'revelation principle' using a one-sided imitation structure, characterizing implementable policies."
+        "Presents a mechanism design framework for interacting with AI agents whose preferences and capabilities are unknown.",
+        "The framework aims to incentivize agents to be honest and obedient when acting on behalf of a designer.",
+        "Introduces a 'one-sided imitation structure' leading to a revelation principle and characterization of implementable policies."
       ]
     },
     {
@@ -429,9 +457,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research focuses on developing 'proactive thought partners' for writing, moving beyond simple autocomplete.",
-        "These AI agents aim to provide customizable, higher-level cognitive support tailored to the writer's needs at specific moments.",
-        "The paper explores the design space for AI that assists with diverse writing activities, from ideation to revision."
+        "The paper addresses the limitations of current AI writing tools, which offer only generic textual assistance like autocomplete.",
+        "It introduces the concept of 'proactive thought partners'—AI agents designed to offer customizable, higher-level cognitive support during the writing process.",
+        "The research focuses on mapping the design space for these advanced AI agents to better match diverse writer needs across different stages (ideation to revision)."
       ]
     },
     {
@@ -444,8 +472,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Addresses the open problem of optimally allocating a fixed annotation budget between Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) during LLM post-training.",
-        "Moves beyond broad trend observations by proposing a framework to characterize near-optimal SFT-RL allocation.",
-        "Investigates whether the optimal allocation ratio remains consistent when scaling from small to large Language Models (LLMs)."
+        "Moves beyond broad trend observations to propose a principled framework for characterizing near-optimal SFT-RL allocation.",
+        "Investigates whether the optimal SFT-RL ratio remains consistent when scaling from small to large Language Models (LLMs)."
       ]
     },
     {
@@ -457,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the high cost and brittleness of using Vision-Language Models (VLMs) directly for autonomous decision-making.",
-        "Introduces SAGE (Selective Agent Guidance via Entropy) to learn a cheap, autonomous policy from an imperfect VLM teacher.",
-        "The core mechanism involves querying the VLM only when the learning agent exhibits uncertainty."
+        "The research addresses the limitations of using large Vision-Language Models (VLMs) directly as decision-making policies due to high cost and brittleness.",
+        "The proposed framework, SAGE (Selective Agent Guidance via Entropy), aims to learn an efficient, autonomous policy from an imperfect VLM teacher.",
+        "SAGE strategically queries the VLM only when the learning agent exhibits uncertainty, improving efficiency."
       ]
     },
     {
@@ -471,9 +499,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses a key limitation of LLMs in classifying text into taxonomies with highly similar, domain-specific labels.",
-        "Critiques the standard top-K retrieval method, noting it narrows candidates but fails to help the model differentiate between similar options.",
-        "Proposes a 'Confusion-Aware Retrieval and Knowledge Injection' method to improve classification accuracy in complex label spaces."
+        "Addresses a limitation in LLM text classification when dealing with taxonomies having many semantically similar labels.",
+        "Critiques the standard top-K retrieval method, noting it reduces candidates but fails to help the model distinguish between similar options.",
+        "Proposes a 'Confusion-Aware Retrieval and Knowledge Injection' approach to improve classification accuracy in complex label spaces."
       ]
     },
     {
@@ -485,9 +513,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper investigates the internal, poorly understood mechanisms of LLM-as-a-Judge systems used for evaluating Natural Language Generation (NLG) quality.",
-        "It employs an eight-attack perturbation taxonomy to mechanistically probe how LLMs assign ratings across Readability and Adequacy dimensions.",
-        "The research focuses on generating paired clean and corrupt summaries with controlled error intensity to test evaluator robustness."
+        "The paper investigates the internal mechanisms of LLM-as-a-Judge systems used to evaluate Natural Language Generation (NLG) quality.",
+        "It employs an eight-attack perturbation taxonomy to mechanistically probe how LLMs assign ratings across Readability and Adequacy.",
+        "This research addresses the lack of understanding regarding how LLM evaluators function when used as automated scoring tools or training signals."
       ]
     },
     {
@@ -500,8 +528,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Addresses the open problem of optimally allocating a fixed annotation budget between Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) during LLM post-training.",
-        "Moves beyond broad trend observations by developing a principled framework to characterize near-optimal SFT-RL allocation.",
-        "Investigates whether the optimal SFT-RL ratio remains consistent when scaling from small to large Language Models (LLMs)."
+        "Moves beyond broad trend observations by proposing a principled framework to characterize near-optimal SFT-RL allocation.",
+        "Investigates whether the optimal allocation ratio remains consistent when scaling from smaller to larger Large Language Models (LLMs)."
       ]
     },
     {
@@ -513,23 +541,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the limitations of using Vision-Language Models (VLMs) directly as decision-making policies due to high cost and brittleness.",
-        "The proposed framework, SAGE (Selective Agent Guidance via Entropy), learns an autonomous policy from an imperfect but informative VLM teacher.",
-        "SAGE optimizes VLM usage by querying the teacher only when the learning agent exhibits uncertainty."
-      ]
-    },
-    {
-      "id": 49,
-      "title": "Gradient-Update Mismatch: Rethinking Conflict-Free Training of Physics-Informed Neural Networks",
-      "url": "https://arxiv.org/abs/2609.01558v1",
-      "source": "arXiv Machine Learning",
-      "author": "Tiejun Li",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The paper addresses the 'Gradient-Update Mismatch' problem in Physics-Informed Neural Networks (PINNs) where optimizing physics residuals and boundary conditions creates conflicting gradients.",
-        "It introduces 'gradient surgery' methods to construct conflict-free directions from loss-specific gradients to reduce training conflicts.",
-        "A key finding is that the conflict-free property achieved by gradient surgery may not be maintained after standard optimizer transformations."
+        "The research addresses the limitations of using large Vision-Language Models (VLMs) directly as decision-making policies due to high cost and brittleness.",
+        "A new framework, SAGE (Selective Agent Guidance via Entropy), is proposed to learn an efficient, autonomous policy from an imperfect VLM teacher.",
+        "SAGE intelligently queries the expensive VLM only when the learning agent exhibits uncertainty, improving efficiency."
       ]
     },
     {
@@ -541,9 +555,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper investigates the potential of Large Language Models (LLMs) to discover fundamental scientific laws.",
-        "It addresses the open question of how to rigorously evaluate an LLM's genuine ability to perform scientific discovery.",
-        "Current evaluation methods are criticized for either using simplified synthetic environments or relying on pre-existing published knowledge."
+        "The paper addresses the open question of whether Large Language Models (LLMs) can genuinely discover scientific laws.",
+        "It critiques current evaluation methods for LLM scientific discovery, noting they often rely on simplified synthetic settings or reuse existing published work.",
+        "The research situates LLMs within the established scientific process of hypothesis generation, testing, and refinement."
       ]
     },
     {
@@ -555,8 +569,8 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the critical memory bottleneck in large AI models during training and inference.",
-        "Introduces the Linear Reusable Neural Bases Architecture (LRNBA) for improved parameter efficiency.",
+        "Addresses the critical memory and parameter efficiency bottleneck in large AI models.",
+        "Introduces the Linear Reusable Neural Bases Architecture (LRNBA) for network compression.",
         "The core concept involves representing network blocks as linear combinations of a shared set of bases, inspired by RNNs."
       ]
     },
@@ -569,9 +583,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper investigates the internal mechanisms of LLM-as-a-Judge systems used to evaluate Natural Language Generation (NLG) quality.",
-        "It introduces an eight-attack perturbation taxonomy to mechanistically probe how LLMs assign ratings across Readability and Adequacy.",
-        "This research addresses the lack of understanding regarding how LLM evaluators function when used as automated scoring tools or training signals."
+        "Investigates the internal mechanisms of LLM-as-a-Judge systems used to evaluate Natural Language Generation (NLG) quality.",
+        "Employs an eight-attack perturbation taxonomy across Readability and Adequacy dimensions to probe these evaluators.",
+        "Addresses the lack of understanding regarding how LLMs assign ratings when used as automated scoring tools in summarization."
       ]
     },
     {
@@ -583,9 +597,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces PTA-IRT, a new framework for benchmarking software engineering (SWE) agents.",
-        "Addresses the high cost of evaluating SWE agents by moving beyond simple pass/fail metrics.",
-        "PTA-IRT is 'Trajectory-Aware,' meaning it analyzes *how* agents solve problems, not just the final outcome."
+        "Addresses the high cost of evaluating software engineering (SWE) agents on realistic, multi-step tasks.",
+        "Introduces PTA-IRT, a novel framework combining Trajectory-Awareness with Item Response Theory (IRT).",
+        "Moves beyond simple pass/fail metrics by analyzing *how* agents solve problems during code exploration and modification."
       ]
     },
     {
@@ -597,9 +611,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces CordisBench, a new 1,200-question benchmark for testing language model reasoning.",
-        "Focuses on the complex lifecycle reasoning required when language models dynamically alter their own execution environment (agent harnesses).",
-        "Tests the ability of models to track dependency propagation and necessary cleanup across changing software components."
+        "Introduces CordisBench, a new benchmark designed to test language models' ability to reason about component lifecycles.",
+        "The benchmark focuses on 'dynamic agent harnesses,' where LLMs can modify their own execution environment, creating complex dependency challenges.",
+        "It tests models on identifying affected components and predicting state changes resulting from local plugin modifications within a controlled runtime environment."
       ]
     },
     {
@@ -611,9 +625,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces Verbal Reinforcement Learning (VRL) as a new paradigm where natural language serves as a primary feedback channel for language agents.",
-        "VRL allows agents to receive feedback conveying intent, preferences, and causal structure in a human-interpretable way.",
-        "The field is structured around two axes: when verbal feedback is applied in an agent's lifecycle and what aspects of the agent it modifies."
+        "Introduces Verbal Reinforcement Learning (VRL) as a new paradigm where natural language serves as a primary feedback mechanism for language agents.",
+        "VRL allows agents to receive feedback conveying intent, preferences, and causal structure in a human-interpretable format.",
+        "The field is structured around two axes: when verbal feedback is applied in an agent's lifecycle and what aspect of the agent it modifies."
       ]
     },
     {
@@ -625,9 +639,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "StudentSim proposes using LLM-based student simulators to gather data on effective AI tutoring strategies.",
-        "Existing simulation methods are limited: state-tracking models lack explanatory depth, while LLM role-play lacks competence matching.",
-        "The research addresses the challenge of gathering sparse, slow, and costly data on personalized learning guidance."
+        "StudentSim proposes using LLM-based student simulators to gather data on effective personalized tutoring strategies.",
+        "Current simulator approaches are limited: state-tracking models lack explanatory depth, while LLM role-play lacks competence matching.",
+        "The research addresses the need for scalable, less costly methods to determine optimal guidance for individual student learning profiles."
       ]
     },
     {
@@ -639,9 +653,23 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research proposes 'Proactive Thought Partners,' AI agents designed to offer customizable, high-level cognitive support during the writing process.",
-        "Current proactive tools are often limited to basic, generic assistance like autocomplete, highlighting a gap in current AI writing support.",
-        "The paper explores the design space for AI that can anticipate and assist writers across diverse cognitive tasks, from ideation to revision."
+        "The research focuses on developing 'proactive thought partners' for writing, moving beyond simple autocomplete.",
+        "These AI agents aim to provide customizable, higher-level cognitive support tailored to the writer's specific needs.",
+        "The paper explores the design space for AI tools that offer timely and context-aware assistance throughout the writing process (ideation to revision)."
+      ]
+    },
+    {
+      "id": 61,
+      "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
+      "url": "https://arxiv.org/abs/2609.01587v1",
+      "source": "arXiv NLP",
+      "author": "Shekar Ramachandran",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research investigates the uneven accuracy degradation caused by Post-Training Quantization (PTQ) in Large Language Models (LLMs).",
+        "The study proposes a method to intelligently allocate a small additional precision budget to mitigate quantization damage.",
+        "It tests hypotheses across 9 open-weight models and 4 architecture families using causal mixed-precision intervention as a ground truth."
       ]
     },
     {
@@ -653,9 +681,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the high cost and quality gap in extracting structured data from massive document volumes in regulated industries.",
-        "Introduces a deployed system utilizing a Mixture-of-Experts (MoE) Vision-Language Model (VLM) for document understanding.",
-        "The research focuses on balancing model performance (quality) with operational costs, overcoming limitations of current open-source VLMs."
+        "Addresses the high cost and quality gap in using Vision-Language Models (VLMs) for extracting structured data from massive document volumes in regulated industries.",
+        "Proposes a solution using a Mixture-of-Experts (MoE) VLM architecture, fine-tuned on proprietary and open-domain data, to improve efficiency.",
+        "Highlights the practical challenge where existing high-quality open-source models are too expensive to deploy compared to human annotation."
       ]
     },
     {
@@ -668,26 +696,12 @@
       "ai_score": 7,
       "bullet_points": [
         "Addresses the open problem of optimally dividing a fixed annotation budget between Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) during LLM post-training.",
-        "Moves beyond broad trend observations to characterize a principled framework for near-optimal SFT-RL budget allocation.",
+        "Moves beyond broad trend observations by proposing a principled framework to characterize near-optimal SFT-RL allocation.",
         "Investigates whether the optimal SFT-RL ratio remains consistent when scaling from small to large Language Models (LLMs)."
       ]
     },
     {
-      "id": 69,
-      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-      "source": "Hacker News",
-      "author": "tatersolid",
-      "timestamp": "2026-09-01T23:17:43",
-      "ai_score": 7,
-      "bullet_points": [
-        "The FBI is investigating a service that was reportedly selling over 153 million driver's licenses.",
-        "This indicates a significant data security and identity theft threat.",
-        "The story highlights the risks associated with large-scale personal data breaches."
-      ]
-    },
-    {
-      "id": 89,
+      "id": 87,
       "title": "Execution Trees, Not More Logs: A Better Debugging Model for AI Agents",
       "url": "https://dev.to/raju_dandigam/execution-trees-not-more-logs-a-better-debugging-model-for-ai-agents-3d4g",
       "source": "Dev.to",
@@ -695,23 +709,51 @@
       "timestamp": "2026-09-02T04:46:27Z",
       "ai_score": 7,
       "bullet_points": [
-        "Proposes 'Execution Trees' as an alternative to traditional flat logging for debugging AI agents.",
-        "Argues that flat logs are insufficient for pinpointing the root cause of failures in complex AI operations.",
-        "Addresses a critical need in AI development: improving observability and traceability within autonomous agents."
+        "Proposes 'Execution Trees' as an advanced debugging model for AI agents.",
+        "Argues that traditional flat logs are insufficient for tracing causality in complex AI operations.",
+        "Focuses on improving observability and understanding the root cause of agent behavior."
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Streamline Publishing with a Claude Code Skill",
+      "url": "https://dev.to/gde/streamline-publishing-with-a-claude-code-skill-1bdn",
+      "source": "Dev.to",
+      "author": "xbill",
+      "timestamp": "2026-09-01T14:37:08Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces a Claude Code skill designed to automate content syndication from a single Markdown file.",
+        "The skill handles multi-platform formatting for Dev.to, AWS Builder Center, Medium, and LinkedIn.",
+        "It includes pre-shipping checks and debugging tools to ensure content integrity across different publishing APIs."
+      ]
+    },
+    {
+      "id": 90,
+      "title": "What happens to technical debt when AI makes code cheap?",
+      "url": "https://dev.to/jennapederson/what-happens-to-technical-debt-when-ai-makes-code-cheap-9oa",
+      "source": "Dev.to",
+      "author": "jennapederson",
+      "timestamp": "2026-09-01T14:01:00Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "Examines the future impact of AI-driven code generation on technical debt.",
+        "Poses a critical question about how AI might alter the traditional management of legacy code.",
+        "Suggests a shift in software development practices as code creation becomes cheaper."
       ]
     },
     {
       "id": 91,
-      "title": "The blast radius rule for AI coding",
-      "url": "https://dev.to/indiecoredev/the-blast-radius-rule-for-ai-coding-4a57",
+      "title": "I Found 3 Security Vulnerabilities in My Own AI Agent's Tool Access",
+      "url": "https://dev.to/dannwaneri/i-found-3-security-vulnerabilities-in-my-own-ai-agents-tool-access-75m",
       "source": "Dev.to",
-      "author": "indiecoredev",
-      "timestamp": "2026-09-01T22:34:35Z",
+      "author": "dannwaneri",
+      "timestamp": "2026-09-02T13:19:03Z",
       "ai_score": 7,
       "bullet_points": [
-        "Proposes a risk-based framework for autonomous AI coding agents.",
-        "The decision-making criteria prioritize the cost/difficulty of undoing a mistake over task complexity.",
-        "Outlines a three-zone system with specific checks for different levels of AI autonomy."
+        "The article details the discovery of three security vulnerabilities within a personal AI agent's tool access.",
+        "The project, named GeoMart, was built as part of OpenAI's WebMCP Challenge.",
+        "This highlights practical security challenges in developing and deploying AI agents with external tool access."
       ]
     }
   ]
