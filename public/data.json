@@ -1,17 +1,732 @@
 {
-  "generated_at": "2026-09-15T02:00:44.616334",
-  "total_stories": 0,
+  "generated_at": "2026-09-15T10:32:14.233955",
+  "total_stories": 51,
   "sources": [
+    "Lobsters",
+    "arXiv AI",
     "The Verge",
-    "Hugging Face Benchmarks",
     "arXiv NLP",
+    "arXiv Machine Learning",
     "Dev.to",
     "Ollama",
-    "Lobsters",
+    "Hugging Face Benchmarks",
     "Hacker News",
-    "arXiv AI",
-    "arXiv Machine Learning",
     "Ars Technica"
   ],
-  "stories": []
+  "stories": [
+    {
+      "id": 7,
+      "title": "Muse Glimmer from Meta Superintelligence Labs is now available",
+      "url": "https://ollama.com/blog/muse-glimmer",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Meta has released Muse Glimmer, its first open model from Meta Superintelligence Labs.",
+        "Muse Glimmer is a 30B multimodal model available under the permissive Apache 2.0 license.",
+        "It is specifically designed for local coding agents and benefits from Ollama's MLX engine with new DFlash and image input support."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "source": "The Verge",
+      "author": "Hayden Field",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Major AI leaders (OpenAI, Anthropic, Google DeepMind, SpaceX) have agreed to slow down frontier AI development.",
+        "The stated goal of the slowdown is to 'pace the frontier' of AI advancement.",
+        "Skeptics are questioning the motives, suggesting the slowdown could be a safety pact or an industry cartel."
+      ]
+    },
+    {
+      "id": 25,
+      "title": "For the first time, the US military confirms it has deployed weapons in orbit",
+      "url": "https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/",
+      "source": "Ars Technica",
+      "author": "Stephen Clark",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "The US military has officially confirmed the deployment of weapons in orbit.",
+        "These new systems are described as 'on-orbit space control weapons'.",
+        "The stated purpose of these weapons is to defend the joint military forces."
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+      "url": "https://arxiv.org/abs/2609.15989v1",
+      "source": "arXiv AI",
+      "author": "Vasilis Syrgkanis",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Introduces 'plan injection,' a novel adversarial attack against Chain-of-Thought (CoT) monitoring systems.",
+        "The attack involves injecting seemingly benign reasoning into an LLM's context to steer it toward harmful actions.",
+        "This research highlights a critical vulnerability in current LLM safety mechanisms designed to detect unsafe planning."
+      ]
+    },
+    {
+      "id": 63,
+      "title": "K-Bench: a clinically calibrated benchmark for evaluating large language models in high-risk mental health conversations",
+      "url": "https://arxiv.org/abs/2609.15855v1",
+      "source": "arXiv NLP",
+      "author": "Elena Volkova",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Introduces K-Bench, a new, clinically calibrated benchmark specifically designed to test LLMs in high-risk mental health scenarios.",
+        "Evaluates a wide range of models (125 configurations from 33 base models across 14 providers) using 200 multi-turn vignettes.",
+        "Focuses on critical safety areas including suicide, self-harm, domestic violence, and substance misuse, addressing a major gap in current LLM safety evaluation."
+      ]
+    },
+    {
+      "id": 1,
+      "title": "🤗 Trending: deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
+        "The model is categorized for text generation and conversational AI tasks.",
+        "It utilizes standard ML components like transformers and safetensors, indicating a focus on practical LLM deployment."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
+        "The model is associated with key AI technologies like transformers and safetensors."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "🤗 Trending: meta-llama/Meta-Llama-3-8B",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
+        "It is categorized under key AI/ML domains including 'transformers' and 'text-generation'.",
+        "The presence of 'safetensors' indicates modern, secure model handling practices."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "NVIDIA Nemotron 3.5 Lightning",
+      "url": "https://ollama.com/blog/nemotron-3-5-lightning",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "NVIDIA Nemotron 3.5 Lightning is now accessible via Ollama.",
+        "It is a 30 billion parameter open model optimized for agentic workflows.",
+        "The model is designed for running complex, multi-step tasks and tool-calling locally on user hardware."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Ollama: all aboard open models",
+      "url": "https://ollama.com/blog/all-aboard-open-models",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Ollama, a platform for running open models, has secured significant funding.",
+        "The company raised $88 million from prominent investors including Y Combinator and Benchmark.",
+        "Ollama currently serves a substantial community of 8.9 million developers."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Faster Gemma 4 on MLX with multi-token prediction",
+      "url": "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Gemma 4 inference speed is significantly improved in Ollama 0.31 on Apple Silicon.",
+        "The performance boost is achieved through Multi-Token Prediction (MTP) leveraging MLX.",
+        "Speedup reaches up to 90% when utilized with coding agents, as validated by the Aider benchmark."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Ollama's highest performance on Apple Silicon yet with MLX",
+      "url": "https://ollama.com/blog/mlx-performance",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Ollama has achieved its peak performance on Apple Silicon.",
+        "The performance boost is attributed to updates in the MLX engine.",
+        "Improvements include faster response times, higher output quality, and reduced memory usage."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "NVIDIA Nemotron 3 Ultra",
+      "url": "https://ollama.com/blog/nemotron-3-ultra",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduction of NVIDIA Nemotron 3 Ultra, a new AI model.",
+        "The model is specifically engineered for high-throughput reasoning tasks.",
+        "It is designed to support complex, long-running agent workflows."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "What execs and politicians are saying about slowing down AI development",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
+      "source": "The Verge",
+      "author": "Jay Peters",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "AI safety concerns are driving a major industry conversation regarding the pace of AI development.",
+        "Dario Amodei published a key essay advocating for slowing down frontier AI research.",
+        "The topic is generating significant discourse among AI leaders and political figures."
+      ]
+    },
+    {
+      "id": 32,
+      "title": "AI leaders want to hit the brakes after years of reckless speed",
+      "url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed/",
+      "source": "Ars Technica",
+      "author": "Kyle Orland",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "AI leaders are advocating for a slowdown in the current rapid pace of AI development.",
+        "The stated primary reason for the slowdown is a heightened focus on AI safety.",
+        "The article suggests there may be underlying, potentially strategic, benefits for the AI industry behind the call for caution."
+      ]
+    },
+    {
+      "id": 36,
+      "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+      "url": "https://arxiv.org/abs/2609.15982v1",
+      "source": "arXiv AI",
+      "author": "Longbo Huang",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Proposes a novel method to achieve native skill routing within a frozen Large Language Model (LLM) without relying on external context or retrieval pipelines.",
+        "Argues that the necessary routing signal is inherently present within the LLM's forward passes, suggesting an internal mechanism for skill selection.",
+        "Demonstrates that only two linear maps are required to effectively 'read' and utilize this latent routing signal, offering a computationally efficient solution."
+      ]
+    },
+    {
+      "id": 46,
+      "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+      "url": "https://arxiv.org/abs/2609.15982v1",
+      "source": "arXiv Machine Learning",
+      "author": "Longbo Huang",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The research proposes a novel method to enable LLM agents to select appropriate 'skills' without relying on external, context-heavy routing mechanisms.",
+        "It demonstrates that the routing signal for skill selection can be inherently extracted from the frozen LLM's own forward passes using simple linear maps.",
+        "This approach aims to overcome limitations of current routing methods, such as context dispersion or loss of agent capability when moving selection outside the context."
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
+      "url": "https://arxiv.org/abs/2609.15972v1",
+      "source": "arXiv Machine Learning",
+      "author": "Zhen Wang",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces 'Mind2Dialogue,' a method to train language models to be more 'human-aware' by simulating user mental states.",
+        "Addresses the critical 'supervision gap' in current LLM training, where datasets lack explicit grounding in users' unspoken beliefs and goals.",
+        "Suggests that achieving deep, long-term collaboration between AI and humans requires models that can infer underlying user intent."
+      ]
+    },
+    {
+      "id": 56,
+      "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+      "url": "https://arxiv.org/abs/2609.15982v1",
+      "source": "arXiv NLP",
+      "author": "Longbo Huang",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The research proposes a method to elicit native skill routing directly from a frozen Large Language Model (LLM) without external context management.",
+        "It addresses limitations of current routing methods (like context preloading or retrieval pipelines) which either dilute attention or remove routing capability from the agent.",
+        "The core finding suggests that the necessary routing signal is inherently present within the LLM's forward passes, requiring only simple linear maps for extraction."
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Discovery Foundation Models: Toward Open-Ended Discovery Intelligence",
+      "url": "https://arxiv.org/abs/2609.15973v1",
+      "source": "arXiv NLP",
+      "author": "Yingcheng Wu",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Proposes 'Discovery Intelligence' as the next frontier for foundation models, moving beyond solving human-specified problems.",
+        "DFMs aim to enable models to participate in the creation of new problems, representations, and knowledge.",
+        "The evolution involves a shift from learning over existing knowledge to learning through action, tool use, and outcome feedback."
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
+      "url": "https://arxiv.org/abs/2609.15972v1",
+      "source": "arXiv NLP",
+      "author": "Zhen Wang",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces 'Mind2Dialogue,' a method to train language models to be more human-aware.",
+        "Addresses the 'supervision gap' where current LLM training lacks data reflecting users' unspoken beliefs and goals.",
+        "Suggests the need for deeper understanding of human mental states for effective long-term AI collaboration."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Claude Desktop support with Ollama",
+      "url": "https://ollama.com/blog/claude-desktop",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Claude Desktop now supports Ollama as a third-party gateway.",
+        "This integration allows users to leverage open-source models within the Claude Desktop environment.",
+        "It bridges proprietary AI platforms with local, open-weight model ecosystems."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Improved performance and model support with GGUF",
+      "url": "https://ollama.com/blog/improved-performance-and-model-support-with-gguf",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Ollama 0.30 release brings enhanced performance and broader GGUF model compatibility.",
+        "The update leverages llama.cpp to expand model support across various hardware configurations.",
+        "It improves Ollama's MLX engine specifically for better performance on Apple silicon."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
+      "url": "https://ollama.com/blog/openjarvis",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "OpenJarvis v1.0 is released, providing an open-source framework for personal AI agents.",
+        "The framework emphasizes a 'local-first' approach, allowing AI to run entirely on user hardware.",
+        "It features built-in support for Ollama, facilitating the use of local LLMs."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Microsoft issues emergency Windows 11 update to fix its record-breaking patch",
+      "url": "https://www.theverge.com/news/995302/microsoft-out-of-band-windows-11-update-fix-issues",
+      "source": "The Verge",
+      "author": "Tom Warren",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Microsoft released an emergency out-of-band update for Windows 11.",
+        "The emergency patch addresses bugs introduced by the massive September Patch Tuesday update.",
+        "The initial update contained nearly 1,000 fixes but caused issues affecting businesses, developers, and gamers, notably with Hyper-V folder shares."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Apple Home’s new security camera features cost as much as $60 a month",
+      "url": "https://www.theverge.com/tech/994949/apple-intelligence-apple-home-icloud-plus-cost-subscription",
+      "source": "The Verge",
+      "author": "Jennifer Pattison Tuohy",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Apple Home is integrating Apple Intelligence into HomeKit Secure Video with the release of iOS 27 and tvOS 27.",
+        "The new feature provides AI-powered video summaries, offering text descriptions of events captured by compatible security cameras.",
+        "Access to these enhanced AI features will require users to pay an additional monthly subscription fee."
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Valve&#8217;s virtual reality plans hit actual reality",
+      "url": "https://www.theverge.com/tech/995055/valve-steam-frame-price-ram-impact",
+      "source": "The Verge",
+      "author": "Sean Hollister",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Valve has released the Steam Frame VR headset.",
+        "The headset's expected price point was aimed to be under $1,059.",
+        "Manufacturing costs were impacted by global RAM and storage market fluctuations."
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Rocket Lab is seeing red about NASA's decision on a Mars spacecraft",
+      "url": "https://arstechnica.com/space/2026/09/rocket-lab-is-seeing-red-about-nasas-decision-on-a-mars-spacecraft/",
+      "source": "Ars Technica",
+      "author": "Eric Berger",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Rocket Lab is publicly criticizing NASA's recent award decision regarding a Mars spacecraft.",
+        "The core of Rocket Lab's complaint is that the award decision seems to contradict established eligibility criteria.",
+        "This highlights ongoing competitive and procedural tensions between private aerospace contractors and NASA."
+      ]
+    },
+    {
+      "id": 28,
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+      "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+      "source": "Ars Technica",
+      "author": "Dan Goodin",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "AI bots are proliferating across social media platforms.",
+        "These bots are generating low-quality, repetitive content ('slop').",
+        "The trend highlights the current challenges of AI content saturation and authenticity."
+      ]
+    },
+    {
+      "id": 29,
+      "title": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
+      "url": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/",
+      "source": "Ars Technica",
+      "author": "Ashley Belanger",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "OpenAI is facing ongoing antitrust scrutiny, despite recent developments.",
+        "Elon Musk has ceased legal challenges against Apple regarding ChatGPT integration.",
+        "The situation highlights the complex interplay between major tech players (Apple, OpenAI, Musk) in the AI space."
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots",
+      "url": "https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots/",
+      "source": "Ars Technica",
+      "author": "Jeremy Hsu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Unitree's success in developing affordable humanoid robots is attributed to the founder's intense, cost-cutting leadership.",
+        "The article questions the scalability of this highly micromanaged leadership style as the company grows.",
+        "The piece touches upon the intersection of robotics hardware development and corporate management strategy."
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements",
+      "url": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/",
+      "source": "Ars Technica",
+      "author": "Samuel Axon",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Apple has released iOS 27 and macOS Golden Gate 27, featuring updates to Siri AI and Liquid Glass.",
+        "The release marks the final macOS version to maintain support for Rosetta, impacting Intel application compatibility.",
+        "The update signifies Apple's ongoing integration of advanced AI features into its core operating systems."
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
+      "url": "https://arxiv.org/abs/2609.15983v1",
+      "source": "arXiv AI",
+      "author": "Vahab Mirrokni",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the limitation of current language models in handling long-horizon, complex research problems in math and theoretical CS.",
+        "Introduces 'Stellar Colosseum,' a model-agnostic harness designed to manage and allocate inference across these difficult research tasks.",
+        "The system employs mechanisms like exploring alternative strategies and a 'readiness gate' to guide the proof construction process."
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Vulnerability Localization Benchmark: Measuring Agentic Security Analysis at Repository Scale",
+      "url": "https://arxiv.org/abs/2609.15939v1",
+      "source": "arXiv AI",
+      "author": "Amin Karbasi",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces the Vulnerability Localization Benchmark (VLoc Bench) to address a gap in current AI security evaluations.",
+        "Focuses on the specific task of vulnerability localization—identifying the exact code files related to a weakness class within a large repository.",
+        "Addresses the growing trend of language-model agents operating over entire software repositories, demanding more granular security analysis."
+      ]
+    },
+    {
+      "id": 40,
+      "title": "SlipSense: Multimodal Tactile Learning for Low-Latency and Generalized Slip Detection",
+      "url": "https://arxiv.org/abs/2609.15910v1",
+      "source": "arXiv AI",
+      "author": "Tao Yu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces SlipSense, a multimodal framework for low-latency and generalized slip detection in dexterous manipulation.",
+        "Utilizes a compact sensor (TacV5) combining a 32x32 piezoresistive array (240 Hz) and a 3-axis MEMS accelerometer (8 kHz).",
+        "Addresses limitations in current systems regarding detection latency and cross-platform generalization for tactile sensing."
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Privacy-enhanced federated learning via asynchronous aggregation and local differential perturbation",
+      "url": "https://arxiv.org/abs/2609.15885v1",
+      "source": "arXiv AI",
+      "author": "Liesheng Wei",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Proposes a privacy-enhanced federated learning framework for secure collaborative training.",
+        "Integrates Dynamic Differential Privacy (DDP), Homomorphic Encryption (HE), and Local Differential Privacy (LDP) for robust data protection.",
+        "Utilizes an asynchronous aggregation strategy with version control to handle distributed training environments."
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Bellman Policy Optimization",
+      "url": "https://arxiv.org/abs/2609.15987v1",
+      "source": "arXiv Machine Learning",
+      "author": "Lidong Bing",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces Bellman Policy Optimization (BPO), a new critic-free method for Reinforcement Learning.",
+        "BPO is designed to improve the reasoning capabilities of Large Language Models (LLMs) using verifiable rewards (RLVR).",
+        "The method reformulates Policy Mirror Descent (PMD) for autoregressive generation using Bellman equations, avoiding intermediate state value estimation."
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
+      "url": "https://arxiv.org/abs/2609.15983v1",
+      "source": "arXiv Machine Learning",
+      "author": "Vahab Mirrokni",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the limitation of current language models in handling long-horizon, complex research problems in math and theoretical CS.",
+        "Introduces 'Stellar Colosseum,' a model-agnostic harness designed to manage and allocate inference across these difficult research tasks.",
+        "The system uses mechanisms like an 'alternative strategy exploration' and a 'readiness gate' to guide the proof construction process."
+      ]
+    },
+    {
+      "id": 47,
+      "title": "A Chosen Future Can Still Be Rewritten: Causal Writability in Video Models",
+      "url": "https://arxiv.org/abs/2609.15980v1",
+      "source": "arXiv Machine Learning",
+      "author": "Ziming Liu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces the concept of 'Causal Writability' in video models, addressing whether motion errors stem from poor learning or poor utilization.",
+        "Demonstrates that correct motion information can remain latent within the model even when the generated output is physically incorrect.",
+        "Proposes a method using low-dimensional edits to force the model to generate desired, conflicting motion patterns."
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Disentangling Representation Evolution in Transformers through Directional Decomposition",
+      "url": "https://arxiv.org/abs/2609.15975v1",
+      "source": "arXiv Machine Learning",
+      "author": "Shen Yan",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research models Transformer representation evolution as a functional geometry, analyzing learned additive transformations.",
+        "Key finding is the existence of substantial parallel components in representation updates beyond the standard residual path.",
+        "The decomposition method is applied to analyze updates within both attention mechanisms and MLP layers."
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Privacy-Aligned Personalized Federated Learning with Compact Adaptation and Variable-Length Gaussian Communication",
+      "url": "https://arxiv.org/abs/2609.15950v1",
+      "source": "arXiv Machine Learning",
+      "author": "Linqi Song",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses a structural misalignment in personalized federated learning when client variations are low-dimensional but updates are high-dimensional.",
+        "Proposes a method to confine repeated adaptation to a fixed coefficient space after releasing a private client context once.",
+        "Introduces a factorized generator that adapts the optimization geometry to reshape noisy updates while maintaining privacy."
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Safe Meta-Reinforcement Learning via Information Space Reachability",
+      "url": "https://arxiv.org/abs/2609.15915v1",
+      "source": "arXiv Machine Learning",
+      "author": "Navid Azizan",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the critical gap in applying Meta-Reinforcement Learning (meta-RL) to real-world scenarios due to safety concerns.",
+        "Proposes a novel safe meta-RL framework designed to explicitly incorporate safety constraints during the adaptation process.",
+        "Introduces the concept of reasoning about safety within the 'information space,' which integrates both physical state and agent belief."
+      ]
+    },
+    {
+      "id": 52,
+      "title": "SlipSense: Multimodal Tactile Learning for Low-Latency and Generalized Slip Detection",
+      "url": "https://arxiv.org/abs/2609.15910v1",
+      "source": "arXiv Machine Learning",
+      "author": "Tao Yu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces SlipSense, a multimodal framework for low-latency and generalized slip detection in dexterous manipulation.",
+        "Utilizes a compact sensor (TacV5) combining a $32 \times 32$ piezoresistive array (240 Hz) and a 3-axis MEMS accelerometer (8 kHz).",
+        "Addresses limitations in current systems regarding detection latency and cross-platform generalization in tactile sensing."
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Discrete Beckmann Transport Models for One-Step Language Modeling and Reasoning",
+      "url": "https://arxiv.org/abs/2609.15903v1",
+      "source": "arXiv Machine Learning",
+      "author": "Shiyi Wang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces Discrete Beckmann Transport Models (DBTM) as an alternative to traditional autoregressive language models.",
+        "DBTM aims to overcome limitations in diffusion/flow models, specifically the need for costly teacher model distillation for multi-step sampling.",
+        "The model is built upon a time-independent flow whose autonomous transport map has theoretical guarantees regarding point mapping."
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Bellman Policy Optimization",
+      "url": "https://arxiv.org/abs/2609.15987v1",
+      "source": "arXiv NLP",
+      "author": "Lidong Bing",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces Bellman Policy Optimization (BPO), a new critic-free method for Reinforcement Learning with Verifiable Rewards (RLVR).",
+        "BPO reformulates Policy Mirror Descent (PMD) for autoregressive generation using Bellman equations, avoiding intermediate state value estimation.",
+        "The research aims to improve the reasoning capabilities of Large Language Models (LLMs) through this novel RL approach."
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
+      "url": "https://arxiv.org/abs/2609.15983v1",
+      "source": "arXiv NLP",
+      "author": "Vahab Mirrokni",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces 'Stellar Colosseum,' a new harness designed to manage long-horizon research problems in math and theoretical computer science using language models.",
+        "Addresses the current limitation of LLMs in producing reliable proofs for complex, multi-step research tasks.",
+        "The system employs mechanisms like exploring alternative strategies and a 'readiness gate' to guide the decomposition of complex problems."
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Disentangling Representation Evolution in Transformers through Directional Decomposition",
+      "url": "https://arxiv.org/abs/2609.15975v1",
+      "source": "arXiv NLP",
+      "author": "Shen Yan",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research models Transformer representation evolution as a functional geometry, analyzing learned additive transformations.",
+        "It decomposes these updates into parallel and perpendicular components, revealing substantial parallel components beyond simple residual paths.",
+        "The decomposition method is applied to analyze updates within both attention mechanisms and MLP layers."
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Verifiable by Construction: Claim-Level Evaluation of Verbatim Citation in Clinical Question Answering",
+      "url": "https://arxiv.org/abs/2609.15964v1",
+      "source": "arXiv NLP",
+      "author": "Michael Oberst",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses a critical limitation in current LLM-based clinical QA: citations are often too broad for practical verification.",
+        "Proposes a novel approach where responses are 'verifiable by construction' using fine-grained, verbatim quotes.",
+        "Aims to significantly improve the trustworthiness and usability of LLMs in high-stakes medical environments for time-constrained clinicians."
+      ]
+    },
+    {
+      "id": 61,
+      "title": "HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses",
+      "url": "https://arxiv.org/abs/2609.15938v1",
+      "source": "arXiv NLP",
+      "author": "Zhen Wang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces 'HypoEvolve,' a framework using genetic algorithms to enhance hypothesis discovery in Multi-Agent LLMs.",
+        "The system allows scientific agents to synthesize evidence, assess proposals, and iteratively refine explanations.",
+        "The research aims to decouple the impact of agent scientific capabilities from the effects of their collaborative strategies."
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Inoculation Midtraining with Learned Neologisms",
+      "url": "https://arxiv.org/abs/2609.15886v1",
+      "source": "arXiv NLP",
+      "author": "David Demitri Africa",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces 'Inoculation Midtraining' to guide LLM learning during earlier training stages.",
+        "The technique uses a designated neologism (<quarantine_token>) to teach models to associate unsafe behavior with a specific context.",
+        "Aims to shape the generalization of desirable versus undesirable properties in LLMs before final post-training."
+      ]
+    },
+    {
+      "id": 69,
+      "title": "OpenArm: An open-source 7DOF humanoid arm",
+      "url": "https://github.com/enactic/OpenArm",
+      "source": "Hacker News",
+      "author": "Lwrless",
+      "timestamp": "2026-09-13T14:17:49",
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduction of OpenArm, an open-source humanoid arm project.",
+        "The arm features 7 Degrees of Freedom (7DOF), indicating significant robotic dexterity.",
+        "The open-source nature suggests community contribution and rapid development in robotics."
+      ]
+    }
+  ]
 }
