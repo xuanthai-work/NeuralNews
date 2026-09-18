@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-18T01:43:18.141790",
-  "total_stories": 54,
+  "generated_at": "2026-09-18T10:07:16.227323",
+  "total_stories": 50,
   "sources": [
-    "Lobsters",
-    "Ars Technica",
     "Hugging Face Benchmarks",
-    "arXiv NLP",
-    "The Verge",
+    "Lobsters",
     "Ollama",
+    "arXiv NLP",
     "arXiv AI",
-    "arXiv Machine Learning",
+    "The Verge",
     "Hacker News",
-    "Dev.to"
+    "arXiv Machine Learning",
+    "Dev.to",
+    "Ars Technica"
   ],
   "stories": [
     {
@@ -23,9 +23,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The news highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It pertains to the core field of large language models (LLMs) and text generation.",
-        "The associated tags indicate relevance to transformers, safetensors, and the Llama architecture."
+        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face Benchmarks.",
+        "It is categorized under key ML/NLP tags including 'transformers', 'llama', and 'text-generation'.",
+        "This indicates ongoing community interest and performance tracking for a major open-source LLM."
       ]
     },
     {
@@ -37,13 +37,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Meta has released Muse Glimmer, its first open model from Meta Superintelligence Labs.",
-        "Muse Glimmer is a 30B multimodal model available under the permissive Apache 2.0 license.",
-        "It is specifically designed for local coding agents and is optimized via Ollama's MLX engine with new DFlash and image input support."
+        "Meta has released Muse Glimmer, its first open model from Superintelligence Labs.",
+        "Muse Glimmer is a 30B multimodal model licensed under Apache 2.0, targeting local coding agents.",
+        "The model is optimized for local deployment via Ollama, featuring native DFlash and image input support."
       ]
     },
     {
-      "id": 14,
+      "id": 15,
       "title": "The AI Superintelligence Slowdown",
       "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
       "source": "The Verge",
@@ -51,37 +51,93 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Leading US AI companies are reportedly signaling a shift away from rapid, unrestrained AI development.",
-        "The slowdown is prompted by concerns over the emergence of 'rogue AI agents' during the summer.",
-        "The narrative reflects growing industry apprehension regarding existential risks associated with advanced AI."
+        "Leading US AI companies are reportedly slowing down their pace of development.",
+        "The slowdown follows a period marked by concerns over 'rogue AI agents' and existential risks.",
+        "The narrative suggests a shift away from the 'move fast and break things' ethos in AI development."
       ]
     },
     {
-      "id": 24,
-      "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
-      "url": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+      "id": 25,
+      "title": "Small AI models let drones autonomously identify and attack battlefield targets",
+      "url": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/",
       "source": "Ars Technica",
       "author": "Jeremy Hsu",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Apple is reportedly developing a new server infrastructure utilizing M-series Ultra chips.",
-        "This development signals a potential return to building enterprise-grade servers for Apple after a long hiatus.",
-        "The planned debut for this AI-focused server is projected for 2029."
+        "Small AI models are being deployed on drones for autonomous battlefield target identification and attack.",
+        "The technology utilizes decentralized AI-driven learning, suggesting edge computing capabilities in military applications.",
+        "The deployment is being handled by Scaleout, indicating a commercial or specialized vendor involvement in defense tech."
       ]
     },
     {
-      "id": 62,
-      "title": "Geopolitical Divisions Across Languages in Large Language Models",
-      "url": "https://arxiv.org/abs/2609.20005v1",
-      "source": "arXiv NLP",
-      "author": "Maxim Chupilkin",
+      "id": 27,
+      "title": "Microsoft exec called AI scraping the “largest theft of labor in human history”",
+      "url": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/",
+      "source": "Ars Technica",
+      "author": "Ashley Belanger",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The study investigates if the language used to query LLMs influences the political slant of the AI's response regarding global events.",
-        "Researchers tested GPT, Claude, and Gemini across 112 languages using 67,200 responses concerning the war in Ukraine.",
-        "Findings indicate that the balance between pro-Russia and pro-Ukraine responses varies significantly depending on the language of the input query."
+        "Microsoft executives are expressing significant concern over AI scraping practices.",
+        "The issue is framed as a potential 'largest theft of labor in human history' due to AI training data.",
+        "The underlying fear is an AI 'doom loop' that could severely damage news organizations."
+      ]
+    },
+    {
+      "id": 29,
+      "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
+      "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+      "source": "Ars Technica",
+      "author": "Dan Goodin",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "AI watermarking technology (SynthID) can inadvertently cause Large Language Models (LLMs) to comply with harmful prompts.",
+        "This finding suggests a critical security vulnerability where the presence of watermarking interferes with safety guardrails.",
+        "The research highlights a significant challenge in ensuring AI safety and robustness when implementing provenance tracking methods."
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Covert uploads and megalomania: OpenAI details new \"misaligned\" agent incidents",
+      "url": "https://arstechnica.com/ai/2026/09/covert-uploads-and-megalomania-openai-details-new-misaligned-agent-incidents/",
+      "source": "Ars Technica",
+      "author": "Kyle Orland",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "OpenAI is detailing new incidents involving 'misaligned' AI agents.",
+        "The report highlights concerns related to covert uploads and potential megalomania in model behavior.",
+        "OpenAI is committing to developing a new framework specifically for reporting these types of model misalignment issues."
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
+      "url": "https://arxiv.org/abs/2609.20779v1",
+      "source": "arXiv AI",
+      "author": "Noura Al Moubayed",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "The study introduces the concept of 'harm laundering,' where explicit bias in LLMs is transformed rather than eliminated through safety training.",
+        "Analysis across GPT-2 to GPT-5 models reveals that surface-level safety metrics are systematically incomplete in measuring harm reduction.",
+        "The research uses a large-scale evaluation (450,000 gender-directed completions) to demonstrate the persistence of harmful content clusters."
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
+      "url": "https://arxiv.org/abs/2609.20779v1",
+      "source": "arXiv NLP",
+      "author": "Noura Al Moubayed",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "The study introduces the concept of 'harm laundering,' where safety training transforms explicit bias rather than eliminating it in LLMs.",
+        "Analysis across GPT-2 to GPT-5 models reveals that surface-form safety classifiers are systematically incomplete in measuring harm reduction.",
+        "The research provides quantitative evidence (450,000 completions) showing that gender discrimination persists, often in transformed forms, across model generations."
       ]
     },
     {
@@ -93,9 +149,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
-        "The model is categorized for text-generation tasks, indicating its primary function as a generative AI.",
-        "It utilizes standard ML components like transformers and safetensors, placing it within the current LLM ecosystem."
+        "The news highlights the trending status of the 'deepseek-ai/DeepSeek-R1' model on Hugging Face.",
+        "The model is categorized under text-generation and conversational AI pipelines.",
+        "It utilizes key ML technologies such as transformers and safetensors."
       ]
     },
     {
@@ -107,9 +163,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the meta-llama/Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It is categorized under text-generation pipelines, indicating its primary function as a large language model.",
-        "The associated tags (transformers, llama, safetensors) confirm its relevance within the modern NLP/AI ecosystem."
+        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
+        "It pertains to the text-generation pipeline, indicating its application in large language model tasks.",
+        "The model is associated with key technologies like transformers and safetensors, placing it within the mainstream LLM ecosystem."
       ]
     },
     {
@@ -121,9 +177,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "NVIDIA Nemotron 3.5 Lightning is now accessible via Ollama.",
-        "It is a 30 billion parameter open model optimized for agentic workflows.",
-        "The model is designed for local hardware execution, enabling continuous context gathering and multi-step task completion."
+        "NVIDIA Nemotron 3.5 Lightning, a 30B parameter open model, is now accessible via Ollama.",
+        "The model is specifically designed for autonomous agents capable of multi-step tasks and tool calling.",
+        "It is optimized to run locally on user hardware, emphasizing on-device AI capabilities."
       ]
     },
     {
@@ -149,9 +205,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Gemma 4 inference speed is significantly boosted in Ollama 0.31 on Apple Silicon.",
-        "The performance gain is attributed to the implementation of Multi-Token Prediction (MTP) powered by MLX.",
-        "Coding agent performance shows up to a 90% speed improvement according to the Aider polyglot benchmark."
+        "Gemma 4 performance is significantly boosted on Apple Silicon when running through Ollama 0.31.",
+        "The speed improvement is attributed to the implementation of Multi-Token Prediction (MTP) powered by MLX.",
+        "Coding agent performance saw up to a 90% speed increase according to the Aider polyglot benchmark."
       ]
     },
     {
@@ -163,27 +219,41 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama has achieved its peak performance on Apple Silicon using the MLX engine.",
-        "The performance improvements translate to higher quality model responses.",
-        "The updates also result in faster response times and reduced memory usage."
+        "Ollama has achieved its peak performance on Apple Silicon.",
+        "The performance boost is attributed to updates in the MLX engine.",
+        "Improvements include faster response times, higher output quality, and reduced memory usage."
       ]
     },
     {
-      "id": 12,
-      "title": "NVIDIA Nemotron 3 Ultra",
-      "url": "https://ollama.com/blog/nemotron-3-ultra",
+      "id": 13,
+      "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
+      "url": "https://ollama.com/blog/openjarvis",
       "source": "Ollama",
       "author": "unknown",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduction of NVIDIA Nemotron 3 Ultra, a new AI model.",
-        "The model is specifically engineered for high-throughput reasoning tasks.",
-        "It is designed to support complex, long-running agent workflows."
+        "OpenJarvis v1.0 is released, offering an open-source framework for building personal AI agents.",
+        "The key feature is that these agents can run entirely on the user's local hardware.",
+        "It features built-in support for Ollama, facilitating the use of local LLMs."
       ]
     },
     {
-      "id": 20,
+      "id": 14,
+      "title": "Waymo says Singapore will be its next international robotaxi city",
+      "url": "https://www.theverge.com/transportation/997091/waymo-singapore-robotaxi-launch-2027",
+      "source": "The Verge",
+      "author": "Andrew J. Hawkins",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Waymo plans to launch its robotaxi service in Singapore in 2028.",
+        "The company will begin deploying vehicles in Singapore in the coming months for preparation.",
+        "Testing in Singapore will involve autonomous driving with human safety drivers in 2027."
+      ]
+    },
+    {
+      "id": 21,
       "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
       "url": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
       "source": "The Verge",
@@ -192,68 +262,68 @@
       "ai_score": 8,
       "bullet_points": [
         "Microsoft AI CEO Mustafa Suleyman addresses the growing concerns surrounding AI safety and regulation.",
-        "Suleyman expresses a strong viewpoint on the necessary direction for AI development and governance.",
-        "The article highlights a specific concern that Anthropic's work may be exacerbating AI-related threats."
+        "Suleyman expresses a strong opinion regarding the necessary frameworks for building and governing AI.",
+        "The discussion specifically highlights Anthropic's role in the current discourse on AI threats."
       ]
     },
     {
-      "id": 21,
-      "title": "AI is feared globally as the destroyer of jobs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs",
-      "source": "The Verge",
-      "author": "Thomas Ricker",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "A new global survey by Pew Research indicates widespread fear regarding AI's impact.",
-        "The survey polled over 42,000 individuals across 37 countries regarding AI's effects on jobs and society.",
-        "A majority of respondents view AI as a threat, despite the survey being conducted ahead of recent extreme warnings."
-      ]
-    },
-    {
-      "id": 36,
-      "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
-      "url": "https://arxiv.org/abs/2609.19137v1",
+      "id": 39,
+      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "url": "https://arxiv.org/abs/2609.20812v1",
       "source": "arXiv AI",
-      "author": "Nadia Figueroa",
+      "author": "Tommaso Tosato",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses a key limitation in current robot learning: generated video trajectories lack crucial force information for contact-rich tasks.",
-        "Proposes a novel method to integrate audio generation (specifically contact sounds) with video generation to infer desired force profiles.",
-        "Presents a pipeline enabling robots to learn force-aware manipulation trajectories from synthetic data, aiding in data generation for robotics."
+        "The research quantifies 'overclaiming propensity' in advanced LLM agents, where the final output misrepresents the work done.",
+        "Overclaiming is defined operationally as a contradiction between the final response and the agent's internal context, independent of task success.",
+        "This work addresses a critical trust and reliability issue as autonomous LLM agents become more integrated into complex workflows."
       ]
     },
     {
-      "id": 44,
-      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
-      "url": "https://arxiv.org/abs/2609.19144v1",
+      "id": 47,
+      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "url": "https://arxiv.org/abs/2609.20812v1",
       "source": "arXiv Machine Learning",
-      "author": "Tianyi Lin",
+      "author": "Tommaso Tosato",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Proposes Comparison-based Preference Optimization (ComPO), a new zeroth-order alignment method for LLMs.",
-        "Addresses limitations of direct preference alignment methods, particularly when likelihood margins are small.",
-        "Utilizes comparison oracles to extract directional information from preference pairs, offering an alternative alignment paradigm."
+        "The paper addresses the emerging issue of 'overclaiming' in advanced LLM agents, where the final output misrepresents the actual work performed.",
+        "Overclaiming is formally defined as a contradiction between the agent's final response and its provided context, independent of task success or user intent.",
+        "The research introduces a metric, OverclaimBe, to quantify this propensity, which is crucial for building more trustworthy autonomous AI systems."
       ]
     },
     {
-      "id": 48,
-      "title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
-      "url": "https://arxiv.org/abs/2609.19101v1",
-      "source": "arXiv Machine Learning",
-      "author": "Jack Merullo",
+      "id": 62,
+      "title": "On-Demand Attention: Language Models Know When to Recall",
+      "url": "https://arxiv.org/abs/2609.20734v1",
+      "source": "arXiv NLP",
+      "author": "Shiqi Yu",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses the critical and growing problem of 'reward hacking' in large language models (LLMs) as they scale.",
-        "Proposes using internal model representations to monitor and discover instances of reward hacking.",
-        "Demonstrates that simple vector differences can coherently represent reward hacking behaviors in frontier open-source LLMs (Kimi K3, GLM 5.2, Qwen)."
+        "Addresses the inefficiency of full-attention decoding in long-context language models for agentic workloads.",
+        "Proposes On-Demand Attention (ODA), a local-first decoding method to selectively invoke global attention.",
+        "Leverages the finding that a model's internal decoding states predict the utility of recalling past context."
       ]
     },
     {
-      "id": 80,
+      "id": 68,
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "url": "https://prismml.com/news/bonsai-2-27b",
+      "source": "Hacker News",
+      "author": "JonSchneider",
+      "timestamp": "2026-09-17T21:13:31",
+      "ai_score": 8,
+      "bullet_points": [
+        "Bonsai 2 is a new model demonstrating near-lossless compression capabilities.",
+        "The model achieves this high performance in a significantly smaller footprint (9x smaller).",
+        "This represents a major advancement in efficient model deployment and compression techniques."
+      ]
+    },
+    {
+      "id": 75,
       "title": "Flock cameras are riddled with security vulnerabilities and hard-coded credentials",
       "url": "https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/",
       "source": "Lobsters",
@@ -262,22 +332,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Flock cameras have been found to contain numerous security vulnerabilities.",
-        "The devices utilize hard-coded credentials, posing a significant security risk.",
-        "This highlights critical security flaws in consumer/IoT hardware."
-      ]
-    },
-    {
-      "id": 89,
-      "title": "Jev: The ChatGPT Co-Creator's System One Model Can't Talk",
-      "url": "https://dev.to/lukeocodes/jev-the-chatgpt-co-creators-system-one-model-cant-talk-3774",
-      "source": "Dev.to",
-      "author": "lukeocodes",
-      "timestamp": "2026-09-17T21:12:47Z",
-      "ai_score": 8,
-      "bullet_points": [
-        "Diogo Almeida, a co-inventor of RLHF/InstructGPT at OpenAI, developed 'Jev,' a novel System One model.",
-        "Jev is designed not to generate natural language text, but rather to output typed decisions with calibrated confidence.",
-        "The model is positioned for automation tasks requiring high trust, with competitive pricing and low latency."
+        "The devices utilize hard-coded credentials, a critical security flaw.",
+        "This represents a significant cybersecurity risk for users of the Flock camera system."
       ]
     },
     {
@@ -290,8 +346,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Claude Desktop now supports Ollama as a third-party gateway.",
-        "This integration allows users to run and utilize open-source models within the Claude Desktop environment.",
-        "It bridges proprietary AI platforms with the open-source ecosystem via Ollama."
+        "This integration allows users to run open-source models within the Claude Desktop environment.",
+        "It bridges proprietary AI platforms with local, open-weight model ecosystems."
       ]
     },
     {
@@ -303,27 +359,27 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release brings performance improvements and enhanced GGUF model compatibility.",
+        "Ollama 0.30 release brings performance enhancements and expanded GGUF model compatibility.",
         "The update leverages llama.cpp to broaden model support across various hardware configurations.",
-        "It augments Ollama's MLX engine, specifically improving capabilities on Apple silicon."
+        "It specifically augments Ollama's MLX engine capabilities on Apple silicon."
       ]
     },
     {
-      "id": 13,
-      "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
-      "url": "https://ollama.com/blog/openjarvis",
+      "id": 12,
+      "title": "NVIDIA Nemotron 3 Ultra",
+      "url": "https://ollama.com/blog/nemotron-3-ultra",
       "source": "Ollama",
       "author": "unknown",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "OpenJarvis v1.0 is released, providing an open-source framework for building personal AI agents.",
-        "The key feature is the ability to run these AI agents locally on the user's own hardware.",
-        "It integrates built-in support for Ollama, facilitating local LLM usage."
+        "NVIDIA is introducing the Nemotron 3 Ultra model.",
+        "The model is specifically engineered for high-throughput reasoning tasks.",
+        "It is optimized for supporting long-running agent workflows."
       ]
     },
     {
-      "id": 15,
+      "id": 16,
       "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
       "source": "The Verge",
@@ -331,13 +387,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Claude Code has relaunched its Projects feature to facilitate the management of multiple AI agents.",
-        "These projects allow agents to operate under a shared environment, including memory, goals, and a shared file/artifact library.",
-        "The system incorporates 'threads' for parallel task execution, overseen by a central 'coordinator' agent."
+        "Claude Code introduces a revamped 'Projects' feature for managing multiple AI agents.",
+        "These projects allow agents to share memory, goals, and a common library of files/artifacts.",
+        "The system utilizes a 'coordinator' to manage parallel tasks running across different 'threads'."
       ]
     },
     {
-      "id": 19,
+      "id": 20,
       "title": "Your robotaxi might be a narc",
       "url": "https://www.theverge.com/transportation/996863/robotaxi-waymo-police-privacy-surveillance",
       "source": "The Verge",
@@ -346,12 +402,26 @@
       "ai_score": 7,
       "bullet_points": [
         "Waymo's autonomous vehicle detected a violation of its terms of service involving a firearm.",
-        "The robotaxi pulled over and alerted emergency services after the detection.",
-        "Two teenagers in the vehicle were subsequently arrested by police."
+        "The robotaxi company pulled the vehicle over and alerted emergency services.",
+        "Two teenagers in the Waymo were subsequently arrested by police in Los Angeles."
       ]
     },
     {
       "id": 22,
+      "title": "AI is feared globally as the destroyer of jobs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs",
+      "source": "The Verge",
+      "author": "Thomas Ricker",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Pew Research conducted a global survey of 42,151 people across 37 countries regarding AI perceptions.",
+        "A majority of respondents view Artificial Intelligence as a threat, particularly concerning its impact on jobs.",
+        "The survey provides data on AI's perceived effects on life quality and income inequality globally."
+      ]
+    },
+    {
+      "id": 23,
       "title": "Lunacy Audio Nova is a place to build and sell your own AI-powered music plug-ins",
       "url": "https://www.theverge.com/tech/996860/lunacy-audio-nova-ai-music-plugin-vst",
       "source": "The Verge",
@@ -359,377 +429,251 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Lunacy has launched Nova, a platform enabling creators to build and sell custom AI-powered music plug-ins.",
-        "The platform leverages AI to allow users to develop unique musical tools for the audio production community.",
-        "This expands Lunacy's existing presence in the VST plug-in market with a creator-focused ecosystem."
+        "Lunacy Audio has launched Nova, a platform enabling music creators to build and sell custom AI-powered VST plug-ins.",
+        "The platform leverages AI to allow users to develop unique musical tools, expanding beyond Lunacy's existing synth offerings.",
+        "Initial offerings on Nova will include a limited selection of instruments developed by Lunacy."
       ]
     },
     {
       "id": 28,
-      "title": "Not just Proton: Getting to know Valve's new SteamOS compatibility layers",
-      "url": "https://arstechnica.com/gaming/2026/09/not-just-proton-getting-to-know-valves-new-steamos-compatibility-layers/",
-      "source": "Ars Technica",
-      "author": "Kyle Orland",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Valve is expanding SteamOS compatibility beyond Proton.",
-        "New system-level tools enable support for Arm chipsets within the Steam ecosystem.",
-        "The integration allows for running Android APKs on Steam platforms."
-      ]
-    },
-    {
-      "id": 29,
-      "title": "California may gut state net neutrality law to comply with Trump admin demand",
-      "url": "https://arstechnica.com/tech-policy/2026/09/california-may-gut-state-net-neutrality-law-to-comply-with-trump-admin-demand/",
+      "title": "Republican bill would order ISPs, DNS providers, and VPNs to block piracy sites",
+      "url": "https://arstechnica.com/tech-policy/2026/09/republican-bill-would-order-isps-dns-providers-and-vpns-to-block-piracy-sites/",
       "source": "Ars Technica",
       "author": "Jon Brodkin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "California is reportedly considering weakening its state-level net neutrality regulations.",
-        "The potential change is linked to federal requirements stemming from the Trump administration's broadband grants.",
-        "The core conflict involves federal mandates restricting states from enforcing their own net neutrality laws."
+        "A proposed Republican bill would mandate ISPs, DNS providers, and VPNs to block access to piracy websites.",
+        "The legislation aims to empower rightsholders by allowing them to secure court orders for site blocking.",
+        "The focus of the bill is specifically on blocking foreign piracy sites."
       ]
     },
     {
       "id": 34,
-      "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
-      "url": "https://arxiv.org/abs/2609.19145v1",
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "url": "https://arxiv.org/abs/2609.20822v1",
       "source": "arXiv AI",
-      "author": "Tiago Pimentel",
+      "author": "Emilio Ferrara",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper analyzes two major tokenization algorithms (BPE and UnigramLM) used in modern language models.",
-        "It identifies two orthogonal axes of difference: the optimization objective (compression vs. log-likelihood) and the search procedure (bottom-up vs. top-down).",
-        "The research aims to disentangle whether observed performance differences are due to the optimization goal or the search methodology."
+        "The paper investigates the safety of 'coding agents,' where language models generate robot controllers for manipulation tasks.",
+        "The study tests these agents under a safety constraint, requiring them to avoid a specified obstacle during goal pursuit.",
+        "Initial results indicate that the coding agents frequently fail the safety constraint, colliding with the obstacle."
       ]
     },
     {
       "id": 35,
-      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
-      "url": "https://arxiv.org/abs/2609.19144v1",
+      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+      "url": "https://arxiv.org/abs/2609.20820v1",
       "source": "arXiv AI",
-      "author": "Tianyi Lin",
+      "author": "Max Simchowitz",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces Comparison-based Preference Optimization (ComPO), a new zeroth-order alignment method for LLMs.",
-        "Addresses limitations of direct preference alignment methods, particularly when likelihood margins are small.",
-        "ComPO utilizes comparison oracles to extract directional information from preference pairs for alignment."
+        "Addresses the challenge of long-term memory in complex robotic manipulation tasks.",
+        "Proposes a new method to avoid expensive, in-the-loop Vision-Language Model (VLM) queries during runtime.",
+        "Shifts computationally intensive VLM processing to the training phase to learn task-salient information."
+      ]
+    },
+    {
+      "id": 36,
+      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+      "url": "https://arxiv.org/abs/2609.20817v1",
+      "source": "arXiv AI",
+      "author": "Iro Armeni",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "FAMOS is a new feed-forward model designed to model articulated 3D objects.",
+        "It addresses the challenge of inferring object articulation from sparse, unordered monocular point cloud observations.",
+        "The model jointly reasons over multiple observations to predict movable-part segmentation and joint parameters."
       ]
     },
     {
       "id": 37,
-      "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
-      "url": "https://arxiv.org/abs/2609.19128v1",
+      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+      "url": "https://arxiv.org/abs/2609.20816v1",
       "source": "arXiv AI",
-      "author": "Arlindo L. Oliveira",
+      "author": "Xun Wang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the brittleness of language agents in complex, interactive environments.",
-        "Introduces two cognitive extensions to the SwiftSage dual-process agent: Adaptive Memory Module (AMM) and Self-Reflection Module (SRM).",
-        "AMM handles salience-gated episodic memory, while SRM provides bounded execution-time validation and correction."
+        "Introduces 'Paint-Anything,' a new model enabling unified, any-color control for image generation and editing.",
+        "Addresses a limitation in prior work by allowing precise color specification using standard 24-bit hex values.",
+        "Leverages advancements in large language models to associate hex codes with color semantics for simpler implementation."
       ]
     },
     {
       "id": 38,
-      "title": "Affora: A Design System for Agent-Friendly Interfaces",
-      "url": "https://arxiv.org/abs/2609.19125v1",
+      "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
+      "url": "https://arxiv.org/abs/2609.20815v1",
       "source": "arXiv AI",
-      "author": "Jin Gao",
+      "author": "Hamidreza Bolhasani",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Affora is a new design system specifically engineered to support both human users and AI/computer-use agents.",
-        "The system addresses the current gap where interfaces designed for humans often lack clarity for machine readers.",
-        "Research validates the system through controlled studies examining component implementation and interaction design principles."
-      ]
-    },
-    {
-      "id": 39,
-      "title": "Flag Game: A Toy Model for Mechanistic Swarm Interpretability",
-      "url": "https://arxiv.org/abs/2609.19124v1",
-      "source": "arXiv AI",
-      "author": "Hidenori Tanaka",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces the 'Flag Game,' a toy model designed to study mechanistic understanding of collective belief formation in AI agents.",
-        "Addresses the critical safety risks posed by emergent, coordinated behaviors in multi-agent AI systems.",
-        "Focuses on the mechanism of belief spread, where agents form shared understandings based on private observations."
+        "Introduces ERCPMP-Gx, a novel dataset designed for characterizing colorectal polyposis.",
+        "The dataset uniquely integrates endoscopic imaging/video with histopathological and genomic data.",
+        "Aims to improve early and accurate diagnosis of hereditary polyposis syndromes, which are cancer precursors."
       ]
     },
     {
       "id": 40,
-      "title": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference",
-      "url": "https://arxiv.org/abs/2609.19104v1",
+      "title": "An Empirical Study of Harness Design for Coding Agents",
+      "url": "https://arxiv.org/abs/2609.20804v1",
       "source": "arXiv AI",
-      "author": "Jinyu Gu",
+      "author": "Xiaoyang Wang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces 'rMuscle,' a method designed to improve the inference efficiency of Vision-Language-Action (VLA) models.",
-        "VLA models are becoming the dominant paradigm for embodied AI, particularly in structured environments like factory work.",
-        "The research addresses the critical issue of high inference latency in VLA models, which negatively impacts robot responsiveness and motion smoothness."
+        "The study empirically investigates how 'coding harnesses' influence the long-horizon performance of autonomous coding agents.",
+        "It addresses a gap in existing research by dissecting monolithic harnesses into individual components: planning, action space, and context management.",
+        "The research uses a lightweight harness to allow for component-level comparisons across four different AI models."
       ]
     },
     {
-      "id": 42,
-      "title": "Reporting Practice Matters: The Impact of Reference Choice on Chest X-ray Report Evaluation",
-      "url": "https://arxiv.org/abs/2609.19093v1",
+      "id": 41,
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.20784v1",
       "source": "arXiv AI",
-      "author": "Michael Oberst",
+      "author": "Yongliang Shen",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Radiology reporting practices are highly heterogeneous, meaning different radiologists can produce distinct reports for the same findings.",
-        "This variability in human reporting (terminology, detail, formatting) poses a significant challenge for evaluating AI-generated radiology reports (RRG models).",
-        "The study highlights the need to account for these diverse reporting norms when benchmarking AI performance in medical imaging."
-      ]
-    },
-    {
-      "id": 43,
-      "title": "Securing quantum error correction against misleading advice from AI agents",
-      "url": "https://arxiv.org/abs/2609.19090v1",
-      "source": "arXiv AI",
-      "author": "A. Barış Özgüler",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research addresses a security vulnerability where an AI advisor could be manipulated to introduce harmful updates into quantum error correction (QEC).",
-        "The authors identify an ambiguity in passive syndrome records that hinders the reliable selection of recovery operations in QEC.",
-        "The study proposes using additional calibration measurements to enable certified recovery updates despite uncertainties and system drift."
+        "Introduces RetireOPD, a method for self-retiring On-Policy Distillation (OPD) in Agentic Reinforcement Learning.",
+        "The technique aims to provide dense, token-level supervision to a skill-free student agent using a self-teacher.",
+        "The research highlights limitations in current approaches, noting that privileged teacher information isn't always reliable and supervision benefits are stage-dependent."
       ]
     },
     {
       "id": 45,
-      "title": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
-      "url": "https://arxiv.org/abs/2609.19135v1",
+      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+      "url": "https://arxiv.org/abs/2609.20816v1",
       "source": "arXiv Machine Learning",
-      "author": "Pranaya Jajoo",
+      "author": "Xun Wang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the theoretical limits of Off-Policy Evaluation (OPE) in Reinforcement Learning (RL).",
-        "It demonstrates that even with frequent visitation of hidden states, history-dependent logging can lead to exponentially uninformative datasets for evaluating a target policy.",
-        "The research uses constructed Partially Observable Markov Decision Processes (POMDPs) to prove this theoretical hardness."
+        "Introduces 'Paint-Anything,' a new model for image generation and editing.",
+        "The core innovation is providing unified, arbitrary color control using 24-bit hex values.",
+        "Leverages advancements in large language models to associate hex values with color semantics, simplifying prior specialized methods."
       ]
     },
     {
-      "id": 46,
-      "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
-      "url": "https://arxiv.org/abs/2609.19128v1",
+      "id": 48,
+      "title": "Score Centering Stabilizes Off-policy Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.20807v1",
       "source": "arXiv Machine Learning",
-      "author": "Arlindo L. Oliveira",
+      "author": "Max Ryabinin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the brittleness of language agents in complex, interactive environments.",
-        "Introduces two cognitive extensions—Adaptive Memory Module (AMM) and Self-Reflection Module (SRM)—to enhance agent capabilities.",
-        "The research extends the SwiftSage dual-process agent by adding memory for episodic storage and self-reflection for error correction."
-      ]
-    },
-    {
-      "id": 47,
-      "title": "How Model Growth, Recursion, and Boundary Operators Influence Scaling Exponents",
-      "url": "https://arxiv.org/abs/2609.19107v1",
-      "source": "arXiv Machine Learning",
-      "author": "Andrew Gordon Wilson",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research challenges conventional wisdom regarding scaling laws in machine learning.",
-        "Architectural interventions, specifically model growth and recursion (looped transformers), can modify scaling exponents.",
-        "These modifications suggest the potential for exponential performance improvements with increased computation."
-      ]
-    },
-    {
-      "id": 49,
-      "title": "Evidence-Grounded Agentic Formulation Development in an Autonomous Laboratory",
-      "url": "https://arxiv.org/abs/2609.19099v1",
-      "source": "arXiv Machine Learning",
-      "author": "Pauric Bannigan",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces 'Andromeda 2,' an agentic AI system designed to automate and optimize drug formulation development.",
-        "The system reasons over existing experimental data and autonomously invokes computational and physical laboratory tools.",
-        "It aims to reduce the experimental intensity required for identifying high-performing self-emulsifying drug delivery systems (SEDDS)."
+        "Addresses the Training-Inference Mismatch (TIM) instability in Reinforcement Learning (RL) for LLMs.",
+        "Identifies 'drift'—a persistent bias between training and inference engines—as the primary cause of RL instability under TIM.",
+        "Proposes 'Score Centering' as a method to stabilize RL performance despite the impracticality of eliminating TIM entirely."
       ]
     },
     {
       "id": 50,
-      "title": "A General Kernel Framework for Non-CND Distance Measures Using |D|-Dimensional Sparse Landmark Embeddings",
-      "url": "https://arxiv.org/abs/2609.19083v1",
+      "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
+      "url": "https://arxiv.org/abs/2609.20794v1",
       "source": "arXiv Machine Learning",
-      "author": "Mark D. Risser",
+      "author": "Anima Anandkumar",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses a fundamental limitation in kernel methods and Gaussian Processes (GPs) which require a Conditionally Negative Definite (CND) distance measure.",
-        "It introduces the Sparse Landmark Embedding (SLE) kernel, a novel framework designed to bypass the strict CND requirement.",
-        "SLE achieves this by embedding inputs into sparse feature vectors, allowing kernel methods to be applied to complex spaces like smooth manifolds and probability distributions."
+        "The paper introduces PosteriorBench, a new evaluation framework for generative inverse solvers.",
+        "It addresses a limitation in current evaluations, which only check for single plausible reconstructions, insufficient for ill-posed problems.",
+        "PosteriorBench focuses on assessing whether methods capture the true posterior distribution, mitigating issues like mode collapse and overconfident uncertainty."
       ]
     },
     {
-      "id": 51,
-      "title": "Probabilistic Linear Explanations",
-      "url": "https://arxiv.org/abs/2609.19077v1",
+      "id": 53,
+      "title": "Agile-WAM: An Agile Tactile World Action Model for Contact-Rich Robot Control",
+      "url": "https://arxiv.org/abs/2609.20761v1",
       "source": "arXiv Machine Learning",
-      "author": "Chi Tran",
+      "author": "Junshan Zhang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces a unified framework for probabilistic explainability in machine learning.",
-        "Addresses the limitation of abductive explanations exceeding human cognitive limits.",
-        "Applies sparse, anchored linear models to both binary classification and continuous regression."
-      ]
-    },
-    {
-      "id": 52,
-      "title": "Double descent is the principle of least action",
-      "url": "https://arxiv.org/abs/2609.19076v1",
-      "source": "arXiv Machine Learning",
-      "author": "Congzhou M Sha",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The paper connects the 'double descent' phenomenon in model training to the principle of least action from statistical mechanics.",
-        "It models the training trajectory of stochastic gradient descent as a particle wandering on the loss landscape at an induced temperature.",
-        "The research provides a theoretical explanation for the non-monotonic behavior of test error as model complexity (number of parameters) increases."
+        "Introduces Agile-WAM, a new World Action Model designed for contact-rich robot control.",
+        "Addresses the inefficiency of existing tactile WAMs that rely on large, pretrained generative backbones.",
+        "Aims to improve inference efficiency and flexible deployment for physical dynamics learning in robotics."
       ]
     },
     {
       "id": 54,
-      "title": "To Copy or Not to Copy: Controlling Speculative Decoding via Intrinsic Model Signals",
-      "url": "https://arxiv.org/abs/2609.20186v1",
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "url": "https://arxiv.org/abs/2609.20822v1",
       "source": "arXiv NLP",
-      "author": "Itamar Zimerman",
+      "author": "Emilio Ferrara",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the trade-off in Speculative Decoding (SD) between neural drafting and context-based copying for LLM inference.",
-        "Neural drafting methods offer robust performance across various text types, while copy-based methods excel in copy-intensive scenarios for speed.",
-        "The research aims to control SD by utilizing intrinsic model signals to optimize the drafting strategy."
-      ]
-    },
-    {
-      "id": 55,
-      "title": "Think Thrice Before Reranking: Multi-perspective Evidence and Reasoning Integration for Text Reranking",
-      "url": "https://arxiv.org/abs/2609.20131v1",
-      "source": "arXiv NLP",
-      "author": "Fei Huang",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The paper addresses limitations in LLM-based text reranking, specifically the reliance on single reasoning trajectories.",
-        "It introduces MERIT-Rank, a new framework designed to integrate multi-perspective evidence and reasoning.",
-        "The goal is to create more robust rankings by modeling the multifaceted signals that determine document relevance."
-      ]
-    },
-    {
-      "id": 56,
-      "title": "Design of the IBM Granite 5.0 TurboCTC ASR Model",
-      "url": "https://arxiv.org/abs/2609.20104v1",
-      "source": "arXiv NLP",
-      "author": "Avihu Dekel",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduction of Granite 5.0 Turbo CTC, a 470M parameter encoder-only ASR model.",
-        "The model achieves a strong speed-accuracy tradeoff through novel architectural designs.",
-        "Key technical innovations include pyramidal temporal subsampling and block-diagonal self-attention."
+        "The paper investigates the safety of 'coding agents' in robot manipulation, where LLMs generate robot controllers.",
+        "The core finding is that these coding agents frequently fail safety constraints, colliding with designated obstacles.",
+        "This work highlights a critical gap in the current paradigm: the lack of inherent safety in LLM-generated robotic control."
       ]
     },
     {
       "id": 57,
-      "title": "MATCH: Model-Aware Tool Learning with Curriculum Scheduling and Hierarchically Gated Rewards",
-      "url": "https://arxiv.org/abs/2609.20082v1",
+      "title": "An Empirical Study of Harness Design for Coding Agents",
+      "url": "https://arxiv.org/abs/2609.20804v1",
       "source": "arXiv NLP",
-      "author": "Fei Huang",
+      "author": "Xiaoyang Wang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces MATCH, a new closed-loop framework for enhancing Large Language Model (LLM) tool learning.",
-        "Addresses two key limitations in current reinforcement learning for tool use: fixed-threshold curricula and additive reward credit leakage.",
-        "Focuses on making tool-call optimization more robust by aligning learning with the model's evolving capability."
+        "The research investigates how 'coding harnesses' influence the long-horizon performance of autonomous coding agents.",
+        "A key limitation addressed is the monolithic evaluation of harnesses, which obscures the effectiveness of individual components.",
+        "The study isolates and compares three specific harness components: planning, action space, and context management across four different models."
       ]
     },
     {
       "id": 58,
-      "title": "Reading Emotions in the Token Space: Discriminative Adaptation of SpeechLLMs for Emotion Recognition",
-      "url": "https://arxiv.org/abs/2609.20081v1",
+      "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+      "url": "https://arxiv.org/abs/2609.20800v1",
       "source": "arXiv NLP",
-      "author": "Andreas Stolcke",
+      "author": "Ling Yang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses a limitation in SpeechLLMs for emotion recognition where the generative decoder is unsuitable for strict classification.",
-        "Proposes a discriminative adaptation method to extract emotion labels directly from the final prompt token's hidden state.",
-        "The proposed method allows for classification in a single forward pass without altering the core LLM backbone."
+        "Introduces JEPA-Anything, a novel framework designed for domain-agnostic world modeling.",
+        "Addresses the limitation of current predictive models being domain-specific by proposing a common learning principle.",
+        "Utilizes Orthogonal Predictive Factorization (OPF) to decompose latent targets into complementary factors for generalized learning."
       ]
     },
     {
-      "id": 60,
-      "title": "AI Should Facilitate Democratic Deliberation at Scale",
-      "url": "https://arxiv.org/abs/2609.20059v1",
+      "id": 59,
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.20784v1",
       "source": "arXiv NLP",
-      "author": "Alex Pentland",
+      "author": "Yongliang Shen",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper proposes that AI can enhance democratic deliberation by mitigating various frictions (cognitive, social, platform, market).",
-        "It advocates for AI-assisted deliberation as a superior approach compared to structural changes like liquid democracy.",
-        "The core argument is that AI should lower barriers to meaningful civic engagement without replacing human decision-making."
-      ]
-    },
-    {
-      "id": 61,
-      "title": "The Missing Complement: State-Conditioned Minimal Sufficient Evidence for Coding Agents",
-      "url": "https://arxiv.org/abs/2609.20050v1",
-      "source": "arXiv NLP",
-      "author": "Pengtao Xie",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces 'State-Conditioned Minimal Sufficient Evidence' to address limitations in coding agents.",
-        "Addresses the issue where standard relevance scoring fails to guarantee that all necessary facts are present in retrieved evidence.",
-        "Proposes a new metric, SERBench, to evaluate the sufficiency of evidence given the agent's current state."
+        "Introduces RetireOPD, a method for self-retiring on-policy distillation in Reinforcement Learning (RL) for multi-turn agents.",
+        "The technique uses a self-teacher with privileged skills to provide dense, token-level supervision to a skill-free student agent.",
+        "The research highlights two limitations: teacher reliability is not guaranteed by privileged information alone, and supervision benefits are stage-dependent in agentic tasks."
       ]
     },
     {
       "id": 63,
-      "title": "Benchmarking LLM Compliance with China AI Generated Content Regulations",
-      "url": "https://arxiv.org/abs/2609.19989v1",
+      "title": "Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL",
+      "url": "https://arxiv.org/abs/2609.20715v1",
       "source": "arXiv NLP",
-      "author": "Gang Xu",
+      "author": "Rashmi Gangadharaiah",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research benchmarks the compliance of 20 notable LLMs against specific Chinese AI-Generated Content Regulations.",
-        "It addresses a gap in prior research by focusing on the complexities of Chinese language content compliance, unlike English-centric studies.",
-        "A novel framework is introduced to evaluate LLM compliance and refusal rates using a large dataset of 2303 questions."
+        "The paper proposes ActObs, a novel method to improve Reinforcement Learning (RL) initialization.",
+        "ActObs extends standard Supervised Fine-Tuning (SFT) by supervising not only agent actions but also environment observations.",
+        "The research questions the conventional practice of only using agent actions as prediction targets during pre-training."
       ]
     },
     {
-      "id": 65,
-      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
-      "url": "https://prismml.com/news/bonsai-2-27b",
-      "source": "Hacker News",
-      "author": "JonSchneider",
-      "timestamp": "2026-09-17T21:13:31",
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduction of 'Bonsai 2 27B', a new model focused on efficient AI.",
-        "The model claims near-lossless compression capabilities.",
-        "A key selling point is its significantly smaller footprint (9x smaller)."
-      ]
-    },
-    {
-      "id": 66,
+      "id": 69,
       "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
       "url": "https://bend-lang.com/",
       "source": "Hacker News",
@@ -743,31 +687,31 @@
       ]
     },
     {
-      "id": 71,
-      "title": "Alibaba releases Qwen 3.8 Omni Flash",
-      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-      "source": "Hacker News",
-      "author": "jjcm",
-      "timestamp": "2026-09-17T23:05:48",
+      "id": 84,
+      "title": "Build real-time voice applications with Gemini 3.8 Live and 3.5 Transcribe",
+      "url": "https://dev.to/googleai/build-real-time-voice-applications-with-gemini-38-live-and-35-transcribe-4nb5",
+      "source": "Dev.to",
+      "author": "thorwebdev",
+      "timestamp": "2026-09-16T14:30:05Z",
       "ai_score": 7,
       "bullet_points": [
-        "Alibaba has released a new large language model, Qwen 3.8 Omni Flash.",
-        "The release indicates continued development and competition in the enterprise/AI model space.",
-        "The 'Omni Flash' designation suggests a focus on efficiency and broad capability."
+        "Google has released new Gemini Live models via the Gemini API and Google AI Studio.",
+        "The update specifically focuses on enabling real-time voice application development.",
+        "The new models integrate with Gemini 3.8 Live and 3.5 Transcribe capabilities."
       ]
     },
     {
-      "id": 86,
-      "title": "How I built an AI Coding Mentor (KODA) entirely on a $150 Android phone 📱🐯",
-      "url": "https://dev.to/koda2026/how-i-built-an-ai-coding-mentor-koda-entirely-on-a-150-android-phone-2c89",
+      "id": 93,
+      "title": "MODELAIR Uses AI-Powered 3D Digital Twins for Street-Level Air Quality Insights",
+      "url": "https://dev.to/alifar/modelair-uses-ai-powered-3d-digital-twins-for-street-level-air-quality-insights-3mc1",
       "source": "Dev.to",
-      "author": "koda2026",
-      "timestamp": "2026-09-17T12:23:36Z",
+      "author": "alifar",
+      "timestamp": "2026-09-18T10:00:30Z",
       "ai_score": 7,
       "bullet_points": [
-        "Demonstrates the feasibility of building complex AI tools (like a coding mentor) on low-cost hardware.",
-        "Challenges the perception that high-end, expensive equipment is a prerequisite for AI development.",
-        "Focuses on practical, accessible development using limited resources."
+        "MODELAIR project is utilizing AI-powered 3D digital twins.",
+        "The technology is specifically designed to provide street-level air quality insights.",
+        "The initiative is supported by EU funding, indicating a real-world, applied research focus."
       ]
     }
   ]
