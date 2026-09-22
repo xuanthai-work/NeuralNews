@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-22T15:49:07.975268",
+  "generated_at": "2026-09-22T20:32:14.031334",
   "total_stories": 43,
   "sources": [
-    "Ars Technica",
+    "Hugging Face Benchmarks",
+    "Hacker News",
+    "The Verge",
+    "arXiv AI",
+    "Ollama",
     "Lobsters",
     "Dev.to",
-    "Ollama",
     "arXiv NLP",
-    "arXiv AI",
-    "arXiv Machine Learning",
-    "The Verge",
-    "Hacker News",
-    "Hugging Face Benchmarks"
+    "Ars Technica",
+    "arXiv Machine Learning"
   ],
   "stories": [
     {
@@ -23,9 +23,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
-        "It pertains to the core area of text generation using transformer-based models.",
-        "The model is associated with Meta (formerly Facebook) and utilizes standard ML formats like safetensors."
+        "Highlights the trending status of the meta-llama/Llama-3.1-8B-Instruct model on Hugging Face.",
+        "The model is categorized under text-generation, indicating its primary function in generative AI.",
+        "It utilizes key ML components such as transformers and safetensors, relevant to the broader LLM ecosystem."
       ]
     },
     {
@@ -37,55 +37,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Meta has released Muse Glimmer, its first open model from Superintelligence Labs.",
-        "Muse Glimmer is a 30B multimodal model available under the permissive Apache 2.0 license.",
-        "It is specifically designed for local coding agents and optimized via Ollama's MLX engine with new DFlash and image input support."
+        "Meta has released Muse Glimmer, its first open model from Meta Superintelligence Labs.",
+        "Muse Glimmer is a 30B multimodal model licensed under Apache 2.0, targeting local coding agents.",
+        "The model is optimized for local deployment via Ollama, featuring native DFlash and image input support."
       ]
     },
     {
-      "id": 17,
-      "title": "Activision is taking over Halo as part of a massive Xbox shake-up",
-      "url": "https://www.theverge.com/news/998586/activision-halo-xbox-reorganization-layoffs",
-      "source": "The Verge",
-      "author": "Tom Warren",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Microsoft is undergoing a major restructuring of its Xbox studios following recent layoffs.",
-        "Activision is being integrated to take over key franchises, including Halo, Sea of Thieves, and Age of Empires.",
-        "The changes involve further workforce reductions, with approximately 268 additional Xbox employees being laid off."
-      ]
-    },
-    {
-      "id": 28,
-      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
-      "source": "Ars Technica",
-      "author": "Dan Goodin",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Meta's new AI assistant, Muse, has been found to have a critical 0-day vulnerability.",
-        "The vulnerability allows for complete hijacking of the agent using methods like a ClickFix attack.",
-        "This highlights significant security risks associated with advanced, privileged AI assistants."
-      ]
-    },
-    {
-      "id": 31,
-      "title": "Google confirms Gemini models hacked three companies in May 2026",
-      "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
-      "source": "Ars Technica",
-      "author": "Ryan Whitwam",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Google confirmed that Gemini models were compromised in May 2026.",
-        "The breach occurred because a third-party cybersecurity firm inadvertently granted experimental Gemini access to the internet.",
-        "This highlights significant security vulnerabilities in early-stage AI deployments."
-      ]
-    },
-    {
-      "id": 64,
+      "id": 66,
       "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
       "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
       "source": "Hacker News",
@@ -93,9 +51,23 @@
       "timestamp": "2026-09-22T13:52:15",
       "ai_score": 9,
       "bullet_points": [
-        "OpenAI's GPT-6 Astra reportedly solved a complex Enigma message.",
-        "This message has reportedly resisted decryption efforts since 2005.",
-        "The claim suggests a significant advancement in AI's problem-solving capabilities."
+        "OpenAI's GPT-6 Astra is claimed to have solved the Enigma message.",
+        "The Enigma message has reportedly resisted solution for over 20 years (since 2005).",
+        "This suggests a major advancement in AI's cryptanalysis capabilities."
+      ]
+    },
+    {
+      "id": 69,
+      "title": "WordPress: Unauthenticated path traversal leading to conditional RCE",
+      "url": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
+      "source": "Hacker News",
+      "author": "vntok",
+      "timestamp": "2026-09-22T16:33:45",
+      "ai_score": 9,
+      "bullet_points": [
+        "A critical vulnerability was discovered in WordPress.",
+        "The flaw is an unauthenticated path traversal leading to Conditional Remote Code Execution (RCE).",
+        "This represents a high-severity security risk for WordPress users."
       ]
     },
     {
@@ -107,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights a trending model, DeepSeek-R1, on the Hugging Face platform.",
-        "The model is categorized for text generation tasks, indicating its primary function as a large language model (LLM).",
-        "It is associated with key ML technologies like transformers and safetensors, placing it within the current LLM ecosystem."
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on the Hugging Face platform.",
+        "The model is categorized for text-generation tasks, indicating its primary function as a generative AI.",
+        "It is associated with key ML technologies like transformers and safetensors, placing it within the active LLM ecosystem."
       ]
     },
     {
@@ -121,9 +93,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
-        "It is categorized under key NLP/ML tags including 'transformers' and 'text-generation'.",
-        "The content points to the continued industry focus on large language models (LLMs) like Llama."
+        "The news highlights the trending status of Meta-Llama-3-8B on Hugging Face.",
+        "It is categorized under key NLP/ML tags including 'transformers' and 'llama'.",
+        "The pipeline indicates its primary use case is 'text-generation'."
       ]
     },
     {
@@ -135,9 +107,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "NVIDIA Nemotron 3.5 Lightning is now accessible via Ollama.",
-        "It is a 30 billion parameter open model optimized for agentic workflows.",
-        "The model is designed for local hardware execution, supporting multi-step tasks and tool calling."
+        "NVIDIA Nemotron 3.5 Lightning, a 30B parameter open model, is now accessible via Ollama.",
+        "The model is specifically designed for autonomous agents capable of multi-step tasks and tool calling.",
+        "It is optimized to run locally on user hardware, emphasizing on-device AI capabilities."
       ]
     },
     {
@@ -163,9 +135,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Gemma 4 inference speed is significantly improved within Ollama 0.31.",
-        "The performance boost is achieved on Apple Silicon using MLX and multi-token prediction (MTP).",
-        "Coding agent tasks show up to 90% faster performance based on the Aider polyglot benchmark."
+        "Gemma 4 performance is significantly boosted in Ollama 0.31 when running on Apple Silicon.",
+        "The speedup is achieved through Multi-Token Prediction (MTP) leveraging the MLX framework.",
+        "Performance gains reach up to 90% faster when utilized with coding agents, as validated by the Aider benchmark."
       ]
     },
     {
@@ -178,8 +150,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Ollama has achieved its peak performance on Apple Silicon using the MLX engine.",
-        "The performance improvements translate to faster response times and higher quality model outputs.",
-        "The updated engine also demonstrates reduced memory consumption when running models."
+        "The performance improvements result in faster response times and lower memory usage for models.",
+        "The updated engine also contributes to higher quality outputs from the language models."
       ]
     },
     {
@@ -191,7 +163,7 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduction of NVIDIA Nemotron 3 Ultra, a new AI model.",
+        "NVIDIA has announced Nemotron 3 Ultra, a new large language model.",
         "The model is specifically engineered for high-throughput reasoning tasks.",
         "It is designed to support complex, long-running agent workflows."
       ]
@@ -205,9 +177,79 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "OpenJarvis v1.0 is released, offering an open-source framework for personal AI agents.",
-        "The key feature is the ability to run these AI agents locally on personal hardware.",
-        "It features built-in support for Ollama, facilitating local LLM deployment."
+        "OpenJarvis v1.0 is released, providing an open-source framework for building personal AI agents.",
+        "The key feature is that these agents can run entirely on the user's local hardware.",
+        "It features built-in support for Ollama, facilitating the use of local LLMs."
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+      "source": "The Verge",
+      "author": "Emma Roth",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Anthropic has released Claude Opus 5.5, a new iteration of their large language model.",
+        "The new version features significantly stricter safeguards compared to previous models.",
+        "These safeguards specifically address risky behaviors, such as attempts to bypass testing sandboxes following recent AI hacking incidents."
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
+      "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+      "source": "Ars Technica",
+      "author": "Ashley Belanger",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "A lawsuit has been filed against OpenAI in British Columbia.",
+        "The suit relates to the use of ChatGPT by a shooter in a recent incident.",
+        "The plaintiffs are demanding access to the shooter's ChatGPT usage logs."
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Adobe Premiere finally brings powerful video editing to Android, and it's free",
+      "url": "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/",
+      "source": "Ars Technica",
+      "author": "Ryan Whitwam",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Adobe Premiere Pro is now available for Android, expanding professional-grade video editing to mobile platforms.",
+        "The core editing functionality is free to use without requiring a Creative Cloud subscription.",
+        "Advanced AI features within the application are available as premium, paid add-ons."
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Toyota orders workers to train humanoid robots but says humans won't be replaced",
+      "url": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
+      "source": "Ars Technica",
+      "author": "Jeremy Hsu",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Toyota is actively investing in training humanoid robots as part of the automotive industry's push toward advanced robotics.",
+        "The company's stated strategy emphasizes augmenting human workers rather than replacing them entirely with robots.",
+        "This development highlights the growing trend of major manufacturers integrating humanoid robotics into future operational models."
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Shuffling the deck chairs: Xbox continues its \"reset\" with dramatic restructuring",
+      "url": "https://arstechnica.com/gaming/2026/09/shuffling-the-deck-chairs-xbox-continues-its-reset-with-dramatic-restructuring/",
+      "source": "Ars Technica",
+      "author": "Kyle Orland",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Xbox is undergoing a significant internal restructuring.",
+        "Activision has been granted control over the Halo franchise.",
+        "Obsidian Entertainment is being integrated into the Bethesda division."
       ]
     },
     {
@@ -219,9 +261,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces WorldCrafter, a new video world model designed to overcome limitations in long-horizon and multi-view consistency.",
-        "The core innovation is a camera-queryable, implicit 3D-aware memory that stores environmental knowledge.",
-        "The model leverages the requested viewpoint to intelligently compress multi-view evidence within the video generator's token budget."
+        "WorldCrafter is a new video world model designed to overcome limitations in long-horizon and multi-view consistency.",
+        "It introduces a camera-queryable, implicit 3D-aware memory to maintain consistent environmental understanding.",
+        "The core innovation involves conditioning the compression of multi-view evidence based on the requested viewpoint."
       ]
     },
     {
@@ -234,8 +276,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Investigates the emergence of 'collusion' in long-horizon, multi-agent LLM interactions.",
-        "The study models agents repeatedly completing tasks, sharing logs, and verifying each other's work.",
-        "Findings show that realistic constraints can incentivize agents to deviate from cooperative protocols to maximize rewards."
+        "The study models agents collaborating on tasks while sharing and verifying each other's work.",
+        "Findings show that under realistic reward maximization constraints, agents increasingly deviate from prescribed verification protocols."
       ]
     },
     {
@@ -247,23 +289,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses the challenge of improving on-device Large Language Models (LLMs) despite limited mobile compute resources.",
-        "Proposes a novel method using LoRA-generating hypernetworks for efficient LLM personalization.",
-        "Leverages the predictable usage patterns of personal, on-device LLMs to achieve quality gains."
-      ]
-    },
-    {
-      "id": 59,
-      "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
-      "url": "https://arxiv.org/abs/2609.24967v1",
-      "source": "arXiv NLP",
-      "author": "Diyi Yang",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Investigates the emergence of undesirable collusion in long-horizon, multi-agent LLM interactions.",
-        "Simulates a collaborative environment where agents share logs and verify each other's work for rewards.",
-        "Demonstrates that realistic constraints can incentivize agents to deviate from cooperative protocols to maximize personal rewards."
+        "Addresses the critical challenge of personalizing Large Language Models (LLMs) running on resource-constrained, on-device mobile devices.",
+        "Proposes a novel method utilizing LoRA-generating hypernetworks to achieve efficient personalization.",
+        "The research is highly relevant as it tackles the trade-off between model quality/scale and the practical limitations of edge AI deployment."
       ]
     },
     {
@@ -276,8 +304,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Claude Desktop now supports Ollama as a third-party gateway.",
-        "This integration allows users to run open models within the Claude Desktop environment.",
-        "It bridges proprietary AI platforms with local, open-source LLM ecosystems."
+        "This integration allows users to run open-source models within the Claude Desktop environment.",
+        "It bridges the gap between proprietary models (Claude) and local, open-source LLMs (via Ollama)."
       ]
     },
     {
@@ -290,92 +318,78 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama 0.30 release introduces performance improvements and enhanced GGUF model compatibility.",
-        "The update leverages llama.cpp to broaden model support across various hardware configurations.",
-        "It augments Ollama's MLX engine, specifically improving capabilities on Apple silicon."
+        "The update leverages llama.cpp to broaden the range of supported models and hardware.",
+        "It specifically augments Ollama's MLX engine for better performance on Apple silicon."
       ]
     },
     {
       "id": 14,
-      "title": "Xbox is barely Xbox anymore",
-      "url": "https://www.theverge.com/games/998758/xbox-activision-blizzard",
+      "title": "Saudi Arabia’s new Exobot EVs make the Cybertruck look normal",
+      "url": "https://www.theverge.com/transportation/998791/ceer-ev-saudi-arabia-foxconn-exobot",
       "source": "The Verge",
-      "author": "Andrew Webster",
+      "author": "Andrew J. Hawkins",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Xbox is undergoing significant restructuring, signaling a decline in its former identity.",
-        "The company is implementing cuts affecting approximately 3,200 employees.",
-        "Studio consolidation and potential closures are further diluting the Xbox brand."
-      ]
-    },
-    {
-      "id": 15,
-      "title": "Xbox is merging its Forza developers into a single studio",
-      "url": "https://www.theverge.com/news/998592/xbox-is-merging-its-forza-developers-into-a-single-studio",
-      "source": "The Verge",
-      "author": "Tom Warren",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Microsoft is merging the two Forza development studios, Playground Games and Turn 10 Studios.",
-        "The newly unified studio will focus on developing Forza Horizon and the upcoming Fable title.",
-        "This move is part of a larger, ongoing restructuring effort within Xbox."
+        "Saudi startup Ceer unveiled new, hyper-angular electric vehicles (Exobot EVs).",
+        "The launch signals Saudi Arabia's growing interest in the automotive and EV manufacturing sector.",
+        "The design is noted for its futuristic, 'spaceship-like' aesthetic, drawing comparisons to the Cybertruck."
       ]
     },
     {
       "id": 16,
-      "title": "Microsoft is laying off 268 Xbox staffers and Ninja Theory may close",
-      "url": "https://www.theverge.com/news/998589/microsoft-xbox-layoffs-ninja-theory-closure",
+      "title": "Motorola’s wild-looking Signature 27 runs Qualcomm’s new Extreme chipset",
+      "url": "https://www.theverge.com/tech/998844/motorola-signature-27-specs-snapdragon-8-elite-extreme-gen-6",
       "source": "The Verge",
-      "author": "Tom Warren",
+      "author": "Dominic Preston",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Microsoft is implementing further layoffs at Xbox, impacting approximately 260 employees.",
-        "These cuts are part of a larger, ongoing 'reset' of Microsoft's gaming division, following previous layoffs in July.",
-        "The restructuring is described by the Xbox CEO as 'the most significant restructure in Xbox history.'"
+        "Motorola is set to launch the Signature 27, featuring Qualcomm's new Snapdragon 8 Elite Extreme Gen 6 chipset.",
+        "This device is positioned to be one of Motorola's most advanced flagships in recent years.",
+        "Full specifications, pricing, and release dates for the Signature 27 are currently pending."
       ]
     },
     {
       "id": 21,
-      "title": "These discreet hearing aid glasses now have better voice boosting and battery life",
-      "url": "https://www.theverge.com/tech/998243/essilorluxottica-nuance-audio-plus-otc-hearing-aid-glasses",
+      "title": "Apple is reportedly working on a Whoop-like fitness tracker",
+      "url": "https://www.theverge.com/gadgets/998902/apple-whoop-fitness-tracker",
       "source": "The Verge",
-      "author": "Andrew Liszewski",
+      "author": "Emma Roth",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "EssilorLuxottica released an updated version of Nuance Audio glasses, which function as discreet, over-the-counter hearing aids.",
-        "The new Nuance Audio Plus features improvements in voice boosting and battery life.",
-        "The glasses maintain a discreet design, integrating FDA-cleared hearing aid technology into slim temple arms."
+        "Apple is reportedly developing a new fitness tracker inspired by Whoop's design.",
+        "The device is expected to feature a screenless design utilizing a thin fabric band and a sensor module.",
+        "The project is in early development stages and is not expected to be released soon."
       ]
     },
     {
-      "id": 29,
-      "title": "Military milestone: Ukrainian naval drone sinks Russian kamikaze drone boat",
-      "url": "https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/",
-      "source": "Ars Technica",
-      "author": "Jeremy Hsu",
+      "id": 22,
+      "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+      "source": "The Verge",
+      "author": "Emma Roth",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The conflict involves naval drone warfare in the Black Sea.",
-        "Ukraine successfully used a drone to sink a Russian kamikaze drone boat.",
-        "The fighting is focused on targeting ports and vessels in the region."
+        "Andreessen Horowitz (a16z) is launching the 'Horowitz Andreessen Academy' to cultivate future startup talent.",
+        "The academy features significant backing, including $42 million in funding led by a16z.",
+        "It boasts high-profile partnerships with major tech players like Google, Meta, OpenAI, and Palantir."
       ]
     },
     {
-      "id": 30,
-      "title": "Saudi Arabia wants a car industry, launches Ceer with two EVs",
-      "url": "https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/",
+      "id": 28,
+      "title": "IT mistake erases 11 years of viewing history for hospitals’ maternity records",
+      "url": "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
       "source": "Ars Technica",
-      "author": "Chad Kirchner",
+      "author": "Scharon Harding",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Saudi Arabia is actively pursuing the development of a domestic automotive industry.",
-        "The new electric vehicle (EV) manufacturer, Ceer, is a joint venture between the Saudi Public Investment Fund (PIF) and Foxconn.",
-        "This initiative signals a major strategic push by Saudi Arabia into advanced manufacturing and the EV sector."
+        "A critical IT error led to the erasure of 11 years of viewing history for hospital maternity records.",
+        "The incident highlights significant data management and backup vulnerabilities within healthcare IT systems.",
+        "The hospitals were able to recover the essential patient care data despite the loss of viewing history."
       ]
     },
     {
@@ -387,9 +401,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces GameHorizon, a unified data and evaluation suite designed for testing AI in video games.",
-        "Addresses limitations in existing benchmarks, such as narrow game coverage, lack of language instructions, and high-variance rollouts.",
-        "Leverages video games as a complex testbed for evaluating AI capabilities like visual understanding, goal planning, and action control across multiple time horizons."
+        "Introduces GameHorizon, a unified suite for evaluating AI in video games.",
+        "Addresses limitations in existing benchmarks, such as narrow game coverage and lack of language instructions.",
+        "Focuses on measuring complex gameplay capabilities across multiple temporal horizons (e.g., planning and action control)."
       ]
     },
     {
@@ -401,9 +415,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "DexTacWAM is a novel Visuo-Tactile World-Action Model (WAM) designed to improve dexterous manipulation.",
-        "It addresses the limitation of vision-centric WAMs by explicitly incorporating contact dynamics, which are often hidden from vision.",
-        "The model independently encodes fingertip data and uses a finger- and pose-aware tactile compressor to aggregate tactile features."
+        "Introduces DexTacWAM, a novel Visuo-Tactile World-Action Model (WAM) designed for dexterous manipulation.",
+        "Addresses the limitation of existing WAMs by incorporating tactile sensing to model contact dynamics, which are often invisible to vision alone.",
+        "Features an architecture that independently encodes fingertip data and uses a finger- and pose-aware tactile compressor for feature aggregation."
       ]
     },
     {
@@ -415,9 +429,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the limitation that agent performance gains from external 'harnesses' are dependent on the specific harness used at deployment.",
-        "A general-purpose agent faces a trade-off between using a suboptimal shared harness or managing numerous specialized ones.",
-        "The proposed solution is 'agent harness distillation,' which uses an optimized harness during training to improve the general agent's capabilities."
+        "The paper addresses the problem of suboptimal performance in general-purpose AI agents due to reliance on fixed, domain-specific 'harnesses' (external interaction systems).",
+        "It introduces 'agent harness distillation,' a method to transfer the performance benefits of an optimized, domain-specific harness into a general-purpose agent during training.",
+        "This research aims to allow general agents to benefit from specialized interaction environments without needing to deploy an ever-growing set of bespoke harnesses."
       ]
     },
     {
@@ -429,9 +443,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research focuses on improving LLM agent capabilities through optimizing the 'harness' (prompts, tooling, memory, etc.) surrounding the core model.",
-        "It introduces 'Regularized Recursive Self-Improvement (RRSI)' as a method to iteratively evolve and refine the agent's harness.",
-        "A key concern addressed is the risk of overfitting during this recursive evolution process, which can lead to memorization of training tasks."
+        "The paper introduces RRSI (Regularized Recursive Self-Improvement) to enhance LLM agent capabilities.",
+        "It focuses on improving the 'agent harness'—the surrounding components like prompts, tooling, and memory—rather than the core LLM model.",
+        "A key challenge addressed is preventing recursive self-improvement methods from overfitting to specific training tasks."
       ]
     },
     {
@@ -443,9 +457,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "DolphinBench is introduced as a new benchmark to evaluate agent memory systems.",
-        "It addresses limitations in existing benchmarks which are often designed only for conversational Q&A formats.",
-        "The benchmark aims to move beyond simple accuracy metrics, forcing agents to consider real-world cost/time tradeoffs in memory usage."
+        "Introduces DolphinBench, a new benchmark designed to test long-term memory and context recall in AI agents.",
+        "Critiques existing memory benchmarks for being too focused on conversational Q&A and lacking real-world complexity.",
+        "Addresses the issue where current benchmarks incentivize unreasonable cost/time tradeoffs rather than practical performance."
       ]
     },
     {
@@ -457,9 +471,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces Critical-State RL to address limitations in training models for multi-turn tool use.",
-        "Addresses the problem where reward variation in multi-turn tasks might reflect downstream randomness rather than the quality of the current action.",
-        "The method identifies 'trainable states' by assessing whether a local reward truly captures the action's effectiveness."
+        "Addresses a key challenge in multi-turn reinforcement learning: determining which specific action in a sequence is responsible for performance variation.",
+        "Introduces 'Critical-State RL' to diagnose and identify the specific states within a multi-turn interaction that are trainable.",
+        "Overcomes the limitation where standard reward variation can be misleading due to downstream randomness in complex tasks."
       ]
     },
     {
@@ -471,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'onPanda,' an interactive tool designed to streamline the annotation of data for LLM alignment and agent trajectories.",
-        "The core innovation is 'token-level correction,' allowing annotators to fix errors precisely at the token level rather than sentence or response level.",
-        "This method improves efficiency by allowing annotators to substitute or edit tokens and then continuing the generation process from the corrected prefix."
+        "Introduces 'onPanda,' an interactive tool designed to streamline the annotation of LLM alignment data and agent trajectories.",
+        "The core innovation is token-level correction, allowing annotators to pinpoint and replace inappropriate tokens within model responses.",
+        "This method improves efficiency by truncating subsequent incorrect generations and continuing the process from the corrected prefix."
       ]
     },
     {
@@ -485,9 +499,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the critical role of the 'agent harness' (prompts, tooling, memory, etc.) in magnifying LLM agent capabilities.",
-        "It introduces 'RRSI' (Regularized Recursive Self-Improvement) as a method to iteratively evolve and optimize these agent harnesses.",
-        "A key concern highlighted is the risk of recursive evolution leading to overfitting by memorizing specific training tasks."
+        "The paper addresses the concept of 'agent harnesses'—the surrounding components (prompts, tooling, memory) that dictate an LLM agent's capability.",
+        "It introduces 'RRSI' (Regularized Recursive Self-Improvement), a method for iteratively improving these agent harnesses.",
+        "A key concern highlighted is the risk of overfitting during this recursive evolution process, potentially leading to poor generalization."
       ]
     },
     {
@@ -499,9 +513,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Neural operators (NOs) are effective for solving parametric PDEs cheaply but suffer from poor generalization outside their training data.",
-        "Physics-Informed Neural Networks (PINNs) avoid labeled data but can suffer from basin-fragility, potentially converging to non-physical solutions.",
-        "The research proposes a joint approach to mitigate the failure modes of both imperfect NOs and PINNs."
+        "The paper addresses limitations in Neural Operators (NOs), which are effective for solving PDEs but fail outside their training distribution.",
+        "It tackles the basin-fragility issue in Physics-Informed Neural Networks (PINNs), where they can converge to physically incorrect solutions.",
+        "The research proposes a joint method to mitigate these failure modes by integrating an imperfect Neural Operator into the PINN framework."
       ]
     },
     {
@@ -513,9 +527,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces Critical-State RL to address limitations in training multi-turn tool-use models.",
-        "Solves the problem where standard reward variation fails to pinpoint which specific model calls need training.",
-        "The method assesses if a local reward truly captures the impact of a candidate action, rather than downstream randomness."
+        "Introduces Critical-State RL to address challenges in multi-turn tool-use failures.",
+        "Addresses the limitation of standard reward variation, which can be obscured by downstream randomness.",
+        "The method identifies 'trainable states' by assessing if a local reward truly captures the benefit of a specific action call."
       ]
     },
     {
@@ -528,8 +542,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces 'onPanda,' an interactive tool designed to streamline the annotation of LLM alignment data and agent trajectories.",
-        "The core innovation is 'token-level correction,' allowing annotators to fix inappropriate tokens precisely during model response review.",
-        "This method improves efficiency by truncating and restarting generation from the corrected prefix, making alignment data creation faster."
+        "The core innovation is 'token-level correction,' allowing annotators to fix errors precisely at the token level during model response review.",
+        "This method improves efficiency by allowing annotators to substitute or edit tokens and then continuing generation from the corrected prefix."
       ]
     },
     {
@@ -541,9 +555,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces 'agent harness distillation' to address the issue of suboptimal performance from using a single, shared harness for general-purpose AI agents.",
-        "Agent harnesses, which mediate model-environment interaction, are crucial for performance but are highly domain-specific.",
-        "The proposed method uses an optimized, domain-specific harness during training to improve the general agent's capabilities."
+        "The paper introduces 'agent harness distillation' to address the issue of suboptimal performance caused by using a single, shared harness for general-purpose AI agents.",
+        "Agent harnesses, which mediate model-environment interaction, are crucial for improving agent performance but are highly domain-specific.",
+        "The proposed method leverages a domain- or instance-optimized harness during training to guide the general agent, effectively distilling specialized knowledge."
       ]
     },
     {
@@ -555,9 +569,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research focuses on improving LLM agent capabilities through the 'harness' (prompts, tooling, memory, etc.) surrounding the core model.",
-        "It introduces 'RRSI' (Regularized Recursive Self-Improvement) as a method to iteratively evolve and optimize this agent harness.",
-        "A key challenge identified is the risk of overfitting during this recursive self-improvement process."
+        "The paper introduces RRSI (Regularized Recursive Self-Improvement) for enhancing LLM agent capabilities.",
+        "It focuses on optimizing the 'agent harness' (prompts, tooling, memory, etc.) rather than just the core model.",
+        "The research addresses the risk of overfitting inherent in iterative, self-improving agent systems."
       ]
     },
     {
@@ -570,40 +584,26 @@
       "ai_score": 7,
       "bullet_points": [
         "DolphinBench is a new benchmark designed to evaluate long-term memory and context recall in AI agents.",
-        "It addresses limitations in existing benchmarks, which are often restricted to conversational Q&A formats.",
-        "The benchmark introduces complexity by moving beyond simple accuracy metrics to evaluate realistic cost/time tradeoffs in memory systems."
+        "It addresses limitations in existing benchmarks, which are often restricted to conversational QA formats.",
+        "The benchmark introduces complexity beyond simple accuracy, forcing agents to consider cost/time tradeoffs in memory usage."
       ]
     },
     {
-      "id": 63,
-      "title": "ToneCL: Contrastive Learning for Few-Shot Syllable-Level Tone Classification",
-      "url": "https://arxiv.org/abs/2609.24903v1",
+      "id": 59,
+      "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+      "url": "https://arxiv.org/abs/2609.24967v1",
       "source": "arXiv NLP",
-      "author": "Youngah Do",
+      "author": "Diyi Yang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the low-resource problem in tone languages, which constitute a large portion of the world's languages.",
-        "Proposes ToneCL, a lightweight contrastive learning framework specifically designed for few-shot syllable-level tone classification.",
-        "Moves beyond traditional sentence-level annotation to provide the fine-grained linguistic data required by field linguists."
+        "Investigates the emergence of undesirable collusion in long-horizon, multi-agent LLM interactions.",
+        "The study simulates agents completing tasks, sharing logs, and verifying each other's work.",
+        "Findings show that agents deviate from protocols when compliance conflicts with maximizing rewards."
       ]
     },
     {
-      "id": 67,
-      "title": "Show HN: Drop – a rootless Linux sandbox with gVisor support",
-      "url": "https://droprun.sh/",
-      "source": "Hacker News",
-      "author": "mixedbit",
-      "timestamp": "2026-09-22T13:52:47",
-      "ai_score": 7,
-      "bullet_points": [
-        "Drop is a new rootless Linux sandbox designed to enhance security for local development.",
-        "It aims to mitigate the risk of full system compromise from a single vulnerable dependency.",
-        "It offers an alternative to heavy solutions like containers or VMs, prioritizing developer productivity."
-      ]
-    },
-    {
-      "id": 92,
+      "id": 91,
       "title": "How do you stop an LLM from leaking API keys in the code it writes? Default to secret",
       "url": "https://dev.to/pierrelaurentmedori/how-do-you-stop-an-llm-from-leaking-api-keys-in-the-code-it-writes-default-to-secret-4ok2",
       "source": "Dev.to",
@@ -611,9 +611,9 @@
       "timestamp": "2026-09-22T12:00:55Z",
       "ai_score": 7,
       "bullet_points": [
-        "Addresses a critical security vulnerability: preventing LLMs from exposing sensitive API keys in generated code.",
+        "Addresses a critical security vulnerability: LLMs potentially leaking sensitive API keys in generated code.",
         "Highlights the need for 'defaulting to secret' practices when using LLMs for code generation.",
-        "The discussion stems from a practical demonstration using a test application and a REST API."
+        "Presents a practical, real-world security concern relevant to developers building AI-integrated applications."
       ]
     }
   ]
