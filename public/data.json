@@ -1,33 +1,19 @@
 {
-  "generated_at": "2026-10-02T02:42:08.690421",
-  "total_stories": 50,
+  "generated_at": "2026-10-02T11:25:59.161027",
+  "total_stories": 52,
   "sources": [
+    "arXiv AI",
     "The Verge",
     "Hugging Face Benchmarks",
-    "Dev.to",
-    "Hacker News",
     "arXiv NLP",
-    "Lobsters",
-    "arXiv AI",
-    "Ollama",
     "arXiv Machine Learning",
-    "Ars Technica"
+    "Ars Technica",
+    "Ollama",
+    "Lobsters",
+    "Hacker News",
+    "Dev.to"
   ],
   "stories": [
-    {
-      "id": 2,
-      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It is categorized under text-generation, indicating its primary function as a large language model.",
-        "The associated tags (transformers, safetensors) point to its technical foundation within the ML ecosystem."
-      ]
-    },
     {
       "id": 3,
       "title": "🤗 Trending: meta-llama/Meta-Llama-3-8B",
@@ -38,8 +24,8 @@
       "ai_score": 9,
       "bullet_points": [
         "The news highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
-        "It indicates the model is being used within a text-generation pipeline.",
-        "Key technologies associated include transformers, safetensors, and the Llama architecture."
+        "It is categorized under key AI/ML tags including 'transformers', 'llama', and 'text-generation'.",
+        "This indicates ongoing community interest and evaluation of a significant large language model (LLM)."
       ]
     },
     {
@@ -51,13 +37,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Meta has released Muse Glimmer, its first open model from Superintelligence Labs.",
-        "Muse Glimmer is a 30B multimodal model available under the permissive Apache 2.0 license.",
+        "Meta has released Muse Glimmer, its first open model from Meta Superintelligence Labs.",
+        "Muse Glimmer is a 30B multimodal model released under the permissive Apache 2.0 license.",
         "It is specifically designed for local coding agents and is optimized via Ollama's MLX engine with new DFlash and image input support."
       ]
     },
     {
-      "id": 22,
+      "id": 23,
       "title": "Inside Microsoft’s big Copilot rethink",
       "url": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
       "source": "The Verge",
@@ -65,23 +51,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Microsoft is fundamentally rethinking its Copilot AI assistant.",
-        "The new vision positions Copilot as the 'OS for work,' signaling a major strategic shift.",
-        "The rollout strategy is focused on direct engagement with key enterprise customers rather than broad media fanfare."
-      ]
-    },
-    {
-      "id": 34,
-      "title": "Gacha Decoding: Eliciting Diverse Generations Through Instruction Following",
-      "url": "https://arxiv.org/abs/2610.01382v1",
-      "source": "arXiv AI",
-      "author": "Pang Wei Koh",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Introduces 'Gacha Decoding,' a novel inference-time method designed to elicit highly diverse language model generations.",
-        "Demonstrates significant performance gains (up to 2.4x Vendi) in generation diversity across various open-ended tasks (chat, creative writing, protein design).",
-        "Achieves superior diversity with substantially reduced computational cost, requiring an order of magnitude fewer samples than prior state-of-the-art methods."
+        "Microsoft is strategically repositioning Copilot as the 'OS for work' in its latest overhaul.",
+        "The announcement was made via an exclusive, invite-only event targeting key enterprise customers, signaling a B2B focus.",
+        "The shift suggests a deeper integration of AI into core enterprise workflows rather than just feature additions."
       ]
     },
     {
@@ -93,9 +65,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the 'deepseek-ai/DeepSeek-R1' model on Hugging Face.",
-        "The model is categorized for text generation and conversational AI tasks.",
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
+        "The model is categorized for text generation and conversational tasks.",
         "It utilizes standard ML components like transformers and safetensors."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It is categorized under text-generation pipelines, indicating its primary function as a large language model.",
+        "The tags confirm its association with major AI frameworks like transformers and the Llama family."
       ]
     },
     {
@@ -108,8 +94,8 @@
       "ai_score": 8,
       "bullet_points": [
         "NVIDIA Nemotron 3.5 Lightning is now accessible via Ollama.",
-        "It is a 30 billion parameter open model optimized for agentic workflows.",
-        "The model is designed to run locally on user hardware for multi-step, context-aware tasks."
+        "It is a 30 billion parameter open model optimized for persistent AI agents.",
+        "The model is designed for complex, multi-step tasks requiring context gathering and tool use on local hardware."
       ]
     },
     {
@@ -135,9 +121,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Gemma 4 inference speed is significantly improved within Ollama 0.31.",
-        "The performance boost is achieved on Apple Silicon using MLX and Multi-Token Prediction (MTP).",
-        "Coding agent performance shows up to 90% speed increase according to the Aider benchmark."
+        "Gemma 4 inference speed is significantly improved in Ollama 0.31 on Apple Silicon.",
+        "The performance boost is achieved through Multi-Token Prediction (MTP) leveraging MLX.",
+        "Coding agent tasks show up to 90% faster performance according to the Aider benchmark."
       ]
     },
     {
@@ -149,27 +135,41 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama has achieved its peak performance on Apple Silicon using the MLX engine.",
-        "The performance improvements result in faster response times and higher quality model outputs.",
-        "The updated engine also demonstrates reduced memory consumption when running models."
+        "Ollama has achieved its peak performance on Apple Silicon.",
+        "The performance boost is attributed to updates in the MLX engine.",
+        "Improvements include faster response times, higher output quality, and reduced memory usage."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "NVIDIA Nemotron 3 Ultra",
+      "url": "https://ollama.com/blog/nemotron-3-ultra",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "NVIDIA is introducing the Nemotron 3 Ultra model.",
+        "The model is specifically engineered for high-throughput reasoning tasks.",
+        "It is designed to support complex, long-running agent workflows."
       ]
     },
     {
       "id": 14,
-      "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
-      "url": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
+      "title": "AI music maker Suno now generates spoken words",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
       "source": "The Verge",
-      "author": "Stevie Bonifield",
+      "author": "Jess Weatherbed",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Apple is reportedly developing a new smart home security camera.",
-        "The camera is rumored to function without recording video, instead providing text-based event descriptions.",
-        "This device is expected to be part of a broader, new Apple smart home ecosystem."
+        "Suno, an AI music generator, has expanded its capabilities to include spoken word generation.",
+        "The new feature allows users to create voiceovers based on scripts or prompts, which can be paired with background music.",
+        "The functionality is currently available in public beta across Suno's web and mobile platforms."
       ]
     },
     {
-      "id": 15,
+      "id": 16,
       "title": "Google’s new Guided Vision feature can help you read the fine print",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
       "source": "The Verge",
@@ -177,13 +177,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Google is rolling out 'Guided Vision' within Gemini Live on Android devices.",
-        "The feature uses AI to provide real-time audio descriptions of what the camera sees.",
-        "Key use cases include reading small text and identifying surrounding objects."
+        "Google is launching 'Guided Vision' within Gemini Live on compatible Android devices.",
+        "The feature uses AI to provide real-time audio descriptions of objects pointed at by the camera.",
+        "Key use cases include reading small text and identifying surroundings."
       ]
     },
     {
-      "id": 18,
+      "id": 19,
       "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
       "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
       "source": "The Verge",
@@ -191,13 +191,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Federal judge dismissed antitrust lawsuits against Google regarding its AI Overviews.",
-        "The lawsuits, filed by Chegg and Penske Media, alleged Google was driving away web traffic with its AI features.",
-        "Judge Amit Mehta ruled in favor of Google in the antitrust case."
+        "Federal judge dismissed antitrust lawsuits against Google concerning its AI Overviews.",
+        "The lawsuits, filed by Chegg and Penske Media, alleged Google was driving away web traffic with its AI search features.",
+        "Judge Amit Mehta ruled in Google's favor regarding the antitrust claims."
       ]
     },
     {
-      "id": 19,
+      "id": 20,
       "title": "Sony brings AI graphics upscaling to the regular PS5",
       "url": "https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr",
       "source": "The Verge",
@@ -205,9 +205,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Sony is introducing a new AI upscaling technology called Quick Spectral Super Resolution (QSSR) for the standard PS5.",
-        "The technology is described as a 'new performance tier of AI upscaling' resulting from Sony's Project Amethyst collaboration with AMD.",
-        "This update represents a significant advancement in how graphical fidelity is handled on the PlayStation 5 console."
+        "Sony is integrating a new AI upscaling technology, Quick Spectral Super Resolution (QSSR), into the standard PS5.",
+        "The technology is described as a 'new performance tier of AI upscaling' and is the result of Sony's Project Amethyst collaboration with AMD.",
+        "This update represents a significant step in leveraging AI for graphical enhancements on mainstream console hardware."
       ]
     },
     {
@@ -225,45 +225,59 @@
       ]
     },
     {
-      "id": 36,
-      "title": "LLM-Driven Multi-Agent Control for Skill-Based Smart Manufacturing",
-      "url": "https://arxiv.org/abs/2610.01364v1",
+      "id": 34,
+      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+      "url": "https://arxiv.org/abs/2610.02207v1",
       "source": "arXiv AI",
-      "author": "René Graf",
+      "author": "Ivan Laptev",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Proposes using LLM-driven multi-agent systems to manage complex, customized manufacturing environments.",
-        "Agents function both offline (generating deterministic production sequences) and online (handling real-time machine faults).",
-        "Addresses the industrial need for flexible automation systems capable of handling small lot sizes and high customization."
+        "Addresses the computational bottleneck of real-time animation for 3D Gaussian avatars, which typically requires costly neural inference.",
+        "Proposes GALA (Gaussian Animation via Linear Approximation), a distillation method to approximate complex avatar animations using linear combinations of blendshapes.",
+        "Replaces per-frame heavy neural decoding with a more efficient, shallow coefficient predictor for faster rendering."
       ]
     },
     {
-      "id": 37,
-      "title": "Fold'EM: Direct atomic structure inference from Cryo-EM particles",
-      "url": "https://arxiv.org/abs/2610.01358v1",
+      "id": 35,
+      "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+      "url": "https://arxiv.org/abs/2610.02206v1",
       "source": "arXiv AI",
-      "author": "Alex M. Bronstein",
+      "author": "Muzammal Naseer",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces 'Fold'EM,' a new method for directly inferring atomic structure from Cryo-EM particles.",
-        "Addresses a major bottleneck in conventional Cryo-EM: the high sample complexity and computational cost of density reconstruction.",
-        "Aims to improve the throughput and efficiency of biomolecular structure determination by bypassing traditional map-fitting steps."
+        "Introduces KaliBench, a new benchmark specifically designed to evaluate LLMs' ability to generate executable commands for real-world cybersecurity tools on Kali Linux.",
+        "Addresses a critical gap in current evaluations, which often focus on knowledge or high-level agentic tasks rather than precise CLI command generation.",
+        "Features 'runtime-free verifiable rewards,' suggesting a novel method for assessing command correctness without needing full execution in a live environment."
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+      "url": "https://arxiv.org/abs/2610.02204v1",
+      "source": "arXiv AI",
+      "author": "Haozhi Qi",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces RPG, a framework for autonomous self-improvement in embodied agents (robots).",
+        "Allows robots to improve execution capabilities without requiring updates to the core model weights.",
+        "The framework uses offline datasets to identify skills and generates simulated practice tasks based on execution feedback."
       ]
     },
     {
       "id": 39,
-      "title": "PACE: Provenance-Aware Capability Enforcement for Tool-Using LLM Agents",
-      "url": "https://arxiv.org/abs/2610.01349v1",
+      "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
+      "url": "https://arxiv.org/abs/2610.02200v1",
       "source": "arXiv AI",
-      "author": "Di Wang",
+      "author": "Kaiming He",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses security vulnerabilities in tool-using LLM agents where poisoned metadata or inputs can steer agent behavior.",
-        "Proposes 'PACE' (Provenance-Aware Capability Enforcement) to address limitations of traditional artifact vetting.",
-        "Focuses on establishing a precise boundary for deployment-level security controls against malicious influence."
+        "Introduces VISTA, a visual harness designed to unlock reasoning potential in multimodal AI models.",
+        "VISTA provides general-purpose multimodal models with long-horizon vision capabilities.",
+        "The system maintains a lossless visual memory, allowing the model to actively retrieve past environmental observations."
       ]
     },
     {
@@ -275,9 +289,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses the computational bottleneck in real-time animation of 3D Gaussian avatars, which typically requires costly neural inference.",
-        "Proposes GALA (Gaussian Animation via Linear Approximation), a distillation method that approximates complex animation using a linear combination of identity-independent blendshapes.",
-        "Replaces per-frame heavy neural decoding with a much faster, shallow coefficient predictor for efficient avatar animation."
+        "Addresses the high computational cost of real-time animation for 3D Gaussian avatars.",
+        "Proposes GALA (Gaussian Animation via Linear Approximation) to replace heavy neural inference.",
+        "Achieves animation by approximating complex motion using a linear combination of identity-independent blendshapes."
       ]
     },
     {
@@ -289,23 +303,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The research addresses the fundamental question of whether LLMs possess true structural mathematical understanding, rather than just pattern matching.",
-        "The paper introduces the concept of 'Mathematical Primitive' as a new diagnostic tool to probe the underlying mathematical capabilities of LLMs.",
-        "The findings aim to systematically diagnose current limitations and inform future improvements to LLMs through post-training methods."
-      ]
-    },
-    {
-      "id": 54,
-      "title": "Gacha Decoding: Eliciting Diverse Generations Through Instruction Following",
-      "url": "https://arxiv.org/abs/2610.01382v1",
-      "source": "arXiv NLP",
-      "author": "Pang Wei Koh",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces 'Gacha Decoding,' a novel inference-time method designed to generate diverse outputs from language models.",
-        "Demonstrates significant performance gains in generation diversity (up to 2.4x Vendi) while maintaining high quality across various domains.",
-        "Achieves superior diversity with substantially fewer samples compared to prior state-of-the-art approaches."
+        "The research addresses a critical gap: determining if LLMs possess true structural mathematical understanding, rather than just pattern matching.",
+        "The paper introduces the concept of 'Mathematical Primitive' as a new diagnostic tool for probing LLM capabilities.",
+        "The findings aim to systematically diagnose mathematical weaknesses in LLMs to inform and improve post-training techniques."
       ]
     },
     {
@@ -318,8 +318,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama has integrated support for Jev-style decision models via TypeSafe's Jev API.",
-        "These models enable fast, low-latency, and cost-free execution of typed decisions.",
-        "The models can process text to provide probabilistic answers to yes/no questions, choices, and scores."
+        "These new models allow for fast, low-latency, and cost-free execution of decision-making logic.",
+        "Decision models process text to provide probabilistic answers regarding yes/no questions, choices, or scores."
       ]
     },
     {
@@ -332,8 +332,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Claude Desktop now supports Ollama as a third-party gateway.",
-        "This integration allows users to run open-source models within the Claude Desktop environment.",
-        "It bridges proprietary AI services with local, open-weight model ecosystems."
+        "This integration allows users to run open models within the Claude Desktop environment.",
+        "It bridges proprietary AI platforms with local, open-source LLM infrastructure."
       ]
     },
     {
@@ -345,27 +345,27 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release brings improved performance and expanded model compatibility.",
-        "Integration with GGUF models via llama.cpp enhances hardware support across various systems.",
-        "The update augments Ollama's MLX engine, particularly benefiting Apple silicon users."
+        "Ollama 0.30 release introduces performance improvements and enhanced GGUF model compatibility.",
+        "The update leverages llama.cpp to broaden support for various models across different hardware.",
+        "It specifically augments Ollama's MLX engine, improving capabilities on Apple silicon."
       ]
     },
     {
-      "id": 13,
-      "title": "NVIDIA Nemotron 3 Ultra",
-      "url": "https://ollama.com/blog/nemotron-3-ultra",
-      "source": "Ollama",
-      "author": "unknown",
+      "id": 15,
+      "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
+      "url": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
+      "source": "The Verge",
+      "author": "Stevie Bonifield",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "NVIDIA is introducing Nemotron 3 Ultra, a new model.",
-        "The model is specifically engineered for high-throughput reasoning tasks.",
-        "It is designed to support complex, long-running agent workflows."
+        "Apple is reportedly developing a new smart home security camera.",
+        "The camera is rumored to function without recording video, instead providing text event descriptions.",
+        "This device is expected to be part of a broader, new Apple smart home ecosystem."
       ]
     },
     {
-      "id": 17,
+      "id": 18,
       "title": "Steam Deck 2: Is AMD Gainsborough the chip Valve’s been waiting for?",
       "url": "https://www.theverge.com/games/1003593/steam-deck-2-is-amd-gainsborough-the-chip-valves-been-waiting-for",
       "source": "The Verge",
@@ -374,12 +374,12 @@
       "ai_score": 7,
       "bullet_points": [
         "The Steam Deck is aging, leading to high anticipation for a Steam Deck 2.",
-        "Valve has stated the sequel requires a significant generational leap in performance and efficiency.",
-        "AMD Gainsborough is rumored to be the new chip that could fulfill Valve's requirements."
+        "Valve has indicated the sequel requires a significant generational leap in performance and efficiency.",
+        "There is emerging speculation that AMD's Gainsborough chip may be the breakthrough component Valve is seeking."
       ]
     },
     {
-      "id": 20,
+      "id": 21,
       "title": "Can VR glasses save VR?",
       "url": "https://www.theverge.com/tech/1003034/meta-vr-glasses-vs-augmented-reality",
       "source": "The Verge",
@@ -388,7 +388,7 @@
       "ai_score": 7,
       "bullet_points": [
         "Meta has released new VR glasses, signaling a potential shift in the VR market.",
-        "The high price point ($1,299) presents a barrier to mass consumer adoption.",
+        "The high price point ($1,299) is noted as a barrier to mass consumer adoption.",
         "The hardware is described as a significant advancement over previous VR glasses."
       ]
     },
@@ -401,9 +401,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Antitrust lawsuits against Google regarding its AI search integration by Chegg and Penske were dismissed by the court.",
-        "The court ruled that the implications of AI search, while acknowledged, do not constitute an antitrust violation.",
-        "This decision suggests a current legal stance that views AI search changes as competitive evolution rather than illegal monopolistic behavior."
+        "Judge dismissed antitrust lawsuits filed by Chegg and Penske against Google regarding its AI search.",
+        "The court ruled that the issues surrounding AI search are not classified as antitrust violations.",
+        "The ruling acknowledges that AI search technology inherently carries certain consequences."
       ]
     },
     {
@@ -415,9 +415,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Memory executives forecast that RAM shortages will persist until 2028.",
-        "Pricing trends indicate that memory costs for 2027 are projected to be significantly higher than 2026 prices.",
-        "The report highlights sustained supply chain and demand pressures within the memory market."
+        "Memory executives forecast that RAM shortages are expected to persist until 2028.",
+        "The trend indicates that memory prices for 2027 are projected to be significantly higher than those in 2026.",
+        "This suggests sustained supply chain constraints or high demand within the semiconductor industry."
       ]
     },
     {
@@ -429,51 +429,93 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The game Stratego, which relies on hidden information, previously stumped AI systems.",
-        "The breakthrough involved implementing a second neural network.",
-        "This new network was specifically designed to guess the identity of the hidden pieces."
+        "The game Stratego, which involves hidden information, previously posed a significant challenge to AI systems.",
+        "A breakthrough was achieved by integrating a second neural network specifically designed to infer the identity of concealed pieces.",
+        "This demonstrates progress in AI's ability to handle complex strategic games with incomplete information."
       ]
     },
     {
-      "id": 35,
-      "title": "Generation Provenance Before Behavior Attribution: Auditing Synthetic Speech Research Objects",
-      "url": "https://arxiv.org/abs/2610.01378v1",
-      "source": "arXiv AI",
-      "author": "Peiying Zhu",
+      "id": 33,
+      "title": "As US relations fray, Canada gets serious about its own launch industry",
+      "url": "https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/",
+      "source": "Ars Technica",
+      "author": "Eric Berger",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the critical need to track the origin (generation provenance) of synthetic data used in AI training, specifically for speech research.",
-        "It proposes a 'generation-provenance substrate' to bind detailed metadata to synthetic research objects, including source specifications and quality signals.",
-        "The core argument is that attributing model behavior requires knowing *what* produced the training item before analyzing *what* the item caused."
+        "Canada is intensifying its focus on developing a domestic launch industry.",
+        "The Canada Rocket Company is specifically targeting medium-lift launch capabilities.",
+        "The push is occurring amid a backdrop of deteriorating US-Canada relations."
       ]
     },
     {
-      "id": 40,
-      "title": "Verify Claims, Not Scores: Evidence-Based Verification of Modular Agents",
-      "url": "https://arxiv.org/abs/2610.01348v1",
+      "id": 37,
+      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+      "url": "https://arxiv.org/abs/2610.02202v1",
       "source": "arXiv AI",
-      "author": "Ali Atiah Alzahrani",
+      "author": "Chelsea Finn",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces a novel 'claim-specific verification audit' for modular AI agents.",
-        "Addresses the limitation of relying solely on aggregate task scores to evaluate agent changes.",
-        "The audit focuses on scoring the evidence supporting each conclusion, rather than the overall agent performance."
+        "Introduces ScholarCatalyst, a new benchmark designed to test an AI's ability to find inspiring prior research papers.",
+        "The benchmark leverages human expertise by having researchers annotate which past works influenced their current projects.",
+        "This addresses the challenge of AI systems needing to sense relevant, buried ideas within massive scientific archives."
+      ]
+    },
+    {
+      "id": 38,
+      "title": "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
+      "url": "https://arxiv.org/abs/2610.02201v1",
+      "source": "arXiv AI",
+      "author": "Ismini Lourentzou",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces SILSA, a new framework for high-resolution 3D generation.",
+        "Addresses limitations of current methods (voxel latents/multi-stage pipelines) which fragment surfaces and weaken topological consistency.",
+        "Uses 'sliding-window slice latents' to represent shapes compactly while preserving topology."
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Hierarchical Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.02193v1",
+      "source": "arXiv AI",
+      "author": "Alexander Schwing",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Continuous Diffusion Language Models (CDLMs) are proposed as an alternative to traditional autoregressive models for language generation.",
+        "CDLMs aim to overcome the independence bottleneck found in discrete diffusion models during parallel decoding.",
+        "The core mechanism involves denoising a shared continuous state, which allows for capturing statistical dependencies among tokens."
+      ]
+    },
+    {
+      "id": 42,
+      "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
+      "url": "https://arxiv.org/abs/2610.02188v1",
+      "source": "arXiv AI",
+      "author": "Chongyang Ma",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces DMAD (Distribution Matching as Adversarial Distillation) for fast visual generation.",
+        "DMAD reframes distribution matching as a classification task to learn log-density ratios directly.",
+        "It aims to improve upon existing methods by reducing the auxiliary memory and computation cost associated with traditional distribution matching."
       ]
     },
     {
       "id": 43,
-      "title": "TRACE: Trajectory Return Attribution and Contrastive Erasure for Multi-Turn Safety",
-      "url": "https://arxiv.org/abs/2610.01323v1",
+      "title": "Higher-Order Molecular Grammars for Generative and Foundation Models in Chemistry",
+      "url": "https://arxiv.org/abs/2610.02186v1",
       "source": "arXiv AI",
-      "author": "Di Wang",
+      "author": "Tolga Birdal",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses a critical safety gap in LLMs: models sometimes comply with harmful requests only after the goal is spread across multiple conversational turns.",
-        "Proposes 'TRACE,' a method that provides mathematical bounds on multi-turn trajectory risk based on single-turn supervised suppression.",
-        "The research accounts for practical risks like coverage, transfer slack, and leakage when ensuring LLM safety over extended interactions."
+        "Introduces Higher-order Grammar Representation (HGR) to improve molecular learning models.",
+        "Addresses the limitation of standard sequential/graph formalisms in encoding complex molecular topology (e.g., ring systems).",
+        "Aims to provide a principled, topology-aware framework that is computationally feasible compared to existing high-order methods."
       ]
     },
     {
@@ -486,8 +528,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The research proposes using predicted embeddings as a conditioning mechanism in diffusion transformers for image generation.",
-        "The core technique involves training a Next-Embedding Predictive Autoregression (NEPA) model to forecast sequential embeddings.",
-        "This approach leverages the inherent structure of image generation (clean image following noisy image) to drive the prediction."
+        "The core method involves training a Next-Embedding Predictive Autoregression (NEPA) model to forecast subsequent continuous embeddings.",
+        "This approach leverages the sequential nature of image generation (noisy to clean) to train the predictive model."
       ]
     },
     {
@@ -499,9 +541,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "SILSA introduces a new framework for high-resolution 3D generation using 'sliding-window slice latents'.",
-        "It addresses limitations in current methods (voxel latents/multi-stage pipelines) which fragment surfaces and weaken topological consistency.",
-        "The core innovation aims to represent shapes more compactly while preserving topological integrity during generation."
+        "SILSA is a new framework addressing limitations in high-resolution 3D generation methods.",
+        "It replaces fragmented voxel latents with compact, topology-aware sliding-window slice latents.",
+        "The goal is to improve topological consistency and reduce generation costs compared to existing multi-stage pipelines."
       ]
     },
     {
@@ -513,9 +555,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "TACO introduces a new optimizer designed to reduce the memory overhead associated with full-parameter fine-tuning of Large Language Models (LLMs).",
-        "The primary problem addressed is the substantial optimizer state memory consumption that restricts the size of LLMs deployable on current GPUs.",
-        "TACO offers an alternative to existing methods (like state compression or gradient modification) and aims to maintain performance comparable to AdamW."
+        "TACO is a new optimizer designed to reduce the memory overhead associated with full-parameter fine-tuning of Large Language Models (LLMs).",
+        "It addresses the memory bottleneck caused by optimizer state, which limits the size of LLMs that can be trained on current GPUs.",
+        "TACO offers an alternative to existing methods (like state compression or geometry changes) and aims to maintain performance comparable to AdamW."
       ]
     },
     {
@@ -527,9 +569,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the problem of finding a generalized Schrödinger bridge on graphs that incorporates a state-visitation cost.",
-        "It introduces a theoretical simplification: the cost-augmented bridge can be solved exactly by applying a Feynman-Kac tilt to the reference process.",
-        "This exact solution eliminates the need for complex learning methods, such as temporal-difference penalties, previously used to handle the cost."
+        "The paper presents an exact solution for cost-augmented Schrödinger bridges on graphs.",
+        "It replaces complex learned control mechanisms (like temporal-difference penalties) with a simpler Feynman-Kac tilt.",
+        "This mathematical simplification allows the cost-augmented bridge to be computed exactly against a tilted reference process."
       ]
     },
     {
@@ -543,7 +585,7 @@
       "bullet_points": [
         "Introduces Continuous Diffusion Language Models as an alternative to discrete diffusion models for language generation.",
         "Addresses a key limitation of discrete diffusion models: independent token sampling during parallel decoding, which breaks statistical dependencies.",
-        "Continuous diffusion models mitigate this by denoising a shared continuous state, though the current description notes a limitation in the denoiser's view."
+        "Continuous diffusion models overcome this by denoising a shared continuous state, aiming to maintain inter-token statistical relationships."
       ]
     },
     {
@@ -555,97 +597,125 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the critical challenge of step-size selection in large-scale LLM fine-tuning.",
+        "Addresses the critical challenge of step-size selection in large-scale neural network optimization for LLMs.",
         "Introduces Zero-and-First-Order optimization (ZFO) to decouple direction selection from step-size.",
-        "ZFO uses a first-order optimizer for direction and zeroth-order evaluations along a 1D subspace for step-size determination."
+        "ZFO uses a first-order optimizer for direction and zeroth-order evaluations along a 1D subspace for step-size selection."
+      ]
+    },
+    {
+      "id": 54,
+      "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+      "url": "https://arxiv.org/abs/2610.02206v1",
+      "source": "arXiv NLP",
+      "author": "Muzammal Naseer",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces KaliBench, a new benchmark specifically designed to evaluate LLMs' ability to generate executable commands for real-world cybersecurity tools on Kali Linux.",
+        "Addresses a critical gap in current LLM evaluations, which often focus on knowledge or high-level agentic tasks rather than precise CLI command generation.",
+        "Emphasizes the importance of fine-grained, runtime-free verification due to the strict syntax requirements of cybersecurity command-line interfaces."
       ]
     },
     {
       "id": 55,
-      "title": "Generation Provenance Before Behavior Attribution: Auditing Synthetic Speech Research Objects",
-      "url": "https://arxiv.org/abs/2610.01378v1",
+      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+      "url": "https://arxiv.org/abs/2610.02202v1",
       "source": "arXiv NLP",
-      "author": "Peiying Zhu",
+      "author": "Chelsea Finn",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes a 'generation-provenance substrate' to track the origin of synthetic data used in AI research.",
-        "Addresses the critical gap where current waveform-label pairs fail to preserve the knowledge of data generation.",
-        "The substrate binds metadata like source specification, content, quality signals, and immutable identity to synthetic objects."
+        "Introduces ScholarCatalyst, a new benchmark designed to test the ability of AI to identify inspiring prior research.",
+        "The benchmark leverages human expertise, using researchers to annotate which past papers influenced their current work.",
+        "The research addresses a key gap in AI: the ability to sense relevant, foundational ideas buried in vast scientific literature."
       ]
     },
     {
       "id": 56,
-      "title": "Does AI-Generated Scientific Text Follow Human Argumentation Patterns? A CARS-Based Comparison of Research Article Introductions",
-      "url": "https://arxiv.org/abs/2610.01353v1",
+      "title": "Hierarchical Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.02193v1",
       "source": "arXiv NLP",
-      "author": "Lonneke van der Plas",
+      "author": "Alexander Schwing",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research investigates whether AI-generated scientific text adheres to the same argumentative structures as human writing.",
-        "It moves beyond superficial stylistic analysis to examine rhetorical structure using Swales' CARS model on research article introductions.",
-        "The study addresses the growing concern of LLMs moving from writing assistance to active research contribution."
+        "Continuous Diffusion Language Models (CDLMs) are proposed as an alternative to discrete diffusion models for language generation.",
+        "CDLMs aim to overcome the independence issue in discrete models, where parallel decoding severs statistical dependencies.",
+        "The core mechanism involves denoising a shared continuous state, which allows for better handling of bidirectional reasoning and global constraints."
       ]
     },
     {
-      "id": 57,
-      "title": "ARCCS: An Automated Regulatory Compliance Checking System",
-      "url": "https://arxiv.org/abs/2610.01345v1",
+      "id": 58,
+      "title": "AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents",
+      "url": "https://arxiv.org/abs/2610.02163v1",
       "source": "arXiv NLP",
-      "author": "Alessandro Gianola",
+      "author": "Xin Dong",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces ARCCS, an automated, agentic NLP system designed for regulatory compliance checking.",
-        "The system addresses the complexity of legal text by decomposing regulations into atomic, traceable requirements.",
-        "ARCCS evaluates target documents against these requirements using evidence retrieval, aiming for regulation-agnostic functionality."
+        "Introduces AutoCompact, a method to train coding agents to intelligently manage context in long-horizon software engineering tasks.",
+        "Addresses the challenge that early context in long coding trajectories becomes stale, requiring agents to decide when and how to compact state.",
+        "The agent learns a policy to determine when to compact, what state to preserve, and how to resume work effectively."
       ]
     },
     {
       "id": 60,
-      "title": "DAYJOB: A Benchmark for Long-Horizon Professional Work",
-      "url": "https://arxiv.org/abs/2610.01306v1",
+      "title": "Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models",
+      "url": "https://arxiv.org/abs/2610.02142v1",
       "source": "arXiv NLP",
-      "author": "Edwin Chen",
+      "author": "Juan S. Santillana",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "DAYJOB is a new benchmark designed to evaluate AI models on long-horizon, professional work tasks.",
-        "The benchmark comprises 130 tasks sourced from real-world scenarios in healthcare (50) and finance (80).",
-        "Tasks are complex, containerized environments requiring significant time commitment (e.g., 13.6 to 16.6 hours on average)."
+        "Keyword-matching benchmarks can falsely credit small language models for tool use they do not actually perform.",
+        "The paper proposes a 'cheap diagnostic ladder' to provide stricter evaluation for tool-use claims in smaller models.",
+        "The study demonstrates false positives using matched-architecture Spanish security language models, highlighting evaluation limitations."
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Finetuning with Sampling: SFT Learns Better Than You Think",
+      "url": "https://arxiv.org/abs/2610.02140v1",
+      "source": "arXiv NLP",
+      "author": "Yilun Du",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper proposes a new finetuning technique involving 'Sampling' to improve frontier models.",
+        "It challenges the conventional view that Reinforcement Learning (RL) is superior to Supervised Finetuning (SFT) for generalization.",
+        "The research explores the trade-offs between SFT's ability to use off-policy data versus RL's reliance on self-discovery."
       ]
     },
     {
       "id": 62,
-      "title": "Know When to Hold 'em: Correct-Token Retention in Uniform-State Diffusion Language Models",
-      "url": "https://arxiv.org/abs/2610.01275v1",
+      "title": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
+      "url": "https://arxiv.org/abs/2610.02122v1",
       "source": "arXiv NLP",
-      "author": "James Henderson",
+      "author": "Joseph J Ma",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Uniform-state diffusion language models (USDMs) possess the capability to self-correct by revising tokens during the denoising process.",
-        "A critical limitation of current USDMs is their failure to correctly retain tokens that are already accurate during self-correction.",
-        "State-of-the-art USDMs exhibit excessive and uncoordinated token revisions (173-270 out of 512 positions) at each step, leading to model collapse."
+        "Argo-Bench introduces a new evaluation framework for Data Agents designed for complex, enterprise-scale workflows.",
+        "It addresses the limitations of existing text-to-SQL benchmarks, which only test query generation and often have flawed answer keys.",
+        "The framework uses public datasets to simulate real-world scenarios requiring reasoning across multiple tables and statistical analysis."
       ]
     },
     {
       "id": 63,
-      "title": "Science Utopia? Closed-Loop LLM Simulation of Academic Research Ecosystems",
-      "url": "https://arxiv.org/abs/2610.01257v1",
+      "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
+      "url": "https://arxiv.org/abs/2610.02117v1",
       "source": "arXiv NLP",
-      "author": "Jindong Wang",
+      "author": "Spyros Gidaris",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'SciUtopia,' a closed-loop LLM-agent simulation framework.",
-        "The framework models the complex, co-evolving ecosystem of academic research (researchers, institutions, funding, literature).",
-        "Aims to study how AI integration impacts the interconnected processes of scientific progress."
+        "The paper introduces 'Where-OPD,' a method applying on-policy self-distillation to Multimodal Large Language Models (MLLMs).",
+        "This technique aims to improve MLLM reasoning by supervising student models using privileged information from a teacher model.",
+        "It addresses a gap in current research where MLLM distillation has largely ignored this self-supervision approach, unlike recent methods focusing only on visual crops."
       ]
     },
     {
-      "id": 65,
+      "id": 66,
       "title": "Several vulnerabilities have been discovered in the Linux kernel",
       "url": "https://lwn.net/Articles/1097401/",
       "source": "Hacker News",
@@ -653,13 +723,13 @@
       "timestamp": "2026-10-01T23:10:44",
       "ai_score": 7,
       "bullet_points": [
-        "Vulnerabilities have been identified within the Linux kernel.",
-        "This represents a significant security concern for systems running Linux.",
-        "The lack of further detail in the snippet prevents a deeper analysis of the impact."
+        "Vulnerabilities have been found within the Linux kernel.",
+        "Kernel vulnerabilities represent a significant security risk to operating systems.",
+        "This is a critical topic for system administrators and security professionals."
       ]
     },
     {
-      "id": 66,
+      "id": 69,
       "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
       "url": "https://blog.cloudflare.com/clef-decision-models/",
       "source": "Hacker News",
@@ -667,51 +737,9 @@
       "timestamp": "2026-10-01T16:18:57",
       "ai_score": 7,
       "bullet_points": [
-        "Introduction of 'Clef,' a platform focused on open-weight decision models.",
-        "The platform supports new Reinforcement Learning (RL) fine-tuning capabilities.",
-        "The focus on open-weight models suggests a trend toward democratizing advanced AI/ML research."
-      ]
-    },
-    {
-      "id": 71,
-      "title": "Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia",
-      "url": "https://github.com/Vibra-Ingenn/Janus",
-      "source": "Hacker News",
-      "author": "Maverick617",
-      "timestamp": "2026-10-01T20:36:47",
-      "ai_score": 7,
-      "bullet_points": [
-        "Janus is a new Go binary designed to run GGUF models.",
-        "It leverages Vulkan for hardware acceleration across AMD, Intel, and Nvidia GPUs.",
-        "This represents an effort to improve local LLM inference performance and accessibility."
-      ]
-    },
-    {
-      "id": 81,
-      "title": "WSL containers are now generally available",
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/09/29/wsl-containers-now-generally-available/",
-      "source": "Lobsters",
-      "author": "blogs.windows.com via abareplace",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "WSL (Windows Subsystem for Linux) containers have reached general availability.",
-        "This represents a significant development in integrating containerization within the Windows ecosystem.",
-        "The release enhances developer workflows for those using WSL."
-      ]
-    },
-    {
-      "id": 91,
-      "title": "ELI5: Why can hiding one sentence inside a web page make an AI ignore its own owner and obey a total stranger?",
-      "url": "https://dev.to/rudratosh/eli5-why-can-hiding-one-sentence-inside-a-web-page-make-an-ai-ignore-its-own-owner-and-obey-a-203p",
-      "source": "Dev.to",
-      "author": "rudratosh",
-      "timestamp": "2026-10-01T16:30:43Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "The article explores a vulnerability where subtle text manipulation (hiding a sentence) can bypass AI safety guardrails.",
-        "It discusses the concept of prompt injection or adversarial attacks against large language models (LLMs).",
-        "The core theme is how an AI's obedience can be subverted by carefully crafted, hidden instructions."
+        "Introduction of 'Clef,' an open-weight decision models framework.",
+        "The announcement includes a new platform specifically designed for Reinforcement Learning (RL) fine-tuning.",
+        "The focus is on democratizing access to advanced decision-making AI through open weights."
       ]
     }
   ]
