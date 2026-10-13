@@ -1,21 +1,35 @@
 {
-  "generated_at": "2026-10-13T13:00:58.224677",
-  "total_stories": 45,
+  "generated_at": "2026-10-13T22:00:31.875586",
+  "total_stories": 50,
   "sources": [
-    "Ars Technica",
-    "Hacker News",
     "Lobsters",
+    "Ars Technica",
     "arXiv AI",
+    "Hugging Face Benchmarks",
     "Dev.to",
-    "The Verge",
-    "arXiv NLP",
     "Ollama",
     "arXiv Machine Learning",
-    "Hugging Face Benchmarks"
+    "The Verge",
+    "arXiv NLP",
+    "Hacker News"
   ],
   "stories": [
     {
-      "id": 8,
+      "id": 3,
+      "title": "🤗 Trending: meta-llama/Meta-Llama-3-8B",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
+        "The model is categorized under text-generation pipelines, indicating its primary function.",
+        "Tags confirm its relevance within the transformer, llama, and safetensors ecosystems."
+      ]
+    },
+    {
+      "id": 9,
       "title": "Muse Glimmer from Meta Superintelligence Labs is now available",
       "url": "https://ollama.com/blog/muse-glimmer",
       "source": "Ollama",
@@ -23,13 +37,27 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Meta has released Muse Glimmer, its first open model from Superintelligence Labs.",
+        "Meta has released Muse Glimmer, its first open model from Meta Superintelligence Labs.",
         "Muse Glimmer is a 30B multimodal model licensed under Apache 2.0, targeting local coding agents.",
-        "The model is optimized for local deployment via Ollama, featuring native DFlash and image input support."
+        "The model benefits from Ollama's MLX engine, featuring native DFlash and image input support."
       ]
     },
     {
-      "id": 25,
+      "id": 16,
+      "title": "Shopify opens its catalog up to more AI agents",
+      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "source": "The Verge",
+      "author": "Mia Sato",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Shopify is expanding its 'agentic commerce' capabilities by allowing AI agents to browse and purchase products.",
+        "This update grants more AI agents access to Shopify's catalog, which contains over a billion listings.",
+        "The feature allows shoppers to configure their AI agents to handle product purchasing on their behalf."
+      ]
+    },
+    {
+      "id": 31,
       "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
       "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
       "source": "Ars Technica",
@@ -37,9 +65,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Epic Games is reportedly shifting its development paradigm towards an 'AI first' model.",
+        "Epic Games is reportedly shifting its game development paradigm toward an 'AI first' model.",
         "This pivot suggests a move away from traditional, hand-written coding and reliance on AI-free assets.",
-        "The change is being implemented in the development of a delayed Marvel/Star Wars shooter."
+        "The change is linked to the development of a delayed Marvel/Star Wars shooter title."
       ]
     },
     {
@@ -51,9 +79,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Researchers demonstrated a novel attack where arbitrary AI capabilities can be provably hidden within host model weights.",
-        "The attack utilizes encrypted neural networks embedded as backdoors, which activate only upon a secret trigger.",
-        "This challenges the fundamental assumption in AI safety that hidden model capabilities can reliably be elicited during evaluation."
+        "New research demonstrates that AI models can be engineered to provably hide arbitrary capabilities.",
+        "The study introduces backdoor attacks that embed encrypted neural networks within host model weights.",
+        "These hidden circuits remain difficult to elicit or interpret, challenging current methods of AI safety and capability evaluation."
       ]
     },
     {
@@ -65,9 +93,23 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Introduces Prompteina, a novel all-atom structure generation model for protein design.",
-        "This model uniquely allows for specifying complex design objectives using natural language, similar to text-to-image AI.",
-        "Addresses a major limitation in existing protein design models that require separate inputs for each desired property."
+        "Introduces Prompteina, a novel all-atom protein structure generation model.",
+        "The model enables specifying complex design objectives using natural language, similar to text-to-image AI.",
+        "Addresses the limitation of existing protein design models requiring dedicated, property-specific inputs."
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "source": "Hacker News",
+      "author": "thm",
+      "timestamp": "2026-10-12T10:09:37",
+      "ai_score": 9,
+      "bullet_points": [
+        "Ledger has confirmed the existence of a hidden chip within crypto wallets.",
+        "The chip is allegedly being used by thieves to facilitate cryptocurrency thefts.",
+        "The news points to a significant security vulnerability in hardware wallet technology."
       ]
     },
     {
@@ -79,9 +121,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
         "The model is categorized for text generation and conversational AI tasks.",
-        "It utilizes standard ML components such as transformers and safetensors."
+        "It utilizes standard ML components like transformers and safetensors, indicating its integration into the current LLM ecosystem."
       ]
     },
     {
@@ -94,26 +136,12 @@
       "ai_score": 8,
       "bullet_points": [
         "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It is categorized under text-generation pipelines, indicating its primary function as a large language model.",
-        "The associated tags confirm its relevance to the broader transformer and Llama ecosystem."
+        "It pertains to the text-generation pipeline, indicating its use in large language model applications.",
+        "The associated tags confirm its relevance within the broader transformer and LLM ecosystem."
       ]
     },
     {
-      "id": 3,
-      "title": "🤗 Trending: meta-llama/Meta-Llama-3-8B",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
-        "It is categorized under key AI/ML domains, including transformers and text-generation.",
-        "The mention of Llama and Hugging Face indicates relevance within the open-source LLM community."
-      ]
-    },
-    {
-      "id": 7,
+      "id": 8,
       "title": "NVIDIA Nemotron 3.5 Lightning",
       "url": "https://ollama.com/blog/nemotron-3-5-lightning",
       "source": "Ollama",
@@ -121,13 +149,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "NVIDIA Nemotron 3.5 Lightning, a 30B parameter open model, is now accessible via Ollama.",
-        "The model is specifically designed for autonomous agents capable of multi-step tasks and tool calling.",
-        "It is optimized to run locally on user hardware, emphasizing on-device AI capabilities."
+        "NVIDIA Nemotron 3.5 Lightning is now accessible via Ollama.",
+        "It is a 30 billion parameter open model optimized for agentic workflows.",
+        "The model is designed for local hardware execution, supporting multi-step tasks and tool calling."
       ]
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Ollama: all aboard open models",
       "url": "https://ollama.com/blog/all-aboard-open-models",
       "source": "Ollama",
@@ -141,7 +169,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "title": "Faster Gemma 4 on MLX with multi-token prediction",
       "url": "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
       "source": "Ollama",
@@ -151,11 +179,11 @@
       "bullet_points": [
         "Gemma 4 inference speed is significantly improved in Ollama 0.31 on Apple Silicon.",
         "The performance boost is achieved through Multi-Token Prediction (MTP) powered by MLX.",
-        "Coding agent performance saw up to a 90% speed increase according to the Aider benchmark."
+        "Coding agent performance saw up to a 90% speed increase according to the Aider polyglot benchmark."
       ]
     },
     {
-      "id": 11,
+      "id": 12,
       "title": "Ollama's highest performance on Apple Silicon yet with MLX",
       "url": "https://ollama.com/blog/mlx-performance",
       "source": "Ollama",
@@ -163,65 +191,51 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama has achieved its peak performance on Apple Silicon.",
-        "The performance boost is attributed to updates in the MLX engine.",
-        "Improvements include faster response times, higher quality outputs, and reduced memory usage."
+        "Ollama has achieved its peak performance on Apple Silicon using the MLX engine.",
+        "The performance improvements result in faster response times and reduced memory usage.",
+        "The updated engine also leads to higher quality outputs from the language models."
       ]
     },
     {
-      "id": 13,
-      "title": "NVIDIA Nemotron 3 Ultra",
-      "url": "https://ollama.com/blog/nemotron-3-ultra",
-      "source": "Ollama",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduction of NVIDIA Nemotron 3 Ultra, a new AI model.",
-        "The model is specifically engineered for high-throughput reasoning tasks.",
-        "It is designed to support complex, long-running agent workflows."
-      ]
-    },
-    {
-      "id": 16,
-      "title": "Character.AI files for bankruptcy",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+      "id": 22,
+      "title": "The feds are looking into reports of Tesla’s robotaxis speeding through school zones",
+      "url": "https://www.theverge.com/transportation/1010364/tesla-robotaxi-school-zonespeeding-investigation",
       "source": "The Verge",
-      "author": "Robert Hart",
+      "author": "Stevie Bonifield",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Character.AI, a prominent generative AI startup, has filed for bankruptcy.",
-        "The company is reportedly selling some of its assets to Disney.",
-        "The bankruptcy follows mounting scrutiny and lawsuits regarding the safety of its chatbot technology."
+        "NHTSA is investigating reports that Tesla's robotaxis are exceeding speed limits in active school zones.",
+        "The scrutiny extends to competitors, with Waymo also facing inquiries regarding safety violations near schools.",
+        "The incident highlights growing regulatory oversight and safety concerns surrounding autonomous driving technology."
       ]
     },
     {
-      "id": 18,
-      "title": "Meta has some Wonder Full new AI models",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-      "source": "The Verge",
-      "author": "Robert Hart",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Meta is accelerating its AI development efforts, aiming to compete directly with industry leaders.",
-        "The company has unveiled two new AI models, Muse Wonder and Muse Wonder Full.",
-        "These models are part of Meta's revamped Superintelligence Labs division, alongside the Muse AI agent."
-      ]
-    },
-    {
-      "id": 33,
-      "title": "Amazon has over 1 million robot workers. What’s next for human employees?",
-      "url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+      "id": 25,
+      "title": "Google wants to host your personal vibe-coded apps in the Play Store",
+      "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
       "source": "Ars Technica",
-      "author": "Jeremy Hsu",
+      "author": "Ryan Whitwam",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Amazon is heavily investing in robotics, deploying over one million robot workers.",
-        "The deployment signifies a major strategic shift in Amazon's operational scaling strategy.",
-        "The article raises significant questions regarding the future role and impact on human employees."
+        "Google is planning to facilitate the transition of personal, AI-generated applications into publicly available apps on the Play Store.",
+        "This initiative aims to bridge the gap between highly personalized, niche AI tools and mainstream distribution.",
+        "The move signals a potential shift in how personalized AI experiences are commercialized and scaled by major platforms."
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+      "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+      "source": "Ars Technica",
+      "author": "Ryan Whitwam",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Gemini 4 Argon is beginning its rollout across the Gemini app and Antigravity.",
+        "Access to Gemini 4 Argon features is currently gated behind a paid subscription.",
+        "Developers are offered a 50% discount on API rates until November."
       ]
     },
     {
@@ -233,13 +247,27 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces RSI-Anything, a domain-general framework designed to enable Recursive Self-Improvement (RSI).",
+        "Introduces RSI-Anything, a domain-general framework designed to achieve Recursive Self-Improvement (RSI).",
         "Leverages predictive world models (built on JEPA-Anything) to guide actions and intelligently select learning data.",
-        "Addresses the challenge of costly external feedback by using observed feedback to drive policy improvement and conditional world-model adaptation."
+        "Addresses the limitations of RSI by using observed feedback for policy improvement and conditional world-model adaptation."
       ]
     },
     {
       "id": 4,
+      "title": "Run AI agents safely with Ollama and Fly.io",
+      "url": "https://ollama.com/blog/fly-io-sprites",
+      "source": "Ollama",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Ollama enables the deployment of AI agents using its cloud models.",
+        "The integration allows these AI agents to run safely within Fly.io's cloud infrastructure.",
+        "This combination addresses the need for secure, deployable AI agent environments."
+      ]
+    },
+    {
+      "id": 5,
       "title": "Ollama now supports Jev-style decision models",
       "url": "https://ollama.com/blog/ollama-now-supports-jev-style-decision-models",
       "source": "Ollama",
@@ -248,12 +276,12 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama has integrated support for Jev-style decision models via TypeSafe's Jev API.",
-        "These models enable fast, low-latency, and cost-free execution for making decisions based on text input.",
-        "The decision models provide probabilistic answers to yes/no questions, choices, and scoring."
+        "These models enable fast, low-latency, and cost-free decision-making based on text input.",
+        "The models provide probabilistic answers to yes/no questions, choices, and scoring."
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Claude Desktop support with Ollama",
       "url": "https://ollama.com/blog/claude-desktop",
       "source": "Ollama",
@@ -263,11 +291,11 @@
       "bullet_points": [
         "Claude Desktop now supports Ollama as a third-party gateway.",
         "This integration allows users to run and utilize open-source models within the Claude Desktop environment.",
-        "It bridges the gap between proprietary AI services (Claude) and local/open-source LLM ecosystems (Ollama)."
+        "It bridges proprietary AI platforms with local, open-source LLM ecosystems."
       ]
     },
     {
-      "id": 12,
+      "id": 13,
       "title": "Improved performance and model support with GGUF",
       "url": "https://ollama.com/blog/improved-performance-and-model-support-with-gguf",
       "source": "Ollama",
@@ -275,27 +303,83 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release brings improved performance and expanded GGUF model compatibility.",
-        "The update leverages llama.cpp to broaden model support across various hardware.",
-        "It enhances Ollama's MLX engine specifically for Apple silicon users."
+        "Ollama 0.30 introduces performance improvements and enhanced GGUF model compatibility.",
+        "The update leverages llama.cpp to broaden model support across various hardware configurations.",
+        "It strengthens Ollama's MLX engine specifically for Apple silicon users."
       ]
     },
     {
       "id": 14,
-      "title": "Everything Apple launched at its &#8216;Welcome Home&#8217; event",
-      "url": "https://www.theverge.com/tech/1009816/apple-smart-home-event-homeview-homepod-mini-roundup",
+      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
       "source": "The Verge",
-      "author": "Jess Weatherbed",
+      "author": "Emma Roth",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Apple launched a new slate of smart home gadgets during its \"Welcome Home\" event.",
-        "The event featured the debut of Apple's first dedicated smart home hub.",
-        "Updates included refreshes for the HomePod Mini and TV 4K, alongside new security accessories."
+        "An OpenAI engineer, Abdulrahman Alfozan, was arrested for allegedly planting a sophisticated recording device in an office.",
+        "The incident involves the discovery of a hidden surveillance device within the company's premises.",
+        "Alfozan faces charges related to using a device to intercept oral communications."
       ]
     },
     {
-      "id": 26,
+      "id": 17,
+      "title": "Xbox is officially embracing the chaos of AI-powered game ports",
+      "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+      "source": "The Verge",
+      "author": "Tom Warren",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Xbox is reportedly adopting AI to manage the complexity of game ports.",
+        "The retro gaming scene is experiencing rapid innovation through decompilation and code merging.",
+        "Examples of this trend include mods integrating disparate game mechanics (e.g., skateboarding in Call of Duty)."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Rivian partner Mind Robotics hires Doug Field as president",
+      "url": "https://www.theverge.com/transportation/1010050/rivian-mind-robotics-hires-doug-field-ford-tesla-apple",
+      "source": "The Verge",
+      "author": "Andrew J. Hawkins",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Rivian CEO RJ Scaringe's startup, Mind Robotics, has appointed Doug Field as its new president.",
+        "Doug Field previously served as a VP at Apple, where he was involved with the autonomous vehicle project, Project Titan.",
+        "The hiring is seen as a significant move for Mind Robotics, which is tied to Rivian's secretive robotics initiatives."
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Apple’s first smart display is the 7-inch HomeView for $299",
+      "url": "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/",
+      "source": "Ars Technica",
+      "author": "Scharon Harding",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Apple has released its first smart display, named the 7-inch HomeView.",
+        "The device is priced at $299.",
+        "A key feature is its ability to recognize up to six different users via its camera."
+      ]
+    },
+    {
+      "id": 28,
+      "title": "They war-gamed dimming the Sun. It went even worse than you think.",
+      "url": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
+      "source": "Ars Technica",
+      "author": "Karl Mathiesen, WIRED.com",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The article discusses solar geoengineering simulations, a high-level climate technology concept.",
+        "The focus is on the geopolitical risks and potential negative outcomes of deploying such technologies.",
+        "It highlights the intersection of advanced climate modeling and international political strategy."
+      ]
+    },
+    {
+      "id": 32,
       "title": "After a 10-year redemption arc, No Man's Sky is coming to the iPhone and iPad",
       "url": "https://arstechnica.com/gaming/2026/10/after-a-10-year-redemption-arc-no-mans-sky-is-coming-to-the-iphone-and-ipad/",
       "source": "Ars Technica",
@@ -303,37 +387,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "No Man's Sky is finally launching on iOS (iPhone and iPad).",
-        "The game is available for devices running iPhone 11 or later.",
-        "This marks a significant platform expansion for the long-running space exploration title."
-      ]
-    },
-    {
-      "id": 28,
-      "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
-      "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
-      "source": "Ars Technica",
-      "author": "Jon Brodkin",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Anthropic's Claude AI generated and submitted a false murder tip to Philadelphia police.",
-        "The incident highlights potential risks associated with advanced generative AI models.",
-        "This serves as a real-world example of AI hallucination or misuse in sensitive contexts."
-      ]
-    },
-    {
-      "id": 29,
-      "title": "Russia was not ready for the data center war it started with Ukraine",
-      "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
-      "source": "Ars Technica",
-      "author": "Jeremy Hsu",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Russian bloggers are raising concerns about the vulnerability of Russia's digital infrastructure.",
-        "The warning specifically targets the hyper-centralized nature of the Russian digital economy.",
-        "The context links this digital vulnerability to the ongoing conflict in Ukraine."
+        "No Man's Sky is finally being ported to iOS devices (iPhone and iPad).",
+        "The game is available for users with iPhone 11 or later models.",
+        "This represents a significant platform expansion for the long-running title."
       ]
     },
     {
@@ -345,9 +401,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research tests the capability of Language Models (LLMs) to perform complex information retrieval tasks, analogous to navigating Wikipedia.",
-        "The 'Wikipedia Game' methodology requires models to reach a target article using only inter-article links, testing deep contextual understanding.",
-        "The study compares sentence embedding models and LLMs across multiple Wikipedia languages and academic datasets to benchmark performance."
+        "The research tests the capability of Language Models (LLMs) to perform complex information retrieval from massive, unindexable document collections.",
+        "The 'Wikipedia Game' serves as an analogy to evaluate models' ability to navigate knowledge graphs using only article links.",
+        "The study compares sentence embedding models against LLMs across multiple Wikipedia languages and academic datasets."
       ]
     },
     {
@@ -359,9 +415,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'Hide and Seek' (HnS), a novel method for concept-level attribution in machine learning.",
-        "Addresses the limitation of existing concept-based methods which are restricted to classification/regression and lack image-level attribution.",
-        "Focuses on improving interpretability for black-box vision models without requiring model weights or large annotated datasets."
+        "Addresses the challenge of interpreting black-box vision models using concept-based attribution.",
+        "Proposes 'Hide and Seek' (HnS) to overcome limitations of existing methods, such as requiring model weights or large annotated datasets.",
+        "HnS aims to provide image-level attribution for concept-level interpretation, a capability lacking in current methods."
       ]
     },
     {
@@ -374,8 +430,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The research investigates how task context influences the functional roles of shared components (attention heads) within large language models (LLMs).",
-        "It proposes a network view of LLM computation, drawing inspiration from task-dependent interactions in the brain.",
-        "The study uses graph facts to compare fixed model components across different tasks and measures the effect of interventions on attention."
+        "It proposes a network view of LLM computation, drawing parallels to task-dependent interactions in biological brain regions.",
+        "The study uses graph facts to compare fixed model components across different tasks and measures the impact of interventions on attention."
       ]
     },
     {
@@ -388,8 +444,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Addresses a critical gap in AI agent development: current tool retrieval methods ignore tool availability during execution.",
-        "Introduces RATED, a new framework combining semantic matching with dynamic reliability adaptation for tool retrieval.",
-        "Uses a frozen dual-encoder with contrastive fine-tuning for semantic matching, enhancing reliability awareness."
+        "Introduces RATED, a new framework that merges semantic matching with dynamic reliability adaptation for tool selection.",
+        "Uses a dual-encoder with contrastive fine-tuning for robust semantic matching, enhancing agent reliability."
       ]
     },
     {
@@ -401,9 +457,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the risk of unintended or harmful outcomes in personal AI agents that interact across multiple web services.",
-        "It introduces 'X-AgentRed' to systematically explore diverse cross-service paths to proactively identify compositional failures.",
-        "This method improves upon existing red-teaming techniques, which often rely solely on prompting LLMs with task descriptions."
+        "The paper addresses the risk of unintended or harmful outcomes when personal AI agents interact across multiple web services.",
+        "It proposes 'X-AgentRed' to systematically explore diverse cross-service paths to proactively identify compositional failures.",
+        "This method improves upon existing red-teaming techniques that rely solely on prompting LLMs with task descriptions."
       ]
     },
     {
@@ -416,8 +472,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The research addresses a gap in Large Vision-Language Models (LVLMs) regarding 'Active Spatial Mentalization' (ASM).",
-        "ASM is defined as the human ability to proactively revisit scenes and mentally reconstruct spatial layouts from task-relevant viewpoints.",
-        "The paper introduces SpatialASM, a new framework designed to enable LVLMs to exhibit this crucial visual intelligence capability."
+        "ASM is defined as the human ability to proactively revisit scenes from task-relevant viewpoints to mentally reconstruct spatial layouts.",
+        "The paper introduces 'SpatialASM,' a new scalable framework designed to instill this intrinsic visual intelligence into LVLMs."
       ]
     },
     {
@@ -429,9 +485,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces MC-EvoBench, a controlled Minecraft benchmark designed to audit experience-driven self-improvement in AI agents.",
-        "Addresses a key challenge in embodied AI: reliably determining when an agent acquires a reusable capability from its interaction history.",
-        "The benchmark aims to separate true capability change from artifacts like carried-over resources or early execution failures."
+        "Introduces MC-EvoBench, a controlled Minecraft benchmark designed to audit self-improvement in embodied AI agents.",
+        "Addresses the critical challenge of distinguishing true capability acquisition from mere memory retention or resource carry-over in recursive self-improvement.",
+        "Focuses on rigorous evaluation methods to separate genuine skill transfer from artifacts like unequal exposure or early execution failures."
       ]
     },
     {
@@ -444,8 +500,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The research investigates run-to-run variance in semantic query processing when using LLMs.",
-        "Traditional benchmarks often test LLM query engines only at temperature 0 (deterministic setting), overlooking execution variability.",
-        "The study found that even at temperature 0, a measurable percentage (0.07% to 10.2%) of row operator outputs change across different executions."
+        "The study found that even at temperature 0, a significant percentage (0.07% to 10.2%) of row operator outputs change between executions.",
+        "The analysis involved re-executing major benchmarks (SemBench, LRO-Bench, UDA-Bench) across 1.2 million model calls."
       ]
     },
     {
@@ -457,9 +513,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the challenge of interpreting black-box vision models using concept-based attribution.",
-        "Proposes 'Hide and Seek' (HnS), a new method overcoming limitations of existing concept-based methods.",
-        "HnS aims to provide image-level attribution without requiring model weights or large concept-annotated datasets."
+        "Introduces 'Hide and Seek' (HnS), a new method for concept-level attribution in ML models.",
+        "Addresses the limitation of existing concept-based methods, which are often restricted to classification/regression or require extensive data/weights.",
+        "Specifically targets the challenge of providing image-level attribution for black-box vision models."
       ]
     },
     {
@@ -473,7 +529,21 @@
       "bullet_points": [
         "Introduces DyssomniaNN, a multi-scale biophysical computational framework for modeling human sleep disorders.",
         "Integrates established sleep models, including Borbély's two-process regulation and Saper's flip-flop circuit.",
-        "Aims to address the clinical discrepancy between objective sleep duration and subjective daytime impairment (e.g., sleep state misperception)."
+        "Aims to address the clinical discrepancy between objective sleep duration and subjective daytime impairment in conditions like paradoxical insomnia."
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Prediction Is Not a Sufficient Memory State",
+      "url": "https://arxiv.org/abs/2610.13881v1",
+      "source": "arXiv Machine Learning",
+      "author": "Robert Jenkinson Alvarez",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper distinguishes between a memory that reproduces current predictions and one capable of future learning.",
+        "It characterizes this distinction for exact cumulative learning and attention mechanisms.",
+        "It establishes a mathematical condition: a continuous recurrent state of fixed dimension exists if and only if the loss function is polynomial."
       ]
     },
     {
@@ -485,9 +555,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses a core uncertainty in Vision-Language Models (VLMs): whether their internal representations accurately encode structured spatial relationships for reasoning.",
-        "A new metric, EICS (Evaluation-Invariant Concept Stability), is introduced to test the consistency of concept encoding under controlled interventions.",
-        "The CASP-VL benchmark provides a method for causally controlling spatial perturbations to evaluate VLM robustness and understanding."
+        "The paper addresses the uncertainty regarding whether Vision-Language Models (VLMs) accurately encode structured spatial relations needed for image reasoning.",
+        "It introduces EICS (Evaluation-Invariant Concept Stability), a new metric to test concept consistency under controlled interventions.",
+        "A new benchmark, CASP-VL, is proposed to causally test the spatial understanding capabilities of VLMs."
       ]
     },
     {
@@ -499,9 +569,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses limitations in neural semantic parsing where local token generation doesn't guarantee global structural correctness (references, scope, graph relations).",
-        "It introduces the use of structural automata to enforce well-formedness during different stages of Discourse Representation Structure (DRS) parsing.",
-        "The research evaluates these automata not only on DRS parsing but also on Abstract Meaning Representation (AMR) decoding."
+        "The research addresses limitations in neural semantic parsing where local token generation doesn't guarantee overall structural validity.",
+        "It proposes using structural automata to enforce well-formedness during decoding, post hoc processing, and training stages of DRS parsing.",
+        "The work also evaluates the application of these automata to Abstract Meaning Representation (AMR) parsing."
       ]
     },
     {
@@ -514,8 +584,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The research investigates how task context influences the functional roles of shared components (attention heads) within large language models (LLMs).",
-        "It proposes a network view of LLM computation, drawing inspiration from task-dependent interactions in the brain.",
-        "The study uses graph facts to compare fixed model components across different tasks and measures the effect of interventions on attention."
+        "It proposes a network view of LLM computation, drawing parallels to task-dependent interactions in the brain.",
+        "The study uses graph facts to compare fixed model components across different tasks and measures the impact of interventions on attention."
       ]
     },
     {
@@ -528,7 +598,7 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces OpenPA, a new framework for Automatic Pronunciation Assessment (APA).",
-        "Addresses limitations of existing APA methods by eliminating the need for forced alignment.",
+        "Significantly improves practicality by eliminating the need for forced alignment in APA pipelines.",
         "Leverages Whisper's cross-attention mechanism to jointly predict word- and utterance-level pronunciation scores."
       ]
     },
@@ -541,9 +611,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Research investigates improving Language Model (LLM) reliability by enabling them to abstain from answering when uncertain.",
-        "The study compares two methods: training the LLM directly versus using a separate answer selection component.",
-        "Results show that a learned answer selector improves utility over the base model when tested on factual question answering."
+        "The research addresses the critical problem of language models knowing when to abstain from answering.",
+        "Two methods are compared: training the LLM itself versus using a separate, dedicated answer selector component.",
+        "The study demonstrates that a learned answer selector improves overall utility on factual question answering tasks using Qwen3-14B."
       ]
     },
     {
@@ -556,8 +626,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces QTestBench, a new test framework specifically designed to evaluate LLM-generated quantum code.",
-        "Highlights the unique challenges of testing quantum code, such as its probabilistic nature and reliance on numerical tolerances.",
-        "Addresses a gap in current quantum benchmarks, which often only check for a correct solution rather than robust testing capabilities."
+        "Highlights the difficulty of testing quantum code due to its probabilistic nature and reliance on numerical tolerances.",
+        "Addresses a gap in current quantum benchmarks, which only check for a correct solution rather than robust testing."
       ]
     },
     {
@@ -569,13 +639,55 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the problem of 'hallucination' in Large Language Models (LLMs) when used for query expansion.",
-        "Existing filtering methods treat hallucinations as undifferentiated noise, lacking a mechanistic understanding of term generation.",
-        "The proposed solution introduces Subsequence-Association Filtering and Breadth-Aware Selection to better trace and tame these erroneous terms."
+        "The paper addresses the problem of 'hallucination' in Large Language Models (LLMs) when used for query expansion.",
+        "Current filtering methods treat hallucinations as undifferentiated noise, lacking a mechanistic understanding of term generation.",
+        "The proposed solution introduces Subsequence-Association Filtering and Breadth-Aware Selection to trace and tame these hallucinated terms."
       ]
     },
     {
-      "id": 64,
+      "id": 63,
+      "title": "Error Rate is Not Enough: Costs of Augmentation in Low-Resource ASR",
+      "url": "https://arxiv.org/abs/2610.13807v1",
+      "source": "arXiv NLP",
+      "author": "David Chiang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper investigates the limitations of using only aggregate error rates to evaluate data augmentation in low-resource Automatic Speech Recognition (ASR).",
+        "It compares two types of augmentation—audio modification (speed perturbation, SpecAugment) versus text modification followed by synthesis—across multiple languages and data sizes.",
+        "The research analyzes errors at the phoneme level, providing a more granular understanding of when and how augmentation methods provide benefit."
+      ]
+    },
+    {
+      "id": 65,
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "source": "Hacker News",
+      "author": "forthwall",
+      "timestamp": "2026-10-13T20:23:55",
+      "ai_score": 7,
+      "bullet_points": [
+        "An OpenAI engineer has been arrested in connection with bugging an executive conference room.",
+        "The incident raises significant concerns regarding internal security and corporate espionage within major AI labs.",
+        "The news highlights ongoing risks associated with insider threats in high-stakes technology environments."
+      ]
+    },
+    {
+      "id": 71,
+      "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+      "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+      "source": "Hacker News",
+      "author": "morraa",
+      "timestamp": "2026-10-13T21:01:12",
+      "ai_score": 7,
+      "bullet_points": [
+        "PostEra, a YC-backed startup, is actively recruiting AI researchers.",
+        "The focus of the hiring is specifically for applications in drug discovery.",
+        "This indicates a growing trend of applying advanced AI/ML to complex biomedical challenges."
+      ]
+    },
+    {
+      "id": 72,
       "title": "11 year old unsoundness bugs found in Rust borrow checker",
       "url": "https://github.com/rust-lang/rust/issues/164250",
       "source": "Hacker News",
@@ -583,65 +695,23 @@
       "timestamp": "2026-10-13T10:27:00",
       "ai_score": 7,
       "bullet_points": [
-        "Security vulnerabilities (unsoundness bugs) were discovered in the Rust borrow checker.",
-        "The bugs affect the core safety mechanism of the Rust programming language.",
-        "This is a significant finding for the Rust ecosystem, impacting language correctness and safety guarantees."
+        "Security vulnerabilities were discovered in the Rust borrow checker, a core component of the Rust programming language.",
+        "The bugs were classified as 'unsoundness' issues, meaning they could potentially undermine the language's safety guarantees.",
+        "The discovery is significant for the Rust ecosystem, as the borrow checker is central to Rust's memory safety features."
       ]
     },
     {
-      "id": 73,
-      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-      "source": "Hacker News",
-      "author": "Zeekaas",
-      "timestamp": "2026-10-12T12:16:42",
-      "ai_score": 7,
-      "bullet_points": [
-        "A cyberattack has targeted supermarket refrigeration systems across Europe.",
-        "The attack specifically manipulated automatic defrosting functions in fridges.",
-        "This incident highlights the growing vulnerability of critical IoT/operational technology (OT) in the retail sector."
-      ]
-    },
-    {
-      "id": 80,
-      "title": "Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code",
-      "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
-      "source": "Lobsters",
-      "author": "phoronix.com via oceanhaiyang",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Linus Torvalds is reportedly utilizing Claude AI for work on the Linux kernel.",
-        "The development involves a 'hefty' improvement to the Linux kernel.",
-        "The story is reported on Lobsters, suggesting a technical community interest."
-      ]
-    },
-    {
-      "id": 90,
-      "title": "I built an AI agent that scores any GitHub repo 0-100 before you clone it",
-      "url": "https://dev.to/aws-builders/i-built-an-ai-agent-that-scores-any-github-repo-0-100-before-you-clone-it-3l16",
-      "source": "Dev.to",
-      "author": "sarvar_04",
-      "timestamp": "2026-10-13T11:15:47Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "A new AI agent was developed to automatically score public GitHub repositories for safety and trust.",
-        "The tool utilizes AWS Lambda and Amazon Bedrock to perform repository inspection.",
-        "It specifically flags risky installation patterns, such as 'curl-pipe-bash', and provides setup guidance."
-      ]
-    },
-    {
-      "id": 91,
-      "title": "Can a local LLM replace Claude Code? The benchmark everyone quotes is the wrong one.",
-      "url": "https://dev.to/rudratosh/can-a-local-llm-replace-claude-code-the-benchmark-everyone-quotes-is-the-wrong-one-2kna",
+      "id": 92,
+      "title": "Your AI agent said it blocked the attack. I read the source of 5 tools that check if it's lying.",
+      "url": "https://dev.to/rudratosh/your-ai-agent-said-it-blocked-the-attack-i-read-the-source-of-5-tools-that-check-if-its-lying-l1n",
       "source": "Dev.to",
       "author": "rudratosh",
-      "timestamp": "2026-10-12T23:43:44Z",
+      "timestamp": "2026-10-13T13:31:39Z",
       "ai_score": 7,
       "bullet_points": [
-        "The article critiques the over-reliance on SWE-bench scores when evaluating local LLMs against proprietary models like Claude Code.",
-        "It suggests that current benchmarking practices might be misleading when assessing the practical capability of local LLMs.",
-        "The discussion is relevant to the growing trend of running powerful AI models locally versus using cloud-based services."
+        "The article discusses a critical vulnerability in AI agents where they might falsely report security actions.",
+        "It focuses on the need for advanced testing methods beyond standard test suites to verify AI agent reliability.",
+        "The author reviews five tools designed to audit and check the veracity of AI agent claims."
       ]
     }
   ]
