@@ -1,33 +1,19 @@
 {
-  "generated_at": "2026-10-16T01:48:58.240857",
-  "total_stories": 45,
+  "generated_at": "2026-10-16T10:12:53.617170",
+  "total_stories": 51,
   "sources": [
     "The Verge",
-    "Ollama",
-    "arXiv NLP",
-    "Lobsters",
     "arXiv AI",
     "Dev.to",
-    "arXiv Machine Learning",
+    "Ollama",
+    "arXiv NLP",
     "Ars Technica",
+    "Hugging Face Benchmarks",
     "Hacker News",
-    "Hugging Face Benchmarks"
+    "Lobsters",
+    "arXiv Machine Learning"
   ],
   "stories": [
-    {
-      "id": 2,
-      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It pertains to the core area of large language models (LLMs) and text generation.",
-        "The associated tags indicate relevance to transformers, safetensors, and the Llama family of models."
-      ]
-    },
     {
       "id": 9,
       "title": "Muse Glimmer from Meta Superintelligence Labs is now available",
@@ -39,11 +25,11 @@
       "bullet_points": [
         "Meta has released Muse Glimmer, its first open model from Meta Superintelligence Labs.",
         "Muse Glimmer is a 30B multimodal model licensed under Apache 2.0, targeting local coding agents.",
-        "The model is optimized for local deployment via Ollama, featuring native DFlash and image input support."
+        "The model leverages Ollama's MLX engine, featuring new native DFlash and image input support."
       ]
     },
     {
-      "id": 22,
+      "id": 23,
       "title": "Meta and Apple team up to make Muse AI models run better on Macs",
       "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
       "source": "The Verge",
@@ -51,9 +37,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Meta unveiled Muse Spark, positioning it as a leading US open-weight AI model.",
-        "The collaboration enables Muse AI models to run locally on Apple M5 Ultra Mac Studios.",
-        "This integration leverages the MLX framework, facilitating desktop-level performance for advanced AI."
+        "Meta has introduced Muse Spark, positioning it as a leading US open-weight AI model.",
+        "The collaboration enables Muse AI models to run locally on Apple hardware, specifically M5 Ultra Mac Studios.",
+        "The integration leverages Apple's MLX framework, signaling a trend toward on-device AI processing."
       ]
     },
     {
@@ -65,13 +51,41 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Targeted advertisements are being weaponized to deliver 0-click exploits.",
-        "The exploits are used to install mercenary spyware on victims' devices.",
-        "This incident suggests a significant, confirmed evolution in cyberattack vectors."
+        "Targeted advertisements are being used as a delivery mechanism for sophisticated cyberattacks.",
+        "The attack involved 0-click exploits, meaning no user interaction was required to compromise the device.",
+        "The malware is described as 'mercenary spyware,' indicating a professional, likely state-sponsored or contracted, threat."
       ]
     },
     {
-      "id": 65,
+      "id": 47,
+      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "url": "https://arxiv.org/abs/2610.22344v1",
+      "source": "arXiv Machine Learning",
+      "author": "Bo Zhang",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "The research proposes MLExpert, a generalist agentic model aimed at autonomous Machine Learning Engineering (MLE).",
+        "This work advances the concept of AI for AI (AI4AI) by enabling LLMs to autonomously develop and improve AI systems.",
+        "The model focuses on workflow-driven orchestration to manage complex, long-horizon experimentation necessary for recursive self-improvement (RSI)."
+      ]
+    },
+    {
+      "id": 56,
+      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "url": "https://arxiv.org/abs/2610.22344v1",
+      "source": "arXiv NLP",
+      "author": "Bo Zhang",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "The research proposes MLExpert, a generalist agentic model aimed at autonomous Machine Learning Engineering (MLE).",
+        "This work contributes to the field of AI4AI, exploring pathways toward recursive self-improvement (RSI) using LLMs.",
+        "The model utilizes workflow-driven systems and model-directed interaction to manage complex, long-horizon ML experimentation autonomously."
+      ]
+    },
+    {
+      "id": 66,
       "title": "Muse Spark Open",
       "url": "https://research.meta.ai/blog/muse-spark-open",
       "source": "Hacker News",
@@ -79,9 +93,9 @@
       "timestamp": "2026-10-15T17:47:39",
       "ai_score": 9,
       "bullet_points": [
-        "Meta has released 'Muse Spark Open,' indicating a significant push toward open-source AI models.",
-        "The availability on Hugging Face suggests broad accessibility for developers and researchers.",
-        "This launch positions Meta in the competitive landscape of large language models (LLMs) with a focus on openness."
+        "Meta has released 'Muse Spark Open,' indicating a new offering in their AI/ML ecosystem.",
+        "The release is highlighted by availability on Hugging Face, suggesting open-source or accessible deployment options.",
+        "The announcement signals Meta's continued push into advanced generative AI models, potentially impacting the industry landscape."
       ]
     },
     {
@@ -93,9 +107,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
-        "The model is categorized for text-generation and conversational AI tasks.",
-        "It utilizes standard ML components like transformers and safetensors."
+        "The news highlights the trending status of the DeepSeek-R1 model on Hugging Face Benchmarks.",
+        "The model is categorized under text-generation and conversational AI pipelines.",
+        "It utilizes key ML technologies such as transformers and safetensors."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Highlights the trending status of the meta-llama/Llama-3.1-8B-Instruct model on Hugging Face.",
+        "The model is categorized under text-generation pipelines, indicating its primary function.",
+        "Tags confirm its relevance within the transformer and Llama ecosystem."
       ]
     },
     {
@@ -107,9 +135,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
-        "It is categorized under key AI/ML tags such as 'transformers', 'llama', and 'text-generation'.",
-        "This indicates ongoing community interest and benchmarking activity around Llama 3 variants."
+        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face Benchmarks.",
+        "The model is categorized under text-generation pipelines, indicating its primary function.",
+        "Key technologies associated include transformers and safetensors, standard in modern LLM deployment."
       ]
     },
     {
@@ -121,9 +149,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "NVIDIA Nemotron 3.5 Lightning, a 30B parameter open model, is now accessible via Ollama.",
-        "The model is specifically designed for autonomous agents capable of multi-step tasks and tool calling.",
-        "It is optimized to run locally on user hardware, emphasizing on-device AI capabilities."
+        "NVIDIA Nemotron 3.5 Lightning is now accessible via Ollama.",
+        "It is a 30 billion parameter open model optimized for agentic workflows.",
+        "The model is designed for local hardware execution, supporting multi-step tasks and tool calling."
       ]
     },
     {
@@ -137,7 +165,7 @@
       "bullet_points": [
         "Ollama, a platform for running open models, has secured significant funding.",
         "The company raised $88 million from prominent investors including Y Combinator and Benchmark.",
-        "Ollama currently serves a substantial developer base of 8.9 million users."
+        "Ollama currently serves a large developer base of 8.9 million users."
       ]
     },
     {
@@ -149,9 +177,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Gemma 4 inference speed is significantly improved within Ollama 0.31 on Apple Silicon.",
-        "The performance boost is attributed to the implementation of Multi-Token Prediction (MTP) powered by MLX.",
-        "Coding agent performance shows up to a 90% speed increase when benchmarked using Aider."
+        "Ollama 0.31 introduces significant speed improvements for Gemma 4 on Apple Silicon.",
+        "The performance boost is achieved through Multi-Token Prediction (MTP) powered by MLX.",
+        "Coding agent tasks show up to a 90% speed increase according to the Aider polyglot benchmark."
       ]
     },
     {
@@ -169,7 +197,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 17,
       "title": "ChatGPT can peek at your Chrome tabs now",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
       "source": "The Verge",
@@ -177,51 +205,65 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "ChatGPT's Chrome extension now has the capability to view the user's open browser tabs.",
-        "This feature allows users to reference their current browsing context directly within the ChatGPT interface.",
-        "The update replaces or supersedes previous dedicated tools like ChatGPT Atlas."
+        "ChatGPT's Chrome extension has been upgraded to access user's open browser tabs.",
+        "Users can now prompt ChatGPT within its web or desktop app to view content from their active tabs.",
+        "This feature replaces the functionality previously offered by the ChatGPT Atlas browser."
+      ]
+    },
+    {
+      "id": 39,
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "url": "https://arxiv.org/abs/2610.22350v1",
+      "source": "arXiv AI",
+      "author": "Xinhua Wang",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces FDE-Gym, a new benchmark designed to simulate real-world AI delivery challenges.",
+        "The benchmark moves beyond simple, well-defined tasks to test agents on ambiguous requirements and live system constraints.",
+        "FDE-Gym comprises 95 end-to-end tasks derived from 20 real customer scenarios across 18 different industries."
       ]
     },
     {
       "id": 40,
-      "title": "AVALON: Zero-Shot Indoor Navigation with Human-Seeded Topological Memory",
-      "url": "https://arxiv.org/abs/2610.21586v1",
+      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "url": "https://arxiv.org/abs/2610.22344v1",
       "source": "arXiv AI",
-      "author": "Shiyan Hu",
+      "author": "Bo Zhang",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces AVALON, a novel topological navigation framework for service robots in unmapped indoor environments.",
-        "Key innovation is using human-seeded layered spatial memory, allowing robots to operate without prior site-specific training.",
-        "The system incorporates node-verified topological execution and evidence-gated memory co-updating between human and robot."
+        "The research introduces MLExpert, a generalist agentic model aimed at autonomous Machine Learning Engineering (MLE).",
+        "This work contributes to the field of AI4AI, exploring the pathway toward recursive self-improvement (RSI) using LLMs.",
+        "The model utilizes workflow-driven systems and model-directed interaction to manage complex, long-horizon ML experimentation autonomously."
       ]
     },
     {
-      "id": 47,
-      "title": "Your Transformer Is Secretly Elastic",
-      "url": "https://arxiv.org/abs/2610.20588v1",
+      "id": 42,
+      "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+      "url": "https://arxiv.org/abs/2610.22341v1",
+      "source": "arXiv AI",
+      "author": "Laurent Itti",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduction of 3DCodeVerse, a research ecosystem designed to allow coding agents to generate editable and verifiable 3D content.",
+        "The ecosystem includes a large-scale, high-quality dataset of executable 3D code, specifically 3DCodeVerse-2M.",
+        "It features a dedicated coding harness for spatial reasoning and automated verification of the generated 3D code."
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Learning to Steer LLM Agents and Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2610.22316v1",
       "source": "arXiv Machine Learning",
-      "author": "Cees G. M. Snoek",
+      "author": "Tat-Seng Chua",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses the rigidity of fixed-size transformer models when deployed across diverse hardware and fluctuating workloads.",
-        "Proposes a novel, retraining-free method to 'elastify' pre-trained transformers.",
-        "Enables a single model to dynamically adapt its computational requirements across a continuum of needs."
-      ]
-    },
-    {
-      "id": 56,
-      "title": "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
-      "url": "https://arxiv.org/abs/2610.21561v1",
-      "source": "arXiv NLP",
-      "author": "Petr Motlicek",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces DialFork, a novel benchmark specifically designed to test for procedural hallucination in conversational AI.",
-        "Addresses a critical, under-researched failure mode where LLMs deviate from intended conversational logic despite being factually fluent.",
-        "Highlights the growing industry need to evaluate LLMs not just on factual accuracy, but also on adherence to procedural reasoning."
+        "Addresses the critical problem of 'goal drift' in complex LLM-based agents and multi-agent systems.",
+        "Proposes a novel 'steering agent' designed to supervise execution in real-time.",
+        "The steering agent actively corrects system behavior when the LLM agents deviate from their intended goals."
       ]
     },
     {
@@ -233,9 +275,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama enables the deployment of AI agents using its cloud models.",
-        "The integration allows these agents to run securely within Fly.io's cloud infrastructure.",
-        "This combination addresses the need for safe and scalable deployment of AI agents."
+        "Ollama enables the safe deployment of AI agents.",
+        "The integration allows AI agents to utilize Ollama's cloud models.",
+        "Fly.io provides the cloud infrastructure for running these agents securely."
       ]
     },
     {
@@ -247,9 +289,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama has expanded its capabilities to support Jev-style decision models.",
-        "These new models leverage TypeSafe's Jev API for fast, typed decision-making.",
-        "Decision models can provide probabilistic answers (yes/no, choices, scores) at low latency and no cost."
+        "Ollama has integrated support for Jev-style decision models via TypeSafe's Jev API.",
+        "These new models enable fast, low-latency, and cost-free decision-making based on text input.",
+        "The models provide probabilistic answers to yes/no questions, choices, and scoring."
       ]
     },
     {
@@ -262,8 +304,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Claude Desktop now supports Ollama as a third-party gateway.",
-        "This integration allows users to run open-source models within the Claude Desktop environment.",
-        "It bridges proprietary AI platforms with local, open-source LLM ecosystems."
+        "This integration allows users to run open models within the Claude Desktop environment.",
+        "It bridges proprietary AI interfaces with local, open-source LLM ecosystems."
       ]
     },
     {
@@ -275,13 +317,27 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama 0.30 release introduces performance improvements and enhanced GGUF model compatibility.",
-        "The update leverages llama.cpp to broaden the range of supported models and hardware.",
-        "It specifically augments Ollama's MLX engine for better performance on Apple silicon."
+        "Ollama 0.30 introduces performance improvements and enhanced GGUF model compatibility.",
+        "The update leverages llama.cpp to broaden model support across various hardware configurations.",
+        "It augments Ollama's MLX engine, particularly benefiting users on Apple silicon."
       ]
     },
     {
       "id": 14,
+      "title": "Time is a-changin’: say goodbye to the leap second",
+      "url": "https://www.theverge.com/tech/1012689/leap-second-discontinue-timekeeping-change",
+      "source": "The Verge",
+      "author": "Jess Weatherbed",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The International Bureau of Weights and Measures (BIPM) has voted to eliminate the leap second.",
+        "The leap second is an irregular time adjustment used to synchronize tracked time standards with Earth's actual rotation.",
+        "This change is intended to prevent potential infrastructure failures similar to the Y2K bug."
+      ]
+    },
+    {
+      "id": 15,
       "title": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
       "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
       "source": "The Verge",
@@ -289,13 +345,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Tesla demonstrated a next-generation Roadster capable of brief flight and driving upside down.",
-        "The vehicle achieved a 0-60 mph acceleration in under one second during the demonstration.",
-        "The event showcased a highly advanced prototype, aligning with Elon Musk's vision for flying vehicles."
+        "Tesla demonstrated its next-generation Roadster in Waco, Texas.",
+        "The vehicle showcased extreme performance, including acceleration to 60mph in under a second.",
+        "The demonstration included a dramatic display where the car briefly flew and drove upside down."
       ]
     },
     {
-      "id": 20,
+      "id": 21,
       "title": "Bluesky&#8217;s AI tool now lets you make games and apps to share on social",
       "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
       "source": "The Verge",
@@ -303,9 +359,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Bluesky's AI tool, Attie AI, has expanded its functionality beyond feed customization.",
-        "Users can now leverage Attie AI to create small, shareable social applications like games, polls, and dashboards.",
-        "This development positions Bluesky as a platform enabling user-generated, interactive social experiences."
+        "Bluesky's Attie AI tool has expanded its functionality beyond feed customization.",
+        "Users can now leverage Attie AI to create small, shareable social applications like games and polls.",
+        "These custom creations can be shared with others as standalone websites within the Bluesky ecosystem."
       ]
     },
     {
@@ -318,292 +374,334 @@
       "ai_score": 7,
       "bullet_points": [
         "Suspected Russian drones have entered the territorial waters of a NATO country (Romania).",
-        "The attacks targeted a chemical tanker within Romanian waters.",
-        "This marks the first reported instance of such drone incursions into the country's waters."
+        "The attacks targeted a chemical tanker operating within Romanian waters.",
+        "This marks the first reported instance of such drone incursions into the country's territorial waters."
       ]
     },
     {
       "id": 34,
-      "title": "Qwen-Audio-Jev: A Unified Interface for Audio Decisions",
-      "url": "https://arxiv.org/abs/2610.21614v1",
+      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2610.22372v1",
       "source": "arXiv AI",
-      "author": "Wupeng Wang",
+      "author": "Jiachen Li",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces Qwen-Audio-Jev, a new model designed to improve efficiency in high-throughput audio applications.",
-        "Addresses the computational overhead and latency associated with autoregressive text generation in Large Audio Language Models (LALMs).",
-        "Unifies audio decision-making tasks—selection, binary judgment, and scoring—using a dedicated Jev decision head."
+        "Introduces LIBERO-PeRM, a new benchmark for personalized robotic manipulation (PeRM).",
+        "Addresses a gap in research by separating task completion from preference satisfaction in robotics.",
+        "Focuses on evaluating how embodied agents follow user preferences, including zero-shot settings."
       ]
     },
     {
       "id": 35,
-      "title": "Learning Intrinsic Dynamics in Latent World Models",
-      "url": "https://arxiv.org/abs/2610.21612v1",
+      "title": "Discovering state-of-the-art quantum circuits with large language models",
+      "url": "https://arxiv.org/abs/2610.22367v1",
       "source": "arXiv AI",
-      "author": "Jingwen Fu",
+      "author": "Mikhail D. Lukin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses a key challenge in world models: separating action-consequence relationships from irrelevant visual noise in latent representations.",
-        "The study investigates the link between 'action predictability' (reconstructing actions from latent states) and the preservation of intrinsic dynamics.",
-        "The core hypothesis suggests that promoting action predictability can help stabilize and improve the learning of intrinsic dynamics within these models."
+        "The research addresses the need for efficient quantum algorithms to achieve useful quantum advantage.",
+        "Optimizing quantum computational primitives is challenging due to constraints like reversibility, unlike classical computation.",
+        "The work proposes using Large Language Models (LLMs) to discover state-of-the-art quantum circuits."
       ]
     },
     {
       "id": 36,
-      "title": "Evaluating Inquiry Learning in LLM-Based Agents: Hypothesizing, Reasoning, and Exploration",
-      "url": "https://arxiv.org/abs/2610.21604v1",
+      "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+      "url": "https://arxiv.org/abs/2610.22364v1",
       "source": "arXiv AI",
-      "author": "Tanja Käser",
+      "author": "Yejin Choi",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses the gap in current LLM evaluation by examining how models integrate the full scientific inquiry cycle (exploration, hypothesis, reasoning).",
-        "It acknowledges that LLMs already show strength in isolated components like inductive reasoning and hypothesis generation.",
-        "The research focuses on building and testing LLM-based agents capable of iterative, holistic scientific discovery."
+        "Introduces T2-z, a method for Test-Time Optimization of Environment Latents in robotic world models.",
+        "Addresses the challenge of robots needing to account for unobservable environmental factors (e.g., friction, mass).",
+        "Augments existing robotic world models with a compact, learnable latent to condition world predictions."
       ]
     },
     {
       "id": 37,
-      "title": "Decoding What iOS Location Services Send to Apple: An LLM Is an Unreliable Analyst but a Useful Toolmaker",
-      "url": "https://arxiv.org/abs/2610.21597v1",
+      "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
+      "url": "https://arxiv.org/abs/2610.22362v1",
       "source": "arXiv AI",
-      "author": "Douglas Leith",
+      "author": "Ismini Lourentzou",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research investigates using Large Language Models (LLMs) to assist in reverse engineering proprietary data formats (protobufs) from iOS location services.",
-        "The study tests frontier models (Claude Opus 4.8, Codex GPT Sol 5.6) against network traffic captured from iPhones.",
-        "The findings indicate that while LLMs are a useful toolmaker in this process, they are an unreliable analyst, producing schemas with substantial, hard-to-detect errors."
+        "Introduces CoDA, a framework for co-evolving simulation data engines and robot action policies.",
+        "Addresses the limitation of generative simulations by focusing on creating physically valid environments relevant to policy failures.",
+        "Utilizes a shared heterogeneous memory to track environment construction, policy failures, and learning progress."
       ]
     },
     {
       "id": 38,
-      "title": "LoopAhead: Speculating Ahead for Faster Decoding in Looped Language Models",
-      "url": "https://arxiv.org/abs/2610.21594v1",
+      "title": "Rethinking Routing Exploration in Modern Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2610.22353v1",
       "source": "arXiv AI",
-      "author": "Zhiyong Chen",
+      "author": "Yi Ma",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces 'LoopAhead' to address high decoding latency in Looped Language Models.",
-        "Looped Transformers are efficient but suffer from sequential computation during token generation.",
-        "LoopAhead aims to better exploit early-loop features compared to existing pipelined self-speculative decoding methods."
-      ]
-    },
-    {
-      "id": 39,
-      "title": "LOADBench: A Large Open Analog Dataset and Benchmark for Machine Learning in IC Design",
-      "url": "https://arxiv.org/abs/2610.21591v1",
-      "source": "arXiv AI",
-      "author": "R. Martins",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces LOADBench, a large, open-source dataset and benchmark specifically for Machine Learning in Analog IC Design.",
-        "Addresses the critical industry problem of unreliable comparisons due to the lack of standardized evaluation and proprietary datasets in analog ML research.",
-        "The dataset includes over 100 operational amplifier (opamp) topologies fabricated in the SkyWater130 process."
+        "The paper addresses the routing exploration dilemma in modern Mixture-of-Experts (MoE) models.",
+        "It analyzes the trade-off between fine-grained expert segmentation and the use of shared experts in MoE architectures.",
+        "Shared experts risk reducing the exploratory nature of the routing mechanism, which the research seeks to address."
       ]
     },
     {
       "id": 41,
-      "title": "ClaimScope: Label-Blind Witness Verification for Mathematical Claim Auditing",
-      "url": "https://arxiv.org/abs/2610.21581v1",
+      "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+      "url": "https://arxiv.org/abs/2610.22343v1",
       "source": "arXiv AI",
-      "author": "Mushir Akhtar",
+      "author": "Yi Bin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces ClaimScope, a new 72-task benchmark designed to audit mathematical claims beyond simple answer accuracy.",
-        "The auditing process involves a multi-faceted verdict, scope definition, counterexample identification, and repair suggestion.",
-        "Evaluates large language models (like Qwen3-8B) on mathematical reasoning using a witness checker that validates the model's submitted state."
+        "Addresses a key limitation in 3D world modeling where geometry features from foundation models are view-dependent.",
+        "Introduces 'GeoState,' a novel view-decoupled geometry representation for predictive 3D world modeling.",
+        "The core innovation separates the scene's true state evolution from variations caused by the camera's viewpoint."
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Dexterity from Supervised Play",
+      "url": "https://arxiv.org/abs/2610.22340v1",
+      "source": "arXiv AI",
+      "author": "Ruoshi Liu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces DSP, a framework for teaching robots dexterous manipulation.",
+        "The method uses behavior cloning from short human play sessions to initialize a policy.",
+        "This policy then guides the robot to autonomously gather extensive interaction data for world model training and MPC."
       ]
     },
     {
       "id": 44,
-      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-      "url": "https://arxiv.org/abs/2610.20606v1",
-      "source": "arXiv Machine Learning",
-      "author": "Koushil Sreenath",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research focuses on humanoid control policies, a rapidly advancing area in robotics.",
-        "It addresses a gap by attempting to model the distribution of learned neural network weights directly, rather than just training the networks conventionally.",
-        "The proposed method utilizes diffusion models to generate functional control networks within the weight space."
-      ]
-    },
-    {
-      "id": 45,
-      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
-      "url": "https://arxiv.org/abs/2610.20607v1",
+      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2610.22372v1",
       "source": "arXiv Machine Learning",
       "author": "Jiachen Li",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces HiRe-MoMa, a framework designed for stable and sample-efficient real-world fine-tuning of Mobile Manipulation (MoMa) systems.",
-        "Addresses key challenges in MoMa, specifically high-dimensional action spaces and complex module coupling.",
-        "Utilizes a Hierarchical Residual Architecture as its core mechanism for improving robotic control."
+        "Introduces LIBERO-PeRM, a new benchmark specifically designed for personalized robotic manipulation (PeRM).",
+        "Addresses a gap in current research by separating task completion from preference satisfaction in embodied agents.",
+        "Investigates how robotic policies adhere to user preferences, particularly in zero-shot learning scenarios."
+      ]
+    },
+    {
+      "id": 45,
+      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+      "url": "https://arxiv.org/abs/2610.22358v1",
+      "source": "arXiv Machine Learning",
+      "author": "Bernie Wang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "PathFM introduces a new trajectory-based forecasting model designed to overcome limitations in current time series foundation models.",
+        "Unlike existing models that predict marginal quantiles, PathFM explicitly models the dependence structure of future multivariate trajectories.",
+        "The model utilizes flow matching to improve forecasting accuracy for trajectory-dependent metrics like cumulative demand and peak load."
       ]
     },
     {
       "id": 46,
-      "title": "Co-Evolving Acting and Forecasting for Language Agents",
-      "url": "https://arxiv.org/abs/2610.20597v1",
+      "title": "Rethinking Routing Exploration in Modern Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2610.22353v1",
       "source": "arXiv Machine Learning",
-      "author": "Jiaxuan You",
+      "author": "Yi Ma",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the computational bottleneck in training language agents caused by expensive long-horizon rollouts.",
-        "It critiques existing methods in agentic Reinforcement Learning (RL) that fail to effectively utilize intermediate step supervision.",
-        "The proposed method, 'Co-Evolving Acting and Forecasting,' aims to improve supervision beyond just the final scalar reward."
+        "The paper addresses the routing exploration dilemma in modern Mixture-of-Experts (MoE) models.",
+        "It examines the interplay between fine-grained expert segmentation and the use of shared experts in MoE architectures.",
+        "The core finding suggests that shared experts can reduce the exploratory nature of the routing mechanism."
       ]
     },
     {
-      "id": 49,
-      "title": "Continuum Attention",
-      "url": "https://arxiv.org/abs/2610.20586v1",
+      "id": 48,
+      "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+      "url": "https://arxiv.org/abs/2610.22343v1",
       "source": "arXiv Machine Learning",
-      "author": "Afshin Khadangi",
+      "author": "Yi Bin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces Continuum Attention (CA), a novel causal Transformer attention operator.",
-        "Replaces discrete key/value lookup with integration over a continuous, piecewise linear memory curve.",
-        "Enables exact normalized attention calculation from closed-form exponential moments, simplifying gradient computation."
+        "Addresses a key limitation in 3D world modeling where geometry features from foundation models are view-dependent.",
+        "Introduces GeoState, a novel view-decoupled geometry representation for predictive 3D world modeling.",
+        "Aims to separate the underlying scene-state evolution from camera-dependent observational variations."
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Robust Reinforcement Learning for Dynamic Treatment Regimes under Model and Measurement Uncertainty",
+      "url": "https://arxiv.org/abs/2610.22336v1",
+      "source": "arXiv Machine Learning",
+      "author": "Yan Li",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces a robust Reinforcement Learning (RL) framework for dynamic treatment regimes.",
+        "Addresses generalization and reliability issues by modeling patients as hidden contexts under model/measurement uncertainty.",
+        "Applies the framework to adaptive therapy for metastatic prostate cancer using a clinical simulator."
       ]
     },
     {
       "id": 51,
-      "title": "Latent Compaction with Test-Time Training",
-      "url": "https://arxiv.org/abs/2610.20582v1",
+      "title": "Twice Upon a Time: Complementary Representations for Time-Series Reasoning",
+      "url": "https://arxiv.org/abs/2610.22327v1",
       "source": "arXiv Machine Learning",
-      "author": "Xu Han",
+      "author": "Omri Azencot",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the memory and computational burden of large KV caches in long-context LLMs.",
-        "Introduces 'Latent Compaction,' a method to create compact, document-specific caches via test-time training.",
-        "Uses initialization techniques like reconstruction importance and teacher attention to ensure information preservation during compression."
-      ]
-    },
-    {
-      "id": 52,
-      "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
-      "url": "https://arxiv.org/abs/2610.20576v1",
-      "source": "arXiv Machine Learning",
-      "author": "Peng Qi",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "LLM agents suffer from interface binding, meaning their performance degrades when the input interface is slightly altered from the training setup.",
-        "The paper proposes 'Cross-Interface Consistency Training' to improve LLM agent robustness against interface variations.",
-        "The research addresses the limitation of current methods, which only broaden dependence on the training interface distribution rather than solving the core out-of-distribution robustness issue."
+        "The paper addresses a key limitation in Time Series Language Models (TSLMs) regarding how temporal data is represented.",
+        "It proposes using 'complementary representations' as a design principle to better handle time-series reasoning.",
+        "This approach aims to allow the model to selectively preserve necessary information while factoring out irrelevant variation for downstream tasks."
       ]
     },
     {
       "id": 53,
-      "title": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
-      "url": "https://arxiv.org/abs/2610.20572v1",
+      "title": "Knowledge That Is Linear Before Fine-Tuning Generalizes After It",
+      "url": "https://arxiv.org/abs/2610.22300v1",
       "source": "arXiv Machine Learning",
-      "author": "Taylor W. Killian",
+      "author": "Hinrich Schütze",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses a critical failure mode in On-Policy Distillation (OPD) where teachers fail to recover from student errors.",
-        "Introduces 'CriticOPD,' a novel method that uses a critic to guide the teacher's critique of incorrect student rollouts.",
-        "Focuses on improving the reliability of supervision in model distillation processes, a key area in advanced reinforcement learning."
+        "The research introduces a distinction between 'active facts' and 'inert facts' within language models.",
+        "Active facts are those that support generalization beyond their initial recall, while inert facts do not.",
+        "The study tests this concept by artificially modifying existing knowledge relations to observe generalization capabilities."
       ]
     },
     {
-      "id": 58,
-      "title": "SCRIBE: Scalable Contextual Representations of Interpretable Brain-Grounded Semantics",
-      "url": "https://arxiv.org/abs/2610.21518v1",
+      "id": 54,
+      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+      "url": "https://arxiv.org/abs/2610.22355v1",
       "source": "arXiv NLP",
-      "author": "Mariya Toneva",
+      "author": "Ling Yang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces SCRIBE, a new framework designed to model brain-grounded semantics.",
-        "SCRIBE uses a neuroscience-informed semantic space combined with an ensemble of LLMs.",
-        "The goal is to generate interpretable, word-level semantic representations from real-world text for brain study."
+        "Introduces OmniVerifier-C1, a new decomposed graded verifier for generative world modeling.",
+        "Moves beyond traditional binary (True/False) judgments to provide continuous, fine-grained critiques.",
+        "Aims to enhance the robustness of visual verifiers in complex, rule-governed multimodal scenarios."
+      ]
+    },
+    {
+      "id": 55,
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "url": "https://arxiv.org/abs/2610.22350v1",
+      "source": "arXiv NLP",
+      "author": "Xinhua Wang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces FDE-Gym, a new benchmark designed to simulate real-world AI delivery challenges.",
+        "The benchmark moves beyond simple, well-defined tasks to address ambiguous requirements and live system constraints faced by Forward-Deployed Engineers (FDEs).",
+        "FDE-Gym comprises 95 end-to-end tasks derived from 20 real-world customer scenarios across 18 different industries."
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Evaluation Awareness Beyond English: Do LLMs Act Differently When Tested in Indic Languages?",
+      "url": "https://arxiv.org/abs/2610.22333v1",
+      "source": "arXiv NLP",
+      "author": "Pratham Yogish Maliya",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research investigates 'evaluation awareness' in LLMs—the tendency for models to detect when they are being tested.",
+        "Existing studies on this phenomenon are heavily biased toward English, neglecting the vast linguistic diversity of the world.",
+        "The paper specifically tests four instruction-tuned models across Indic languages, addressing a significant gap in multilingual AI safety research."
       ]
     },
     {
       "id": 59,
-      "title": "Decomposing Brain-LLM Alignment with Interpretable Semantic Representations",
-      "url": "https://arxiv.org/abs/2610.21508v1",
+      "title": "Training Reasoning Models to Generate Diverse Scientific Ideas",
+      "url": "https://arxiv.org/abs/2610.22324v1",
       "source": "arXiv NLP",
-      "author": "Mariya Toneva",
+      "author": "Chien-Sheng Wu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the interpretability challenge in aligning Large Language Models (LLMs) with neural brain activity.",
-        "A novel method, SCRIBE, is introduced to provide an interpretable semantic representation grounded in neurocognitive properties.",
-        "The study uses variance partitioning between LLaMA2-7B and SCRIBE on fMRI data to decompose brain-LLM alignment."
+        "The research addresses a gap in current LLM applications for scientific ideation: optimizing for idea diversity rather than just individual quality.",
+        "The study focuses on 'document-grounded ideation,' meaning generated ideas must be supported by existing scientific literature.",
+        "The goal is to develop models that produce sets of ideas that are both high-quality and significantly distinct from one another."
       ]
     },
     {
       "id": 60,
-      "title": "OPRD: On-Policy Reminder Distillation for Long-Horizon Coding Agents",
-      "url": "https://arxiv.org/abs/2610.21496v1",
+      "title": "Learning Self-Orchestration in Decentralized Agent Swarms",
+      "url": "https://arxiv.org/abs/2610.22322v1",
       "source": "arXiv NLP",
-      "author": "Ken Deng",
+      "author": "Yilun Du",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the challenge of long-horizon coding agents failing to utilize contextual information effectively.",
-        "Introduces On-Policy Reminder Distillation (OPRD) to improve agent reliability and constraint adherence.",
-        "OPRD combines Multi-Scope Reminder supervision with outcome-based routing for better process supervision."
+        "Addresses a gap in multi-agent systems by jointly learning individual agent policies and collective self-orchestration.",
+        "Introduces 'Market-Based Post-Training' (MPT) as a novel framework for decentralized agent swarms.",
+        "Agents coordinate behavior by expressing willingness to participate through a bidding mechanism."
       ]
     },
     {
       "id": 61,
-      "title": "Can LLMs Tell Stories Out of Order? A Corpus and Benchmark for Nonlinear Narrative Generation",
-      "url": "https://arxiv.org/abs/2610.21468v1",
+      "title": "MindEval2: Clinically Grounded Patients and Rubrics for Evaluating Language Models in Mental Health Support",
+      "url": "https://arxiv.org/abs/2610.22314v1",
       "source": "arXiv NLP",
-      "author": "Tenghao Huang",
+      "author": "Ricardo Rei",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces a new benchmark to test Large Language Models (LLMs) on nonlinear narrative generation.",
-        "The benchmark analyzes 83 published works, distinguishing between event chronology and narrative presentation order.",
-        "The study uses detailed annotations, including causal dependencies and character knowledge, to evaluate model performance."
+        "Introduces MindEval2, a new framework designed to rigorously evaluate Language Models (LLMs) in mental health support.",
+        "Addresses limitations in existing benchmarks, such as overly simplistic synthetic patient interactions and opaque evaluation rubrics.",
+        "Highlights the growing necessity for robust, clinically grounded evaluation methods as AI adoption in mental health increases."
       ]
     },
     {
       "id": 62,
-      "title": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents",
-      "url": "https://arxiv.org/abs/2610.21463v1",
+      "title": "Grid-Bench: Can LLMs Predict How Discrete Worlds Change?",
+      "url": "https://arxiv.org/abs/2610.22312v1",
       "source": "arXiv NLP",
-      "author": "Zhijiang Guo",
+      "author": "Yue Zhao",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the inefficiency of using a single large language model (LLM) for all steps in complex, tool-using agent tasks.",
-        "Proposes a new method for 'Trajectory-Level Speculation' combined with semantic verification to improve agent performance.",
-        "Aims to leverage smaller, more efficient models for routine steps while maintaining accuracy via verification against a strong model."
+        "Introduces Grid-Bench, a new benchmark designed to test LLMs on sequential spatial reasoning.",
+        "The benchmark involves applying sequences of operations (like moving or transforming objects) to discrete worlds represented as 2D, 3D, and 4D grids.",
+        "It assesses an LLM's ability to accurately predict the final state of a complex, evolving spatial configuration."
       ]
     },
     {
       "id": 63,
-      "title": "Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation",
-      "url": "https://arxiv.org/abs/2610.21456v1",
+      "title": "Knowledge That Is Linear Before Fine-Tuning Generalizes After It",
+      "url": "https://arxiv.org/abs/2610.22300v1",
       "source": "arXiv NLP",
-      "author": "Md Shad Akhtar",
+      "author": "Hinrich Schütze",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the lack of understanding regarding internal mechanisms in LLMs for low-resource multilingual translation.",
-        "It focuses on studying translation circuits within decoder-only LLMs, specifically for Hindi-to-Urdu and Hindi-to-Sindhi.",
-        "A new mechanistic framework, TITAN, is proposed, utilizing causal intervention and targeted optimization to improve translation performance."
+        "The research distinguishes between 'active facts' and 'inert facts' within language models.",
+        "Active facts are those that support generalization beyond their initial recall, while inert facts do not.",
+        "The study proposes a method to test this distinction by artificially creating new relations from existing knowledge."
       ]
     },
     {
-      "id": 66,
+      "id": 64,
+      "title": "Meta’s new commercial terms will allow the scraping of news sites: experts",
+      "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+      "source": "Hacker News",
+      "author": "0in",
+      "timestamp": "2026-10-15T23:37:42",
+      "ai_score": 7,
+      "bullet_points": [
+        "Meta's updated commercial terms are being scrutinized for their implications on web scraping.",
+        "Experts suggest these new terms could permit the scraping of news websites.",
+        "This development touches upon the intersection of large tech platforms, data access, and intellectual property."
+      ]
+    },
+    {
+      "id": 68,
       "title": "RPKI now protects 70% of internet routes",
       "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
       "source": "Hacker News",
@@ -611,37 +709,23 @@
       "timestamp": "2026-10-16T00:52:35",
       "ai_score": 7,
       "bullet_points": [
-        "RPKI adoption has reached a significant milestone, covering 70% of internet routes.",
-        "This indicates a growing global effort to improve internet routing security.",
-        "The increase in RPKI coverage suggests a reduction in BGP hijacking risks."
+        "RPKI (Resource Public Key Infrastructure) adoption has reached a significant milestone, covering 70% of internet routes.",
+        "This indicates a growing global effort toward improving BGP security and preventing route hijacking.",
+        "The increase in coverage suggests a maturing of internet infrastructure security practices."
       ]
     },
     {
-      "id": 69,
-      "title": "Business accounts will consent to Meta scraping their websites Starting Oct. 30",
-      "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
-      "source": "Hacker News",
-      "author": "0in",
-      "timestamp": "2026-10-15T23:37:42",
+      "id": 74,
+      "title": "Linus Torvalds on AI-assisted kernel contributions",
+      "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
+      "source": "Lobsters",
+      "author": "lore.kernel.org via thang",
+      "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Meta is implementing a policy change regarding website scraping.",
-        "Business accounts will be required to consent to Meta scraping their sites.",
-        "This change is scheduled to take effect on October 30th."
-      ]
-    },
-    {
-      "id": 87,
-      "title": "I built a lie detector for AI coding agents. Then I read the rules.",
-      "url": "https://dev.to/dannwaneri/i-built-a-lie-detector-for-ai-coding-agents-then-i-read-the-rules-1hhb",
-      "source": "Dev.to",
-      "author": "dannwaneri",
-      "timestamp": "2026-10-15T08:48:27Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "The article discusses a project involving a lie detector specifically designed for AI coding agents.",
-        "The core problem addressed is the discrepancy between an AI agent's stated change (e.g., 'fixed typos') and the actual code modification.",
-        "The piece suggests a focus on verifying the integrity and accuracy of claims made by autonomous AI agents."
+        "Linus Torvalds discussed the use of AI assistance in contributing to the Linux kernel.",
+        "The topic addresses the integration of AI tools into core open-source software development.",
+        "This signals an evolving approach to kernel maintenance and contribution workflows."
       ]
     }
   ]
