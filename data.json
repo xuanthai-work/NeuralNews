@@ -1,33 +1,19 @@
 {
-  "generated_at": "2026-10-21T02:09:14.316079",
-  "total_stories": 45,
+  "generated_at": "2026-10-21T10:40:56.757697",
+  "total_stories": 54,
   "sources": [
-    "Dev.to",
-    "Ollama",
-    "Lobsters",
-    "The Verge",
-    "Ars Technica",
-    "arXiv Machine Learning",
-    "Hacker News",
-    "Hugging Face Benchmarks",
     "arXiv NLP",
-    "arXiv AI"
+    "Dev.to",
+    "Ars Technica",
+    "arXiv AI",
+    "Hugging Face Benchmarks",
+    "arXiv Machine Learning",
+    "Lobsters",
+    "Hacker News",
+    "Ollama",
+    "The Verge"
   ],
   "stories": [
-    {
-      "id": 2,
-      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "source": "Hugging Face Benchmarks",
-      "author": "unknown",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "Highlights the trending status of the meta-llama/Llama-3.1-8B-Instruct model on Hugging Face.",
-        "Indicates the model is categorized under text-generation and utilizes transformers and safetensors.",
-        "Represents a snapshot of current popular models within the large language model (LLM) ecosystem."
-      ]
-    },
     {
       "id": 11,
       "title": "Muse Glimmer from Meta Superintelligence Labs is now available",
@@ -38,8 +24,8 @@
       "ai_score": 9,
       "bullet_points": [
         "Meta has released Muse Glimmer, its first open model from Meta Superintelligence Labs.",
-        "Muse Glimmer is a 30B multimodal model available under the permissive Apache 2.0 license.",
-        "It is specifically designed for local coding agents and is optimized via Ollama's MLX engine with new DFlash and image input support."
+        "Muse Glimmer is a 30B multimodal model licensed under Apache 2.0, targeting local coding agents.",
+        "The model is optimized for local deployment via Ollama, featuring native support for DFlash and image input."
       ]
     },
     {
@@ -51,9 +37,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Google is integrating 'Personal Intelligence' into Gemini AI for in-car use via Android Auto and built-in Google systems.",
-        "The AI will access user data across multiple Google services (Gmail, Calendar, Maps, Photos, etc.) to provide personalized assistance.",
-        "A key feature highlighted is the ability to query real-time information, such as flight status, while driving."
+        "Google is integrating 'Personal Intelligence' into Gemini AI for in-car use via Android Auto and built-in systems.",
+        "The AI will access user data across various Google services (Gmail, Calendar, Maps, Photos, etc.) to provide personalized assistance.",
+        "This feature allows users to ask context-aware questions while driving, such as checking flight status."
       ]
     },
     {
@@ -65,13 +51,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "SpaceX plans its first attempt to fully recover the Starship orbital launch system and its booster next month.",
+        "SpaceX plans its first attempt to fully recover Starship and its booster next month.",
         "Successful recovery would be a historic first for an orbital launch vehicle.",
-        "The effort aims to achieve full recovery of the entire Starship system."
+        "The goal is to achieve full recovery of the entire orbital launch system."
       ]
     },
     {
-      "id": 29,
+      "id": 30,
       "title": "Gemini's Personal Intelligence is coming to cars",
       "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
       "source": "Ars Technica",
@@ -79,23 +65,51 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Gemini's personal intelligence capabilities are being integrated into automotive systems.",
-        "This signals a major shift in how advanced AI will be deployed in consumer hardware, specifically vehicles.",
-        "The article advises users to review their Gemini settings in light of this new integration."
+        "Gemini's personal intelligence features are being integrated into automotive systems.",
+        "This signals a major shift in how large language models will interact with in-car technology.",
+        "Users are advised to review their Gemini settings in light of this new integration."
       ]
     },
     {
-      "id": 68,
-      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-      "url": "https://github.com/google-pytorch/torch_tpu",
-      "source": "Hacker News",
-      "author": "ilreb",
-      "timestamp": "2026-10-20T16:40:24",
+      "id": 34,
+      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+      "url": "https://arxiv.org/abs/2610.28632v1",
+      "source": "arXiv AI",
+      "author": "Yuval Atzmon",
+      "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Google has open-sourced TorchTPU, providing a native PyTorch backend specifically for Google's TPUs.",
-        "This move significantly lowers the barrier to entry for researchers and developers wanting to leverage TPU hardware with the widely adopted PyTorch framework.",
-        "It represents a major step in democratizing access to high-performance AI/ML infrastructure by integrating proprietary hardware capabilities into open-source tooling."
+        "Introduces a novel model that directly co-generates 3D motion and video simultaneously.",
+        "Addresses a key limitation in current video generation: translating pixel-based motion into replayable 3D animation for specific assets.",
+        "The system integrates motion generation with camera tracking, allowing for realistic 3D scene replay."
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "source": "Hacker News",
+      "author": "hkc",
+      "timestamp": "2026-10-21T09:08:08",
+      "ai_score": 9,
+      "bullet_points": [
+        "Critical security breach involving eMudhra's Certificate Authority (CA) keys.",
+        "The keys were reportedly cracked in milliseconds, indicating a severe vulnerability.",
+        "This represents a major incident in digital trust and PKI security."
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Muse exposes users' personal and business secrets when they share conversations",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "source": "Hacker News",
+      "author": "gumby",
+      "timestamp": "2026-10-21T00:45:59",
+      "ai_score": 9,
+      "bullet_points": [
+        "Muse, an AI tool, has been reported to expose sensitive user data.",
+        "The security vulnerability involves the sharing of personal and business conversations.",
+        "This highlights critical privacy and data handling risks in generative AI services."
       ]
     },
     {
@@ -108,8 +122,22 @@
       "ai_score": 8,
       "bullet_points": [
         "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
-        "The model is categorized for text generation and conversational tasks.",
-        "It utilizes standard ML components like transformers and safetensors."
+        "The model is categorized for text generation and conversational AI tasks.",
+        "It is associated with key ML technologies like transformers and safetensors."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🤗 Trending: meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "source": "Hugging Face Benchmarks",
+      "author": "unknown",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face Benchmarks.",
+        "It is categorized under text-generation pipelines, indicating its primary function as a large language model.",
+        "The associated tags confirm its relevance to major AI frameworks like transformers and the Llama family."
       ]
     },
     {
@@ -123,7 +151,7 @@
       "bullet_points": [
         "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
         "It is categorized under text-generation pipelines, indicating its primary function as a large language model.",
-        "The associated tags (transformers, safetensors, llama) confirm its relevance within the modern NLP/AI ecosystem."
+        "The associated tags (transformers, llama, safetensors) confirm its relevance within the modern NLP/AI ecosystem."
       ]
     },
     {
@@ -136,8 +164,8 @@
       "ai_score": 8,
       "bullet_points": [
         "NVIDIA Nemotron 3.5 Lightning is now accessible via Ollama.",
-        "It is a 30-billion parameter open model optimized for persistent AI agents.",
-        "The model is designed for complex, multi-step tasks, context gathering, and tool calling on local hardware."
+        "It is a 30 billion parameter open model optimized for agentic workflows.",
+        "The model is designed for local, persistent operation, enabling multi-step tasks and tool calling on user hardware."
       ]
     },
     {
@@ -149,9 +177,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a platform for running open models, has secured significant funding.",
-        "The company raised $88 million from prominent investors including Y Combinator and Benchmark.",
-        "Ollama currently serves a large developer base of 8.9 million users."
+        "Ollama has secured significant funding, raising $88M from prominent investors including Y Combinator and 8VC.",
+        "The company boasts a substantial user base, currently serving 8.9 million developers.",
+        "The news highlights the continued growth and investment interest in open-source AI model serving platforms."
       ]
     },
     {
@@ -165,7 +193,7 @@
       "bullet_points": [
         "Gemma 4 inference speed is significantly improved in Ollama 0.31 on Apple Silicon.",
         "The performance boost is achieved through Multi-Token Prediction (MTP) powered by MLX.",
-        "Coding agent performance saw up to 90% speedup when tested against the Aider polyglot benchmark."
+        "Coding agent performance saw up to a 90% speed increase, as validated by the Aider benchmark."
       ]
     },
     {
@@ -178,8 +206,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Tesla and SpaceX are reportedly discussing a potential merger.",
-        "Elon Musk confirmed the discussions during SpaceX's Q3 earnings call.",
-        "The merger talks are being conducted by special committees composed of independent directors at the request of shareholders."
+        "The discussions are being managed by special committees composed of independent directors.",
+        "Elon Musk disclosed this development during SpaceX's third-quarter earnings call."
       ]
     },
     {
@@ -192,12 +220,26 @@
       "ai_score": 8,
       "bullet_points": [
         "SpaceX reported a massive 161% year-over-year revenue jump in Q3, reaching $14.6 billion.",
-        "The growth was explicitly attributed to the 'Super Intelligence (SI) segment' and accelerated Connectivity services.",
-        "While the Space division incurred a $7 million operational loss, the Connectivity group was profitable, posting $2.4 million in operations."
+        "The growth is attributed to the 'Super Intelligence (SI)' segment and accelerated growth in the Connectivity division.",
+        "While the Space division incurred a $7 million operating loss, the Connectivity group generated $2.4 billion in operating income."
       ]
     },
     {
-      "id": 28,
+      "id": 24,
+      "title": "PHP warns it plans to release 2 emergency patches imminently",
+      "url": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
+      "source": "Ars Technica",
+      "author": "Dan Goodin",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "A critical, unconfirmed vulnerability (PHP2Shell) is reported to allow remote code execution on PHP websites.",
+        "The PHP project team is reportedly preparing to release two emergency patches to address the threat.",
+        "This represents an immediate and high-severity security risk for any infrastructure running vulnerable PHP versions."
+      ]
+    },
+    {
+      "id": 29,
       "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
       "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
       "source": "Ars Technica",
@@ -205,13 +247,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Meta is modifying its commercial Terms of Service (TOS) regarding AI scraping following public backlash.",
-        "The change involves dropping the word 'train' from the policy, signaling a shift in how AI data usage is framed.",
-        "Crucially, Meta is reportedly not implementing language that respects robots.txt directives in its updated policy."
+        "Meta has modified its commercial Terms of Service (TOS) by removing the term 'train' in relation to AI usage.",
+        "This change follows public backlash concerning how Meta's data is used for training AI models.",
+        "Crucially, Meta has not updated its policy to incorporate respect for robots.txt directives."
       ]
     },
     {
-      "id": 31,
+      "id": 32,
       "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
       "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
       "source": "Ars Technica",
@@ -219,107 +261,65 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Discovery of 8 compromised TLS certificates poses a significant security risk to the internet.",
-        "The vulnerability lies in intermediate certificates, which allow unauthorized parties to mint web credentials for any server.",
-        "This incident highlights critical vulnerabilities in current internet security infrastructure."
+        "Discovery of 8 compromised TLS certificates poses a significant internet security risk.",
+        "The vulnerability stems from intermediate certificates, which allow unauthorized parties to mint web credentials.",
+        "This flaw potentially enables attackers to impersonate or compromise any Internet server."
       ]
     },
     {
-      "id": 38,
-      "title": "ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models",
-      "url": "https://arxiv.org/abs/2610.27913v1",
+      "id": 36,
+      "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
+      "url": "https://arxiv.org/abs/2610.28626v1",
       "source": "arXiv AI",
-      "author": "Fenglei Fan",
+      "author": "Jeroen Vanbaar",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces ACE-Compression, a new evaluation framework for compressed Large Language Models (LLMs).",
-        "Argues that standard task performance metrics are insufficient for assessing the impact of model compression.",
-        "Focuses on identifying which underlying 'abilities' survive or collapse during the compression process, rather than just final task scores."
+        "Introduces UniWALM, a unified model designed to integrate language, perception (video), and action for embodied robot control.",
+        "The model learns all modalities within a single shared representation, using each modality as both a conditioning signal and a supervision target.",
+        "The research investigates how joint language generation can enrich the shared representation to improve manipulation and enable memory-dependent robot behavior."
       ]
     },
     {
-      "id": 40,
-      "title": "Polarity Blindness in LLM Safety: A Systematic Study of Negation, Antonym Substitution, and Adversarial Framing",
-      "url": "https://arxiv.org/abs/2610.27908v1",
-      "source": "arXiv AI",
-      "author": "Nuria Oliver",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Identifies 'polarity blindness' as a critical vulnerability in LLM safety guardrails.",
-        "Demonstrates that LLMs fail to recognize harmful intent after linguistic transformations like negation and antonym substitution.",
-        "The research systematically studies how polarity-altering language can bypass existing safety mechanisms."
-      ]
-    },
-    {
-      "id": 42,
-      "title": "CollabSciReM: Aligning Language Models for Scientific Conversations via Science-Aware Reward Decomposition",
-      "url": "https://arxiv.org/abs/2610.27901v1",
-      "source": "arXiv AI",
-      "author": "Sören Auer",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces CollabSciReM, a method to align LLMs specifically for scientific conversations.",
-        "Addresses the limitations of current LLM alignment, which often sacrifice accuracy or efficiency for conversational fluency.",
-        "Aims to create scientifically rigorous assistants that are accurate, logically consistent, and token-efficient for research collaboration."
-      ]
-    },
-    {
-      "id": 49,
-      "title": "From Tokens to Files: Multi-Granularity Detection and Localization of AI-Involved Code",
-      "url": "https://arxiv.org/abs/2610.27863v1",
+      "id": 44,
+      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+      "url": "https://arxiv.org/abs/2610.28632v1",
       "source": "arXiv Machine Learning",
-      "author": "Bolei He",
+      "author": "Yuval Atzmon",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses the growing need to distinguish human-written code from code generated or modified by Large Language Models (LLMs).",
-        "Proposes a method for multi-granularity detection, moving beyond simple file-level scoring to localize AI-contributed lines or blocks.",
-        "Targets the limitation of existing methods, which average out evidence when AI involvement is localized to small portions of a file."
+        "Introduces a novel model capable of co-generating both realistic video and corresponding 3D motion data.",
+        "Addresses a key limitation in current video generation models: the inability to translate pixel-level motion into replayable 3D animation for specific assets.",
+        "The system integrates 3D motion generation with camera registration, allowing for scene-aware animation of arbitrary rigs."
       ]
     },
     {
-      "id": 50,
-      "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
-      "url": "https://arxiv.org/abs/2610.27851v1",
-      "source": "arXiv Machine Learning",
-      "author": "Sangdoo Yun",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces LaLa-World, a Language-conditioned Latent World Model (LWM).",
-        "Demonstrates that JEPA-style LWMs can learn across diverse domains by integrating natural language actions.",
-        "Establishes the model as an efficient foundation for planning via imagination and subsequent policy fine-tuning."
-      ]
-    },
-    {
-      "id": 57,
-      "title": "Polarity Blindness in LLM Safety: A Systematic Study of Negation, Antonym Substitution, and Adversarial Framing",
-      "url": "https://arxiv.org/abs/2610.27908v1",
+      "id": 62,
+      "title": "OptionWorld: A Benchmark for Diagnosing Failures of LLMs as Long-Term Personal Assistants",
+      "url": "https://arxiv.org/abs/2610.28491v1",
       "source": "arXiv NLP",
-      "author": "Nuria Oliver",
+      "author": "Shilong Liu",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Identifies 'polarity blindness' as a critical vulnerability in LLM safety guardrails.",
-        "Demonstrates how linguistic transformations (negation and antonym substitution) can bypass safety filters.",
-        "Systematically studies the failure of LLMs to recognize harmful intent after polarity-altering language."
+        "Introduces OptionWorld, a new benchmark specifically designed to test LLMs' capabilities as long-term personal assistants.",
+        "The benchmark simulates complex, multi-day daily-life tasks that require tracking evolving information and context.",
+        "It aims to diagnose specific failure points in current LLMs regarding task completion, information retention, and decision-making over time."
       ]
     },
     {
-      "id": 61,
-      "title": "From Tokens to Files: Multi-Granularity Detection and Localization of AI-Involved Code",
-      "url": "https://arxiv.org/abs/2610.27863v1",
-      "source": "arXiv NLP",
-      "author": "Bolei He",
-      "timestamp": null,
+      "id": 72,
+      "title": "eMudhra intermediate CA compromise",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "source": "Hacker News",
+      "author": "galadran",
+      "timestamp": "2026-10-20T13:58:33",
       "ai_score": 8,
       "bullet_points": [
-        "Addresses the growing problem of distinguishing human-written code from code generated or modified by Large Language Models (LLMs).",
-        "Proposes a method for multi-granularity detection, moving beyond single-file scoring to localize AI contributions at the line or block level.",
-        "Highlights a critical need in the AI development lifecycle for provenance tracking and accountability in AI-assisted software engineering."
+        "eMudhra, an intermediate Certificate Authority (CA), has been compromised.",
+        "Mozilla has issued security advisories and updates to protect Firefox users from the breach.",
+        "The incident highlights critical vulnerabilities in the Public Key Infrastructure (PKI) ecosystem."
       ]
     },
     {
@@ -331,9 +331,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Clef, a 27B multimodal decision model from Cloudflare, is now integrated with Ollama.",
-        "Users can access and run the Clef model either locally or via Ollama's cloud infrastructure.",
-        "This integration expands the capabilities of Ollama by adding a powerful multimodal model."
+        "Cloudflare's 27B multimodal decision model, Clef, is now integrated with Ollama.",
+        "Users have the option to run Clef either locally or via Ollama's cloud infrastructure.",
+        "This integration expands the capabilities of Ollama by adding a powerful, large-scale multimodal model."
       ]
     },
     {
@@ -346,8 +346,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Reflection's open-weight model, Beam, is now available on the Ollama platform.",
-        "Beam is specifically designed for complex tasks like software engineering, reasoning, and agentic workflows.",
-        "The model is offered for free access through Ollama Cloud for a limited promotional period."
+        "Beam is specifically designed for complex tasks such as software engineering, reasoning, and agentic workflows.",
+        "The model is offered for free for a limited promotional period via Ollama Cloud."
       ]
     },
     {
@@ -359,9 +359,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama enables the deployment of AI agents using its cloud models.",
-        "The integration allows these agents to run safely within Fly.io's cloud infrastructure.",
-        "This combination addresses the need for secure and accessible deployment of AI agents."
+        "Ollama enables the use of local AI models within a cloud environment.",
+        "The integration allows AI agents to run safely on Fly.io's cloud infrastructure.",
+        "This combination addresses the need for secure, deployable AI agent solutions."
       ]
     },
     {
@@ -374,8 +374,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama has integrated support for Jev-style decision models via TypeSafe's Jev API.",
-        "These new decision models enable fast, low-latency, and cost-free execution for answering questions.",
-        "The models provide probabilistic answers to yes/no questions, choices, and scoring based on text input."
+        "These new models allow for fast, typed decision-making based on text input.",
+        "The feature enables low-latency, cost-free responses providing probabilistic answers (yes/no, choices, scores)."
       ]
     },
     {
@@ -388,8 +388,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Claude Desktop now supports Ollama as a third-party gateway.",
-        "This integration allows users to run open-source models within the Claude Desktop environment.",
-        "It bridges proprietary AI platforms with local, open-weight model ecosystems."
+        "This integration allows users to leverage open-source models within the Claude Desktop environment.",
+        "It represents a bridge between proprietary AI platforms and local, open-source LLM ecosystems."
       ]
     },
     {
@@ -402,8 +402,8 @@
       "ai_score": 7,
       "bullet_points": [
         "YouTube is reportedly testing a change to hide the dislike button on videos.",
-        "Evidence of this change includes users reporting the button moved to the three-dots submenu or being absent entirely.",
-        "This shift represents a potential change in user feedback mechanisms on the platform."
+        "Evidence of this change includes user reports and screenshots showing the button moved to a submenu or absent entirely.",
+        "This feature modification suggests a potential shift in how user feedback and engagement are managed on the platform."
       ]
     },
     {
@@ -416,222 +416,334 @@
       "ai_score": 7,
       "bullet_points": [
         "Oura is enhancing its smart ring capabilities with new cardiovascular health tracking features.",
-        "The updates include 'Cardio Effort' and automatic VO2 Max tracking.",
-        "The goal is to help users optimize their exercise routines for long-term health."
+        "The new features, Cardio Effort and automatic VO2 Max, aim to help users optimize their exercise routines.",
+        "The updates allow users to better gauge the long-term health impact of their workouts."
+      ]
+    },
+    {
+      "id": 35,
+      "title": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
+      "url": "https://arxiv.org/abs/2610.28629v1",
+      "source": "arXiv AI",
+      "author": "Ting Zhu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces GBClaw, an agentic AI framework designed for atomistic research on grain boundaries (GBs).",
+        "Addresses the challenge of applying agentic AI to complex, domain-intensive mechanistic investigations in materials science.",
+        "Focuses on general GBs, which are prevalent in real-world polycrystalline materials but are currently understudied."
       ]
     },
     {
       "id": 37,
-      "title": "Quantum-JEPA: Quantum Born Priors for Latent-Action JEPA World Models",
-      "url": "https://arxiv.org/abs/2610.27921v1",
+      "title": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
+      "url": "https://arxiv.org/abs/2610.28624v1",
       "source": "arXiv AI",
-      "author": "Haiyu Wu",
+      "author": "Anthony Rizk",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces Quantum-JEPA, a novel framework combining quantum generative models with JEPA for world modeling.",
-        "Addresses the inherent uncertainty in world modeling by learning distributions of future representations.",
-        "Utilizes a conditional quantum Born prior and circuit measurements to generate binary latent actions for prediction."
+        "Introduces IndustrialRemembr, a shared spatiotemporal memory system designed for robot fleets.",
+        "Addresses the high computational, communication, and storage costs associated with preserving operational observations in large robot deployments.",
+        "Aims to reduce server-side computation by generating concise scene descriptions from continuous robot observations."
+      ]
+    },
+    {
+      "id": 38,
+      "title": "MindView: Benchmarking Generative Multi-View Spatial Intelligence",
+      "url": "https://arxiv.org/abs/2610.28622v1",
+      "source": "arXiv AI",
+      "author": "Jiwen Lu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces MindView, a new benchmark for evaluating generative multi-view spatial intelligence.",
+        "Addresses the gap in language-guided generation of spatially consistent views from partial observations.",
+        "The benchmark comprises 1,500 samples across three indoor datasets and features geometry-dominant tasks."
       ]
     },
     {
       "id": 39,
-      "title": "MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records",
-      "url": "https://arxiv.org/abs/2610.27911v1",
+      "title": "Adaptive Multi-Token Prediction: How far should we go?",
+      "url": "https://arxiv.org/abs/2610.28619v1",
       "source": "arXiv AI",
-      "author": "Hyunwoo J. Kim",
+      "author": "Xinyuan Cao",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces MMEnterprise-Bench, a new benchmark for evaluating enterprise AI agents.",
-        "Focuses on agents' ability to answer questions over dynamic, evolving workplace records (documents, chats, figures).",
-        "Highlights the critical need for agents to handle temporal conflicts, cross-source inconsistencies, and evidence insufficiency."
+        "The paper addresses the challenge of optimizing Multi-Token Prediction (MTP) in language model decoding.",
+        "MTP accelerates decoding by drafting multiple tokens in one pass, but the optimal draft length is context-dependent.",
+        "A key technical hurdle is that MTP requires fixing the prediction horizon upfront, unlike token-by-token autoregressive drafting."
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Semantic Observability for Autonomous Systems Diagnostics",
+      "url": "https://arxiv.org/abs/2610.28611v1",
+      "source": "arXiv AI",
+      "author": "Ziran Min",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses the challenge of root cause analysis in complex, distributed microservice environments.",
+        "Proposes 'Semantic Observability,' an autonomous multi-agent framework to unify disparate logs.",
+        "Aims to overcome limitations of manual log filtering and disjointed temporal correlation for SREs."
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Benchmarking Arabic Dialects for Math Problems",
+      "url": "https://arxiv.org/abs/2610.28607v1",
+      "source": "arXiv AI",
+      "author": "Alham Fikri Aji",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces DAR-MGSM, the first manually curated benchmark for mathematical reasoning in Dialectal Arabic.",
+        "Addresses the gap in low-resource language AI by focusing on math word problems requiring multi-step reasoning.",
+        "The benchmark covers five major Arabic dialects alongside Modern Standard Arabic (MSA)."
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Value-Rich, Differently Organized: Measuring Value Expression and Organization in AI-Generated Debates",
+      "url": "https://arxiv.org/abs/2610.28604v1",
+      "source": "arXiv AI",
+      "author": "Jiamou Liu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses a gap in current LLM evaluation by moving beyond simple argumentative quality.",
+        "Introduces a diagnostic metric framework to analyze how values are expressed and organized in AI debates.",
+        "Distinguishes between 'value expression' (range of values) and 'value organization' (distribution across turns)."
       ]
     },
     {
       "id": 43,
-      "title": "The Shape of the DPO Hyperparameter Landscape: What to Measure, How It Moves with Scale, and When Not to Transfer It",
-      "url": "https://arxiv.org/abs/2610.27895v1",
+      "title": "Turning TS2Vec into a Foundation Model for Time Series Classification",
+      "url": "https://arxiv.org/abs/2610.28602v1",
       "source": "arXiv AI",
-      "author": "Aaron Klein",
+      "author": "Irina Rish",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper investigates the hyperparameter sensitivity of Direct Preference Optimization (DPO), a key technique in language model fine-tuning.",
-        "It analyzes how optimal DPO hyperparameters (like learning rate and $\\beta$) change as the underlying model scale increases.",
-        "The research provides guidance on the limitations of transferring hyperparameters across different model sizes."
-      ]
-    },
-    {
-      "id": 44,
-      "title": "Near-Duplicate Image Selection Transfers Preferences in Vision-Language Models",
-      "url": "https://arxiv.org/abs/2610.27943v1",
-      "source": "arXiv Machine Learning",
-      "author": "Seunghyun Kim",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Investigates 'subliminal learning,' where model preferences transfer without explicit data cues.",
-        "Examines if selecting near-duplicate images during data curation can transfer preferences in Vision-Language Models (VLMs).",
-        "The study tests this by having curators select one of eight near-duplicate variants based on caption likelihood."
+        "The research investigates adapting TS2Vec, a strong self-supervised method for time series classification, into a foundation model framework.",
+        "TS2Vec is noted for its compact convolutional architecture and ability to handle variable-length time series inputs without resampling.",
+        "The work addresses the current industry trend of moving towards reusable, general-purpose foundation models in the time series domain."
       ]
     },
     {
       "id": 45,
-      "title": "The Shape of the DPO Hyperparameter Landscape: What to Measure, How It Moves with Scale, and When Not to Transfer It",
-      "url": "https://arxiv.org/abs/2610.27895v1",
+      "title": "Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking",
+      "url": "https://arxiv.org/abs/2610.28628v1",
       "source": "arXiv Machine Learning",
-      "author": "Aaron Klein",
+      "author": "Shubham Tulsiani",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper investigates the hyperparameter sensitivity of Direct Preference Optimization (DPO), a key technique in language model fine-tuning.",
-        "It systematically analyzes how optimal DPO hyperparameters (e.g., learning rate, $\\beta$) change as the underlying model scale increases.",
-        "The research aims to provide guidance on when and how to transfer hyperparameter settings across different model sizes."
+        "The research addresses limitations in current robotic learning for dexterous manipulation, where existing methods force trade-offs between generalization and naturalness.",
+        "The paper introduces 'AdaDex,' a method designed to learn adaptable dexterous skills by incorporating human prior knowledge into reinforcement learning.",
+        "The work aims to overcome issues where pure goal-reaching RL yields unnatural strategies, and motion tracking lacks the ability to adapt beyond the initial demonstration."
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Planning under Noise with Neural Operators",
+      "url": "https://arxiv.org/abs/2610.28623v1",
+      "source": "arXiv Machine Learning",
+      "author": "Anima Anandkumar",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces 'Planning Under Noise' (PUN), a neural operator designed for planning under uncertain control execution noise.",
+        "PUN learns noise-aware value fields, enabling planning in unseen and diverse geometric environments.",
+        "Addresses challenges in stochastic optimal control by refining boundary condition specification and efficient gradient computation."
       ]
     },
     {
       "id": 47,
-      "title": "Elicitation or Expansion? Demystifying Gains from Agent Harness Optimization",
-      "url": "https://arxiv.org/abs/2610.27889v1",
+      "title": "Adaptive Multi-Token Prediction: How far should we go?",
+      "url": "https://arxiv.org/abs/2610.28619v1",
       "source": "arXiv Machine Learning",
-      "author": "Wonjun Kang",
+      "author": "Xinyuan Cao",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Harness optimization in language model agents can yield significant performance gains without requiring model weight updates.",
-        "A well-designed harness improves agent capability by effectively managing context, tool usage, and execution workflows.",
-        "The research distinguishes between 'elicitation' (better performance on known tasks) and 'expansion' (solving a wider range of tasks) due to harness optimization."
+        "The paper addresses the challenge of optimizing Multi-Token Prediction (MTP) in language model decoding.",
+        "MTP accelerates decoding by drafting multiple tokens simultaneously, but the optimal prediction horizon is context-dependent.",
+        "A key technical hurdle is that MTP requires fixing the draft horizon upfront, unlike token-by-token autoregressive drafting."
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Turning TS2Vec into a Foundation Model for Time Series Classification",
+      "url": "https://arxiv.org/abs/2610.28602v1",
+      "source": "arXiv Machine Learning",
+      "author": "Irina Rish",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The paper proposes adapting TS2Vec, a strong self-supervised method for time series classification, into a foundation model paradigm.",
+        "TS2Vec's key advantage is its compact convolutional architecture that handles variable-length temporal inputs without resampling.",
+        "The research addresses the industry shift towards reusable foundation models by leveraging TS2Vec's inherent properties."
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Neural Implicit Energy Optimization for LiDAR Mapping",
+      "url": "https://arxiv.org/abs/2610.28598v1",
+      "source": "arXiv Machine Learning",
+      "author": "Aniket Bera",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research addresses artifacts (jitter/noise) in geometry recovered from sparse LiDAR data using neural implicit representations.",
+        "It proposes framing neural LiDAR mapping as an optimization problem over energy functionals, similar to classical geometric optimization.",
+        "The goal is to leverage energy minimization principles to achieve smoother and more accurate surface reconstruction from noisy inputs."
       ]
     },
     {
       "id": 51,
-      "title": "SAPD: Learning from Agent Experience without Environment Interaction",
-      "url": "https://arxiv.org/abs/2610.27847v1",
+      "title": "PaPi: Parallel Picard-Duhamel Integration for Fast Neuro-Spectral Architectures",
+      "url": "https://arxiv.org/abs/2610.28591v1",
       "source": "arXiv Machine Learning",
-      "author": "Xunliang Cai",
+      "author": "Daniel Yukimura",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses a key bottleneck in scaling LLM agents: the need for extensive, costly environment interaction during training.",
-        "The proposed method, SAPD, aims to leverage existing offline trajectory data to refine agent policies without requiring continuous environment interaction.",
-        "It seeks to overcome limitations of current offline RL techniques, such as catastrophic forgetting associated with Supervised Fine-Tuning (SFT)."
-      ]
-    },
-    {
-      "id": 52,
-      "title": "From Generic to Dedicated: A Novel Optimizer for Online Continual Learning",
-      "url": "https://arxiv.org/abs/2610.27835v1",
-      "source": "arXiv Machine Learning",
-      "author": "Sen Lin",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research addresses the challenge of catastrophic forgetting in Online Continual Learning (OCL) models.",
-        "It proposes a novel optimizer specifically designed for OCL, moving beyond generic optimizers like SGD and AdamW.",
-        "The core contribution involves linking optimization dynamics to OCL requirements by recasting Polyak-Ruppert averaging."
+        "Introduces PaPi, a new integration scheme designed to accelerate Neuro-Spectral Architectures (NeuSA).",
+        "PaPi addresses the computational bottleneck in NeuSA by enabling time-parallel inference, overcoming limitations of sequential Runge-Kutta methods.",
+        "The work focuses on improving the efficiency of Physics-Informed Neural Networks (PINNs) used for solving time-dependent Partial Differential Equations (PDEs) in the frequency domain."
       ]
     },
     {
       "id": 53,
-      "title": "ProVe: Proposer-Verifier Decoding",
-      "url": "https://arxiv.org/abs/2610.27815v1",
+      "title": "Two $\\operatorname{ReLU}$ Layers is All You Need",
+      "url": "https://arxiv.org/abs/2610.28587v1",
       "source": "arXiv Machine Learning",
-      "author": "Aixin Sun",
+      "author": "Amir Yehudayoff",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "ProVe introduces a novel decoding technique that reverses the roles in speculative decoding.",
-        "A large model is fine-tuned as a 'proposer' to predict blocks of tokens in one pass, which are then verified.",
-        "This method aims to accelerate autoregressive language models by leveraging parallel verification."
+        "The research proves that any network built with ReLU activation functions can be perfectly replicated by a network containing only two hidden layers.",
+        "Two distinct mathematical proofs are presented: one utilizing homological algebra and another employing a direct combinatorial approach.",
+        "This result offers theoretical insight into the expressive power and architectural complexity required for ReLU-based neural networks."
       ]
     },
     {
-      "id": 56,
-      "title": "ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models",
-      "url": "https://arxiv.org/abs/2610.27913v1",
+      "id": 54,
+      "title": "NarraSpace: Multimodal Scene-Grounded Evidence for Picture-Description Dementia Classification",
+      "url": "https://arxiv.org/abs/2610.28616v1",
       "source": "arXiv NLP",
-      "author": "Fenglei Fan",
+      "author": "Satoshi Nakamura",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces ACE-Compression, a new evaluation framework for compressed Large Language Models (LLMs).",
-        "It argues that standard performance metrics are insufficient because compression perturbs underlying distributed knowledge.",
-        "ACE-Compression aims to reveal which specific 'abilities' survive or collapse during the model compression process."
+        "NarraSpace is a new multimodal approach designed to improve Picture-Description Dementia classification.",
+        "It links textual utterances and speech timing to specific named elements within a shared visual scene.",
+        "The model uses narrative-spatial descriptors and a frozen language model to contrast evidence from Alzheimer's patients versus healthy controls."
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Benchmarking Arabic Dialects for Math Problems",
+      "url": "https://arxiv.org/abs/2610.28607v1",
+      "source": "arXiv NLP",
+      "author": "Alham Fikri Aji",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces DAR-MGSM, the first manually curated benchmark for mathematical reasoning in Dialectal Arabic.",
+        "Addresses the gap in evaluating mathematical reasoning for low-resource languages, specifically Dialectal Arabic.",
+        "The benchmark covers five major Arabic dialects plus Modern Standard Arabic (MSA) using multi-step math word problems."
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Cache Engineering for Agents",
+      "url": "https://arxiv.org/abs/2610.28577v1",
+      "source": "arXiv NLP",
+      "author": "Yu Wang",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "KV cache I/O and storage are becoming the primary bottleneck for complex LLM agent tasks with long observation/action trajectories.",
+        "Existing context engineering methods (trimming/summarizing) are insufficient because modifying the trajectory prefix invalidates cached states.",
+        "The research focuses on cache engineering to manage active cache growth, especially when trajectories exceed the LLM's maximum context length."
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Large Flow Language Models",
+      "url": "https://arxiv.org/abs/2610.28559v1",
+      "source": "arXiv NLP",
+      "author": "Jinwoo Kim",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces Lafa, a new Large Flow Language Model designed for fast and high-performing text generation.",
+        "Addresses the challenge of scaling continuous flow models to the billion-parameter level, a less established area compared to discrete diffusion models.",
+        "Lafa utilizes a blockwise flow model architecture with causal attention on the prefix and asynchronous flow internally."
       ]
     },
     {
       "id": 59,
-      "title": "CollabSciReM: Aligning Language Models for Scientific Conversations via Science-Aware Reward Decomposition",
-      "url": "https://arxiv.org/abs/2610.27901v1",
+      "title": "Binary Discrete Diffusion: Candidate-Set Diffusion for Logic and Planning Tasks",
+      "url": "https://arxiv.org/abs/2610.28543v1",
       "source": "arXiv NLP",
-      "author": "Sören Auer",
+      "author": "Aran Raoufi",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces CollabSciReM, a method to align LLMs specifically for scientific conversations.",
-        "The goal is to create research collaborators that are accurate, methodologically justified, and logically consistent, addressing limitations in current alignment techniques.",
-        "The research tackles the trade-off where general instruction-tuned models often sacrifice scientific rigor for conversational verbosity."
+        "Introduces Binary Discrete Diffusion models for handling categorical data like text.",
+        "These models offer advanced capabilities such as any-order generation, self-correction, and in-filling.",
+        "They show promise for complex tasks like reasoning, planning, and constrained generation (e.g., coding/math), addressing limitations in traditional masked diffusion."
       ]
     },
     {
       "id": 60,
-      "title": "Testing Associative Creativity in Humans and Multimodal LLMs with Difficult-to-Name Visual Stimuli",
-      "url": "https://arxiv.org/abs/2610.27894v1",
+      "title": "BitMTP: When Multi-Token Prediction Meets Low-Bit Large Language Models",
+      "url": "https://arxiv.org/abs/2610.28500v1",
       "source": "arXiv NLP",
-      "author": "Sina Zarrieß",
+      "author": "Lei Zhang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research investigates associative creativity by comparing human performance against multimodal Large Language Models (MLLMs).",
-        "It specifically tests how humans and models handle abstract visual stimuli that are difficult to map onto known semantic concepts.",
-        "Creativity is evaluated across two dimensions: originality and effectiveness, using state-of-the-art MLLMs."
+        "The paper addresses the efficiency challenge in deploying Large Language Models (LLMs) by combining two techniques: ultra-low-bit backbones and Multi-Token Prediction (MTP).",
+        "Low-bit backbones reduce resource consumption (storage, memory traffic, execution cost) for LLMs.",
+        "MTP accelerates decoding by predicting multiple future tokens in parallel, but the paper notes challenges in directly combining MTP with low-bit methods due to training discrepancies."
       ]
     },
     {
       "id": 63,
-      "title": "SciDiagBench: A Type-Specific Benchmark for Human-Aligned Evaluation of Scientific Diagrams",
-      "url": "https://arxiv.org/abs/2610.27841v1",
+      "title": "Asymmetric Looped Transformers: Fixed Global Representations for an Iterative Decoder",
+      "url": "https://arxiv.org/abs/2610.28489v1",
       "source": "arXiv NLP",
-      "author": "Tian Tian",
+      "author": "Zhouhan Lin",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces SciDiagBench, a new benchmark for evaluating scientific diagram generation.",
-        "Addresses the limitation of existing VLM benchmarks by focusing on type-specific evaluation criteria.",
-        "Aims to align AI evaluation with how human experts assess the quality of diverse scientific diagrams."
+        "Introduces the Asymmetric Looped Transformer (AsymLoop) to improve upon standard Looped Transformers.",
+        "AsymLoop separates the single-pass context encoding from the recurrent state refinement process.",
+        "This architectural change aims to better manage the roles within iterative decoding while maintaining computational efficiency."
       ]
     },
     {
-      "id": 73,
-      "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
-      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
+      "id": 67,
+      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+      "url": "https://news-web.php.net/php.announce/509",
       "source": "Hacker News",
-      "author": "dhorthy",
-      "timestamp": "2026-10-15T19:09:34",
+      "author": "xd",
+      "timestamp": "2026-10-20T20:15:50",
       "ai_score": 7,
       "bullet_points": [
-        "SlopCodeBench is a novel benchmark designed to test AI models by progressively revealing features (checkpoints) within a single, continuous codebase challenge.",
-        "This methodology aims to better simulate real-world software development workflows compared to traditional, isolated task benchmarks.",
-        "The latest results (10/2026) show Opus 5.5 and Astra performing well, while 'xhigh' was flagged as potentially harmful."
+        "A critical security release is upcoming for PHP, referencing CVE-2026-109618 and CVE-2026-109619.",
+        "The advisory originates from the European Union's Certificate Authority (cert.europa.eu).",
+        "The news is being discussed on Hacker News, indicating relevance to the developer community."
       ]
     },
     {
       "id": 86,
-      "title": "Your agent's retry bug isn't an AI problem. It's a distributed-systems problem with an LLM on top.",
-      "url": "https://dev.to/cyclopt_dimitrisk/your-agents-retry-bug-isnt-an-ai-problem-its-a-distributed-systems-problem-with-an-llm-on-top-1i6k",
-      "source": "Dev.to",
-      "author": "cyclopt_dimitrisk",
-      "timestamp": "2026-10-19T06:42:45Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "The article argues that common failures in AI agents (like retry bugs) stem from underlying distributed systems issues, not the LLM itself.",
-        "It critiques the typical 'happy path' demonstration of AI agents, which overlooks real-world complexity.",
-        "The piece suggests that robust agent development requires addressing distributed systems challenges layered beneath the LLM interface."
-      ]
-    },
-    {
-      "id": 89,
       "title": "Stress-Testing Gemini 4 Argon: Building a 3D Flutter Kart Game in 15 Prompts with Zero Assets",
       "url": "https://dev.to/gde/stress-testing-gemini-4-argon-building-a-3d-flutter-kart-game-in-15-prompts-with-zero-assets-55ha",
       "source": "Dev.to",
@@ -639,9 +751,23 @@
       "timestamp": "2026-10-19T13:00:00Z",
       "ai_score": 7,
       "bullet_points": [
-        "The article explores using frontier models (like Gemini 4 Argon) for complex, creative coding tasks.",
-        "It demonstrates building a 3D Flutter game using only 15 prompts and zero pre-existing assets.",
-        "The piece highlights a gap in current AI coding benchmarks, which often focus only on standard web apps or CRUD interfaces."
+        "The article explores using frontier AI models (like Gemini 4 Argon) for complex, creative coding tasks.",
+        "It demonstrates building a non-standard application (a 3D Flutter Kart Game) using minimal prompts and no pre-existing assets.",
+        "The piece highlights a gap in current AI coding benchmarks, which often focus only on standard CRUD applications."
+      ]
+    },
+    {
+      "id": 91,
+      "title": "MCP vs function calling: which one your AI agent actually needs (2026)",
+      "url": "https://dev.to/joancomadran/mcp-vs-function-calling-which-one-your-ai-agent-actually-needs-2026-5hdg",
+      "source": "Dev.to",
+      "author": "joancomadran",
+      "timestamp": "2026-10-21T08:27:59Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The article compares two concepts in AI agent development: MCP and function calling.",
+        "It clarifies that MCP and function calling are complementary, not rivals, with distinct roles (tool requesting vs. tool shipping).",
+        "The content promises a detailed analysis including a comparison table, spec updates, and production code examples."
       ]
     }
   ]
