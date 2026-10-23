@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-22T20:53:44.853407",
-  "total_stories": 43,
+  "generated_at": "2026-10-23T02:07:59.625070",
+  "total_stories": 46,
   "sources": [
-    "arXiv AI",
-    "arXiv Machine Learning",
-    "Hacker News",
-    "Hugging Face Benchmarks",
-    "Ollama",
-    "The Verge",
-    "arXiv NLP",
     "Lobsters",
     "Ars Technica",
+    "The Verge",
+    "arXiv AI",
+    "arXiv NLP",
+    "Hacker News",
+    "Ollama",
+    "Hugging Face Benchmarks",
+    "arXiv Machine Learning",
     "Dev.to"
   ],
   "stories": [
@@ -24,22 +24,22 @@
       "ai_score": 9,
       "bullet_points": [
         "Meta has released Muse Glimmer, its first open model from Superintelligence Labs.",
-        "Muse Glimmer is a 30B multimodal model available under the permissive Apache 2.0 license.",
-        "It is specifically designed for local coding agents and is optimized via Ollama's MLX engine with new DFlash and image support."
+        "Muse Glimmer is a 30B multimodal model released under the permissive Apache 2.0 license.",
+        "It is specifically designed for local coding agents and is optimized via Ollama's MLX engine with new DFlash and image input support."
       ]
     },
     {
-      "id": 37,
-      "title": "The End of Consensus Research?",
-      "url": "https://arxiv.org/abs/2610.30114v1",
-      "source": "arXiv AI",
-      "author": "Martijn de Vos",
+      "id": 25,
+      "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+      "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+      "source": "Ars Technica",
+      "author": "Beth Mole",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The paper addresses the long-standing, fundamental problem of consensus in distributed computing and State Machine Replication (SMR).",
-        "Researchers utilized AI to aid in the discovery of 'A-greement,' a novel consensus protocol.",
-        "A-greement demonstrates significant performance improvements over existing state-of-the-art solutions for geo-replicated state machines."
+        "Moderna and Merck reported top-line results for their mRNA cancer vaccine.",
+        "The vaccine demonstrated a significant efficacy rate, cutting death and recurrence by 42%.",
+        "This represents a major advancement in cancer immunotherapy using mRNA technology."
       ]
     },
     {
@@ -52,7 +52,7 @@
       "ai_score": 8,
       "bullet_points": [
         "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face.",
-        "The model is categorized for text generation and conversational AI tasks.",
+        "The model is categorized for text-generation and conversational AI tasks.",
         "It utilizes standard ML components like transformers and safetensors."
       ]
     },
@@ -66,8 +66,8 @@
       "ai_score": 8,
       "bullet_points": [
         "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "It is categorized under text-generation pipelines, indicating its primary function as a large language model.",
-        "The associated tags confirm its connection to key ML frameworks like transformers and the Llama family."
+        "It is categorized under text-generation pipelines, indicating its primary function as a language model.",
+        "The tags confirm its association with major AI frameworks like transformers and the Llama family."
       ]
     },
     {
@@ -79,9 +79,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
-        "It is categorized under text-generation pipelines, indicating its primary application.",
-        "The associated tags confirm its relevance to major AI frameworks like transformers and safetensors."
+        "Highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
+        "Indicates the model is categorized for text-generation tasks.",
+        "Tags confirm its relevance within the transformers and Llama ecosystem."
       ]
     },
     {
@@ -94,8 +94,8 @@
       "ai_score": 8,
       "bullet_points": [
         "NVIDIA Nemotron 3.5 Lightning is now accessible via Ollama.",
-        "It is a 30 billion parameter open model designed specifically for persistent AI agents.",
-        "The model excels at multi-step tasks, context gathering, and tool calling on local hardware."
+        "It is a 30 billion parameter open model optimized for agentic workflows.",
+        "The model is designed for running complex, multi-step tasks and tool-calling locally on user hardware."
       ]
     },
     {
@@ -107,9 +107,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Ollama, a platform for running open models, has secured significant funding.",
-        "The company raised $88 million in a new funding round.",
-        "Ollama currently serves a large developer base of 8.9 million users."
+        "Ollama has secured significant funding, raising $88 million.",
+        "The funding round includes major investors such as Y Combinator and Benchmark.",
+        "Ollama is rapidly gaining traction, serving a large developer base of 8.9 million."
       ]
     },
     {
@@ -121,13 +121,27 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Gemma 4 inference speed is significantly improved in Ollama 0.31 on Apple Silicon.",
-        "The performance boost is achieved through Multi-Token Prediction (MTP) powered by MLX.",
-        "Coding agent performance shows up to a 90% speed increase based on the Aider benchmark."
+        "Gemma 4 performance is significantly boosted on Apple Silicon when running through Ollama 0.31.",
+        "The speed improvement is attributed to the implementation of Multi-Token Prediction (MTP) powered by MLX.",
+        "Performance gains reach up to 90% faster, particularly when utilized with coding agents, as validated by the Aider benchmark."
       ]
     },
     {
-      "id": 14,
+      "id": 17,
+      "title": "Canva’s first AI image model plans designs before generating them",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "source": "The Verge",
+      "author": "Emma Roth",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Canva has launched 'Canva Craft,' its proprietary AI image generation model.",
+        "The model employs a two-stage architecture that plans designs before image generation.",
+        "This feature aims to offer users greater precision, consistency, and control compared to competitors like OpenAI and Google."
+      ]
+    },
+    {
+      "id": 20,
       "title": "Meta&#8217;s AI could still scrape news sites, legal experts say",
       "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
       "source": "The Verge",
@@ -135,13 +149,13 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Meta's recent updates to its business terms aim to curb the use of news sites for AI training.",
-        "Legal experts argue these changes are insufficient because ambiguous language still permits scraping.",
-        "The core concern remains Meta's ability to use content associated with its services for AI model training."
+        "Meta's recent updates to its business terms aim to curb AI training on news sites.",
+        "Legal experts argue the changes are insufficient, pointing to ambiguous language allowing scraping.",
+        "The core concern remains Meta's ability to use content from news sites for AI model training."
       ]
     },
     {
-      "id": 16,
+      "id": 22,
       "title": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
       "url": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
       "source": "The Verge",
@@ -149,93 +163,37 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The FCC has gained new authority to block electronic gadgets containing chips deemed a threat to national security.",
-        "This power allows the FCC to ban devices based on the origin of their computer chips if they are on a designated threat list.",
-        "The FCC is exercising this new authority for the first time by blocking two specific gadgets due to 'foreign surveillance chips'."
+        "The FCC has gained the authority to block electronic gadgets containing chips deemed a national security threat.",
+        "This new power is being exercised for the first time, resulting in the blocking of two specific devices.",
+        "The FCC claims the blocked gadgets contain 'foreign surveillance chips.'"
       ]
     },
     {
-      "id": 29,
-      "title": "Meta shocked by $25B fine after N.M. refused to join multistate settlement",
-      "url": "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/",
+      "id": 28,
+      "title": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
+      "url": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/",
       "source": "Ars Technica",
-      "author": "Ashley Belanger",
+      "author": "Dan Goodin",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Meta faces a massive $25 billion fine following a refusal by New Mexico to join a multistate settlement.",
-        "The imposed fine is noted as the largest one Mark Zuckerberg has personally faced.",
-        "Meta has indicated its intention to appeal the ruling."
-      ]
-    },
-    {
-      "id": 32,
-      "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
-      "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
-      "source": "Ars Technica",
-      "author": "Tom Wilson and Rafe Rosner-Uddin, Financial Times",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "A critical PHP2Shell vulnerability was exploited by hackers before defenders were aware of it.",
-        "The story highlights the speed and proactive nature of threat actors in exploiting zero-day vulnerabilities.",
-        "This incident underscores the ongoing challenge of timely vulnerability disclosure and patching in web infrastructure."
-      ]
-    },
-    {
-      "id": 36,
-      "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
-      "url": "https://arxiv.org/abs/2610.30116v1",
-      "source": "arXiv AI",
-      "author": "Mayur Naik",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces 'Environment Duels,' a novel agentic benchmark for evaluating frontier LLMs.",
-        "The benchmark tests LLMs' dual roles as both creators (writing environments) and solvers.",
-        "It simulates a real-world co-evolutionary ecosystem where models interact with each other's outputs."
-      ]
-    },
-    {
-      "id": 38,
-      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
-      "url": "https://arxiv.org/abs/2610.30113v1",
-      "source": "arXiv AI",
-      "author": "Calvin Xiao",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces Quant-Arena, a new benchmark specifically designed to test LLM agents for end-to-end quantitative trading research.",
-        "Addresses a critical gap in current LLM evaluation by moving beyond scoring isolated formulas or decisions to testing the entire research loop (hypothesis -> signal -> testing).",
-        "Focuses on applying advanced LLMs to complex, real-world financial tasks, signaling a potential shift in how AI is used in high-stakes quantitative finance."
-      ]
-    },
-    {
-      "id": 39,
-      "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
-      "url": "https://arxiv.org/abs/2610.30108v1",
-      "source": "arXiv AI",
-      "author": "Mike Zheng Shou",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces Multimodal Embodied Agents (MMEAs) as a unified framework bridging computer-use agents and robotic systems.",
-        "MMEAs are defined as goal-directed systems that integrate multimodal task reasoning with physical action and feedback loops.",
-        "The research addresses the fundamental shift in capabilities and challenges when moving AI agents from purely digital environments to physical, robotic ones."
+        "eMudhra, a digital certificate authority, has withdrawn from the TLS business following a major security failure.",
+        "The vulnerability stemmed from a flawed key signing process that allowed unauthorized minting of web credentials.",
+        "This flaw effectively permitted the creation of valid web credentials for any website."
       ]
     },
     {
       "id": 42,
-      "title": "Differentially Private Sparse Reward Estimation with Preference Feedback",
-      "url": "https://arxiv.org/abs/2610.30099v1",
+      "title": "Post-Audit Mirage: Identifiability Limits of Offline Agent Verification",
+      "url": "https://arxiv.org/abs/2610.31130v1",
       "source": "arXiv AI",
-      "author": "Di Wang",
+      "author": "Payal Payal",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Addresses a critical privacy vulnerability in Reinforcement Learning with Human Feedback (RLHF) by incorporating Differential Privacy (DP).",
-        "The research tackles the limitation of existing private alignment methods, which are constrained by dense reward parameterizations.",
-        "Proposes a novel approach for Differentially Private Sparse Reward Estimation, aiming to reduce estimation error bounds dependent on model size."
+        "Introduces the 'Post-Audit Mirage,' a critical flaw where offline safety tests fail to predict post-deployment agent behavior.",
+        "The research operationalizes this mirage by creating scenarios where verifier-visible evidence is identical for safe and harmful updates.",
+        "The work establishes a theoretical tradeoff between error rates and the ability to abstain from deployment based on observational equivalence."
       ]
     },
     {
@@ -248,8 +206,8 @@
       "ai_score": 8,
       "bullet_points": [
         "Introduces 'LongZero,' a method to enhance long-context reasoning in LLMs without relying on extensive, expensive training data.",
-        "Addresses the critical bottleneck in RL-based LLM improvement: the scarcity and cost of generating long, diverse, and verifiable training data.",
-        "Presents a novel approach to RL from zero data, circumventing the dependency on large external corpora or superior teacher models."
+        "Addresses the major bottleneck in RL-based LLM improvement: the scarcity and high cost of generating long, diverse, and verifiable training data.",
+        "Proposes an 'RL from zero data' approach to overcome dependencies on external corpora or stronger teacher models."
       ]
     },
     {
@@ -262,50 +220,22 @@
       "ai_score": 8,
       "bullet_points": [
         "Addresses the privacy vulnerability in Reinforcement Learning with Human Feedback (RLHF) by integrating Differential Privacy (DP).",
-        "The research tackles the limitation of existing private alignment methods, which assume dense reward parameterizations.",
-        "Proposes a method for Differentially Private Sparse Reward Estimation, aiming to improve error bounds independent of model size."
+        "The research tackles a limitation in existing private alignment methods, which typically assume dense reward parameterizations.",
+        "Proposes a method for Differentially Private Sparse Reward Estimation, aiming to reduce estimation error bounds that currently scale prohibitively with model size."
       ]
     },
     {
-      "id": 56,
-      "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
-      "url": "https://arxiv.org/abs/2610.30116v1",
-      "source": "arXiv NLP",
-      "author": "Mayur Naik",
-      "timestamp": null,
+      "id": 65,
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "source": "Hacker News",
+      "author": "johnbender",
+      "timestamp": "2026-10-22T22:54:43",
       "ai_score": 8,
       "bullet_points": [
-        "Introduces 'Environment Duels,' a new dynamic agentic benchmark for evaluating LLMs.",
-        "The benchmark tests LLMs not only as solvers but also as creators within an interactive ecosystem.",
-        "It examines how frontier LLMs co-evolve by absorbing outputs from predecessors and competitors."
-      ]
-    },
-    {
-      "id": 57,
-      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
-      "url": "https://arxiv.org/abs/2610.30113v1",
-      "source": "arXiv NLP",
-      "author": "Calvin Xiao",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Introduces Quant-Arena, a new benchmark designed to evaluate LLM agents on the full, iterative loop of quantitative trading research.",
-        "Addresses a gap in existing benchmarks by moving beyond scoring isolated formulas or decisions to testing end-to-end strategy generation.",
-        "Focuses on testing LLMs' ability to complete the entire research cycle: hypothesis generation, signal implementation, historical testing, and strategy refinement."
-      ]
-    },
-    {
-      "id": 62,
-      "title": "What the Author Wrote, What the Agent Reads: Silent Cue Loss in Enterprise Document Ingestion",
-      "url": "https://arxiv.org/abs/2610.30026v1",
-      "source": "arXiv NLP",
-      "author": "Pradeep Kumar Misra",
-      "timestamp": null,
-      "ai_score": 8,
-      "bullet_points": [
-        "Identifies a critical, often overlooked failure point in enterprise AI document ingestion: the loss of semantic cues during text conversion (e.g., from PDF/Word to tokens).",
-        "Demonstrates that this 'silent cue loss' causes AI agents to make confidently incorrect decisions rather than simply failing to process information.",
-        "Proposes a new task based on real-world policy documents to quantify and address this information degradation in deployed enterprise agents."
+        "LLMs are enabling formal software verification at a significantly larger scale.",
+        "This suggests a major advancement in the intersection of AI and software engineering.",
+        "The feasibility of verifying complex software systems is being fundamentally changed by LLM capabilities."
       ]
     },
     {
@@ -317,8 +247,8 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Clef, a 27B multimodal decision model from Cloudflare, is now integrated with Ollama.",
-        "Users have the option to run the Clef model either locally or via Ollama's cloud infrastructure.",
+        "Cloudflare's 27B multimodal decision model, Clef, is now accessible via Ollama.",
+        "Users have the option to run the Clef model either locally or through Ollama's cloud infrastructure.",
         "This integration expands the capabilities of Ollama by adding a powerful, large-scale multimodal model."
       ]
     },
@@ -331,9 +261,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Reflection has released its first open-weight model, Beam, on Ollama.",
+        "Reflection's open-weight model, Beam, is now available on Ollama.",
         "Beam is specifically designed for software engineering, reasoning, and agentic tasks.",
-        "The model is currently available for free on Ollama Cloud for a limited duration."
+        "The model is offered for free for a limited time via Ollama Cloud."
       ]
     },
     {
@@ -345,9 +275,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama enables the deployment of AI agents using its cloud models.",
-        "The integration allows these agents to run securely within Fly.io's cloud infrastructure.",
-        "This combination addresses the need for safe and accessible deployment of AI agents."
+        "Ollama enables the use of its cloud models for AI agents.",
+        "The integration allows AI agents to run safely within Fly.io's cloud infrastructure.",
+        "This combination addresses the need for secure deployment of AI agents in the cloud."
       ]
     },
     {
@@ -360,8 +290,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Ollama has integrated support for Jev-style decision models via TypeSafe's Jev API.",
-        "These new models enable fast, low-latency, and cost-free execution of decision-making logic.",
-        "The models can process text to provide probabilistic answers for yes/no questions, choices, and scores."
+        "These new models enable fast, low-latency, and cost-free decision-making based on text input.",
+        "The models provide probabilistic answers to yes/no questions, choices, and scoring."
       ]
     },
     {
@@ -375,25 +305,67 @@
       "bullet_points": [
         "Claude Desktop now supports Ollama as a third-party gateway.",
         "This integration allows users to run open-source models within the Claude Desktop environment.",
-        "It bridges proprietary AI interfaces with local, open-weight model ecosystems."
+        "It bridges proprietary AI platforms with local, open-weight model ecosystems."
       ]
     },
     {
-      "id": 15,
-      "title": "Meta turns Muse sharing back on",
-      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+      "id": 14,
+      "title": "Etsy is cracking down on AI slop listings",
+      "url": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
       "source": "The Verge",
       "author": "Jay Peters",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Meta has reinstated the sharing functionality for its AI assistant, Muse.",
-        "The re-enabling followed security researcher warnings about easily discoverable public conversation links.",
-        "Researchers demonstrated that sensitive pages, such as internal business reviews and loan applications, could be found via these links."
+        "Etsy is implementing stricter guidelines regarding the use of AI in product listings.",
+        "The crackdown aims to reduce the proliferation of low-quality, AI-generated content ('AI slop') on the platform.",
+        "The policy change is driven by buyer feedback and seller concerns about the quality and authenticity of listings."
       ]
     },
     {
-      "id": 26,
+      "id": 15,
+      "title": "Spotify says yes, it is busting people for using Family Plan sharing too widely",
+      "url": "https://www.theverge.com/entertainment/1017214/spotify-family-plan-sharing-qr-codes",
+      "source": "The Verge",
+      "author": "Stevie Bonifield",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Spotify is implementing a new QR code verification system to combat unauthorized sharing of its Family Plan.",
+        "The crackdown targets users who are not actually residing together under the Family Plan.",
+        "Spotify co-CEO Alex Norström confirmed the initiative during the company's recent earnings call."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
+      "url": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram",
+      "source": "The Verge",
+      "author": "Stevie Bonifield",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Global PC shipments experienced a significant decline of 21% year-over-year in Q3 2026.",
+        "The drop in PC demand is attributed to ongoing price increases, particularly in RAM.",
+        "Smartphone shipments also saw a notable decrease, reaching a 14-year low in the same quarter."
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
+      "url": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
+      "source": "Ars Technica",
+      "author": "Kyle Orland",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Security vulnerability discovered in the upcoming Switch 2 console.",
+        "The exploit, a 'userland' vulnerability, leverages an integer overflow in the SmileBasic interpreter.",
+        "This allows hackers to gain unauthorized homebrew access to the system."
+      ]
+    },
+    {
+      "id": 32,
       "title": "Electric or gas? BMW goes both ways with new 2027 X5 and iX5.",
       "url": "https://arstechnica.com/cars/2026/10/electric-or-gas-bmw-goes-both-ways-with-new-2027-x5-and-ix5/",
       "source": "Ars Technica",
@@ -407,7 +379,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": 33,
       "title": "Samsung all but confirms iPhone Duo is goosing Galaxy Z8 sales",
       "url": "https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/",
       "source": "Ars Technica",
@@ -415,51 +387,121 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "iPhone Duo's unveiling coincided with a surge in searches for Samsung foldables.",
-        "The article suggests the new iPhone model is negatively impacting Galaxy Z8 sales.",
-        "This indicates increased competitive pressure in the premium foldable/smartphone market."
+        "The unveiling of the 'iPhone Duo' has correlated with a surge in searches for Samsung foldables.",
+        "This suggests a potential competitive impact of Apple's new device on Samsung's foldable market share.",
+        "The article points to a direct market reaction following a major competitor's product launch."
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.31198v1",
+      "source": "arXiv AI",
+      "author": "Chaim Baskin",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Addresses unique quantization challenges in Diffusion Language Models (DLMs) due to their iterative denoising process.",
+        "Demonstrates that quantization sensitivity is dependent on both the downstream task and the specific denoising timestep.",
+        "Introduces T2Quant, a mixed-precision technique that predicts these sensitivity patterns without requiring ground truth labels."
       ]
     },
     {
       "id": 35,
-      "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
-      "url": "https://arxiv.org/abs/2610.30125v1",
+      "title": "When More Metadata Misleads: Probing Field-Level Grounding in LLM-Generated Museum Descriptions",
+      "url": "https://arxiv.org/abs/2610.31193v1",
       "source": "arXiv AI",
-      "author": "Jeong Joon Park",
+      "author": "Laura Hollink",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "PhysiCalWorld addresses a critical limitation in world models: the inability to infer underlying physical properties (mass, friction, damping) from limited visual observations.",
-        "Current world models suffer from prediction drift in novel environments because they lack calibrated physical parameters.",
-        "The proposed method calibrates these physics factors in-context, aiming to improve the accuracy and generalization of world model predictions."
+        "The research investigates how metadata influences the quality of text generation (specifically museum descriptions) by challenging the assumption that more metadata always improves grounding.",
+        "It addresses the complexity of real-world museum catalogue records, noting their heterogeneity, partial visual nature, and uneven documentation.",
+        "The study employs a two-phase framework to analyze how varying metadata composition affects the generated artifact descriptions."
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Prompting Strategy Effects Depend on the Judge: A Multilingual Study of LLM-as-a-Judge Robustness",
+      "url": "https://arxiv.org/abs/2610.31172v1",
+      "source": "arXiv AI",
+      "author": "Clemencia Siro",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The study investigates the robustness of LLM-as-a-Judge evaluations across different languages and judge models.",
+        "It addresses a gap where prompting strategies (like CoT) are often optimized only for English benchmarks and their cross-lingual transfer is unknown.",
+        "The research measures the interaction between prompting strategies and judge model sensitivity in multilingual tasks."
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Network topology shapes consensus and vulnerability in LLM populations",
+      "url": "https://arxiv.org/abs/2610.31165v1",
+      "source": "arXiv AI",
+      "author": "Luca Maria Aiello",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The study investigates how the interaction structure (network topology) influences the collective behavior of interacting Large Language Models (LLMs).",
+        "It moves beyond traditional 'well-mixed' interaction models by testing LLM consensus formation on different network structures (fully connected, random regular, heterogeneous).",
+        "The research demonstrates that network topology significantly impacts the speed and even the possibility of consensus emerging within the LLM population."
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Prompt Sensitivity in Tool-Augmented Model Comparisons",
+      "url": "https://arxiv.org/abs/2610.31148v1",
+      "source": "arXiv AI",
+      "author": "Tomasz Radzikowski",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Investigates prompt sensitivity when comparing tool-augmented language models.",
+        "Highlights that simple accuracy gains don't reveal stability issues introduced by tool usage.",
+        "Proposes a novel 'matched protocol' to decouple and analyze specific steps in tool-augmented reasoning (e.g., decision to call, tool output)."
+      ]
+    },
+    {
+      "id": 39,
+      "title": "PriMa-Causa: Causal Prescriptive Maintenance",
+      "url": "https://arxiv.org/abs/2610.31147v1",
+      "source": "arXiv AI",
+      "author": "Felix Saretzky",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces 'PriMa-Causa,' a framework for Causal Prescriptive Maintenance in automated manufacturing.",
+        "Addresses the challenge of making data-driven decisions under uncertainty and sparse data.",
+        "Moves beyond mere prediction by recommending specific, actionable maintenance interventions."
       ]
     },
     {
       "id": 41,
-      "title": "BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard",
-      "url": "https://arxiv.org/abs/2610.30104v1",
+      "title": "Mixing Matters: Evidence Position Bias Across Sequence Mixers in Long-Context Question Answering",
+      "url": "https://arxiv.org/abs/2610.31135v1",
       "source": "arXiv AI",
-      "author": "Günter Klambauer",
+      "author": "Mehul Anand",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces BatchBench, a new leaderboard specifically designed to benchmark AI robustness in biomedical imaging.",
-        "Addresses the critical issue of domain shift, where AI models fail when tested on data acquired under different experimental conditions.",
-        "Focuses on evaluating the performance of AI systems against batch effects, a persistent challenge in biomedical image analysis."
+        "The research investigates position bias in long-context Question Answering across different model architectures (Transformer, State-Space, Mamba).",
+        "Transformers exhibit a 'beginning advantage,' while state-space models lack this, but both favor evidence appearing near the end of the context.",
+        "The findings suggest that how models process evidence location is architecture-dependent, impacting long-context performance."
       ]
     },
     {
       "id": 43,
-      "title": "AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation",
-      "url": "https://arxiv.org/abs/2610.30097v1",
+      "title": "SetCommit: Coordinated Token Commitments for Few-Step Diffusion Language Model Decoding",
+      "url": "https://arxiv.org/abs/2610.31120v1",
       "source": "arXiv AI",
-      "author": "Liang Lin",
+      "author": "Wang Kang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces AtomicRL, a new approach combining Reinforcement Learning (RL) with Vision-Language-Action (VLA) models for robotic manipulation.",
-        "Addresses key limitations in current VLA-RL methods, specifically delayed/biased credit assignment from sparse rewards and bottlenecks from imbalanced subtask mastery.",
-        "Focuses on improving the mastery of complex, long-horizon skills in robotic tasks."
+        "Introduces SetCommit, a training-free method for coordinating parallel token commitments in diffusion language models.",
+        "Addresses the challenge of joint inconsistency in tokens generated in parallel during few-step decoding.",
+        "Aims to balance token reliability with the need for context-dependent refinement during the decoding process."
       ]
     },
     {
@@ -471,7 +513,7 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes Item-Level Adaptive Recursion for sequential recommendation systems.",
+        "Proposes Item-Level Adaptive Recursion to improve sequential recommendation models.",
         "Challenges the standard practice of allocating a fixed computational budget to all historical items.",
         "Identifies that item computational needs are non-uniform, with some requiring deep processing while others converge quickly."
       ]
@@ -486,82 +528,96 @@
       "ai_score": 7,
       "bullet_points": [
         "Introduces BatchBench, a new leaderboard designed to benchmark AI robustness in biomedical imaging.",
-        "Addresses the critical issue of AI susceptibility to domain shifts caused by varying experimental conditions in medical imaging.",
-        "Evaluates the performance of AI systems under batch effects and domain shift, highlighting persistent gaps in current domain adaptation methods."
+        "Addresses the critical issue of domain shift and batch effects, which significantly degrade AI performance in real-world medical imaging scenarios.",
+        "Highlights that despite progress in domain adaptation, substantial performance gaps remain in handling variations across different experimental conditions."
       ]
     },
     {
       "id": 54,
-      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
-      "url": "https://arxiv.org/abs/2610.30132v1",
+      "title": "When More Metadata Misleads: Probing Field-Level Grounding in LLM-Generated Museum Descriptions",
+      "url": "https://arxiv.org/abs/2610.31193v1",
       "source": "arXiv NLP",
-      "author": "Jianfei Chen",
+      "author": "Laura Hollink",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research addresses the challenge of training Large Language Models (LLMs) for long-context reasoning without extensive, expensive, or scarce high-quality training data.",
-        "It proposes 'LongZero,' a method leveraging Reinforcement Learning (RL) from zero data to enhance LLM capabilities.",
-        "The work aims to overcome limitations in current RL approaches that rely on difficult-to-obtain human annotations or strong teacher models."
+        "Investigates the limitations of metadata-conditioned generation in Large Language Models (LLMs) when applied to museum descriptions.",
+        "Highlights that the heterogeneity and uneven documentation of museum catalogue records challenge the assumption that more metadata always improves grounding.",
+        "Proposes a two-phase framework to analyze how varying metadata composition influences the quality of AI-generated artifact descriptions."
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Prompting Strategy Effects Depend on the Judge: A Multilingual Study of LLM-as-a-Judge Robustness",
+      "url": "https://arxiv.org/abs/2610.31172v1",
+      "source": "arXiv NLP",
+      "author": "Clemencia Siro",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Investigates the robustness of LLM-as-a-Judge evaluations across different languages and judge models.",
+        "Addresses a gap where prompting strategies (like Chain-of-Thought) are often optimized only for English benchmarks.",
+        "Tests how prompt sensitivity interacts with the choice of judge model and language in multilingual NLP tasks."
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
+      "url": "https://arxiv.org/abs/2610.31158v1",
+      "source": "arXiv NLP",
+      "author": "Yunhai Tong",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Introduces a new benchmark for evaluating AI agents in deep research.",
+        "Focuses on video-centered research, moving beyond simple web searching.",
+        "Agents synthesize multimodal evidence from external sources into interactive reports linked to specific video moments."
       ]
     },
     {
       "id": 58,
-      "title": "Did the Problem Actually Get Harder? Testing LLMs on Paired P and NP-Complete Problems Hardened by Adversarial Multi-Agent Rewriting",
-      "url": "https://arxiv.org/abs/2610.30103v1",
+      "title": "Mixing Matters: Evidence Position Bias Across Sequence Mixers in Long-Context Question Answering",
+      "url": "https://arxiv.org/abs/2610.31135v1",
       "source": "arXiv NLP",
-      "author": "Shubhashis Roy Dipta",
+      "author": "Mehul Anand",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces P2NPCBench, a new benchmark designed to test Large Language Models (LLMs) on the boundary between P and NP-Complete problems.",
-        "Addresses a limitation in existing benchmarks, which fail to distinguish between problems based on their computational complexity class.",
-        "Aims to evaluate if LLMs can truly 'reason' about problem structure rather than just recalling solutions, by pairing NPC problems with their polynomial-time (P) counterparts."
+        "The study investigates position bias in long-context question answering models, showing that evidence effectiveness degrades when placed far from prompt boundaries.",
+        "Transformer models exhibit a 'beginning advantage,' while state-space models (like Mamba) lack this, but both favor evidence appearing near the end.",
+        "The findings provide comparative insights into how different architectures (Transformer vs. Mamba) handle positional information in long-context processing."
       ]
     },
     {
-      "id": 60,
-      "title": "GoiBERT: Compact Vietnamese Language Models via Two-Stage Knowledge Distillation",
-      "url": "https://arxiv.org/abs/2610.30067v1",
+      "id": 62,
+      "title": "Learning What to Ask for Tomorrow: Active Preference Acquisition for Long-Term Personalized Web Agents",
+      "url": "https://arxiv.org/abs/2610.31107v1",
       "source": "arXiv NLP",
-      "author": "Huynh Dai Nhan Tran",
+      "author": "Taotao Cai",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces GoiBERT, a family of compact Vietnamese language models (26M and 49M parameters).",
-        "Addresses the deployment cost of large Vietnamese NLP models by operating directly on raw text without external segmentation.",
-        "Employs a two-stage knowledge distillation process using complementary teacher models for training."
-      ]
-    },
-    {
-      "id": 61,
-      "title": "Looped Uniform Diffusion Language Models",
-      "url": "https://arxiv.org/abs/2610.30066v1",
-      "source": "arXiv NLP",
-      "author": "Praneeth Vepakomma",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces Uniform Diffusion Language Models (UDLMs) for text generation via iterative denoising of corrupted tokens.",
-        "UDLMs feature a challenging training objective where they must denoise from potentially unreliable contexts, unlike Masked Diffusion Language Models (MDLMs).",
-        "Despite being more FLOP-intensive to train than MDLMs, UDLMs demonstrate superior downstream reasoning performance."
+        "Addresses the limitation of passive memory in long-term personalized web agents by focusing on preference acquisition.",
+        "Introduces Active Preference Acquisition (APA) to proactively learn user preferences that are not explicitly revealed.",
+        "Overcomes the flaw in current clarification methods that only consider immediate task benefit, aiming for long-term utility."
       ]
     },
     {
       "id": 63,
-      "title": "Agent Behavior Maps: Locating Agents by What They Would Do, Without Running Them",
-      "url": "https://arxiv.org/abs/2610.30014v1",
+      "title": "RIFT: KV Cache Compression for Draft Models with Complementary Compressibility Training",
+      "url": "https://arxiv.org/abs/2610.31098v1",
       "source": "arXiv NLP",
-      "author": "Masafumi Oyamada",
+      "author": "Ran Zilberstein",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'Agent Behavior Maps' to characterize LLM agents based on their potential actions.",
-        "Allows for the comparison of agent behaviors using centered action log-likelihoods without needing to run the target agent in a new environment.",
-        "Demonstrates that distance metrics derived from these maps correlate well with actual trajectory Kullback-Leibler (KL) divergence across multiple models."
+        "The research addresses the growing memory bottleneck of the KV cache in long-output generation, particularly when using speculative decoding.",
+        "It introduces 'decode staleness,' a problem where compression methods optimized for initial (prefill) context lose accuracy as the output sequence lengthens.",
+        "The proposed method, RIFT, utilizes 'Complementary Compressibility Training' to improve KV cache compression specifically for draft models."
       ]
     },
     {
-      "id": 65,
+      "id": 68,
       "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
       "url": "https://github.com/NVIDIA/OpenShell",
       "source": "Hacker News",
@@ -569,51 +625,37 @@
       "timestamp": "2026-10-22T17:44:06",
       "ai_score": 7,
       "bullet_points": [
-        "Introduction of OpenShell, a runtime environment designed for autonomous AI agents.",
-        "The runtime emphasizes safety and privacy for managing fleets of AI agents.",
-        "The concept addresses the growing need for secure orchestration of multi-agent AI systems."
+        "Introduction of OpenShell, a new runtime environment.",
+        "Designed specifically for managing fleets of autonomous AI agents.",
+        "Emphasizes safety and privacy within the AI agent ecosystem."
       ]
     },
     {
-      "id": 67,
-      "title": "Show HN: Run full iOS 16.5 firmware on Android Devices",
+      "id": 73,
+      "title": "Run full iOS 16.5 firmware on Android Devices",
       "url": "https://github.com/oosexgang/hackios-xnu-kernel",
       "source": "Hacker News",
       "author": "aghuang",
       "timestamp": "2026-10-22T15:26:22",
       "ai_score": 7,
       "bullet_points": [
-        "A user shared a project demonstrating the ability to run full iOS 16.5 firmware on Android devices.",
-        "This represents a significant technical achievement in cross-platform emulation or firmware porting.",
-        "The topic is highly niche, appealing to advanced developers and low-level systems enthusiasts."
+        "A new method allows running full iOS 16.5 firmware on Android devices.",
+        "This represents a significant achievement in cross-platform emulation or system modification.",
+        "The announcement is posted on Hacker News, suggesting a technical/developer audience."
       ]
     },
     {
-      "id": 86,
-      "title": "Scaling stateful Gemini 4 Argon agent sessions on GKE: Connection draining, startup boost, and session persistence",
-      "url": "https://dev.to/googlecloud/scaling-stateful-gemini-4-argon-agent-sessions-on-gke-connection-draining-startup-boost-and-13ln",
+      "id": 93,
+      "title": "Building Disaggregated Inference with NVIDIA Dynamo",
+      "url": "https://dev.to/vultr/building-disaggregated-inference-with-nvidia-dynamo-5fn8",
       "source": "Dev.to",
-      "author": "olivi-eh",
-      "timestamp": "2026-10-22T16:05:20Z",
+      "author": "sharmukh",
+      "timestamp": "2026-10-22T23:18:08Z",
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the technical challenge of scaling stateful AI agent sessions (Gemini 4 Argon) on Google Kubernetes Engine (GKE).",
-        "Proposes specific Kubernetes/GCP solutions, including VPA CPU startup boost and GCPBackendPolicy connection draining.",
-        "Focuses on operational concerns like session persistence and efficient resource management for long-running AI workloads."
-      ]
-    },
-    {
-      "id": 88,
-      "title": "AI Made Coding Cheaper. So Why Is Building Software Still So Expensive?",
-      "url": "https://dev.to/harsh2644/ai-made-coding-cheaper-so-why-is-building-software-still-so-expensive-59m",
-      "source": "Dev.to",
-      "author": "harsh2644",
-      "timestamp": "2026-10-21T19:42:55Z",
-      "ai_score": 7,
-      "bullet_points": [
-        "The article discusses the paradox of AI lowering coding costs while software development remains expensive.",
-        "It highlights the capability of AI tools to rapidly generate complex code components (e.g., authentication flows, database schemas, unit tests).",
-        "The core discussion centers on the gap between AI-driven efficiency gains and persistent high software development costs."
+        "NVIDIA Dynamo is an open-source inference framework.",
+        "It is designed specifically for deploying large-scale generative AI models.",
+        "The framework focuses on enabling disaggregated inference capabilities."
       ]
     }
   ]
