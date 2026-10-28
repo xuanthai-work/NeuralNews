@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-10-28T02:42:18.008347",
-  "total_stories": 49,
+  "generated_at": "2026-10-28T11:43:11.470255",
+  "total_stories": 51,
   "sources": [
-    "Lobsters",
-    "Hugging Face Benchmarks",
     "Hacker News",
     "Dev.to",
-    "arXiv AI",
-    "arXiv Machine Learning",
-    "Ars Technica",
     "The Verge",
+    "Hugging Face Benchmarks",
+    "Ollama",
     "arXiv NLP",
-    "Ollama"
+    "arXiv Machine Learning",
+    "Lobsters",
+    "Ars Technica",
+    "arXiv AI"
   ],
   "stories": [
+    {
+      "id": 30,
+      "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+      "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+      "source": "Ars Technica",
+      "author": "Dan Goodin",
+      "timestamp": null,
+      "ai_score": 10,
+      "bullet_points": [
+        "A critical code-execution flaw has been discovered in UEFI firmware.",
+        "The vulnerability resides within the EDK2 codebase, affecting a vast number of servers globally.",
+        "Exploitation allows attackers to run malicious code very early in the system boot process."
+      ]
+    },
     {
       "id": 3,
       "title": "🤗 Trending: meta-llama/Meta-Llama-3-8B",
@@ -23,9 +37,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "The news highlights the trending status of the Meta-Llama-3-8B model on Hugging Face.",
-        "It is categorized under text-generation pipelines, indicating its primary application.",
-        "The associated tags confirm its relevance to transformers, Llama architecture, and model formats (safetensors)."
+        "The news highlights the trending status of Meta-Llama-3-8B on Hugging Face Benchmarks.",
+        "It indicates the model is being used within a text-generation pipeline.",
+        "The associated tags confirm its relevance to transformers, Llama architecture, and the AI ecosystem."
       ]
     },
     {
@@ -38,26 +52,40 @@
       "ai_score": 9,
       "bullet_points": [
         "Meta has released Muse Glimmer, its first open model from Superintelligence Labs.",
-        "Muse Glimmer is a 30B multimodal model released under the permissive Apache 2.0 license.",
-        "It is specifically designed for local coding agents and is optimized via Ollama's MLX engine with new DFlash and image input support."
+        "Muse Glimmer is a 30B multimodal model available under the permissive Apache 2.0 license.",
+        "It is specifically designed for local coding agents and benefits from Ollama's MLX engine with new DFlash and image input support."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Meta considered a ‘whisper strategy’ to turn academics against Jonathan Haidt",
+      "url": "https://www.theverge.com/policy/1020012/meta-jonathan-haidt-social-media-mental-health",
+      "source": "The Verge",
+      "author": "Lauren Feiner",
+      "timestamp": null,
+      "ai_score": 9,
+      "bullet_points": [
+        "Meta reportedly considered a 'Whisper strategy' to undermine social psychologist Jonathan Haidt.",
+        "The strategy was discussed in March 2023 amidst growing public and legal pressure regarding teen mental health and child safety.",
+        "The revelation stems from newly filed court documents, indicating potential corporate efforts to discredit academic critics."
       ]
     },
     {
       "id": 23,
-      "title": "Google’s next Genie AI model generates more realistic experiences",
-      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+      "title": "Meta’s $25 billion legal loss just put blood in the water",
+      "url": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement",
       "source": "The Verge",
-      "author": "Jay Peters",
+      "author": "Lauren Feiner",
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Google unveiled Genie 4, a new world model designed for generating highly realistic, interactive AI experiences.",
-        "Key features include real-time experience modification via natural language prompts and integrated audio generation.",
-        "The model leverages Gemini 3.8 Flash as its underlying technology, signaling advancements in multimodal AI."
+        "Meta faces a massive $25 billion legal penalty following a ruling by a New Mexico judge.",
+        "The ruling significantly exceeds a previous $17 billion settlement reached with various US attorneys general.",
+        "The lawsuit centers on claims that Meta misled users regarding its platform around 2018."
       ]
     },
     {
-      "id": 27,
+      "id": 28,
       "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
       "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
       "source": "Ars Technica",
@@ -65,13 +93,13 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "A proposed Delaware plan would allow AI agents to autonomously manage entire businesses.",
-        "The plan suggests owners of these AI-run firms could avoid liability for 'reckless' AI actions.",
-        "The development highlights a significant legal and operational shift regarding AI autonomy and corporate responsibility."
+        "Delaware is considering legislation allowing AI agents to operate entire businesses without human oversight.",
+        "The proposed plan would shield owners of these AI-run firms from liability related to 'reckless' AI actions.",
+        "The development signals a major legal and operational shift toward autonomous corporate entities powered by AI."
       ]
     },
     {
-      "id": 28,
+      "id": 29,
       "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
       "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
       "source": "Ars Technica",
@@ -79,37 +107,9 @@
       "timestamp": null,
       "ai_score": 9,
       "bullet_points": [
-        "Anthropic's IPO filing highlights severe, speculative risks associated with advanced AI.",
-        "The risks range from potential blackmail capabilities to existential threats like AI sentience and human extinction.",
-        "The inclusion of these 'nightmares' in a formal risk factor document signals growing industry concern over AI safety."
-      ]
-    },
-    {
-      "id": 29,
-      "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
-      "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
-      "source": "Ars Technica",
-      "author": "Dan Goodin",
-      "timestamp": null,
-      "ai_score": 9,
-      "bullet_points": [
-        "A critical code-execution flaw has been discovered in UEFI firmware.",
-        "The vulnerability resides within the EDK2 codebase, affecting a vast number of servers globally.",
-        "Exploitation allows attackers to execute malicious code very early in the system boot process."
-      ]
-    },
-    {
-      "id": 90,
-      "title": "155 responses leaked between AI customers: the GLM-5.3 KV cache bug — and the canary test for YOUR provider",
-      "url": "https://dev.to/slabb/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8",
-      "source": "Dev.to",
-      "author": "slabb",
-      "timestamp": "2026-10-27T15:09:20Z",
-      "ai_score": 9,
-      "bullet_points": [
-        "A critical data leak was discovered on Cloudflare Workers AI involving the GLM-5.3 model.",
-        "The vulnerability stemmed from a stale KV-cache bug, causing responses from one customer to contain data from another.",
-        "The article introduces a canary testing script to help users proactively check their AI provider for similar cross-request data leaks."
+        "Anthropic's IPO filing explicitly details severe potential risks associated with its AI.",
+        "The risks cited range from AI potentially blackmailing individuals to achieving sentience and existential threats.",
+        "The disclosure highlights the growing industry focus on AI safety and catastrophic risk modeling."
       ]
     },
     {
@@ -121,9 +121,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "The news highlights the trending status of the 'deepseek-ai/DeepSeek-R1' model on Hugging Face.",
-        "The model is categorized under text-generation pipelines and utilizes transformers and safetensors formats.",
-        "It is associated with the 'deepseek_v3' family and is relevant to conversational AI applications."
+        "The news highlights a trending model, deepseek-ai/DeepSeek-R1, on Hugging Face Benchmarks.",
+        "The model is categorized for text generation and conversational AI tasks.",
+        "It utilizes standard ML components like transformers and safetensors, indicating a focus on model deployment and evaluation."
       ]
     },
     {
@@ -135,9 +135,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
-        "Indicates the model is suitable for text-generation tasks.",
-        "Categorizes the model within the broader ecosystem of transformers and Llama architectures."
+        "The news highlights the trending status of the Llama-3.1-8B-Instruct model on Hugging Face.",
+        "It pertains to the text-generation pipeline, indicating its application in generative AI tasks.",
+        "The model is associated with key technologies like transformers and safetensors."
       ]
     },
     {
@@ -149,9 +149,9 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "NVIDIA Nemotron 3.5 Lightning, a 30B parameter open model, is now accessible via Ollama.",
-        "The model is specifically designed for autonomous agents capable of multi-step tasks and context gathering.",
-        "It is optimized to run locally on user hardware, emphasizing on-device AI capabilities."
+        "NVIDIA Nemotron 3.5 Lightning is now accessible via Ollama.",
+        "It is a 30 billion parameter open model optimized for agentic workflows.",
+        "The model is designed for running complex, multi-step tasks and tool-calling on local hardware."
       ]
     },
     {
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 22,
       "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
       "source": "The Verge",
@@ -179,25 +179,39 @@
       "bullet_points": [
         "Anthropic is preparing for an IPO while maintaining a commitment to safe AI development.",
         "The company faces a tension between attracting public market investment and adhering to its safety-first mission.",
-        "Increased AI model capabilities introduce greater risks that shareholders may be concerned about."
+        "The increasing power of AI models inherently raises greater risks, complicating the relationship with profit-driven shareholders."
       ]
     },
     {
-      "id": 20,
-      "title": "Meta’s $25 billion legal loss just put blood in the water",
-      "url": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement",
-      "source": "The Verge",
-      "author": "Lauren Feiner",
+      "id": 24,
+      "title": "China’s snooping around Pacific undersea cables raises risks for Big Tech",
+      "url": "https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/",
+      "source": "Ars Technica",
+      "author": "Jeremy Hsu",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Meta faces a massive $25 billion legal penalty following a ruling by a New Mexico judge.",
-        "This ruling significantly exceeds a previous $17 billion settlement reached with US attorneys general.",
-        "The lawsuit centers on claims that Meta misled users regarding its practices around 2018."
+        "China is reportedly increasing its surveillance and activity around trans-Pacific undersea cables.",
+        "The security of US-owned trans-Pacific fiber optic cables is facing heightened risks.",
+        "The situation poses significant geopolitical and infrastructure risks to major technology companies (Big Tech)."
       ]
     },
     {
-      "id": 31,
+      "id": 27,
+      "title": "China's top-secret spaceplane can't hide in low-Earth orbit",
+      "url": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
+      "source": "Ars Technica",
+      "author": "Stephen Clark",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "The article discusses China's advanced space capabilities, specifically mentioning a top-secret spaceplane.",
+        "The core concern highlighted is the potential deployment of directed energy weapons by China in low-Earth orbit (LEO).",
+        "The threat assessment originates from the Defense Intelligence Agency (DIA), lending significant weight to the geopolitical and military implications."
+      ]
+    },
+    {
+      "id": 32,
       "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
       "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
       "source": "Ars Technica",
@@ -205,23 +219,23 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "New software allows users to specify desired characteristics (like 'vibe genes') when designing proteins using AI.",
-        "This represents a significant step in the intersection of AI, bioinformatics, and synthetic biology.",
-        "It moves protein design from purely structural modeling toward more functional, language-guided specification."
+        "New AI software allows users to specify desired characteristics ('vibe genes') when designing proteins.",
+        "This represents a significant advancement in the intersection of AI, bioinformatics, and synthetic biology.",
+        "The technology moves protein design from purely structural constraints to more abstract, functional language inputs."
       ]
     },
     {
-      "id": 43,
-      "title": "GUI-JEPA: Candidate-Conditioned JEPA Latents as a Fast Action Policy for Mobile GUI Agents",
-      "url": "https://arxiv.org/abs/2610.36877v1",
+      "id": 38,
+      "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+      "url": "https://arxiv.org/abs/2610.37649v1",
       "source": "arXiv AI",
-      "author": "Dacheng Tao",
+      "author": "Ying-Cong Chen",
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces GUI-JEPA, a novel decoder-free GUI agent policy based on Joint-Embedding Predictive Architecture (JEPA).",
-        "Addresses the computational bottleneck of existing mobile GUI agents that rely on slow, token-by-token decoding from large VLMs.",
-        "Aims to create faster and more memory-efficient agents for interacting with mobile Graphical User Interfaces (GUIs)."
+        "Investigates the potential of LLMs to autonomously discover hidden or altered physical laws.",
+        "Introduces 'LongChang,' an automated framework designed to test LLM capabilities in simulated worlds with modified physics.",
+        "Addresses the core scientific problem of using AI to generate novel research questions from unexpected observations."
       ]
     },
     {
@@ -233,9 +247,37 @@
       "timestamp": null,
       "ai_score": 8,
       "bullet_points": [
-        "Introduces 'Heads of Security' (HoS), a novel prompt injection defense mechanism.",
+        "Introduces 'Heads of Security' (HoS), a novel defense mechanism against prompt injection attacks.",
+        "HoS utilizes learned per-head attention gates to enforce instruction-data separation within LLMs.",
+        "Demonstrates improved robustness by allowing models to reason over untrusted content without executing injected malicious instructions."
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+      "url": "https://arxiv.org/abs/2610.37657v1",
+      "source": "arXiv NLP",
+      "author": "Yves-Alexandre de Montjoye",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Introduces 'Heads of Security' (HoS), a novel defense mechanism against prompt injection attacks.",
         "HoS uses learned per-head attention gates to enforce instruction-data separation within LLMs.",
         "Evaluated on large models like Llama-3.3-70B-Instruct, showing promise against state-of-the-art defenses."
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+      "url": "https://arxiv.org/abs/2610.37481v1",
+      "source": "arXiv NLP",
+      "author": "Pratyush Maini",
+      "timestamp": null,
+      "ai_score": 8,
+      "bullet_points": [
+        "Fine-tuning LLMs on seemingly benign instruction data can silently degrade their safety.",
+        "Standard content filters fail to detect this subtle, safety-degrading data.",
+        "The authors introduce SimpleLoRIF, a gradient embedding method to trace safety degradation back to specific training examples."
       ]
     },
     {
@@ -249,7 +291,7 @@
       "bullet_points": [
         "Ollama has expanded its capabilities to include support for speech models.",
         "The initial integration features Phonon from Gradium, enabling text-to-speech in five languages.",
-        "Performance benchmarks show streaming generation speeds over 100x faster than real-time on Apple Silicon."
+        "Performance highlights include streaming generation and speeds exceeding 100x real-time on Apple Silicon."
       ]
     },
     {
@@ -262,8 +304,8 @@
       "ai_score": 7,
       "bullet_points": [
         "Clef, a 27B multimodal decision model from Cloudflare, is now integrated with Ollama.",
-        "Users can access and run the Clef model either locally or via Ollama's cloud service.",
-        "This integration expands the capabilities of Ollama by adding a powerful multimodal model."
+        "Users have the option to run the Clef model either locally or via Ollama's cloud service.",
+        "This integration expands the capabilities of Ollama by adding a powerful, multimodal model."
       ]
     },
     {
@@ -277,7 +319,7 @@
       "bullet_points": [
         "Reflection's open-weight model, Beam, is now available on Ollama.",
         "Beam is specifically designed for software engineering, reasoning, and agentic tasks.",
-        "The model is offered for free access through Ollama's cloud for a limited duration."
+        "The model is offered for free for a limited time via Ollama's cloud."
       ]
     },
     {
@@ -289,9 +331,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama enables the safe deployment of AI agents.",
-        "The integration allows these agents to run using Ollama's cloud models.",
-        "Fly.io provides the cloud infrastructure for hosting these AI agents."
+        "Ollama enables the safe execution of AI agents.",
+        "The integration allows these agents to run within Fly.io's cloud infrastructure.",
+        "This combination addresses the need for secure deployment of local/cloud AI models."
       ]
     },
     {
@@ -303,9 +345,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ollama has expanded its capabilities to support Jev-style decision models.",
-        "These new models leverage TypeSafe's Jev API for fast, typed decision-making.",
-        "The feature allows for low-latency, cost-free answers to yes/no questions, choices, and scoring with associated probabilities."
+        "Ollama has integrated support for Jev-style decision models via TypeSafe's Jev API.",
+        "These new models enable fast, low-latency, and cost-free execution of decision-making logic.",
+        "Decision models can process text to provide probabilistic answers for yes/no questions, choices, and scores."
       ]
     },
     {
@@ -323,7 +365,21 @@
       ]
     },
     {
-      "id": 14,
+      "id": 16,
+      "title": "Here’s why the iPhone Duo’s hinge could be cracking the screen",
+      "url": "https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge",
+      "source": "The Verge",
+      "author": "Jay Peters",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Early reports surfaced immediately after the iPhone Duo launch regarding screen issues on some units.",
+        "The reported defect involves cracking or lines appearing on the inner screen, specifically near the hinge area.",
+        "The issue was widely documented across social media platforms shortly after the product release."
+      ]
+    },
+    {
+      "id": 17,
       "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
       "source": "The Verge",
@@ -331,27 +387,13 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "OpenAI has recently announced significant breakthroughs across mathematics, computer science, and physics.",
-        "Despite a perceived change in communication strategy from OpenAI, external researchers remain critical.",
-        "The core issue highlighted is ongoing frustration among the research community regarding OpenAI's perceived 'gatekeeping' of its findings."
+        "OpenAI recently announced significant breakthroughs across mathematics, computer science, and physics.",
+        "Despite the announcements, external researchers are expressing growing frustration with OpenAI's communication practices.",
+        "The article suggests a tension between OpenAI's technical progress and its perceived gatekeeping behavior."
       ]
     },
     {
-      "id": 21,
-      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
-      "source": "The Verge",
-      "author": "Emma Roth",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Firefox is enhancing its Smart Window feature with new AI capabilities.",
-        "The update allows the browser to automatically fill out online forms using data from open tabs.",
-        "Examples include pulling professional details from LinkedIn or portfolios to populate job applications."
-      ]
-    },
-    {
-      "id": 24,
+      "id": 25,
       "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
       "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
       "source": "Ars Technica",
@@ -360,26 +402,12 @@
       "ai_score": 7,
       "bullet_points": [
         "Apple is refreshing the iMac and entry-level MacBook Pro.",
-        "The new models are powered by the M6 chip.",
-        "The N1 chip iteration includes support for Wi-Fi 7 and Bluetooth 6."
+        "The new models feature the M6 chip.",
+        "The N1 chip iteration supports Wi-Fi 7 and Bluetooth 6."
       ]
     },
     {
-      "id": 26,
-      "title": "China's top-secret spaceplane can't hide in low-Earth orbit",
-      "url": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
-      "source": "Ars Technica",
-      "author": "Stephen Clark",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The DIA's threat assessment indicates potential future deployment of directed energy weapons by China in space.",
-        "The article discusses the visibility and tracking challenges related to China's advanced spaceplane technology in Low-Earth Orbit (LEO).",
-        "The news highlights escalating geopolitical tensions in the space domain concerning advanced military capabilities."
-      ]
-    },
-    {
-      "id": 30,
+      "id": 31,
       "title": "Google begins certifying Registered App Stores for Android, but not in the US",
       "url": "https://arstechnica.com/gadgets/2026/10/googles-android-registered-app-stores-program-launches-dec-1-applications-now-open/",
       "source": "Ars Technica",
@@ -387,121 +415,107 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Google is initiating a certification process for third-party Android app stores.",
+        "Google is starting a certification process for third-party Android app stores.",
         "This move aims to facilitate easier app installations via alternative stores.",
-        "The certification program is currently not being rolled out in the United States."
+        "The certification program is currently not being implemented in the United States."
       ]
     },
     {
-      "id": 33,
-      "title": "Ford simplifies using your EV as a home battery with the $30K Fathom",
-      "url": "https://arstechnica.com/cars/2026/10/ford-builds-bidrectional-charging-into-its-30k-electric-truck/",
-      "source": "Ars Technica",
-      "author": "Jonathan M. Gitlin",
+      "id": 34,
+      "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+      "url": "https://arxiv.org/abs/2610.37668v1",
+      "source": "arXiv AI",
+      "author": "Alan Yuille",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Ford's new Fathom pickup simplifies home energy integration by eliminating the need for a separate wall-mounted inverter.",
-        "The vehicle is capable of outputting up to 10 kW of power directly to a residence.",
-        "This feature positions the EV as a viable, integrated home battery storage solution."
+        "Introduces 'Hexels,' novel planar hexagonal surface elements designed for efficient 3D scene representation.",
+        "Aims to address the high memory and computational demands of modern techniques like radiance fields and splatting.",
+        "Hexels exploit locally planar regions with smoothly varying appearance using fewer, larger primitives for improved efficiency."
       ]
     },
     {
       "id": 35,
-      "title": "DCKV: Learned Transform Coding of the Prompt KV Cache in Hybrid Language Models",
-      "url": "https://arxiv.org/abs/2610.36950v1",
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "url": "https://arxiv.org/abs/2610.37666v1",
       "source": "arXiv AI",
-      "author": "Aleksei Goncharov",
+      "author": "Fu-En Yang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces DCKV, a differentiable codec designed specifically for the Key-Value (KV) cache in hybrid language models.",
-        "The KV cache, which grows with prompt length, is a major memory bottleneck that DCKV aims to address through learned compression.",
-        "DCKV is notable as the first KV-cache codec trained end-to-end, optimizing its transform, quantizer, and entropy models jointly."
-      ]
-    },
-    {
-      "id": 36,
-      "title": "Self-Keyed In-Parameter Memorization for External Memory-Free Dialogue Recall in Frozen Language Models",
-      "url": "https://arxiv.org/abs/2610.36948v1",
-      "source": "arXiv AI",
-      "author": "Jong-Kook Kim",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Proposes 'Self-Keyed In-Parameter Memorization' (SKIM) to store dialogue context directly within a language model's parameters.",
-        "Addresses the challenge of maintaining conversational history in LLMs without relying on external memory storage.",
-        "Focuses on enabling dialogue recall in 'frozen' language models without prior knowledge of future queries."
+        "ThinkWorld is a new VLA (Vision-Language-Action) learning framework designed to improve robotic manipulation.",
+        "It addresses the limitation of current models by grounding action reasoning in world dynamics, moving beyond reliance solely on labeled robot demonstrations.",
+        "The framework aims to leverage the broad experience found in human videos while mitigating the challenge of explicit action grounding."
       ]
     },
     {
       "id": 37,
-      "title": "Beyond QASecClaw: Agent Scaling, Verifier Feedback, and Evidence Reliability in Software Assurance",
-      "url": "https://arxiv.org/abs/2610.36947v1",
+      "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
+      "url": "https://arxiv.org/abs/2610.37655v1",
       "source": "arXiv AI",
-      "author": "Mohd. Ruhul Ameen",
+      "author": "Zhi-Song Liu",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research investigates whether augmenting software assurance with specialized language models can improve results even when deterministic tool evidence exists.",
-        "Experiments were conducted across diverse software assurance domains, including Java warning controls, OWASP Benchmarks, and SV-COMP assertions.",
-        "The study utilized Qwen2.5-Coder-7B-Instruct and included tests involving deliberately misleading evidence to assess model reliability."
-      ]
-    },
-    {
-      "id": 38,
-      "title": "Vision-Language Agents Can Learn in Their Own Latent Worlds",
-      "url": "https://arxiv.org/abs/2610.36925v1",
-      "source": "arXiv AI",
-      "author": "Song Guo",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "The research focuses on enabling Vision-Language Models (VLMs) to learn continuously through online interaction.",
-        "A key challenge addressed is leveraging existing world knowledge from pretrained VLMs to drive policy improvement.",
-        "The difficulty lies in adapting the world model as policy updates change the agent's interaction distribution."
+        "KPPax bridges the gap between traditional atmospheric chemistry modeling (KPP language) and modern machine learning frameworks.",
+        "It converts KPP-based kinetic mechanisms into differentiable, JAX-compiled, and vectorizable code.",
+        "This enables the integration of complex atmospheric chemistry simulations directly into differentiable programming pipelines for ML applications."
       ]
     },
     {
       "id": 39,
-      "title": "Developing a Speech Language Model for Basque",
-      "url": "https://arxiv.org/abs/2610.36911v1",
+      "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control",
+      "url": "https://arxiv.org/abs/2610.37647v1",
       "source": "arXiv AI",
-      "author": "Eva Navas",
+      "author": "Mingyi Hong",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Presents the first open Speech Language Model specifically for the Basque language.",
-        "The model is designed for low-latency, end-to-end spoken interaction.",
-        "It leverages the LLaMA-Omni architecture, fine-tuning a Latxa model to adapt Basque capabilities to the spoken modality."
+        "Introduces MuonGS, a method for pretraining Large Language Models (LLMs) by controlling weight norms.",
+        "Addresses the incomplete understanding of how weight decay and explicit weight-norm constraints improve optimizer performance.",
+        "Proposes analyzing norm control using the 'accumulated effective learning rate' ($C_T$) across the training trajectory."
+      ]
+    },
+    {
+      "id": 40,
+      "title": "What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models",
+      "url": "https://arxiv.org/abs/2610.37631v1",
+      "source": "arXiv AI",
+      "author": "Yao Lu",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "The research investigates how language models acquire general versus domain-specific knowledge during pretraining.",
+        "Point-in-time models, trained on web snapshots from different years, are used to track knowledge evolution over time.",
+        "A new metric, the Temporal Variability Score (TVS), is proposed to quantify how knowledge prevalence changes across time."
       ]
     },
     {
       "id": 41,
-      "title": "Noise Steering: Exploiting Wake Steering and Acoustic Directivity for Noise-Constrained Wind Farm Control via Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2610.36888v1",
+      "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+      "url": "https://arxiv.org/abs/2610.37624v1",
       "source": "arXiv AI",
-      "author": "Esteban Ferrer",
+      "author": "Khalil El Khammar",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes 'Noise Steering,' a reinforcement learning approach for wind farm noise control.",
-        "Addresses the limitation of current methods which ignore wake interactions and noise emission directivity.",
-        "Leverages turbine yaw as an additional control variable to simultaneously manage wake effects and noise direction."
+        "The paper investigates how memory compression affects the decision-making process of LLM groups.",
+        "It explores two heuristics for memory retention: keeping the rarest claims or claims relevant to decision criteria.",
+        "A new diagnostic benchmark, CrossProfile, is introduced to test these memory failures in LLM group discussions."
       ]
     },
     {
       "id": 42,
-      "title": "RubricAtlas: Mining Type-Level Rubrics from Expert Reports to Evaluate Deep Research Agents",
-      "url": "https://arxiv.org/abs/2610.36878v1",
+      "title": "VideoLVR: Latent Visual Reasoning over Grounded Video Evidence",
+      "url": "https://arxiv.org/abs/2610.37613v1",
       "source": "arXiv AI",
-      "author": "Zuo Bai",
+      "author": "Shilei Wen",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces RubricAtlas, a system designed to derive type-level analytical requirements from expert reports.",
-        "Addresses the challenge of evaluating complex outputs from deep research agents, which go beyond simple fact retrieval.",
-        "Moves beyond basic binary rubrics and task-level checklists to examine the overall analytical structure of AI-generated reports."
+        "The paper introduces VideoLVR, a method to improve video understanding in Multimodal Large Language Models (MLLMs).",
+        "A key limitation addressed is 'visual forgetting,' where language-based reasoning fails to reliably revisit relevant visual evidence in video content.",
+        "Existing grounding methods are criticized for relying on textual coordinates, which the new approach likely seeks to overcome."
       ]
     },
     {
@@ -513,8 +527,8 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces 'Hexels,' a novel planar hexagonal surface element for 3D scene and 2D image representation.",
-        "Aims to address the high memory and computational demands of modern view synthesis techniques like radiance fields and splatting.",
+        "Introduces 'Hexels,' a novel planar hexagonal surface element for 3D scene representation.",
+        "Aims to address the high memory and computational demands of modern view synthesis and 3D reconstruction techniques (like radiance fields/splatting).",
         "Hexels efficiently represent locally planar regions using fewer, larger primitives with a first-order spatial color field."
       ]
     },
@@ -528,8 +542,8 @@
       "ai_score": 7,
       "bullet_points": [
         "The paper addresses the instability of test-time adaptation (TTA), where interventions can help one batch but harm subsequent ones.",
-        "Traditional metrics like average accuracy fail to capture these localized failures, necessitating a better decision mechanism for intervention.",
-        "The authors introduce PORTAL, a controller designed to intelligently decide when and how to apply model interventions, potentially guided by target labels."
+        "Standard metrics like average accuracy fail to capture these localized failures, necessitating a mechanism to decide when to intervene.",
+        "The authors introduce PORTAL, a controller designed to intelligently select when and how to apply test-time interventions."
       ]
     },
     {
@@ -541,9 +555,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the challenge of limited dexterity in robotic manipulation, focusing on in-hand object pose reaching.",
-        "Highlights the critical need for safety measures (like preventing drops) in complex robotic maneuvers, which are often unmeasured.",
-        "Presents research pushing the boundaries of learned hand skills to handle diverse and difficult grasps."
+        "The research addresses the challenge of achieving dexterous manipulation with multi-fingered robotic hands.",
+        "The study focuses on 'in-hand object pose reaching,' a complex task requiring diverse and difficult grasps.",
+        "A key focus is improving safety during these demanding maneuvers, which is often overlooked in current research."
       ]
     },
     {
@@ -555,9 +569,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The research focuses on improving the performance of LLM agents designed for complex, multi-step task completion using tools.",
-        "A novel pipeline, SynthAPI, is introduced to synthesize training environments with controlled diversity across tools, tasks, and underlying databases.",
-        "The study investigates how the composition of these synthetically generated environments impacts the training efficacy of tool-use agents."
+        "The research focuses on improving the performance of LLM agents designed to use external tools for complex, multi-step tasks.",
+        "A novel pipeline, SynthAPI, is introduced to control the diversity of synthetically generated tool-use training environments.",
+        "The study investigates how varying environment composition (tools, tasks, databases) impacts agent training effectiveness."
       ]
     },
     {
@@ -569,9 +583,9 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces GAS-PFN, a new model for zero-shot traffic forecasting that handles complex spatiotemporal dynamics.",
-        "Addresses the limitation of traditional graph-based models which require retraining for new road networks.",
-        "Utilizes Prior-Data Fitted Networks (PFNs) to enable in-context inference using synthetic task priors for domain adaptation."
+        "Introduces GAS-PFN, a new model for zero-shot traffic forecasting that incorporates graph-aware spatiotemporal modeling.",
+        "Addresses the limitation of traditional supervised models by using Prior-Data Fitted Networks (PFNs) for deployment on new, unseen road networks.",
+        "The approach leverages synthetic task priors to encode domain-specific assumptions, enabling generalization without extensive retraining."
       ]
     },
     {
@@ -583,111 +597,97 @@
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper addresses a gap in current world model research: evaluations often focus only on task performance, not the quality of the learned dynamics.",
-        "It introduces the concept of 'faithful latent world models' to rigorously assess how well models capture the environment's underlying structure.",
-        "Faithfulness is defined via an equivariance condition linking the true environment transition map to the learned latent dynamics."
+        "The paper addresses a gap in current world model evaluations, which often focus only on task performance.",
+        "It introduces the concept of 'faithful latent world models' to assess if learned models capture the true underlying environmental structure.",
+        "Faithfulness is defined via an equivariance condition between the environment's transition map and the learned latent dynamics."
       ]
     },
     {
-      "id": 54,
-      "title": "Self-Keyed In-Parameter Memorization for External Memory-Free Dialogue Recall in Frozen Language Models",
-      "url": "https://arxiv.org/abs/2610.36948v1",
+      "id": 55,
+      "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
+      "url": "https://arxiv.org/abs/2610.37651v1",
       "source": "arXiv NLP",
-      "author": "Jong-Kook Kim",
+      "author": "Amir Gholami",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Proposes Self-Keyed In-Parameter Memorization (SKIM) to store conversational context directly within the model's parameters.",
-        "Addresses the challenge of dialogue recall in large language models (LLMs) without relying on external memory storage.",
-        "Aims to enable LLMs to answer questions about past dialogue content without prior knowledge of the query."
+        "Addresses limitations in current reflective prompt optimizers (like GEPA) used in LLM agents.",
+        "Argues that not all agentic failures provide useful learning signals, as they can stem from prompt weaknesses or execution noise.",
+        "Proposes a solution, GEPA-Curator, to curate which tasks are provided to agents to ensure meaningful learning."
       ]
     },
     {
       "id": 56,
-      "title": "DocXEval: A Systematic Evaluation of Explainability in Multimodal Document Understanding",
-      "url": "https://arxiv.org/abs/2610.36929v1",
+      "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+      "url": "https://arxiv.org/abs/2610.37649v1",
       "source": "arXiv NLP",
-      "author": "Sheraz Ahmed",
+      "author": "Ying-Cong Chen",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the 'black-box' problem in high-performing multimodal document understanding models.",
-        "Focuses specifically on the lack of tailored Explainable AI (XAI) research for multimodal documents.",
-        "Introduces 'DocXEval,' a new framework for systematically evaluating explainability in this domain."
+        "Investigates the potential of Large Language Models (LLMs) to discover unknown or altered physical laws.",
+        "Proposes 'LongChang,' an automated framework for simulating worlds with modified physics.",
+        "Tests if LLMs can autonomously identify anomalies and derive underlying physical rules without explicit guidance."
       ]
     },
     {
       "id": 57,
-      "title": "TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces",
-      "url": "https://arxiv.org/abs/2610.36918v1",
+      "title": "Multi-State Linear Attention with Generalized Second-Order Routing",
+      "url": "https://arxiv.org/abs/2610.37645v1",
       "source": "arXiv NLP",
-      "author": "Yupeng Hu",
+      "author": "Zhiwei Deng",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "The paper introduces 'TrawMem,' a new framework for LLM agent memory.",
-        "It challenges the standard approach of retrieving memories solely based on semantic relevance to the current query.",
-        "TrawMem reframes memory contribution by considering task-oriented, role-adaptive workspaces for memories."
+        "Addresses the quadratic time complexity limitation of standard self-attention in LLMs.",
+        "Proposes Multi-State Linear Attention (MSLA) to improve efficiency by segmenting and compressing context.",
+        "Introduces 'Generalized Second-Order Routing' to aggregate information from memory states using mean alignment."
       ]
     },
     {
       "id": 58,
-      "title": "Do We Need an LLM to Know Why Sources Conflict? Decision Models for Knowledge-Conflict Typing in RAG",
-      "url": "https://arxiv.org/abs/2610.36915v1",
+      "title": "Metacognitive Decoding: Efficient Inference for Diffusion Language Agents",
+      "url": "https://arxiv.org/abs/2610.37642v1",
       "source": "arXiv NLP",
-      "author": "Tanya Sah",
+      "author": "Dimitris N. Metaxas",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Addresses the critical problem of knowledge conflict in Retrieval-Augmented Generation (RAG) systems.",
-        "Proposes using 'typed decision models' to classify *why* sources conflict (e.g., valid answers vs. false sources).",
-        "Indicates that even frontier LLMs struggle to accurately predict the type of source conflict, suggesting a need for specialized models."
+        "Introduces a 'metacognitive controller' to guide diffusion language model generation.",
+        "The controller optimizes computation by learning when to finalize tokens and how far to generate.",
+        "Aims to make diffusion language agents more efficient for real-world interaction."
       ]
     },
     {
       "id": 59,
-      "title": "Developing a Speech Language Model for Basque",
-      "url": "https://arxiv.org/abs/2610.36911v1",
+      "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+      "url": "https://arxiv.org/abs/2610.37624v1",
       "source": "arXiv NLP",
-      "author": "Eva Navas",
+      "author": "Khalil El Khammar",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Presents the first open Speech Language Model specifically for the Basque language.",
-        "The model is designed for low-latency, end-to-end spoken interaction.",
-        "It leverages the LLaMA-Omni architecture, fine-tuning a Latxa model to integrate Basque capabilities into the spoken modality."
+        "The paper investigates how memory compression affects the decision-making process of LLM groups.",
+        "It proposes two heuristics for memory retention: keeping the rarest claims or claims relevant to decision criteria.",
+        "A new diagnostic benchmark, CrossProfile, is introduced to test these memory failure modes."
       ]
     },
     {
       "id": 62,
-      "title": "RubricAtlas: Mining Type-Level Rubrics from Expert Reports to Evaluate Deep Research Agents",
-      "url": "https://arxiv.org/abs/2610.36878v1",
+      "title": "Teach reality, not ethics: a drop-in continued-pretraining corpus installs coupled human-biosphere-AI welfare dispositions across model families",
+      "url": "https://arxiv.org/abs/2610.37484v1",
       "source": "arXiv NLP",
-      "author": "Zuo Bai",
+      "author": "Mingxun Wang",
       "timestamp": null,
       "ai_score": 7,
       "bullet_points": [
-        "Introduces RubricAtlas, a method to derive type-level analytical requirements from expert reports.",
-        "Addresses the challenge of evaluating complex outputs from deep research agents beyond simple fact retrieval.",
-        "Aims to assess the overall analytical structure of AI-generated reports, moving beyond simple binary checklists."
+        "The research addresses the gap in LLM training regarding ecological reasoning and the potential for models to cause irreversible harm to living systems.",
+        "A new 'coupled welfare' corpus is introduced, which integrates real-world data on human-biosphere-AI dependency and the value of irreversibility.",
+        "The corpus is designed for continued pre-training to instill specific welfare dispositions across various LLM families."
       ]
     },
     {
-      "id": 63,
-      "title": "GUI-JEPA: Candidate-Conditioned JEPA Latents as a Fast Action Policy for Mobile GUI Agents",
-      "url": "https://arxiv.org/abs/2610.36877v1",
-      "source": "arXiv NLP",
-      "author": "Dacheng Tao",
-      "timestamp": null,
-      "ai_score": 7,
-      "bullet_points": [
-        "Introduces GUI-JEPA, a novel, decoder-free policy for mobile GUI agents.",
-        "Addresses the computational inefficiency (slow/memory-hungry) of current methods relying on fine-tuning large VLMs for action generation.",
-        "Leverages a Joint-Embedding Predictive Architecture (JEPA) to select actions directly in the latent space."
-      ]
-    },
-    {
-      "id": 70,
+      "id": 71,
       "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
       "url": "https://www.brangus.io/survival-llm",
       "source": "Hacker News",
@@ -697,7 +697,35 @@
       "bullet_points": [
         "Introduction of 'Survival LLM,' an AI assistant designed for local, on-device operation.",
         "The key feature is its ability to function as an emergency library, implying offline capability.",
-        "This addresses concerns regarding reliance on cloud services for AI functionality."
+        "This addresses concerns regarding data privacy and reliance on cloud-based AI services."
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Apple's git still trusts the compromised eMudhra certificates",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "source": "Lobsters",
+      "author": "emudhra.we-have-a-problem.com by galadran",
+      "timestamp": null,
+      "ai_score": 7,
+      "bullet_points": [
+        "Apple's Git infrastructure is reportedly still trusting compromised eMudhra certificates.",
+        "This suggests a potential vulnerability or outdated trust mechanism within Apple's development tools.",
+        "The issue relates to certificate validation and security practices within the software supply chain."
+      ]
+    },
+    {
+      "id": 92,
+      "title": "EU GenAI4EU Moves Into Execution With Nexus Hub and Public Sector Pilots",
+      "url": "https://dev.to/alifar/eu-genai4eu-moves-into-execution-with-nexus-hub-and-public-sector-pilots-2ie7",
+      "source": "Dev.to",
+      "author": "alifar",
+      "timestamp": "2026-10-28T11:00:30Z",
+      "ai_score": 7,
+      "bullet_points": [
+        "The EU's GenAI4EU initiative is transitioning from planning/funding to active implementation.",
+        "The execution phase involves the establishment of a 'Nexus Hub'.",
+        "The initiative is commencing practical application through public sector pilot projects."
       ]
     }
   ]
